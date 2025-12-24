@@ -7,37 +7,108 @@
     {
       "id": "economie-circulaire",
       "terme": "Économie circulaire",
-      "definition": "Modèle économique visant à découpler la croissance économique de l'épuisement des ressources naturelles par la création de produits, services, modèles d'affaires et politiques publiques innovants. Elle repose sur trois principes : éliminer les déchets et la pollution dès la conception, maintenir les produits et matériaux en circulation, et régénérer les systèmes naturels.",
+      "resume": "Modèle économique régénératif visant à découpler croissance et épuisement des ressources, en maintenant produits et matériaux en circulation à leur plus haute valeur.",
+      "definition": "L'économie circulaire est un modèle économique qui rompt avec le schéma linéaire 'extraire-produire-jeter'. Elle repose sur trois principes fondamentaux définis par la Fondation Ellen MacArthur : éliminer les déchets et la pollution dès la conception, maintenir les produits et matériaux en circulation à leur plus haute valeur, et régénérer les systèmes naturels. Ce modèle vise un découplage absolu entre création de valeur économique et consommation de ressources finies.",
+      "definitionEtendue": {
+        "introduction": "Le concept d'économie circulaire émerge dans les années 1970 avec les travaux de Kenneth Boulding sur l'économie en vase clos ('The Economics of the Coming Spaceship Earth', 1966) et ceux de Walter Stahel sur l'économie de la performance (1976). Il s'est structuré avec l'écologie industrielle (Frosch & Gallopoulos, 1989), le concept Cradle to Cradle de McDonough et Braungart (2002), et l'économie bleue de Gunter Pauli (2010). La Fondation Ellen MacArthur, créée en 2010, a joué un rôle majeur dans la diffusion mondiale du concept.",
+        "mecanismes": "L'économie circulaire opère à travers plusieurs boucles de valeur hiérarchisées selon leur capacité à préserver la valeur ajoutée : la réduction à la source (moins de matière utilisée), le réemploi (même fonction, même utilisateur), la réutilisation (même fonction, nouvel utilisateur), la réparation et remise à neuf, le remanufacturing (désassemblage et réassemblage à neuf), et enfin le recyclage (récupération de la matière). Plus la boucle est courte, plus la valeur est préservée. Le modèle intègre également la distinction entre flux biologiques (retour des nutriments au sol via compostage) et flux techniques (maintien des matériaux dans le cycle industriel).",
+        "contexteScientifique": "La littérature scientifique distingue plusieurs approches conceptuelles : l'approche 'strong sustainability' (transformation systémique incluant les limites planétaires et la justice sociale) et l'approche 'weak sustainability' (optimisation des flux sans remise en cause du modèle de croissance). Les travaux de Kirchherr et al. (2017) ont recensé 114 définitions de l'économie circulaire, révélant une fragmentation conceptuelle importante. Le débat scientifique majeur porte sur la question du découplage absolu entre croissance économique et impact environnemental : certains auteurs (Hickel & Kallis, 2020) remettent en question sa faisabilité à l'échelle mondiale.",
+        "enjeuxActuels": "Les recherches actuelles portent sur : (1) la mesure de la circularité à différentes échelles (Material Circularity Indicator, Circulytics de la Fondation Ellen MacArthur, indicateurs européens), (2) les effets rebond potentiels (l'augmentation de la consommation peut annuler les gains d'efficacité), (3) l'intégration des aspects sociaux souvent négligés dans les modèles techno-économiques, (4) la dimension territoriale et les questions de gouvernance multi-niveaux. Le Green Deal européen (2019) et le nouveau Plan d'action pour l'économie circulaire de la Commission européenne (2020) constituent le cadre réglementaire majeur en Europe.",
+        "perspectives": "Les évolutions attendues incluent : le déploiement des 'passeports numériques des produits' (traçabilité complète du cycle de vie), le développement massif de modèles Product-as-a-Service, l'intégration de l'intelligence artificielle pour l'optimisation des flux de matières, et l'émergence de 'symbioses industrielles' facilitées par des plateformes numériques. La recherche académique s'oriente vers une économie 'régénérative' allant au-delà de la simple circularité pour restaurer activement les écosystèmes. Le taux de circularité mondial reste cependant faible (7,2% en 2023 selon le Circularity Gap Report), soulignant l'ampleur du chemin restant."
+      },
       "sources": [
         {
-          "titre": "Towards the Circular Economy",
+          "titre": "Towards the Circular Economy Vol. 1: An economic and business rationale for an accelerated transition",
           "auteur": "Ellen MacArthur Foundation",
           "url": "https://www.ellenmacarthurfoundation.org/towards-the-circular-economy-vol-1-an-economic-and-business-rationale-for-an",
           "annee": 2012,
-          "type": "rapport"
+          "type": "rapport_institution",
+          "institution": "Ellen MacArthur Foundation",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Conceptualizing the circular economy: An analysis of 114 definitions",
+          "auteur": "Kirchherr, J., Reike, D., & Hekkert, M.",
+          "doi": "10.1016/j.resconrec.2017.09.005",
+          "journal": "Resources, Conservation and Recycling",
+          "annee": 2017,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
         },
         {
           "titre": "Loi n° 2020-105 relative à la lutte contre le gaspillage et à l'économie circulaire (AGEC)",
           "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041553759",
           "annee": 2020,
-          "type": "loi"
+          "type": "loi",
+          "institution": "République Française",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The circular economy: a new sustainability paradigm?",
+          "auteur": "Geissdoerfer, M., Savaget, P., Bocken, N.M.P., & Hultink, E.J.",
+          "doi": "10.1016/j.jclepro.2016.12.048",
+          "journal": "Journal of Cleaner Production",
+          "annee": 2017,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Is Green Growth Possible?",
+          "auteur": "Hickel, J. & Kallis, G.",
+          "doi": "10.1080/13563467.2019.1598964",
+          "journal": "New Political Economy",
+          "annee": 2020,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Circularity Gap Report 2023",
+          "auteur": "Circle Economy",
+          "url": "https://www.circularity-gap.world/2023",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "institution": "Circle Economy",
+          "niveauPreuve": "elevé"
         }
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
       "tags": ["modèle économique", "ressources", "durabilité", "circularité"],
+      "motsClésScientifiques": ["découplage", "boucles de valeur", "métabolisme industriel", "régénératif", "limites planétaires", "cradle to cradle"],
       "relations": [
         { "cible": "economie-lineaire", "type": "oppose_a", "score": 95 },
         { "cible": "ecoconception", "type": "renvoie_a", "score": 90 },
         { "cible": "recyclage", "type": "renvoie_a", "score": 85 },
         { "cible": "reutilisation", "type": "renvoie_a", "score": 85 },
-        { "cible": "developpement-durable", "type": "contribue_a", "score": 80, "direction": "positif" }
+        { "cible": "developpement-durable", "type": "contribue_a", "score": 80, "direction": "positif" },
+        { "cible": "symbiose-industrielle", "type": "renvoie_a", "score": 85 },
+        { "cible": "ecologie-industrielle", "type": "proche_de", "score": 90 }
       ],
       "exemples": [
-        "Location de vêtements plutôt qu'achat",
-        "Consigne des emballages",
-        "Reconditionnement d'appareils électroniques"
+        "Location de vêtements plutôt qu'achat (économie de la fonctionnalité)",
+        "Consigne des bouteilles en verre (réemploi)",
+        "Reconditionnement d'appareils électroniques (remanufacturing)",
+        "Symbiose industrielle de Kalundborg au Danemark"
       ],
-      "synonymes": ["économie en boucle", "circularité économique"]
+      "synonymes": ["économie en boucle", "circularité économique", "circular economy"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "Taux de circularité mondial : 7,2%",
+          "source": "Circle Economy - Circularity Gap Report",
+          "annee": 2023
+        },
+        {
+          "valeur": "Objectif UE : 70% de recyclage des emballages d'ici 2030",
+          "source": "Commission Européenne - Plan d'action économie circulaire",
+          "annee": 2020
+        },
+        {
+          "valeur": "Économie circulaire = 700 000 emplois potentiels en Europe d'ici 2030",
+          "source": "Commission Européenne",
+          "annee": 2020
+        }
+      ]
     },
     {
       "id": "economie-lineaire",

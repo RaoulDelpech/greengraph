@@ -1,4 +1,6 @@
-import type { Definition, Categorie, RelationType } from '../../types';
+import { useState, useEffect } from 'react';
+import type { Definition, Categorie, RelationType, DefinitionDepth, Source } from '../../types';
+import { DefinitionDepthToggle } from './DefinitionDepthToggle';
 
 interface DefinitionPanelProps {
   definition: Definition;
@@ -24,6 +26,29 @@ const RELATION_COLORS: Record<RelationType, string> = {
   oppose_a: 'bg-red-100 text-red-700 border-red-200',
 };
 
+const SOURCE_TYPE_LABELS: Record<string, string> = {
+  'article_peer_reviewed': 'Article peer-reviewed',
+  'rapport_institution': 'Rapport institutionnel',
+  'ouvrage_reference': 'Ouvrage de référence',
+  'loi': 'Texte législatif',
+  'norme_iso': 'Norme ISO',
+  'these': 'Thèse',
+  'article': 'Article',
+  'livre': 'Livre',
+  'rapport': 'Rapport',
+  'institution': 'Institution',
+};
+
+function getSourceQualityStars(source: Source): string {
+  if (source.niveauPreuve === 'elevé') return '★★★';
+  if (source.niveauPreuve === 'moyen') return '★★☆';
+  if (source.niveauPreuve === 'faible') return '★☆☆';
+  // Fallback basé sur le type
+  if (source.type === 'article_peer_reviewed' || source.doi) return '★★★';
+  if (source.type === 'rapport_institution' || source.type === 'loi') return '★★☆';
+  return '★☆☆';
+}
+
 export function DefinitionPanel({
   definition,
   categories,
@@ -31,7 +56,18 @@ export function DefinitionPanel({
   onNavigate,
   onClose,
 }: DefinitionPanelProps) {
+  const [depth, setDepth] = useState<DefinitionDepth>(() => {
+    const saved = localStorage.getItem('greengraph_definition_depth');
+    return (saved as DefinitionDepth) || 'standard';
+  });
+
+  // Persister le choix
+  useEffect(() => {
+    localStorage.setItem('greengraph_definition_depth', depth);
+  }, [depth]);
+
   const category = categories.find((c) => c.id === definition.categorie);
+  const hasExpertContent = !!definition.definitionEtendue;
 
   // Grouper les relations par type
   const relationsByType = definition.relations?.reduce(
@@ -48,20 +84,85 @@ export function DefinitionPanel({
     return def?.terme || id;
   };
 
+  // Contenu selon le niveau
+  const renderDefinitionContent = () => {
+    if (depth === 'resume') {
+      return (
+        <p className="text-gray-800 text-sm leading-relaxed">
+          {definition.resume || definition.definition.split('.')[0] + '.'}
+        </p>
+      );
+    }
+
+    if (depth === 'standard') {
+      return (
+        <p className="text-gray-800 text-sm leading-relaxed">
+          {definition.definition}
+        </p>
+      );
+    }
+
+    // Expert
+    if (definition.definitionEtendue) {
+      const ext = definition.definitionEtendue;
+      return (
+        <div className="space-y-4 text-sm text-gray-800 leading-relaxed">
+          <div>
+            <h4 className="font-semibold text-gray-900 mb-1">Contexte historique</h4>
+            <p>{ext.introduction}</p>
+          </div>
+          <div>
+            <h4 className="font-semibold text-gray-900 mb-1">Mécanismes</h4>
+            <p>{ext.mecanismes}</p>
+          </div>
+          <div>
+            <h4 className="font-semibold text-gray-900 mb-1">Débat scientifique</h4>
+            <p>{ext.contexteScientifique}</p>
+          </div>
+          <div>
+            <h4 className="font-semibold text-gray-900 mb-1">Enjeux actuels</h4>
+            <p>{ext.enjeuxActuels}</p>
+          </div>
+          <div>
+            <h4 className="font-semibold text-gray-900 mb-1">Perspectives</h4>
+            <p>{ext.perspectives}</p>
+          </div>
+        </div>
+      );
+    }
+
+    // Fallback si pas de contenu expert
+    return (
+      <p className="text-gray-800 text-sm leading-relaxed">
+        {definition.definition}
+      </p>
+    );
+  };
+
   return (
     <div className="h-full flex flex-col bg-white shadow-xl">
       {/* Header compact */}
       <div className="p-4 border-b border-gray-100 bg-gradient-to-r from-gray-50 to-white">
         <div className="flex items-start justify-between gap-3">
           <div className="flex-1 min-w-0">
-            {category && (
-              <span
-                className="inline-block px-2.5 py-1 rounded-full text-xs font-semibold text-white mb-2"
-                style={{ backgroundColor: category.couleur }}
-              >
-                {category.nom}
-              </span>
-            )}
+            <div className="flex items-center gap-2 mb-2">
+              {category && (
+                <span
+                  className="inline-block px-2.5 py-1 rounded-full text-xs font-semibold text-white"
+                  style={{ backgroundColor: category.couleur }}
+                >
+                  {category.nom}
+                </span>
+              )}
+              {definition.niveauValidation === 'vérifié' && (
+                <span className="text-emerald-600 text-xs font-medium flex items-center gap-1">
+                  <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Vérifié
+                </span>
+              )}
+            </div>
             <h2 className="text-lg font-bold text-gray-900 leading-tight">
               {definition.terme}
             </h2>
@@ -81,16 +182,47 @@ export function DefinitionPanel({
             </svg>
           </button>
         </div>
+
+        {/* Toggle niveau de détail */}
+        <div className="mt-3">
+          <DefinitionDepthToggle
+            depth={depth}
+            onChange={setDepth}
+            hasExpertContent={hasExpertContent}
+          />
+        </div>
       </div>
 
       {/* Content avec scroll */}
       <div className="flex-1 overflow-y-auto">
         {/* Définition - section principale */}
         <div className="p-4 bg-emerald-50/50 border-b border-gray-100">
-          <p className="text-gray-800 text-sm leading-relaxed">{definition.definition}</p>
+          {renderDefinitionContent()}
         </div>
 
         <div className="p-4 space-y-5">
+          {/* Indicateurs quantitatifs (si expert) */}
+          {depth === 'expert' && definition.indicateursQuantitatifs && definition.indicateursQuantitatifs.length > 0 && (
+            <section className="bg-blue-50 p-3 rounded-lg">
+              <h3 className="text-xs font-bold text-blue-800 uppercase tracking-wider mb-2 flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+                Chiffres clés
+              </h3>
+              <ul className="space-y-1.5">
+                {definition.indicateursQuantitatifs.map((ind, idx) => (
+                  <li key={idx} className="text-sm text-blue-900">
+                    <span className="font-medium">{ind.valeur}</span>
+                    <span className="text-blue-600 text-xs ml-2">
+                      ({ind.source}, {ind.annee})
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
           {/* Relations - section importante */}
           {relationsByType && Object.keys(relationsByType).length > 0 && (
             <section>
@@ -157,10 +289,10 @@ export function DefinitionPanel({
             </section>
           )}
 
-          {/* Sources - collapsible style */}
+          {/* Sources - améliorées avec qualité */}
           {definition.sources && definition.sources.length > 0 && (
             <section className="pt-3 border-t border-gray-100">
-              <details className="group">
+              <details className="group" open={depth === 'expert'}>
                 <summary className="text-xs font-bold text-gray-500 uppercase tracking-wider cursor-pointer flex items-center gap-2 list-none">
                   <svg className="w-4 h-4 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -170,18 +302,38 @@ export function DefinitionPanel({
                 <ul className="mt-2 space-y-2">
                   {definition.sources.map((source, index) => (
                     <li key={index} className="text-xs bg-gray-50 p-2.5 rounded-lg">
-                      <p className="font-medium text-gray-800 leading-tight">{source.titre}</p>
-                      {source.auteur && (
-                        <p className="text-gray-500 mt-0.5">{source.auteur}</p>
-                      )}
+                      <div className="flex items-start justify-between gap-2">
+                        <div className="flex-1">
+                          <p className="font-medium text-gray-800 leading-tight">{source.titre}</p>
+                          {source.auteur && (
+                            <p className="text-gray-500 mt-0.5">{source.auteur}</p>
+                          )}
+                          {source.journal && (
+                            <p className="text-gray-500 italic">{source.journal}</p>
+                          )}
+                        </div>
+                        <span className="text-amber-500 text-xs font-mono" title="Niveau de preuve">
+                          {getSourceQualityStars(source)}
+                        </span>
+                      </div>
                       <div className="flex items-center gap-2 mt-1.5 flex-wrap">
                         <span className="px-1.5 py-0.5 bg-gray-200 rounded text-xs text-gray-600">
-                          {source.type}
+                          {SOURCE_TYPE_LABELS[source.type] || source.type}
                         </span>
                         {source.annee && (
                           <span className="text-gray-400">{source.annee}</span>
                         )}
-                        {source.url && (
+                        {source.doi && (
+                          <a
+                            href={`https://doi.org/${source.doi}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:underline"
+                          >
+                            DOI
+                          </a>
+                        )}
+                        {source.url && !source.doi && (
                           <a
                             href={source.url}
                             target="_blank"
@@ -199,11 +351,12 @@ export function DefinitionPanel({
             </section>
           )}
 
-          {/* Tags - discrets */}
-          {definition.tags && definition.tags.length > 0 && (
+          {/* Tags et mots-clés scientifiques */}
+          {((definition.tags && definition.tags.length > 0) ||
+            (definition.motsClésScientifiques && definition.motsClésScientifiques.length > 0)) && (
             <section className="pt-3 border-t border-gray-100">
               <div className="flex flex-wrap gap-1.5">
-                {definition.tags.map((tag) => (
+                {definition.tags?.map((tag) => (
                   <span
                     key={tag}
                     className="px-2 py-0.5 bg-gray-100 text-gray-500 rounded text-xs"
@@ -211,8 +364,23 @@ export function DefinitionPanel({
                     #{tag}
                   </span>
                 ))}
+                {depth === 'expert' && definition.motsClésScientifiques?.map((mot) => (
+                  <span
+                    key={mot}
+                    className="px-2 py-0.5 bg-emerald-100 text-emerald-700 rounded text-xs font-medium"
+                  >
+                    {mot}
+                  </span>
+                ))}
               </div>
             </section>
+          )}
+
+          {/* Dernière mise à jour */}
+          {definition.derniereMiseAJour && (
+            <p className="text-xs text-gray-400 text-right pt-2">
+              Mis à jour : {new Date(definition.derniereMiseAJour).toLocaleDateString('fr-FR')}
+            </p>
           )}
         </div>
       </div>

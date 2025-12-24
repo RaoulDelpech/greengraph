@@ -7,14 +7,30 @@ export type RelationType =
   | 'proche_de'      // Similarité conceptuelle
   | 'oppose_a';      // Contraste conceptuel
 
-export type SourceType = 'article' | 'livre' | 'rapport' | 'institution' | 'loi';
+export type SourceType =
+  | 'article_peer_reviewed'
+  | 'rapport_institution'
+  | 'ouvrage_reference'
+  | 'loi'
+  | 'norme_iso'
+  | 'these'
+  | 'article'        // legacy
+  | 'livre'          // legacy
+  | 'rapport'        // legacy
+  | 'institution';   // legacy
+
+export type NiveauPreuve = 'elevé' | 'moyen' | 'faible';
 
 export interface Source {
   titre: string;
   auteur?: string;
   url?: string;
+  doi?: string;           // Digital Object Identifier
   annee?: number;
   type: SourceType;
+  journal?: string;       // Pour articles peer-reviewed
+  institution?: string;   // ADEME, GIEC, etc.
+  niveauPreuve?: NiveauPreuve;
 }
 
 export interface Relation {
@@ -24,16 +40,51 @@ export interface Relation {
   direction?: 'positif' | 'negatif'; // Pour contribue_a
 }
 
+// Structure pour définitions étendues (niveau scientifique)
+export interface DefinitionEtendue {
+  introduction: string;         // Contexte historique et émergence
+  mecanismes: string;           // Processus, fonctionnement
+  contexteScientifique: string; // Historique, découvertes, débats
+  enjeuxActuels: string;        // Recherches en cours, défis
+  perspectives: string;         // Évolutions, tendances futures
+}
+
+export interface IndicateurQuantitatif {
+  valeur: string;
+  source: string;
+  annee: number;
+}
+
+export type NiveauValidation = 'vérifié' | 'préliminaire' | 'en_révision';
+
 export interface Definition {
   id: string;              // Slug unique
   terme: string;           // Nom affiché
-  definition: string;      // Texte de la définition
-  sources: Source[];       // Références bibliographiques
+
+  // Niveaux de définition
+  resume?: string;               // NIVEAU 1 : Aperçu (1-2 phrases)
+  definition: string;            // NIVEAU 2 : Standard (2-3 paragraphes)
+  definitionEtendue?: DefinitionEtendue;  // NIVEAU 3 : Expert (scientifique)
+
+  // Sources et validation
+  sources: Source[];             // Références bibliographiques
+  niveauValidation?: NiveauValidation;
+  derniereMiseAJour?: string;    // ISO date
+  auteurValidation?: string;
+
+  // Classification
   categorie: string;       // ID de la catégorie
   tags?: string[];         // Mots-clés additionnels
+  motsClésScientifiques?: string[];  // Pour recherche sémantique
+
+  // Relations
   relations?: Relation[];  // Liens vers autres définitions
+  referencesCroisees?: string[];  // IDs de définitions liées dans le texte
+
+  // Enrichissement
   exemples?: string[];     // Exemples concrets
   synonymes?: string[];    // Termes équivalents
+  indicateursQuantitatifs?: IndicateurQuantitatif[];  // Données chiffrées
 }
 
 export interface Categorie {
@@ -74,4 +125,8 @@ export interface ChatMessage {
   content: string;
   timestamp: Date;
   citations?: string[]; // IDs des définitions citées
+  sources?: Source[];   // Sources utilisées dans la réponse
 }
+
+// Type pour le niveau de détail affiché
+export type DefinitionDepth = 'resume' | 'standard' | 'expert';
