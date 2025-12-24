@@ -23,8 +23,11 @@ export function useDefinitions(): UseDefinitionsReturn {
         setLoading(true);
         setError(null);
 
+        // Cache-busting pour forcer le rechargement des données
+        const cacheBust = `?v=${Date.now()}`;
+
         // Charger l'index des catégories
-        const indexResponse = await fetch(`${import.meta.env.BASE_URL}data/index.json`);
+        const indexResponse = await fetch(`${import.meta.env.BASE_URL}data/index.json${cacheBust}`);
         if (!indexResponse.ok) throw new Error('Impossible de charger l\'index des catégories');
         const indexData: CategoriesIndex = await indexResponse.json();
 
@@ -32,7 +35,7 @@ export function useDefinitions(): UseDefinitionsReturn {
 
         // Charger toutes les catégories en parallèle
         const categoryPromises = indexData.categories.map(async (cat) => {
-          const response = await fetch(`${import.meta.env.BASE_URL}data/categories/${cat.fichier}`);
+          const response = await fetch(`${import.meta.env.BASE_URL}data/categories/${cat.fichier}${cacheBust}`);
           if (!response.ok) throw new Error(`Impossible de charger la catégorie ${cat.nom}`);
           const data: CategorieData = await response.json();
           return data.definitions;
