@@ -172,6 +172,155 @@
         "La limite climatique : +1,5°C par rapport à l'ère préindustrielle"
       ],
       "synonymes": ["planetary boundaries", "frontières planétaires"]
+    },
+    {
+      "id": "transition-ecologique",
+      "terme": "Transition écologique",
+      "definition": "Évolution vers un nouveau modèle économique et social qui apporte une solution globale aux enjeux environnementaux : changement climatique, raréfaction des ressources, perte de biodiversité, pollutions. Elle implique des transformations profondes des modes de production, de consommation et des comportements.",
+      "sources": [
+        {
+          "titre": "Ministère de la Transition écologique",
+          "url": "https://www.ecologie.gouv.fr/",
+          "annee": 2022,
+          "type": "institution"
+        }
+      ],
+      "categorie": "developpement-durable",
+      "tags": ["transformation", "modèle", "société", "politique"],
+      "relations": [
+        { "cible": "developpement-durable", "type": "proche_de", "score": 90 },
+        { "cible": "transition-energetique", "type": "renvoie_a", "score": 85 },
+        { "cible": "economie-circulaire", "type": "renvoie_a", "score": 80 }
+      ],
+      "exemples": [
+        "Stratégie nationale bas-carbone",
+        "Plan biodiversité",
+        "Loi climat et résilience"
+      ],
+      "synonymes": ["transition environnementale", "virage écologique"]
+    },
+    {
+      "id": "agroecologie",
+      "terme": "Agroécologie",
+      "definition": "Approche de l'agriculture qui s'inspire des écosystèmes naturels pour concevoir des systèmes de production durables. Elle combine les connaissances écologiques et agronomiques pour réduire les intrants chimiques, favoriser la biodiversité, améliorer la fertilité des sols et la résilience des cultures.",
+      "sources": [
+        {
+          "titre": "Les 10 éléments de l'agroécologie",
+          "auteur": "FAO",
+          "url": "https://www.fao.org/agroecology/home/fr/",
+          "annee": 2018,
+          "type": "institution"
+        },
+        {
+          "titre": "Projet agroécologique pour la France",
+          "auteur": "Ministère de l'Agriculture",
+          "url": "https://agriculture.gouv.fr/le-projet-agro-ecologique-en-france",
+          "annee": 2014,
+          "type": "rapport"
+        }
+      ],
+      "categorie": "developpement-durable",
+      "tags": ["agriculture", "biodiversité", "sols", "durabilité"],
+      "relations": [
+        { "cible": "developpement-durable", "type": "contribue_a", "score": 85, "direction": "positif" },
+        { "cible": "biodiversite", "type": "contribue_a", "score": 80, "direction": "positif" },
+        { "cible": "pollinisation", "type": "renvoie_a", "score": 75 }
+      ],
+      "exemples": [
+        "Rotation des cultures",
+        "Agroforesterie",
+        "Agriculture biologique"
+      ],
+      "synonymes": ["agriculture écologique", "agriculture durable"]
+    },
+    {
+      "id": "economie-sociale-solidaire",
+      "terme": "Économie sociale et solidaire (ESS)",
+      "definition": "Mode d'entreprendre et de développement économique fondé sur des principes de solidarité, d'utilité sociale et de gouvernance démocratique. L'ESS regroupe les associations, coopératives, mutuelles, fondations et entreprises sociales qui placent l'humain avant le profit.",
+      "sources": [
+        {
+          "titre": "Loi n° 2014-856 relative à l'économie sociale et solidaire",
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029313296/",
+          "annee": 2014,
+          "type": "loi"
+        },
+        {
+          "titre": "ESS France",
+          "url": "https://www.ess-france.org/",
+          "annee": 2022,
+          "type": "institution"
+        }
+      ],
+      "categorie": "developpement-durable",
+      "tags": ["coopérative", "association", "social", "gouvernance"],
+      "relations": [
+        { "cible": "developpement-durable", "type": "contribue_a", "score": 80, "direction": "positif" },
+        { "cible": "rse", "type": "proche_de", "score": 70 }
+      ],
+      "exemples": [
+        "SCOP (Société coopérative de production)",
+        "Entreprise d'insertion",
+        "Commerce équitable"
+      ],
+      "synonymes": ["ESS", "économie solidaire"]
+    },
+    {
+      "id": "sobriete",
+      "terme": "Sobriété",
+      "definition": "Démarche volontaire de modération de la consommation de ressources (énergie, matières, espace) par des changements de comportements, modes de vie et organisation collective. Elle se distingue de l'efficacité qui vise à faire autant avec moins, en questionnant le niveau même des besoins.",
+      "sources": [
+        {
+          "titre": "Sobriété énergétique et matérielle",
+          "auteur": "négaWatt / ADEME",
+          "url": "https://www.negawatt.org/",
+          "annee": 2022,
+          "type": "institution"
+        }
+      ],
+      "categorie": "developpement-durable",
+      "tags": ["modération", "suffisance", "comportement", "besoins"],
+      "relations": [
+        { "cible": "sobriete-energetique", "type": "renvoie_a", "score": 95 },
+        { "cible": "developpement-durable", "type": "contribue_a", "score": 85, "direction": "positif" },
+        { "cible": "empreinte-ecologique", "type": "oppose_a", "score": 80 }
+      ],
+      "exemples": [
+        "Réduire les déplacements",
+        "Limiter la surface habitable",
+        "Consommer moins de viande"
+      ],
+      "synonymes": ["frugalité", "suffisance", "déconsommation"]
+    },
+    {
+      "id": "capital-naturel",
+      "terme": "Capital naturel",
+      "definition": "Stock de ressources naturelles (sol, eau, air, biodiversité, minéraux) dont les flux et services contribuent au bien-être humain et à l'activité économique. Le concept de capital naturel vise à rendre visible la valeur économique de la nature pour mieux la préserver.",
+      "sources": [
+        {
+          "titre": "The Economics of Ecosystems and Biodiversity (TEEB)",
+          "url": "http://teebweb.org/",
+          "annee": 2010,
+          "type": "rapport"
+        },
+        {
+          "titre": "Natural Capital Coalition",
+          "url": "https://capitalscoalition.org/",
+          "annee": 2021,
+          "type": "institution"
+        }
+      ],
+      "categorie": "developpement-durable",
+      "tags": ["valeur", "comptabilité", "ressources", "patrimoine"],
+      "relations": [
+        { "cible": "services-ecosystemiques", "type": "proche_de", "score": 90 },
+        { "cible": "biodiversite", "type": "renvoie_a", "score": 85 },
+        { "cible": "developpement-durable", "type": "renvoie_a", "score": 75 }
+      ],
+      "exemples": [
+        "Valeur des forêts pour le stockage carbone",
+        "Valeur des pollinisateurs pour l'agriculture"
+      ],
+      "synonymes": ["patrimoine naturel", "actifs naturels"]
     }
   ]
 }

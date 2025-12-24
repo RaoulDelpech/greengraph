@@ -134,6 +134,99 @@
         "1 tasse de café = ~140 litres d'eau"
       ],
       "synonymes": ["water footprint", "eau virtuelle"]
+    },
+    {
+      "id": "zone-humide",
+      "terme": "Zone humide",
+      "definition": "Terrain inondé ou gorgé d'eau de façon permanente ou temporaire. Marais, tourbières, prairies humides, mangroves et lagunes jouent un rôle écologique majeur : régulation des crues, épuration de l'eau, stockage de carbone, et habitat pour de nombreuses espèces.",
+      "sources": [
+        {
+          "titre": "Convention de Ramsar",
+          "auteur": "UICN",
+          "url": "https://www.ramsar.org/",
+          "annee": 1971,
+          "type": "loi"
+        },
+        {
+          "titre": "Les zones humides",
+          "auteur": "OFB",
+          "url": "https://www.ofb.gouv.fr/les-zones-humides",
+          "annee": 2022,
+          "type": "institution"
+        }
+      ],
+      "categorie": "eau",
+      "tags": ["marais", "tourbières", "biodiversité", "Ramsar"],
+      "relations": [
+        { "cible": "ecosysteme", "type": "est_type_de", "score": 85 },
+        { "cible": "services-ecosystemiques", "type": "contribue_a", "score": 90, "direction": "positif" },
+        { "cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif" }
+      ],
+      "exemples": [
+        "Marais poitevin",
+        "Camargue",
+        "Tourbières du Jura"
+      ],
+      "synonymes": ["milieu humide", "wetland"]
+    },
+    {
+      "id": "eutrophisation",
+      "terme": "Eutrophisation",
+      "definition": "Enrichissement excessif des eaux en nutriments (azote, phosphore), provoquant une prolifération d'algues et de plantes aquatiques. La décomposition de cette biomasse consomme l'oxygène dissous, entraînant l'asphyxie du milieu et la mort de la faune aquatique.",
+      "sources": [
+        {
+          "titre": "L'eutrophisation des milieux aquatiques",
+          "auteur": "INRAE",
+          "url": "https://www.inrae.fr/",
+          "annee": 2021,
+          "type": "institution"
+        }
+      ],
+      "categorie": "eau",
+      "tags": ["pollution", "algues", "azote", "phosphore"],
+      "relations": [
+        { "cible": "pollution", "type": "est_type_de", "score": 85 },
+        { "cible": "biodiversite", "type": "oppose_a", "score": 80 },
+        { "cible": "ecosysteme", "type": "oppose_a", "score": 75 }
+      ],
+      "exemples": [
+        "Marées vertes en Bretagne",
+        "Zones mortes dans le Golfe du Mexique"
+      ],
+      "synonymes": ["dystrophisation"]
+    },
+    {
+      "id": "assainissement",
+      "terme": "Assainissement",
+      "definition": "Ensemble des techniques de collecte, transport et traitement des eaux usées et des eaux pluviales avant leur rejet dans le milieu naturel. L'assainissement peut être collectif (réseau public, station d'épuration) ou non collectif (fosse septique individuelle).",
+      "sources": [
+        {
+          "titre": "Code de la santé publique - L1331",
+          "url": "https://www.legifrance.gouv.fr/",
+          "annee": 2020,
+          "type": "loi"
+        },
+        {
+          "titre": "L'assainissement des eaux usées",
+          "auteur": "Agences de l'eau",
+          "url": "https://www.lesagencesdeleau.fr/",
+          "annee": 2022,
+          "type": "institution"
+        }
+      ],
+      "categorie": "eau",
+      "tags": ["épuration", "eaux usées", "collectif", "individuel"],
+      "relations": [
+        { "cible": "eau-grise", "type": "renvoie_a", "score": 75 },
+        { "cible": "cycle-eau", "type": "renvoie_a", "score": 70 },
+        { "cible": "pollution", "type": "oppose_a", "score": 80 }
+      ],
+      "exemples": [
+        "Station d'épuration urbaine",
+        "Filtre planté de roseaux",
+        "Fosse toutes eaux"
+      ],
+      "synonymes": ["épuration", "traitement des eaux usées"]
     }
   ]
 }
