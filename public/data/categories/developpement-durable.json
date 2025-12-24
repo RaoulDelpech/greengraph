@@ -1,0 +1,177 @@
+{
+  "id": "developpement-durable",
+  "nom": "Développement durable",
+  "description": "Concepts transversaux de durabilité et responsabilité",
+  "couleur": "#14b8a6",
+  "definitions": [
+    {
+      "id": "developpement-durable",
+      "terme": "Développement durable",
+      "definition": "Mode de développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs. Il repose sur trois piliers interdépendants : économique (viabilité), social (équité) et environnemental (vivabilité), auxquels s'ajoute parfois un quatrième pilier culturel ou de gouvernance.",
+      "sources": [
+        {
+          "titre": "Notre avenir à tous (Rapport Brundtland)",
+          "auteur": "Commission mondiale sur l'environnement et le développement",
+          "url": "https://sustainabledevelopment.un.org/content/documents/5987our-common-future.pdf",
+          "annee": 1987,
+          "type": "rapport"
+        },
+        {
+          "titre": "Objectifs de développement durable (ODD)",
+          "auteur": "Nations Unies",
+          "url": "https://sdgs.un.org/goals",
+          "annee": 2015,
+          "type": "institution"
+        }
+      ],
+      "categorie": "developpement-durable",
+      "tags": ["Brundtland", "trois piliers", "ODD", "intergénérationnel"],
+      "relations": [
+        { "cible": "economie-circulaire", "type": "renvoie_a", "score": 85 },
+        { "cible": "rse", "type": "renvoie_a", "score": 80 },
+        { "cible": "transition-ecologique", "type": "proche_de", "score": 90 },
+        { "cible": "biodiversite", "type": "renvoie_a", "score": 75 }
+      ],
+      "exemples": [
+        "Les 17 Objectifs de Développement Durable de l'ONU",
+        "Agenda 21 local d'une collectivité"
+      ],
+      "synonymes": ["soutenabilité", "durabilité"]
+    },
+    {
+      "id": "rse",
+      "terme": "Responsabilité sociétale des entreprises (RSE)",
+      "definition": "Intégration volontaire par les entreprises de préoccupations sociales et environnementales dans leurs activités commerciales et leurs relations avec les parties prenantes. La RSE va au-delà du respect de la loi et vise une contribution positive au développement durable.",
+      "sources": [
+        {
+          "titre": "ISO 26000 - Lignes directrices relatives à la responsabilité sociétale",
+          "auteur": "ISO",
+          "url": "https://www.iso.org/iso-26000-social-responsibility.html",
+          "annee": 2010,
+          "type": "rapport"
+        },
+        {
+          "titre": "Directive sur le reporting de durabilité des entreprises (CSRD)",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/",
+          "annee": 2022,
+          "type": "loi"
+        }
+      ],
+      "categorie": "developpement-durable",
+      "tags": ["entreprise", "parties prenantes", "reporting", "ISO 26000"],
+      "relations": [
+        { "cible": "developpement-durable", "type": "contribue_a", "score": 85, "direction": "positif" },
+        { "cible": "greenwashing", "type": "oppose_a", "score": 80 },
+        { "cible": "bilan-carbone", "type": "renvoie_a", "score": 70 },
+        { "cible": "economie-sociale-solidaire", "type": "proche_de", "score": 65 }
+      ],
+      "exemples": [
+        "Publication d'un rapport RSE annuel",
+        "Certification B Corp",
+        "Politique d'achats responsables"
+      ],
+      "synonymes": ["CSR (Corporate Social Responsibility)", "responsabilité sociale"]
+    },
+    {
+      "id": "greenwashing",
+      "terme": "Greenwashing (écoblanchiment)",
+      "definition": "Pratique marketing consistant à communiquer de manière trompeuse sur les engagements environnementaux d'une organisation ou les qualités écologiques d'un produit, afin d'améliorer son image sans actions réelles proportionnées. C'est une forme de publicité mensongère sanctionnée par la loi.",
+      "sources": [
+        {
+          "titre": "Guide anti-greenwashing",
+          "auteur": "ADEME",
+          "url": "https://www.ademe.fr/guide-anti-greenwashing",
+          "annee": 2022,
+          "type": "institution"
+        },
+        {
+          "titre": "Loi Climat et Résilience - Article 12",
+          "url": "https://www.legifrance.gouv.fr/",
+          "annee": 2021,
+          "type": "loi"
+        }
+      ],
+      "categorie": "developpement-durable",
+      "tags": ["marketing", "tromperie", "publicité", "image"],
+      "relations": [
+        { "cible": "rse", "type": "oppose_a", "score": 85 },
+        { "cible": "developpement-durable", "type": "oppose_a", "score": 80 },
+        { "cible": "ecolabel", "type": "oppose_a", "score": 75 }
+      ],
+      "exemples": [
+        "Produit présenté comme 'naturel' sans certification",
+        "Compenser ses émissions sans réduction à la source",
+        "Utilisation abusive de visuels verts ou naturels"
+      ],
+      "synonymes": ["écoblanchiment", "verdissement d'image"]
+    },
+    {
+      "id": "empreinte-ecologique",
+      "terme": "Empreinte écologique",
+      "definition": "Indicateur qui mesure la surface biologiquement productive de terre et d'eau nécessaire pour produire les ressources consommées et absorber les déchets générés par une population, en utilisant les technologies et la gestion des ressources actuelles. Elle s'exprime en hectares globaux (hag).",
+      "sources": [
+        {
+          "titre": "Ecological Footprint",
+          "auteur": "Global Footprint Network",
+          "url": "https://www.footprintnetwork.org/",
+          "annee": 2022,
+          "type": "institution"
+        },
+        {
+          "titre": "Notre empreinte écologique",
+          "auteur": "Wackernagel, M. & Rees, W.",
+          "annee": 1996,
+          "type": "livre"
+        }
+      ],
+      "categorie": "developpement-durable",
+      "tags": ["indicateur", "biocapacité", "hectares globaux", "surconsommation"],
+      "relations": [
+        { "cible": "empreinte-carbone", "type": "proche_de", "score": 80 },
+        { "cible": "empreinte-eau", "type": "proche_de", "score": 75 },
+        { "cible": "jour-depassement", "type": "renvoie_a", "score": 85 },
+        { "cible": "limites-planetaires", "type": "renvoie_a", "score": 80 }
+      ],
+      "exemples": [
+        "L'humanité consomme l'équivalent de 1,7 Terre par an",
+        "Jour du dépassement mondial en 2023 : 2 août"
+      ],
+      "synonymes": ["ecological footprint"]
+    },
+    {
+      "id": "limites-planetaires",
+      "terme": "Limites planétaires",
+      "definition": "Concept scientifique définissant neuf seuils à ne pas dépasser pour préserver la stabilité et la résilience du système Terre. Ces limites concernent : le changement climatique, l'érosion de la biodiversité, les cycles de l'azote et du phosphore, l'usage des sols, l'eau douce, l'acidification des océans, l'ozone stratosphérique, les aérosols et les pollutions chimiques.",
+      "sources": [
+        {
+          "titre": "A safe operating space for humanity",
+          "auteur": "Rockström, J. et al.",
+          "url": "https://www.nature.com/articles/461472a",
+          "annee": 2009,
+          "type": "article"
+        },
+        {
+          "titre": "Earth beyond six of nine planetary boundaries",
+          "auteur": "Richardson, K. et al.",
+          "url": "https://www.science.org/doi/10.1126/sciadv.adh2458",
+          "annee": 2023,
+          "type": "article"
+        }
+      ],
+      "categorie": "developpement-durable",
+      "tags": ["seuils", "anthropocène", "Rockström", "système Terre"],
+      "relations": [
+        { "cible": "changement-climatique", "type": "renvoie_a", "score": 90 },
+        { "cible": "erosion-biodiversite", "type": "renvoie_a", "score": 90 },
+        { "cible": "empreinte-ecologique", "type": "proche_de", "score": 80 },
+        { "cible": "developpement-durable", "type": "renvoie_a", "score": 85 }
+      ],
+      "exemples": [
+        "6 des 9 limites planétaires déjà dépassées en 2023",
+        "La limite climatique : +1,5°C par rapport à l'ère préindustrielle"
+      ],
+      "synonymes": ["planetary boundaries", "frontières planétaires"]
+    }
+  ]
+}

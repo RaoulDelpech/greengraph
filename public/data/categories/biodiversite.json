@@ -1,0 +1,297 @@
+{
+  "id": "biodiversite",
+  "nom": "Biodiversité",
+  "description": "Diversité du vivant, écosystèmes et conservation",
+  "couleur": "#22c55e",
+  "definitions": [
+    {
+      "id": "biodiversite",
+      "terme": "Biodiversité",
+      "definition": "Variabilité des organismes vivants de toute origine, y compris les écosystèmes terrestres, marins et autres écosystèmes aquatiques, ainsi que les complexes écologiques dont ils font partie. Elle comprend la diversité au sein des espèces (génétique), entre les espèces, et des écosystèmes.",
+      "sources": [
+        {
+          "titre": "Convention sur la diversité biologique (CDB)",
+          "auteur": "Nations Unies",
+          "url": "https://www.cbd.int/convention/text/",
+          "annee": 1992,
+          "type": "loi"
+        },
+        {
+          "titre": "Qu'est-ce que la biodiversité ?",
+          "auteur": "MNHN",
+          "url": "https://www.mnhn.fr/fr/qu-est-ce-que-la-biodiversite",
+          "annee": 2021,
+          "type": "institution"
+        }
+      ],
+      "categorie": "biodiversite",
+      "tags": ["diversité", "espèces", "écosystèmes", "génétique"],
+      "relations": [
+        { "cible": "ecosysteme", "type": "renvoie_a", "score": 90 },
+        { "cible": "espece", "type": "renvoie_a", "score": 85 },
+        { "cible": "services-ecosystemiques", "type": "renvoie_a", "score": 80 },
+        { "cible": "erosion-biodiversite", "type": "oppose_a", "score": 90 }
+      ],
+      "exemples": [
+        "La forêt amazonienne abrite environ 10% de toutes les espèces connues",
+        "Un gramme de sol peut contenir jusqu'à 10 milliards de micro-organismes"
+      ],
+      "synonymes": ["diversité biologique", "diversité du vivant"]
+    },
+    {
+      "id": "ecosysteme",
+      "terme": "Écosystème",
+      "definition": "Ensemble dynamique formé par une communauté d'êtres vivants (biocénose) et son environnement physico-chimique (biotope), en interaction constante. Les écosystèmes peuvent être de tailles très variables : une mare, une forêt, un océan, ou la biosphère entière.",
+      "sources": [
+        {
+          "titre": "Fundamentals of Ecology",
+          "auteur": "Odum, E.P.",
+          "annee": 1953,
+          "type": "livre"
+        },
+        {
+          "titre": "Les écosystèmes",
+          "auteur": "CNRS",
+          "url": "https://www.cnrs.fr/",
+          "annee": 2020,
+          "type": "institution"
+        }
+      ],
+      "categorie": "biodiversite",
+      "tags": ["écologie", "biocénose", "biotope", "interactions"],
+      "relations": [
+        { "cible": "biodiversite", "type": "renvoie_a", "score": 90 },
+        { "cible": "services-ecosystemiques", "type": "renvoie_a", "score": 85 },
+        { "cible": "chaine-alimentaire", "type": "renvoie_a", "score": 75 },
+        { "cible": "resilience-ecologique", "type": "proche_de", "score": 70 }
+      ],
+      "exemples": [
+        "Écosystème forestier tempéré",
+        "Récif corallien",
+        "Zone humide"
+      ]
+    },
+    {
+      "id": "services-ecosystemiques",
+      "terme": "Services écosystémiques",
+      "definition": "Bénéfices que les êtres humains tirent des écosystèmes. Ils sont classés en quatre catégories : services d'approvisionnement (nourriture, eau, bois), de régulation (climat, pollinisation, purification), culturels (récréation, valeur esthétique) et de soutien (cycle des nutriments, formation des sols).",
+      "sources": [
+        {
+          "titre": "Millennium Ecosystem Assessment",
+          "auteur": "Nations Unies",
+          "url": "https://www.millenniumassessment.org/",
+          "annee": 2005,
+          "type": "rapport"
+        },
+        {
+          "titre": "The Economics of Ecosystems and Biodiversity (TEEB)",
+          "url": "http://teebweb.org/",
+          "annee": 2010,
+          "type": "rapport"
+        }
+      ],
+      "categorie": "biodiversite",
+      "tags": ["valeur", "bénéfices", "nature", "économie"],
+      "relations": [
+        { "cible": "ecosysteme", "type": "renvoie_a", "score": 90 },
+        { "cible": "biodiversite", "type": "renvoie_a", "score": 85 },
+        { "cible": "pollinisation", "type": "est_type_de", "score": 80 },
+        { "cible": "capital-naturel", "type": "proche_de", "score": 75 }
+      ],
+      "exemples": [
+        "Pollinisation des cultures par les abeilles (valeur estimée à 153 milliards €/an)",
+        "Régulation du climat par les forêts",
+        "Filtration naturelle de l'eau par les zones humides"
+      ],
+      "synonymes": ["services environnementaux", "bienfaits de la nature"]
+    },
+    {
+      "id": "erosion-biodiversite",
+      "terme": "Érosion de la biodiversité",
+      "definition": "Diminution accélérée du nombre d'espèces, de la diversité génétique et des écosystèmes à l'échelle mondiale. Considérée comme la sixième extinction de masse, elle est principalement causée par les activités humaines : destruction des habitats, surexploitation, pollution, espèces invasives et changement climatique.",
+      "sources": [
+        {
+          "titre": "Rapport d'évaluation mondiale sur la biodiversité et les services écosystémiques",
+          "auteur": "IPBES",
+          "url": "https://ipbes.net/global-assessment",
+          "annee": 2019,
+          "type": "rapport"
+        },
+        {
+          "titre": "Living Planet Report 2022",
+          "auteur": "WWF",
+          "url": "https://livingplanet.panda.org/",
+          "annee": 2022,
+          "type": "rapport"
+        }
+      ],
+      "categorie": "biodiversite",
+      "tags": ["extinction", "menaces", "déclin", "crise"],
+      "relations": [
+        { "cible": "biodiversite", "type": "oppose_a", "score": 95 },
+        { "cible": "destruction-habitats", "type": "renvoie_a", "score": 90 },
+        { "cible": "especes-invasives", "type": "renvoie_a", "score": 75 },
+        { "cible": "changement-climatique", "type": "contribue_a", "score": 70, "direction": "negatif" }
+      ],
+      "exemples": [
+        "Déclin de 69% des populations de vertébrés depuis 1970 (WWF)",
+        "1 million d'espèces menacées d'extinction (IPBES)"
+      ],
+      "synonymes": ["perte de biodiversité", "sixième extinction", "effondrement du vivant"]
+    },
+    {
+      "id": "espece-endemique",
+      "terme": "Espèce endémique",
+      "definition": "Espèce vivante dont l'aire de répartition naturelle est limitée à une zone géographique délimitée (île, montagne, bassin versant, etc.). L'endémisme est un critère important pour identifier les zones prioritaires de conservation (hotspots de biodiversité).",
+      "sources": [
+        {
+          "titre": "Biodiversity Hotspots",
+          "auteur": "Conservation International",
+          "url": "https://www.conservation.org/priorities/biodiversity-hotspots",
+          "annee": 2021,
+          "type": "institution"
+        }
+      ],
+      "categorie": "biodiversite",
+      "tags": ["répartition", "conservation", "vulnérabilité", "insularité"],
+      "relations": [
+        { "cible": "biodiversite", "type": "contribue_a", "score": 80, "direction": "positif" },
+        { "cible": "hotspot-biodiversite", "type": "renvoie_a", "score": 85 },
+        { "cible": "espece-invasive", "type": "oppose_a", "score": 70 }
+      ],
+      "exemples": [
+        "Le lémurien (Madagascar)",
+        "Le koala (Australie)",
+        "L'arbre dragon (Îles Canaries)"
+      ]
+    },
+    {
+      "id": "espece-invasive",
+      "terme": "Espèce exotique envahissante",
+      "definition": "Espèce introduite par l'homme, volontairement ou non, en dehors de son aire de répartition naturelle, dont l'implantation et la propagation menacent les écosystèmes, les habitats ou les espèces indigènes avec des conséquences écologiques, économiques ou sanitaires négatives.",
+      "sources": [
+        {
+          "titre": "Règlement (UE) n° 1143/2014 relatif aux espèces exotiques envahissantes",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32014R1143",
+          "annee": 2014,
+          "type": "loi"
+        },
+        {
+          "titre": "Les espèces exotiques envahissantes",
+          "auteur": "UICN France",
+          "url": "https://uicn.fr/especes-exotiques-envahissantes/",
+          "annee": 2022,
+          "type": "institution"
+        }
+      ],
+      "categorie": "biodiversite",
+      "tags": ["invasion biologique", "menace", "introduction", "contrôle"],
+      "relations": [
+        { "cible": "erosion-biodiversite", "type": "contribue_a", "score": 85, "direction": "positif" },
+        { "cible": "espece-endemique", "type": "oppose_a", "score": 80 },
+        { "cible": "ecosysteme", "type": "oppose_a", "score": 70 }
+      ],
+      "exemples": [
+        "Le frelon asiatique en Europe",
+        "La jacinthe d'eau en Afrique",
+        "Le ragondin en France"
+      ],
+      "synonymes": ["espèce invasive", "EEE", "espèce allochtone envahissante"]
+    },
+    {
+      "id": "pollinisation",
+      "terme": "Pollinisation",
+      "definition": "Transfert du pollen des organes mâles (étamines) vers les organes femelles (pistil) d'une fleur, permettant la fécondation et la reproduction des plantes à fleurs. Elle peut être assurée par le vent (anémophilie), l'eau (hydrophilie) ou des animaux pollinisateurs (zoogamie), principalement les insectes.",
+      "sources": [
+        {
+          "titre": "Pollinisation et pollinisateurs",
+          "auteur": "INRAE",
+          "url": "https://www.inrae.fr/",
+          "annee": 2021,
+          "type": "institution"
+        },
+        {
+          "titre": "The assessment report on pollinators, pollination and food production",
+          "auteur": "IPBES",
+          "url": "https://ipbes.net/assessment-reports/pollinators",
+          "annee": 2016,
+          "type": "rapport"
+        }
+      ],
+      "categorie": "biodiversite",
+      "tags": ["reproduction", "insectes", "abeilles", "agriculture"],
+      "relations": [
+        { "cible": "services-ecosystemiques", "type": "est_type_de", "score": 90 },
+        { "cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif" },
+        { "cible": "agroecologie", "type": "renvoie_a", "score": 70 }
+      ],
+      "exemples": [
+        "75% des cultures vivrières dépendent de la pollinisation animale",
+        "Les abeilles pollinisent plus de 80% des espèces de plantes à fleurs"
+      ],
+      "synonymes": ["pollinisation croisée", "fécondation des plantes"]
+    },
+    {
+      "id": "aire-protegee",
+      "terme": "Aire protégée",
+      "definition": "Espace géographique clairement défini, reconnu, dédié et géré par des moyens légaux ou autres, afin d'assurer la conservation à long terme de la nature et des services écosystémiques et valeurs culturelles associés. Inclut les parcs nationaux, réserves naturelles, sites Natura 2000, etc.",
+      "sources": [
+        {
+          "titre": "Définition UICN des aires protégées",
+          "auteur": "UICN",
+          "url": "https://www.iucn.org/theme/protected-areas/about",
+          "annee": 2008,
+          "type": "institution"
+        },
+        {
+          "titre": "Stratégie nationale pour les aires protégées 2030",
+          "auteur": "Ministère de la Transition écologique",
+          "url": "https://www.ecologie.gouv.fr/strategie-nationale-aires-protegees",
+          "annee": 2021,
+          "type": "rapport"
+        }
+      ],
+      "categorie": "biodiversite",
+      "tags": ["conservation", "protection", "territoire", "gestion"],
+      "relations": [
+        { "cible": "biodiversite", "type": "contribue_a", "score": 90, "direction": "positif" },
+        { "cible": "ecosysteme", "type": "renvoie_a", "score": 80 },
+        { "cible": "services-ecosystemiques", "type": "contribue_a", "score": 75, "direction": "positif" }
+      ],
+      "exemples": [
+        "Parc national des Cévennes",
+        "Réserve naturelle nationale de Camargue",
+        "Réseau Natura 2000"
+      ],
+      "synonymes": ["espace protégé", "zone de conservation"]
+    },
+    {
+      "id": "corridor-ecologique",
+      "terme": "Corridor écologique",
+      "definition": "Voie de déplacement empruntée par la faune et la flore reliant différents habitats ou réservoirs de biodiversité. Les corridors permettent la migration, la dispersion et les échanges génétiques entre populations, essentiels au maintien de la biodiversité face à la fragmentation des habitats.",
+      "sources": [
+        {
+          "titre": "Trame verte et bleue",
+          "auteur": "Ministère de la Transition écologique",
+          "url": "https://www.ecologie.gouv.fr/trame-verte-et-bleue",
+          "annee": 2021,
+          "type": "institution"
+        }
+      ],
+      "categorie": "biodiversite",
+      "tags": ["connectivité", "trame verte", "migration", "paysage"],
+      "relations": [
+        { "cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif" },
+        { "cible": "ecosysteme", "type": "renvoie_a", "score": 75 },
+        { "cible": "fragmentation-habitats", "type": "oppose_a", "score": 80 }
+      ],
+      "exemples": [
+        "Haies bocagères reliant les boisements",
+        "Passages à faune sous les autoroutes",
+        "Berges végétalisées le long des cours d'eau"
+      ],
+      "synonymes": ["continuité écologique", "trame verte et bleue"]
+    }
+  ]
+}

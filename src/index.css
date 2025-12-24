@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  /* Couleurs principales - Nature */
+  --color-primary: #059669;
+  --color-primary-light: #34d399;
+  --color-primary-dark: #047857;
+
+  /* Couleurs secondaires */
+  --color-secondary: #0284c7;
+  --color-secondary-light: #38bdf8;
+
+  /* Neutres */
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-text: #1e293b;
+  --color-text-muted: #64748b;
+
+  /* Catégories */
+  --color-cat-dechets: #f59e0b;
+  --color-cat-biodiversite: #22c55e;
+  --color-cat-energie: #eab308;
+  --color-cat-eau: #3b82f6;
+  --color-cat-circulaire: #8b5cf6;
+  --color-cat-durable: #14b8a6;
+
+  /* Relations */
+  --color-rel-renvoie: #3b82f6;
+  --color-rel-type: #6b7280;
+  --color-rel-contribue-pos: #22c55e;
+  --color-rel-contribue-neg: #f97316;
+  --color-rel-proche: #9ca3af;
+  --color-rel-oppose: #ef4444;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* React Flow overrides */
+.react-flow__node {
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.react-flow__edge-path {
+  stroke-width: 2;
+}
+
+/* Scrollbar style */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

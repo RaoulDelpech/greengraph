@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "id": "economie-circulaire",
+      "nom": "Économie circulaire",
+      "description": "Concepts liés au modèle économique circulaire et à la réduction des déchets",
+      "couleur": "#8b5cf6",
+      "icone": "recycle",
+      "fichier": "economie-circulaire.json"
+    },
+    {
+      "id": "biodiversite",
+      "nom": "Biodiversité",
+      "description": "Diversité du vivant, écosystèmes et conservation",
+      "couleur": "#22c55e",
+      "icone": "leaf",
+      "fichier": "biodiversite.json"
+    },
+    {
+      "id": "energie-climat",
+      "nom": "Énergie & Climat",
+      "description": "Transition énergétique, changement climatique et émissions",
+      "couleur": "#eab308",
+      "icone": "sun",
+      "fichier": "energie-climat.json"
+    },
+    {
+      "id": "dechets",
+      "nom": "Gestion des déchets",
+      "description": "Traitement, valorisation et réduction des déchets",
+      "couleur": "#f59e0b",
+      "icone": "trash",
+      "fichier": "dechets.json"
+    },
+    {
+      "id": "eau",
+      "nom": "Ressources en eau",
+      "description": "Gestion de l'eau, qualité et préservation",
+      "couleur": "#3b82f6",
+      "icone": "droplet",
+      "fichier": "eau.json"
+    },
+    {
+      "id": "developpement-durable",
+      "nom": "Développement durable",
+      "description": "Concepts transversaux de durabilité et responsabilité",
+      "couleur": "#14b8a6",
+      "icone": "globe",
+      "fichier": "developpement-durable.json"
+    }
+  ]
+}

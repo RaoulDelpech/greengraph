@@ -1,0 +1,301 @@
+{
+  "id": "energie-climat",
+  "nom": "Énergie & Climat",
+  "description": "Transition énergétique, changement climatique et émissions",
+  "couleur": "#eab308",
+  "definitions": [
+    {
+      "id": "changement-climatique",
+      "terme": "Changement climatique",
+      "definition": "Modification durable des paramètres statistiques du climat mondial ou régional (température, précipitations, vents). Dans le contexte actuel, désigne principalement le réchauffement climatique d'origine anthropique, causé par l'augmentation des concentrations de gaz à effet de serre dans l'atmosphère depuis l'ère industrielle.",
+      "sources": [
+        {
+          "titre": "Climate Change 2021: The Physical Science Basis (AR6)",
+          "auteur": "GIEC",
+          "url": "https://www.ipcc.ch/report/ar6/wg1/",
+          "annee": 2021,
+          "type": "rapport"
+        },
+        {
+          "titre": "Convention-cadre des Nations Unies sur les changements climatiques (CCNUCC)",
+          "auteur": "Nations Unies",
+          "url": "https://unfccc.int/",
+          "annee": 1992,
+          "type": "loi"
+        }
+      ],
+      "categorie": "energie-climat",
+      "tags": ["réchauffement", "GES", "GIEC", "température"],
+      "relations": [
+        { "cible": "gaz-effet-serre", "type": "renvoie_a", "score": 95 },
+        { "cible": "empreinte-carbone", "type": "renvoie_a", "score": 85 },
+        { "cible": "neutralite-carbone", "type": "oppose_a", "score": 80 },
+        { "cible": "erosion-biodiversite", "type": "contribue_a", "score": 75, "direction": "positif" }
+      ],
+      "exemples": [
+        "Hausse de 1,1°C de la température moyenne mondiale depuis 1850",
+        "Élévation du niveau des mers",
+        "Intensification des événements météorologiques extrêmes"
+      ],
+      "synonymes": ["dérèglement climatique", "réchauffement climatique"]
+    },
+    {
+      "id": "gaz-effet-serre",
+      "terme": "Gaz à effet de serre (GES)",
+      "definition": "Gaz présents dans l'atmosphère qui absorbent et réémettent le rayonnement infrarouge, contribuant à l'effet de serre et au réchauffement climatique. Les principaux GES d'origine anthropique sont le dioxyde de carbone (CO2), le méthane (CH4), le protoxyde d'azote (N2O) et les gaz fluorés.",
+      "sources": [
+        {
+          "titre": "Climate Change 2021 - AR6 Working Group I",
+          "auteur": "GIEC",
+          "url": "https://www.ipcc.ch/report/ar6/wg1/",
+          "annee": 2021,
+          "type": "rapport"
+        }
+      ],
+      "categorie": "energie-climat",
+      "tags": ["CO2", "méthane", "émissions", "atmosphère"],
+      "relations": [
+        { "cible": "changement-climatique", "type": "contribue_a", "score": 95, "direction": "positif" },
+        { "cible": "empreinte-carbone", "type": "renvoie_a", "score": 85 },
+        { "cible": "neutralite-carbone", "type": "oppose_a", "score": 80 }
+      ],
+      "exemples": [
+        "CO2 issu de la combustion des énergies fossiles",
+        "Méthane des élevages bovins et des rizières",
+        "N2O des engrais azotés"
+      ],
+      "synonymes": ["GES", "greenhouse gases"]
+    },
+    {
+      "id": "empreinte-carbone",
+      "terme": "Empreinte carbone",
+      "definition": "Quantité totale de gaz à effet de serre émise directement ou indirectement par une activité, un individu, une organisation ou un produit, exprimée en équivalent CO2. Elle inclut les émissions liées à la production, au transport, à l'utilisation et à la fin de vie.",
+      "sources": [
+        {
+          "titre": "Bilan Carbone - Méthode",
+          "auteur": "ADEME",
+          "url": "https://www.ademe.fr/expertises/mobilite-transports/passer-a-laction/dossier/bilan-carbone/bilan-carbone-kesako",
+          "annee": 2022,
+          "type": "institution"
+        },
+        {
+          "titre": "ISO 14064 - Gaz à effet de serre",
+          "auteur": "ISO",
+          "annee": 2018,
+          "type": "rapport"
+        }
+      ],
+      "categorie": "energie-climat",
+      "tags": ["bilan", "CO2", "mesure", "réduction"],
+      "relations": [
+        { "cible": "gaz-effet-serre", "type": "renvoie_a", "score": 90 },
+        { "cible": "neutralite-carbone", "type": "renvoie_a", "score": 85 },
+        { "cible": "analyse-cycle-vie", "type": "proche_de", "score": 75 },
+        { "cible": "compensation-carbone", "type": "renvoie_a", "score": 70 }
+      ],
+      "exemples": [
+        "Empreinte carbone moyenne d'un Français : ~10 tonnes CO2eq/an",
+        "Empreinte carbone d'un vol Paris-New York : ~1 tonne CO2eq"
+      ],
+      "synonymes": ["bilan carbone", "carbon footprint"]
+    },
+    {
+      "id": "neutralite-carbone",
+      "terme": "Neutralité carbone",
+      "definition": "État d'équilibre entre les émissions de gaz à effet de serre d'origine humaine et leur absorption par des puits de carbone (forêts, océans, sols, technologies de capture). La neutralité carbone mondiale est nécessaire pour stabiliser le réchauffement climatique.",
+      "sources": [
+        {
+          "titre": "Rapport spécial sur les conséquences d'un réchauffement planétaire de 1,5°C",
+          "auteur": "GIEC",
+          "url": "https://www.ipcc.ch/sr15/",
+          "annee": 2018,
+          "type": "rapport"
+        },
+        {
+          "titre": "Stratégie nationale bas-carbone (SNBC)",
+          "auteur": "Ministère de la Transition écologique",
+          "url": "https://www.ecologie.gouv.fr/strategie-nationale-bas-carbone-snbc",
+          "annee": 2020,
+          "type": "institution"
+        }
+      ],
+      "categorie": "energie-climat",
+      "tags": ["objectif", "compensation", "réduction", "2050"],
+      "relations": [
+        { "cible": "empreinte-carbone", "type": "oppose_a", "score": 85 },
+        { "cible": "gaz-effet-serre", "type": "oppose_a", "score": 80 },
+        { "cible": "compensation-carbone", "type": "renvoie_a", "score": 75 },
+        { "cible": "transition-energetique", "type": "renvoie_a", "score": 85 }
+      ],
+      "exemples": [
+        "Objectif de la France : neutralité carbone en 2050",
+        "Accord de Paris : limiter le réchauffement à 1,5-2°C"
+      ],
+      "synonymes": ["net zero", "zéro émission nette", "carbone neutralité"]
+    },
+    {
+      "id": "energie-renouvelable",
+      "terme": "Énergie renouvelable",
+      "definition": "Énergie produite à partir de sources naturelles qui se régénèrent plus rapidement qu'elles ne sont consommées. Les principales énergies renouvelables sont le solaire, l'éolien, l'hydraulique, la biomasse et la géothermie. Elles s'opposent aux énergies fossiles (pétrole, gaz, charbon).",
+      "sources": [
+        {
+          "titre": "Global Renewables Outlook 2020",
+          "auteur": "IRENA",
+          "url": "https://www.irena.org/publications/2020/Apr/Global-Renewables-Outlook-2020",
+          "annee": 2020,
+          "type": "rapport"
+        },
+        {
+          "titre": "Panorama de l'électricité renouvelable",
+          "auteur": "RTE",
+          "url": "https://www.rte-france.com/",
+          "annee": 2022,
+          "type": "rapport"
+        }
+      ],
+      "categorie": "energie-climat",
+      "tags": ["solaire", "éolien", "hydraulique", "biomasse", "transition"],
+      "relations": [
+        { "cible": "transition-energetique", "type": "contribue_a", "score": 90, "direction": "positif" },
+        { "cible": "energie-fossile", "type": "oppose_a", "score": 95 },
+        { "cible": "neutralite-carbone", "type": "contribue_a", "score": 85, "direction": "positif" },
+        { "cible": "methanisation", "type": "proche_de", "score": 70 }
+      ],
+      "exemples": [
+        "Panneaux solaires photovoltaïques",
+        "Éoliennes terrestres et offshore",
+        "Barrages hydroélectriques"
+      ],
+      "synonymes": ["EnR", "énergies vertes", "énergies propres"]
+    },
+    {
+      "id": "transition-energetique",
+      "terme": "Transition énergétique",
+      "definition": "Passage d'un système énergétique fondé sur les énergies fossiles (pétrole, gaz, charbon) vers un modèle basé sur les énergies renouvelables et l'efficacité énergétique. Elle vise à réduire les émissions de gaz à effet de serre, diminuer la dépendance aux importations et créer une économie décarbonée.",
+      "sources": [
+        {
+          "titre": "Loi n° 2015-992 relative à la transition énergétique pour la croissance verte",
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000031044385",
+          "annee": 2015,
+          "type": "loi"
+        },
+        {
+          "titre": "World Energy Outlook 2023",
+          "auteur": "IEA",
+          "url": "https://www.iea.org/reports/world-energy-outlook-2023",
+          "annee": 2023,
+          "type": "rapport"
+        }
+      ],
+      "categorie": "energie-climat",
+      "tags": ["décarbonation", "renouvelables", "politique", "objectifs"],
+      "relations": [
+        { "cible": "energie-renouvelable", "type": "renvoie_a", "score": 95 },
+        { "cible": "neutralite-carbone", "type": "contribue_a", "score": 90, "direction": "positif" },
+        { "cible": "energie-fossile", "type": "oppose_a", "score": 85 },
+        { "cible": "efficacite-energetique", "type": "renvoie_a", "score": 80 }
+      ],
+      "exemples": [
+        "Développement du parc éolien et solaire",
+        "Fermeture des centrales à charbon",
+        "Électrification des transports"
+      ],
+      "synonymes": ["transition bas-carbone", "transition écologique énergétique"]
+    },
+    {
+      "id": "energie-fossile",
+      "terme": "Énergie fossile",
+      "definition": "Énergie produite à partir de la combustion de ressources naturelles formées par la fossilisation de matière organique sur des millions d'années : pétrole, gaz naturel et charbon. Non renouvelables à l'échelle humaine, elles sont responsables de la majorité des émissions de CO2 mondiales.",
+      "sources": [
+        {
+          "titre": "Global Carbon Budget 2023",
+          "auteur": "Global Carbon Project",
+          "url": "https://www.globalcarbonproject.org/carbonbudget/",
+          "annee": 2023,
+          "type": "rapport"
+        }
+      ],
+      "categorie": "energie-climat",
+      "tags": ["pétrole", "gaz", "charbon", "CO2"],
+      "relations": [
+        { "cible": "energie-renouvelable", "type": "oppose_a", "score": 95 },
+        { "cible": "gaz-effet-serre", "type": "contribue_a", "score": 90, "direction": "positif" },
+        { "cible": "changement-climatique", "type": "contribue_a", "score": 85, "direction": "positif" }
+      ],
+      "exemples": [
+        "Essence et diesel pour les véhicules",
+        "Gaz naturel pour le chauffage",
+        "Charbon pour les centrales électriques"
+      ],
+      "synonymes": ["combustibles fossiles", "hydrocarbures"]
+    },
+    {
+      "id": "efficacite-energetique",
+      "terme": "Efficacité énergétique",
+      "definition": "Rapport entre le service rendu (éclairage, chauffage, déplacement) et l'énergie consommée pour le produire. Améliorer l'efficacité énergétique signifie obtenir le même service avec moins d'énergie, grâce à des technologies plus performantes ou une meilleure conception.",
+      "sources": [
+        {
+          "titre": "Directive 2012/27/UE relative à l'efficacité énergétique",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32012L0027",
+          "annee": 2012,
+          "type": "loi"
+        },
+        {
+          "titre": "L'efficacité énergétique",
+          "auteur": "ADEME",
+          "url": "https://www.ademe.fr/",
+          "annee": 2022,
+          "type": "institution"
+        }
+      ],
+      "categorie": "energie-climat",
+      "tags": ["performance", "consommation", "technologie", "bâtiment"],
+      "relations": [
+        { "cible": "transition-energetique", "type": "contribue_a", "score": 85, "direction": "positif" },
+        { "cible": "sobriete-energetique", "type": "proche_de", "score": 80 },
+        { "cible": "empreinte-carbone", "type": "oppose_a", "score": 70 }
+      ],
+      "exemples": [
+        "Isolation thermique des bâtiments",
+        "Ampoules LED vs incandescentes",
+        "Moteurs à haut rendement"
+      ],
+      "synonymes": ["performance énergétique", "rendement énergétique"]
+    },
+    {
+      "id": "sobriete-energetique",
+      "terme": "Sobriété énergétique",
+      "definition": "Démarche visant à réduire les consommations d'énergie par des changements de comportements, de modes de vie et d'organisation collective, plutôt que par des solutions technologiques. Elle questionne les besoins réels et vise à éliminer les gaspillages et les usages superflus.",
+      "sources": [
+        {
+          "titre": "Sobriété énergétique : pour une société plus juste et plus durable",
+          "auteur": "négaWatt",
+          "url": "https://www.negawatt.org/sobriete-energetique",
+          "annee": 2022,
+          "type": "institution"
+        },
+        {
+          "titre": "Plan de sobriété énergétique",
+          "auteur": "Gouvernement français",
+          "url": "https://www.ecologie.gouv.fr/sobriete-energetique",
+          "annee": 2022,
+          "type": "rapport"
+        }
+      ],
+      "categorie": "energie-climat",
+      "tags": ["comportement", "réduction", "besoins", "négaWatt"],
+      "relations": [
+        { "cible": "efficacite-energetique", "type": "proche_de", "score": 85 },
+        { "cible": "transition-energetique", "type": "contribue_a", "score": 80, "direction": "positif" },
+        { "cible": "empreinte-carbone", "type": "oppose_a", "score": 75 }
+      ],
+      "exemples": [
+        "Baisser le chauffage de 1°C",
+        "Limiter les trajets en avion",
+        "Éteindre les appareils en veille"
+      ],
+      "synonymes": ["suffisance énergétique", "frugalité énergétique"]
+    }
+  ]
+}

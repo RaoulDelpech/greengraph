@@ -1,0 +1,291 @@
+{
+  "id": "dechets",
+  "nom": "Gestion des déchets",
+  "description": "Traitement, valorisation et réduction des déchets",
+  "couleur": "#f59e0b",
+  "definitions": [
+    {
+      "id": "dechet",
+      "terme": "Déchet",
+      "definition": "Toute substance ou tout objet, ou plus généralement tout bien meuble, dont le détenteur se défait ou dont il a l'intention ou l'obligation de se défaire. Cette définition juridique (directive européenne 2008/98/CE) distingue les déchets des sous-produits et des matières qui cessent d'être des déchets après traitement.",
+      "sources": [
+        {
+          "titre": "Directive 2008/98/CE relative aux déchets",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32008L0098",
+          "annee": 2008,
+          "type": "loi"
+        },
+        {
+          "titre": "Code de l'environnement - Article L541-1-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041599099",
+          "annee": 2020,
+          "type": "loi"
+        }
+      ],
+      "categorie": "dechets",
+      "tags": ["définition juridique", "réglementation", "gestion"],
+      "relations": [
+        { "cible": "hierarchie-dechets", "type": "renvoie_a", "score": 90 },
+        { "cible": "dechet-dangereux", "type": "est_type_de", "score": 85 },
+        { "cible": "valorisation-dechets", "type": "renvoie_a", "score": 80 }
+      ],
+      "exemples": [
+        "Ordures ménagères",
+        "Déchets industriels",
+        "Déchets de construction"
+      ]
+    },
+    {
+      "id": "hierarchie-dechets",
+      "terme": "Hiérarchie des déchets",
+      "definition": "Ordre de priorité établi par la directive européenne pour la gestion des déchets : 1) Prévention, 2) Préparation en vue du réemploi, 3) Recyclage, 4) Autre valorisation (notamment énergétique), 5) Élimination. Cette hiérarchie guide les politiques publiques vers les solutions les plus vertueuses.",
+      "sources": [
+        {
+          "titre": "Directive 2008/98/CE - Article 4",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32008L0098",
+          "annee": 2008,
+          "type": "loi"
+        }
+      ],
+      "categorie": "dechets",
+      "tags": ["politique", "priorités", "prévention", "réglementation"],
+      "relations": [
+        { "cible": "prevention-dechets", "type": "renvoie_a", "score": 95 },
+        { "cible": "recyclage", "type": "renvoie_a", "score": 85 },
+        { "cible": "valorisation-energetique", "type": "renvoie_a", "score": 75 },
+        { "cible": "economie-circulaire", "type": "contribue_a", "score": 80, "direction": "positif" }
+      ],
+      "exemples": [
+        "Privilégier la réduction des emballages avant leur recyclage",
+        "Réparer un appareil plutôt que le recycler"
+      ],
+      "synonymes": ["pyramide des déchets", "échelle de Lansink"]
+    },
+    {
+      "id": "recyclage",
+      "terme": "Recyclage",
+      "definition": "Toute opération de valorisation par laquelle les déchets sont retraités en produits, matières ou substances aux fins de leur fonction initiale ou à d'autres fins. Cela inclut le retraitement des matières organiques mais exclut la valorisation énergétique et le retraitement en matières destinées à servir de combustibles.",
+      "sources": [
+        {
+          "titre": "Directive 2008/98/CE - Article 3",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32008L0098",
+          "annee": 2008,
+          "type": "loi"
+        },
+        {
+          "titre": "Le recyclage en France",
+          "auteur": "ADEME",
+          "url": "https://www.ademe.fr/",
+          "annee": 2022,
+          "type": "institution"
+        }
+      ],
+      "categorie": "dechets",
+      "tags": ["valorisation matière", "tri", "filières", "matières premières secondaires"],
+      "relations": [
+        { "cible": "economie-circulaire", "type": "contribue_a", "score": 85, "direction": "positif" },
+        { "cible": "hierarchie-dechets", "type": "renvoie_a", "score": 80 },
+        { "cible": "reutilisation", "type": "proche_de", "score": 70 },
+        { "cible": "upcycling", "type": "proche_de", "score": 75 },
+        { "cible": "tri-selectif", "type": "renvoie_a", "score": 90 }
+      ],
+      "exemples": [
+        "Recyclage du verre en nouvelles bouteilles",
+        "Transformation du plastique PET en fibres textiles",
+        "Recyclage du papier-carton"
+      ]
+    },
+    {
+      "id": "compostage",
+      "terme": "Compostage",
+      "definition": "Processus biologique aérobie de dégradation et de transformation de matières organiques (déchets de cuisine, déchets verts) en un produit stabilisé, hygiénisé et riche en composés humiques : le compost. Il peut être réalisé à l'échelle domestique ou industrielle.",
+      "sources": [
+        {
+          "titre": "Le compostage",
+          "auteur": "ADEME",
+          "url": "https://www.ademe.fr/particuliers-eco-citoyens/habitation/jardiner-autrement/composter-dechets",
+          "annee": 2021,
+          "type": "institution"
+        },
+        {
+          "titre": "Norme NF U 44-051 sur les amendements organiques",
+          "auteur": "AFNOR",
+          "annee": 2006,
+          "type": "rapport"
+        }
+      ],
+      "categorie": "dechets",
+      "tags": ["biodéchets", "valorisation organique", "amendement", "sol"],
+      "relations": [
+        { "cible": "methanisation", "type": "proche_de", "score": 75 },
+        { "cible": "biodechets", "type": "renvoie_a", "score": 90 },
+        { "cible": "recyclage", "type": "est_type_de", "score": 80 },
+        { "cible": "economie-circulaire", "type": "contribue_a", "score": 70, "direction": "positif" }
+      ],
+      "exemples": [
+        "Compostage domestique en bac ou en tas",
+        "Compostage de quartier partagé",
+        "Plateforme de compostage industrielle"
+      ],
+      "synonymes": ["compostage aérobie"]
+    },
+    {
+      "id": "methanisation",
+      "terme": "Méthanisation",
+      "definition": "Processus biologique anaérobie (sans oxygène) de dégradation de la matière organique qui produit du biogaz (principalement méthane et CO2) et un résidu appelé digestat. Le biogaz peut être valorisé en chaleur, électricité, ou purifié en biométhane injectable dans le réseau de gaz.",
+      "sources": [
+        {
+          "titre": "La méthanisation",
+          "auteur": "ADEME",
+          "url": "https://www.ademe.fr/expertises/dechets/passer-a-laction/valorisation-organique/methanisation",
+          "annee": 2022,
+          "type": "institution"
+        },
+        {
+          "titre": "Panorama du gaz renouvelable en 2022",
+          "auteur": "GRDF",
+          "url": "https://www.grdf.fr/",
+          "annee": 2022,
+          "type": "rapport"
+        }
+      ],
+      "categorie": "dechets",
+      "tags": ["biogaz", "énergie renouvelable", "digestat", "anaérobie"],
+      "relations": [
+        { "cible": "compostage", "type": "proche_de", "score": 75 },
+        { "cible": "energie-renouvelable", "type": "contribue_a", "score": 85, "direction": "positif" },
+        { "cible": "valorisation-energetique", "type": "est_type_de", "score": 80 },
+        { "cible": "biodechets", "type": "renvoie_a", "score": 85 }
+      ],
+      "exemples": [
+        "Méthaniseur agricole valorisant les effluents d'élevage",
+        "Unité de méthanisation de biodéchets urbains",
+        "Station d'épuration avec digesteur"
+      ],
+      "synonymes": ["digestion anaérobie", "fermentation méthanique"]
+    },
+    {
+      "id": "biodechets",
+      "terme": "Biodéchets",
+      "definition": "Déchets biodégradables de jardin ou de parc, déchets alimentaires ou de cuisine provenant des ménages, des restaurants, des traiteurs ou des magasins de vente au détail, ainsi que déchets comparables provenant des usines de transformation de denrées alimentaires.",
+      "sources": [
+        {
+          "titre": "Loi AGEC - Article 88",
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041553759",
+          "annee": 2020,
+          "type": "loi"
+        },
+        {
+          "titre": "Tri des biodéchets",
+          "auteur": "ADEME",
+          "url": "https://www.ademe.fr/",
+          "annee": 2023,
+          "type": "institution"
+        }
+      ],
+      "categorie": "dechets",
+      "tags": ["organique", "tri", "obligation", "valorisation"],
+      "relations": [
+        { "cible": "compostage", "type": "renvoie_a", "score": 90 },
+        { "cible": "methanisation", "type": "renvoie_a", "score": 85 },
+        { "cible": "dechet", "type": "est_type_de", "score": 80 }
+      ],
+      "exemples": [
+        "Épluchures de fruits et légumes",
+        "Restes de repas",
+        "Tontes de pelouse et feuilles mortes"
+      ],
+      "synonymes": ["déchets organiques", "déchets fermentescibles"]
+    },
+    {
+      "id": "tri-selectif",
+      "terme": "Tri sélectif",
+      "definition": "Action de séparer et récupérer les déchets selon leur nature (verre, papier, plastique, métal, organique) pour en faciliter le traitement ultérieur (recyclage, compostage, valorisation). Le tri peut être effectué à la source par les producteurs de déchets ou dans des centres de tri.",
+      "sources": [
+        {
+          "titre": "Le tri des déchets",
+          "auteur": "CITEO",
+          "url": "https://www.citeo.com/",
+          "annee": 2022,
+          "type": "institution"
+        }
+      ],
+      "categorie": "dechets",
+      "tags": ["collecte", "séparation", "recyclage", "citoyen"],
+      "relations": [
+        { "cible": "recyclage", "type": "renvoie_a", "score": 95 },
+        { "cible": "hierarchie-dechets", "type": "contribue_a", "score": 75, "direction": "positif" },
+        { "cible": "economie-circulaire", "type": "contribue_a", "score": 70, "direction": "positif" }
+      ],
+      "exemples": [
+        "Bac jaune pour les emballages",
+        "Conteneur vert pour le verre",
+        "Bac marron pour les biodéchets"
+      ],
+      "synonymes": ["tri à la source", "collecte séparative"]
+    },
+    {
+      "id": "rep",
+      "terme": "Responsabilité élargie du producteur (REP)",
+      "definition": "Principe selon lequel les producteurs, importateurs et distributeurs de produits sont responsables de l'ensemble du cycle de vie de ces produits, et notamment de la gestion des déchets qui en sont issus. Les éco-organismes collectent les contributions des producteurs pour financer la collecte et le traitement.",
+      "sources": [
+        {
+          "titre": "Directive 2008/98/CE - Article 8",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32008L0098",
+          "annee": 2008,
+          "type": "loi"
+        },
+        {
+          "titre": "Les filières REP",
+          "auteur": "ADEME",
+          "url": "https://www.ademe.fr/expertises/dechets/elements-contexte/filieres-a-responsabilite-elargie-producteurs-rep",
+          "annee": 2022,
+          "type": "institution"
+        }
+      ],
+      "categorie": "dechets",
+      "tags": ["producteur", "éco-organisme", "financement", "filière"],
+      "relations": [
+        { "cible": "economie-circulaire", "type": "contribue_a", "score": 85, "direction": "positif" },
+        { "cible": "recyclage", "type": "contribue_a", "score": 80, "direction": "positif" },
+        { "cible": "ecoconception", "type": "renvoie_a", "score": 70 }
+      ],
+      "exemples": [
+        "REP emballages ménagers (CITEO)",
+        "REP équipements électriques (ecosystem)",
+        "REP textiles (Refashion)"
+      ],
+      "synonymes": ["EPR (Extended Producer Responsibility)", "filière REP"]
+    },
+    {
+      "id": "dechet-dangereux",
+      "terme": "Déchet dangereux",
+      "definition": "Déchet qui présente une ou plusieurs propriétés de danger : explosif, comburant, inflammable, irritant, toxique, cancérogène, corrosif, infectieux, mutagène, etc. Les déchets dangereux nécessitent des filières de traitement spécifiques et une traçabilité renforcée.",
+      "sources": [
+        {
+          "titre": "Code de l'environnement - Article R541-8",
+          "url": "https://www.legifrance.gouv.fr/",
+          "annee": 2020,
+          "type": "loi"
+        }
+      ],
+      "categorie": "dechets",
+      "tags": ["danger", "toxique", "réglementation", "traitement"],
+      "relations": [
+        { "cible": "dechet", "type": "est_type_de", "score": 90 },
+        { "cible": "pollution", "type": "contribue_a", "score": 80, "direction": "positif" }
+      ],
+      "exemples": [
+        "Piles et batteries",
+        "Peintures et solvants",
+        "Huiles usagées",
+        "Déchets d'équipements électroniques"
+      ],
+      "synonymes": ["DID (Déchets Industriels Dangereux)", "déchets spéciaux"]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+import { useState, useCallback, useRef, useEffect } from 'react';
+import Fuse from 'fuse.js';
+import type { Definition } from '../../types';
+
+interface SearchBarProps {
+  definitions: Definition[];
+  onSelectResult: (id: string) => void;
+}
+
+interface SearchResult {
+  item: Definition;
+  score?: number;
+}
+
+export function SearchBar({ definitions, onSelectResult }: SearchBarProps) {
+  const [query, setQuery] = useState('');
+  const [results, setResults] = useState<SearchResult[]>([]);
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  // Configurer Fuse.js pour la recherche full-text
+  const fuse = useRef(
+    new Fuse(definitions, {
+      keys: [
+        { name: 'terme', weight: 2 },
+        { name: 'definition', weight: 1 },
+        { name: 'tags', weight: 1.5 },
+        { name: 'synonymes', weight: 1.5 },
+      ],
+      threshold: 0.4,
+      includeScore: true,
+      minMatchCharLength: 2,
+    })
+  );
+
+  // Mettre à jour l'index Fuse quand les définitions changent
+  useEffect(() => {
+    fuse.current = new Fuse(definitions, {
+      keys: [
+        { name: 'terme', weight: 2 },
+        { name: 'definition', weight: 1 },
+        { name: 'tags', weight: 1.5 },
+        { name: 'synonymes', weight: 1.5 },
+      ],
+      threshold: 0.4,
+      includeScore: true,
+      minMatchCharLength: 2,
+    });
+  }, [definitions]);
+
+  // Recherche avec debounce
+  const handleSearch = useCallback(
+    (value: string) => {
+      setQuery(value);
+
+      if (value.length < 2) {
+        setResults([]);
+        setIsOpen(false);
+        return;
+      }
+
+      const searchResults = fuse.current.search(value).slice(0, 8);
+      setResults(searchResults);
+      setIsOpen(searchResults.length > 0);
+      setSelectedIndex(0);
+    },
+    []
+  );
+
+  // Fermer la liste au clic extérieur
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (containerRef.current && !containerRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  // Navigation clavier
+  const handleKeyDown = useCallback(
+    (e: React.KeyboardEvent) => {
+      if (!isOpen) return;
+
+      switch (e.key) {
+        case 'ArrowDown':
+          e.preventDefault();
+          setSelectedIndex((prev) => Math.min(prev + 1, results.length - 1));
+          break;
+        case 'ArrowUp':
+          e.preventDefault();
+          setSelectedIndex((prev) => Math.max(prev - 1, 0));
+          break;
+        case 'Enter':
+          e.preventDefault();
+          if (results[selectedIndex]) {
+            onSelectResult(results[selectedIndex].item.id);
+            setQuery('');
+            setIsOpen(false);
+          }
+          break;
+        case 'Escape':
+          setIsOpen(false);
+          break;
+      }
+    },
+    [isOpen, results, selectedIndex, onSelectResult]
+  );
+
+  const handleResultClick = useCallback(
+    (id: string) => {
+      onSelectResult(id);
+      setQuery('');
+      setIsOpen(false);
+    },
+    [onSelectResult]
+  );
+
+  return (
+    <div ref={containerRef} className="relative w-full max-w-md">
+      <div className="relative">
+        <svg
+          className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+          />
+        </svg>
+        <input
+          ref={inputRef}
+          type="text"
+          value={query}
+          onChange={(e) => handleSearch(e.target.value)}
+          onKeyDown={handleKeyDown}
+          onFocus={() => query.length >= 2 && results.length > 0 && setIsOpen(true)}
+          placeholder="Rechercher une définition..."
+          className="w-full pl-10 pr-4 py-2.5 bg-white border border-gray-300 rounded-lg
+                     focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent
+                     text-gray-800 placeholder-gray-400"
+        />
+        {query && (
+          <button
+            onClick={() => {
+              setQuery('');
+              setResults([]);
+              setIsOpen(false);
+              inputRef.current?.focus();
+            }}
+            className="absolute right-3 top-1/2 -translate-y-1/2 p-1 hover:bg-gray-100 rounded"
+          >
+            <svg className="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        )}
+      </div>
+
+      {/* Résultats */}
+      {isOpen && results.length > 0 && (
+        <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden z-50">
+          <ul className="max-h-80 overflow-y-auto">
+            {results.map((result, index) => (
+              <li key={result.item.id}>
+                <button
+                  onClick={() => handleResultClick(result.item.id)}
+                  className={`
+                    w-full px-4 py-3 text-left hover:bg-gray-50 transition-colors
+                    ${index === selectedIndex ? 'bg-emerald-50' : ''}
+                    ${index !== results.length - 1 ? 'border-b border-gray-100' : ''}
+                  `}
+                >
+                  <p className="font-medium text-gray-800">{result.item.terme}</p>
+                  <p className="text-sm text-gray-500 truncate mt-0.5">
+                    {result.item.definition.slice(0, 100)}...
+                  </p>
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* Aucun résultat */}
+      {isOpen && query.length >= 2 && results.length === 0 && (
+        <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 p-4 z-50">
+          <p className="text-gray-500 text-center">Aucune définition trouvée pour "{query}"</p>
+        </div>
+      )}
+    </div>
+  );
+}

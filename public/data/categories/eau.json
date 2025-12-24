@@ -1,0 +1,139 @@
+{
+  "id": "eau",
+  "nom": "Ressources en eau",
+  "description": "Gestion de l'eau, qualité et préservation",
+  "couleur": "#3b82f6",
+  "definitions": [
+    {
+      "id": "cycle-eau",
+      "terme": "Cycle de l'eau",
+      "definition": "Circulation continue de l'eau dans l'hydrosphère, sous ses différents états (liquide, solide, gazeux). Il comprend l'évaporation des océans et surfaces continentales, la formation de nuages, les précipitations, le ruissellement, l'infiltration et le retour vers les océans via les cours d'eau et les nappes souterraines.",
+      "sources": [
+        {
+          "titre": "Le cycle de l'eau",
+          "auteur": "CNRS",
+          "url": "https://www.cnrs.fr/",
+          "annee": 2020,
+          "type": "institution"
+        },
+        {
+          "titre": "Water cycle",
+          "auteur": "USGS",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+          "annee": 2022,
+          "type": "institution"
+        }
+      ],
+      "categorie": "eau",
+      "tags": ["hydrologie", "précipitations", "évaporation", "nappes"],
+      "relations": [
+        { "cible": "ressource-eau", "type": "renvoie_a", "score": 90 },
+        { "cible": "nappe-phreatique", "type": "renvoie_a", "score": 80 },
+        { "cible": "bassin-versant", "type": "renvoie_a", "score": 75 }
+      ],
+      "exemples": [
+        "L'eau de pluie qui s'infiltre dans le sol pour alimenter les nappes",
+        "L'évaporation des océans qui forme les nuages"
+      ],
+      "synonymes": ["cycle hydrologique"]
+    },
+    {
+      "id": "stress-hydrique",
+      "terme": "Stress hydrique",
+      "definition": "Situation où la demande en eau dépasse les ressources disponibles ou lorsque la mauvaise qualité de l'eau en limite l'usage. Selon l'ONU, un territoire est en stress hydrique lorsque les prélèvements annuels dépassent 25% des ressources renouvelables, et en pénurie au-delà de 40%.",
+      "sources": [
+        {
+          "titre": "World Water Development Report 2021",
+          "auteur": "UNESCO",
+          "url": "https://www.unesco.org/reports/wwdr/2021/en",
+          "annee": 2021,
+          "type": "rapport"
+        },
+        {
+          "titre": "Aqueduct Water Risk Atlas",
+          "auteur": "World Resources Institute",
+          "url": "https://www.wri.org/aqueduct",
+          "annee": 2023,
+          "type": "institution"
+        }
+      ],
+      "categorie": "eau",
+      "tags": ["pénurie", "disponibilité", "risque", "sécheresse"],
+      "relations": [
+        { "cible": "changement-climatique", "type": "renvoie_a", "score": 80 },
+        { "cible": "ressource-eau", "type": "oppose_a", "score": 85 },
+        { "cible": "gestion-eau", "type": "renvoie_a", "score": 75 }
+      ],
+      "exemples": [
+        "Le bassin méditerranéen, région à fort stress hydrique",
+        "Les épisodes de sécheresse estivale en France"
+      ],
+      "synonymes": ["tension sur l'eau", "pénurie d'eau"]
+    },
+    {
+      "id": "eau-grise",
+      "terme": "Eaux grises",
+      "definition": "Eaux usées domestiques faiblement polluées, issues des lavabos, douches, baignoires et lave-linge (hors toilettes et cuisine). Elles peuvent être traitées et réutilisées pour des usages ne nécessitant pas d'eau potable : arrosage, chasses d'eau, nettoyage.",
+      "sources": [
+        {
+          "titre": "Réutilisation des eaux usées traitées",
+          "auteur": "ADEME",
+          "url": "https://www.ademe.fr/",
+          "annee": 2021,
+          "type": "institution"
+        },
+        {
+          "titre": "Arrêté du 25 juin 2014 relatif à l'utilisation d'eaux issues du traitement d'épuration des eaux résiduaires urbaines",
+          "url": "https://www.legifrance.gouv.fr/",
+          "annee": 2014,
+          "type": "loi"
+        }
+      ],
+      "categorie": "eau",
+      "tags": ["réutilisation", "traitement", "économie", "domestique"],
+      "relations": [
+        { "cible": "economie-circulaire", "type": "contribue_a", "score": 75, "direction": "positif" },
+        { "cible": "eau-noire", "type": "proche_de", "score": 70 },
+        { "cible": "gestion-eau", "type": "renvoie_a", "score": 80 }
+      ],
+      "exemples": [
+        "Récupération de l'eau de douche pour les WC",
+        "Arrosage du jardin avec les eaux de lavage"
+      ]
+    },
+    {
+      "id": "empreinte-eau",
+      "terme": "Empreinte eau",
+      "definition": "Volume total d'eau douce utilisé pour produire les biens et services consommés par un individu, une entreprise ou un territoire. Elle inclut l'eau bleue (prélevée dans les nappes et cours d'eau), l'eau verte (pluie stockée dans les sols) et l'eau grise (volume nécessaire pour diluer les polluants).",
+      "sources": [
+        {
+          "titre": "The Water Footprint Assessment Manual",
+          "auteur": "Water Footprint Network",
+          "url": "https://waterfootprint.org/en/resources/publications/water-footprint-assessment-manual/",
+          "annee": 2011,
+          "type": "rapport"
+        },
+        {
+          "titre": "L'empreinte eau",
+          "auteur": "WWF France",
+          "url": "https://www.wwf.fr/",
+          "annee": 2020,
+          "type": "institution"
+        }
+      ],
+      "categorie": "eau",
+      "tags": ["indicateur", "consommation", "virtuelle", "bilan"],
+      "relations": [
+        { "cible": "empreinte-carbone", "type": "proche_de", "score": 80 },
+        { "cible": "empreinte-ecologique", "type": "proche_de", "score": 75 },
+        { "cible": "stress-hydrique", "type": "contribue_a", "score": 70, "direction": "positif" }
+      ],
+      "exemples": [
+        "1 kg de bœuf = ~15 000 litres d'eau",
+        "1 jean = ~8 000 litres d'eau",
+        "1 tasse de café = ~140 litres d'eau"
+      ],
+      "synonymes": ["water footprint", "eau virtuelle"]
+    }
+  ]
+}
