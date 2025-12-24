@@ -54,6 +54,9 @@ export async function sendChatMessage(
 }
 
 export function getApiKey(): string | null {
+  // Priorité : variable d'environnement, puis localStorage
+  const envKey = import.meta.env.VITE_MISTRAL_API_KEY;
+  if (envKey) return envKey;
   return localStorage.getItem('mistral_api_key');
 }
 
