@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { useChat } from '../../hooks/useChat';
-import { getApiKey, setApiKey, removeApiKey } from '../../utils/mistralClient';
+import { setApiKey, removeApiKey } from '../../utils/mistralClient';
 import type { Definition } from '../../types';
 
 interface ChatPanelProps {
