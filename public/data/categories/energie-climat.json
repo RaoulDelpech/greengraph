@@ -7,37 +7,113 @@
     {
       "id": "changement-climatique",
       "terme": "Changement climatique",
-      "definition": "Modification durable des paramètres statistiques du climat mondial ou régional (température, précipitations, vents). Dans le contexte actuel, désigne principalement le réchauffement climatique d'origine anthropique, causé par l'augmentation des concentrations de gaz à effet de serre dans l'atmosphère depuis l'ère industrielle.",
+      "resume": "Réchauffement de la planète causé par les émissions humaines de gaz à effet de serre depuis l'ère industrielle, entraînant des bouleversements environnementaux majeurs.",
+      "definition": "Le changement climatique désigne la modification durable des paramètres statistiques du climat mondial ou régional (température, précipitations, vents, événements extrêmes). Dans le contexte actuel, il désigne principalement le réchauffement climatique d'origine anthropique, causé par l'augmentation des concentrations de gaz à effet de serre (CO2, CH4, N2O) dans l'atmosphère depuis la révolution industrielle. Le GIEC qualifie l'origine humaine de ce réchauffement comme 'sans équivoque' (AR6, 2021).",
+      "definitionEtendue": {
+        "introduction": "La science du climat a émergé au XIXe siècle avec les travaux de Joseph Fourier (effet de serre, 1824), John Tyndall (absorption infrarouge du CO2, 1859) et Svante Arrhenius (première estimation du réchauffement lié au CO2, 1896). Le suivi systématique du CO2 atmosphérique débute en 1958 avec Charles Keeling à Mauna Loa. Le Groupe d'experts intergouvernemental sur l'évolution du climat (GIEC) est créé en 1988 sous l'égide de l'ONU. Son premier rapport (1990) a conduit à la création de la Convention-cadre des Nations Unies sur les changements climatiques (CCNUCC, 1992).",
+        "mecanismes": "L'effet de serre naturel maintient la température terrestre à +15°C au lieu de -18°C. L'augmentation des GES d'origine anthropique renforce cet effet. Le CO2 (combustion fossiles, déforestation) représente 65% du forçage radiatif additionnel, le méthane 16%, le N2O 6%. Le système climatique présente des rétroactions : positives (fonte des glaces réduisant l'albédo, libération de méthane du pergélisol) et négatives (absorption océanique de CO2). Les modèles climatiques (GCMs) simulent ces interactions pour projeter les évolutions futures.",
+        "contexteScientifique": "Le 6e rapport du GIEC (AR6, 2021-2023) synthétise 14 000 études scientifiques. Il conclut que le réchauffement de 1,1°C depuis 1850-1900 est attribuable aux activités humaines avec un niveau de confiance 'sans équivoque'. Chaque dixième de degré compte : les impacts à +1,5°C sont significativement moindres qu'à +2°C. Les points de basculement (tipping points) identifiés incluent : effondrement de la calotte antarctique ouest, dépérissement de l'Amazonie, arrêt de la circulation thermohaline atlantique. Le budget carbone restant pour limiter le réchauffement à 1,5°C avec 50% de chances était estimé à 500 GtCO2 en 2020.",
+        "enjeuxActuels": "L'Accord de Paris (2015) fixe l'objectif de limiter le réchauffement 'bien en dessous de 2°C' et de poursuivre les efforts pour 1,5°C. Les contributions nationales (NDCs) actuelles mènent à un réchauffement de 2,5-2,9°C. Le rapport sur l'écart des émissions (UNEP, 2023) montre qu'une réduction de 42% des émissions est nécessaire d'ici 2030 pour rester sous 1,5°C. Les enjeux portent sur : justice climatique (responsabilité historique vs vulnérabilité), financement de l'adaptation (100 Md$/an promis), pertes et dommages (fonds créé à la COP27), et transition juste (reconversion des travailleurs des secteurs fossiles).",
+        "perspectives": "Les scénarios du GIEC (SSP) projettent des trajectoires allant de +1,4°C (SSP1-1.9, durabilité forte) à +4,4°C (SSP5-8.5, croissance fossile) d'ici 2100. Les technologies de captage du carbone (CCUS, DAC) sont considérées nécessaires dans la plupart des scénarios 1,5°C mais restent à déployer à grande échelle. L'adaptation devient incontournable : systèmes d'alerte précoce, infrastructure résiliente, migration climatique. Le concept de 'dépassement temporaire' (overshoot) du 1,5°C avec retour ultérieur est de plus en plus discuté. La géo-ingénierie (injection d'aérosols stratosphériques) reste controversée."
+      },
       "sources": [
         {
-          "titre": "Climate Change 2021: The Physical Science Basis (AR6)",
-          "auteur": "GIEC",
+          "titre": "Climate Change 2021: The Physical Science Basis (AR6 WG1)",
+          "auteur": "IPCC",
           "url": "https://www.ipcc.ch/report/ar6/wg1/",
           "annee": 2021,
-          "type": "rapport"
+          "type": "rapport_institution",
+          "institution": "GIEC",
+          "niveauPreuve": "elevé"
         },
         {
-          "titre": "Convention-cadre des Nations Unies sur les changements climatiques (CCNUCC)",
-          "auteur": "Nations Unies",
-          "url": "https://unfccc.int/",
-          "annee": 1992,
-          "type": "loi"
+          "titre": "Climate Change 2023: Synthesis Report (AR6)",
+          "auteur": "IPCC",
+          "url": "https://www.ipcc.ch/report/ar6/syr/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "institution": "GIEC",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The Causes of Climate Change",
+          "auteur": "NASA",
+          "url": "https://climate.nasa.gov/causes/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "institution": "NASA",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Emissions Gap Report 2023",
+          "auteur": "UNEP",
+          "url": "https://www.unep.org/resources/emissions-gap-report-2023",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "institution": "PNUE",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Accord de Paris",
+          "auteur": "CCNUCC",
+          "url": "https://unfccc.int/process-and-meetings/the-paris-agreement",
+          "annee": 2015,
+          "type": "loi",
+          "institution": "Nations Unies",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Exceeding 1.5°C global warming could trigger multiple climate tipping points",
+          "auteur": "Armstrong McKay, D.I. et al.",
+          "doi": "10.1126/science.abn7950",
+          "journal": "Science",
+          "annee": 2022,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
         }
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "energie-climat",
       "tags": ["réchauffement", "GES", "GIEC", "température"],
+      "motsClésScientifiques": ["forçage radiatif", "rétroactions", "points de basculement", "budget carbone", "scénarios SSP", "attribution", "adaptation", "atténuation"],
       "relations": [
         { "cible": "gaz-effet-serre", "type": "renvoie_a", "score": 95 },
         { "cible": "empreinte-carbone", "type": "renvoie_a", "score": 85 },
         { "cible": "neutralite-carbone", "type": "oppose_a", "score": 80 },
-        { "cible": "erosion-biodiversite", "type": "contribue_a", "score": 75, "direction": "positif" }
+        { "cible": "erosion-biodiversite", "type": "contribue_a", "score": 75, "direction": "positif" },
+        { "cible": "transition-energetique", "type": "renvoie_a", "score": 85 },
+        { "cible": "energie-fossile", "type": "renvoie_a", "score": 90 }
       ],
       "exemples": [
-        "Hausse de 1,1°C de la température moyenne mondiale depuis 1850",
-        "Élévation du niveau des mers",
-        "Intensification des événements météorologiques extrêmes"
+        "Hausse de 1,1°C de la température moyenne mondiale depuis 1850-1900",
+        "Élévation du niveau des mers de 20 cm depuis 1900",
+        "Intensification des événements météorologiques extrêmes (canicules, inondations)",
+        "Recul des glaciers alpins de 50% depuis 1850"
       ],
-      "synonymes": ["dérèglement climatique", "réchauffement climatique"]
+      "synonymes": ["dérèglement climatique", "réchauffement climatique", "crise climatique"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "+1,1°C de réchauffement depuis l'ère préindustrielle (2011-2020)",
+          "source": "GIEC AR6",
+          "annee": 2021
+        },
+        {
+          "valeur": "420 ppm de CO2 atmosphérique (mai 2023) vs 280 ppm préindustriel",
+          "source": "NOAA Mauna Loa",
+          "annee": 2023
+        },
+        {
+          "valeur": "Budget carbone restant pour 1,5°C : ~250 GtCO2 (50% de chances)",
+          "source": "GIEC AR6",
+          "annee": 2023
+        },
+        {
+          "valeur": "Émissions mondiales : 57,4 GtCO2eq/an (2022)",
+          "source": "UNEP Emissions Gap Report",
+          "annee": 2023
+        }
+      ]
     },
     {
       "id": "gaz-effet-serre",

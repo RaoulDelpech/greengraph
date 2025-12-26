@@ -7,36 +7,102 @@
     {
       "id": "developpement-durable",
       "terme": "Développement durable",
-      "definition": "Mode de développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs. Il repose sur trois piliers interdépendants : économique (viabilité), social (équité) et environnemental (vivabilité), auxquels s'ajoute parfois un quatrième pilier culturel ou de gouvernance.",
+      "resume": "Mode de développement conciliant progrès économique, justice sociale et préservation de l'environnement, pour les générations présentes et futures.",
+      "definition": "Le développement durable est un mode de développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs (rapport Brundtland, 1987). Il repose sur trois piliers interdépendants et indissociables : économique (viabilité, création de richesse), social (équité, cohésion) et environnemental (vivabilité, préservation des ressources). L'Agenda 2030 des Nations Unies décline ce concept en 17 Objectifs de Développement Durable (ODD) et 169 cibles.",
+      "definitionEtendue": {
+        "introduction": "Le concept de développement durable émerge dans les années 1970, dans le sillage des premières alertes environnementales (Silent Spring de Rachel Carson, 1962 ; rapport Meadows 'Limits to Growth', 1972). Le terme 'sustainable development' est formalisé dans le rapport 'Notre avenir à tous' (1987) de la Commission Brundtland. Le Sommet de la Terre de Rio (1992) marque son institutionnalisation internationale avec l'Agenda 21 et les conventions sur le climat, la biodiversité et la désertification. Le concept a évolué des 8 Objectifs du Millénaire (2000-2015) aux 17 ODD actuels (2015-2030).",
+        "mecanismes": "Le développement durable opère à travers l'intégration systémique des trois dimensions : ne pas privilégier la croissance économique au détriment de l'environnement ou de l'équité sociale. Les outils incluent : évaluations d'impact (études environnementales, sociales), planification territoriale (Agendas 21), instruments économiques (fiscalité écologique, marchés de permis), réglementation (normes environnementales), et incitations (labels, certifications). L'approche 'think global, act local' articule gouvernance mondiale et actions territoriales.",
+        "contexteScientifique": "Le développement durable fait l'objet de débats conceptuels. La distinction entre 'soutenabilité faible' (substituabilité entre capitaux naturel et produit) et 'soutenabilité forte' (irréductibilité du capital naturel critique) structure les approches économiques. Le cadre des 'limites planétaires' (Rockström et al., 2009) quantifie les seuils à ne pas dépasser pour 9 processus biophysiques. Le 'Doughnut Economics' de Kate Raworth (2017) propose un modèle intégrant plancher social et plafond écologique. Les critiques portent sur le risque d'oxymore ('développement' vs 'durable'), le greenwashing institutionnel, et l'insuffisance des ODD face aux urgences.",
+        "enjeuxActuels": "Le bilan 2023 des ODD est préoccupant : seuls 12% des 169 cibles sont en bonne voie. Les crises (COVID-19, guerres, inflation) ont provoqué des reculs sur la pauvreté et la faim. Les tensions entre objectifs (croissance vs climat, énergie vs biodiversité) appellent des arbitrages. Les enjeux clés incluent : financement (gap de 4 000 Mds$/an pour les pays en développement), cohérence des politiques publiques, rôle des entreprises (CSRD, taxonomie européenne), indicateurs alternatifs au PIB, et participation citoyenne. Le Sommet SDG 2023 a appelé à une 'décennie d'action'.",
+        "perspectives": "L'après-2030 est en préparation avec le 'Pacte pour l'avenir' discuté au Sommet du Futur (ONU, 2024). Les évolutions conceptuelles incluent : 'régénération' au-delà de la durabilité, 'bien-vivre' (buen vivir) inspiré des cosmologies autochtones, droits de la nature, et justice intergénérationnelle. La comptabilité extra-financière (ESRS, TNFD) et la taxonomie verte deviennent des leviers réglementaires majeurs. Le débat décroissance vs croissance verte structure les visions du futur. L'intelligence artificielle pour le développement durable (AI for SDGs) émerge comme nouveau champ."
+      },
       "sources": [
         {
           "titre": "Notre avenir à tous (Rapport Brundtland)",
           "auteur": "Commission mondiale sur l'environnement et le développement",
           "url": "https://sustainabledevelopment.un.org/content/documents/5987our-common-future.pdf",
           "annee": 1987,
-          "type": "rapport"
+          "type": "rapport_institution",
+          "institution": "ONU",
+          "niveauPreuve": "elevé"
         },
         {
-          "titre": "Objectifs de développement durable (ODD)",
+          "titre": "Transformer notre monde : le Programme de développement durable à l'horizon 2030",
           "auteur": "Nations Unies",
-          "url": "https://sdgs.un.org/goals",
+          "url": "https://sdgs.un.org/2030agenda",
           "annee": 2015,
-          "type": "institution"
+          "type": "loi",
+          "institution": "Assemblée générale ONU",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "A safe operating space for humanity",
+          "auteur": "Rockström, J. et al.",
+          "doi": "10.1038/461472a",
+          "journal": "Nature",
+          "annee": 2009,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Doughnut Economics: Seven Ways to Think Like a 21st-Century Economist",
+          "auteur": "Raworth, K.",
+          "annee": 2017,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The Sustainable Development Goals Report 2023",
+          "auteur": "Nations Unies",
+          "url": "https://unstats.un.org/sdgs/report/2023/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "institution": "ONU",
+          "niveauPreuve": "elevé"
         }
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "developpement-durable",
       "tags": ["Brundtland", "trois piliers", "ODD", "intergénérationnel"],
+      "motsClésScientifiques": ["soutenabilité forte", "soutenabilité faible", "limites planétaires", "capital naturel", "Agenda 2030", "ODD", "gouvernance", "intergénérationnel"],
       "relations": [
         { "cible": "economie-circulaire", "type": "renvoie_a", "score": 85 },
         { "cible": "rse", "type": "renvoie_a", "score": 80 },
         { "cible": "transition-ecologique", "type": "proche_de", "score": 90 },
-        { "cible": "biodiversite", "type": "renvoie_a", "score": 75 }
+        { "cible": "biodiversite", "type": "renvoie_a", "score": 75 },
+        { "cible": "changement-climatique", "type": "renvoie_a", "score": 80 },
+        { "cible": "limites-planetaires", "type": "renvoie_a", "score": 85 }
       ],
       "exemples": [
         "Les 17 Objectifs de Développement Durable de l'ONU",
-        "Agenda 21 local d'une collectivité"
+        "Agenda 21 local d'une collectivité",
+        "Taxonomie européenne des activités durables",
+        "Certification B Corp pour les entreprises"
       ],
-      "synonymes": ["soutenabilité", "durabilité"]
+      "synonymes": ["soutenabilité", "durabilité", "sustainable development"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "17 Objectifs de Développement Durable et 169 cibles",
+          "source": "Agenda 2030 ONU",
+          "annee": 2015
+        },
+        {
+          "valeur": "Seuls 12% des cibles ODD sont en bonne voie (2023)",
+          "source": "UN SDG Report",
+          "annee": 2023
+        },
+        {
+          "valeur": "Gap de financement ODD : 4 000 milliards $/an pour les PED",
+          "source": "UNCTAD",
+          "annee": 2023
+        },
+        {
+          "valeur": "6 des 9 limites planétaires déjà dépassées",
+          "source": "Stockholm Resilience Centre",
+          "annee": 2023
+        }
+      ]
     },
     {
       "id": "rse",

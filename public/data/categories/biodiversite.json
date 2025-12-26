@@ -7,36 +7,100 @@
     {
       "id": "biodiversite",
       "terme": "Biodiversité",
-      "definition": "Variabilité des organismes vivants de toute origine, y compris les écosystèmes terrestres, marins et autres écosystèmes aquatiques, ainsi que les complexes écologiques dont ils font partie. Elle comprend la diversité au sein des espèces (génétique), entre les espèces, et des écosystèmes.",
+      "resume": "Variabilité du vivant à trois niveaux : gènes, espèces et écosystèmes. Fondement du fonctionnement de la biosphère et source de services essentiels pour l'humanité.",
+      "definition": "La biodiversité désigne la variabilité des organismes vivants de toute origine, y compris les écosystèmes terrestres, marins et autres écosystèmes aquatiques, ainsi que les complexes écologiques dont ils font partie. Elle comprend trois niveaux hiérarchiques : la diversité génétique (au sein des espèces), la diversité spécifique (entre les espèces), et la diversité écosystémique (entre les écosystèmes). Cette définition, adoptée par la Convention sur la diversité biologique (1992), constitue le cadre international de référence.",
+      "definitionEtendue": {
+        "introduction": "Le terme 'biodiversité' est un néologisme créé en 1985 par Walter G. Rosen lors de la préparation du National Forum on BioDiversity, puis popularisé par le biologiste Edward O. Wilson dans son ouvrage éponyme (1988). Avant cette conceptualisation, les naturalistes parlaient de 'diversité du vivant' ou de 'richesse spécifique'. Le terme a acquis une dimension politique majeure avec le Sommet de la Terre de Rio (1992) et l'adoption de la Convention sur la diversité biologique (CDB), ratifiée par 196 États.",
+        "mecanismes": "La biodiversité résulte de 3,8 milliards d'années d'évolution. Elle est générée par les mutations génétiques, la recombinaison sexuée et la dérive génétique, puis façonnée par la sélection naturelle. À l'échelle écologique, elle dépend de processus comme la spéciation, l'extinction, la dispersion et les interactions entre espèces (prédation, compétition, mutualisme). Les gradients latitudinaux de biodiversité montrent une richesse maximale dans les zones tropicales, expliquée par plusieurs hypothèses : énergie disponible, stabilité climatique historique, et temps d'évolution plus long.",
+        "contexteScientifique": "La biodiversité fait l'objet de plusieurs cadres conceptuels. L'hypothèse de la diversité-stabilité (Elton, 1958 ; Tilman, 1996) postule que les écosystèmes plus diversifiés sont plus résilients. Le concept de biodiversité fonctionnelle s'intéresse aux rôles écologiques des espèces plutôt qu'à leur seul nombre. La biologie de la conservation (Soulé, 1985) a formalisé l'étude scientifique de la préservation de la biodiversité. Plus récemment, le cadre IPBES distingue 'valeurs instrumentales' (utilité pour l'homme), 'valeurs intrinsèques' (valeur en soi) et 'valeurs relationnelles' (liens culturels homme-nature).",
+        "enjeuxActuels": "La biodiversité traverse une crise majeure qualifiée de 'sixième extinction de masse'. Le rapport IPBES (2019) estime qu'un million d'espèces sont menacées d'extinction. Les cinq pressions majeures identifiées sont : changement d'usage des terres et des mers (perte d'habitats), surexploitation des ressources, changement climatique, pollutions, et espèces exotiques envahissantes. Le Cadre mondial de la biodiversité de Kunming-Montréal (COP15, 2022) fixe l'objectif de protéger 30% des terres et des mers d'ici 2030 ('30x30').",
+        "perspectives": "Les approches de conservation évoluent vers des modèles intégratifs combinant aires protégées, restauration écologique et intégration de la biodiversité dans les paysages productifs. Le concept de 'solutions fondées sur la nature' (NbS) gagne en importance pour répondre simultanément aux crises climatique et de biodiversité. L'ADN environnemental (eDNA) révolutionne le suivi de la biodiversité. Les débats portent sur l'équité dans la conservation (droits des peuples autochtones), le rôle controversé des mécanismes de marché (paiements pour services écosystémiques, compensation écologique), et la gouvernance mondiale post-2030."
+      },
       "sources": [
         {
           "titre": "Convention sur la diversité biologique (CDB)",
           "auteur": "Nations Unies",
           "url": "https://www.cbd.int/convention/text/",
           "annee": 1992,
-          "type": "loi"
+          "type": "loi",
+          "institution": "Nations Unies",
+          "niveauPreuve": "elevé"
         },
         {
-          "titre": "Qu'est-ce que la biodiversité ?",
-          "auteur": "MNHN",
-          "url": "https://www.mnhn.fr/fr/qu-est-ce-que-la-biodiversite",
-          "annee": 2021,
-          "type": "institution"
+          "titre": "Global assessment report on biodiversity and ecosystem services",
+          "auteur": "IPBES",
+          "url": "https://ipbes.net/global-assessment",
+          "annee": 2019,
+          "type": "rapport_institution",
+          "institution": "IPBES",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Biodiversity and ecosystem functioning: current knowledge and future challenges",
+          "auteur": "Loreau, M. et al.",
+          "doi": "10.1126/science.1064088",
+          "journal": "Science",
+          "annee": 2001,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Biodiversity",
+          "auteur": "Wilson, E.O. (ed.)",
+          "annee": 1988,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Kunming-Montreal Global Biodiversity Framework",
+          "auteur": "CBD COP15",
+          "url": "https://www.cbd.int/gbf/",
+          "annee": 2022,
+          "type": "loi",
+          "institution": "Convention sur la diversité biologique",
+          "niveauPreuve": "elevé"
         }
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
       "tags": ["diversité", "espèces", "écosystèmes", "génétique"],
+      "motsClésScientifiques": ["diversité génétique", "diversité spécifique", "diversité écosystémique", "sixième extinction", "services écosystémiques", "biologie de la conservation"],
       "relations": [
         { "cible": "ecosysteme", "type": "renvoie_a", "score": 90 },
-        { "cible": "espece", "type": "renvoie_a", "score": 85 },
-        { "cible": "services-ecosystemiques", "type": "renvoie_a", "score": 80 },
-        { "cible": "erosion-biodiversite", "type": "oppose_a", "score": 90 }
+        { "cible": "services-ecosystemiques", "type": "renvoie_a", "score": 85 },
+        { "cible": "erosion-biodiversite", "type": "oppose_a", "score": 95 },
+        { "cible": "aire-protegee", "type": "renvoie_a", "score": 80 },
+        { "cible": "changement-climatique", "type": "proche_de", "score": 75 }
       ],
       "exemples": [
         "La forêt amazonienne abrite environ 10% de toutes les espèces connues",
-        "Un gramme de sol peut contenir jusqu'à 10 milliards de micro-organismes"
+        "Un gramme de sol peut contenir jusqu'à 10 milliards de micro-organismes",
+        "Les récifs coralliens couvrent 0,1% des océans mais abritent 25% des espèces marines"
       ],
-      "synonymes": ["diversité biologique", "diversité du vivant"]
+      "synonymes": ["diversité biologique", "diversité du vivant"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "Environ 8,7 millions d'espèces estimées sur Terre (dont 86% non décrites)",
+          "source": "Mora et al., PLoS Biology",
+          "annee": 2011
+        },
+        {
+          "valeur": "1 million d'espèces menacées d'extinction",
+          "source": "IPBES Global Assessment",
+          "annee": 2019
+        },
+        {
+          "valeur": "Déclin de 69% des populations de vertébrés sauvages depuis 1970",
+          "source": "WWF Living Planet Report",
+          "annee": 2022
+        },
+        {
+          "valeur": "Objectif 30x30 : protéger 30% des terres et mers d'ici 2030",
+          "source": "Cadre Kunming-Montréal",
+          "annee": 2022
+        }
+      ]
     },
     {
       "id": "ecosysteme",
