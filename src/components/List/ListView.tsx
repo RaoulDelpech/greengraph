@@ -1,4 +1,5 @@
-import { useState, useCallback, useRef, TouchEvent } from 'react';
+import { useState, useCallback, useRef } from 'react';
+import type { TouchEvent } from 'react';
 import type { Definition, Categorie } from '../../types';
 
 interface ListViewProps {
