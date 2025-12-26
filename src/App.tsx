@@ -1,10 +1,12 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import { useDefinitions } from './hooks/useDefinitions';
+import { useKeyboardNavigation } from './hooks/useKeyboardNavigation';
 import { Header, Sidebar } from './components/Layout';
 import { GraphView } from './components/Graph';
 import { ListView } from './components/List';
 import { DefinitionPanel } from './components/Definition';
 import { ChatPanel } from './components/Chat';
+import type { SearchBarHandle } from './components/Search';
 
 function App() {
   const { definitions, categories, loading, error, getDefinitionById } = useDefinitions();
@@ -14,6 +16,21 @@ function App() {
   const [showDefinitionPanel, setShowDefinitionPanel] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [showMobileSidebar, setShowMobileSidebar] = useState(false);
+  const searchBarRef = useRef<SearchBarHandle>(null);
+
+  // Navigation clavier globale
+  useKeyboardNavigation({
+    onFocusSearch: () => searchBarRef.current?.focus(),
+    onClosePanel: () => {
+      if (isChatOpen) {
+        setIsChatOpen(false);
+      } else if (showDefinitionPanel) {
+        setShowDefinitionPanel(false);
+      } else if (showMobileSidebar) {
+        setShowMobileSidebar(false);
+      }
+    },
+  });
 
   // Détection automatique mobile/desktop
   useEffect(() => {
@@ -106,6 +123,7 @@ function App() {
     <div className="h-screen flex flex-col bg-slate-50 overflow-hidden">
       {/* Header avec bouton hamburger mobile */}
       <Header
+        ref={searchBarRef}
         definitions={definitions}
         onSelectDefinition={handleFocusDefinition}
         isMobile={isMobile}

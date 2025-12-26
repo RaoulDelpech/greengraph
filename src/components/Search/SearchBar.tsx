@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef, useEffect } from 'react';
+import { useState, useCallback, useRef, useEffect, forwardRef, useImperativeHandle } from 'react';
 import Fuse from 'fuse.js';
 import type { Definition } from '../../types';
 
@@ -7,18 +7,32 @@ interface SearchBarProps {
   onSelectResult: (id: string) => void;
 }
 
+export interface SearchBarHandle {
+  focus: () => void;
+}
+
 interface SearchResult {
   item: Definition;
   score?: number;
 }
 
-export function SearchBar({ definitions, onSelectResult }: SearchBarProps) {
+export const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar(
+  { definitions, onSelectResult },
+  ref
+) {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<SearchResult[]>([]);
   const [isOpen, setIsOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+
+  // Exposer la méthode focus() via ref
+  useImperativeHandle(ref, () => ({
+    focus: () => {
+      inputRef.current?.focus();
+    },
+  }));
 
   // Configurer Fuse.js pour la recherche full-text
   const fuse = useRef(
@@ -143,11 +157,20 @@ export function SearchBar({ definitions, onSelectResult }: SearchBarProps) {
           onChange={(e) => handleSearch(e.target.value)}
           onKeyDown={handleKeyDown}
           onFocus={() => query.length >= 2 && results.length > 0 && setIsOpen(true)}
-          placeholder="Rechercher une définition..."
+          placeholder="Rechercher... (appuyer sur /)"
+          aria-label="Rechercher une définition"
+          aria-describedby="search-hint"
+          aria-expanded={isOpen}
+          aria-controls="search-results"
+          aria-autocomplete="list"
+          role="combobox"
           className="w-full pl-10 pr-4 py-2.5 bg-white border border-gray-300 rounded-lg
-                     focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent
-                     text-gray-800 placeholder-gray-400"
+                     focus:outline-none focus:ring-3 focus:ring-emerald-500/50 focus:border-emerald-500
+                     text-gray-800 placeholder-gray-500"
         />
+        <span id="search-hint" className="sr-only">
+          Tapez au moins 2 caractères pour rechercher. Utilisez les flèches pour naviguer et Entrée pour sélectionner.
+        </span>
         {query && (
           <button
             onClick={() => {
@@ -156,7 +179,9 @@ export function SearchBar({ definitions, onSelectResult }: SearchBarProps) {
               setIsOpen(false);
               inputRef.current?.focus();
             }}
-            className="absolute right-3 top-1/2 -translate-y-1/2 p-1 hover:bg-gray-100 rounded"
+            aria-label="Effacer la recherche"
+            className="absolute right-3 top-1/2 -translate-y-1/2 p-1.5 hover:bg-gray-100 rounded-md
+                       focus:outline-none focus:ring-2 focus:ring-emerald-500"
           >
             <svg className="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -167,20 +192,31 @@ export function SearchBar({ definitions, onSelectResult }: SearchBarProps) {
 
       {/* Résultats */}
       {isOpen && results.length > 0 && (
-        <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden z-50">
+        <div
+          id="search-results"
+          role="listbox"
+          aria-label="Résultats de recherche"
+          className="absolute top-full left-0 right-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden z-50"
+        >
           <ul className="max-h-80 overflow-y-auto">
             {results.map((result, index) => (
-              <li key={result.item.id}>
+              <li
+                key={result.item.id}
+                role="option"
+                aria-selected={index === selectedIndex}
+              >
                 <button
                   onClick={() => handleResultClick(result.item.id)}
+                  tabIndex={-1}
                   className={`
                     w-full px-4 py-3 text-left hover:bg-gray-50 transition-colors
+                    focus:outline-none focus:bg-emerald-50
                     ${index === selectedIndex ? 'bg-emerald-50' : ''}
                     ${index !== results.length - 1 ? 'border-b border-gray-100' : ''}
                   `}
                 >
                   <p className="font-medium text-gray-800">{result.item.terme}</p>
-                  <p className="text-sm text-gray-500 truncate mt-0.5">
+                  <p className="text-sm text-gray-600 truncate mt-0.5">
                     {result.item.definition.slice(0, 100)}...
                   </p>
                 </button>
@@ -192,10 +228,14 @@ export function SearchBar({ definitions, onSelectResult }: SearchBarProps) {
 
       {/* Aucun résultat */}
       {isOpen && query.length >= 2 && results.length === 0 && (
-        <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 p-4 z-50">
-          <p className="text-gray-500 text-center">Aucune définition trouvée pour "{query}"</p>
+        <div
+          role="status"
+          aria-live="polite"
+          className="absolute top-full left-0 right-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 p-4 z-50"
+        >
+          <p className="text-gray-600 text-center">Aucune définition trouvée pour "{query}"</p>
         </div>
       )}
     </div>
   );
-}
+});
