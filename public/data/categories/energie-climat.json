@@ -118,260 +118,275 @@
     {
       "id": "gaz-effet-serre",
       "terme": "Gaz à effet de serre (GES)",
-      "definition": "Gaz présents dans l'atmosphère qui absorbent et réémettent le rayonnement infrarouge, contribuant à l'effet de serre et au réchauffement climatique. Les principaux GES d'origine anthropique sont le dioxyde de carbone (CO2), le méthane (CH4), le protoxyde d'azote (N2O) et les gaz fluorés.",
+      "resume": "Gaz atmosphériques qui absorbent le rayonnement infrarouge terrestre, amplifiant l'effet de serre naturel. Leurs émissions anthropiques sont la cause principale du réchauffement climatique.",
+      "definition": "Les gaz à effet de serre (GES) sont des composés gazeux présents dans l'atmosphère qui absorbent et réémettent le rayonnement infrarouge émis par la surface terrestre, contribuant ainsi à l'effet de serre. Sans GES naturels (vapeur d'eau, CO2, CH4), la température moyenne de la Terre serait de -18°C au lieu de +15°C. L'augmentation des concentrations de GES d'origine anthropique depuis la révolution industrielle amplifie cet effet et provoque le réchauffement climatique. Les principaux GES sont le CO2 (65% du forçage radiatif additionnel), le CH4 (16%), le N2O (6%) et les gaz fluorés (2%).",
+      "definitionEtendue": {
+        "introduction": "L'effet de serre est découvert par Joseph Fourier en 1824, et le rôle des gaz absorbants par John Tyndall (1859). Svante Arrhenius calcule en 1896 l'impact du doublement du CO2 sur la température. Le concept de 'pouvoir de réchauffement global' (PRG) permet de comparer les GES sur 100 ans. Le Protocole de Kyoto (1997) puis l'Accord de Paris (2015) établissent le cadre international de réduction des émissions de GES.",
+        "mecanismes": "Les GES absorbent le rayonnement infrarouge dans des bandes spectrales spécifiques. Le CO2 résulte de la combustion des fossiles et de la déforestation (durée de vie : siècles). Le CH4 provient de l'élevage, des rizières, des fuites de gaz et des zones humides (durée : 12 ans, PRG100 : 28). Le N2O vient des engrais azotés et de l'industrie (durée : 114 ans, PRG100 : 265). Les gaz fluorés (HFC, PFC, SF6) sont synthétiques et très persistants (PRG : milliers).",
+        "contexteScientifique": "Le GIEC synthétise les connaissances sur les GES depuis 1990. Les inventaires nationaux utilisent les lignes directrices GIEC (méthodologie TIER 1-3). Les émissions sont exprimées en équivalent CO2 (CO2eq) selon le PRG. Le budget carbone restant quantifie les émissions compatibles avec un objectif de température. Les rétroactions (fonte du pergélisol, absorption océanique) complexifient les projections.",
+        "enjeuxActuels": "Les émissions mondiales atteignent 57,4 GtCO2eq/an (2022). L'objectif de l'Accord de Paris implique une réduction de 43% d'ici 2030 et la neutralité vers 2050. Les secteurs majeurs : énergie (73%), agriculture (12%), industrie (6%). Le méthane fait l'objet d'un engagement spécifique (Global Methane Pledge, -30% d'ici 2030). Les émissions de gaz fluorés sont régulées par le Protocole de Montréal amendé (Kigali, 2016).",
+        "perspectives": "La décarbonation passe par l'électrification, l'efficacité énergétique, et les énergies renouvelables pour le CO2. La réduction du méthane (élevage, fuites) offre un levier rapide car sa durée de vie est courte. Les technologies de capture du carbone (CCUS, DAC) sont considérées nécessaires pour les émissions résiduelles. L'objectif de neutralité nécessite aussi de préserver les puits naturels (forêts, océans)."
+      },
       "sources": [
-        {
-          "titre": "Climate Change 2021 - AR6 Working Group I",
-          "auteur": "GIEC",
-          "url": "https://www.ipcc.ch/report/ar6/wg1/",
-          "annee": 2021,
-          "type": "rapport"
-        }
+        {"titre": "Climate Change 2021: The Physical Science Basis (AR6 WG1)", "auteur": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg1/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Global Greenhouse Gas Emissions Data", "auteur": "EPA", "url": "https://www.epa.gov/ghgemissions", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "WMO Greenhouse Gas Bulletin", "auteur": "WMO", "url": "https://library.wmo.int/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "energie-climat",
       "tags": ["CO2", "méthane", "émissions", "atmosphère"],
+      "motsClésScientifiques": ["forçage radiatif", "PRG", "équivalent CO2", "budget carbone", "inventaire", "puits de carbone"],
       "relations": [
-        { "cible": "changement-climatique", "type": "contribue_a", "score": 95, "direction": "positif" },
-        { "cible": "empreinte-carbone", "type": "renvoie_a", "score": 85 },
-        { "cible": "neutralite-carbone", "type": "oppose_a", "score": 80 }
+        {"cible": "changement-climatique", "type": "contribue_a", "score": 95, "direction": "positif"},
+        {"cible": "empreinte-carbone", "type": "renvoie_a", "score": 85},
+        {"cible": "neutralite-carbone", "type": "oppose_a", "score": 80}
       ],
-      "exemples": [
-        "CO2 issu de la combustion des énergies fossiles",
-        "Méthane des élevages bovins et des rizières",
-        "N2O des engrais azotés"
-      ],
-      "synonymes": ["GES", "greenhouse gases"]
+      "exemples": ["CO2 : combustion fossiles, déforestation", "CH4 : élevage, rizières, fuites gaz", "N2O : engrais azotés"],
+      "synonymes": ["GES", "greenhouse gases"],
+      "indicateursQuantitatifs": [
+        {"valeur": "CO2 atmosphérique : 420 ppm (2023) vs 280 ppm préindustriel", "source": "NOAA", "annee": 2023},
+        {"valeur": "Émissions mondiales : 57,4 GtCO2eq/an", "source": "UNEP", "annee": 2022}
+      ]
     },
     {
       "id": "empreinte-carbone",
       "terme": "Empreinte carbone",
-      "definition": "Quantité totale de gaz à effet de serre émise directement ou indirectement par une activité, un individu, une organisation ou un produit, exprimée en équivalent CO2. Elle inclut les émissions liées à la production, au transport, à l'utilisation et à la fin de vie.",
+      "resume": "Quantité totale de GES émise par une activité, un produit ou une entité, exprimée en équivalent CO2. Indicateur clé pour mesurer et réduire l'impact climatique.",
+      "definition": "L'empreinte carbone est la quantité totale de gaz à effet de serre (GES) émise directement ou indirectement par une activité, un individu, une organisation, un territoire ou un produit, sur l'ensemble de son cycle de vie. Elle est exprimée en équivalent CO2 (CO2eq) pour agréger les différents GES selon leur pouvoir de réchauffement. L'empreinte carbone inclut les émissions directes (scope 1), indirectes liées à l'énergie (scope 2), et les autres émissions indirectes de la chaîne de valeur (scope 3).",
+      "definitionEtendue": {
+        "introduction": "Le concept d'empreinte carbone dérive de l'empreinte écologique (Wackernagel et Rees, 1996). La méthode Bilan Carbone® est développée par l'ADEME et Jean-Marc Jancovici en 2004. Les normes ISO 14064 (organisations, 2006) et ISO 14067 (produits, 2018) standardisent les méthodologies. Le GHG Protocol (WRI/WBCSD) est le référentiel international le plus utilisé pour les entreprises. La CSRD européenne (2024) rend le reporting carbone obligatoire pour les grandes entreprises.",
+        "mecanismes": "Le calcul combine données d'activité et facteurs d'émission. Le scope 1 couvre les émissions directes (combustion, procédés). Le scope 2 concerne l'électricité, la chaleur et la vapeur achetées. Le scope 3 englobe toute la chaîne de valeur (achats, transport, usage des produits vendus, fin de vie). Pour un produit, l'ACV carbone évalue les émissions du berceau à la tombe. Les bases de données (Base Carbone ADEME, Ecoinvent) fournissent les facteurs d'émission.",
+        "contexteScientifique": "L'empreinte carbone est critiquée pour sa focalisation sur le climat au détriment des autres impacts (biodiversité, eau). Les méthodes diffèrent selon les périmètres et les facteurs d'émission utilisés, compliquant les comparaisons. Le débat porte sur : empreinte territoriale vs empreinte de consommation (incluant les importations), allocation dans les chaînes de valeur complexes, et prise en compte des émissions évitées. L'empreinte carbone per capita est un indicateur d'équité climatique.",
+        "enjeuxActuels": "L'empreinte carbone est devenue un outil de pilotage stratégique. Les réglementations se durcissent : affichage environnemental obligatoire (France, 2024), reporting CSRD (UE), taxonomie verte. Les entreprises doivent réduire leur scope 3 (souvent >80% de l'empreinte totale). L'affichage carbone des produits alimentaires et textiles se généralise. Les défis incluent : qualité des données scope 3, évitement du greenwashing, et alignement avec les trajectoires 1,5°C.",
+        "perspectives": "L'avenir passe par : la standardisation mondiale (ISSB), l'automatisation de la collecte de données (IoT, IA), les passeports produits numériques incluant l'empreinte carbone, et l'intégration dans les systèmes comptables. Les 'science-based targets' (SBTi) alignent les objectifs d'entreprises sur la science climatique. La 'comptabilité carbone triple' (stocks, flux, évitements) émerge. L'empreinte carbone pourrait devenir aussi courante que le prix."
+      },
       "sources": [
-        {
-          "titre": "Bilan Carbone - Méthode",
-          "auteur": "ADEME",
-          "url": "https://www.ademe.fr/expertises/mobilite-transports/passer-a-laction/dossier/bilan-carbone/bilan-carbone-kesako",
-          "annee": 2022,
-          "type": "institution"
-        },
-        {
-          "titre": "ISO 14064 - Gaz à effet de serre",
-          "auteur": "ISO",
-          "annee": 2018,
-          "type": "rapport"
-        }
+        {"titre": "GHG Protocol Corporate Standard", "auteur": "WRI/WBCSD", "url": "https://ghgprotocol.org/", "annee": 2015, "type": "norme_iso", "niveauPreuve": "elevé"},
+        {"titre": "ISO 14064:2018 - Gaz à effet de serre", "auteur": "ISO", "annee": 2018, "type": "norme_iso", "niveauPreuve": "elevé"},
+        {"titre": "Méthode Bilan Carbone", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "energie-climat",
       "tags": ["bilan", "CO2", "mesure", "réduction"],
+      "motsClésScientifiques": ["scope 1/2/3", "GHG Protocol", "facteur d'émission", "ACV carbone", "SBTi", "CSRD"],
       "relations": [
-        { "cible": "gaz-effet-serre", "type": "renvoie_a", "score": 90 },
-        { "cible": "neutralite-carbone", "type": "renvoie_a", "score": 85 },
-        { "cible": "analyse-cycle-vie", "type": "proche_de", "score": 75 },
-        { "cible": "compensation-carbone", "type": "renvoie_a", "score": 70 }
+        {"cible": "gaz-effet-serre", "type": "renvoie_a", "score": 90},
+        {"cible": "neutralite-carbone", "type": "renvoie_a", "score": 85},
+        {"cible": "analyse-cycle-vie", "type": "proche_de", "score": 75}
       ],
-      "exemples": [
-        "Empreinte carbone moyenne d'un Français : ~10 tonnes CO2eq/an",
-        "Empreinte carbone d'un vol Paris-New York : ~1 tonne CO2eq"
-      ],
-      "synonymes": ["bilan carbone", "carbon footprint"]
+      "exemples": ["Empreinte Français moyen : ~10 tCO2eq/an", "Vol Paris-NY : ~1 tCO2eq", "Smartphone : ~70 kg CO2eq"],
+      "synonymes": ["bilan carbone", "carbon footprint", "bilan GES"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Empreinte France : 9,9 tCO2eq/hab/an (dont 50% importées)", "source": "SDES", "annee": 2022},
+        {"valeur": "Objectif 2050 : 2 tCO2eq/hab/an compatible 1,5°C", "source": "GIEC", "annee": 2018}
+      ]
     },
     {
       "id": "neutralite-carbone",
       "terme": "Neutralité carbone",
-      "definition": "État d'équilibre entre les émissions de gaz à effet de serre d'origine humaine et leur absorption par des puits de carbone (forêts, océans, sols, technologies de capture). La neutralité carbone mondiale est nécessaire pour stabiliser le réchauffement climatique.",
+      "resume": "Équilibre entre les émissions de GES et leur absorption par les puits naturels ou technologiques. Condition nécessaire pour stabiliser le climat, objectif mondial d'ici 2050.",
+      "definition": "La neutralité carbone (ou 'net zero') est l'état d'équilibre entre les émissions de gaz à effet de serre d'origine anthropique et leur absorption par des puits de carbone, qu'ils soient naturels (forêts, océans, sols) ou technologiques (capture et stockage du carbone). Cet équilibre doit être atteint à l'échelle mondiale pour stabiliser le réchauffement climatique. Le GIEC (2018) estime qu'une neutralité CO2 mondiale vers 2050, et une neutralité GES vers 2070, est nécessaire pour limiter le réchauffement à 1,5°C.",
+      "definitionEtendue": {
+        "introduction": "Le concept de neutralité carbone émerge dans les années 2000 avec la prise de conscience que stabiliser le climat nécessite de ramener les émissions nettes à zéro. Le rapport spécial du GIEC sur 1,5°C (2018) établit le lien scientifique entre neutralité et objectif de température. L'Accord de Paris (2015, article 4) vise 'un équilibre entre les émissions et les absorptions dans la seconde moitié du siècle'. La France inscrit l'objectif de neutralité 2050 dans la loi Énergie-Climat (2019).",
+        "mecanismes": "La neutralité carbone se calcule comme : émissions brutes - absorptions = 0. Deux voies complémentaires : réduire les émissions (80-90% selon les scénarios) et augmenter les absorptions (puits naturels, BECCS, DAC). La distinction entre neutralité carbone (CO2) et neutralité climatique (tous GES) est essentielle. Les émissions résiduelles 'incompressibles' (agriculture, industrie lourde, aviation) devront être compensées par des absorptions. Le concept s'applique aux États, entreprises, territoires, mais seule la neutralité mondiale a un sens climatique.",
+        "contexteScientifique": "Le GIEC définit des scénarios compatibles avec 1,5°C impliquant une neutralité CO2 entre 2045 et 2055. La science pointe les risques du 'dépassement' (overshoot) temporaire suivi d'émissions négatives. Les débats portent sur : la part des émissions négatives (risque de moral hazard), la qualité des compensations (additionnalité, permanence), et les droits d'émissions résiduels par secteur. Les budgets carbone restants quantifient les émissions cumulées compatibles avec chaque objectif de température.",
+        "enjeuxActuels": "Plus de 130 pays et 1000 entreprises ont annoncé des objectifs 'net zero'. La crédibilité de ces engagements est scrutée : calendrier de réduction, recours aux compensations, couverture des scopes. L'initiative SBTi certifie les trajectoires alignées sur la science. L'UE vise la neutralité 2050 (loi Climat), les États-Unis 2050, la Chine 2060. Les défis : financement de la transition, technologies de capture à grande échelle, gouvernance des puits de carbone, et justice climatique.",
+        "perspectives": "Les scénarios de neutralité impliquent : décarbonation quasi-complète de l'énergie et des transports, électrification massive, efficacité et sobriété, agriculture régénérative, et captage pour les émissions résiduelles. Les technologies NETs (Negative Emission Technologies) incluent le boisement, le BECCS, le DAC, le biochar, et la minéralisation. L'après-neutralité ('net negative') pourrait être nécessaire pour réparer le dépassement. La notion évolue vers la 'contribution' des acteurs à la neutralité collective."
+      },
       "sources": [
-        {
-          "titre": "Rapport spécial sur les conséquences d'un réchauffement planétaire de 1,5°C",
-          "auteur": "GIEC",
-          "url": "https://www.ipcc.ch/sr15/",
-          "annee": 2018,
-          "type": "rapport"
-        },
-        {
-          "titre": "Stratégie nationale bas-carbone (SNBC)",
-          "auteur": "Ministère de la Transition écologique",
-          "url": "https://www.ecologie.gouv.fr/strategie-nationale-bas-carbone-snbc",
-          "annee": 2020,
-          "type": "institution"
-        }
+        {"titre": "Special Report on Global Warming of 1.5°C", "auteur": "IPCC", "url": "https://www.ipcc.ch/sr15/", "annee": 2018, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Net Zero by 2050: A Roadmap for the Global Energy Sector", "auteur": "IEA", "url": "https://www.iea.org/reports/net-zero-by-2050", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Stratégie nationale bas-carbone (SNBC)", "auteur": "MTE", "url": "https://www.ecologie.gouv.fr/strategie-nationale-bas-carbone-snbc", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "energie-climat",
       "tags": ["objectif", "compensation", "réduction", "2050"],
+      "motsClésScientifiques": ["net zero", "émissions négatives", "budget carbone", "BECCS", "DAC", "puits de carbone", "SBTi"],
       "relations": [
-        { "cible": "empreinte-carbone", "type": "oppose_a", "score": 85 },
-        { "cible": "gaz-effet-serre", "type": "oppose_a", "score": 80 },
-        { "cible": "compensation-carbone", "type": "renvoie_a", "score": 75 },
-        { "cible": "transition-energetique", "type": "renvoie_a", "score": 85 }
+        {"cible": "empreinte-carbone", "type": "oppose_a", "score": 85},
+        {"cible": "gaz-effet-serre", "type": "oppose_a", "score": 80},
+        {"cible": "transition-energetique", "type": "renvoie_a", "score": 85}
       ],
-      "exemples": [
-        "Objectif de la France : neutralité carbone en 2050",
-        "Accord de Paris : limiter le réchauffement à 1,5-2°C"
-      ],
-      "synonymes": ["net zero", "zéro émission nette", "carbone neutralité"]
+      "exemples": ["France : neutralité 2050 (loi Énergie-Climat)", "UE : Green Deal, neutralité 2050", "Chine : neutralité 2060"],
+      "synonymes": ["net zero", "zéro émission nette", "carbon neutral"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Neutralité CO2 mondiale nécessaire entre 2045-2055 pour 1,5°C", "source": "GIEC SR15", "annee": 2018},
+        {"valeur": "130+ pays engagés sur le net zero", "source": "Net Zero Tracker", "annee": 2023}
+      ]
     },
     {
       "id": "energie-renouvelable",
       "terme": "Énergie renouvelable",
-      "definition": "Énergie produite à partir de sources naturelles qui se régénèrent plus rapidement qu'elles ne sont consommées. Les principales énergies renouvelables sont le solaire, l'éolien, l'hydraulique, la biomasse et la géothermie. Elles s'opposent aux énergies fossiles (pétrole, gaz, charbon).",
+      "resume": "Énergie produite à partir de sources naturelles qui se régénèrent à l'échelle humaine : solaire, éolien, hydraulique, biomasse, géothermie. Pilier de la transition énergétique.",
+      "definition": "Les énergies renouvelables (EnR) sont produites à partir de sources naturelles qui se régénèrent plus rapidement qu'elles ne sont consommées. Les principales sources sont le solaire (photovoltaïque et thermique), l'éolien (terrestre et offshore), l'hydraulique (barrages, fil de l'eau), la biomasse (bois, biogaz, biocarburants), et la géothermie. Elles s'opposent aux énergies fossiles (pétrole, gaz, charbon) et nucléaire. Leur caractère bas-carbone et leur disponibilité locale en font le pilier de la transition énergétique et de la neutralité carbone.",
+      "definitionEtendue": {
+        "introduction": "L'utilisation des EnR est ancestrale (moulin à vent, bois de chauffe), mais leur développement moderne date des chocs pétroliers (1973). L'éolien danois et le photovoltaïque japonais sont pionniers dans les années 1980-90. La directive européenne 2009/28/CE fixe des objectifs contraignants. Le coût du solaire PV a chuté de 89% entre 2010 et 2023, celui de l'éolien de 69% (IRENA). En 2023, les EnR représentent 30% de la production électrique mondiale.",
+        "mecanismes": "Le solaire PV convertit la lumière en électricité via l'effet photovoltaïque (cellules silicium). L'éolien transforme l'énergie cinétique du vent en électricité (alternateur). L'hydraulique utilise l'énergie potentielle de l'eau. La biomasse brûle ou fermente de la matière organique. La géothermie exploite la chaleur du sous-sol. L'intermittence du solaire et de l'éolien nécessite du stockage (batteries, STEP, hydrogène) et du pilotage du réseau (smart grids).",
+        "contexteScientifique": "La recherche porte sur : l'efficacité des cellules (pérovskites, tandem), l'éolien flottant pour les eaux profondes, le stockage longue durée, l'hydrogène vert (électrolyse), et l'intégration réseau. Les ACV montrent que les EnR ont une empreinte carbone 10 à 100 fois inférieure aux fossiles sur leur cycle de vie. Les limites incluent : intermittence, emprise foncière, matériaux critiques (lithium, terres rares), et acceptabilité locale.",
+        "enjeuxActuels": "Les EnR connaissent une croissance exponentielle mais restent insuffisantes pour la trajectoire 1,5°C. Les capacités installées doivent tripler d'ici 2030 (IEA). Les défis : financement des infrastructures, acceptabilité (éolien), souveraineté sur les chaînes de valeur (Chine domine le solaire), raccordement au réseau, et intermittence. L'UE vise 42,5% d'EnR en 2030 (REPowerEU). La France vise 33% avec un mix diversifié (nucléaire + EnR).",
+        "perspectives": "L'avenir passe par : le solaire et l'éolien offshore à grande échelle, l'hydrogène vert pour l'industrie et les transports lourds, les réseaux intelligents, et le stockage massif. Les 'power purchase agreements' (PPA) permettent aux entreprises de s'approvisionner en EnR. L'autoconsommation et les communautés énergétiques citoyennes se développent. Les EnR pourraient couvrir 90% des besoins électriques mondiaux d'ici 2050 (IRENA)."
+      },
       "sources": [
-        {
-          "titre": "Global Renewables Outlook 2020",
-          "auteur": "IRENA",
-          "url": "https://www.irena.org/publications/2020/Apr/Global-Renewables-Outlook-2020",
-          "annee": 2020,
-          "type": "rapport"
-        },
-        {
-          "titre": "Panorama de l'électricité renouvelable",
-          "auteur": "RTE",
-          "url": "https://www.rte-france.com/",
-          "annee": 2022,
-          "type": "rapport"
-        }
+        {"titre": "Renewable Power Generation Costs in 2022", "auteur": "IRENA", "url": "https://www.irena.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "World Energy Outlook 2023", "auteur": "IEA", "url": "https://www.iea.org/reports/world-energy-outlook-2023", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Renewable Energy Directive (RED III)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2023, "type": "loi", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "energie-climat",
       "tags": ["solaire", "éolien", "hydraulique", "biomasse", "transition"],
+      "motsClésScientifiques": ["photovoltaïque", "éolien offshore", "STEP", "hydrogène vert", "intermittence", "smart grid", "LCOE"],
       "relations": [
-        { "cible": "transition-energetique", "type": "contribue_a", "score": 90, "direction": "positif" },
-        { "cible": "energie-fossile", "type": "oppose_a", "score": 95 },
-        { "cible": "neutralite-carbone", "type": "contribue_a", "score": 85, "direction": "positif" },
-        { "cible": "methanisation", "type": "proche_de", "score": 70 }
+        {"cible": "transition-energetique", "type": "contribue_a", "score": 90, "direction": "positif"},
+        {"cible": "energie-fossile", "type": "oppose_a", "score": 95},
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 85, "direction": "positif"}
       ],
-      "exemples": [
-        "Panneaux solaires photovoltaïques",
-        "Éoliennes terrestres et offshore",
-        "Barrages hydroélectriques"
-      ],
-      "synonymes": ["EnR", "énergies vertes", "énergies propres"]
+      "exemples": ["Solaire PV : 1200 GW installés (2023)", "Éolien : 900 GW (2023)", "Hydroélectricité : 1400 GW"],
+      "synonymes": ["EnR", "énergies vertes", "énergies décarbonées"],
+      "indicateursQuantitatifs": [
+        {"valeur": "30% de l'électricité mondiale d'origine renouvelable (2023)", "source": "IEA", "annee": 2023},
+        {"valeur": "Coût solaire PV : -89% entre 2010 et 2023", "source": "IRENA", "annee": 2023}
+      ]
     },
     {
       "id": "transition-energetique",
       "terme": "Transition énergétique",
-      "definition": "Passage d'un système énergétique fondé sur les énergies fossiles (pétrole, gaz, charbon) vers un modèle basé sur les énergies renouvelables et l'efficacité énergétique. Elle vise à réduire les émissions de gaz à effet de serre, diminuer la dépendance aux importations et créer une économie décarbonée.",
+      "resume": "Transformation profonde du système énergétique vers un modèle décarboné, fondé sur les renouvelables, l'efficacité et la sobriété. Condition de la neutralité climatique.",
+      "definition": "La transition énergétique est le passage d'un système énergétique fondé sur les énergies fossiles (pétrole, gaz, charbon) vers un modèle décarboné basé sur les énergies renouvelables, l'efficacité énergétique et la sobriété. Elle vise à réduire les émissions de GES pour atteindre la neutralité carbone, diminuer la dépendance aux importations fossiles, améliorer la qualité de l'air, et créer des emplois dans les filières vertes. C'est une transformation systémique touchant tous les secteurs : électricité, chaleur, transports, industrie, bâtiments.",
+      "definitionEtendue": {
+        "introduction": "Le concept de transition énergétique émerge après les chocs pétroliers (1973) et la prise de conscience climatique. L'Allemagne lance l'Energiewende en 2011 (sortie du nucléaire, 80% EnR en 2050). La France adopte la loi relative à la transition énergétique pour la croissance verte (LTECV, 2015) puis la loi Énergie-Climat (2019). Le Green Deal européen (2019) et le paquet 'Fit for 55' (2021) accélèrent le mouvement. La crise énergétique de 2022 (guerre Ukraine) renforce l'urgence de l'indépendance énergétique.",
+        "mecanismes": "La transition opère sur trois leviers complémentaires (triptyque négaWatt) : sobriété (réduire les besoins), efficacité (faire mieux avec moins), renouvelables (produire bas-carbone). L'électrification massive (transports, chauffage) couplée à une électricité décarbonée est centrale. Les vecteurs énergétiques évoluent : hydrogène vert, biogaz, chaleur renouvelable. L'adaptation des réseaux (smart grids, stockage) est nécessaire pour gérer l'intermittence. Les investissements nécessaires sont massifs : 4 000 Mrd$/an d'ici 2030 (IEA).",
+        "contexteScientifique": "Les scénarios de transition (GIEC, IEA, IRENA, négaWatt, RTE) modélisent les trajectoires possibles. Le débat porte sur : le rôle du nucléaire (bas-carbone mais controversé), le rythme de sortie des fossiles (phase-out vs phase-down), la place de la sobriété, et les technologies de rupture (hydrogène, fusion). Les études soulignent les co-bénéfices (santé, emploi, sécurité énergétique) et les risques de transition (stranded assets, justice sociale).",
+        "enjeuxActuels": "La transition s'accélère mais reste insuffisante pour 1,5°C. L'IEA (2023) montre que les investissements dans les fossiles doivent cesser pour respecter les objectifs climatiques. Les défis incluent : financement (particulièrement dans les pays du Sud), souveraineté industrielle (batteries, panneaux solaires), acceptabilité sociale (gilets jaunes, éolien), formation des compétences, et adaptation des réseaux. La 'transition juste' vise à ne laisser personne de côté (reconversion des travailleurs du charbon, précarité énergétique).",
+        "perspectives": "Les scénarios Net Zero de l'IEA (2021) projettent : fin des voitures thermiques neuves en 2035, 70% d'électricité renouvelable en 2050, électrification massive, et hydrogène pour l'industrie et l'aviation. La France vise -55% d'émissions en 2030 (vs 1990), la neutralité en 2050, et un mix électrique décarboné (nucléaire + EnR). L'enjeu est de transformer l'urgence en opportunité économique et sociale."
+      },
       "sources": [
-        {
-          "titre": "Loi n° 2015-992 relative à la transition énergétique pour la croissance verte",
-          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000031044385",
-          "annee": 2015,
-          "type": "loi"
-        },
-        {
-          "titre": "World Energy Outlook 2023",
-          "auteur": "IEA",
-          "url": "https://www.iea.org/reports/world-energy-outlook-2023",
-          "annee": 2023,
-          "type": "rapport"
-        }
+        {"titre": "Net Zero by 2050: A Roadmap for the Global Energy Sector", "auteur": "IEA", "url": "https://www.iea.org/reports/net-zero-by-2050", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Loi Énergie-Climat n° 2019-1147", "url": "https://www.legifrance.gouv.fr/", "annee": 2019, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "Futurs énergétiques 2050", "auteur": "RTE", "url": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "energie-climat",
       "tags": ["décarbonation", "renouvelables", "politique", "objectifs"],
+      "motsClésScientifiques": ["sobriété-efficacité-renouvelables", "électrification", "hydrogène vert", "smart grid", "transition juste", "stranded assets"],
       "relations": [
-        { "cible": "energie-renouvelable", "type": "renvoie_a", "score": 95 },
-        { "cible": "neutralite-carbone", "type": "contribue_a", "score": 90, "direction": "positif" },
-        { "cible": "energie-fossile", "type": "oppose_a", "score": 85 },
-        { "cible": "efficacite-energetique", "type": "renvoie_a", "score": 80 }
+        {"cible": "energie-renouvelable", "type": "renvoie_a", "score": 95},
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 90, "direction": "positif"},
+        {"cible": "energie-fossile", "type": "oppose_a", "score": 85},
+        {"cible": "efficacite-energetique", "type": "renvoie_a", "score": 80}
       ],
-      "exemples": [
-        "Développement du parc éolien et solaire",
-        "Fermeture des centrales à charbon",
-        "Électrification des transports"
-      ],
-      "synonymes": ["transition bas-carbone", "transition écologique énergétique"]
+      "exemples": ["Fermeture des centrales charbon UE", "Fin des voitures thermiques 2035 (UE)", "Rénovation thermique des bâtiments"],
+      "synonymes": ["transition bas-carbone", "décarbonation", "Energiewende"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Investissements nécessaires : 4 000 Mrd$/an d'ici 2030", "source": "IEA", "annee": 2023},
+        {"valeur": "Objectif UE : -55% émissions en 2030 (vs 1990)", "source": "Fit for 55", "annee": 2021}
+      ]
     },
     {
       "id": "energie-fossile",
       "terme": "Énergie fossile",
-      "definition": "Énergie produite à partir de la combustion de ressources naturelles formées par la fossilisation de matière organique sur des millions d'années : pétrole, gaz naturel et charbon. Non renouvelables à l'échelle humaine, elles sont responsables de la majorité des émissions de CO2 mondiales.",
+      "resume": "Énergie issue de la combustion de pétrole, gaz et charbon, formés sur des millions d'années. Non renouvelables et principale source du réchauffement climatique.",
+      "definition": "Les énergies fossiles sont produites par la combustion de ressources naturelles formées par la fossilisation de matière organique sur des millions d'années : pétrole (160 millions d'années), gaz naturel et charbon (300 millions d'années). Non renouvelables à l'échelle humaine, elles représentent 80% de l'approvisionnement énergétique mondial et sont responsables de 75% des émissions de GES mondiales. Leur combustion libère le carbone stocké depuis des ères géologiques, modifiant la composition de l'atmosphère.",
+      "definitionEtendue": {
+        "introduction": "L'usage du charbon débute avec la révolution industrielle (XVIIIe siècle), suivi du pétrole (fin XIXe) et du gaz (XXe). Les fossiles ont permis une croissance économique sans précédent mais au prix d'une dette écologique. Le premier choc pétrolier (1973) révèle la dépendance énergétique. Les travaux du GIEC (depuis 1990) établissent le lien entre fossiles et changement climatique. L'Accord de Paris (2015) implique de laisser 80% des réserves connues dans le sol.",
+        "mecanismes": "Les fossiles se forment par enfouissement et transformation de matière organique (algues, plantes) sous l'effet de la pression et de la température. Le charbon provient de forêts marécageuses du Carbonifère. Le pétrole et le gaz résultent de la décomposition de micro-organismes marins. Leur combustion libère l'énergie chimique des liaisons C-H et émet du CO2 (charbon : 1000 gCO2/kWh, gaz : 400 gCO2/kWh électricité). Les réserves sont concentrées géographiquement (Moyen-Orient, Russie, Australie).",
+        "contexteScientifique": "Le concept de 'pic pétrolier' (Hubbert, 1956) prévoit l'épuisement des réserves conventionnelles. Les réserves 'prouvées' dépendent des prix et des technologies. Les scénarios du GIEC montrent que le budget carbone compatible avec 1,5°C est largement inférieur aux réserves. Le concept de 'carbon bubble' ou 'stranded assets' (actifs échoués) désigne les fossiles qui ne pourront être brûlés. Le débat oppose phase-out (sortie totale) et phase-down (diminution progressive).",
+        "enjeuxActuels": "Les fossiles représentent 82% de l'énergie primaire mondiale (2022). L'AIE (2023) affirme qu'aucun nouveau projet fossile n'est compatible avec le net zero. Les investissements fossiles restent massifs (1 000 Mrd$/an) malgré les engagements climatiques. La COP28 (2023) appelle pour la première fois à une 'transition hors des combustibles fossiles'. Les enjeux : reconversion des régions charbonnières, géopolitique de la transition, précarité énergétique, et captage du carbone sur les installations existantes.",
+        "perspectives": "La sortie des fossiles est inévitable : par choix (politique climatique) ou par contrainte (épuisement, coût). Les scénarios net zero projettent une réduction de 60-80% des fossiles d'ici 2050. Le charbon sera éliminé en premier (2030-2040 dans les pays développés), le pétrole ensuite (transports), le gaz en dernier (industrie, pointe électrique). Les 'derniers barils' iront aux usages non substituables (pétrochimie, aviation longue distance). La transition crée un risque de 'lock-in' si les investissements fossiles se poursuivent."
+      },
       "sources": [
-        {
-          "titre": "Global Carbon Budget 2023",
-          "auteur": "Global Carbon Project",
-          "url": "https://www.globalcarbonproject.org/carbonbudget/",
-          "annee": 2023,
-          "type": "rapport"
-        }
+        {"titre": "Global Carbon Budget 2023", "auteur": "Global Carbon Project", "url": "https://www.globalcarbonproject.org/carbonbudget/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "World Energy Outlook 2023", "auteur": "IEA", "url": "https://www.iea.org/reports/world-energy-outlook-2023", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "The Sky's Limit: Why the Paris Climate Goals Require a Managed Decline of Fossil Fuel Production", "auteur": "Oil Change International", "annee": 2016, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "energie-climat",
       "tags": ["pétrole", "gaz", "charbon", "CO2"],
+      "motsClésScientifiques": ["réserves", "pic pétrolier", "stranded assets", "phase-out", "carbon budget", "lock-in"],
       "relations": [
-        { "cible": "energie-renouvelable", "type": "oppose_a", "score": 95 },
-        { "cible": "gaz-effet-serre", "type": "contribue_a", "score": 90, "direction": "positif" },
-        { "cible": "changement-climatique", "type": "contribue_a", "score": 85, "direction": "positif" }
+        {"cible": "energie-renouvelable", "type": "oppose_a", "score": 95},
+        {"cible": "gaz-effet-serre", "type": "contribue_a", "score": 90, "direction": "positif"},
+        {"cible": "changement-climatique", "type": "contribue_a", "score": 85, "direction": "positif"}
       ],
-      "exemples": [
-        "Essence et diesel pour les véhicules",
-        "Gaz naturel pour le chauffage",
-        "Charbon pour les centrales électriques"
-      ],
-      "synonymes": ["combustibles fossiles", "hydrocarbures"]
+      "exemples": ["Pétrole : 100 millions de barils/jour", "Charbon : 8 Gt/an", "Gaz naturel : 4 000 Mrd m³/an"],
+      "synonymes": ["combustibles fossiles", "hydrocarbures"],
+      "indicateursQuantitatifs": [
+        {"valeur": "80% de l'énergie primaire mondiale (2022)", "source": "IEA", "annee": 2022},
+        {"valeur": "75% des émissions de GES mondiales", "source": "GIEC", "annee": 2022}
+      ]
     },
     {
       "id": "efficacite-energetique",
       "terme": "Efficacité énergétique",
-      "definition": "Rapport entre le service rendu (éclairage, chauffage, déplacement) et l'énergie consommée pour le produire. Améliorer l'efficacité énergétique signifie obtenir le même service avec moins d'énergie, grâce à des technologies plus performantes ou une meilleure conception.",
+      "resume": "Capacité à obtenir le même service avec moins d'énergie grâce à des technologies plus performantes. Levier majeur et rentable de la transition énergétique.",
+      "definition": "L'efficacité énergétique est le rapport entre le service rendu (éclairage, chauffage, déplacement, production) et l'énergie consommée pour le produire. Améliorer l'efficacité signifie obtenir le même service avec moins d'énergie, grâce à des technologies plus performantes (LED, pompes à chaleur, moteurs électriques) ou une meilleure conception (isolation, récupération de chaleur). C'est le 'premier combustible' de la transition énergétique selon l'AIE : le moins cher, le plus rapide à déployer, et le seul disponible partout.",
+      "definitionEtendue": {
+        "introduction": "Les politiques d'efficacité énergétique émergent après le choc pétrolier de 1973. L'association négaWatt popularise le concept en France depuis 2000. L'UE adopte la directive Efficacité énergétique (2012, révisée 2023) fixant des objectifs contraignants. L'AIE estime que l'efficacité a évité 15 Gt de CO2 depuis 2000. Le secteur du bâtiment (40% de la consommation finale) est prioritaire avec les étiquettes énergie (DPE), les réglementations thermiques (RE2020), et les aides à la rénovation (MaPrimeRénov').",
+        "mecanismes": "L'efficacité s'améliore par : l'isolation (réduction des besoins de chauffage/climatisation), les équipements performants (pompes à chaleur COP>3, LED 10x plus efficaces), la récupération de chaleur (industrielle, ventilation), l'optimisation des processus (industrie 4.0), et l'électrification (moteur électrique 90% vs thermique 30%). Le potentiel varie selon les secteurs : bâtiment (50%), industrie (30%), transport (20%). Le coût du négawatt est souvent inférieur au coût du MWh produit.",
+        "contexteScientifique": "L'économie de l'efficacité étudie le paradoxe de Jevons (effet rebond) : les gains d'efficacité peuvent être compensés par une hausse des usages. L'efficacité 'technique' doit être distinguée de l'efficacité 'économique' (comportement des usagers). Les études de potentiel (bottom-up vs top-down) quantifient les gisements. Le lien efficacité-sobriété fait débat : l'efficacité peut retarder les changements structurels si elle entretient l'illusion d'une croissance verte indolore.",
+        "enjeuxActuels": "L'objectif européen vise -11,7% de consommation finale en 2030 (EED révisée 2023). Les défis : rénovation du parc bâti existant (taux <1%/an, objectif 3%), financement (tiers-financement, CPE), formation des artisans, et passage à l'échelle. La France vise 700 000 rénovations performantes/an. L'efficacité dans l'industrie passe par les systèmes de management de l'énergie (ISO 50001). L'électrification des transports améliore drastiquement l'efficacité (véhicule électrique 3x plus efficace).",
+        "perspectives": "Les bâtiments à énergie positive (BEPOS) et les standards Passivhaus se généralisent. L'industrie évolue vers la symbiose industrielle (valorisation chaleur fatale) et les procédés électriques. L'IA optimise en temps réel les consommations (smart buildings, smart grids). Le concept de 'flexibilité' (déplacer les consommations) complète l'efficacité. L'objectif est de diviser par 2 la consommation d'énergie finale en France d'ici 2050."
+      },
       "sources": [
-        {
-          "titre": "Directive 2012/27/UE relative à l'efficacité énergétique",
-          "auteur": "Union Européenne",
-          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32012L0027",
-          "annee": 2012,
-          "type": "loi"
-        },
-        {
-          "titre": "L'efficacité énergétique",
-          "auteur": "ADEME",
-          "url": "https://www.ademe.fr/",
-          "annee": 2022,
-          "type": "institution"
-        }
+        {"titre": "Energy Efficiency 2023", "auteur": "IEA", "url": "https://www.iea.org/reports/energy-efficiency-2023", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Directive (UE) 2023/1791 sur l'efficacité énergétique (EED révisée)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2023, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "Scénario négaWatt 2022", "auteur": "négaWatt", "url": "https://www.negawatt.org/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "energie-climat",
       "tags": ["performance", "consommation", "technologie", "bâtiment"],
+      "motsClésScientifiques": ["négawatt", "effet rebond", "DPE", "RE2020", "pompe à chaleur", "ISO 50001", "rénovation"],
       "relations": [
-        { "cible": "transition-energetique", "type": "contribue_a", "score": 85, "direction": "positif" },
-        { "cible": "sobriete-energetique", "type": "proche_de", "score": 80 },
-        { "cible": "empreinte-carbone", "type": "oppose_a", "score": 70 }
+        {"cible": "transition-energetique", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "sobriete-energetique", "type": "proche_de", "score": 80},
+        {"cible": "empreinte-carbone", "type": "oppose_a", "score": 70}
       ],
-      "exemples": [
-        "Isolation thermique des bâtiments",
-        "Ampoules LED vs incandescentes",
-        "Moteurs à haut rendement"
-      ],
-      "synonymes": ["performance énergétique", "rendement énergétique"]
+      "exemples": ["Rénovation thermique BBC", "LED : 10x plus efficaces", "Pompe à chaleur COP 4"],
+      "synonymes": ["performance énergétique", "rendement énergétique"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Potentiel efficacité : -40% énergie bâtiments existants", "source": "ADEME", "annee": 2022},
+        {"valeur": "Objectif UE : -11,7% conso finale en 2030", "source": "EED", "annee": 2023}
+      ]
     },
     {
       "id": "sobriete-energetique",
       "terme": "Sobriété énergétique",
-      "definition": "Démarche visant à réduire les consommations d'énergie par des changements de comportements, de modes de vie et d'organisation collective, plutôt que par des solutions technologiques. Elle questionne les besoins réels et vise à éliminer les gaspillages et les usages superflus.",
+      "resume": "Réduction des consommations d'énergie par des changements de comportements et d'organisation, questionnant les besoins réels. Premier levier du triptyque sobriété-efficacité-renouvelables.",
+      "definition": "La sobriété énergétique est une démarche visant à réduire les consommations d'énergie par des changements de comportements, de modes de vie et d'organisation collective, plutôt que par des solutions technologiques. Elle questionne les besoins réels, élimine les gaspillages et les usages superflus, et priorise les usages essentiels. Contrairement à l'efficacité (faire mieux avec moins), la sobriété consiste à 'faire moins mais mieux' ou 'faire autrement'. Elle est le premier pilier du triptyque négaWatt : sobriété, efficacité, renouvelables.",
+      "definitionEtendue": {
+        "introduction": "Le concept de sobriété énergétique est théorisé en France par l'association négaWatt (2003) et Ivan Illich (1973, 'La Convivialité'). Longtemps marginale, la sobriété entre dans le débat public avec la crise énergétique de 2022 (guerre d'Ukraine). Le gouvernement français lance un 'Plan de sobriété énergétique' (octobre 2022) visant -10% de consommation en 2 ans. Le GIEC (AR6 WG3, 2022) reconnaît pour la première fois la sobriété ('demand-side mitigation') comme levier d'atténuation essentiel, potentiellement responsable de 40-70% des réductions nécessaires.",
+        "mecanismes": "négaWatt distingue quatre types de sobriété : dimensionnelle (adapter la taille au besoin : logement, véhicule), d'usage (intensifier l'usage : covoiturage, mutualisation), substitution (remplacer un service énergivore : vélo vs voiture), et organisationnelle (rapprocher habitat-travail, télétravail). La sobriété n'est pas la privation : elle vise le 'juste nécessaire' pour le bien-être. Elle s'inscrit dans une réflexion sur les 'besoins' vs les 'désirs' créés par la société de consommation.",
+        "contexteScientifique": "La recherche sur la sobriété est émergente. Les travaux portent sur : la définition (distinction avec décroissance, frugalité, suffisance), la quantification des potentiels (scénarios négaWatt, ADEME), les leviers d'adoption (freins psychologiques, normes sociales), et l'acceptabilité politique. Le débat porte sur : sobriété choisie vs subie, sobriété individuelle vs collective, et risque de 'sobriété punitive'. Les études montrent un potentiel de 10-30% de réduction à court terme par la sobriété seule.",
+        "enjeuxActuels": "La crise énergétique 2022 a légitimé la sobriété. Le plan français cible : 19°C dans les bâtiments, éclairage public réduit, décalage du chauffage, télétravail. L'hiver 2022-23 a montré une baisse de 12% de la consommation de gaz (conjoncture + sobriété). Les défis : pérenniser au-delà de la crise, justice sociale (sobriété différenciée selon les revenus), accompagnement des ménages précaires, et changement culturel profond contre le 'toujours plus'.",
+        "perspectives": "La sobriété devient un pilier des politiques climatiques. Les scénarios ADEME (Transition 2050) et négaWatt intègrent 20-40% de sobriété. L'enjeu est de passer de mesures d'urgence à une transformation structurelle : urbanisme sobre (proximité, densité), mobilités douces, économie de la fonctionnalité, modes de vie désintensifiés. La sobriété peut être source de bien-être (temps, santé, lien social) et non de sacrifice. Le concept s'élargit aux 'sobriétés' (numérique, matérielle, spatiale)."
+      },
       "sources": [
-        {
-          "titre": "Sobriété énergétique : pour une société plus juste et plus durable",
-          "auteur": "négaWatt",
-          "url": "https://www.negawatt.org/sobriete-energetique",
-          "annee": 2022,
-          "type": "institution"
-        },
-        {
-          "titre": "Plan de sobriété énergétique",
-          "auteur": "Gouvernement français",
-          "url": "https://www.ecologie.gouv.fr/sobriete-energetique",
-          "annee": 2022,
-          "type": "rapport"
-        }
+        {"titre": "Mitigation of Climate Change - AR6 WG3 (Chapitre 5 Demand-side)", "auteur": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg3/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Scénario négaWatt 2022", "auteur": "négaWatt", "url": "https://www.negawatt.org/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Plan de sobriété énergétique", "auteur": "Gouvernement français", "url": "https://www.ecologie.gouv.fr/sobriete-energetique", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "energie-climat",
       "tags": ["comportement", "réduction", "besoins", "négaWatt"],
+      "motsClésScientifiques": ["demand-side mitigation", "suffisance", "sobriété dimensionnelle", "sobriété d'usage", "déconsommation"],
       "relations": [
-        { "cible": "efficacite-energetique", "type": "proche_de", "score": 85 },
-        { "cible": "transition-energetique", "type": "contribue_a", "score": 80, "direction": "positif" },
-        { "cible": "empreinte-carbone", "type": "oppose_a", "score": 75 }
+        {"cible": "efficacite-energetique", "type": "proche_de", "score": 85},
+        {"cible": "transition-energetique", "type": "contribue_a", "score": 80, "direction": "positif"},
+        {"cible": "empreinte-carbone", "type": "oppose_a", "score": 75}
       ],
-      "exemples": [
-        "Baisser le chauffage de 1°C",
-        "Limiter les trajets en avion",
-        "Éteindre les appareils en veille"
-      ],
-      "synonymes": ["suffisance énergétique", "frugalité énergétique"]
+      "exemples": ["19°C dans les bâtiments", "Télétravail 2 jours/semaine", "Vélo pour trajets <5 km"],
+      "synonymes": ["suffisance énergétique", "frugalité énergétique", "demand-side sufficiency"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Potentiel sobriété : 40-70% des réductions nécessaires", "source": "GIEC AR6 WG3", "annee": 2022},
+        {"valeur": "Baisse conso gaz France hiver 2022-23 : -12%", "source": "MTE", "annee": 2023}
+      ]
     }
   ]
 }

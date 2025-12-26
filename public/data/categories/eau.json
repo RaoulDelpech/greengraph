@@ -7,226 +7,235 @@
     {
       "id": "cycle-eau",
       "terme": "Cycle de l'eau",
-      "definition": "Circulation continue de l'eau dans l'hydrosphère, sous ses différents états (liquide, solide, gazeux). Il comprend l'évaporation des océans et surfaces continentales, la formation de nuages, les précipitations, le ruissellement, l'infiltration et le retour vers les océans via les cours d'eau et les nappes souterraines.",
+      "resume": "Circulation continue de l'eau entre atmosphère, surfaces continentales et océans. Processus fondamental régulant le climat et la vie.",
+      "definition": "Le cycle de l'eau (ou cycle hydrologique) est la circulation continue de l'eau dans l'hydrosphère, sous ses différents états (liquide, solide, gazeux). Il comprend l'évaporation des océans et surfaces continentales, la formation de nuages et les précipitations, le ruissellement de surface et l'infiltration dans les sols, l'écoulement souterrain vers les nappes, et le retour vers les océans via les cours d'eau. Ce cycle, alimenté par l'énergie solaire, régule le climat et rend possible la vie terrestre.",
+      "definitionEtendue": {
+        "introduction": "Le cycle de l'eau est décrit scientifiquement depuis le XVIIe siècle (Pierre Perrault, Edme Mariotte). L'hydrologie moderne quantifie les flux : 500 000 km³ d'eau s'évaporent annuellement, dont 86% des océans. Le GIEC intègre le cycle de l'eau dans ses modèles climatiques. Le changement climatique modifie ce cycle : intensification des précipitations extrêmes, modification des régimes hydrologiques, et fonte des glaciers affectant le stockage d'eau douce.",
+        "mecanismes": "Le cycle comprend plusieurs réservoirs : océans (97,5% de l'eau terrestre), glaciers et calottes (1,7%), eaux souterraines (0,76%), lacs et rivières (0,01%), et atmosphère (0,001%). Les flux incluent : évaporation (océans, lacs, sols), transpiration (végétation), précipitations (pluie, neige), ruissellement (rivières), infiltration (recharge des nappes), et écoulement souterrain. Le temps de résidence varie de 9 jours (atmosphère) à 10 000 ans (nappes profondes).",
+        "contexteScientifique": "L'hydrologie étudie les bilans hydrologiques à différentes échelles (bassin versant, continent, globe). Les modèles hydrologiques simulent les flux pour prévoir crues, étiages et disponibilité. Le couplage hydrologie-climat est un enjeu majeur : le cycle de l'eau transporte 40% de l'énergie thermique des tropiques vers les pôles. Les isotopes de l'eau (deutérium, oxygène-18) tracent les mouvements d'eau dans le cycle.",
+        "enjeuxActuels": "Le changement climatique perturbe le cycle de l'eau : intensification du cycle (plus d'évaporation, précipitations plus intenses), modification saisonnière (sécheresses plus longues, crues plus violentes), et fonte des réserves de glace (élévation du niveau des mers). L'urbanisation imperméabilise les sols, réduisant l'infiltration et aggravant le ruissellement. Les prélèvements excessifs (irrigation, industrie) déséquilibrent le bilan des nappes.",
+        "perspectives": "La gestion intégrée des ressources en eau (GIRE) vise à préserver le cycle naturel. Les solutions incluent : désimperméabilisation urbaine, recharge artificielle des nappes, agriculture économe en eau, et protection des zones humides (régulation du cycle). La modélisation couplée hydrologie-climat améliore les projections. L'enjeu est d'adapter les sociétés à un cycle de l'eau plus variable et moins prévisible."
+      },
       "sources": [
-        {
-          "titre": "Le cycle de l'eau",
-          "auteur": "CNRS",
-          "url": "https://www.cnrs.fr/",
-          "annee": 2020,
-          "type": "institution"
-        },
-        {
-          "titre": "Water cycle",
-          "auteur": "USGS",
-          "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
-          "annee": 2022,
-          "type": "institution"
-        }
+        {"titre": "Cycle hydrologique", "auteur": "USGS", "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Climate Change and the Global Water Cycle (AR6 WG1)", "auteur": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg1/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "eau",
       "tags": ["hydrologie", "précipitations", "évaporation", "nappes"],
+      "motsClésScientifiques": ["bilan hydrologique", "temps de résidence", "évapotranspiration", "ruissellement", "infiltration"],
       "relations": [
-        { "cible": "ressource-eau", "type": "renvoie_a", "score": 90 },
-        { "cible": "nappe-phreatique", "type": "renvoie_a", "score": 80 },
-        { "cible": "bassin-versant", "type": "renvoie_a", "score": 75 }
+        {"cible": "stress-hydrique", "type": "renvoie_a", "score": 85},
+        {"cible": "zone-humide", "type": "renvoie_a", "score": 75},
+        {"cible": "changement-climatique", "type": "renvoie_a", "score": 80}
       ],
-      "exemples": [
-        "L'eau de pluie qui s'infiltre dans le sol pour alimenter les nappes",
-        "L'évaporation des océans qui forme les nuages"
-      ],
-      "synonymes": ["cycle hydrologique"]
+      "exemples": ["Évaporation océans : 430 000 km³/an", "Précipitations continents : 110 000 km³/an", "Débit fleuves : 40 000 km³/an"],
+      "synonymes": ["cycle hydrologique", "water cycle"],
+      "indicateursQuantitatifs": [
+        {"valeur": "1 386 millions km³ d'eau sur Terre (dont 2,5% eau douce)", "source": "USGS", "annee": 2023},
+        {"valeur": "Temps résidence eau atmosphérique : 9 jours", "source": "USGS", "annee": 2023}
+      ]
     },
     {
       "id": "stress-hydrique",
       "terme": "Stress hydrique",
-      "definition": "Situation où la demande en eau dépasse les ressources disponibles ou lorsque la mauvaise qualité de l'eau en limite l'usage. Selon l'ONU, un territoire est en stress hydrique lorsque les prélèvements annuels dépassent 25% des ressources renouvelables, et en pénurie au-delà de 40%.",
+      "resume": "Situation où la demande en eau dépasse les ressources disponibles. Concerne déjà 2 milliards de personnes, aggravé par le changement climatique.",
+      "definition": "Le stress hydrique est une situation où la demande en eau (prélèvements) dépasse les ressources renouvelables disponibles, ou lorsque la mauvaise qualité de l'eau en limite l'usage. L'ONU définit un territoire en stress hydrique lorsque les prélèvements annuels dépassent 25% des ressources renouvelables, et en pénurie au-delà de 40%. Plus de 2 milliards de personnes vivent dans des pays soumis au stress hydrique, chiffre qui augmentera avec le changement climatique et la croissance démographique.",
+      "definitionEtendue": {
+        "introduction": "Le concept de stress hydrique émerge dans les années 1990 (Falkenmark water stress indicator). L'indicateur de Falkenmark (<1700 m³/hab/an = stress, <1000 m³ = pénurie) reste une référence. Les approches modernes intègrent : qualité de l'eau, saisonnalité, accessibilité, et usages. L'ODD 6 (eau propre et assainissement) vise l'accès universel. Le rapport mondial sur l'eau (UNESCO) documente annuellement la situation.",
+        "mecanismes": "Le stress hydrique résulte de : conditions climatiques (aridité naturelle), croissance démographique (plus de demande), développement économique (industrie, agriculture irriguée), pollution (réduisant l'eau utilisable), et changement climatique (modifiant précipitations et évaporation). Les secteurs consommateurs sont : agriculture (70% mondial), industrie (20%), et usage domestique (10%). Les nappes surexploitées s'épuisent plus vite qu'elles ne se rechargent.",
+        "contexteScientifique": "L'évaluation du stress hydrique utilise des indicateurs multidimensionnels : ratio prélèvement/ressources, stress économique (capacité d'accès), et stress écologique (maintien des écosystèmes). Les modèles hydrologiques globaux (WaterGAP, PCR-GLOBWB) projettent l'évolution du stress. Les études montrent une hausse de 15-40% du stress hydrique d'ici 2050. Les points chauds incluent : bassin méditerranéen, Moyen-Orient, Asie centrale, et ouest des États-Unis.",
+        "enjeuxActuels": "Le stress hydrique affecte 2 milliards de personnes. Les tensions géopolitiques autour de l'eau augmentent (bassins transfrontaliers : Nil, Jourdain, Indus). L'agriculture irriguée, qui produit 40% de l'alimentation mondiale, est menacée. Les mégapoles (Mexico, Le Cap, Chennai) font face à des risques de 'Day Zero' (rupture d'approvisionnement). En France, les sécheresses de 2022-23 ont contraint des restrictions d'usage.",
+        "perspectives": "L'adaptation passe par : économies d'eau (irrigation localisée, efficacité industrielle), réutilisation des eaux usées traitées (REUT), dessalement (zones côtières), stockage (retenues, recharge de nappes), et transferts entre bassins (controversés). La tarification progressive incite aux économies. Les solutions fondées sur la nature (restauration zones humides) améliorent la résilience. L'enjeu est de partager équitablement une ressource de plus en plus rare."
+      },
       "sources": [
-        {
-          "titre": "World Water Development Report 2021",
-          "auteur": "UNESCO",
-          "url": "https://www.unesco.org/reports/wwdr/2021/en",
-          "annee": 2021,
-          "type": "rapport"
-        },
-        {
-          "titre": "Aqueduct Water Risk Atlas",
-          "auteur": "World Resources Institute",
-          "url": "https://www.wri.org/aqueduct",
-          "annee": 2023,
-          "type": "institution"
-        }
+        {"titre": "World Water Development Report 2023", "auteur": "UNESCO", "url": "https://www.unesco.org/reports/wwdr/2023/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Aqueduct Water Risk Atlas", "auteur": "World Resources Institute", "url": "https://www.wri.org/aqueduct", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "eau",
       "tags": ["pénurie", "disponibilité", "risque", "sécheresse"],
+      "motsClésScientifiques": ["indicateur Falkenmark", "prélèvements/ressources", "REUT", "dessalement", "surexploitation nappes"],
       "relations": [
-        { "cible": "changement-climatique", "type": "renvoie_a", "score": 80 },
-        { "cible": "ressource-eau", "type": "oppose_a", "score": 85 },
-        { "cible": "gestion-eau", "type": "renvoie_a", "score": 75 }
+        {"cible": "changement-climatique", "type": "renvoie_a", "score": 80},
+        {"cible": "cycle-eau", "type": "renvoie_a", "score": 85},
+        {"cible": "empreinte-eau", "type": "proche_de", "score": 75}
       ],
-      "exemples": [
-        "Le bassin méditerranéen, région à fort stress hydrique",
-        "Les épisodes de sécheresse estivale en France"
-      ],
-      "synonymes": ["tension sur l'eau", "pénurie d'eau"]
+      "exemples": ["Bassin méditerranéen : -20% précipitations d'ici 2050", "France : sécheresses 2022-23 historiques", "25 pays en stress hydrique élevé"],
+      "synonymes": ["tension sur l'eau", "pénurie d'eau", "water stress"],
+      "indicateursQuantitatifs": [
+        {"valeur": "2 milliards de personnes vivent en stress hydrique", "source": "ONU", "annee": 2023},
+        {"valeur": "25% des terres agricoles irriguées en stress élevé", "source": "WRI", "annee": 2023}
+      ]
     },
     {
       "id": "eau-grise",
       "terme": "Eaux grises",
-      "definition": "Eaux usées domestiques faiblement polluées, issues des lavabos, douches, baignoires et lave-linge (hors toilettes et cuisine). Elles peuvent être traitées et réutilisées pour des usages ne nécessitant pas d'eau potable : arrosage, chasses d'eau, nettoyage.",
+      "resume": "Eaux usées domestiques peu polluées (douche, lavabo, lave-linge). Peuvent être traitées et réutilisées pour des usages non potables.",
+      "definition": "Les eaux grises sont les eaux usées domestiques faiblement polluées, provenant des lavabos, douches, baignoires et lave-linge, par opposition aux eaux noires (toilettes, cuisine) plus chargées en matières organiques et pathogènes. Après traitement adapté, les eaux grises peuvent être réutilisées pour des usages ne nécessitant pas d'eau potable : arrosage des espaces verts, chasses d'eau, lavage de voirie. Cette valorisation s'inscrit dans l'économie circulaire de l'eau.",
+      "definitionEtendue": {
+        "introduction": "La distinction eaux grises/eaux noires est utilisée en assainissement depuis les années 1970. Les systèmes de recyclage des eaux grises se développent dans les pays soumis au stress hydrique (Australie, Israël, Californie). En France, la réglementation est restrictive : seuls certains usages sont autorisés depuis 2014 (arrosage). L'arrêté du 25 juin 2014 encadre la réutilisation des eaux usées traitées (REUT). La crise de l'eau pousse à assouplir les règles.",
+        "mecanismes": "Les eaux grises représentent 50-80% des eaux usées domestiques. Leur charge polluante est 10 fois inférieure aux eaux noires. Le traitement peut être simple (filtration, désinfection) pour un usage limité, ou plus poussé (bioréacteur à membrane) pour un usage étendu. Les systèmes vont du plus simple (cuve de récupération pour arrosage) au plus sophistiqué (traitement intégré dans les bâtiments). Les contraintes : stockage limité (fermentation), entretien, et acceptation par les usagers.",
+        "contexteScientifique": "La recherche porte sur : les traitements décentralisés (à l'échelle du bâtiment), les risques sanitaires (micro-organismes, produits chimiques), et les modèles économiques. Les études montrent que le recyclage des eaux grises peut réduire la consommation d'eau potable de 30-50% dans le résidentiel. Les freins sont psychologiques (acceptation du recyclage), réglementaires (normes de qualité), et économiques (investissement initial).",
+        "enjeuxActuels": "Face au stress hydrique croissant, la REUT se développe. L'UE prépare un règlement sur la réutilisation de l'eau (irrigation agricole). En France, le plan eau (2023) vise 10% d'eaux usées réutilisées en 2030 (vs 1% aujourd'hui). Les freins : coût des infrastructures, réglementation sanitaire stricte, et acceptabilité sociale. Les bâtiments neufs intègrent de plus en plus des systèmes de récupération (HQE, BREEAM).",
+        "perspectives": "L'avenir passe par : l'intégration dans la réglementation des bâtiments (RE2020 élargie), les technologies décentralisées (micro-stations), les 'bâtiments à bilan eau neutre', et l'économie circulaire urbaine (symbiose entre usages). Israël réutilise 90% de ses eaux usées pour l'irrigation. L'enjeu est de lever les freins psychologiques et réglementaires pour développer cette ressource alternative."
+      },
       "sources": [
-        {
-          "titre": "Réutilisation des eaux usées traitées",
-          "auteur": "ADEME",
-          "url": "https://www.ademe.fr/",
-          "annee": 2021,
-          "type": "institution"
-        },
-        {
-          "titre": "Arrêté du 25 juin 2014 relatif à l'utilisation d'eaux issues du traitement d'épuration des eaux résiduaires urbaines",
-          "url": "https://www.legifrance.gouv.fr/",
-          "annee": 2014,
-          "type": "loi"
-        }
+        {"titre": "Réutilisation des eaux usées traitées", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Arrêté du 25 juin 2014 relatif aux eaux usées traitées", "url": "https://www.legifrance.gouv.fr/", "annee": 2014, "type": "loi", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "eau",
       "tags": ["réutilisation", "traitement", "économie", "domestique"],
+      "motsClésScientifiques": ["REUT", "eaux noires", "assainissement non collectif", "recyclage in situ"],
       "relations": [
-        { "cible": "economie-circulaire", "type": "contribue_a", "score": 75, "direction": "positif" },
-        { "cible": "eau-noire", "type": "proche_de", "score": 70 },
-        { "cible": "gestion-eau", "type": "renvoie_a", "score": 80 }
+        {"cible": "economie-circulaire", "type": "contribue_a", "score": 75, "direction": "positif"},
+        {"cible": "assainissement", "type": "renvoie_a", "score": 80},
+        {"cible": "stress-hydrique", "type": "oppose_a", "score": 70}
       ],
-      "exemples": [
-        "Récupération de l'eau de douche pour les WC",
-        "Arrosage du jardin avec les eaux de lavage"
+      "exemples": ["Arrosage espaces verts avec eaux grises traitées", "Alimentation chasses d'eau", "Lavage véhicules collectivités"],
+      "synonymes": ["eaux ménagères légères", "greywater"],
+      "indicateursQuantitatifs": [
+        {"valeur": "France : 1% des eaux usées réutilisées (objectif 10% en 2030)", "source": "Plan eau", "annee": 2023},
+        {"valeur": "Israël : 90% des eaux usées réutilisées", "source": "OCDE", "annee": 2022}
       ]
     },
     {
       "id": "empreinte-eau",
       "terme": "Empreinte eau",
-      "definition": "Volume total d'eau douce utilisé pour produire les biens et services consommés par un individu, une entreprise ou un territoire. Elle inclut l'eau bleue (prélevée dans les nappes et cours d'eau), l'eau verte (pluie stockée dans les sols) et l'eau grise (volume nécessaire pour diluer les polluants).",
+      "resume": "Volume d'eau douce utilisé pour produire les biens et services consommés. Inclut eau bleue (prélèvements), verte (pluie) et grise (dilution pollution).",
+      "definition": "L'empreinte eau est le volume total d'eau douce utilisé pour produire les biens et services consommés par un individu, une entreprise ou un territoire. Elle inclut l'eau bleue (prélevée dans les nappes et cours d'eau), l'eau verte (eau de pluie stockée dans les sols et évapotranspirée par les cultures), et l'eau grise (volume théorique nécessaire pour diluer les polluants aux normes de qualité). L'empreinte eau révèle la dépendance réelle à l'eau, y compris celle 'cachée' dans les produits importés.",
+      "definitionEtendue": {
+        "introduction": "Le concept est développé par Arjen Hoekstra (Université de Twente) en 2002. Le Water Footprint Network (2008) standardise les méthodes. L'ISO 14046 (2014) normalise l'évaluation de l'empreinte eau. Le concept s'inspire de l'empreinte écologique et vise à rendre visible l'eau 'virtuelle' (Allan, 1993) échangée dans le commerce international. L'empreinte eau complète les indicateurs de prélèvement en intégrant la dimension territoriale et qualitative.",
+        "mecanismes": "L'eau bleue est l'eau prélevée (rivières, nappes) qui ne retourne pas immédiatement au milieu. L'eau verte est l'eau de pluie stockée dans le sol et utilisée par les plantes (pertinente pour l'agriculture pluviale). L'eau grise quantifie l'impact sur la qualité : volume d'eau nécessaire pour diluer les rejets polluants au niveau des normes. Le calcul suit une logique de cycle de vie : matières premières, fabrication, usage, fin de vie.",
+        "contexteScientifique": "L'empreinte eau soulève des débats méthodologiques : pertinence de l'eau verte (pas de 'coût d'opportunité' dans les régions humides), agrégation spatiale (stress hydrique local vs empreinte globale), et comparaison eau bleue/verte/grise. Les études régionalisent l'empreinte en pondérant par le stress hydrique local (empreinte eau pondérée). L'intégration avec l'ACV améliore la cohérence des évaluations environnementales.",
+        "enjeuxActuels": "L'empreinte eau mondiale est de 9 000 km³/an. L'agriculture représente 92% (dont 70% eau verte). La France importe 60% de son empreinte eau via les produits agricoles. Les enjeux : sensibilisation des consommateurs, benchmark des entreprises (CDP Water), politiques d'importation (ne pas externaliser le stress hydrique), et optimisation des chaînes d'approvisionnement. L'affichage environnemental pourrait intégrer l'empreinte eau.",
+        "perspectives": "L'avenir passe par : la généralisation des évaluations corporate (reporting), l'intégration dans les standards de durabilité (CDP, GRI), les objectifs science-based pour l'eau (SBTN), et la prise en compte du contexte local (où l'eau est-elle utilisée ?). Le concept de 'water stewardship' (gestion responsable de l'eau dans les bassins versants) dépasse la simple comptabilité. L'enjeu est de réduire l'empreinte eau là où elle crée du stress hydrique."
+      },
       "sources": [
-        {
-          "titre": "The Water Footprint Assessment Manual",
-          "auteur": "Water Footprint Network",
-          "url": "https://waterfootprint.org/en/resources/publications/water-footprint-assessment-manual/",
-          "annee": 2011,
-          "type": "rapport"
-        },
-        {
-          "titre": "L'empreinte eau",
-          "auteur": "WWF France",
-          "url": "https://www.wwf.fr/",
-          "annee": 2020,
-          "type": "institution"
-        }
+        {"titre": "The Water Footprint Assessment Manual", "auteur": "Water Footprint Network", "url": "https://waterfootprint.org/", "annee": 2011, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "ISO 14046:2014 - Environmental management - Water footprint", "auteur": "ISO", "annee": 2014, "type": "norme_iso", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "eau",
       "tags": ["indicateur", "consommation", "virtuelle", "bilan"],
+      "motsClésScientifiques": ["eau bleue", "eau verte", "eau grise", "eau virtuelle", "water footprint"],
       "relations": [
-        { "cible": "empreinte-carbone", "type": "proche_de", "score": 80 },
-        { "cible": "empreinte-ecologique", "type": "proche_de", "score": 75 },
-        { "cible": "stress-hydrique", "type": "contribue_a", "score": 70, "direction": "positif" }
+        {"cible": "empreinte-carbone", "type": "proche_de", "score": 80},
+        {"cible": "stress-hydrique", "type": "contribue_a", "score": 70, "direction": "positif"},
+        {"cible": "empreinte-ecologique", "type": "proche_de", "score": 75}
       ],
-      "exemples": [
-        "1 kg de bœuf = ~15 000 litres d'eau",
-        "1 jean = ~8 000 litres d'eau",
-        "1 tasse de café = ~140 litres d'eau"
-      ],
-      "synonymes": ["water footprint", "eau virtuelle"]
+      "exemples": ["1 kg boeuf = 15 000 L", "1 jean = 8 000 L", "1 tasse café = 140 L"],
+      "synonymes": ["water footprint", "eau virtuelle"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Empreinte eau mondiale : 9 000 km³/an", "source": "WFN", "annee": 2020},
+        {"valeur": "Empreinte France : 1 800 m³/hab/an (60% importée)", "source": "WWF", "annee": 2020}
+      ]
     },
     {
       "id": "zone-humide",
       "terme": "Zone humide",
-      "definition": "Terrain inondé ou gorgé d'eau de façon permanente ou temporaire. Marais, tourbières, prairies humides, mangroves et lagunes jouent un rôle écologique majeur : régulation des crues, épuration de l'eau, stockage de carbone, et habitat pour de nombreuses espèces.",
+      "resume": "Écosystème inondé ou saturé d'eau en permanence ou temporairement. Services majeurs : régulation crues, épuration eau, habitat biodiversité, stockage carbone.",
+      "definition": "Les zones humides sont des terrains inondés ou gorgés d'eau de façon permanente ou temporaire, dont la végétation et la faune sont adaptées à ces conditions. Elles incluent : marais, tourbières, prairies humides, mangroves, lagunes, et estuaires. Elles jouent un rôle écologique majeur : régulation des crues (stockage temporaire), épuration naturelle de l'eau, stockage de carbone (tourbières), habitat pour une biodiversité exceptionnelle, et soutien d'étiage (alimentation des cours d'eau en période sèche).",
+      "definitionEtendue": {
+        "introduction": "La Convention de Ramsar (1971) est le premier traité international sur les zones humides, définies comme 'marais, fagnes, tourbières ou eaux naturelles ou artificielles, permanentes ou temporaires'. La France compte 2 400 sites Ramsar dans le monde, dont 52 en métropole et outre-mer. Historiquement considérées comme insalubres, les zones humides ont été massivement drainées (50% perdues en France depuis 1960). Leur valeur écologique et économique est aujourd'hui reconnue.",
+        "mecanismes": "Les zones humides fonctionnent comme des 'éponges' : elles absorbent l'eau en période de crue (réduction des inondations) et la restituent lentement en période sèche (soutien d'étiage). L'épuration s'effectue par filtration, sédimentation, et absorption par les plantes (phytoépuration). Les tourbières stockent 30% du carbone des sols mondiaux (2x plus que les forêts). La biodiversité y est exceptionnelle : 40% des espèces dépendent des zones humides qui ne représentent que 6% des terres émergées.",
+        "contexteScientifique": "L'évaluation économique des services rendus par les zones humides (TEEB) estime leur valeur à 47 000 $/ha/an, la plus élevée de tous les écosystèmes. La recherche porte sur : les dynamiques hydrologiques, le bilan carbone (émission de méthane vs stockage CO2), et la restauration des zones dégradées. Le GIEC et l'IPBES soulignent le rôle des zones humides dans l'adaptation au changement climatique et la préservation de la biodiversité.",
+        "enjeuxActuels": "Les zones humides continuent de disparaître (35% perdues depuis 1970 dans le monde). Les pressions incluent : drainage agricole, urbanisation, pollution, et dérèglement climatique. En France, le Plan national milieux humides (2022) vise à stopper la perte nette et restaurer 50 000 ha. Les enjeux : intégration dans l'aménagement du territoire (SDAGE, SAGE), compensation des atteintes (séquence ERC), et valorisation des services écosystémiques.",
+        "perspectives": "L'avenir passe par : les 'solutions fondées sur la nature' (restauration de zones humides pour la gestion des inondations et la qualité de l'eau), la protection juridique renforcée, et les paiements pour services environnementaux (incitation à la préservation par les agriculteurs). Les villes redécouvrent les zones humides urbaines (parcs, noues, jardins de pluie). L'enjeu est de passer de la protection défensive à la restauration active de ces écosystèmes irremplaçables."
+      },
       "sources": [
-        {
-          "titre": "Convention de Ramsar",
-          "auteur": "UICN",
-          "url": "https://www.ramsar.org/",
-          "annee": 1971,
-          "type": "loi"
-        },
-        {
-          "titre": "Les zones humides",
-          "auteur": "OFB",
-          "url": "https://www.ofb.gouv.fr/les-zones-humides",
-          "annee": 2022,
-          "type": "institution"
-        }
+        {"titre": "Convention de Ramsar", "url": "https://www.ramsar.org/", "annee": 1971, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "Les zones humides en France", "auteur": "OFB", "url": "https://www.ofb.gouv.fr/les-zones-humides", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Global Wetland Outlook", "auteur": "Ramsar Convention", "url": "https://www.ramsar.org/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "eau",
       "tags": ["marais", "tourbières", "biodiversité", "Ramsar"],
+      "motsClésScientifiques": ["services écosystémiques", "soutien d'étiage", "phytoépuration", "stockage carbone", "Ramsar"],
       "relations": [
-        { "cible": "ecosysteme", "type": "est_type_de", "score": 85 },
-        { "cible": "services-ecosystemiques", "type": "contribue_a", "score": 90, "direction": "positif" },
-        { "cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif" }
+        {"cible": "services-ecosystemiques", "type": "contribue_a", "score": 90, "direction": "positif"},
+        {"cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "cycle-eau", "type": "renvoie_a", "score": 80}
       ],
-      "exemples": [
-        "Marais poitevin",
-        "Camargue",
-        "Tourbières du Jura"
-      ],
-      "synonymes": ["milieu humide", "wetland"]
+      "exemples": ["Camargue (Ramsar)", "Marais poitevin", "Tourbières du Jura (30% carbone sols)"],
+      "synonymes": ["milieu humide", "wetland"],
+      "indicateursQuantitatifs": [
+        {"valeur": "35% des zones humides mondiales perdues depuis 1970", "source": "Ramsar", "annee": 2021},
+        {"valeur": "France : 50% zones humides perdues depuis 1960", "source": "OFB", "annee": 2023}
+      ]
     },
     {
       "id": "eutrophisation",
       "terme": "Eutrophisation",
-      "definition": "Enrichissement excessif des eaux en nutriments (azote, phosphore), provoquant une prolifération d'algues et de plantes aquatiques. La décomposition de cette biomasse consomme l'oxygène dissous, entraînant l'asphyxie du milieu et la mort de la faune aquatique.",
+      "resume": "Enrichissement excessif des eaux en nutriments (azote, phosphore) causant prolifération d'algues et asphyxie des milieux aquatiques.",
+      "definition": "L'eutrophisation est l'enrichissement excessif des eaux en nutriments, principalement azote et phosphore, provoquant une prolifération d'algues et de plantes aquatiques (blooms). La décomposition de cette biomasse par les bactéries consomme l'oxygène dissous, entraînant l'asphyxie du milieu (hypoxie, anoxie) et la mort de la faune aquatique. Ce phénomène affecte les lacs, rivières, estuaires et zones côtières, dégradant la qualité de l'eau et les usages (baignade, pêche, eau potable).",
+      "definitionEtendue": {
+        "introduction": "L'eutrophisation est identifiée dès les années 1960-70 dans les Grands Lacs nord-américains (phosphates des lessives). La directive européenne Nitrates (1991) vise à réduire les apports agricoles. Les 'zones mortes' (dead zones) océaniques, comme dans le Golfe du Mexique (22 000 km²), sont des conséquences extrêmes. En France, les marées vertes bretonnes (ulves) sont le symptôme visible de l'eutrophisation côtière liée à l'agriculture intensive.",
+        "mecanismes": "L'eutrophisation suit un processus en cascade : 1) apport excessif de nutriments (N, P) par les effluents agricoles (engrais, élevage), urbains (eaux usées), ou industriels ; 2) prolifération du phytoplancton et des algues (bloom) ; 3) mort et sédimentation de la biomasse ; 4) décomposition bactérienne consommant l'oxygène ; 5) hypoxie/anoxie causant la mort des organismes. Certaines algues produisent aussi des toxines (cyanobactéries).",
+        "contexteScientifique": "La recherche porte sur : les seuils critiques de nutriments déclenchant l'eutrophisation, la modélisation biogéochimique des milieux, et les techniques de restauration (déphosphatation, aération). Le phosphore est souvent le facteur limitant en eau douce, l'azote en milieu marin. Les études identifient des 'points de basculement' au-delà desquels la restauration est très difficile (résilience réduite). Le changement climatique (réchauffement des eaux) aggrave le phénomène.",
+        "enjeuxActuels": "L'eutrophisation affecte 50% des eaux européennes. En France, les contentieux européens (directive Nitrates) ont conduit à des plans d'action successifs. Les marées vertes bretonnes coûtent 100 M€/an de ramassage. Les défis : réduire les apports à la source (agriculture), améliorer le traitement des eaux usées (déphosphatation), et restaurer les zones humides tampons. Le plan Ecophyto et les mesures agro-environnementales ciblent les pratiques agricoles.",
+        "perspectives": "L'avenir passe par : l'agroécologie (réduction des intrants azotés), les zones tampons (bandes enherbées, haies, zones humides), l'économie circulaire des nutriments (recyclage du phosphore des eaux usées), et la restauration des milieux dégradés. La directive-cadre sur l'eau (DCE) vise le 'bon état écologique' de toutes les masses d'eau. L'enjeu est de rompre le lien entre production agricole et pollution diffuse."
+      },
       "sources": [
-        {
-          "titre": "L'eutrophisation des milieux aquatiques",
-          "auteur": "INRAE",
-          "url": "https://www.inrae.fr/",
-          "annee": 2021,
-          "type": "institution"
-        }
+        {"titre": "Directive Nitrates 91/676/CEE", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 1991, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "L'eutrophisation des milieux aquatiques", "auteur": "INRAE", "url": "https://www.inrae.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "eau",
       "tags": ["pollution", "algues", "azote", "phosphore"],
+      "motsClésScientifiques": ["bloom algal", "hypoxie", "zone morte", "directive Nitrates", "cyanobactéries"],
       "relations": [
-        { "cible": "pollution", "type": "est_type_de", "score": 85 },
-        { "cible": "biodiversite", "type": "oppose_a", "score": 80 },
-        { "cible": "ecosysteme", "type": "oppose_a", "score": 75 }
+        {"cible": "pollution", "type": "est_type_de", "score": 85},
+        {"cible": "biodiversite", "type": "oppose_a", "score": 80},
+        {"cible": "zone-humide", "type": "oppose_a", "score": 70}
       ],
-      "exemples": [
-        "Marées vertes en Bretagne",
-        "Zones mortes dans le Golfe du Mexique"
-      ],
-      "synonymes": ["dystrophisation"]
+      "exemples": ["Marées vertes Bretagne (ulves)", "Zone morte Golfe du Mexique (22 000 km²)", "Bloom cyanobactéries lacs"],
+      "synonymes": ["dystrophisation", "eutrophication"],
+      "indicateursQuantitatifs": [
+        {"valeur": "700+ zones mortes océaniques dans le monde", "source": "PNUE", "annee": 2021},
+        {"valeur": "50% des eaux européennes affectées par l'eutrophisation", "source": "AEE", "annee": 2022}
+      ]
     },
     {
       "id": "assainissement",
       "terme": "Assainissement",
-      "definition": "Ensemble des techniques de collecte, transport et traitement des eaux usées et des eaux pluviales avant leur rejet dans le milieu naturel. L'assainissement peut être collectif (réseau public, station d'épuration) ou non collectif (fosse septique individuelle).",
+      "resume": "Collecte, transport et traitement des eaux usées avant rejet dans le milieu naturel. Collectif (réseau, station d'épuration) ou non collectif (fosse).",
+      "definition": "L'assainissement est l'ensemble des techniques de collecte, transport et traitement des eaux usées (domestiques, industrielles) et des eaux pluviales, avant leur rejet dans le milieu naturel ou leur réutilisation. Il vise à protéger la santé publique et l'environnement. L'assainissement peut être collectif (réseau d'égouts, station d'épuration) ou non collectif/autonome (fosse septique individuelle). L'ODD 6 vise l'accès universel à l'assainissement géré de manière sûre d'ici 2030.",
+      "definitionEtendue": {
+        "introduction": "L'assainissement moderne naît au XIXe siècle (épidémies de choléra, travaux d'Hausmann). La loi sur l'eau de 1964 structure l'assainissement en France via les agences de l'eau. La directive européenne sur les eaux résiduaires urbaines (DERU, 1991) impose le traitement secondaire des agglomérations de plus de 2 000 EH. En 2023, 3,6 milliards de personnes manquent encore d'un assainissement sûr dans le monde. L'ODD 6.2 vise l'accès universel d'ici 2030.",
+        "mecanismes": "L'assainissement collectif suit un schéma : collecte (réseau d'égouts, séparatif ou unitaire), transport (canalisations, relevage), et traitement (station d'épuration). Les techniques incluent : prétraitement (dégrillage, dessablage), traitement primaire (décantation), secondaire (biologique : boues activées, biofiltre), et tertiaire (déphosphatation, désinfection, élimination micropolluants). L'assainissement non collectif utilise des fosses toutes eaux avec épandage ou microstation.",
+        "contexteScientifique": "La recherche porte sur : les micropolluants (médicaments, perturbateurs endocriniens), l'efficacité énergétique des stations (méthanisation des boues), la réutilisation des eaux traitées (REUT), et l'assainissement écologique (toilettes sèches, phytoépuration). Les stations à énergie positive émergent. Le débat porte sur : gestion centralisée vs décentralisée, coût de la mise aux normes, et traitement des eaux pluviales (séparation, gestion à la source).",
+        "enjeuxActuels": "En France, 84% de la population est raccordée à l'assainissement collectif. Les enjeux : mise en conformité des stations (contentieux DERU), vieillissement des réseaux (30% de pertes en moyenne), gestion des eaux pluviales (imperméabilisation), et assainissement non collectif (5 millions d'installations, souvent non conformes). Le changement climatique (débits d'étiage réduits) renforce les exigences de traitement.",
+        "perspectives": "L'avenir passe par : la gestion intégrée des eaux urbaines (incluant pluviales), les 'villes éponges' (infiltration à la source), l'économie circulaire (récupération énergie et nutriments des boues), la REUT à grande échelle, et les solutions décentralisées (phytoépuration, toilettes sèches). Le concept de 'one water' intègre eau potable, eaux usées et eaux pluviales dans une vision systémique. L'enjeu est de transformer l'assainissement de contrainte en ressource."
+      },
       "sources": [
-        {
-          "titre": "Code de la santé publique - L1331",
-          "url": "https://www.legifrance.gouv.fr/",
-          "annee": 2020,
-          "type": "loi"
-        },
-        {
-          "titre": "L'assainissement des eaux usées",
-          "auteur": "Agences de l'eau",
-          "url": "https://www.lesagencesdeleau.fr/",
-          "annee": 2022,
-          "type": "institution"
-        }
+        {"titre": "Directive 91/271/CEE relative aux eaux résiduaires urbaines", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 1991, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "L'assainissement des eaux usées", "auteur": "Agences de l'eau", "url": "https://www.lesagencesdeleau.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "ODD 6 - Eau propre et assainissement", "auteur": "ONU", "url": "https://sdgs.un.org/goals/goal6", "annee": 2015, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "eau",
       "tags": ["épuration", "eaux usées", "collectif", "individuel"],
+      "motsClésScientifiques": ["DERU", "boues activées", "STEP", "ANC", "REUT", "phytoépuration"],
       "relations": [
-        { "cible": "eau-grise", "type": "renvoie_a", "score": 75 },
-        { "cible": "cycle-eau", "type": "renvoie_a", "score": 70 },
-        { "cible": "pollution", "type": "oppose_a", "score": 80 }
+        {"cible": "eau-grise", "type": "renvoie_a", "score": 75},
+        {"cible": "cycle-eau", "type": "renvoie_a", "score": 70},
+        {"cible": "eutrophisation", "type": "oppose_a", "score": 75}
       ],
-      "exemples": [
-        "Station d'épuration urbaine",
-        "Filtre planté de roseaux",
-        "Fosse toutes eaux"
-      ],
-      "synonymes": ["épuration", "traitement des eaux usées"]
+      "exemples": ["STEP boues activées", "Phytoépuration (filtre planté roseaux)", "Fosse toutes eaux + épandage"],
+      "synonymes": ["épuration", "traitement des eaux usées", "wastewater treatment"],
+      "indicateursQuantitatifs": [
+        {"valeur": "France : 84% population en assainissement collectif", "source": "MTE", "annee": 2022},
+        {"valeur": "3,6 milliards personnes sans assainissement sûr dans le monde", "source": "ONU", "annee": 2023}
+      ]
     }
   ]
 }

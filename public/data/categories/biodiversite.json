@@ -8,353 +8,289 @@
       "id": "biodiversite",
       "terme": "Biodiversité",
       "resume": "Variabilité du vivant à trois niveaux : gènes, espèces et écosystèmes. Fondement du fonctionnement de la biosphère et source de services essentiels pour l'humanité.",
-      "definition": "La biodiversité désigne la variabilité des organismes vivants de toute origine, y compris les écosystèmes terrestres, marins et autres écosystèmes aquatiques, ainsi que les complexes écologiques dont ils font partie. Elle comprend trois niveaux hiérarchiques : la diversité génétique (au sein des espèces), la diversité spécifique (entre les espèces), et la diversité écosystémique (entre les écosystèmes). Cette définition, adoptée par la Convention sur la diversité biologique (1992), constitue le cadre international de référence.",
+      "definition": "La biodiversité désigne la variabilité des organismes vivants de toute origine, y compris les écosystèmes terrestres, marins et autres écosystèmes aquatiques, ainsi que les complexes écologiques dont ils font partie. Elle comprend trois niveaux hiérarchiques : la diversité génétique (au sein des espèces), la diversité spécifique (entre les espèces), et la diversité écosystémique (entre les écosystèmes). Cette définition, adoptée par la Convention sur la diversité biologique (1992), constitue le cadre international de référence. La biodiversité n'est pas une simple collection d'espèces mais un système dynamique d'interactions dont dépendent les grands cycles biogéochimiques et les services écosystémiques.",
       "definitionEtendue": {
         "introduction": "Le terme 'biodiversité' est un néologisme créé en 1985 par Walter G. Rosen lors de la préparation du National Forum on BioDiversity, puis popularisé par le biologiste Edward O. Wilson dans son ouvrage éponyme (1988). Avant cette conceptualisation, les naturalistes parlaient de 'diversité du vivant' ou de 'richesse spécifique'. Le terme a acquis une dimension politique majeure avec le Sommet de la Terre de Rio (1992) et l'adoption de la Convention sur la diversité biologique (CDB), ratifiée par 196 États.",
-        "mecanismes": "La biodiversité résulte de 3,8 milliards d'années d'évolution. Elle est générée par les mutations génétiques, la recombinaison sexuée et la dérive génétique, puis façonnée par la sélection naturelle. À l'échelle écologique, elle dépend de processus comme la spéciation, l'extinction, la dispersion et les interactions entre espèces (prédation, compétition, mutualisme). Les gradients latitudinaux de biodiversité montrent une richesse maximale dans les zones tropicales, expliquée par plusieurs hypothèses : énergie disponible, stabilité climatique historique, et temps d'évolution plus long.",
-        "contexteScientifique": "La biodiversité fait l'objet de plusieurs cadres conceptuels. L'hypothèse de la diversité-stabilité (Elton, 1958 ; Tilman, 1996) postule que les écosystèmes plus diversifiés sont plus résilients. Le concept de biodiversité fonctionnelle s'intéresse aux rôles écologiques des espèces plutôt qu'à leur seul nombre. La biologie de la conservation (Soulé, 1985) a formalisé l'étude scientifique de la préservation de la biodiversité. Plus récemment, le cadre IPBES distingue 'valeurs instrumentales' (utilité pour l'homme), 'valeurs intrinsèques' (valeur en soi) et 'valeurs relationnelles' (liens culturels homme-nature).",
-        "enjeuxActuels": "La biodiversité traverse une crise majeure qualifiée de 'sixième extinction de masse'. Le rapport IPBES (2019) estime qu'un million d'espèces sont menacées d'extinction. Les cinq pressions majeures identifiées sont : changement d'usage des terres et des mers (perte d'habitats), surexploitation des ressources, changement climatique, pollutions, et espèces exotiques envahissantes. Le Cadre mondial de la biodiversité de Kunming-Montréal (COP15, 2022) fixe l'objectif de protéger 30% des terres et des mers d'ici 2030 ('30x30').",
-        "perspectives": "Les approches de conservation évoluent vers des modèles intégratifs combinant aires protégées, restauration écologique et intégration de la biodiversité dans les paysages productifs. Le concept de 'solutions fondées sur la nature' (NbS) gagne en importance pour répondre simultanément aux crises climatique et de biodiversité. L'ADN environnemental (eDNA) révolutionne le suivi de la biodiversité. Les débats portent sur l'équité dans la conservation (droits des peuples autochtones), le rôle controversé des mécanismes de marché (paiements pour services écosystémiques, compensation écologique), et la gouvernance mondiale post-2030."
+        "mecanismes": "La biodiversité résulte de 3,8 milliards d'années d'évolution. Elle est générée par les mutations génétiques, la recombinaison sexuée et la dérive génétique, puis façonnée par la sélection naturelle. À l'échelle écologique, elle dépend de processus comme la spéciation, l'extinction, la dispersion et les interactions entre espèces. Les gradients latitudinaux montrent une richesse maximale dans les zones tropicales.",
+        "contexteScientifique": "La biodiversité fait l'objet de plusieurs cadres conceptuels. L'hypothèse de la diversité-stabilité postule que les écosystèmes plus diversifiés sont plus résilients. Le concept de biodiversité fonctionnelle s'intéresse aux rôles écologiques des espèces. La biologie de la conservation (Soulé, 1985) a formalisé l'étude de la préservation. Le cadre IPBES distingue valeurs instrumentales, intrinsèques et relationnelles.",
+        "enjeuxActuels": "La biodiversité traverse une crise majeure qualifiée de 'sixième extinction de masse'. Le rapport IPBES (2019) estime qu'un million d'espèces sont menacées. Les cinq pressions majeures : changement d'usage des terres, surexploitation, changement climatique, pollutions, et espèces invasives. Le Cadre de Kunming-Montréal (2022) fixe l'objectif 30x30.",
+        "perspectives": "Les approches évoluent vers des modèles intégratifs combinant aires protégées, restauration et intégration dans les paysages productifs. L'ADN environnemental révolutionne le suivi. Les débats portent sur l'équité, les mécanismes de marché, et la gouvernance post-2030."
       },
       "sources": [
-        {
-          "titre": "Convention sur la diversité biologique (CDB)",
-          "auteur": "Nations Unies",
-          "url": "https://www.cbd.int/convention/text/",
-          "annee": 1992,
-          "type": "loi",
-          "institution": "Nations Unies",
-          "niveauPreuve": "elevé"
-        },
-        {
-          "titre": "Global assessment report on biodiversity and ecosystem services",
-          "auteur": "IPBES",
-          "url": "https://ipbes.net/global-assessment",
-          "annee": 2019,
-          "type": "rapport_institution",
-          "institution": "IPBES",
-          "niveauPreuve": "elevé"
-        },
-        {
-          "titre": "Biodiversity and ecosystem functioning: current knowledge and future challenges",
-          "auteur": "Loreau, M. et al.",
-          "doi": "10.1126/science.1064088",
-          "journal": "Science",
-          "annee": 2001,
-          "type": "article_peer_reviewed",
-          "niveauPreuve": "elevé"
-        },
-        {
-          "titre": "Biodiversity",
-          "auteur": "Wilson, E.O. (ed.)",
-          "annee": 1988,
-          "type": "ouvrage_reference",
-          "niveauPreuve": "elevé"
-        },
-        {
-          "titre": "Kunming-Montreal Global Biodiversity Framework",
-          "auteur": "CBD COP15",
-          "url": "https://www.cbd.int/gbf/",
-          "annee": 2022,
-          "type": "loi",
-          "institution": "Convention sur la diversité biologique",
-          "niveauPreuve": "elevé"
-        }
+        {"titre": "Convention sur la diversité biologique", "auteur": "Nations Unies", "url": "https://www.cbd.int/", "annee": 1992, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "Global assessment report on biodiversity", "auteur": "IPBES", "url": "https://ipbes.net/global-assessment", "annee": 2019, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Biodiversity and ecosystem functioning", "auteur": "Loreau, M. et al.", "doi": "10.1126/science.1064088", "journal": "Science", "annee": 2001, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
       "tags": ["diversité", "espèces", "écosystèmes", "génétique"],
-      "motsClésScientifiques": ["diversité génétique", "diversité spécifique", "diversité écosystémique", "sixième extinction", "services écosystémiques", "biologie de la conservation"],
+      "motsClésScientifiques": ["diversité génétique", "diversité spécifique", "sixième extinction", "services écosystémiques"],
       "relations": [
-        { "cible": "ecosysteme", "type": "renvoie_a", "score": 90 },
-        { "cible": "services-ecosystemiques", "type": "renvoie_a", "score": 85 },
-        { "cible": "erosion-biodiversite", "type": "oppose_a", "score": 95 },
-        { "cible": "aire-protegee", "type": "renvoie_a", "score": 80 },
-        { "cible": "changement-climatique", "type": "proche_de", "score": 75 }
+        {"cible": "ecosysteme", "type": "renvoie_a", "score": 90},
+        {"cible": "services-ecosystemiques", "type": "renvoie_a", "score": 85},
+        {"cible": "erosion-biodiversite", "type": "oppose_a", "score": 95}
       ],
-      "exemples": [
-        "La forêt amazonienne abrite environ 10% de toutes les espèces connues",
-        "Un gramme de sol peut contenir jusqu'à 10 milliards de micro-organismes",
-        "Les récifs coralliens couvrent 0,1% des océans mais abritent 25% des espèces marines"
-      ],
+      "exemples": ["Forêt amazonienne : 10% des espèces connues", "Un gramme de sol : 10 milliards de micro-organismes"],
       "synonymes": ["diversité biologique", "diversité du vivant"],
       "indicateursQuantitatifs": [
-        {
-          "valeur": "Environ 8,7 millions d'espèces estimées sur Terre (dont 86% non décrites)",
-          "source": "Mora et al., PLoS Biology",
-          "annee": 2011
-        },
-        {
-          "valeur": "1 million d'espèces menacées d'extinction",
-          "source": "IPBES Global Assessment",
-          "annee": 2019
-        },
-        {
-          "valeur": "Déclin de 69% des populations de vertébrés sauvages depuis 1970",
-          "source": "WWF Living Planet Report",
-          "annee": 2022
-        },
-        {
-          "valeur": "Objectif 30x30 : protéger 30% des terres et mers d'ici 2030",
-          "source": "Cadre Kunming-Montréal",
-          "annee": 2022
-        }
+        {"valeur": "8,7 millions d'espèces estimées (86% non décrites)", "source": "Mora et al.", "annee": 2011},
+        {"valeur": "1 million d'espèces menacées d'extinction", "source": "IPBES", "annee": 2019}
       ]
     },
     {
       "id": "ecosysteme",
       "terme": "Écosystème",
-      "definition": "Ensemble dynamique formé par une communauté d'êtres vivants (biocénose) et son environnement physico-chimique (biotope), en interaction constante. Les écosystèmes peuvent être de tailles très variables : une mare, une forêt, un océan, ou la biosphère entière.",
+      "resume": "Ensemble formé par une communauté d'êtres vivants et leur environnement physique, en interaction constante et dynamique.",
+      "definition": "Un écosystème est un ensemble dynamique formé par une communauté d'êtres vivants (biocénose) et son environnement physico-chimique (biotope), en interaction constante. Ces interactions comprennent les flux d'énergie (chaînes alimentaires) et les cycles de matière (nutriments, eau, carbone). Les écosystèmes peuvent être de tailles très variables : une mare, une forêt, un océan, ou la biosphère entière. Le concept a été formalisé par Arthur Tansley en 1935 et développé par les frères Odum dans les années 1950-60 avec une approche énergétique et fonctionnelle.",
+      "definitionEtendue": {
+        "introduction": "Le terme 'ecosystem' est introduit par le botaniste britannique Arthur Tansley en 1935 pour désigner l'unité fonctionnelle de base de l'écologie. Eugene et Howard Odum (années 1950-60) développent l'approche énergétique, modélisant les écosystèmes comme des systèmes thermodynamiques ouverts. Cette vision systémique influence durablement l'écologie et les sciences de l'environnement.",
+        "mecanismes": "Un écosystème fonctionne grâce à trois processus : la production primaire (photosynthèse), les transferts trophiques (chaînes alimentaires), et la décomposition (recyclage des nutriments). L'énergie entre par le soleil et sort sous forme de chaleur (flux unidirectionnel), tandis que la matière circule (cycles biogéochimiques). La structure comprend des producteurs, consommateurs et décomposeurs interconnectés.",
+        "contexteScientifique": "La recherche porte sur : la productivité (biomasse, NPP), la résilience (capacité à absorber les perturbations), les services écosystémiques, et les points de basculement (tipping points). L'écologie des écosystèmes est devenue centrale avec les enjeux climatiques (puits de carbone) et le Millennium Ecosystem Assessment (2005).",
+        "enjeuxActuels": "Les écosystèmes subissent des pressions croissantes : fragmentation des habitats, surexploitation, pollution, espèces invasives, et changement climatique. La restauration écologique devient un enjeu majeur (Décennie ONU 2021-2030). Les 'solutions fondées sur la nature' mobilisent les écosystèmes pour l'adaptation climatique.",
+        "perspectives": "L'avenir passe par la comptabilité écosystémique (SEEA-EA de l'ONU), les 'jumeaux numériques' d'écosystèmes, et l'intégration dans la planification territoriale. La notion d'écosystème s'étend aux systèmes socio-écologiques incluant les activités humaines."
+      },
       "sources": [
-        {
-          "titre": "Fundamentals of Ecology",
-          "auteur": "Odum, E.P.",
-          "annee": 1953,
-          "type": "livre"
-        },
-        {
-          "titre": "Les écosystèmes",
-          "auteur": "CNRS",
-          "url": "https://www.cnrs.fr/",
-          "annee": 2020,
-          "type": "institution"
-        }
+        {"titre": "The use and abuse of vegetational concepts and terms", "auteur": "Tansley, A.G.", "journal": "Ecology", "annee": 1935, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
+        {"titre": "Fundamentals of Ecology", "auteur": "Odum, E.P.", "annee": 1953, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
+        {"titre": "System of Environmental-Economic Accounting (SEEA-EA)", "auteur": "ONU", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
       "tags": ["écologie", "biocénose", "biotope", "interactions"],
+      "motsClésScientifiques": ["biocénose", "biotope", "flux d'énergie", "cycles biogéochimiques", "résilience", "productivité"],
       "relations": [
-        { "cible": "biodiversite", "type": "renvoie_a", "score": 90 },
-        { "cible": "services-ecosystemiques", "type": "renvoie_a", "score": 85 },
-        { "cible": "chaine-alimentaire", "type": "renvoie_a", "score": 75 },
-        { "cible": "resilience-ecologique", "type": "proche_de", "score": 70 }
+        {"cible": "biodiversite", "type": "renvoie_a", "score": 90},
+        {"cible": "services-ecosystemiques", "type": "renvoie_a", "score": 85}
       ],
-      "exemples": [
-        "Écosystème forestier tempéré",
-        "Récif corallien",
-        "Zone humide"
+      "exemples": ["Écosystème forestier tempéré", "Récif corallien", "Zone humide"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Forêts : 80% de la biodiversité terrestre", "source": "FAO", "annee": 2020}
       ]
     },
     {
       "id": "services-ecosystemiques",
       "terme": "Services écosystémiques",
-      "definition": "Bénéfices que les êtres humains tirent des écosystèmes. Ils sont classés en quatre catégories : services d'approvisionnement (nourriture, eau, bois), de régulation (climat, pollinisation, purification), culturels (récréation, valeur esthétique) et de soutien (cycle des nutriments, formation des sols).",
+      "resume": "Bénéfices que les êtres humains tirent des écosystèmes, classés en services d'approvisionnement, de régulation, culturels et de soutien.",
+      "definition": "Les services écosystémiques sont les bénéfices que les êtres humains tirent des écosystèmes. Le Millennium Ecosystem Assessment (2005) les classe en quatre catégories : services d'approvisionnement (nourriture, eau douce, bois, fibres), de régulation (climat, pollinisation, purification de l'eau, contrôle des inondations), culturels (récréation, esthétique, spirituel, éducatif) et de soutien (formation des sols, cycle des nutriments, production primaire). Ce cadre conceptuel vise à rendre visible la valeur de la nature pour les sociétés humaines et à l'intégrer dans les décisions économiques et politiques.",
+      "definitionEtendue": {
+        "introduction": "Le concept de 'services écosystémiques' émerge dans les années 1970 (étude Holdren et Ehrlich, 1974) et se formalise avec Costanza et al. (1997) qui évaluent la valeur des services de la biosphère à 33 000 milliards $/an. Le Millennium Ecosystem Assessment (2005) institutionnalise le cadre et l'IPBES l'enrichit avec les 'contributions de la nature aux personnes' (NCP) incluant les dimensions culturelles.",
+        "mecanismes": "Les services d'approvisionnement fournissent des biens tangibles (nourriture, eau, matériaux). Les services de régulation maintiennent les conditions de vie (climat, qualité de l'air, pollinisation, contrôle des maladies). Les services culturels procurent des bénéfices immatériels (loisirs, inspiration, identité). Les services de soutien sous-tendent tous les autres (cycles biogéochimiques, formation des sols).",
+        "contexteScientifique": "L'évaluation économique des services (PSE, comptabilité naturelle) fait débat : risque de marchandisation, difficulté de mesure, irréductibilité de certaines valeurs. L'approche IPBES distingue valeurs instrumentales, relationnelles et intrinsèques. Les recherches portent sur les liens biodiversité-fonctionnement-services et les seuils de dégradation.",
+        "enjeuxActuels": "La dégradation des écosystèmes compromet les services : 60% sont dégradés (MEA, 2005). Les paiements pour services écosystémiques (PSE) se développent mais restent limités. La comptabilité du capital naturel (SEEA-EA) entre dans les comptabilités nationales. Les 'solutions fondées sur la nature' mobilisent les services pour l'adaptation climatique.",
+        "perspectives": "L'avenir passe par l'intégration systématique dans les décisions (taxonomie verte, due diligence), la cartographie fine des services, et les marchés de la biodiversité. Le débat porte sur le risque de financiarisation excessive de la nature et sur la reconnaissance des savoirs autochtones."
+      },
       "sources": [
-        {
-          "titre": "Millennium Ecosystem Assessment",
-          "auteur": "Nations Unies",
-          "url": "https://www.millenniumassessment.org/",
-          "annee": 2005,
-          "type": "rapport"
-        },
-        {
-          "titre": "The Economics of Ecosystems and Biodiversity (TEEB)",
-          "url": "http://teebweb.org/",
-          "annee": 2010,
-          "type": "rapport"
-        }
+        {"titre": "Millennium Ecosystem Assessment", "auteur": "Nations Unies", "url": "https://www.millenniumassessment.org/", "annee": 2005, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "The value of the world's ecosystem services", "auteur": "Costanza, R. et al.", "doi": "10.1038/387253a0", "journal": "Nature", "annee": 1997, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
+        {"titre": "The Economics of Ecosystems and Biodiversity (TEEB)", "url": "http://teebweb.org/", "annee": 2010, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
       "tags": ["valeur", "bénéfices", "nature", "économie"],
+      "motsClésScientifiques": ["MEA", "NCP", "PSE", "capital naturel", "valeur économique", "TEEB"],
       "relations": [
-        { "cible": "ecosysteme", "type": "renvoie_a", "score": 90 },
-        { "cible": "biodiversite", "type": "renvoie_a", "score": 85 },
-        { "cible": "pollinisation", "type": "est_type_de", "score": 80 },
-        { "cible": "capital-naturel", "type": "proche_de", "score": 75 }
+        {"cible": "ecosysteme", "type": "renvoie_a", "score": 90},
+        {"cible": "biodiversite", "type": "renvoie_a", "score": 85},
+        {"cible": "pollinisation", "type": "est_type_de", "score": 80}
       ],
-      "exemples": [
-        "Pollinisation des cultures par les abeilles (valeur estimée à 153 milliards €/an)",
-        "Régulation du climat par les forêts",
-        "Filtration naturelle de l'eau par les zones humides"
-      ],
-      "synonymes": ["services environnementaux", "bienfaits de la nature"]
+      "exemples": ["Pollinisation : 153 Mrd €/an", "Régulation climat par forêts", "Filtration eau par zones humides"],
+      "synonymes": ["services environnementaux", "bienfaits de la nature", "contributions de la nature"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Valeur services écosystémiques : 125-140 000 Mrd $/an", "source": "Costanza et al.", "annee": 2014},
+        {"valeur": "Pollinisation : 75% des cultures vivrières", "source": "IPBES", "annee": 2016}
+      ]
     },
     {
       "id": "erosion-biodiversite",
       "terme": "Érosion de la biodiversité",
-      "definition": "Diminution accélérée du nombre d'espèces, de la diversité génétique et des écosystèmes à l'échelle mondiale. Considérée comme la sixième extinction de masse, elle est principalement causée par les activités humaines : destruction des habitats, surexploitation, pollution, espèces invasives et changement climatique.",
+      "resume": "Diminution accélérée du nombre d'espèces et des populations, qualifiée de sixième extinction de masse, principalement causée par les activités humaines.",
+      "definition": "L'érosion de la biodiversité désigne la diminution accélérée du nombre d'espèces, de la diversité génétique et des écosystèmes à l'échelle mondiale. Considérée comme la sixième extinction de masse de l'histoire de la Terre, elle est principalement causée par les activités humaines. Les cinq pressions majeures identifiées par l'IPBES sont : le changement d'usage des terres et des mers (destruction des habitats), la surexploitation des ressources, le changement climatique, les pollutions, et les espèces exotiques envahissantes. Cette crise menace les fondements mêmes de la vie sur Terre et les services écosystémiques dont dépendent les sociétés humaines.",
+      "definitionEtendue": {
+        "introduction": "Le concept de 'sixième extinction' est popularisé par les biologistes Paul Ehrlich et Norman Myers dans les années 1980, puis par Elizabeth Kolbert (prix Pulitzer 2015). Les cinq extinctions précédentes furent d'origine géologique ou cosmique. La crise actuelle se distingue par sa rapidité (100-1000 fois le taux naturel d'extinction) et son origine anthropique. Le terme 'Anthropocène' (Crutzen, 2000) désigne cette nouvelle ère géologique dominée par l'impact humain.",
+        "mecanismes": "L'érosion opère à trois niveaux : génétique (perte de variabilité au sein des populations), spécifique (extinction d'espèces), et écosystémique (dégradation/destruction d'habitats). Les mécanismes incluent : fragmentation (isolement des populations), surexploitation (pêche, chasse, prélèvements), pollution (pesticides, plastiques, azote), invasions biologiques, et changement climatique (décalages phénologiques, aires de répartition).",
+        "contexteScientifique": "Le rapport IPBES (2019) estime qu'un million d'espèces sont menacées d'extinction. L'Indice Planète Vivante (WWF) montre un déclin de 69% des populations de vertébrés depuis 1970. Les scientifiques débattent du taux exact d'extinction (controverses méthodologiques) mais s'accordent sur la gravité de la crise. Le concept de 'dette d'extinction' désigne les extinctions futures déjà programmées par les perturbations passées.",
+        "enjeuxActuels": "Les réponses politiques s'organisent : Cadre de Kunming-Montréal (30x30), Taskforce on Nature-related Financial Disclosures (TNFD), règlement européen sur la restauration de la nature. Les défis incluent : financement (gap de 700 Mrd $/an), articulation avec le climat, droits des peuples autochtones, et transformation des systèmes alimentaires.",
+        "perspectives": "L'avenir dépend d'une transformation profonde des modèles de production et de consommation. Les scénarios IPBES montrent que seules des trajectoires de 'changement transformateur' permettent d'inverser la tendance. L'émergence du concept de 'nature positive' vise une inversion de la courbe d'ici 2030."
+      },
       "sources": [
-        {
-          "titre": "Rapport d'évaluation mondiale sur la biodiversité et les services écosystémiques",
-          "auteur": "IPBES",
-          "url": "https://ipbes.net/global-assessment",
-          "annee": 2019,
-          "type": "rapport"
-        },
-        {
-          "titre": "Living Planet Report 2022",
-          "auteur": "WWF",
-          "url": "https://livingplanet.panda.org/",
-          "annee": 2022,
-          "type": "rapport"
-        }
+        {"titre": "Global assessment report on biodiversity", "auteur": "IPBES", "url": "https://ipbes.net/global-assessment", "annee": 2019, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Living Planet Report 2022", "auteur": "WWF", "url": "https://livingplanet.panda.org/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "The Sixth Extinction", "auteur": "Kolbert, E.", "annee": 2014, "type": "ouvrage_reference", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
       "tags": ["extinction", "menaces", "déclin", "crise"],
+      "motsClésScientifiques": ["sixième extinction", "Anthropocène", "défaunation", "dette d'extinction", "taux d'extinction"],
       "relations": [
-        { "cible": "biodiversite", "type": "oppose_a", "score": 95 },
-        { "cible": "destruction-habitats", "type": "renvoie_a", "score": 90 },
-        { "cible": "especes-invasives", "type": "renvoie_a", "score": 75 },
-        { "cible": "changement-climatique", "type": "contribue_a", "score": 70, "direction": "negatif" }
+        {"cible": "biodiversite", "type": "oppose_a", "score": 95},
+        {"cible": "changement-climatique", "type": "contribue_a", "score": 70, "direction": "negatif"}
       ],
-      "exemples": [
-        "Déclin de 69% des populations de vertébrés depuis 1970 (WWF)",
-        "1 million d'espèces menacées d'extinction (IPBES)"
-      ],
-      "synonymes": ["perte de biodiversité", "sixième extinction", "effondrement du vivant"]
+      "exemples": ["Déclin 69% vertébrés depuis 1970", "1 million d'espèces menacées"],
+      "synonymes": ["perte de biodiversité", "sixième extinction", "effondrement du vivant"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Déclin 69% populations vertébrés (1970-2018)", "source": "WWF LPI", "annee": 2022},
+        {"valeur": "Taux extinction 100-1000x le taux naturel", "source": "IPBES", "annee": 2019}
+      ]
     },
     {
       "id": "espece-endemique",
       "terme": "Espèce endémique",
-      "definition": "Espèce vivante dont l'aire de répartition naturelle est limitée à une zone géographique délimitée (île, montagne, bassin versant, etc.). L'endémisme est un critère important pour identifier les zones prioritaires de conservation (hotspots de biodiversité).",
+      "resume": "Espèce dont l'aire de répartition naturelle est limitée à une zone géographique délimitée, souvent vulnérable et prioritaire pour la conservation.",
+      "definition": "Une espèce endémique est une espèce vivante dont l'aire de répartition naturelle est limitée à une zone géographique délimitée (île, montagne, bassin versant, région). L'endémisme résulte de processus évolutifs (spéciation in situ) ou de rétractions d'aires anciennement plus vastes (paléo-endémisme). Les espèces endémiques sont souvent vulnérables car leur population totale dépend d'un territoire restreint. L'endémisme est un critère majeur pour identifier les 'hotspots' de biodiversité (zones prioritaires de conservation).",
+      "definitionEtendue": {
+        "introduction": "Le concept d'endémisme est central en biogéographie depuis les travaux de Wallace et Darwin (XIXe siècle). Les îles (Madagascar, Galápagos, Nouvelle-Calédonie) et les montagnes sont des foyers d'endémisme majeurs. Norman Myers a formalisé les 'biodiversity hotspots' (1988, 2000) en croisant endémisme et menace : 36 hotspots couvrent 2,5% des terres mais abritent 50% des espèces végétales endémiques.",
+        "mecanismes": "L'endémisme résulte de : spéciation allopatrique (isolement géographique), radiation adaptative (diversification rapide dans un environnement nouveau), ou persistance de reliques (espèces anciennement répandues). Les facteurs favorables incluent : isolement (îles, sommets), hétérogénéité environnementale, stabilité climatique historique, et barrières géographiques.",
+        "contexteScientifique": "La recherche porte sur : les patterns d'endémisme (latitudinaux, altitudinaux), les processus évolutifs (phylogéographie), les déterminants de la vulnérabilité, et l'efficacité des aires protégées. Les espèces endémiques sont souvent des indicateurs de l'histoire évolutive d'une région. Le lien endémisme-vulnérabilité n'est pas automatique mais statistiquement fort.",
+        "enjeuxActuels": "Les espèces endémiques sont particulièrement menacées car la destruction de leur unique habitat signifie leur extinction globale. Les hotspots de biodiversité font l'objet de stratégies de conservation dédiées. Le changement climatique force les espèces à migrer, ce qui est impossible pour les endémiques de sommets montagneux.",
+        "perspectives": "La conservation des endémiques passe par : la protection des hotspots, la gestion des menaces locales (invasives, pollution), la translocation assistée (controversée), et les banques de semences/gènes. L'objectif 30x30 vise à protéger les zones à fort endémisme."
+      },
       "sources": [
-        {
-          "titre": "Biodiversity Hotspots",
-          "auteur": "Conservation International",
-          "url": "https://www.conservation.org/priorities/biodiversity-hotspots",
-          "annee": 2021,
-          "type": "institution"
-        }
+        {"titre": "Biodiversity Hotspots", "auteur": "Conservation International", "url": "https://www.conservation.org/priorities/biodiversity-hotspots", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Biodiversity hotspots for conservation priorities", "auteur": "Myers, N. et al.", "doi": "10.1038/35002501", "journal": "Nature", "annee": 2000, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
       "tags": ["répartition", "conservation", "vulnérabilité", "insularité"],
+      "motsClésScientifiques": ["hotspot", "spéciation", "biogéographie", "vulnérabilité", "aire de répartition"],
       "relations": [
-        { "cible": "biodiversite", "type": "contribue_a", "score": 80, "direction": "positif" },
-        { "cible": "hotspot-biodiversite", "type": "renvoie_a", "score": 85 },
-        { "cible": "espece-invasive", "type": "oppose_a", "score": 70 }
+        {"cible": "biodiversite", "type": "contribue_a", "score": 80, "direction": "positif"},
+        {"cible": "espece-invasive", "type": "oppose_a", "score": 70}
       ],
-      "exemples": [
-        "Le lémurien (Madagascar)",
-        "Le koala (Australie)",
-        "L'arbre dragon (Îles Canaries)"
+      "exemples": ["Lémurien (Madagascar)", "Koala (Australie)", "Arbre dragon (Canaries)"],
+      "indicateursQuantitatifs": [
+        {"valeur": "36 hotspots : 2,5% des terres, 50% des plantes endémiques", "source": "Conservation International", "annee": 2021}
       ]
     },
     {
       "id": "espece-invasive",
       "terme": "Espèce exotique envahissante",
-      "definition": "Espèce introduite par l'homme, volontairement ou non, en dehors de son aire de répartition naturelle, dont l'implantation et la propagation menacent les écosystèmes, les habitats ou les espèces indigènes avec des conséquences écologiques, économiques ou sanitaires négatives.",
+      "resume": "Espèce introduite hors de son aire naturelle dont la propagation menace les écosystèmes, les espèces indigènes, ou la santé humaine.",
+      "definition": "Une espèce exotique envahissante (EEE) est une espèce introduite par l'homme, volontairement ou non, en dehors de son aire de répartition naturelle, dont l'implantation et la propagation menacent les écosystèmes, les habitats ou les espèces indigènes avec des conséquences écologiques, économiques ou sanitaires négatives. Les invasions biologiques constituent la deuxième cause d'extinction d'espèces dans le monde (après la destruction des habitats) et leur coût économique mondial est estimé à plus de 400 milliards $/an.",
+      "definitionEtendue": {
+        "introduction": "Les invasions biologiques accompagnent les échanges humains depuis le Néolithique, mais s'accélèrent avec la mondialisation. Charles Elton fonde l'écologie des invasions en 1958. Le phénomène explose depuis les années 1970 avec le commerce international, le tourisme, et les changements climatiques. Le règlement européen 1143/2014 établit un cadre juridique avec une liste d'espèces préoccupantes pour l'Union.",
+        "mecanismes": "Le processus d'invasion suit quatre étapes : introduction (transport par l'homme), établissement (survie et reproduction), naturalisation (population auto-suffisante), invasion (expansion et impacts). Seule une fraction des espèces introduites devient invasive ('règle des 10%'). Les traits favorables incluent : forte reproduction, plasticité, généralisme, et absence de prédateurs dans le milieu d'accueil.",
+        "contexteScientifique": "La recherche porte sur : les traits des espèces invasives, la vulnérabilité des écosystèmes (hypothèse de diversité-résistance), les interactions avec le changement climatique, et l'efficacité des méthodes de gestion. Les débats concernent : la définition même d'invasive, le rôle écologique des espèces non-natives, et l'éthique de l'éradication.",
+        "enjeuxActuels": "Les invasions biologiques s'accélèrent : 37% d'augmentation depuis 1970. La gestion coûte des milliards d'euros (lutte chimique, mécanique, biologique). Les espèces préoccupantes pour l'UE font l'objet de plans de gestion. La prévention (contrôles aux frontières, commerce de plantes) est plus efficace que l'éradication.",
+        "perspectives": "L'avenir passe par : la détection précoce (eDNA, sciences participatives), la prévention renforcée, la lutte biologique maîtrisée, et l'adaptation des écosystèmes. Le changement climatique favorise de nouvelles invasions (espèces tropicales vers le nord). Certains scientifiques proposent une vision moins manichéenne des 'nouveaux écosystèmes'."
+      },
       "sources": [
-        {
-          "titre": "Règlement (UE) n° 1143/2014 relatif aux espèces exotiques envahissantes",
-          "auteur": "Union Européenne",
-          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32014R1143",
-          "annee": 2014,
-          "type": "loi"
-        },
-        {
-          "titre": "Les espèces exotiques envahissantes",
-          "auteur": "UICN France",
-          "url": "https://uicn.fr/especes-exotiques-envahissantes/",
-          "annee": 2022,
-          "type": "institution"
-        }
+        {"titre": "Règlement (UE) 1143/2014 sur les EEE", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2014, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "The Ecology of Invasions by Animals and Plants", "auteur": "Elton, C.S.", "annee": 1958, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
+        {"titre": "IPBES thematic assessment on invasive alien species", "auteur": "IPBES", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
       "tags": ["invasion biologique", "menace", "introduction", "contrôle"],
+      "motsClésScientifiques": ["EEE", "invasion biologique", "naturalisation", "gestion", "prévention"],
       "relations": [
-        { "cible": "erosion-biodiversite", "type": "contribue_a", "score": 85, "direction": "positif" },
-        { "cible": "espece-endemique", "type": "oppose_a", "score": 80 },
-        { "cible": "ecosysteme", "type": "oppose_a", "score": 70 }
+        {"cible": "erosion-biodiversite", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "espece-endemique", "type": "oppose_a", "score": 80}
       ],
-      "exemples": [
-        "Le frelon asiatique en Europe",
-        "La jacinthe d'eau en Afrique",
-        "Le ragondin en France"
-      ],
-      "synonymes": ["espèce invasive", "EEE", "espèce allochtone envahissante"]
+      "exemples": ["Frelon asiatique en Europe", "Jacinthe d'eau en Afrique", "Ragondin en France"],
+      "synonymes": ["espèce invasive", "EEE", "espèce allochtone envahissante"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Coût invasives : 400+ Mrd $/an mondial", "source": "IPBES", "annee": 2023},
+        {"valeur": "+37% espèces invasives depuis 1970", "source": "IPBES", "annee": 2023}
+      ]
     },
     {
       "id": "pollinisation",
       "terme": "Pollinisation",
-      "definition": "Transfert du pollen des organes mâles (étamines) vers les organes femelles (pistil) d'une fleur, permettant la fécondation et la reproduction des plantes à fleurs. Elle peut être assurée par le vent (anémophilie), l'eau (hydrophilie) ou des animaux pollinisateurs (zoogamie), principalement les insectes.",
+      "resume": "Transfert du pollen permettant la reproduction des plantes à fleurs, service écosystémique crucial assuré principalement par les insectes.",
+      "definition": "La pollinisation est le transfert du pollen des organes mâles (étamines) vers les organes femelles (pistil) d'une fleur, permettant la fécondation et la reproduction des plantes à fleurs (angiospermes). Elle peut être assurée par le vent (anémophilie), l'eau (hydrophilie) ou des animaux pollinisateurs (zoogamie), principalement les insectes (abeilles, papillons, syrphes). Ce service écosystémique est indispensable à l'agriculture : 75% des cultures vivrières mondiales dépendent au moins partiellement de la pollinisation animale, pour une valeur estimée à 235-577 milliards $/an.",
+      "definitionEtendue": {
+        "introduction": "La pollinisation est un processus coévolutif entre plantes et pollinisateurs depuis 100 millions d'années. Darwin a mis en évidence l'importance des insectes. L'alerte sur le déclin des pollinisateurs date des années 2000 avec le 'Colony Collapse Disorder' des abeilles. Le rapport IPBES sur les pollinisateurs (2016) a médiatisé l'enjeu.",
+        "mecanismes": "La pollinisation implique l'attraction du pollinisateur (couleur, odeur, nectar), le transfert du pollen sur son corps, et le dépôt sur le stigmate d'une autre fleur. L'efficacité dépend de la compatibilité plante-pollinisateur, de l'abondance des pollinisateurs, et de la synchronisation phénologique. La pollinisation croisée (entre individus différents) favorise la diversité génétique.",
+        "contexteScientifique": "La recherche documente le déclin des pollinisateurs : 40% des espèces d'insectes pollinisateurs sont menacées. Les causes incluent : pesticides (néonicotinoïdes), perte d'habitats floraux, parasites (varroa), et changement climatique (désynchronisation). Les études quantifient la dépendance des cultures et modélisent les scénarios de déclin.",
+        "enjeuxActuels": "La protection des pollinisateurs mobilise : interdiction de pesticides (UE 2018), plans pollinisateurs nationaux, jachères apicoles, et agriculture sans labour. L'élevage d'abeilles domestiques ne compense pas le déclin des pollinisateurs sauvages. Les services de pollinisation payants (location de ruches) se développent aux États-Unis.",
+        "perspectives": "L'avenir passe par : l'agroécologie (diversité florale, haies), la réduction des pesticides, les corridors écologiques, et la sensibilisation. La pollinisation robotique reste une dystopie. Le lien pollinisation-sécurité alimentaire devient un argument politique majeur."
+      },
       "sources": [
-        {
-          "titre": "Pollinisation et pollinisateurs",
-          "auteur": "INRAE",
-          "url": "https://www.inrae.fr/",
-          "annee": 2021,
-          "type": "institution"
-        },
-        {
-          "titre": "The assessment report on pollinators, pollination and food production",
-          "auteur": "IPBES",
-          "url": "https://ipbes.net/assessment-reports/pollinators",
-          "annee": 2016,
-          "type": "rapport"
-        }
+        {"titre": "The assessment report on pollinators, pollination and food production", "auteur": "IPBES", "url": "https://ipbes.net/assessment-reports/pollinators", "annee": 2016, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Worldwide decline of the entomofauna", "auteur": "Sánchez-Bayo, F. & Wyckhuys, K.A.G.", "doi": "10.1016/j.biocon.2019.01.020", "journal": "Biological Conservation", "annee": 2019, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
       "tags": ["reproduction", "insectes", "abeilles", "agriculture"],
+      "motsClésScientifiques": ["pollinisateurs", "zoogamie", "déclin", "néonicotinoïdes", "sécurité alimentaire"],
       "relations": [
-        { "cible": "services-ecosystemiques", "type": "est_type_de", "score": 90 },
-        { "cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif" },
-        { "cible": "agroecologie", "type": "renvoie_a", "score": 70 }
+        {"cible": "services-ecosystemiques", "type": "est_type_de", "score": 90},
+        {"cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif"}
       ],
-      "exemples": [
-        "75% des cultures vivrières dépendent de la pollinisation animale",
-        "Les abeilles pollinisent plus de 80% des espèces de plantes à fleurs"
-      ],
-      "synonymes": ["pollinisation croisée", "fécondation des plantes"]
+      "exemples": ["75% cultures vivrières dépendantes", "Abeilles : 80% plantes à fleurs pollinisées"],
+      "synonymes": ["pollinisation croisée", "fécondation des plantes"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Valeur pollinisation : 235-577 Mrd $/an", "source": "IPBES", "annee": 2016},
+        {"valeur": "40% insectes pollinisateurs menacés", "source": "Sánchez-Bayo", "annee": 2019}
+      ]
     },
     {
       "id": "aire-protegee",
       "terme": "Aire protégée",
-      "definition": "Espace géographique clairement défini, reconnu, dédié et géré par des moyens légaux ou autres, afin d'assurer la conservation à long terme de la nature et des services écosystémiques et valeurs culturelles associés. Inclut les parcs nationaux, réserves naturelles, sites Natura 2000, etc.",
+      "resume": "Espace géographique dédié à la conservation de la nature par des moyens légaux, des parcs nationaux aux réserves naturelles.",
+      "definition": "Une aire protégée est un espace géographique clairement défini, reconnu, dédié et géré par des moyens légaux ou autres, afin d'assurer la conservation à long terme de la nature, des services écosystémiques et des valeurs culturelles associés. Cette définition de l'UICN (2008) englobe une grande diversité de statuts : parcs nationaux, réserves naturelles, parcs régionaux, sites Natura 2000, aires marines protégées, etc. L'objectif international est de protéger 30% des terres et 30% des mers d'ici 2030 ('30x30').",
+      "definitionEtendue": {
+        "introduction": "La première aire protégée moderne est le parc national de Yellowstone (États-Unis, 1872). Le concept se diffuse au XXe siècle avec la création de l'UICN (1948) et ses catégories de gestion (I à VI). En France, les parcs nationaux datent de 1960 (Vanoise). Le réseau mondial atteint 17% des terres et 8% des mers (2022) mais l'efficacité de la protection est très variable.",
+        "mecanismes": "Les aires protégées fonctionnent par : réglementation des activités (interdictions, limitations), gestion active (restauration, contrôle des invasives), surveillance, et sensibilisation. L'efficacité dépend de la gouvernance, du financement, de l'acceptation locale, et de la connectivité avec d'autres espaces. Les catégories UICN vont de la protection intégrale (Ia) à l'utilisation durable (VI).",
+        "contexteScientifique": "La recherche évalue : l'efficacité des aires protégées (réduction des pressions ?), leur représentativité (écosystèmes sous-protégés ?), la connectivité (corridors écologiques), et les impacts sociaux (droits des communautés locales). Les 'paper parks' (protection de papier sans gestion effective) sont critiqués. Les 'OECM' (autres mesures de conservation efficaces) complètent les aires protégées classiques.",
+        "enjeuxActuels": "L'objectif 30x30 (Cadre Kunming-Montréal, 2022) implique de presque doubler les surfaces protégées. Les défis incluent : qualité de la protection (pas seulement quantité), équité (droits des peuples autochtones), financement (gap de 150-440 Mrd $/an), et articulation avec les activités économiques. Les aires marines protégées sont particulièrement déficitaires.",
+        "perspectives": "L'avenir passe par : des réseaux connectés (trames verte et bleue), une protection effective (pas seulement déclarative), l'intégration des savoirs autochtones, et de nouveaux modèles de financement (dette-nature swaps, PSE). La notion évolue vers des 'paysages conservés' intégrant aires protégées et zones tampons gérées durablement."
+      },
       "sources": [
-        {
-          "titre": "Définition UICN des aires protégées",
-          "auteur": "UICN",
-          "url": "https://www.iucn.org/theme/protected-areas/about",
-          "annee": 2008,
-          "type": "institution"
-        },
-        {
-          "titre": "Stratégie nationale pour les aires protégées 2030",
-          "auteur": "Ministère de la Transition écologique",
-          "url": "https://www.ecologie.gouv.fr/strategie-nationale-aires-protegees",
-          "annee": 2021,
-          "type": "rapport"
-        }
+        {"titre": "Définition UICN des aires protégées", "auteur": "UICN", "url": "https://www.iucn.org/theme/protected-areas/about", "annee": 2008, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Protected Planet Report 2020", "auteur": "UNEP-WCMC & IUCN", "url": "https://livereport.protectedplanet.net/", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Kunming-Montreal Global Biodiversity Framework", "auteur": "CBD COP15", "annee": 2022, "type": "loi", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
       "tags": ["conservation", "protection", "territoire", "gestion"],
+      "motsClésScientifiques": ["catégories UICN", "30x30", "efficacité", "connectivité", "OECM"],
       "relations": [
-        { "cible": "biodiversite", "type": "contribue_a", "score": 90, "direction": "positif" },
-        { "cible": "ecosysteme", "type": "renvoie_a", "score": 80 },
-        { "cible": "services-ecosystemiques", "type": "contribue_a", "score": 75, "direction": "positif" }
+        {"cible": "biodiversite", "type": "contribue_a", "score": 90, "direction": "positif"},
+        {"cible": "ecosysteme", "type": "renvoie_a", "score": 80}
       ],
-      "exemples": [
-        "Parc national des Cévennes",
-        "Réserve naturelle nationale de Camargue",
-        "Réseau Natura 2000"
-      ],
-      "synonymes": ["espace protégé", "zone de conservation"]
+      "exemples": ["Parc national des Cévennes", "Réserve naturelle de Camargue", "Réseau Natura 2000"],
+      "synonymes": ["espace protégé", "zone de conservation"],
+      "indicateursQuantitatifs": [
+        {"valeur": "17% des terres, 8% des mers protégés (2022)", "source": "Protected Planet", "annee": 2022},
+        {"valeur": "Objectif 30x30 d'ici 2030", "source": "COP15", "annee": 2022}
+      ]
     },
     {
       "id": "corridor-ecologique",
       "terme": "Corridor écologique",
-      "definition": "Voie de déplacement empruntée par la faune et la flore reliant différents habitats ou réservoirs de biodiversité. Les corridors permettent la migration, la dispersion et les échanges génétiques entre populations, essentiels au maintien de la biodiversité face à la fragmentation des habitats.",
+      "resume": "Voie de déplacement reliant les habitats naturels, essentielle pour la migration, la dispersion et le brassage génétique des espèces.",
+      "definition": "Un corridor écologique est une voie de déplacement empruntée par la faune et la flore reliant différents habitats ou réservoirs de biodiversité. Les corridors permettent la migration, la dispersion des individus et les échanges génétiques entre populations, essentiels au maintien de la biodiversité face à la fragmentation des habitats. En France, la 'Trame verte et bleue' (loi Grenelle, 2010) vise à préserver et restaurer ces continuités écologiques sur l'ensemble du territoire. Les corridors incluent les haies, les cours d'eau, les lisières forestières, et les passages à faune sous les infrastructures.",
+      "definitionEtendue": {
+        "introduction": "Le concept de corridor écologique émerge dans les années 1980 avec la biologie de la conservation et les travaux sur la fragmentation des habitats. Les métapopulations (Levins, 1969) montrent l'importance des connexions entre populations isolées. En France, la Trame verte et bleue (TVB) est inscrite dans le Grenelle de l'environnement (2007-2010) et déclinée dans les documents d'urbanisme (SRCE, PLU).",
+        "mecanismes": "Les corridors fonctionnent comme des voies de circulation (corridor linéaire), des relais de proche en proche (stepping stones), ou des matrices perméables. Leur efficacité dépend de : la largeur, la qualité de l'habitat, la continuité, et l'adaptation aux espèces cibles. Les espèces ont des exigences variables : un corridor forestier ne convient pas aux espèces de milieux ouverts.",
+        "contexteScientifique": "La recherche évalue : l'utilisation réelle des corridors (suivi GPS, génétique du paysage), leur efficacité par groupe taxonomique, les risques associés (propagation de maladies, invasives), et l'optimisation de leur conception. L'écologie du paysage fournit les outils (modèles de connectivité, graphes paysagers). Les débats portent sur le compromis coût/bénéfice des corridors vs l'agrandissement des réservoirs.",
+        "enjeuxActuels": "La fragmentation des habitats par les infrastructures (routes, urbanisation) s'aggrave. Les solutions incluent : passages à faune (écoducs, écoponts), haies bocagères, renaturation des cours d'eau, et gestion différenciée des espaces verts. L'intégration dans l'urbanisme (PLU, SCOT) est obligatoire mais inégalement appliquée.",
+        "perspectives": "L'avenir passe par : des réseaux écologiques transfrontaliers (Alpes, Pyrénées), l'adaptation au changement climatique (corridors de migration vers le nord/altitude), et l'intégration dans les infrastructures vertes urbaines. La notion évolue vers des 'trames fonctionnelles' adaptées à différents groupes d'espèces."
+      },
       "sources": [
-        {
-          "titre": "Trame verte et bleue",
-          "auteur": "Ministère de la Transition écologique",
-          "url": "https://www.ecologie.gouv.fr/trame-verte-et-bleue",
-          "annee": 2021,
-          "type": "institution"
-        }
+        {"titre": "Trame verte et bleue", "auteur": "Ministère de la Transition écologique", "url": "https://www.ecologie.gouv.fr/trame-verte-et-bleue", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Corridor Ecology", "auteur": "Hilty, J.A. et al.", "annee": 2006, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
+        {"titre": "Metapopulations and Wildlife Conservation", "auteur": "McCullough, D.R.", "annee": 1996, "type": "ouvrage_reference", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
       "tags": ["connectivité", "trame verte", "migration", "paysage"],
+      "motsClésScientifiques": ["TVB", "fragmentation", "métapopulation", "connectivité", "écologie du paysage"],
       "relations": [
-        { "cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif" },
-        { "cible": "ecosysteme", "type": "renvoie_a", "score": 75 },
-        { "cible": "fragmentation-habitats", "type": "oppose_a", "score": 80 }
+        {"cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "ecosysteme", "type": "renvoie_a", "score": 75}
       ],
-      "exemples": [
-        "Haies bocagères reliant les boisements",
-        "Passages à faune sous les autoroutes",
-        "Berges végétalisées le long des cours d'eau"
-      ],
+      "exemples": ["Haies bocagères", "Passages à faune sous autoroutes", "Berges végétalisées"],
       "synonymes": ["continuité écologique", "trame verte et bleue"]
     }
   ]

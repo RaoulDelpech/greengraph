@@ -11,440 +11,377 @@
       "definition": "L'économie circulaire est un modèle économique qui rompt avec le schéma linéaire 'extraire-produire-jeter'. Elle repose sur trois principes fondamentaux définis par la Fondation Ellen MacArthur : éliminer les déchets et la pollution dès la conception, maintenir les produits et matériaux en circulation à leur plus haute valeur, et régénérer les systèmes naturels. Ce modèle vise un découplage absolu entre création de valeur économique et consommation de ressources finies.",
       "definitionEtendue": {
         "introduction": "Le concept d'économie circulaire émerge dans les années 1970 avec les travaux de Kenneth Boulding sur l'économie en vase clos ('The Economics of the Coming Spaceship Earth', 1966) et ceux de Walter Stahel sur l'économie de la performance (1976). Il s'est structuré avec l'écologie industrielle (Frosch & Gallopoulos, 1989), le concept Cradle to Cradle de McDonough et Braungart (2002), et l'économie bleue de Gunter Pauli (2010). La Fondation Ellen MacArthur, créée en 2010, a joué un rôle majeur dans la diffusion mondiale du concept.",
-        "mecanismes": "L'économie circulaire opère à travers plusieurs boucles de valeur hiérarchisées selon leur capacité à préserver la valeur ajoutée : la réduction à la source (moins de matière utilisée), le réemploi (même fonction, même utilisateur), la réutilisation (même fonction, nouvel utilisateur), la réparation et remise à neuf, le remanufacturing (désassemblage et réassemblage à neuf), et enfin le recyclage (récupération de la matière). Plus la boucle est courte, plus la valeur est préservée. Le modèle intègre également la distinction entre flux biologiques (retour des nutriments au sol via compostage) et flux techniques (maintien des matériaux dans le cycle industriel).",
-        "contexteScientifique": "La littérature scientifique distingue plusieurs approches conceptuelles : l'approche 'strong sustainability' (transformation systémique incluant les limites planétaires et la justice sociale) et l'approche 'weak sustainability' (optimisation des flux sans remise en cause du modèle de croissance). Les travaux de Kirchherr et al. (2017) ont recensé 114 définitions de l'économie circulaire, révélant une fragmentation conceptuelle importante. Le débat scientifique majeur porte sur la question du découplage absolu entre croissance économique et impact environnemental : certains auteurs (Hickel & Kallis, 2020) remettent en question sa faisabilité à l'échelle mondiale.",
-        "enjeuxActuels": "Les recherches actuelles portent sur : (1) la mesure de la circularité à différentes échelles (Material Circularity Indicator, Circulytics de la Fondation Ellen MacArthur, indicateurs européens), (2) les effets rebond potentiels (l'augmentation de la consommation peut annuler les gains d'efficacité), (3) l'intégration des aspects sociaux souvent négligés dans les modèles techno-économiques, (4) la dimension territoriale et les questions de gouvernance multi-niveaux. Le Green Deal européen (2019) et le nouveau Plan d'action pour l'économie circulaire de la Commission européenne (2020) constituent le cadre réglementaire majeur en Europe.",
-        "perspectives": "Les évolutions attendues incluent : le déploiement des 'passeports numériques des produits' (traçabilité complète du cycle de vie), le développement massif de modèles Product-as-a-Service, l'intégration de l'intelligence artificielle pour l'optimisation des flux de matières, et l'émergence de 'symbioses industrielles' facilitées par des plateformes numériques. La recherche académique s'oriente vers une économie 'régénérative' allant au-delà de la simple circularité pour restaurer activement les écosystèmes. Le taux de circularité mondial reste cependant faible (7,2% en 2023 selon le Circularity Gap Report), soulignant l'ampleur du chemin restant."
+        "mecanismes": "L'économie circulaire opère à travers plusieurs boucles de valeur hiérarchisées selon leur capacité à préserver la valeur ajoutée : la réduction à la source (moins de matière utilisée), le réemploi (même fonction, même utilisateur), la réutilisation (même fonction, nouvel utilisateur), la réparation et remise à neuf, le remanufacturing (désassemblage et réassemblage à neuf), et enfin le recyclage (récupération de la matière). Plus la boucle est courte, plus la valeur est préservée.",
+        "contexteScientifique": "La littérature scientifique distingue plusieurs approches conceptuelles : l'approche 'strong sustainability' (transformation systémique incluant les limites planétaires et la justice sociale) et l'approche 'weak sustainability' (optimisation des flux sans remise en cause du modèle de croissance). Les travaux de Kirchherr et al. (2017) ont recensé 114 définitions de l'économie circulaire, révélant une fragmentation conceptuelle importante.",
+        "enjeuxActuels": "Les recherches actuelles portent sur : (1) la mesure de la circularité à différentes échelles (Material Circularity Indicator, Circulytics), (2) les effets rebond potentiels, (3) l'intégration des aspects sociaux, (4) la dimension territoriale. Le Green Deal européen (2019) et le Plan d'action économie circulaire constituent le cadre réglementaire majeur.",
+        "perspectives": "Les évolutions attendues incluent : le déploiement des 'passeports numériques des produits', le développement de modèles Product-as-a-Service, et l'émergence d'une économie 'régénérative' allant au-delà de la simple circularité."
       },
       "sources": [
-        {
-          "titre": "Towards the Circular Economy Vol. 1: An economic and business rationale for an accelerated transition",
-          "auteur": "Ellen MacArthur Foundation",
-          "url": "https://www.ellenmacarthurfoundation.org/towards-the-circular-economy-vol-1-an-economic-and-business-rationale-for-an",
-          "annee": 2012,
-          "type": "rapport_institution",
-          "institution": "Ellen MacArthur Foundation",
-          "niveauPreuve": "elevé"
-        },
-        {
-          "titre": "Conceptualizing the circular economy: An analysis of 114 definitions",
-          "auteur": "Kirchherr, J., Reike, D., & Hekkert, M.",
-          "doi": "10.1016/j.resconrec.2017.09.005",
-          "journal": "Resources, Conservation and Recycling",
-          "annee": 2017,
-          "type": "article_peer_reviewed",
-          "niveauPreuve": "elevé"
-        },
-        {
-          "titre": "Loi n° 2020-105 relative à la lutte contre le gaspillage et à l'économie circulaire (AGEC)",
-          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041553759",
-          "annee": 2020,
-          "type": "loi",
-          "institution": "République Française",
-          "niveauPreuve": "elevé"
-        },
-        {
-          "titre": "The circular economy: a new sustainability paradigm?",
-          "auteur": "Geissdoerfer, M., Savaget, P., Bocken, N.M.P., & Hultink, E.J.",
-          "doi": "10.1016/j.jclepro.2016.12.048",
-          "journal": "Journal of Cleaner Production",
-          "annee": 2017,
-          "type": "article_peer_reviewed",
-          "niveauPreuve": "elevé"
-        },
-        {
-          "titre": "Is Green Growth Possible?",
-          "auteur": "Hickel, J. & Kallis, G.",
-          "doi": "10.1080/13563467.2019.1598964",
-          "journal": "New Political Economy",
-          "annee": 2020,
-          "type": "article_peer_reviewed",
-          "niveauPreuve": "elevé"
-        },
-        {
-          "titre": "Circularity Gap Report 2023",
-          "auteur": "Circle Economy",
-          "url": "https://www.circularity-gap.world/2023",
-          "annee": 2023,
-          "type": "rapport_institution",
-          "institution": "Circle Economy",
-          "niveauPreuve": "elevé"
-        }
+        {"titre": "Towards the Circular Economy Vol. 1", "auteur": "Ellen MacArthur Foundation", "annee": 2012, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Conceptualizing the circular economy: An analysis of 114 definitions", "auteur": "Kirchherr, J. et al.", "doi": "10.1016/j.resconrec.2017.09.005", "journal": "Resources, Conservation and Recycling", "annee": 2017, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
+        {"titre": "Loi AGEC", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041553759", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"}
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
       "tags": ["modèle économique", "ressources", "durabilité", "circularité"],
-      "motsClésScientifiques": ["découplage", "boucles de valeur", "métabolisme industriel", "régénératif", "limites planétaires", "cradle to cradle"],
+      "motsClésScientifiques": ["découplage", "boucles de valeur", "métabolisme industriel", "régénératif", "limites planétaires"],
       "relations": [
-        { "cible": "economie-lineaire", "type": "oppose_a", "score": 95 },
-        { "cible": "ecoconception", "type": "renvoie_a", "score": 90 },
-        { "cible": "recyclage", "type": "renvoie_a", "score": 85 },
-        { "cible": "reutilisation", "type": "renvoie_a", "score": 85 },
-        { "cible": "developpement-durable", "type": "contribue_a", "score": 80, "direction": "positif" },
-        { "cible": "symbiose-industrielle", "type": "renvoie_a", "score": 85 },
-        { "cible": "ecologie-industrielle", "type": "proche_de", "score": 90 }
+        {"cible": "economie-lineaire", "type": "oppose_a", "score": 95},
+        {"cible": "ecoconception", "type": "renvoie_a", "score": 90},
+        {"cible": "recyclage", "type": "renvoie_a", "score": 85}
       ],
-      "exemples": [
-        "Location de vêtements plutôt qu'achat (économie de la fonctionnalité)",
-        "Consigne des bouteilles en verre (réemploi)",
-        "Reconditionnement d'appareils électroniques (remanufacturing)",
-        "Symbiose industrielle de Kalundborg au Danemark"
-      ],
-      "synonymes": ["économie en boucle", "circularité économique", "circular economy"],
+      "exemples": ["Location de vêtements", "Consigne des bouteilles", "Reconditionnement électronique"],
+      "synonymes": ["économie en boucle", "circularité économique"],
       "indicateursQuantitatifs": [
-        {
-          "valeur": "Taux de circularité mondial : 7,2%",
-          "source": "Circle Economy - Circularity Gap Report",
-          "annee": 2023
-        },
-        {
-          "valeur": "Objectif UE : 70% de recyclage des emballages d'ici 2030",
-          "source": "Commission Européenne - Plan d'action économie circulaire",
-          "annee": 2020
-        },
-        {
-          "valeur": "Économie circulaire = 700 000 emplois potentiels en Europe d'ici 2030",
-          "source": "Commission Européenne",
-          "annee": 2020
-        }
+        {"valeur": "Taux de circularité mondial : 7,2%", "source": "Circle Economy", "annee": 2023}
       ]
     },
     {
       "id": "economie-lineaire",
       "terme": "Économie linéaire",
-      "definition": "Modèle économique traditionnel basé sur le schéma 'extraire-produire-consommer-jeter'. Les ressources naturelles sont extraites, transformées en produits, utilisés puis éliminés comme déchets, sans considération pour leur potentiel de réutilisation ou de recyclage.",
+      "resume": "Modèle économique 'extraire-produire-jeter' dominant depuis la révolution industrielle, source d'épuisement des ressources et de pollution.",
+      "definition": "L'économie linéaire est le modèle économique traditionnel basé sur le schéma 'extraire-produire-consommer-jeter'. Les ressources naturelles sont extraites, transformées en produits, utilisées puis éliminées comme déchets, sans considération pour leur potentiel de réutilisation ou de recyclage. Ce modèle, hérité de la révolution industrielle, suppose une disponibilité illimitée des ressources et une capacité infinie d'absorption des déchets par l'environnement.",
+      "definitionEtendue": {
+        "introduction": "Le modèle linéaire s'est imposé avec la révolution industrielle (XVIIIe-XIXe siècles), fondée sur l'exploitation massive des énergies fossiles et des matières premières. L'économie de masse du XXe siècle (fordisme, société de consommation) a amplifié ce paradigme. La prise de conscience de ses limites date des années 1970 avec le rapport Meadows 'Limits to Growth' (1972) et les chocs pétroliers.",
+        "mecanismes": "L'économie linéaire fonctionne en quatre étapes : extraction (mines, forages, agriculture intensive), transformation (industrie manufacturière), consommation (usage souvent court), élimination (mise en décharge, incinération). Ce flux unidirectionnel génère des externalités négatives : épuisement des stocks, dégradation des écosystèmes, pollution, émissions de GES. La valeur ajoutée lors de la fabrication est perdue en fin de vie.",
+        "contexteScientifique": "La critique scientifique du modèle linéaire s'appuie sur la thermodynamique (entropie, dissipation d'énergie), l'économie écologique (Herman Daly, Nicholas Georgescu-Roegen), et les sciences du système Terre (limites planétaires). Le concept de 'métabolisme industriel' (Ayres, 1989) analyse les flux de matière comme un organisme vivant inefficace. Les travaux sur le 'découplage' montrent la difficulté à maintenir la croissance sans augmenter les prélèvements.",
+        "enjeuxActuels": "L'économie linéaire est de plus en plus contestée face à la finitude des ressources (peak oil, raréfaction des terres rares), la crise climatique (80% des émissions liées à l'énergie et l'industrie), et la pollution (plastiques, PFAS). Cependant, la transition vers la circularité se heurte à des verrous socio-techniques : infrastructures, modèles d'affaires, comportements de consommation, et rapports de force économiques.",
+        "perspectives": "La sortie du modèle linéaire implique une transformation systémique : écoconception obligatoire, REP étendues, fiscalité sur les ressources vierges, interdiction du jetable, droit à la réparation. Les scénarios de transition (ADEME, négaWatt) projettent une réduction de 50-80% des flux de matières d'ici 2050 dans les pays développés."
+      },
       "sources": [
-        {
-          "titre": "Linear Economy",
-          "auteur": "European Environment Agency",
-          "url": "https://www.eea.europa.eu/help/glossary/eea-glossary/linear-economy",
-          "annee": 2021,
-          "type": "institution"
-        }
+        {"titre": "Linear Economy - Glossary", "auteur": "European Environment Agency", "url": "https://www.eea.europa.eu/help/glossary", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "The Limits to Growth", "auteur": "Meadows, D.H. et al.", "annee": 1972, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
+        {"titre": "The Entropy Law and the Economic Process", "auteur": "Georgescu-Roegen, N.", "annee": 1971, "type": "ouvrage_reference", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
       "tags": ["modèle économique", "extractivisme", "gaspillage"],
+      "motsClésScientifiques": ["extractivisme", "externalités", "métabolisme industriel", "entropie", "peak resources"],
       "relations": [
-        { "cible": "economie-circulaire", "type": "oppose_a", "score": 95 },
-        { "cible": "epuisement-ressources", "type": "contribue_a", "score": 90, "direction": "positif" },
-        { "cible": "pollution", "type": "contribue_a", "score": 85, "direction": "positif" }
+        {"cible": "economie-circulaire", "type": "oppose_a", "score": 95},
+        {"cible": "obsolescence-programmee", "type": "renvoie_a", "score": 85}
       ],
-      "exemples": [
-        "Produits jetables à usage unique",
-        "Obsolescence programmée",
-        "Fast fashion"
+      "exemples": ["Produits jetables à usage unique", "Obsolescence programmée", "Fast fashion"],
+      "indicateursQuantitatifs": [
+        {"valeur": "92,8% des ressources mondiales ne sont pas circulaires", "source": "Circle Economy", "annee": 2023},
+        {"valeur": "100 milliards de tonnes de ressources extraites/an", "source": "UNEP IRP", "annee": 2019}
       ]
     },
     {
       "id": "ecoconception",
       "terme": "Écoconception",
-      "definition": "Approche préventive et intégrée qui consiste à prendre en compte les impacts environnementaux d'un produit ou service dès sa phase de conception, et tout au long de son cycle de vie (extraction des matières premières, fabrication, distribution, utilisation, fin de vie).",
+      "resume": "Intégration des critères environnementaux dès la conception d'un produit pour minimiser ses impacts tout au long de son cycle de vie.",
+      "definition": "L'écoconception est une approche préventive et intégrée qui consiste à prendre en compte les impacts environnementaux d'un produit ou service dès sa phase de conception, et tout au long de son cycle de vie. Elle vise à réduire les impacts depuis l'extraction des matières premières jusqu'à la fin de vie, en passant par la fabrication, le transport, l'usage et la maintenance.",
+      "definitionEtendue": {
+        "introduction": "L'écoconception émerge dans les années 1990 avec les premiers travaux sur le 'Design for Environment' (DfE) aux États-Unis et le concept de 'factor 4' (diviser par 4 l'impact environnemental). La norme ISO 14062 (2002) puis ISO 14006 (2011, révisée 2020) ont standardisé l'approche. En France, l'ADEME promeut la démarche depuis les années 2000. La loi AGEC (2020) rend l'écoconception obligatoire pour certaines catégories de produits.",
+        "mecanismes": "L'écoconception s'appuie sur l'Analyse du Cycle de Vie (ACV) pour identifier les 'hotspots' environnementaux. Les leviers d'action incluent : choix des matériaux (recyclés, biosourcés, moins toxiques), optimisation de la fabrication (énergie, eau, déchets), réduction du poids et du volume (transport), allongement de la durée de vie (robustesse, réparabilité, évolutivité), et facilitation de la fin de vie (démontabilité, recyclabilité). L'approche multicritère évite les transferts de pollution.",
+        "contexteScientifique": "La recherche en écoconception mobilise l'ingénierie, le design, et les sciences de l'environnement. Le concept de 'Cradle to Cradle' (McDonough & Braungart, 2002) propose de concevoir des produits dont les composants sont soit biodégradables (cycle biologique), soit recyclables à l'infini (cycle technique). Les méthodes de conception intègrent désormais l'économie circulaire : design for disassembly, design for recycling, design for remanufacturing.",
+        "enjeuxActuels": "L'écoconception devient un enjeu réglementaire majeur avec le règlement européen sur l'écoconception des produits durables (ESPR, 2024), le passeport numérique des produits, et les exigences de recyclabilité et de contenu recyclé. Les défis incluent : l'intégration dans les processus industriels, la formation des designers, l'accès aux données environnementales des fournisseurs, et les arbitrages entre critères (ex : légèreté vs durabilité).",
+        "perspectives": "L'écoconception évolue vers le 'design régénératif' (contribution positive à l'environnement), l'intégration de l'intelligence artificielle (optimisation multi-objectifs), et les 'jumeaux numériques' pour simuler les impacts avant fabrication. Les normes d'écoconception deviennent des conditions d'accès au marché européen."
+      },
       "sources": [
-        {
-          "titre": "Écoconception : définition et principes",
-          "auteur": "ADEME",
-          "url": "https://www.ademe.fr/expertises/produire-autrement/production-industrielle-services/passer-a-laction/demarches-decoconception",
-          "annee": 2022,
-          "type": "institution"
-        },
-        {
-          "titre": "ISO 14006:2020 - Systèmes de management environnemental — Lignes directrices pour l'écoconception",
-          "auteur": "ISO",
-          "annee": 2020,
-          "type": "rapport"
-        }
+        {"titre": "ISO 14006:2020 - Lignes directrices pour l'écoconception", "auteur": "ISO", "annee": 2020, "type": "norme_iso", "niveauPreuve": "elevé"},
+        {"titre": "Cradle to Cradle: Remaking the Way We Make Things", "auteur": "McDonough, W. & Braungart, M.", "annee": 2002, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
+        {"titre": "Écoconception des produits", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
       "tags": ["conception", "cycle de vie", "prévention", "innovation"],
+      "motsClésScientifiques": ["design for environment", "ACV", "cradle to cradle", "hotspots", "design for disassembly"],
       "relations": [
-        { "cible": "economie-circulaire", "type": "contribue_a", "score": 90, "direction": "positif" },
-        { "cible": "analyse-cycle-vie", "type": "renvoie_a", "score": 85 },
-        { "cible": "recyclabilite", "type": "renvoie_a", "score": 80 },
-        { "cible": "reduction-source", "type": "proche_de", "score": 75 }
+        {"cible": "economie-circulaire", "type": "contribue_a", "score": 90, "direction": "positif"},
+        {"cible": "analyse-cycle-vie", "type": "renvoie_a", "score": 85},
+        {"cible": "reparabilite", "type": "renvoie_a", "score": 80}
       ],
-      "exemples": [
-        "Conception de produits démontables pour faciliter la réparation",
-        "Choix de matériaux recyclés ou biosourcés",
-        "Réduction du poids des emballages"
-      ],
-      "synonymes": ["design écologique", "conception durable", "eco-design"]
+      "exemples": ["Produits démontables pour réparation", "Matériaux recyclés ou biosourcés", "Réduction du poids des emballages"],
+      "synonymes": ["design écologique", "conception durable", "eco-design"],
+      "indicateursQuantitatifs": [
+        {"valeur": "80% des impacts environnementaux déterminés dès la conception", "source": "Commission Européenne", "annee": 2020}
+      ]
     },
     {
       "id": "analyse-cycle-vie",
       "terme": "Analyse du cycle de vie (ACV)",
-      "definition": "Méthode normalisée (ISO 14040/14044) d'évaluation des impacts environnementaux d'un produit, service ou procédé, depuis l'extraction des matières premières jusqu'à sa fin de vie ('du berceau à la tombe'). Elle quantifie les flux entrants (matières, énergie) et sortants (émissions, déchets) à chaque étape.",
+      "resume": "Méthode normalisée d'évaluation des impacts environnementaux d'un produit 'du berceau à la tombe'.",
+      "definition": "L'Analyse du Cycle de Vie (ACV) est une méthode normalisée (ISO 14040/14044) d'évaluation des impacts environnementaux d'un produit, service ou procédé, depuis l'extraction des matières premières jusqu'à sa fin de vie. Elle quantifie les flux entrants (matières, énergie) et sortants (émissions, déchets) à chaque étape et calcule les impacts selon plusieurs catégories (changement climatique, épuisement des ressources, toxicité, etc.).",
+      "definitionEtendue": {
+        "introduction": "L'ACV trouve ses origines dans les bilans énergétiques des années 1960-70 (études Coca-Cola, 1969). La méthodologie s'est structurée dans les années 1990 avec la Society of Environmental Toxicology and Chemistry (SETAC) et l'ISO. Les normes ISO 14040 (principes) et 14044 (exigences) datent de 2006. En France, la Base IMPACTS® de l'ADEME fournit les données de référence.",
+        "mecanismes": "L'ACV comprend quatre phases : (1) Définition des objectifs et du périmètre (unité fonctionnelle, frontières du système), (2) Inventaire du cycle de vie (collecte des données de flux), (3) Évaluation des impacts (conversion en indicateurs environnementaux), (4) Interprétation (analyse de sensibilité, conclusions). Les bases de données (ecoinvent, GaBi) fournissent les facteurs d'émission. Les logiciels (SimaPro, OpenLCA) automatisent les calculs.",
+        "contexteScientifique": "L'ACV fait l'objet de développements méthodologiques actifs : ACV sociale (impacts sociaux), ACV conséquentielle (effets systémiques des décisions), ACV territoriale, intégration de la biodiversité. Les limites incluent : disponibilité et qualité des données, choix méthodologiques impactant les résultats, difficulté à comparer des études, et biais potentiels. La 'Product Environmental Footprint' (PEF) européenne standardise les règles par catégorie de produits.",
+        "enjeuxActuels": "L'ACV devient obligatoire pour l'affichage environnemental (loi Climat & Résilience), la taxonomie européenne, et les marchés publics. Les défis incluent : démocratisation de la méthode (PME), bases de données plus complètes, prise en compte des incertitudes, et harmonisation internationale. L'ACV dynamique et prospective intègre l'évolution temporelle des impacts (décarbonation du mix électrique, etc.).",
+        "perspectives": "L'avenir de l'ACV passe par l'automatisation (IA, jumeau numérique), l'intégration dans les outils de conception (CAO), la mise à jour en temps réel grâce à l'IoT, et le développement de bases de données ouvertes. L'ACV devient un langage commun pour le dialogue entre parties prenantes et un outil de pilotage de la transition écologique."
+      },
       "sources": [
-        {
-          "titre": "ISO 14040:2006 - Management environnemental — Analyse du cycle de vie — Principes et cadre",
-          "auteur": "ISO",
-          "annee": 2006,
-          "type": "rapport"
-        },
-        {
-          "titre": "L'analyse du cycle de vie",
-          "auteur": "ADEME",
-          "url": "https://www.ademe.fr/expertises/consommer-autrement/passer-a-laction/dossier/lanalyse-cycle-vie/quest-lacv",
-          "annee": 2021,
-          "type": "institution"
-        }
+        {"titre": "ISO 14040:2006 - Principes et cadre de l'ACV", "auteur": "ISO", "annee": 2006, "type": "norme_iso", "niveauPreuve": "elevé"},
+        {"titre": "Life Cycle Assessment: Theory and Practice", "auteur": "Hauschild, M.Z., Rosenbaum, R.K., Olsen, S.I.", "annee": 2018, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
+        {"titre": "Base IMPACTS®", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
       "tags": ["évaluation", "méthodologie", "impacts", "ISO"],
+      "motsClésScientifiques": ["unité fonctionnelle", "inventaire", "catégories d'impact", "PEF", "ecoinvent"],
       "relations": [
-        { "cible": "ecoconception", "type": "renvoie_a", "score": 85 },
-        { "cible": "empreinte-carbone", "type": "proche_de", "score": 70 },
-        { "cible": "empreinte-ecologique", "type": "proche_de", "score": 65 }
+        {"cible": "ecoconception", "type": "renvoie_a", "score": 85},
+        {"cible": "empreinte-carbone", "type": "proche_de", "score": 70}
       ],
-      "exemples": [
-        "Comparaison de l'impact d'un sac plastique vs sac en coton",
-        "Évaluation de l'empreinte carbone d'un smartphone"
-      ],
+      "exemples": ["Comparaison sac plastique vs sac coton", "Évaluation empreinte carbone smartphone"],
       "synonymes": ["ACV", "LCA (Life Cycle Assessment)", "bilan environnemental"]
     },
     {
       "id": "symbiose-industrielle",
       "terme": "Symbiose industrielle",
-      "definition": "Forme d'organisation industrielle où les déchets, sous-produits ou flux d'énergie d'une entreprise deviennent des ressources pour une autre. Inspirée des écosystèmes naturels, elle vise à fermer les boucles de matière et d'énergie à l'échelle d'un territoire.",
+      "resume": "Mutualisation des flux de matières, d'énergie et de services entre entreprises d'un même territoire, inspirée des écosystèmes naturels.",
+      "definition": "La symbiose industrielle est une forme d'organisation où les déchets, sous-produits ou flux d'énergie d'une entreprise deviennent des ressources pour une autre. Inspirée des écosystèmes naturels où tout déchet est ressource, elle vise à fermer les boucles de matière et d'énergie à l'échelle d'un territoire. Elle implique une coopération inter-entreprises et souvent une animation territoriale.",
+      "definitionEtendue": {
+        "introduction": "Le concept de symbiose industrielle émerge avec l'écologie industrielle (Frosch & Gallopoulos, 1989). L'exemple fondateur est Kalundborg (Danemark), où depuis les années 1970, une raffinerie, une centrale électrique, une usine de plaques de plâtre et des serres échangent vapeur, chaleur, gypse, boues et eau. Marian Chertow (Yale) a formalisé le concept académiquement en 2000. En France, l'ADEME et les CCI promeuvent l'Écologie Industrielle et Territoriale (EIT).",
+        "mecanismes": "La symbiose repose sur trois types de synergies : mutualisation (partage d'équipements, achats groupés), substitution (un déchet remplace une matière vierge), et synergie de proximité (valorisation de la chaleur fatale). Le processus inclut : diagnostic des flux du territoire, identification des synergies potentielles, étude de faisabilité technico-économique, contractualisation, et mise en œuvre. Les animateurs territoriaux jouent un rôle clé de mise en relation.",
+        "contexteScientifique": "La recherche sur les symbioses industrielles mobilise l'écologie industrielle, l'analyse des réseaux sociaux, et la géographie économique. Les travaux portent sur : les conditions d'émergence (proximité, confiance, gouvernance), la mesure des bénéfices (flux évités, emplois, CO2), les barrières (réglementaires, techniques, culturelles), et la réplicabilité. Le concept de 'parc éco-industriel' (EIP) formalise la planification de symbioses dès la conception d'une zone.",
+        "enjeuxActuels": "Les symbioses industrielles sont encouragées par la loi AGEC (2020) et le plan économie circulaire. Les plateformes numériques (Actif, Upcyclea) facilitent la mise en relation. Les défis incluent : régularité et qualité des flux, adaptation des procédés, partage de la valeur, et pérennité des coopérations. La crise énergétique (2022) a relancé l'intérêt pour la valorisation de la chaleur fatale.",
+        "perspectives": "L'avenir passe par les 'symbioses numériques' (plateformes de matching), l'intégration dans les SCOT et PLU, le développement de 'clusters circulaires', et l'extension aux flux immatériels (compétences, données). Les 'symbioses territoriales' intègrent agriculture, collectivités et industries dans des boucles locales."
+      },
       "sources": [
-        {
-          "titre": "Industrial Symbiosis: Literature and Taxonomy",
-          "auteur": "Chertow, M.R.",
-          "url": "https://www.annualreviews.org/doi/10.1146/annurev.energy.25.1.313",
-          "annee": 2000,
-          "type": "article"
-        },
-        {
-          "titre": "L'écologie industrielle et territoriale",
-          "auteur": "ADEME",
-          "url": "https://www.ademe.fr/expertises/produire-autrement/production-industrielle-services/passer-a-laction/lecologie-industrielle-territoriale",
-          "annee": 2020,
-          "type": "institution"
-        }
+        {"titre": "Industrial Symbiosis: Literature and Taxonomy", "auteur": "Chertow, M.R.", "doi": "10.1146/annurev.energy.25.1.313", "journal": "Annual Review of Energy and Environment", "annee": 2000, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
+        {"titre": "Strategies for sustainable industrial development: The case of Kalundborg", "auteur": "Ehrenfeld, J. & Gertler, N.", "journal": "Journal of Industrial Ecology", "annee": 1997, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
+        {"titre": "Écologie Industrielle et Territoriale", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
       "tags": ["industrie", "territoire", "mutualisation", "déchets"],
+      "motsClésScientifiques": ["écologie industrielle", "Kalundborg", "synergies", "métabolisme territorial", "parc éco-industriel"],
       "relations": [
-        { "cible": "economie-circulaire", "type": "est_type_de", "score": 90 },
-        { "cible": "ecologie-industrielle", "type": "proche_de", "score": 95 },
-        { "cible": "valorisation-dechets", "type": "renvoie_a", "score": 80 }
+        {"cible": "economie-circulaire", "type": "est_type_de", "score": 90},
+        {"cible": "ecologie-industrielle", "type": "proche_de", "score": 95}
       ],
-      "exemples": [
-        "Kalundborg (Danemark) : exemple historique de symbiose industrielle",
-        "Utilisation de la chaleur fatale d'une usine pour chauffer des serres"
-      ],
-      "synonymes": ["écologie industrielle territoriale", "synergies inter-entreprises"]
+      "exemples": ["Kalundborg (Danemark)", "Valorisation chaleur fatale pour serres", "Échange de sous-produits entre usines"],
+      "synonymes": ["écologie industrielle territoriale", "synergies inter-entreprises"],
+      "indicateursQuantitatifs": [
+        {"valeur": "200+ symbioses industrielles identifiées en France", "source": "ADEME", "annee": 2022}
+      ]
     },
     {
       "id": "obsolescence-programmee",
       "terme": "Obsolescence programmée",
-      "definition": "Ensemble des techniques visant à réduire délibérément la durée de vie ou d'utilisation d'un produit afin d'en augmenter le taux de remplacement. Elle peut être technique (composants conçus pour tomber en panne), logicielle (mises à jour incompatibles), esthétique (effet de mode) ou psychologique (marketing).",
+      "resume": "Stratégie délibérée de réduction de la durée de vie des produits pour stimuler leur remplacement, illégale en France depuis 2015.",
+      "definition": "L'obsolescence programmée désigne l'ensemble des techniques visant à réduire délibérément la durée de vie ou d'utilisation d'un produit afin d'en augmenter le taux de remplacement. Elle peut être technique (composants sous-dimensionnés), logicielle (mises à jour bloquantes), esthétique (effet de mode), ou psychologique (marketing). En France, elle constitue un délit depuis la loi relative à la transition énergétique (2015).",
+      "definitionEtendue": {
+        "introduction": "Le concept est attribué à Bernard London (1932) qui proposait une 'obsolescence planifiée' pour sortir de la Grande Dépression. L'économiste Brooks Stevens popularise l'idée dans les années 1950 comme stratégie marketing. L'exemple historique est le 'Phoebus cartel' (1924-1939) qui aurait limité la durée de vie des ampoules à 1000 heures. Le documentaire 'Prêt à jeter' (2010) a médiatisé le sujet. La France est pionnière avec sa loi de 2015.",
+        "mecanismes": "L'obsolescence se manifeste sous plusieurs formes : technique (composants fragiles, non-réparabilité), logicielle (mises à jour incompatibles, fin du support), esthétique (cycles de mode accélérés), fonctionnelle (incompatibilité avec nouveaux standards), et psychologique (publicité stimulant le désir du neuf). Les secteurs les plus concernés sont l'électronique, le textile, et l'électroménager. Le coût pour le consommateur et l'environnement est considérable.",
+        "contexteScientifique": "La recherche sur l'obsolescence est pluridisciplinaire : économie (modèles d'affaires, externalités), design (durabilité, modularité), droit (preuves, sanctions), sociologie (consommation, attachement aux objets). Les études quantifient la 'durée de vie optimale' selon les points de vue (fabricant vs utilisateur vs environnement). Le lien avec l'économie circulaire est direct : l'obsolescence programmée est l'antithèse de la circularité.",
+        "enjeuxActuels": "La lutte contre l'obsolescence s'intensifie : indice de réparabilité (2021) puis de durabilité (2024), droit à la réparation européen, bonus réparation, garantie légale étendue, délit d'obsolescence logicielle. L'association HOP (Halte à l'Obsolescence Programmée) a porté des plaintes emblématiques (Apple, Epson). Les défis incluent : preuves difficiles à établir, arbitrage durabilité/innovation, changement des modèles économiques.",
+        "perspectives": "L'avenir passe par le 'design pour la longévité' (produits durables, modulaires, évolutifs), le 'product-as-a-service' (intérêt du fabricant à la durabilité), la transparence (passeport produit, durée de vie affichée), et la régulation (interdictions sectorielles, fiscalité sur le jetable). Les mouvements 'low-tech' et 'durable' portent une alternative culturelle."
+      },
       "sources": [
-        {
-          "titre": "Loi n° 2015-992 relative à la transition énergétique pour la croissance verte",
-          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000031047638",
-          "annee": 2015,
-          "type": "loi"
-        },
-        {
-          "titre": "L'obsolescence programmée : définition et enjeux",
-          "auteur": "HOP (Halte à l'Obsolescence Programmée)",
-          "url": "https://www.halteobsolescence.org/",
-          "annee": 2021,
-          "type": "institution"
-        }
+        {"titre": "Loi n° 2015-992 - Article L441-2 Code de la consommation", "url": "https://www.legifrance.gouv.fr/", "annee": 2015, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "Made to Break: Technology and Obsolescence in America", "auteur": "Slade, G.", "annee": 2006, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
+        {"titre": "L'obsolescence programmée : définition et enjeux", "auteur": "HOP", "url": "https://www.halteobsolescence.org/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "moyen"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
       "tags": ["durabilité", "consommation", "délit", "réparation"],
+      "motsClésScientifiques": ["durée de vie", "réparabilité", "délit", "droit à la réparation", "design for longevity"],
       "relations": [
-        { "cible": "economie-circulaire", "type": "oppose_a", "score": 90 },
-        { "cible": "economie-lineaire", "type": "contribue_a", "score": 85, "direction": "positif" },
-        { "cible": "reparabilite", "type": "oppose_a", "score": 80 },
-        { "cible": "droit-reparation", "type": "oppose_a", "score": 75 }
+        {"cible": "economie-circulaire", "type": "oppose_a", "score": 90},
+        {"cible": "economie-lineaire", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "reparabilite", "type": "oppose_a", "score": 90}
       ],
-      "exemples": [
-        "Batteries inamovibles dans les smartphones",
-        "Imprimantes bloquées après un certain nombre de pages",
-        "Changements de connectiques rendant les anciens accessoires inutilisables"
+      "exemples": ["Batteries inamovibles smartphones", "Imprimantes bloquées", "Mises à jour ralentissant appareils"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Durée de vie moyenne smartphone : 2-3 ans vs 10 ans techniquement possibles", "source": "ADEME", "annee": 2022}
       ]
     },
     {
       "id": "reutilisation",
       "terme": "Réutilisation",
-      "definition": "Toute opération par laquelle des substances, matières ou produits qui ne sont pas des déchets sont utilisés de nouveau pour un usage identique à celui pour lequel ils avaient été conçus. La réutilisation se distingue du recyclage car le produit conserve sa forme et sa fonction d'origine.",
+      "resume": "Utilisation répétée d'un produit pour son usage initial, sans transformation, prioritaire sur le recyclage dans la hiérarchie des déchets.",
+      "definition": "La réutilisation est toute opération par laquelle des substances, matières ou produits qui ne sont pas des déchets sont utilisés de nouveau pour un usage identique à celui pour lequel ils avaient été conçus. Elle se distingue du recyclage car le produit conserve sa forme et sa fonction d'origine. Dans la hiérarchie des modes de traitement, la réutilisation est prioritaire sur le recyclage.",
+      "definitionEtendue": {
+        "introduction": "La réutilisation est une pratique ancestrale (réparation, transmission) que la société de consommation a marginalisée. Elle connaît un renouveau depuis les années 2000 avec le développement de l'économie collaborative, des ressourceries, et du marché de l'occasion (Leboncoin, Vinted). La directive-cadre déchets (2008) et la loi AGEC (2020) lui donnent un cadre juridique en la distinguant du réemploi (passage par le statut de déchet).",
+        "mecanismes": "La réutilisation implique : collecte (don, reprise, dépôt), contrôle de l'état, éventuellement nettoyage ou remise en état mineure, redistribution (vente, don). Les acteurs incluent : ressourceries, emmaüs, plateformes numériques, circuits de consigne, et le marché informel. La réutilisation préserve l'intégralité de la valeur ajoutée du produit, contrairement au recyclage qui ne récupère que la matière.",
+        "contexteScientifique": "La recherche sur la réutilisation porte sur : les déterminants de l'adoption (prix, confiance, praticité), les impacts environnementaux comparés (ACV seconde main vs neuf), les modèles économiques viables, et les freins réglementaires (garanties, hygiène). Les études montrent des réductions d'impact de 50 à 90% pour les produits réutilisés vs neufs.",
+        "enjeuxActuels": "La réutilisation est encouragée par : la REP étendue (filières réemploi), les objectifs réglementaires (5% des emballages réemployés en 2023), le bonus réparation, et la TVA réduite sur la réparation. Les défis incluent : logistique de la collecte, coûts de remise en état, concurrence du neuf low-cost, et changement des comportements de consommation.",
+        "perspectives": "L'avenir de la réutilisation passe par la massification : consigne généralisée, emballages réemployables standardisés, 'product-as-a-service', seconde main intégrée par les marques (Decathlon, Back Market), et fiscalité favorable. L'objectif est d'inverser la hiérarchie actuelle où le neuf reste la norme."
+      },
       "sources": [
-        {
-          "titre": "Directive 2008/98/CE relative aux déchets",
-          "auteur": "Union Européenne",
-          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32008L0098",
-          "annee": 2008,
-          "type": "loi"
-        }
+        {"titre": "Directive 2008/98/CE relative aux déchets", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2008, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "Reuse in the European textile sector", "auteur": "EEA", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Loi AGEC - Titre III Réemploi et réutilisation", "url": "https://www.legifrance.gouv.fr/", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
       "tags": ["prévention", "allongement durée de vie", "seconde main"],
+      "motsClésScientifiques": ["hiérarchie des déchets", "réemploi", "seconde main", "ressourcerie", "consigne"],
       "relations": [
-        { "cible": "economie-circulaire", "type": "contribue_a", "score": 85, "direction": "positif" },
-        { "cible": "recyclage", "type": "proche_de", "score": 70 },
-        { "cible": "reemploi", "type": "proche_de", "score": 90 },
-        { "cible": "reduction-dechets", "type": "contribue_a", "score": 80, "direction": "positif" }
+        {"cible": "economie-circulaire", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "recyclage", "type": "proche_de", "score": 70}
       ],
-      "exemples": [
-        "Vente de vêtements d'occasion",
-        "Bouteilles en verre consignées",
-        "Don de meubles"
-      ],
-      "synonymes": ["seconde vie", "usage prolongé"]
+      "exemples": ["Vêtements d'occasion", "Bouteilles consignées", "Don de meubles"],
+      "synonymes": ["seconde vie", "usage prolongé"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Marché de la seconde main : 7 milliards € en France (2022)", "source": "Institut Français de la Mode", "annee": 2022}
+      ]
     },
     {
       "id": "upcycling",
       "terme": "Upcycling (surcyclage)",
-      "definition": "Processus de transformation de déchets ou de produits en fin de vie en nouveaux matériaux ou produits de qualité ou d'utilité supérieure. Contrairement au recyclage classique (downcycling), l'upcycling ajoute de la valeur au matériau initial.",
+      "resume": "Transformation de déchets en produits de valeur supérieure, créant de la valeur ajoutée plutôt que de la détruire.",
+      "definition": "L'upcycling (surcyclage) est le processus de transformation de déchets ou de produits en fin de vie en nouveaux matériaux ou produits de qualité ou d'utilité supérieure. Contrairement au recyclage classique qui dégrade souvent la matière (downcycling), l'upcycling ajoute de la valeur au matériau initial, souvent par l'intervention du design et de la créativité.",
+      "definitionEtendue": {
+        "introduction": "Le terme 'upcycling' est attribué à Reiner Pilz (1994) en opposition au 'downcycling'. Le concept a été popularisé par McDonough et Braungart dans 'Cradle to Cradle' (2002), qui distinguent recyclage en boucle fermée (maintien de la qualité) et downcycling (dégradation). L'upcycling connaît un essor depuis les années 2010 avec le mouvement maker, l'économie créative, et la mode éthique.",
+        "mecanismes": "L'upcycling opère par transformation créative : un déchet devient matière première pour un nouveau produit de valeur supérieure. Exemples : pneus en mobilier, voiles de bateau en sacs, chutes de tissu en accessoires, palettes en meubles. Le processus implique généralement : collecte de matériaux, tri, conception créative, fabrication artisanale ou semi-industrielle. La valeur ajoutée provient du design, de l'unicité, et de l'histoire du matériau.",
+        "contexteScientifique": "La recherche sur l'upcycling est émergente et pluridisciplinaire : design (creative reuse), ingénierie des matériaux (propriétés préservées), économie (modèles d'affaires), marketing (storytelling). Les études comparent les impacts environnementaux de l'upcycling vs recyclage vs neuf. Les limites incluent : échelle souvent artisanale, dépendance à la disponibilité des matériaux, et difficulté à industrialiser la créativité.",
+        "enjeuxActuels": "L'upcycling reste une niche mais se professionnalise avec des marques dédiées (Freitag, Veja, Faguo). Les enjeux incluent : passage à l'échelle, sourcing régulier de matériaux, standardisation sans perte de créativité, et reconnaissance de la valeur environnementale. Le secteur textile est le plus avancé avec la 'mode circulaire' et le 'deadstock' (stocks dormants).",
+        "perspectives": "L'avenir de l'upcycling passe par l'industrialisation (automatisation partielle, design génératif), l'intégration dans les stratégies RSE des grandes marques, les plateformes de mise en relation (gisements/créateurs), et la reconnaissance dans les labels et certifications. L'upcycling pourrait devenir un segment significatif de l'économie créative circulaire."
+      },
       "sources": [
-        {
-          "titre": "Cradle to Cradle: Remaking the Way We Make Things",
-          "auteur": "McDonough, W. & Braungart, M.",
-          "annee": 2002,
-          "type": "livre"
-        },
-        {
-          "titre": "Upcycling: de quoi parle-t-on ?",
-          "auteur": "ADEME",
-          "url": "https://www.ademe.fr/",
-          "annee": 2021,
-          "type": "institution"
-        }
+        {"titre": "Cradle to Cradle: Remaking the Way We Make Things", "auteur": "McDonough, W. & Braungart, M.", "annee": 2002, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
+        {"titre": "Upcycling-Based Business Models", "auteur": "Sung, K.", "journal": "Sustainability", "doi": "10.3390/su7010001", "annee": 2015, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
       "tags": ["valorisation", "créativité", "design", "valeur ajoutée"],
+      "motsClésScientifiques": ["creative reuse", "downcycling", "design circulaire", "deadstock", "valorisation créative"],
       "relations": [
-        { "cible": "recyclage", "type": "proche_de", "score": 75 },
-        { "cible": "economie-circulaire", "type": "contribue_a", "score": 80, "direction": "positif" },
-        { "cible": "downcycling", "type": "oppose_a", "score": 85 }
+        {"cible": "recyclage", "type": "proche_de", "score": 75},
+        {"cible": "economie-circulaire", "type": "contribue_a", "score": 80, "direction": "positif"}
       ],
-      "exemples": [
-        "Transformation de pneus usagés en mobilier design",
-        "Création de sacs à partir de bâches publicitaires",
-        "Bijoux fabriqués à partir de composants électroniques"
-      ],
+      "exemples": ["Pneus usagés en mobilier design", "Bâches publicitaires en sacs", "Composants électroniques en bijoux"],
       "synonymes": ["surcyclage", "valorisation créative"]
     },
     {
       "id": "economie-fonctionnalite",
       "terme": "Économie de la fonctionnalité",
-      "definition": "Modèle économique qui privilégie l'usage sur la possession, en vendant un service plutôt qu'un bien. Le producteur reste propriétaire du produit et a intérêt à maximiser sa durée de vie. Ce modèle découple la création de valeur de la consommation de ressources.",
+      "resume": "Modèle économique vendant l'usage d'un bien plutôt que sa propriété, alignant intérêts du producteur et durabilité du produit.",
+      "definition": "L'économie de la fonctionnalité est un modèle économique qui privilégie l'usage sur la possession, en vendant un service plutôt qu'un bien. Le producteur reste propriétaire du produit et a intérêt à maximiser sa durée de vie pour réduire ses coûts. Ce modèle découple la création de valeur de la consommation de ressources et aligne les intérêts économiques avec la durabilité environnementale.",
+      "definitionEtendue": {
+        "introduction": "Le concept est formalisé par Walter Stahel (années 1980) sous le nom d''économie de la performance'. L'idée centrale : vendre des kilomètres plutôt que des voitures, de la lumière plutôt que des ampoules. Le Club de Rome et le Wuppertal Institut ont promu ce modèle dans les années 1990. En France, l'ADEME et l'Institut de l'économie de la fonctionnalité et de la coopération (IÉFC) structurent la réflexion depuis les années 2000.",
+        "mecanismes": "Le producteur devient prestataire de service : il reste propriétaire du bien, assure sa maintenance, et facture l'usage (durée, volume, résultat). Son intérêt économique s'aligne avec la durabilité : un produit qui dure réduit les coûts de remplacement. Les modèles incluent : location longue durée, pay-per-use, garantie étendue, et contrats de performance. Exemples : Michelin (pneus au kilomètre), Philips (lumière-as-a-service), Xerox (copies facturées).",
+        "contexteScientifique": "La recherche porte sur : les conditions de viabilité économique, les impacts environnementaux réels (attention aux effets rebond), la transformation des modèles d'affaires, et l'acceptation par les clients. L'économie de la fonctionnalité est liée à l'économie collaborative, au product-service system (PSS), et à la servitization. Les critiques soulignent : la dépendance au prestataire, la perte de propriété, et les difficultés de massification.",
+        "enjeuxActuels": "L'économie de la fonctionnalité se développe dans le B2B (équipements industriels, flottes de véhicules) mais reste marginale en B2C. Les freins incluent : attachement à la propriété, financement du stock immobilisé, et complexité logistique. Les leviers incluent : fiscalité favorable (TVA réduite sur services), REP modulée, et marchés publics innovants.",
+        "perspectives": "La transition vers l'usage pourrait s'accélérer avec : la mobilité partagée (MaaS), l'économie de l'abonnement (Netflix, Spotify généralisés aux biens), l'internet des objets (facturation à l'usage en temps réel), et la pression réglementaire sur le jetable. L'économie de la fonctionnalité est considérée comme un levier majeur de l'économie circulaire."
+      },
       "sources": [
-        {
-          "titre": "L'économie de fonctionnalité",
-          "auteur": "ADEME",
-          "url": "https://www.ademe.fr/expertises/economie-circulaire/economie-fonctionnalite",
-          "annee": 2022,
-          "type": "institution"
-        }
+        {"titre": "The Performance Economy", "auteur": "Stahel, W.R.", "annee": 2010, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
+        {"titre": "Product-service systems and sustainability", "auteur": "Mont, O.", "journal": "Journal of Cleaner Production", "annee": 2002, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
+        {"titre": "L'économie de fonctionnalité", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
       "tags": ["service", "usage", "location", "modèle économique"],
+      "motsClésScientifiques": ["product-service system", "servitization", "économie de la performance", "pay-per-use", "découplage"],
       "relations": [
-        { "cible": "economie-circulaire", "type": "est_type_de", "score": 90 },
-        { "cible": "obsolescence-programmee", "type": "oppose_a", "score": 80 },
-        { "cible": "ecoconception", "type": "renvoie_a", "score": 75 }
+        {"cible": "economie-circulaire", "type": "est_type_de", "score": 90},
+        {"cible": "obsolescence-programmee", "type": "oppose_a", "score": 85}
       ],
-      "exemples": [
-        "Michelin Fleet Solutions (pneus à l'usage)",
-        "Location de machines à laver",
-        "Autopartage et vélos en libre-service"
-      ],
+      "exemples": ["Michelin Fleet Solutions (pneus au km)", "Location machines à laver", "Autopartage"],
       "synonymes": ["économie servicielle", "product-as-a-service"]
     },
     {
       "id": "reparabilite",
       "terme": "Réparabilité",
-      "definition": "Capacité d'un produit à être réparé facilement et à moindre coût. La réparabilité dépend de la conception (accès aux composants, démontabilité), de la disponibilité des pièces détachées, de la documentation technique et du coût de la réparation par rapport au remplacement.",
+      "resume": "Capacité d'un produit à être réparé facilement, évaluée par un indice obligatoire en France depuis 2021.",
+      "definition": "La réparabilité est la capacité d'un produit à être réparé facilement et à moindre coût. Elle dépend de la conception (accès aux composants, démontabilité), de la disponibilité des pièces détachées, de la documentation technique, et du coût de la réparation par rapport au remplacement. En France, l'indice de réparabilité (0-10) est obligatoire depuis 2021 pour certains produits électriques et électroniques.",
+      "definitionEtendue": {
+        "introduction": "Le concept de réparabilité émerge en réaction à l'obsolescence programmée et à la 'throwaway society'. Le mouvement 'Right to Repair' naît aux États-Unis dans les années 2010, porté par iFixit et les Repair Cafés. En Europe, la directive écoconception (2009) puis le Green Deal ouvrent la voie. La France est pionnière avec l'indice de réparabilité (loi AGEC, 2020), qui évoluera vers un indice de durabilité en 2024.",
+        "mecanismes": "L'indice de réparabilité français évalue 5 critères : documentation technique, démontabilité/accès aux composants, disponibilité des pièces détachées, prix des pièces, et critère spécifique au produit. Une note de 0 à 10 est affichée en magasin et en ligne. Les produits concernés : smartphones, ordinateurs, téléviseurs, lave-linge, tondeuses. L'objectif : orienter les consommateurs et inciter les fabricants à l'écoconception.",
+        "contexteScientifique": "La recherche sur la réparabilité porte sur : les déterminants techniques (modularité, standardisation), économiques (coût relatif réparation/remplacement), et comportementaux (motivation à réparer). Les études analysent l'impact de l'indice sur les choix des consommateurs et les stratégies des fabricants. Le 'design for repair' intègre la réparabilité dès la conception.",
+        "enjeuxActuels": "L'Union européenne prépare un droit à la réparation : accès aux pièces et outils, interdiction des verrous logiciels, garantie étendue après réparation. Le bonus réparation (textile, électronique) soutient la demande. Les défis : formation des réparateurs, coût encore élevé, et concurrence du neuf low-cost. Les Repair Cafés (2000+ en France) démocratisent la pratique.",
+        "perspectives": "L'indice de durabilité (2024) intégrera fiabilité et évolutivité. L'objectif européen est de rendre la réparation 'le choix le plus économique' d'ici 2030. L'avenir passe par : pièces détachées imprimées en 3D, tutoriels vidéo généralisés, modularité standardisée, et intégration de la réparation dans les contrats de garantie. La réparabilité devient un argument commercial."
+      },
       "sources": [
-        {
-          "titre": "Indice de réparabilité",
-          "auteur": "Ministère de la Transition écologique",
-          "url": "https://www.ecologie.gouv.fr/indice-reparabilite",
-          "annee": 2021,
-          "type": "institution"
-        },
-        {
-          "titre": "Loi AGEC - Article 16",
-          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041553759",
-          "annee": 2020,
-          "type": "loi"
-        }
+        {"titre": "Loi AGEC - Article 16 (Indice de réparabilité)", "url": "https://www.legifrance.gouv.fr/", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "Indice de réparabilité", "auteur": "Ministère de la Transition écologique", "url": "https://www.ecologie.gouv.fr/indice-reparabilite", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "The Right to Repair", "auteur": "European Parliament", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
       "tags": ["réparation", "durabilité", "indice", "pièces détachées"],
+      "motsClésScientifiques": ["indice de réparabilité", "droit à la réparation", "design for repair", "pièces détachées", "démontabilité"],
       "relations": [
-        { "cible": "economie-circulaire", "type": "contribue_a", "score": 85, "direction": "positif" },
-        { "cible": "obsolescence-programmee", "type": "oppose_a", "score": 90 },
-        { "cible": "ecoconception", "type": "renvoie_a", "score": 80 }
+        {"cible": "economie-circulaire", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "obsolescence-programmee", "type": "oppose_a", "score": 90},
+        {"cible": "ecoconception", "type": "renvoie_a", "score": 80}
       ],
-      "exemples": [
-        "Indice de réparabilité affiché sur les smartphones",
-        "Fairphone conçu pour être réparé",
-        "Bonus réparation textile"
-      ],
-      "synonymes": ["indice de réparabilité", "droit à la réparation"]
+      "exemples": ["Indice affiché sur smartphones", "Fairphone conçu réparable", "Bonus réparation textile"],
+      "synonymes": ["indice de réparabilité", "droit à la réparation"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Note moyenne smartphones : 6,2/10", "source": "HOP", "annee": 2022},
+        {"valeur": "2000+ Repair Cafés en France", "source": "Repair Café France", "annee": 2023}
+      ]
     },
     {
       "id": "consigne",
       "terme": "Consigne",
-      "definition": "Système de collecte où un montant est ajouté au prix d'un produit (emballage, contenant) et remboursé lors de son retour. La consigne favorise le réemploi ou le recyclage en augmentant les taux de collecte et en responsabilisant le consommateur.",
+      "resume": "Système de retour des emballages contre remboursement d'un montant préalablement payé, favorisant le réemploi ou le recyclage.",
+      "definition": "La consigne est un système de collecte où un montant est ajouté au prix d'un produit (emballage, contenant) et remboursé lors de son retour. Elle favorise le réemploi (consigne pour réutilisation) ou le recyclage (consigne pour recyclage) en augmentant fortement les taux de collecte et en responsabilisant le consommateur. C'est l'un des outils les plus efficaces de l'économie circulaire pour les emballages.",
+      "definitionEtendue": {
+        "introduction": "La consigne est une pratique ancienne (bouteilles de lait, casiers de bière) marginalisée par le jetable dans les années 1970-80. Elle persiste en Allemagne (Pfand), Scandinavie, et pour les emballages professionnels (fûts, palettes). Le regain d'intérêt date des années 2010, porté par les objectifs de recyclage et la lutte contre le plastique. La loi AGEC (2020) prévoit sa généralisation en France si les objectifs de collecte ne sont pas atteints.",
+        "mecanismes": "Deux types de consigne : pour réemploi (l'emballage est lavé et réutilisé, ex : bouteilles en verre) et pour recyclage (l'emballage est collecté et recyclé, ex : bouteilles PET en Allemagne). Le montant (10-25 centimes) est perçu à l'achat et restitué au retour via des automates (RVM - Reverse Vending Machines) ou en magasin. Les taux de retour atteignent 90-98% dans les pays pratiquant la consigne.",
+        "contexteScientifique": "La recherche compare les systèmes de collecte : consigne vs tri sélectif vs points d'apport. Les études ACV montrent un bilan environnemental favorable de la consigne pour réemploi (réutilisation 20-30 fois) mais plus nuancé pour la consigne pour recyclage (transport des emballages vides). Les travaux portent aussi sur l'acceptabilité sociale, les modèles économiques, et les impacts sur les filières existantes.",
+        "enjeuxActuels": "La généralisation de la consigne en France fait débat : les collectivités et les acteurs du tri s'y opposent (perte de matière valorisable, investissements réalisés), tandis que les ONG et certains industriels la soutiennent. Les enjeux incluent : coût des infrastructures (automates, lavage), standardisation des emballages, et articulation avec le tri existant. La consigne pour réemploi se développe dans la restauration rapide (loi AGEC 2023).",
+        "perspectives": "L'avenir de la consigne passe par : les emballages réemployables standardisés, les systèmes mutualisés entre marques, la digitalisation (consigne dématérialisée), et l'extension à de nouvelles catégories (textile, électronique). L'objectif européen de 90% de collecte des bouteilles plastique d'ici 2029 devrait accélérer le déploiement de systèmes de consigne."
+      },
       "sources": [
-        {
-          "titre": "La consigne des emballages",
-          "auteur": "ADEME",
-          "url": "https://www.ademe.fr/",
-          "annee": 2023,
-          "type": "institution"
-        }
+        {"titre": "Loi AGEC - Article 66 (Consigne)", "url": "https://www.legifrance.gouv.fr/", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "Deposit Return Systems for Packaging", "auteur": "Reloop Platform", "url": "https://www.reloopplatform.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Global Deposit Book 2022", "auteur": "Reloop", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
       "tags": ["emballage", "retour", "réemploi", "collecte"],
+      "motsClésScientifiques": ["deposit-return system", "réemploi", "RVM", "taux de collecte", "standardisation"],
       "relations": [
-        { "cible": "reutilisation", "type": "contribue_a", "score": 90, "direction": "positif" },
-        { "cible": "recyclage", "type": "contribue_a", "score": 80, "direction": "positif" },
-        { "cible": "economie-circulaire", "type": "contribue_a", "score": 85, "direction": "positif" }
+        {"cible": "reutilisation", "type": "contribue_a", "score": 90, "direction": "positif"},
+        {"cible": "recyclage", "type": "contribue_a", "score": 80, "direction": "positif"}
       ],
-      "exemples": [
-        "Consigne des bouteilles en verre",
-        "Consigne des bouteilles en plastique (Allemagne)",
-        "Consigne des palettes industrielles"
-      ],
-      "synonymes": ["système de consigne", "deposit-return system"]
+      "exemples": ["Bouteilles verre consignées", "Pfand allemand", "Consigne restauration rapide"],
+      "synonymes": ["système de consigne", "deposit-return system"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Taux de retour : 98% en Allemagne vs 60% en France (collecte sélective)", "source": "Reloop", "annee": 2022}
+      ]
     },
     {
       "id": "ecologie-industrielle",
       "terme": "Écologie industrielle",
-      "definition": "Approche systémique qui étudie les flux de matières et d'énergie dans les systèmes industriels en s'inspirant du fonctionnement des écosystèmes naturels. Elle vise à transformer les systèmes linéaires en systèmes cycliques où les déchets des uns deviennent les ressources des autres.",
+      "resume": "Approche systémique des flux de matières et d'énergie dans les systèmes industriels, inspirée des écosystèmes naturels.",
+      "definition": "L'écologie industrielle est une approche systémique qui étudie les flux de matières et d'énergie dans les systèmes industriels en s'inspirant du fonctionnement des écosystèmes naturels. Elle vise à transformer les systèmes linéaires en systèmes cycliques où les déchets des uns deviennent les ressources des autres, minimisant ainsi les prélèvements sur l'environnement et les rejets dans celui-ci.",
+      "definitionEtendue": {
+        "introduction": "L'écologie industrielle naît en 1989 avec l'article fondateur de Frosch et Gallopoulos dans Scientific American : 'Strategies for Manufacturing'. Le champ académique se structure dans les années 1990 avec le Journal of Industrial Ecology (1997), la société savante ISIE, et les travaux de Yale (Thomas Graedel, Reid Lifset). En France, le terme 'écologie industrielle et territoriale' (EIT) souligne la dimension locale.",
+        "mecanismes": "L'écologie industrielle opère à trois niveaux : micro (procédé/produit, écoconception), méso (parc industriel, symbioses), macro (région/nation, métabolisme). Les outils incluent : analyse des flux de matières (MFA), ACV, symbioses industrielles, et tableaux entrées-sorties. L'analogie avec les écosystèmes naturels inspire des concepts comme : producteur/consommateur/décomposeur, niches écologiques, résilience.",
+        "contexteScientifique": "La recherche en écologie industrielle mobilise : l'ingénierie des procédés, l'économie (externalités, prix des ressources), la géographie (proximité, territoires), et l'écologie (analogies avec les écosystèmes). Les débats portent sur : les limites de l'analogie biologique, la définition des frontières du système, la mesure de la circularité, et le passage à l'échelle. Le champ a influencé l'économie circulaire.",
+        "enjeuxActuels": "L'écologie industrielle est promue par les politiques publiques (ADEME, Région) et les démarches volontaires (ISO 14001, EMAS). Les défis incluent : identification des synergies (données industrielles), animation territoriale (confiance, gouvernance), viabilité économique (rentabilité des échanges), et réglementaire (sortie du statut de déchet). Les plateformes numériques facilitent la mise en relation.",
+        "perspectives": "L'avenir de l'écologie industrielle passe par : les 'jumeaux numériques' de territoires (simulation des flux), l'IA pour le matching de synergies, l'intégration agriculture/industrie/ville, et les 'mines urbaines' (récupération des métaux dans les déchets). L'écologie industrielle pourrait devenir le cadre méthodologique de la planification écologique territoriale."
+      },
       "sources": [
-        {
-          "titre": "Industrial Ecology",
-          "auteur": "Graedel, T.E. & Allenby, B.R.",
-          "annee": 1995,
-          "type": "livre"
-        },
-        {
-          "titre": "Journal of Industrial Ecology",
-          "url": "https://onlinelibrary.wiley.com/journal/15309290",
-          "type": "article"
-        }
+        {"titre": "Strategies for Manufacturing (article fondateur)", "auteur": "Frosch, R.A. & Gallopoulos, N.E.", "journal": "Scientific American", "annee": 1989, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
+        {"titre": "Industrial Ecology", "auteur": "Graedel, T.E. & Allenby, B.R.", "annee": 2003, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
+        {"titre": "Journal of Industrial Ecology", "url": "https://onlinelibrary.wiley.com/journal/15309290", "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
       "tags": ["flux", "métabolisme", "systémique", "industrie"],
+      "motsClésScientifiques": ["métabolisme industriel", "MFA", "symbiose", "boucles fermées", "analogie écosystémique"],
       "relations": [
-        { "cible": "symbiose-industrielle", "type": "renvoie_a", "score": 95 },
-        { "cible": "economie-circulaire", "type": "proche_de", "score": 90 },
-        { "cible": "analyse-cycle-vie", "type": "renvoie_a", "score": 75 }
+        {"cible": "symbiose-industrielle", "type": "renvoie_a", "score": 95},
+        {"cible": "economie-circulaire", "type": "proche_de", "score": 90},
+        {"cible": "analyse-cycle-vie", "type": "renvoie_a", "score": 75}
       ],
-      "exemples": [
-        "Métabolisme industriel d'un territoire",
-        "Analyse des flux de matières (MFA)"
-      ],
-      "synonymes": ["écologie industrielle et territoriale", "EIT"]
+      "exemples": ["Métabolisme industriel territorial", "Analyse des flux de matières (MFA)"],
+      "synonymes": ["écologie industrielle et territoriale", "EIT"],
+      "indicateursQuantitatifs": [
+        {"valeur": "100+ démarches EIT accompagnées en France", "source": "ADEME", "annee": 2022}
+      ]
     }
   ]
 }

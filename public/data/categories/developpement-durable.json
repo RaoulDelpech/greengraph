@@ -107,286 +107,308 @@
     {
       "id": "rse",
       "terme": "Responsabilité sociétale des entreprises (RSE)",
-      "definition": "Intégration volontaire par les entreprises de préoccupations sociales et environnementales dans leurs activités commerciales et leurs relations avec les parties prenantes. La RSE va au-delà du respect de la loi et vise une contribution positive au développement durable.",
+      "resume": "Intégration volontaire par les entreprises de préoccupations sociales et environnementales dans leurs activités. Devient obligatoire avec la CSRD européenne.",
+      "definition": "La responsabilité sociétale des entreprises (RSE) est l'intégration volontaire par les entreprises de préoccupations sociales, environnementales et éthiques dans leurs activités commerciales et leurs relations avec leurs parties prenantes (employés, clients, fournisseurs, communautés, actionnaires). La RSE va au-delà du respect de la loi et vise une contribution positive au développement durable. Elle repose sur trois piliers : social (conditions de travail, diversité), environnemental (empreinte carbone, économie circulaire), et gouvernance (éthique, anti-corruption).",
+      "definitionEtendue": {
+        "introduction": "Le concept de responsabilité sociale émerge aux États-Unis dans les années 1950 (Howard Bowen). Il s'institutionnalise avec le Pacte Mondial de l'ONU (2000, 10 principes), la norme ISO 26000 (2010), et les Principes directeurs de l'OCDE. En Europe, la directive CSRD (2022) rend le reporting extra-financier obligatoire pour 50 000 entreprises dès 2025. La RSE évolue d'une démarche volontaire et philanthropique vers une exigence réglementaire et stratégique.",
+        "mecanismes": "La RSE s'articule autour de : la gouvernance (comité RSE, matérialité), la stratégie (intégration aux objectifs business), les actions (programmes sociaux, environnementaux), le reporting (GRI, ESRS, CDP), et le dialogue parties prenantes. Les entreprises identifient leurs 'enjeux matériels' par une analyse de double matérialité (impact sur l'entreprise et de l'entreprise sur le monde). Les normes ESRS (European Sustainability Reporting Standards) standardisent le reporting depuis 2024.",
+        "contexteScientifique": "La recherche sur la RSE porte sur : le lien performance financière-RSE (corrélation positive mais causation débattue), les motivations (légitimité, licence to operate, avantage compétitif), et les limites (greenwashing, instrumentalisation). Le concept de 'création de valeur partagée' (Porter, 2011) intègre RSE et stratégie. Les critiques soulignent l'insuffisance des engagements volontaires et la captation du concept par les grandes entreprises.",
+        "enjeuxActuels": "La CSRD européenne transforme la RSE : reporting obligatoire audité, double matérialité, chaîne de valeur incluse. La taxonomie verte classifie les activités durables. Le devoir de vigilance (loi française 2017, directive européenne 2024) impose la surveillance des droits humains et environnement dans la chaîne d'approvisionnement. Les labels (B Corp, LUCIE, Engagé RSE) certifient les démarches. Le défi : passer du reporting à la transformation réelle des modèles d'affaires.",
+        "perspectives": "La RSE évolue vers la 'corporate sustainability' intégrée à la stratégie. Les tendances incluent : alignement sur les ODD, science-based targets (climat, biodiversité), comptabilité triple capital (financier, naturel, humain), et activisme actionnarial. La finance durable (ESG, investissement responsable) amplifie les incitations. L'enjeu est de transformer les entreprises en acteurs de la transition, au-delà du simple 'do no harm'."
+      },
       "sources": [
-        {
-          "titre": "ISO 26000 - Lignes directrices relatives à la responsabilité sociétale",
-          "auteur": "ISO",
-          "url": "https://www.iso.org/iso-26000-social-responsibility.html",
-          "annee": 2010,
-          "type": "rapport"
-        },
-        {
-          "titre": "Directive sur le reporting de durabilité des entreprises (CSRD)",
-          "auteur": "Union Européenne",
-          "url": "https://eur-lex.europa.eu/",
-          "annee": 2022,
-          "type": "loi"
-        }
+        {"titre": "ISO 26000:2010 - Lignes directrices relatives à la responsabilité sociétale", "auteur": "ISO", "url": "https://www.iso.org/iso-26000-social-responsibility.html", "annee": 2010, "type": "norme_iso", "niveauPreuve": "elevé"},
+        {"titre": "Corporate Sustainability Reporting Directive (CSRD)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2022, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "Creating Shared Value", "auteur": "Porter, M.E. & Kramer, M.R.", "journal": "Harvard Business Review", "annee": 2011, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
       "tags": ["entreprise", "parties prenantes", "reporting", "ISO 26000"],
+      "motsClésScientifiques": ["matérialité", "ESRS", "taxonomie verte", "devoir de vigilance", "parties prenantes", "ESG"],
       "relations": [
-        { "cible": "developpement-durable", "type": "contribue_a", "score": 85, "direction": "positif" },
-        { "cible": "greenwashing", "type": "oppose_a", "score": 80 },
-        { "cible": "bilan-carbone", "type": "renvoie_a", "score": 70 },
-        { "cible": "economie-sociale-solidaire", "type": "proche_de", "score": 65 }
+        {"cible": "developpement-durable", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "greenwashing", "type": "oppose_a", "score": 80},
+        {"cible": "empreinte-carbone", "type": "renvoie_a", "score": 70}
       ],
-      "exemples": [
-        "Publication d'un rapport RSE annuel",
-        "Certification B Corp",
-        "Politique d'achats responsables"
-      ],
-      "synonymes": ["CSR (Corporate Social Responsibility)", "responsabilité sociale"]
+      "exemples": ["Rapport CSRD audité", "Certification B Corp", "Due diligence fournisseurs"],
+      "synonymes": ["CSR (Corporate Social Responsibility)", "responsabilité sociale", "corporate sustainability"],
+      "indicateursQuantitatifs": [
+        {"valeur": "50 000 entreprises soumises à la CSRD en Europe", "source": "UE", "annee": 2024},
+        {"valeur": "8 000+ entreprises certifiées B Corp monde", "source": "B Lab", "annee": 2023}
+      ]
     },
     {
       "id": "greenwashing",
       "terme": "Greenwashing (écoblanchiment)",
-      "definition": "Pratique marketing consistant à communiquer de manière trompeuse sur les engagements environnementaux d'une organisation ou les qualités écologiques d'un produit, afin d'améliorer son image sans actions réelles proportionnées. C'est une forme de publicité mensongère sanctionnée par la loi.",
+      "resume": "Communication trompeuse sur les engagements environnementaux d'une organisation, visant à améliorer son image sans actions proportionnées. Pratique de plus en plus réglementée.",
+      "definition": "Le greenwashing (ou écoblanchiment) est une pratique marketing consistant à communiquer de manière trompeuse sur les engagements environnementaux d'une organisation ou les qualités écologiques d'un produit, afin d'améliorer son image sans actions réelles proportionnées. Il peut prendre la forme d'allégations vagues ('naturel', 'vert', 'éco-responsable'), de certifications auto-déclarées, de mise en avant d'actions mineures occultant l'impact global, ou de promesses non vérifiables. C'est une forme de publicité mensongère, de plus en plus encadrée par la loi.",
+      "definitionEtendue": {
+        "introduction": "Le terme 'greenwashing' est inventé par l'environnementaliste Jay Westerveld en 1986 (critique des hôtels incitant à réutiliser les serviettes). Il se répand avec la montée du marketing vert dans les années 1990-2000. L'ADEME publie un Guide anti-greenwashing (2012, révisé 2022). La loi Climat et Résilience (2021) encadre les allégations de neutralité carbone en France. L'UE prépare une directive Green Claims (2024) pour harmoniser les règles.",
+        "mecanismes": "Le greenwashing opère par : allégations vagues et non vérifiables ('100% naturel'), labels auto-déclarés ou fictifs, mise en avant d'un aspect mineur ('emballage recyclable' sur produit polluant), promesses futures non engageantes ('objectif neutralité 2050'), visuels trompeurs (couleur verte, nature), et compensation carbone sans réduction. Les 'sins of greenwashing' (TerraChoice) catégorisent les pratiques : compromis caché, absence de preuve, imprécision, non-pertinence, moindre mal, mensonge.",
+        "contexteScientifique": "La recherche sur le greenwashing analyse : les motivations des entreprises (réputation, parts de marché), les effets sur les consommateurs (scepticisme vert, confusion), et les moyens de détection. Les études montrent que le greenwashing érode la confiance et dessert les entreprises réellement engagées. Le concept de 'greenwishing' (promesses sincères mais irréalistes) et 'greenhushing' (taire ses actions pour éviter les critiques) complètent l'analyse.",
+        "enjeuxActuels": "La réglementation se durcit : en France, la loi interdit depuis 2022 d'affirmer la 'neutralité carbone' sans bilan carbone et plan de réduction. L'UE (directive Green Claims, 2024) imposera des preuves scientifiques pour toute allégation environnementale. Les labels officiels (Écolabel européen) seront privilégiés. Les associations (UFC-Que Choisir, ARPP) et ONG dénoncent les cas. Les sanctions financières augmentent (jusqu'à 100 000€ d'amende en France).",
+        "perspectives": "L'avenir passe par : la standardisation des allégations (taxonomie, méthodologies), la vérification par tiers (auditeurs indépendants), les passeports produits numériques (traçabilité), et la vigilance citoyenne (fact-checking environnemental). L'IA pourrait automatiser la détection du greenwashing. Le risque est que la réglementation excessive freine la communication sur les progrès réels. L'enjeu est de distinguer les communications trompeuses des engagements sincères mais imparfaits."
+      },
       "sources": [
-        {
-          "titre": "Guide anti-greenwashing",
-          "auteur": "ADEME",
-          "url": "https://www.ademe.fr/guide-anti-greenwashing",
-          "annee": 2022,
-          "type": "institution"
-        },
-        {
-          "titre": "Loi Climat et Résilience - Article 12",
-          "url": "https://www.legifrance.gouv.fr/",
-          "annee": 2021,
-          "type": "loi"
-        }
+        {"titre": "Guide anti-greenwashing", "auteur": "ADEME", "url": "https://www.ademe.fr/guide-anti-greenwashing", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Loi n° 2021-1104 Climat et Résilience", "url": "https://www.legifrance.gouv.fr/", "annee": 2021, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "Green Claims Directive proposal", "auteur": "European Commission", "url": "https://ec.europa.eu/", "annee": 2023, "type": "loi", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
       "tags": ["marketing", "tromperie", "publicité", "image"],
+      "motsClésScientifiques": ["allégations environnementales", "neutralité carbone", "green claims", "scepticisme vert", "greenhushing"],
       "relations": [
-        { "cible": "rse", "type": "oppose_a", "score": 85 },
-        { "cible": "developpement-durable", "type": "oppose_a", "score": 80 },
-        { "cible": "ecolabel", "type": "oppose_a", "score": 75 }
+        {"cible": "rse", "type": "oppose_a", "score": 85},
+        {"cible": "developpement-durable", "type": "oppose_a", "score": 80},
+        {"cible": "empreinte-carbone", "type": "renvoie_a", "score": 70}
       ],
-      "exemples": [
-        "Produit présenté comme 'naturel' sans certification",
-        "Compenser ses émissions sans réduction à la source",
-        "Utilisation abusive de visuels verts ou naturels"
-      ],
-      "synonymes": ["écoblanchiment", "verdissement d'image"]
+      "exemples": ["'Neutre en carbone' sans plan de réduction", "Labels auto-déclarés", "Visuels nature trompeurs"],
+      "synonymes": ["écoblanchiment", "verdissement d'image", "green marketing trompeur"],
+      "indicateursQuantitatifs": [
+        {"valeur": "53% des allégations environnementales sont vagues ou trompeuses (UE)", "source": "Commission européenne", "annee": 2021},
+        {"valeur": "Amende max France : 100 000€ pour greenwashing", "source": "Code de la consommation", "annee": 2022}
+      ]
     },
     {
       "id": "empreinte-ecologique",
       "terme": "Empreinte écologique",
-      "definition": "Indicateur qui mesure la surface biologiquement productive de terre et d'eau nécessaire pour produire les ressources consommées et absorber les déchets générés par une population, en utilisant les technologies et la gestion des ressources actuelles. Elle s'exprime en hectares globaux (hag).",
+      "resume": "Surface biologiquement productive nécessaire pour produire les ressources consommées et absorber les déchets. L'humanité utilise 1,7 Terre par an.",
+      "definition": "L'empreinte écologique mesure la surface biologiquement productive de terre et d'eau nécessaire pour produire les ressources consommées (alimentation, énergie, matières) et absorber les déchets générés (notamment le CO2), par une population donnée, en utilisant les technologies actuelles. Elle s'exprime en hectares globaux (hag), unité normalisée tenant compte de la productivité moyenne mondiale. Comparée à la biocapacité disponible, elle révèle le déficit ou l'excédent écologique d'un territoire.",
+      "definitionEtendue": {
+        "introduction": "Le concept est développé par Mathis Wackernagel et William Rees en 1990-1996 (Université de Colombie-Britannique). Leur ouvrage 'Our Ecological Footprint' (1996) popularise l'indicateur. Le Global Footprint Network calcule l'empreinte de 200 pays depuis 2003. L'indicateur a été adopté par des villes, régions et pays pour orienter leurs politiques. Le 'Jour du dépassement' (Earth Overshoot Day), date à laquelle l'humanité a consommé les ressources que la Terre peut régénérer en un an, est médiatisé depuis 2006.",
+        "mecanismes": "L'empreinte intègre 6 composantes : terres cultivées (alimentation, fibres), pâturages (élevage), forêts (bois, papier), zones de pêche (poissons), surfaces bâties, et empreinte carbone (forêt nécessaire pour absorber le CO2). La biocapacité mesure la capacité régénérative des écosystèmes. Le déficit écologique = empreinte - biocapacité. Les facteurs de conversion (rendements, productivité) normalisent les comparaisons entre types de surfaces et entre pays.",
+        "contexteScientifique": "L'empreinte écologique est critiquée pour : sa simplification (agrégation en un indicateur unique), la prépondérance du carbone (~60% de l'empreinte mondiale), l'exclusion de certains impacts (pollution, eau douce, biodiversité), et les incertitudes méthodologiques. Elle reste un outil de communication efficace mais ne remplace pas les analyses multicritères. Les alternatives ou compléments incluent : empreinte eau, empreinte matière, ACV, et limites planétaires.",
+        "enjeuxActuels": "L'empreinte mondiale dépasse la biocapacité depuis les années 1970 (déficit de 70% en 2023). Les inégalités sont fortes : un Américain = 5 Terres, un Français = 2,7 Terres, un Indien = 0,8 Terre. Le Jour du dépassement recule de 3 jours par an en moyenne. L'enjeu est de ramener l'empreinte à 1 Terre par habitant (~1,6 hag) via la sobriété, l'efficacité et le changement de régime alimentaire (viande = 45% de l'empreinte alimentation).",
+        "perspectives": "L'empreinte écologique reste un outil pédagogique puissant pour sensibiliser au dépassement. Les calculateurs individuels (WWF, Global Footprint Network) permettent de mesurer son empreinte personnelle. L'intégration avec d'autres indicateurs (empreinte eau, biodiversité) améliore la complétude. L'objectif de 'One Planet Living' structure des politiques territoriales. L'enjeu est de passer de la prise de conscience à l'action : changer les modes de production et de consommation."
+      },
       "sources": [
-        {
-          "titre": "Ecological Footprint",
-          "auteur": "Global Footprint Network",
-          "url": "https://www.footprintnetwork.org/",
-          "annee": 2022,
-          "type": "institution"
-        },
-        {
-          "titre": "Notre empreinte écologique",
-          "auteur": "Wackernagel, M. & Rees, W.",
-          "annee": 1996,
-          "type": "livre"
-        }
+        {"titre": "Our Ecological Footprint: Reducing Human Impact on the Earth", "auteur": "Wackernagel, M. & Rees, W.", "annee": 1996, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
+        {"titre": "National Footprint and Biocapacity Accounts", "auteur": "Global Footprint Network", "url": "https://www.footprintnetwork.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Earth Overshoot Day", "auteur": "Global Footprint Network", "url": "https://www.overshootday.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
       "tags": ["indicateur", "biocapacité", "hectares globaux", "surconsommation"],
+      "motsClésScientifiques": ["hectare global", "biocapacité", "déficit écologique", "jour du dépassement", "One Planet Living"],
       "relations": [
-        { "cible": "empreinte-carbone", "type": "proche_de", "score": 80 },
-        { "cible": "empreinte-eau", "type": "proche_de", "score": 75 },
-        { "cible": "jour-depassement", "type": "renvoie_a", "score": 85 },
-        { "cible": "limites-planetaires", "type": "renvoie_a", "score": 80 }
+        {"cible": "empreinte-carbone", "type": "proche_de", "score": 80},
+        {"cible": "limites-planetaires", "type": "renvoie_a", "score": 80},
+        {"cible": "developpement-durable", "type": "oppose_a", "score": 75}
       ],
-      "exemples": [
-        "L'humanité consomme l'équivalent de 1,7 Terre par an",
-        "Jour du dépassement mondial en 2023 : 2 août"
-      ],
-      "synonymes": ["ecological footprint"]
+      "exemples": ["Empreinte mondiale : 1,7 Terre", "Jour dépassement 2023 : 2 août", "France : 2,7 hag/hab vs biocapacité 3 hag/hab"],
+      "synonymes": ["ecological footprint"],
+      "indicateursQuantitatifs": [
+        {"valeur": "L'humanité utilise 1,7 fois la biocapacité terrestre", "source": "Global Footprint Network", "annee": 2023},
+        {"valeur": "Empreinte France : 4,4 hag/hab, biocapacité : 2,9 hag/hab", "source": "GFN", "annee": 2023}
+      ]
     },
     {
       "id": "limites-planetaires",
       "terme": "Limites planétaires",
-      "definition": "Concept scientifique définissant neuf seuils à ne pas dépasser pour préserver la stabilité et la résilience du système Terre. Ces limites concernent : le changement climatique, l'érosion de la biodiversité, les cycles de l'azote et du phosphore, l'usage des sols, l'eau douce, l'acidification des océans, l'ozone stratosphérique, les aérosols et les pollutions chimiques.",
+      "resume": "Neuf seuils biophysiques à ne pas dépasser pour maintenir un système Terre stable. Six des neuf limites sont déjà franchies (2023).",
+      "definition": "Les limites planétaires sont un concept scientifique définissant neuf seuils biophysiques à ne pas dépasser pour préserver la stabilité et la résilience du système Terre dans l'Holocène, période de 10 000 ans favorable au développement humain. Les 9 limites sont : changement climatique, érosion de la biodiversité (intégrité de la biosphère), cycles biogéochimiques (azote et phosphore), changement d'usage des sols, acidification des océans, utilisation de l'eau douce, appauvrissement de l'ozone stratosphérique, charge en aérosols atmosphériques, et introduction d'entités nouvelles (pollution chimique, plastiques).",
+      "definitionEtendue": {
+        "introduction": "Le concept est proposé par Johan Rockström (Stockholm Resilience Centre) et 28 scientifiques dans Nature (2009). Il s'inscrit dans la science du système Terre et le concept d'Anthropocène (ère géologique où l'humanité est devenue force géologique dominante). Les limites définissent un 'espace opératoire sûr' (safe operating space) pour l'humanité. L'actualisation de 2015 (Steffen et al., Science) affine les seuils. Celle de 2023 (Richardson et al.) montre que 6 des 9 limites sont franchies.",
+        "mecanismes": "Chaque limite correspond à un processus biophysique critique avec des seuils au-delà desquels des basculements irréversibles peuvent survenir. Le climat (seuil : 350 ppm CO2, actuel : 420 ppm) risque des points de bascule (effondrement glaciers, arrêt courants). La biodiversité (seuil : 10 extinctions/M espèces/an, actuel : 100-1000) menace les services écosystémiques. Les interactions entre limites créent des effets cascade : le changement climatique accélère la perte de biodiversité qui réduit la séquestration carbone.",
+        "contexteScientifique": "Les limites planétaires sont devenues un cadre de référence majeur, cité par le GIEC, l'IPBES, l'ONU et l'UE. Les critiques portent sur : la difficulté à quantifier certains seuils (biodiversité, entités nouvelles), le caractère global vs local des limites, et les incertitudes sur les points de basculement. Le concept ne traite pas des inégalités (qui peut utiliser l'espace opératoire restant ?). Le 'Doughnut' de Kate Raworth y ajoute un 'plancher social' (besoins humains minimum).",
+        "enjeuxActuels": "En 2023, 6 limites sont franchies : climat, biodiversité, azote/phosphore, usage des sols, eau douce, et entités nouvelles (plastiques, chimie). Seules l'ozone (récupération grâce au Protocole de Montréal), l'acidification océanique et les aérosols restent dans la zone sûre. L'interconnexion des limites crée des risques de 'hothouse Earth' (Terre étuve). L'enjeu est de ramener les pressions sous les seuils par une transformation systémique des modes de production et de consommation.",
+        "perspectives": "Les limites planétaires deviennent un outil de gouvernance : l'UE les intègre dans le Green Deal et la taxonomie. Des entreprises utilisent le cadre pour définir des objectifs 'science-based' (SBTi pour le climat, SBTN pour la nature). Le concept de 'corridors de gouvernance' définit des trajectoires de retour dans l'espace sûr. L'enjeu scientifique est d'affiner les seuils locaux et les interactions. L'enjeu politique est de traduire les limites en politiques concrètes et justes."
+      },
       "sources": [
-        {
-          "titre": "A safe operating space for humanity",
-          "auteur": "Rockström, J. et al.",
-          "url": "https://www.nature.com/articles/461472a",
-          "annee": 2009,
-          "type": "article"
-        },
-        {
-          "titre": "Earth beyond six of nine planetary boundaries",
-          "auteur": "Richardson, K. et al.",
-          "url": "https://www.science.org/doi/10.1126/sciadv.adh2458",
-          "annee": 2023,
-          "type": "article"
-        }
+        {"titre": "A safe operating space for humanity", "auteur": "Rockström, J. et al.", "doi": "10.1038/461472a", "journal": "Nature", "annee": 2009, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
+        {"titre": "Planetary boundaries: Guiding human development on a changing planet", "auteur": "Steffen, W. et al.", "doi": "10.1126/science.1259855", "journal": "Science", "annee": 2015, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
+        {"titre": "Earth beyond six of nine planetary boundaries", "auteur": "Richardson, K. et al.", "doi": "10.1126/sciadv.adh2458", "journal": "Science Advances", "annee": 2023, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
       "tags": ["seuils", "anthropocène", "Rockström", "système Terre"],
+      "motsClésScientifiques": ["safe operating space", "points de basculement", "Holocène", "Anthropocène", "science du système Terre", "intégrité biosphère"],
       "relations": [
-        { "cible": "changement-climatique", "type": "renvoie_a", "score": 90 },
-        { "cible": "erosion-biodiversite", "type": "renvoie_a", "score": 90 },
-        { "cible": "empreinte-ecologique", "type": "proche_de", "score": 80 },
-        { "cible": "developpement-durable", "type": "renvoie_a", "score": 85 }
+        {"cible": "changement-climatique", "type": "renvoie_a", "score": 90},
+        {"cible": "erosion-biodiversite", "type": "renvoie_a", "score": 90},
+        {"cible": "empreinte-ecologique", "type": "proche_de", "score": 80}
       ],
-      "exemples": [
-        "6 des 9 limites planétaires déjà dépassées en 2023",
-        "La limite climatique : +1,5°C par rapport à l'ère préindustrielle"
-      ],
-      "synonymes": ["planetary boundaries", "frontières planétaires"]
+      "exemples": ["Climat : 420 ppm CO2 vs seuil 350 ppm", "Biodiversité : 100-1000x taux extinction naturel", "Ozone : retour dans zone sûre"],
+      "synonymes": ["planetary boundaries", "frontières planétaires"],
+      "indicateursQuantitatifs": [
+        {"valeur": "6 des 9 limites planétaires dépassées (2023)", "source": "Richardson et al., Science Advances", "annee": 2023},
+        {"valeur": "Biodiversité : intégrité génétique à 4% (seuil : 90%)", "source": "Stockholm Resilience Centre", "annee": 2023}
+      ]
     },
     {
       "id": "transition-ecologique",
       "terme": "Transition écologique",
-      "definition": "Évolution vers un nouveau modèle économique et social qui apporte une solution globale aux enjeux environnementaux : changement climatique, raréfaction des ressources, perte de biodiversité, pollutions. Elle implique des transformations profondes des modes de production, de consommation et des comportements.",
+      "resume": "Transformation systémique vers un modèle économique et social respectant les limites planétaires. Englobe énergie, mobilité, alimentation, biodiversité.",
+      "definition": "La transition écologique est l'évolution vers un nouveau modèle économique et social qui apporte une réponse globale aux enjeux environnementaux : changement climatique, effondrement de la biodiversité, épuisement des ressources, pollutions. Elle implique des transformations profondes et coordonnées des modes de production, de consommation, de travail et de vie. Plus large que la transition énergétique, elle englobe tous les secteurs (alimentation, mobilité, habitat, industrie) et toutes les dimensions (technologique, économique, sociale, culturelle).",
+      "definitionEtendue": {
+        "introduction": "Le concept de transition écologique émerge dans les années 2000, porté par les mouvements 'Transition Towns' (Rob Hopkins, 2006) et les réflexions sur la 'Grande Transition'. En France, le terme s'institutionnalise avec la création du Ministère de la Transition écologique (2017). La transition est théorisée comme changement de 'régime sociotechnique' (Geels, 2002). Elle s'inscrit dans la lignée du développement durable mais insiste sur l'urgence et la profondeur des changements nécessaires.",
+        "mecanismes": "La transition opère à plusieurs niveaux : macro (politiques, réglementations, infrastructures), méso (filières, territoires, entreprises), et micro (comportements individuels, pratiques). Elle combine innovation (technologies vertes), transformation (des systèmes existants), et sortie (abandon des pratiques non durables). Les leviers incluent : réglementation (interdictions, normes), économie (fiscalité, subventions), infrastructure (transports, réseaux), formation (compétences), et culture (normes sociales).",
+        "contexteScientifique": "La recherche sur les transitions (sustainability transitions) est un champ académique actif. Les théories incluent : la perspective multi-niveaux (niche, régime, paysage), les systèmes sociotechniques, et les théories du changement transformationnel. Les travaux du GIEC (AR6 WG3) et de l'IPBES soulignent la nécessité de transformations rapides et profondes. Le débat porte sur : transition vs rupture, rôle de la croissance, justice de la transition, et gouvernance.",
+        "enjeuxActuels": "La France structure sa transition via : la Stratégie nationale bas-carbone (SNBC), le Plan national d'adaptation au changement climatique (PNACC), la Stratégie nationale biodiversité (SNB), et la Loi Climat et Résilience (2021). Les défis incluent : coordination des politiques sectorielles, financement (Fonds vert, 7 Mds€/an), acceptabilité sociale (gilets jaunes), compétences (250 000 emplois verts à créer), et gouvernance territoriale. La planification écologique (France Nation Verte, 2022) vise à accélérer.",
+        "perspectives": "La transition écologique s'approfondit avec : l'économie régénérative (au-delà du 'do no harm'), les 'solutions fondées sur la nature', l'économie de la fonctionnalité, et les 'communs'. Le concept de 'bifurcation' (rupture plus rapide) émerge. Les scénarios (ADEME Transition 2050, Shift Project) explorent les trajectoires. L'enjeu est d'articuler urgence climatique, justice sociale, et démocratie. La transition doit être 'juste' : accompagner les perdants et redistribuer les gains."
+      },
       "sources": [
-        {
-          "titre": "Ministère de la Transition écologique",
-          "url": "https://www.ecologie.gouv.fr/",
-          "annee": 2022,
-          "type": "institution"
-        }
+        {"titre": "France Nation Verte - Planification écologique", "auteur": "SGPE", "url": "https://www.gouvernement.fr/france-nation-verte", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Climate Change 2022: Mitigation (AR6 WG3)", "auteur": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg3/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Transitions to Sustainable Development", "auteur": "Markard, J. et al.", "journal": "Research Policy", "annee": 2012, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
       "tags": ["transformation", "modèle", "société", "politique"],
+      "motsClésScientifiques": ["sustainability transitions", "régime sociotechnique", "planification écologique", "transition juste", "bifurcation"],
       "relations": [
-        { "cible": "developpement-durable", "type": "proche_de", "score": 90 },
-        { "cible": "transition-energetique", "type": "renvoie_a", "score": 85 },
-        { "cible": "economie-circulaire", "type": "renvoie_a", "score": 80 }
+        {"cible": "developpement-durable", "type": "proche_de", "score": 90},
+        {"cible": "transition-energetique", "type": "renvoie_a", "score": 85},
+        {"cible": "economie-circulaire", "type": "renvoie_a", "score": 80}
       ],
-      "exemples": [
-        "Stratégie nationale bas-carbone",
-        "Plan biodiversité",
-        "Loi climat et résilience"
-      ],
-      "synonymes": ["transition environnementale", "virage écologique"]
+      "exemples": ["SNBC France : -55% GES en 2030", "Loi Climat et Résilience (2021)", "Planification écologique France Nation Verte"],
+      "synonymes": ["transition environnementale", "virage écologique", "Grande Transition"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Objectif France : -55% émissions en 2030 (vs 1990)", "source": "SNBC3", "annee": 2024},
+        {"valeur": "Fonds vert : 7 Mds€/an pour les territoires", "source": "MTE", "annee": 2023}
+      ]
     },
     {
       "id": "agroecologie",
       "terme": "Agroécologie",
-      "definition": "Approche de l'agriculture qui s'inspire des écosystèmes naturels pour concevoir des systèmes de production durables. Elle combine les connaissances écologiques et agronomiques pour réduire les intrants chimiques, favoriser la biodiversité, améliorer la fertilité des sols et la résilience des cultures.",
+      "resume": "Approche de l'agriculture s'inspirant des écosystèmes naturels pour produire durablement. Science, pratiques et mouvement social à la fois.",
+      "definition": "L'agroécologie est une approche de l'agriculture qui s'inspire des écosystèmes naturels pour concevoir des systèmes de production durables, résilients et productifs. Elle combine les connaissances écologiques et agronomiques pour réduire les intrants chimiques (pesticides, engrais de synthèse), favoriser la biodiversité fonctionnelle, améliorer la fertilité des sols, et renforcer la résilience des cultures face aux aléas climatiques. L'agroécologie est à la fois une science (écologie des agroécosystèmes), un ensemble de pratiques agricoles, et un mouvement social pour des systèmes alimentaires justes.",
+      "definitionEtendue": {
+        "introduction": "Le terme 'agroécologie' apparaît dans les années 1930 (Bensin, 1928). Il est développé par le Mexicain Efraim Hernández Xolocotzi (1970s) et l'Américain Miguel Altieri (1980s). En France, le Projet agroécologique pour la France est lancé en 2014 par Stéphane Le Foll. La FAO adopte les '10 éléments de l'agroécologie' (2018). L'agroécologie est aujourd'hui portée par La Via Campesina et le mouvement paysan mondial comme alternative au modèle industriel.",
+        "mecanismes": "L'agroécologie repose sur : la biodiversité fonctionnelle (haies, auxiliaires, pollinisateurs), les cycles naturels (azote, carbone, eau), les synergies entre cultures et élevage, et les savoirs paysans locaux. Les pratiques incluent : rotations longues et diversifiées, cultures associées (légumineuses fixatrices d'azote), couverture permanente des sols, agroforesterie, lutte biologique, et réduction du travail du sol. Elle vise l'autonomie des fermes en intrants et en énergie.",
+        "contexteScientifique": "L'agroécologie est un champ de recherche actif à l'INRAE, au CIRAD, et dans les universités. Les travaux portent sur : les services écosystémiques des agroécosystèmes, les performances multi-critères (rendement, environnement, emploi), et la transition des systèmes. Le rapport IPES-Food (2016) 'From Uniformity to Diversity' plaide pour une transformation agroécologique. Le débat porte sur : compatibilité avec les rendements, passage à l'échelle, et place dans les politiques agricoles.",
+        "enjeuxActuels": "L'agroécologie est promue par la stratégie européenne 'Farm to Fork' (objectifs : -50% pesticides, 25% bio en 2030) et le Plan stratégique national PAC français. Les défis incluent : formation des agriculteurs, accompagnement de la transition (GIEE, fermes DEPHY), rentabilité économique, et accès aux marchés. Les labels (HVE, Bio) signalent les pratiques. L'agroécologie propose une réponse à la crise agricole (revenu, climat, biodiversité, santé).",
+        "perspectives": "L'agroécologie s'inscrit dans la 'transition agroécologique' des territoires (PAT, projets alimentaires territoriaux). Elle s'articule avec : la souveraineté alimentaire, les circuits courts, et la relocalisation. Les innovations incluent : agriculture de conservation des sols, agroforesterie tropicale, fermes urbaines, et pastoralisme. La recherche participative (avec les agriculteurs) développe des solutions adaptées aux contextes locaux. L'enjeu est de transformer les systèmes alimentaires de l'amont à l'aval."
+      },
       "sources": [
-        {
-          "titre": "Les 10 éléments de l'agroécologie",
-          "auteur": "FAO",
-          "url": "https://www.fao.org/agroecology/home/fr/",
-          "annee": 2018,
-          "type": "institution"
-        },
-        {
-          "titre": "Projet agroécologique pour la France",
-          "auteur": "Ministère de l'Agriculture",
-          "url": "https://agriculture.gouv.fr/le-projet-agro-ecologique-en-france",
-          "annee": 2014,
-          "type": "rapport"
-        }
+        {"titre": "The 10 Elements of Agroecology", "auteur": "FAO", "url": "https://www.fao.org/agroecology/home/", "annee": 2018, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "From Uniformity to Diversity", "auteur": "IPES-Food", "url": "https://ipes-food.org/", "annee": 2016, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Agroecology: The Science of Sustainable Agriculture", "auteur": "Altieri, M.A.", "annee": 1995, "type": "ouvrage_reference", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
       "tags": ["agriculture", "biodiversité", "sols", "durabilité"],
+      "motsClésScientifiques": ["services écosystémiques", "biodiversité fonctionnelle", "agroforesterie", "agriculture de conservation", "transition agroécologique"],
       "relations": [
-        { "cible": "developpement-durable", "type": "contribue_a", "score": 85, "direction": "positif" },
-        { "cible": "biodiversite", "type": "contribue_a", "score": 80, "direction": "positif" },
-        { "cible": "pollinisation", "type": "renvoie_a", "score": 75 }
+        {"cible": "developpement-durable", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "biodiversite", "type": "contribue_a", "score": 80, "direction": "positif"},
+        {"cible": "economie-circulaire", "type": "proche_de", "score": 70}
       ],
-      "exemples": [
-        "Rotation des cultures",
-        "Agroforesterie",
-        "Agriculture biologique"
-      ],
-      "synonymes": ["agriculture écologique", "agriculture durable"]
+      "exemples": ["Rotation céréales-légumineuses", "Agroforesterie (arbres + cultures)", "Fermes DEPHY (-50% phytos)"],
+      "synonymes": ["agriculture écologique", "agriculture durable", "ecological farming"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Objectif UE Farm to Fork : 25% surface bio en 2030", "source": "Commission européenne", "annee": 2020},
+        {"valeur": "France : 13% surface bio en 2023", "source": "Agence Bio", "annee": 2023}
+      ]
     },
     {
       "id": "economie-sociale-solidaire",
       "terme": "Économie sociale et solidaire (ESS)",
-      "definition": "Mode d'entreprendre et de développement économique fondé sur des principes de solidarité, d'utilité sociale et de gouvernance démocratique. L'ESS regroupe les associations, coopératives, mutuelles, fondations et entreprises sociales qui placent l'humain avant le profit.",
+      "resume": "Mode d'entreprendre fondé sur la solidarité, l'utilité sociale et la gouvernance démocratique. Associations, coopératives, mutuelles, fondations.",
+      "definition": "L'économie sociale et solidaire (ESS) est un mode d'entreprendre et de développement économique fondé sur des principes de solidarité, d'utilité sociale et de gouvernance démocratique. Elle regroupe les associations, coopératives, mutuelles, fondations et entreprises sociales qui placent l'humain et le projet social avant la recherche du profit. L'ESS se distingue par : la lucrativité limitée ou absente, la gouvernance démocratique ('une personne = une voix'), et l'utilité sociale de l'activité. Elle représente 10% de l'emploi en France.",
+      "definitionEtendue": {
+        "introduction": "L'économie sociale naît au XIXe siècle avec les coopératives ouvrières (Rochdale, 1844) et les mutuelles. L'économie solidaire émerge dans les années 1980-90 (insertion, commerce équitable, finance solidaire). La loi Hamon de 2014 unifie le concept d'ESS en France et crée un cadre juridique. L'ESS est reconnue par l'ONU (Résolution 2023) comme levier de développement durable. Le concept de 'social business' (Yunus) et d'entreprise à mission (loi PACTE, 2019) élargissent le champ.",
+        "mecanismes": "L'ESS fonctionne selon des principes spécifiques : gestion démocratique (les membres votent les décisions), répartition équitable des excédents (réserves impartageables, dividendes limités), non-délocalisation (ancrage territorial), et utilité sociale (réponse à des besoins non satisfaits par le marché). Les statuts juridiques incluent : associations loi 1901, coopératives (SCOP, SCIC, CAE), mutuelles, fondations, et sociétés commerciales d'utilité sociale (ESUS).",
+        "contexteScientifique": "La recherche sur l'ESS analyse : les logiques d'action (réciprocité, don, marché), les modèles économiques hybrides (ressources marchandes + non-marchandes), et la gouvernance multi-parties prenantes. Les travaux portent sur : l'impact social et environnemental, la scalabilité, et les tensions entre mission sociale et contraintes économiques. Le débat porte sur : l'institutionnalisation (récupération par le capitalisme ?), la mesure de l'utilité sociale, et l'articulation avec l'économie 'classique'.",
+        "enjeuxActuels": "L'ESS représente 2,4 millions de salariés en France (10% de l'emploi, 14% du PIB). Les secteurs clés : action sociale, santé, éducation, culture, environnement, et finance solidaire. Les défis incluent : transmission d'entreprises (reprise en SCOP), financement (France Active, BPI), professionnalisation, et visibilité. L'ESS est promue comme acteur de la transition écologique (circuits courts, énergies citoyennes, réparation). La 'Semaine de l'ESS' et les CRESS sensibilisent.",
+        "perspectives": "L'ESS s'étend via : l'entreprise à mission (raison d'être statutaire), les SCIC (multi-parties prenantes), les CAE (coopératives d'activité pour entrepreneurs), et les tiers-lieux. Le concept de 'communs' (ressources gérées collectivement) renouvelle les approches. L'ESS se positionne comme matrice d'une économie post-croissance. Les monnaies locales, les foncières solidaires, et les supermarchés coopératifs innovent. L'enjeu est de passer de l'économie 'sociale' à une économie 'socialisée' à plus grande échelle."
+      },
       "sources": [
-        {
-          "titre": "Loi n° 2014-856 relative à l'économie sociale et solidaire",
-          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029313296/",
-          "annee": 2014,
-          "type": "loi"
-        },
-        {
-          "titre": "ESS France",
-          "url": "https://www.ess-france.org/",
-          "annee": 2022,
-          "type": "institution"
-        }
+        {"titre": "Loi n° 2014-856 relative à l'économie sociale et solidaire", "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029313296/", "annee": 2014, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "Panorama de l'ESS", "auteur": "ESS France / CNCRESS", "url": "https://www.ess-france.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Résolution ONU sur l'économie sociale et solidaire", "auteur": "ONU", "annee": 2023, "type": "loi", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
       "tags": ["coopérative", "association", "social", "gouvernance"],
+      "motsClésScientifiques": ["utilité sociale", "gouvernance démocratique", "SCOP", "SCIC", "entreprise à mission", "finance solidaire"],
       "relations": [
-        { "cible": "developpement-durable", "type": "contribue_a", "score": 80, "direction": "positif" },
-        { "cible": "rse", "type": "proche_de", "score": 70 }
+        {"cible": "developpement-durable", "type": "contribue_a", "score": 80, "direction": "positif"},
+        {"cible": "rse", "type": "proche_de", "score": 70},
+        {"cible": "economie-circulaire", "type": "proche_de", "score": 65}
       ],
-      "exemples": [
-        "SCOP (Société coopérative de production)",
-        "Entreprise d'insertion",
-        "Commerce équitable"
-      ],
-      "synonymes": ["ESS", "économie solidaire"]
+      "exemples": ["SCOP : 3 500 en France, 65 000 salariés", "Mutuelle : MAIF, MGEN", "Association d'insertion : Emmaüs"],
+      "synonymes": ["ESS", "économie solidaire", "social economy"],
+      "indicateursQuantitatifs": [
+        {"valeur": "ESS France : 2,4 M salariés, 10% de l'emploi", "source": "CNCRESS", "annee": 2023},
+        {"valeur": "14% du PIB français produit par l'ESS", "source": "ESS France", "annee": 2023}
+      ]
     },
     {
       "id": "sobriete",
       "terme": "Sobriété",
-      "definition": "Démarche volontaire de modération de la consommation de ressources (énergie, matières, espace) par des changements de comportements, modes de vie et organisation collective. Elle se distingue de l'efficacité qui vise à faire autant avec moins, en questionnant le niveau même des besoins.",
+      "resume": "Modération volontaire de la consommation de ressources par des changements de comportements et d'organisation. Questionne les besoins au-delà de l'efficacité technique.",
+      "definition": "La sobriété est une démarche volontaire de modération de la consommation de ressources (énergie, matières, espace, temps) par des changements de comportements, modes de vie et organisation collective. Elle se distingue de l'efficacité (faire autant avec moins grâce à la technologie) en questionnant le niveau même des besoins. La sobriété ne signifie pas privation ou austérité, mais recherche du 'juste nécessaire' pour le bien-être. Elle s'applique à tous les domaines : énergie, alimentation, mobilité, numérique, habitat.",
+      "definitionEtendue": {
+        "introduction": "Le concept de sobriété est théorisé par Ivan Illich ('La Convivialité', 1973) et développé en France par l'association négaWatt (2001) dans le cadre du triptyque 'sobriété, efficacité, renouvelables'. Longtemps marginale, la sobriété entre dans le débat public avec la crise énergétique de 2022 (Plan de sobriété gouvernemental). Le GIEC (AR6 WG3, 2022) reconnaît la 'demand-side mitigation' comme levier majeur (40-70% du potentiel). Le terme se pluralise : sobriétés énergétique, numérique, foncière, matérielle.",
+        "mecanismes": "négaWatt distingue 4 types de sobriété : dimensionnelle (adapter la taille : logement plus petit, voiture plus légère), d'usage (intensifier : covoiturage, mutualisation), de substitution (remplacer : vélo vs voiture, visio vs avion), et organisationnelle (réorganiser : télétravail, rapprochement habitat-travail). La sobriété opère à trois niveaux : individuel (comportements), collectif (infrastructures, urbanisme), et systémique (modèle économique). Elle questionne la notion de 'besoins' construits socialement.",
+        "contexteScientifique": "La recherche sur la sobriété est émergente. Elle mobilise : l'économie écologique (limites de la croissance), la psychologie (besoins vs désirs, satisfaction), et la sociologie (normes, pratiques). Les travaux quantifient les potentiels : 10-30% de réduction rapide par la sobriété seule. Les débats portent sur : sobriété choisie vs subie, liberté individuelle, justice sociale (sobriété différenciée), et acceptabilité politique. Le concept de 'sufficiency' (anglais) ou 'Genügsamkeit' (allemand) a des développements académiques.",
+        "enjeuxActuels": "La sobriété est désormais intégrée aux politiques publiques françaises (Plan de sobriété 2022, SNBC). L'hiver 2022-23 a montré une réduction de 12% de la consommation de gaz. Les défis : pérenniser au-delà de la crise, éviter la 'sobriété punitive', accompagner les ménages précaires, et transformer les infrastructures (urbanisme sobre). La sobriété numérique (ADEME, Shift Project) émerge face à l'explosion des usages. Les entreprises intègrent la sobriété dans leur stratégie RSE.",
+        "perspectives": "La sobriété s'inscrit dans les réflexions sur la décroissance, le post-croissance, et les indicateurs alternatifs au PIB. Elle peut être source de bien-être (temps, santé, lien social) et non de sacrifice. Les scénarios ADEME (Transition 2050) et négaWatt intègrent 20-40% de sobriété. L'enjeu est de passer de mesures d'urgence à une transformation structurelle : urbanisme sobre (proximité, densité), économie de la fonctionnalité (usage vs possession), et modes de vie désintensifiés. La 'publicité responsable' et l'éducation sont des leviers culturels."
+      },
       "sources": [
-        {
-          "titre": "Sobriété énergétique et matérielle",
-          "auteur": "négaWatt / ADEME",
-          "url": "https://www.negawatt.org/",
-          "annee": 2022,
-          "type": "institution"
-        }
+        {"titre": "Climate Change 2022: Mitigation (AR6 WG3, Chapitre 5 Demand)", "auteur": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg3/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Scénario négaWatt 2022", "auteur": "négaWatt", "url": "https://www.negawatt.org/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "La Convivialité", "auteur": "Illich, Ivan", "annee": 1973, "type": "ouvrage_reference", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
       "tags": ["modération", "suffisance", "comportement", "besoins"],
+      "motsClésScientifiques": ["demand-side", "sufficiency", "déconsommation", "sobriété dimensionnelle", "sobriété d'usage", "post-croissance"],
       "relations": [
-        { "cible": "sobriete-energetique", "type": "renvoie_a", "score": 95 },
-        { "cible": "developpement-durable", "type": "contribue_a", "score": 85, "direction": "positif" },
-        { "cible": "empreinte-ecologique", "type": "oppose_a", "score": 80 }
+        {"cible": "sobriete-energetique", "type": "renvoie_a", "score": 95},
+        {"cible": "developpement-durable", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "empreinte-ecologique", "type": "oppose_a", "score": 80}
       ],
-      "exemples": [
-        "Réduire les déplacements",
-        "Limiter la surface habitable",
-        "Consommer moins de viande"
-      ],
-      "synonymes": ["frugalité", "suffisance", "déconsommation"]
+      "exemples": ["Sobriété alimentaire : -50% viande", "Sobriété mobilité : vélo <5km", "Sobriété numérique : allonger durée équipements"],
+      "synonymes": ["frugalité", "suffisance", "déconsommation", "sufficiency"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Potentiel sobriété : 40-70% des réductions GES", "source": "GIEC AR6 WG3", "annee": 2022},
+        {"valeur": "Scénario négaWatt : 30% sobriété dans le mix", "source": "négaWatt", "annee": 2022}
+      ]
     },
     {
       "id": "capital-naturel",
       "terme": "Capital naturel",
-      "definition": "Stock de ressources naturelles (sol, eau, air, biodiversité, minéraux) dont les flux et services contribuent au bien-être humain et à l'activité économique. Le concept de capital naturel vise à rendre visible la valeur économique de la nature pour mieux la préserver.",
+      "resume": "Stock de ressources naturelles fournissant des services à l'économie et au bien-être humain. Concept pour intégrer la nature dans la comptabilité.",
+      "definition": "Le capital naturel désigne le stock de ressources naturelles (sols, eau, air, biodiversité, écosystèmes, minéraux, énergies fossiles) dont les flux et services contribuent au bien-être humain et à l'activité économique. Par analogie avec le capital financier ou produit, ce concept vise à rendre visible la valeur économique de la nature pour mieux la préserver. Le capital naturel fournit des 'services écosystémiques' : approvisionnement (nourriture, matières), régulation (climat, eau, pollinisation), culturels (loisirs, spiritualité), et support (cycles biogéochimiques).",
+      "definitionEtendue": {
+        "introduction": "Le concept de capital naturel émerge en économie écologique (Costanza, 1987 ; Daly, 1989). Le rapport TEEB ('The Economics of Ecosystems and Biodiversity', 2010) estime la valeur des services écosystémiques mondiaux. Le Natural Capital Protocol (2016) standardise la mesure pour les entreprises. Le système de comptabilité économique et environnementale de l'ONU (SEEA, 2021) intègre le capital naturel dans les comptes nationaux. L'initiative TNFD (Taskforce on Nature-related Financial Disclosures, 2023) crée un reporting biodiversité.",
+        "mecanismes": "Le capital naturel se décompose en : capital naturel renouvelable (forêts, poissons, eau douce) et non renouvelable (minerais, fossiles). Il produit des 'flux' de services écosystémiques. L'évaluation monétaire utilise : coûts de remplacement (combien coûterait un service artificiel ?), consentement à payer (enquêtes), et prix hédoniques (impact sur l'immobilier). Les approches biophysiques quantifient les stocks en unités physiques (tonnes de carbone, hectares d'habitat).",
+        "contexteScientifique": "La monétarisation de la nature fait débat : risque de marchandisation, incommensurabilité de certaines valeurs (intrinsèque, culturelle), et simplification. L'économie écologique distingue 'soutenabilité faible' (substitution possible entre capitaux) et 'forte' (capital naturel critique non substituable). Les limites planétaires définissent des seuils non négociables. Le rapport Dasgupta (2021) propose de repenser l'économie comme 'encastrée' dans la nature, inversant la hiérarchie classique.",
+        "enjeuxActuels": "La dégradation du capital naturel représente un risque économique majeur : 50% du PIB mondial dépend de la nature (WEF). L'UE développe la taxonomie verte et le règlement sur la déforestation importée. Les entreprises mesurent leur dépendance et leur impact via le Natural Capital Protocol et les Science Based Targets for Nature (SBTN). La comptabilité triple capital (financier, humain, naturel) émerge. L'enjeu : passer de l'évaluation à la préservation effective.",
+        "perspectives": "L'intégration du capital naturel s'accélère : normes ISSB (comptabilité durable), CSRD (reporting UE), et TNFD (risques nature). Les 'solutions fondées sur la nature' (SfN) mobilisent le capital naturel pour répondre aux défis (inondations, îlots de chaleur). Les paiements pour services environnementaux (PSE) rémunèrent les gestionnaires d'écosystèmes. L'enjeu est de concilier approches instrumentales (valeur économique) et intrinsèques (droits de la nature), et de développer une 'économie régénérative' qui restaure le capital naturel."
+      },
       "sources": [
-        {
-          "titre": "The Economics of Ecosystems and Biodiversity (TEEB)",
-          "url": "http://teebweb.org/",
-          "annee": 2010,
-          "type": "rapport"
-        },
-        {
-          "titre": "Natural Capital Coalition",
-          "url": "https://capitalscoalition.org/",
-          "annee": 2021,
-          "type": "institution"
-        }
+        {"titre": "The Economics of Ecosystems and Biodiversity (TEEB)", "url": "https://teebweb.org/", "annee": 2010, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "The Economics of Biodiversity: The Dasgupta Review", "auteur": "Dasgupta, P.", "url": "https://www.gov.uk/government/publications/final-report-the-economics-of-biodiversity-the-dasgupta-review", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "System of Environmental-Economic Accounting (SEEA)", "auteur": "ONU", "url": "https://seea.un.org/", "annee": 2021, "type": "norme_iso", "niveauPreuve": "elevé"}
       ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
       "tags": ["valeur", "comptabilité", "ressources", "patrimoine"],
+      "motsClésScientifiques": ["services écosystémiques", "TEEB", "SEEA", "TNFD", "Dasgupta", "comptabilité naturelle", "PSE"],
       "relations": [
-        { "cible": "services-ecosystemiques", "type": "proche_de", "score": 90 },
-        { "cible": "biodiversite", "type": "renvoie_a", "score": 85 },
-        { "cible": "developpement-durable", "type": "renvoie_a", "score": 75 }
+        {"cible": "services-ecosystemiques", "type": "proche_de", "score": 90},
+        {"cible": "biodiversite", "type": "renvoie_a", "score": 85},
+        {"cible": "developpement-durable", "type": "renvoie_a", "score": 75}
       ],
-      "exemples": [
-        "Valeur des forêts pour le stockage carbone",
-        "Valeur des pollinisateurs pour l'agriculture"
-      ],
-      "synonymes": ["patrimoine naturel", "actifs naturels"]
+      "exemples": ["Forêts : stockage 2,6 Gt CO2/an", "Pollinisateurs : 235-577 Mrd$/an", "Zones humides : épuration eau"],
+      "synonymes": ["patrimoine naturel", "actifs naturels", "natural capital"],
+      "indicateursQuantitatifs": [
+        {"valeur": "50% du PIB mondial dépend modérément à fortement de la nature", "source": "WEF", "annee": 2020},
+        {"valeur": "Services écosystémiques : valeur estimée 125-140 000 Mrd$/an", "source": "Costanza et al.", "annee": 2014}
+      ]
     }
   ]
 }
