@@ -2,6 +2,7 @@ import { useState, useCallback, useEffect } from 'react';
 import { useDefinitions } from './hooks/useDefinitions';
 import { Header, Sidebar } from './components/Layout';
 import { GraphView } from './components/Graph';
+import { ListView } from './components/List';
 import { DefinitionPanel } from './components/Definition';
 import { ChatPanel } from './components/Chat';
 
@@ -142,14 +143,26 @@ function App() {
 
         {/* Zone principale */}
         <main className="flex-1 relative">
-          <GraphView
-            definitions={definitions}
-            categories={categories}
-            focusedId={focusedId}
-            filterCategories={selectedCategories.length > 0 ? selectedCategories : undefined}
-            onSelectDefinition={handleFocusDefinition}
-            onBackToCategories={handleBackToCategories}
-          />
+          {isMobile ? (
+            <ListView
+              definitions={definitions.filter(d =>
+                selectedCategories.length === 0 || selectedCategories.includes(d.categorie)
+              )}
+              categories={categories.filter(c =>
+                selectedCategories.length === 0 || selectedCategories.includes(c.id)
+              )}
+              onSelectDefinition={handleFocusDefinition}
+            />
+          ) : (
+            <GraphView
+              definitions={definitions}
+              categories={categories}
+              focusedId={focusedId}
+              filterCategories={selectedCategories.length > 0 ? selectedCategories : undefined}
+              onSelectDefinition={handleFocusDefinition}
+              onBackToCategories={handleBackToCategories}
+            />
+          )}
 
           {/* Bouton Chat flottant */}
           {!isChatOpen && (
