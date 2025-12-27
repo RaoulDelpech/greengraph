@@ -64,15 +64,53 @@
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "developpement-durable",
-      "tags": ["Brundtland", "trois piliers", "ODD", "intergénérationnel"],
-      "motsClésScientifiques": ["soutenabilité forte", "soutenabilité faible", "limites planétaires", "capital naturel", "Agenda 2030", "ODD", "gouvernance", "intergénérationnel"],
+      "tags": [
+        "Brundtland",
+        "trois piliers",
+        "ODD",
+        "intergénérationnel"
+      ],
+      "motsClésScientifiques": [
+        "soutenabilité forte",
+        "soutenabilité faible",
+        "limites planétaires",
+        "capital naturel",
+        "Agenda 2030",
+        "ODD",
+        "gouvernance",
+        "intergénérationnel"
+      ],
       "relations": [
-        { "cible": "economie-circulaire", "type": "renvoie_a", "score": 85 },
-        { "cible": "rse", "type": "renvoie_a", "score": 80 },
-        { "cible": "transition-ecologique", "type": "proche_de", "score": 90 },
-        { "cible": "biodiversite", "type": "renvoie_a", "score": 75 },
-        { "cible": "changement-climatique", "type": "renvoie_a", "score": 80 },
-        { "cible": "limites-planetaires", "type": "renvoie_a", "score": 85 }
+        {
+          "cible": "economie-circulaire",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "rse",
+          "type": "renvoie_a",
+          "score": 80
+        },
+        {
+          "cible": "transition-ecologique",
+          "type": "proche_de",
+          "score": 90
+        },
+        {
+          "cible": "biodiversite",
+          "type": "renvoie_a",
+          "score": 75
+        },
+        {
+          "cible": "changement-climatique",
+          "type": "renvoie_a",
+          "score": 80
+        },
+        {
+          "cible": "limites-planetaires",
+          "type": "renvoie_a",
+          "score": 85
+        }
       ],
       "exemples": [
         "Les 17 Objectifs de Développement Durable de l'ONU",
@@ -80,7 +118,11 @@
         "Taxonomie européenne des activités durables",
         "Certification B Corp pour les entreprises"
       ],
-      "synonymes": ["soutenabilité", "durabilité", "sustainable development"],
+      "synonymes": [
+        "soutenabilité",
+        "durabilité",
+        "sustainable development"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "17 Objectifs de Développement Durable et 169 cibles",
@@ -102,7 +144,14 @@
           "source": "Stockholm Resilience Centre",
           "annee": 2023
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Sustainable_development.svg/800px-Sustainable_development.svg.png",
+        "alt": "Piliers du développement durable",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Les trois piliers : économique, social, environnemental"
+      }
     },
     {
       "id": "rse",
@@ -117,26 +166,95 @@
         "perspectives": "La RSE évolue vers la 'corporate sustainability' intégrée à la stratégie. Les tendances incluent : alignement sur les ODD, science-based targets (climat, biodiversité), comptabilité triple capital (financier, naturel, humain), et activisme actionnarial. La finance durable (ESG, investissement responsable) amplifie les incitations. L'enjeu est de transformer les entreprises en acteurs de la transition, au-delà du simple 'do no harm'."
       },
       "sources": [
-        {"titre": "ISO 26000:2010 - Lignes directrices relatives à la responsabilité sociétale", "auteur": "ISO", "url": "https://www.iso.org/iso-26000-social-responsibility.html", "annee": 2010, "type": "norme_iso", "niveauPreuve": "elevé"},
-        {"titre": "Corporate Sustainability Reporting Directive (CSRD)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2022, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Creating Shared Value", "auteur": "Porter, M.E. & Kramer, M.R.", "journal": "Harvard Business Review", "annee": 2011, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "ISO 26000:2010 - Lignes directrices relatives à la responsabilité sociétale",
+          "auteur": "ISO",
+          "url": "https://www.iso.org/iso-26000-social-responsibility.html",
+          "annee": 2010,
+          "type": "norme_iso",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Corporate Sustainability Reporting Directive (CSRD)",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/",
+          "annee": 2022,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Creating Shared Value",
+          "auteur": "Porter, M.E. & Kramer, M.R.",
+          "journal": "Harvard Business Review",
+          "annee": 2011,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
-      "tags": ["entreprise", "parties prenantes", "reporting", "ISO 26000"],
-      "motsClésScientifiques": ["matérialité", "ESRS", "taxonomie verte", "devoir de vigilance", "parties prenantes", "ESG"],
-      "relations": [
-        {"cible": "developpement-durable", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "greenwashing", "type": "oppose_a", "score": 80},
-        {"cible": "empreinte-carbone", "type": "renvoie_a", "score": 70}
+      "tags": [
+        "entreprise",
+        "parties prenantes",
+        "reporting",
+        "ISO 26000"
       ],
-      "exemples": ["Rapport CSRD audité", "Certification B Corp", "Due diligence fournisseurs"],
-      "synonymes": ["CSR (Corporate Social Responsibility)", "responsabilité sociale", "corporate sustainability"],
+      "motsClésScientifiques": [
+        "matérialité",
+        "ESRS",
+        "taxonomie verte",
+        "devoir de vigilance",
+        "parties prenantes",
+        "ESG"
+      ],
+      "relations": [
+        {
+          "cible": "developpement-durable",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "greenwashing",
+          "type": "oppose_a",
+          "score": 80
+        },
+        {
+          "cible": "empreinte-carbone",
+          "type": "renvoie_a",
+          "score": 70
+        }
+      ],
+      "exemples": [
+        "Rapport CSRD audité",
+        "Certification B Corp",
+        "Due diligence fournisseurs"
+      ],
+      "synonymes": [
+        "CSR (Corporate Social Responsibility)",
+        "responsabilité sociale",
+        "corporate sustainability"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "50 000 entreprises soumises à la CSRD en Europe", "source": "UE", "annee": 2024},
-        {"valeur": "8 000+ entreprises certifiées B Corp monde", "source": "B Lab", "annee": 2023}
-      ]
+        {
+          "valeur": "50 000 entreprises soumises à la CSRD en Europe",
+          "source": "UE",
+          "annee": 2024
+        },
+        {
+          "valeur": "8 000+ entreprises certifiées B Corp monde",
+          "source": "B Lab",
+          "annee": 2023
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/CSR_diagram.svg/800px-CSR_diagram.svg.png",
+        "alt": "Schéma RSE",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Responsabilité Sociétale des Entreprises"
+      }
     },
     {
       "id": "greenwashing",
@@ -151,26 +269,92 @@
         "perspectives": "L'avenir passe par : la standardisation des allégations (taxonomie, méthodologies), la vérification par tiers (auditeurs indépendants), les passeports produits numériques (traçabilité), et la vigilance citoyenne (fact-checking environnemental). L'IA pourrait automatiser la détection du greenwashing. Le risque est que la réglementation excessive freine la communication sur les progrès réels. L'enjeu est de distinguer les communications trompeuses des engagements sincères mais imparfaits."
       },
       "sources": [
-        {"titre": "Guide anti-greenwashing", "auteur": "ADEME", "url": "https://www.ademe.fr/guide-anti-greenwashing", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Loi n° 2021-1104 Climat et Résilience", "url": "https://www.legifrance.gouv.fr/", "annee": 2021, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Green Claims Directive proposal", "auteur": "European Commission", "url": "https://ec.europa.eu/", "annee": 2023, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Guide anti-greenwashing",
+          "auteur": "ADEME",
+          "url": "https://www.ademe.fr/guide-anti-greenwashing",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Loi n° 2021-1104 Climat et Résilience",
+          "url": "https://www.legifrance.gouv.fr/",
+          "annee": 2021,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Green Claims Directive proposal",
+          "auteur": "European Commission",
+          "url": "https://ec.europa.eu/",
+          "annee": 2023,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
-      "tags": ["marketing", "tromperie", "publicité", "image"],
-      "motsClésScientifiques": ["allégations environnementales", "neutralité carbone", "green claims", "scepticisme vert", "greenhushing"],
-      "relations": [
-        {"cible": "rse", "type": "oppose_a", "score": 85},
-        {"cible": "developpement-durable", "type": "oppose_a", "score": 80},
-        {"cible": "empreinte-carbone", "type": "renvoie_a", "score": 70}
+      "tags": [
+        "marketing",
+        "tromperie",
+        "publicité",
+        "image"
       ],
-      "exemples": ["'Neutre en carbone' sans plan de réduction", "Labels auto-déclarés", "Visuels nature trompeurs"],
-      "synonymes": ["écoblanchiment", "verdissement d'image", "green marketing trompeur"],
+      "motsClésScientifiques": [
+        "allégations environnementales",
+        "neutralité carbone",
+        "green claims",
+        "scepticisme vert",
+        "greenhushing"
+      ],
+      "relations": [
+        {
+          "cible": "rse",
+          "type": "oppose_a",
+          "score": 85
+        },
+        {
+          "cible": "developpement-durable",
+          "type": "oppose_a",
+          "score": 80
+        },
+        {
+          "cible": "empreinte-carbone",
+          "type": "renvoie_a",
+          "score": 70
+        }
+      ],
+      "exemples": [
+        "'Neutre en carbone' sans plan de réduction",
+        "Labels auto-déclarés",
+        "Visuels nature trompeurs"
+      ],
+      "synonymes": [
+        "écoblanchiment",
+        "verdissement d'image",
+        "green marketing trompeur"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "53% des allégations environnementales sont vagues ou trompeuses (UE)", "source": "Commission européenne", "annee": 2021},
-        {"valeur": "Amende max France : 100 000€ pour greenwashing", "source": "Code de la consommation", "annee": 2022}
-      ]
+        {
+          "valeur": "53% des allégations environnementales sont vagues ou trompeuses (UE)",
+          "source": "Commission européenne",
+          "annee": 2021
+        },
+        {
+          "valeur": "Amende max France : 100 000€ pour greenwashing",
+          "source": "Code de la consommation",
+          "annee": 2022
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Greenwashing.svg/400px-Greenwashing.svg.png",
+        "alt": "Illustration greenwashing",
+        "credit": "Wikimedia Commons",
+        "type": "illustration",
+        "legende": "Écoblanchiment - communication trompeuse"
+      }
     },
     {
       "id": "empreinte-ecologique",
@@ -185,25 +369,82 @@
         "perspectives": "L'empreinte écologique reste un outil pédagogique puissant pour sensibiliser au dépassement. Les calculateurs individuels (WWF, Global Footprint Network) permettent de mesurer son empreinte personnelle. L'intégration avec d'autres indicateurs (empreinte eau, biodiversité) améliore la complétude. L'objectif de 'One Planet Living' structure des politiques territoriales. L'enjeu est de passer de la prise de conscience à l'action : changer les modes de production et de consommation."
       },
       "sources": [
-        {"titre": "Our Ecological Footprint: Reducing Human Impact on the Earth", "auteur": "Wackernagel, M. & Rees, W.", "annee": 1996, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
-        {"titre": "National Footprint and Biocapacity Accounts", "auteur": "Global Footprint Network", "url": "https://www.footprintnetwork.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Earth Overshoot Day", "auteur": "Global Footprint Network", "url": "https://www.overshootday.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Our Ecological Footprint: Reducing Human Impact on the Earth",
+          "auteur": "Wackernagel, M. & Rees, W.",
+          "annee": 1996,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "National Footprint and Biocapacity Accounts",
+          "auteur": "Global Footprint Network",
+          "url": "https://www.footprintnetwork.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Earth Overshoot Day",
+          "auteur": "Global Footprint Network",
+          "url": "https://www.overshootday.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
-      "tags": ["indicateur", "biocapacité", "hectares globaux", "surconsommation"],
-      "motsClésScientifiques": ["hectare global", "biocapacité", "déficit écologique", "jour du dépassement", "One Planet Living"],
-      "relations": [
-        {"cible": "empreinte-carbone", "type": "proche_de", "score": 80},
-        {"cible": "limites-planetaires", "type": "renvoie_a", "score": 80},
-        {"cible": "developpement-durable", "type": "oppose_a", "score": 75}
+      "tags": [
+        "indicateur",
+        "biocapacité",
+        "hectares globaux",
+        "surconsommation"
       ],
-      "exemples": ["Empreinte mondiale : 1,7 Terre", "Jour dépassement 2023 : 2 août", "France : 2,7 hag/hab vs biocapacité 3 hag/hab"],
-      "synonymes": ["ecological footprint"],
+      "motsClésScientifiques": [
+        "hectare global",
+        "biocapacité",
+        "déficit écologique",
+        "jour du dépassement",
+        "One Planet Living"
+      ],
+      "relations": [
+        {
+          "cible": "empreinte-carbone",
+          "type": "proche_de",
+          "score": 80
+        },
+        {
+          "cible": "limites-planetaires",
+          "type": "renvoie_a",
+          "score": 80
+        },
+        {
+          "cible": "developpement-durable",
+          "type": "oppose_a",
+          "score": 75
+        }
+      ],
+      "exemples": [
+        "Empreinte mondiale : 1,7 Terre",
+        "Jour dépassement 2023 : 2 août",
+        "France : 2,7 hag/hab vs biocapacité 3 hag/hab"
+      ],
+      "synonymes": [
+        "ecological footprint"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "L'humanité utilise 1,7 fois la biocapacité terrestre", "source": "Global Footprint Network", "annee": 2023},
-        {"valeur": "Empreinte France : 4,4 hag/hab, biocapacité : 2,9 hag/hab", "source": "GFN", "annee": 2023}
+        {
+          "valeur": "L'humanité utilise 1,7 fois la biocapacité terrestre",
+          "source": "Global Footprint Network",
+          "annee": 2023
+        },
+        {
+          "valeur": "Empreinte France : 4,4 hag/hab, biocapacité : 2,9 hag/hab",
+          "source": "GFN",
+          "annee": 2023
+        }
       ]
     },
     {
@@ -219,26 +460,96 @@
         "perspectives": "Les limites planétaires deviennent un outil de gouvernance : l'UE les intègre dans le Green Deal et la taxonomie. Des entreprises utilisent le cadre pour définir des objectifs 'science-based' (SBTi pour le climat, SBTN pour la nature). Le concept de 'corridors de gouvernance' définit des trajectoires de retour dans l'espace sûr. L'enjeu scientifique est d'affiner les seuils locaux et les interactions. L'enjeu politique est de traduire les limites en politiques concrètes et justes."
       },
       "sources": [
-        {"titre": "A safe operating space for humanity", "auteur": "Rockström, J. et al.", "doi": "10.1038/461472a", "journal": "Nature", "annee": 2009, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
-        {"titre": "Planetary boundaries: Guiding human development on a changing planet", "auteur": "Steffen, W. et al.", "doi": "10.1126/science.1259855", "journal": "Science", "annee": 2015, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
-        {"titre": "Earth beyond six of nine planetary boundaries", "auteur": "Richardson, K. et al.", "doi": "10.1126/sciadv.adh2458", "journal": "Science Advances", "annee": 2023, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "A safe operating space for humanity",
+          "auteur": "Rockström, J. et al.",
+          "doi": "10.1038/461472a",
+          "journal": "Nature",
+          "annee": 2009,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Planetary boundaries: Guiding human development on a changing planet",
+          "auteur": "Steffen, W. et al.",
+          "doi": "10.1126/science.1259855",
+          "journal": "Science",
+          "annee": 2015,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Earth beyond six of nine planetary boundaries",
+          "auteur": "Richardson, K. et al.",
+          "doi": "10.1126/sciadv.adh2458",
+          "journal": "Science Advances",
+          "annee": 2023,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
-      "tags": ["seuils", "anthropocène", "Rockström", "système Terre"],
-      "motsClésScientifiques": ["safe operating space", "points de basculement", "Holocène", "Anthropocène", "science du système Terre", "intégrité biosphère"],
-      "relations": [
-        {"cible": "changement-climatique", "type": "renvoie_a", "score": 90},
-        {"cible": "erosion-biodiversite", "type": "renvoie_a", "score": 90},
-        {"cible": "empreinte-ecologique", "type": "proche_de", "score": 80}
+      "tags": [
+        "seuils",
+        "anthropocène",
+        "Rockström",
+        "système Terre"
       ],
-      "exemples": ["Climat : 420 ppm CO2 vs seuil 350 ppm", "Biodiversité : 100-1000x taux extinction naturel", "Ozone : retour dans zone sûre"],
-      "synonymes": ["planetary boundaries", "frontières planétaires"],
+      "motsClésScientifiques": [
+        "safe operating space",
+        "points de basculement",
+        "Holocène",
+        "Anthropocène",
+        "science du système Terre",
+        "intégrité biosphère"
+      ],
+      "relations": [
+        {
+          "cible": "changement-climatique",
+          "type": "renvoie_a",
+          "score": 90
+        },
+        {
+          "cible": "erosion-biodiversite",
+          "type": "renvoie_a",
+          "score": 90
+        },
+        {
+          "cible": "empreinte-ecologique",
+          "type": "proche_de",
+          "score": 80
+        }
+      ],
+      "exemples": [
+        "Climat : 420 ppm CO2 vs seuil 350 ppm",
+        "Biodiversité : 100-1000x taux extinction naturel",
+        "Ozone : retour dans zone sûre"
+      ],
+      "synonymes": [
+        "planetary boundaries",
+        "frontières planétaires"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "6 des 9 limites planétaires dépassées (2023)", "source": "Richardson et al., Science Advances", "annee": 2023},
-        {"valeur": "Biodiversité : intégrité génétique à 4% (seuil : 90%)", "source": "Stockholm Resilience Centre", "annee": 2023}
-      ]
+        {
+          "valeur": "6 des 9 limites planétaires dépassées (2023)",
+          "source": "Richardson et al., Science Advances",
+          "annee": 2023
+        },
+        {
+          "valeur": "Biodiversité : intégrité génétique à 4% (seuil : 90%)",
+          "source": "Stockholm Resilience Centre",
+          "annee": 2023
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Planetary_boundaries.svg/800px-Planetary_boundaries.svg.png",
+        "alt": "Limites planétaires",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Les 9 limites planétaires (Rockström et al.)"
+      }
     },
     {
       "id": "transition-ecologique",
@@ -253,25 +564,85 @@
         "perspectives": "La transition écologique s'approfondit avec : l'économie régénérative (au-delà du 'do no harm'), les 'solutions fondées sur la nature', l'économie de la fonctionnalité, et les 'communs'. Le concept de 'bifurcation' (rupture plus rapide) émerge. Les scénarios (ADEME Transition 2050, Shift Project) explorent les trajectoires. L'enjeu est d'articuler urgence climatique, justice sociale, et démocratie. La transition doit être 'juste' : accompagner les perdants et redistribuer les gains."
       },
       "sources": [
-        {"titre": "France Nation Verte - Planification écologique", "auteur": "SGPE", "url": "https://www.gouvernement.fr/france-nation-verte", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Climate Change 2022: Mitigation (AR6 WG3)", "auteur": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg3/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Transitions to Sustainable Development", "auteur": "Markard, J. et al.", "journal": "Research Policy", "annee": 2012, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "France Nation Verte - Planification écologique",
+          "auteur": "SGPE",
+          "url": "https://www.gouvernement.fr/france-nation-verte",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Climate Change 2022: Mitigation (AR6 WG3)",
+          "auteur": "IPCC",
+          "url": "https://www.ipcc.ch/report/ar6/wg3/",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Transitions to Sustainable Development",
+          "auteur": "Markard, J. et al.",
+          "journal": "Research Policy",
+          "annee": 2012,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
-      "tags": ["transformation", "modèle", "société", "politique"],
-      "motsClésScientifiques": ["sustainability transitions", "régime sociotechnique", "planification écologique", "transition juste", "bifurcation"],
-      "relations": [
-        {"cible": "developpement-durable", "type": "proche_de", "score": 90},
-        {"cible": "transition-energetique", "type": "renvoie_a", "score": 85},
-        {"cible": "economie-circulaire", "type": "renvoie_a", "score": 80}
+      "tags": [
+        "transformation",
+        "modèle",
+        "société",
+        "politique"
       ],
-      "exemples": ["SNBC France : -55% GES en 2030", "Loi Climat et Résilience (2021)", "Planification écologique France Nation Verte"],
-      "synonymes": ["transition environnementale", "virage écologique", "Grande Transition"],
+      "motsClésScientifiques": [
+        "sustainability transitions",
+        "régime sociotechnique",
+        "planification écologique",
+        "transition juste",
+        "bifurcation"
+      ],
+      "relations": [
+        {
+          "cible": "developpement-durable",
+          "type": "proche_de",
+          "score": 90
+        },
+        {
+          "cible": "transition-energetique",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "economie-circulaire",
+          "type": "renvoie_a",
+          "score": 80
+        }
+      ],
+      "exemples": [
+        "SNBC France : -55% GES en 2030",
+        "Loi Climat et Résilience (2021)",
+        "Planification écologique France Nation Verte"
+      ],
+      "synonymes": [
+        "transition environnementale",
+        "virage écologique",
+        "Grande Transition"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Objectif France : -55% émissions en 2030 (vs 1990)", "source": "SNBC3", "annee": 2024},
-        {"valeur": "Fonds vert : 7 Mds€/an pour les territoires", "source": "MTE", "annee": 2023}
+        {
+          "valeur": "Objectif France : -55% émissions en 2030 (vs 1990)",
+          "source": "SNBC3",
+          "annee": 2024
+        },
+        {
+          "valeur": "Fonds vert : 7 Mds€/an pour les territoires",
+          "source": "MTE",
+          "annee": 2023
+        }
       ]
     },
     {
@@ -287,25 +658,86 @@
         "perspectives": "L'agroécologie s'inscrit dans la 'transition agroécologique' des territoires (PAT, projets alimentaires territoriaux). Elle s'articule avec : la souveraineté alimentaire, les circuits courts, et la relocalisation. Les innovations incluent : agriculture de conservation des sols, agroforesterie tropicale, fermes urbaines, et pastoralisme. La recherche participative (avec les agriculteurs) développe des solutions adaptées aux contextes locaux. L'enjeu est de transformer les systèmes alimentaires de l'amont à l'aval."
       },
       "sources": [
-        {"titre": "The 10 Elements of Agroecology", "auteur": "FAO", "url": "https://www.fao.org/agroecology/home/", "annee": 2018, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "From Uniformity to Diversity", "auteur": "IPES-Food", "url": "https://ipes-food.org/", "annee": 2016, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Agroecology: The Science of Sustainable Agriculture", "auteur": "Altieri, M.A.", "annee": 1995, "type": "ouvrage_reference", "niveauPreuve": "elevé"}
+        {
+          "titre": "The 10 Elements of Agroecology",
+          "auteur": "FAO",
+          "url": "https://www.fao.org/agroecology/home/",
+          "annee": 2018,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "From Uniformity to Diversity",
+          "auteur": "IPES-Food",
+          "url": "https://ipes-food.org/",
+          "annee": 2016,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Agroecology: The Science of Sustainable Agriculture",
+          "auteur": "Altieri, M.A.",
+          "annee": 1995,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
-      "tags": ["agriculture", "biodiversité", "sols", "durabilité"],
-      "motsClésScientifiques": ["services écosystémiques", "biodiversité fonctionnelle", "agroforesterie", "agriculture de conservation", "transition agroécologique"],
-      "relations": [
-        {"cible": "developpement-durable", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "biodiversite", "type": "contribue_a", "score": 80, "direction": "positif"},
-        {"cible": "economie-circulaire", "type": "proche_de", "score": 70}
+      "tags": [
+        "agriculture",
+        "biodiversité",
+        "sols",
+        "durabilité"
       ],
-      "exemples": ["Rotation céréales-légumineuses", "Agroforesterie (arbres + cultures)", "Fermes DEPHY (-50% phytos)"],
-      "synonymes": ["agriculture écologique", "agriculture durable", "ecological farming"],
+      "motsClésScientifiques": [
+        "services écosystémiques",
+        "biodiversité fonctionnelle",
+        "agroforesterie",
+        "agriculture de conservation",
+        "transition agroécologique"
+      ],
+      "relations": [
+        {
+          "cible": "developpement-durable",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 80,
+          "direction": "positif"
+        },
+        {
+          "cible": "economie-circulaire",
+          "type": "proche_de",
+          "score": 70
+        }
+      ],
+      "exemples": [
+        "Rotation céréales-légumineuses",
+        "Agroforesterie (arbres + cultures)",
+        "Fermes DEPHY (-50% phytos)"
+      ],
+      "synonymes": [
+        "agriculture écologique",
+        "agriculture durable",
+        "ecological farming"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Objectif UE Farm to Fork : 25% surface bio en 2030", "source": "Commission européenne", "annee": 2020},
-        {"valeur": "France : 13% surface bio en 2023", "source": "Agence Bio", "annee": 2023}
+        {
+          "valeur": "Objectif UE Farm to Fork : 25% surface bio en 2030",
+          "source": "Commission européenne",
+          "annee": 2020
+        },
+        {
+          "valeur": "France : 13% surface bio en 2023",
+          "source": "Agence Bio",
+          "annee": 2023
+        }
       ]
     },
     {
@@ -321,25 +753,85 @@
         "perspectives": "L'ESS s'étend via : l'entreprise à mission (raison d'être statutaire), les SCIC (multi-parties prenantes), les CAE (coopératives d'activité pour entrepreneurs), et les tiers-lieux. Le concept de 'communs' (ressources gérées collectivement) renouvelle les approches. L'ESS se positionne comme matrice d'une économie post-croissance. Les monnaies locales, les foncières solidaires, et les supermarchés coopératifs innovent. L'enjeu est de passer de l'économie 'sociale' à une économie 'socialisée' à plus grande échelle."
       },
       "sources": [
-        {"titre": "Loi n° 2014-856 relative à l'économie sociale et solidaire", "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029313296/", "annee": 2014, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Panorama de l'ESS", "auteur": "ESS France / CNCRESS", "url": "https://www.ess-france.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Résolution ONU sur l'économie sociale et solidaire", "auteur": "ONU", "annee": 2023, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Loi n° 2014-856 relative à l'économie sociale et solidaire",
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029313296/",
+          "annee": 2014,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Panorama de l'ESS",
+          "auteur": "ESS France / CNCRESS",
+          "url": "https://www.ess-france.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Résolution ONU sur l'économie sociale et solidaire",
+          "auteur": "ONU",
+          "annee": 2023,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
-      "tags": ["coopérative", "association", "social", "gouvernance"],
-      "motsClésScientifiques": ["utilité sociale", "gouvernance démocratique", "SCOP", "SCIC", "entreprise à mission", "finance solidaire"],
-      "relations": [
-        {"cible": "developpement-durable", "type": "contribue_a", "score": 80, "direction": "positif"},
-        {"cible": "rse", "type": "proche_de", "score": 70},
-        {"cible": "economie-circulaire", "type": "proche_de", "score": 65}
+      "tags": [
+        "coopérative",
+        "association",
+        "social",
+        "gouvernance"
       ],
-      "exemples": ["SCOP : 3 500 en France, 65 000 salariés", "Mutuelle : MAIF, MGEN", "Association d'insertion : Emmaüs"],
-      "synonymes": ["ESS", "économie solidaire", "social economy"],
+      "motsClésScientifiques": [
+        "utilité sociale",
+        "gouvernance démocratique",
+        "SCOP",
+        "SCIC",
+        "entreprise à mission",
+        "finance solidaire"
+      ],
+      "relations": [
+        {
+          "cible": "developpement-durable",
+          "type": "contribue_a",
+          "score": 80,
+          "direction": "positif"
+        },
+        {
+          "cible": "rse",
+          "type": "proche_de",
+          "score": 70
+        },
+        {
+          "cible": "economie-circulaire",
+          "type": "proche_de",
+          "score": 65
+        }
+      ],
+      "exemples": [
+        "SCOP : 3 500 en France, 65 000 salariés",
+        "Mutuelle : MAIF, MGEN",
+        "Association d'insertion : Emmaüs"
+      ],
+      "synonymes": [
+        "ESS",
+        "économie solidaire",
+        "social economy"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "ESS France : 2,4 M salariés, 10% de l'emploi", "source": "CNCRESS", "annee": 2023},
-        {"valeur": "14% du PIB français produit par l'ESS", "source": "ESS France", "annee": 2023}
+        {
+          "valeur": "ESS France : 2,4 M salariés, 10% de l'emploi",
+          "source": "CNCRESS",
+          "annee": 2023
+        },
+        {
+          "valeur": "14% du PIB français produit par l'ESS",
+          "source": "ESS France",
+          "annee": 2023
+        }
       ]
     },
     {
@@ -355,25 +847,87 @@
         "perspectives": "La sobriété s'inscrit dans les réflexions sur la décroissance, le post-croissance, et les indicateurs alternatifs au PIB. Elle peut être source de bien-être (temps, santé, lien social) et non de sacrifice. Les scénarios ADEME (Transition 2050) et négaWatt intègrent 20-40% de sobriété. L'enjeu est de passer de mesures d'urgence à une transformation structurelle : urbanisme sobre (proximité, densité), économie de la fonctionnalité (usage vs possession), et modes de vie désintensifiés. La 'publicité responsable' et l'éducation sont des leviers culturels."
       },
       "sources": [
-        {"titre": "Climate Change 2022: Mitigation (AR6 WG3, Chapitre 5 Demand)", "auteur": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg3/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Scénario négaWatt 2022", "auteur": "négaWatt", "url": "https://www.negawatt.org/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "La Convivialité", "auteur": "Illich, Ivan", "annee": 1973, "type": "ouvrage_reference", "niveauPreuve": "elevé"}
+        {
+          "titre": "Climate Change 2022: Mitigation (AR6 WG3, Chapitre 5 Demand)",
+          "auteur": "IPCC",
+          "url": "https://www.ipcc.ch/report/ar6/wg3/",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Scénario négaWatt 2022",
+          "auteur": "négaWatt",
+          "url": "https://www.negawatt.org/",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "La Convivialité",
+          "auteur": "Illich, Ivan",
+          "annee": 1973,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
-      "tags": ["modération", "suffisance", "comportement", "besoins"],
-      "motsClésScientifiques": ["demand-side", "sufficiency", "déconsommation", "sobriété dimensionnelle", "sobriété d'usage", "post-croissance"],
-      "relations": [
-        {"cible": "sobriete-energetique", "type": "renvoie_a", "score": 95},
-        {"cible": "developpement-durable", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "empreinte-ecologique", "type": "oppose_a", "score": 80}
+      "tags": [
+        "modération",
+        "suffisance",
+        "comportement",
+        "besoins"
       ],
-      "exemples": ["Sobriété alimentaire : -50% viande", "Sobriété mobilité : vélo <5km", "Sobriété numérique : allonger durée équipements"],
-      "synonymes": ["frugalité", "suffisance", "déconsommation", "sufficiency"],
+      "motsClésScientifiques": [
+        "demand-side",
+        "sufficiency",
+        "déconsommation",
+        "sobriété dimensionnelle",
+        "sobriété d'usage",
+        "post-croissance"
+      ],
+      "relations": [
+        {
+          "cible": "sobriete-energetique",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "developpement-durable",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "empreinte-ecologique",
+          "type": "oppose_a",
+          "score": 80
+        }
+      ],
+      "exemples": [
+        "Sobriété alimentaire : -50% viande",
+        "Sobriété mobilité : vélo <5km",
+        "Sobriété numérique : allonger durée équipements"
+      ],
+      "synonymes": [
+        "frugalité",
+        "suffisance",
+        "déconsommation",
+        "sufficiency"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Potentiel sobriété : 40-70% des réductions GES", "source": "GIEC AR6 WG3", "annee": 2022},
-        {"valeur": "Scénario négaWatt : 30% sobriété dans le mix", "source": "négaWatt", "annee": 2022}
+        {
+          "valeur": "Potentiel sobriété : 40-70% des réductions GES",
+          "source": "GIEC AR6 WG3",
+          "annee": 2022
+        },
+        {
+          "valeur": "Scénario négaWatt : 30% sobriété dans le mix",
+          "source": "négaWatt",
+          "annee": 2022
+        }
       ]
     },
     {
@@ -389,25 +943,86 @@
         "perspectives": "L'intégration du capital naturel s'accélère : normes ISSB (comptabilité durable), CSRD (reporting UE), et TNFD (risques nature). Les 'solutions fondées sur la nature' (SfN) mobilisent le capital naturel pour répondre aux défis (inondations, îlots de chaleur). Les paiements pour services environnementaux (PSE) rémunèrent les gestionnaires d'écosystèmes. L'enjeu est de concilier approches instrumentales (valeur économique) et intrinsèques (droits de la nature), et de développer une 'économie régénérative' qui restaure le capital naturel."
       },
       "sources": [
-        {"titre": "The Economics of Ecosystems and Biodiversity (TEEB)", "url": "https://teebweb.org/", "annee": 2010, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "The Economics of Biodiversity: The Dasgupta Review", "auteur": "Dasgupta, P.", "url": "https://www.gov.uk/government/publications/final-report-the-economics-of-biodiversity-the-dasgupta-review", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "System of Environmental-Economic Accounting (SEEA)", "auteur": "ONU", "url": "https://seea.un.org/", "annee": 2021, "type": "norme_iso", "niveauPreuve": "elevé"}
+        {
+          "titre": "The Economics of Ecosystems and Biodiversity (TEEB)",
+          "url": "https://teebweb.org/",
+          "annee": 2010,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The Economics of Biodiversity: The Dasgupta Review",
+          "auteur": "Dasgupta, P.",
+          "url": "https://www.gov.uk/government/publications/final-report-the-economics-of-biodiversity-the-dasgupta-review",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "System of Environmental-Economic Accounting (SEEA)",
+          "auteur": "ONU",
+          "url": "https://seea.un.org/",
+          "annee": 2021,
+          "type": "norme_iso",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "developpement-durable",
-      "tags": ["valeur", "comptabilité", "ressources", "patrimoine"],
-      "motsClésScientifiques": ["services écosystémiques", "TEEB", "SEEA", "TNFD", "Dasgupta", "comptabilité naturelle", "PSE"],
-      "relations": [
-        {"cible": "services-ecosystemiques", "type": "proche_de", "score": 90},
-        {"cible": "biodiversite", "type": "renvoie_a", "score": 85},
-        {"cible": "developpement-durable", "type": "renvoie_a", "score": 75}
+      "tags": [
+        "valeur",
+        "comptabilité",
+        "ressources",
+        "patrimoine"
       ],
-      "exemples": ["Forêts : stockage 2,6 Gt CO2/an", "Pollinisateurs : 235-577 Mrd$/an", "Zones humides : épuration eau"],
-      "synonymes": ["patrimoine naturel", "actifs naturels", "natural capital"],
+      "motsClésScientifiques": [
+        "services écosystémiques",
+        "TEEB",
+        "SEEA",
+        "TNFD",
+        "Dasgupta",
+        "comptabilité naturelle",
+        "PSE"
+      ],
+      "relations": [
+        {
+          "cible": "services-ecosystemiques",
+          "type": "proche_de",
+          "score": 90
+        },
+        {
+          "cible": "biodiversite",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "developpement-durable",
+          "type": "renvoie_a",
+          "score": 75
+        }
+      ],
+      "exemples": [
+        "Forêts : stockage 2,6 Gt CO2/an",
+        "Pollinisateurs : 235-577 Mrd$/an",
+        "Zones humides : épuration eau"
+      ],
+      "synonymes": [
+        "patrimoine naturel",
+        "actifs naturels",
+        "natural capital"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "50% du PIB mondial dépend modérément à fortement de la nature", "source": "WEF", "annee": 2020},
-        {"valeur": "Services écosystémiques : valeur estimée 125-140 000 Mrd$/an", "source": "Costanza et al.", "annee": 2014}
+        {
+          "valeur": "50% du PIB mondial dépend modérément à fortement de la nature",
+          "source": "WEF",
+          "annee": 2020
+        },
+        {
+          "valeur": "Services écosystémiques : valeur estimée 125-140 000 Mrd$/an",
+          "source": "Costanza et al.",
+          "annee": 2014
+        }
       ]
     }
   ]

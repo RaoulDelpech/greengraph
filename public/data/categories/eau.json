@@ -17,25 +17,84 @@
         "perspectives": "La gestion intégrée des ressources en eau (GIRE) vise à préserver le cycle naturel. Les solutions incluent : désimperméabilisation urbaine, recharge artificielle des nappes, agriculture économe en eau, et protection des zones humides (régulation du cycle). La modélisation couplée hydrologie-climat améliore les projections. L'enjeu est d'adapter les sociétés à un cycle de l'eau plus variable et moins prévisible."
       },
       "sources": [
-        {"titre": "Cycle hydrologique", "auteur": "USGS", "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Climate Change and the Global Water Cycle (AR6 WG1)", "auteur": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg1/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Cycle hydrologique",
+          "auteur": "USGS",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Climate Change and the Global Water Cycle (AR6 WG1)",
+          "auteur": "IPCC",
+          "url": "https://www.ipcc.ch/report/ar6/wg1/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "eau",
-      "tags": ["hydrologie", "précipitations", "évaporation", "nappes"],
-      "motsClésScientifiques": ["bilan hydrologique", "temps de résidence", "évapotranspiration", "ruissellement", "infiltration"],
-      "relations": [
-        {"cible": "stress-hydrique", "type": "renvoie_a", "score": 85},
-        {"cible": "zone-humide", "type": "renvoie_a", "score": 75},
-        {"cible": "changement-climatique", "type": "renvoie_a", "score": 80}
+      "tags": [
+        "hydrologie",
+        "précipitations",
+        "évaporation",
+        "nappes"
       ],
-      "exemples": ["Évaporation océans : 430 000 km³/an", "Précipitations continents : 110 000 km³/an", "Débit fleuves : 40 000 km³/an"],
-      "synonymes": ["cycle hydrologique", "water cycle"],
+      "motsClésScientifiques": [
+        "bilan hydrologique",
+        "temps de résidence",
+        "évapotranspiration",
+        "ruissellement",
+        "infiltration"
+      ],
+      "relations": [
+        {
+          "cible": "stress-hydrique",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "zone-humide",
+          "type": "renvoie_a",
+          "score": 75
+        },
+        {
+          "cible": "changement-climatique",
+          "type": "renvoie_a",
+          "score": 80
+        }
+      ],
+      "exemples": [
+        "Évaporation océans : 430 000 km³/an",
+        "Précipitations continents : 110 000 km³/an",
+        "Débit fleuves : 40 000 km³/an"
+      ],
+      "synonymes": [
+        "cycle hydrologique",
+        "water cycle"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "1 386 millions km³ d'eau sur Terre (dont 2,5% eau douce)", "source": "USGS", "annee": 2023},
-        {"valeur": "Temps résidence eau atmosphérique : 9 jours", "source": "USGS", "annee": 2023}
-      ]
+        {
+          "valeur": "1 386 millions km³ d'eau sur Terre (dont 2,5% eau douce)",
+          "source": "USGS",
+          "annee": 2023
+        },
+        {
+          "valeur": "Temps résidence eau atmosphérique : 9 jours",
+          "source": "USGS",
+          "annee": 2023
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Water_cycle.svg/800px-Water_cycle.svg.png",
+        "alt": "Cycle de l'eau",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Le cycle hydrologique naturel"
+      }
     },
     {
       "id": "stress-hydrique",
@@ -50,25 +109,85 @@
         "perspectives": "L'adaptation passe par : économies d'eau (irrigation localisée, efficacité industrielle), réutilisation des eaux usées traitées (REUT), dessalement (zones côtières), stockage (retenues, recharge de nappes), et transferts entre bassins (controversés). La tarification progressive incite aux économies. Les solutions fondées sur la nature (restauration zones humides) améliorent la résilience. L'enjeu est de partager équitablement une ressource de plus en plus rare."
       },
       "sources": [
-        {"titre": "World Water Development Report 2023", "auteur": "UNESCO", "url": "https://www.unesco.org/reports/wwdr/2023/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Aqueduct Water Risk Atlas", "auteur": "World Resources Institute", "url": "https://www.wri.org/aqueduct", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "World Water Development Report 2023",
+          "auteur": "UNESCO",
+          "url": "https://www.unesco.org/reports/wwdr/2023/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Aqueduct Water Risk Atlas",
+          "auteur": "World Resources Institute",
+          "url": "https://www.wri.org/aqueduct",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "eau",
-      "tags": ["pénurie", "disponibilité", "risque", "sécheresse"],
-      "motsClésScientifiques": ["indicateur Falkenmark", "prélèvements/ressources", "REUT", "dessalement", "surexploitation nappes"],
-      "relations": [
-        {"cible": "changement-climatique", "type": "renvoie_a", "score": 80},
-        {"cible": "cycle-eau", "type": "renvoie_a", "score": 85},
-        {"cible": "empreinte-eau", "type": "proche_de", "score": 75}
+      "tags": [
+        "pénurie",
+        "disponibilité",
+        "risque",
+        "sécheresse"
       ],
-      "exemples": ["Bassin méditerranéen : -20% précipitations d'ici 2050", "France : sécheresses 2022-23 historiques", "25 pays en stress hydrique élevé"],
-      "synonymes": ["tension sur l'eau", "pénurie d'eau", "water stress"],
+      "motsClésScientifiques": [
+        "indicateur Falkenmark",
+        "prélèvements/ressources",
+        "REUT",
+        "dessalement",
+        "surexploitation nappes"
+      ],
+      "relations": [
+        {
+          "cible": "changement-climatique",
+          "type": "renvoie_a",
+          "score": 80
+        },
+        {
+          "cible": "cycle-eau",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "empreinte-eau",
+          "type": "proche_de",
+          "score": 75
+        }
+      ],
+      "exemples": [
+        "Bassin méditerranéen : -20% précipitations d'ici 2050",
+        "France : sécheresses 2022-23 historiques",
+        "25 pays en stress hydrique élevé"
+      ],
+      "synonymes": [
+        "tension sur l'eau",
+        "pénurie d'eau",
+        "water stress"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "2 milliards de personnes vivent en stress hydrique", "source": "ONU", "annee": 2023},
-        {"valeur": "25% des terres agricoles irriguées en stress élevé", "source": "WRI", "annee": 2023}
-      ]
+        {
+          "valeur": "2 milliards de personnes vivent en stress hydrique",
+          "source": "ONU",
+          "annee": 2023
+        },
+        {
+          "valeur": "25% des terres agricoles irriguées en stress élevé",
+          "source": "WRI",
+          "annee": 2023
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Water_stress.svg/800px-Water_stress.svg.png",
+        "alt": "Carte du stress hydrique mondial",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Régions sous stress hydrique"
+      }
     },
     {
       "id": "eau-grise",
@@ -83,24 +202,75 @@
         "perspectives": "L'avenir passe par : l'intégration dans la réglementation des bâtiments (RE2020 élargie), les technologies décentralisées (micro-stations), les 'bâtiments à bilan eau neutre', et l'économie circulaire urbaine (symbiose entre usages). Israël réutilise 90% de ses eaux usées pour l'irrigation. L'enjeu est de lever les freins psychologiques et réglementaires pour développer cette ressource alternative."
       },
       "sources": [
-        {"titre": "Réutilisation des eaux usées traitées", "auteur": "ADEME", "url": "https://librairie.ademe.fr/eau-et-milieux-aquatiques", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Arrêté du 25 juin 2014 relatif aux eaux usées traitées", "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029188770", "annee": 2014, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Réutilisation des eaux usées traitées",
+          "auteur": "ADEME",
+          "url": "https://librairie.ademe.fr/eau-et-milieux-aquatiques",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Arrêté du 25 juin 2014 relatif aux eaux usées traitées",
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029188770",
+          "annee": 2014,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "eau",
-      "tags": ["réutilisation", "traitement", "économie", "domestique"],
-      "motsClésScientifiques": ["REUT", "eaux noires", "assainissement non collectif", "recyclage in situ"],
-      "relations": [
-        {"cible": "economie-circulaire", "type": "contribue_a", "score": 75, "direction": "positif"},
-        {"cible": "assainissement", "type": "renvoie_a", "score": 80},
-        {"cible": "stress-hydrique", "type": "oppose_a", "score": 70}
+      "tags": [
+        "réutilisation",
+        "traitement",
+        "économie",
+        "domestique"
       ],
-      "exemples": ["Arrosage espaces verts avec eaux grises traitées", "Alimentation chasses d'eau", "Lavage véhicules collectivités"],
-      "synonymes": ["eaux ménagères légères", "greywater"],
+      "motsClésScientifiques": [
+        "REUT",
+        "eaux noires",
+        "assainissement non collectif",
+        "recyclage in situ"
+      ],
+      "relations": [
+        {
+          "cible": "economie-circulaire",
+          "type": "contribue_a",
+          "score": 75,
+          "direction": "positif"
+        },
+        {
+          "cible": "assainissement",
+          "type": "renvoie_a",
+          "score": 80
+        },
+        {
+          "cible": "stress-hydrique",
+          "type": "oppose_a",
+          "score": 70
+        }
+      ],
+      "exemples": [
+        "Arrosage espaces verts avec eaux grises traitées",
+        "Alimentation chasses d'eau",
+        "Lavage véhicules collectivités"
+      ],
+      "synonymes": [
+        "eaux ménagères légères",
+        "greywater"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "France : 1% des eaux usées réutilisées (objectif 10% en 2030)", "source": "Plan eau", "annee": 2023},
-        {"valeur": "Israël : 90% des eaux usées réutilisées", "source": "OCDE", "annee": 2022}
+        {
+          "valeur": "France : 1% des eaux usées réutilisées (objectif 10% en 2030)",
+          "source": "Plan eau",
+          "annee": 2023
+        },
+        {
+          "valeur": "Israël : 90% des eaux usées réutilisées",
+          "source": "OCDE",
+          "annee": 2022
+        }
       ]
     },
     {
@@ -116,24 +286,76 @@
         "perspectives": "L'avenir passe par : la généralisation des évaluations corporate (reporting), l'intégration dans les standards de durabilité (CDP, GRI), les objectifs science-based pour l'eau (SBTN), et la prise en compte du contexte local (où l'eau est-elle utilisée ?). Le concept de 'water stewardship' (gestion responsable de l'eau dans les bassins versants) dépasse la simple comptabilité. L'enjeu est de réduire l'empreinte eau là où elle crée du stress hydrique."
       },
       "sources": [
-        {"titre": "The Water Footprint Assessment Manual", "auteur": "Water Footprint Network", "url": "https://waterfootprint.org/", "annee": 2011, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "ISO 14046:2014 - Environmental management - Water footprint", "auteur": "ISO", "annee": 2014, "type": "norme_iso", "niveauPreuve": "elevé"}
+        {
+          "titre": "The Water Footprint Assessment Manual",
+          "auteur": "Water Footprint Network",
+          "url": "https://waterfootprint.org/",
+          "annee": 2011,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "ISO 14046:2014 - Environmental management - Water footprint",
+          "auteur": "ISO",
+          "annee": 2014,
+          "type": "norme_iso",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "eau",
-      "tags": ["indicateur", "consommation", "virtuelle", "bilan"],
-      "motsClésScientifiques": ["eau bleue", "eau verte", "eau grise", "eau virtuelle", "water footprint"],
-      "relations": [
-        {"cible": "empreinte-carbone", "type": "proche_de", "score": 80},
-        {"cible": "stress-hydrique", "type": "contribue_a", "score": 70, "direction": "positif"},
-        {"cible": "empreinte-ecologique", "type": "proche_de", "score": 75}
+      "tags": [
+        "indicateur",
+        "consommation",
+        "virtuelle",
+        "bilan"
       ],
-      "exemples": ["1 kg boeuf = 15 000 L", "1 jean = 8 000 L", "1 tasse café = 140 L"],
-      "synonymes": ["water footprint", "eau virtuelle"],
+      "motsClésScientifiques": [
+        "eau bleue",
+        "eau verte",
+        "eau grise",
+        "eau virtuelle",
+        "water footprint"
+      ],
+      "relations": [
+        {
+          "cible": "empreinte-carbone",
+          "type": "proche_de",
+          "score": 80
+        },
+        {
+          "cible": "stress-hydrique",
+          "type": "contribue_a",
+          "score": 70,
+          "direction": "positif"
+        },
+        {
+          "cible": "empreinte-ecologique",
+          "type": "proche_de",
+          "score": 75
+        }
+      ],
+      "exemples": [
+        "1 kg boeuf = 15 000 L",
+        "1 jean = 8 000 L",
+        "1 tasse café = 140 L"
+      ],
+      "synonymes": [
+        "water footprint",
+        "eau virtuelle"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Empreinte eau mondiale : 9 000 km³/an", "source": "WFN", "annee": 2020},
-        {"valeur": "Empreinte France : 1 800 m³/hab/an (60% importée)", "source": "WWF", "annee": 2020}
+        {
+          "valeur": "Empreinte eau mondiale : 9 000 km³/an",
+          "source": "WFN",
+          "annee": 2020
+        },
+        {
+          "valeur": "Empreinte France : 1 800 m³/hab/an (60% importée)",
+          "source": "WWF",
+          "annee": 2020
+        }
       ]
     },
     {
@@ -149,26 +371,93 @@
         "perspectives": "L'avenir passe par : les 'solutions fondées sur la nature' (restauration de zones humides pour la gestion des inondations et la qualité de l'eau), la protection juridique renforcée, et les paiements pour services environnementaux (incitation à la préservation par les agriculteurs). Les villes redécouvrent les zones humides urbaines (parcs, noues, jardins de pluie). L'enjeu est de passer de la protection défensive à la restauration active de ces écosystèmes irremplaçables."
       },
       "sources": [
-        {"titre": "Convention de Ramsar", "url": "https://www.ramsar.org/", "annee": 1971, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Les zones humides en France", "auteur": "OFB", "url": "https://www.ofb.gouv.fr/les-zones-humides", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Global Wetland Outlook", "auteur": "Ramsar Convention", "url": "https://www.ramsar.org/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Convention de Ramsar",
+          "url": "https://www.ramsar.org/",
+          "annee": 1971,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Les zones humides en France",
+          "auteur": "OFB",
+          "url": "https://www.ofb.gouv.fr/les-zones-humides",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Global Wetland Outlook",
+          "auteur": "Ramsar Convention",
+          "url": "https://www.ramsar.org/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "eau",
-      "tags": ["marais", "tourbières", "biodiversité", "Ramsar"],
-      "motsClésScientifiques": ["services écosystémiques", "soutien d'étiage", "phytoépuration", "stockage carbone", "Ramsar"],
-      "relations": [
-        {"cible": "services-ecosystemiques", "type": "contribue_a", "score": 90, "direction": "positif"},
-        {"cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "cycle-eau", "type": "renvoie_a", "score": 80}
+      "tags": [
+        "marais",
+        "tourbières",
+        "biodiversité",
+        "Ramsar"
       ],
-      "exemples": ["Camargue (Ramsar)", "Marais poitevin", "Tourbières du Jura (30% carbone sols)"],
-      "synonymes": ["milieu humide", "wetland"],
+      "motsClésScientifiques": [
+        "services écosystémiques",
+        "soutien d'étiage",
+        "phytoépuration",
+        "stockage carbone",
+        "Ramsar"
+      ],
+      "relations": [
+        {
+          "cible": "services-ecosystemiques",
+          "type": "contribue_a",
+          "score": 90,
+          "direction": "positif"
+        },
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "cycle-eau",
+          "type": "renvoie_a",
+          "score": 80
+        }
+      ],
+      "exemples": [
+        "Camargue (Ramsar)",
+        "Marais poitevin",
+        "Tourbières du Jura (30% carbone sols)"
+      ],
+      "synonymes": [
+        "milieu humide",
+        "wetland"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "35% des zones humides mondiales perdues depuis 1970", "source": "Ramsar", "annee": 2021},
-        {"valeur": "France : 50% zones humides perdues depuis 1960", "source": "OFB", "annee": 2023}
-      ]
+        {
+          "valeur": "35% des zones humides mondiales perdues depuis 1970",
+          "source": "Ramsar",
+          "annee": 2021
+        },
+        {
+          "valeur": "France : 50% zones humides perdues depuis 1960",
+          "source": "OFB",
+          "annee": 2023
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Wetland.jpg/800px-Wetland.jpg",
+        "alt": "Zone humide",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Écosystème de zone humide"
+      }
     },
     {
       "id": "eutrophisation",
@@ -183,25 +472,84 @@
         "perspectives": "L'avenir passe par : l'agroécologie (réduction des intrants azotés), les zones tampons (bandes enherbées, haies, zones humides), l'économie circulaire des nutriments (recyclage du phosphore des eaux usées), et la restauration des milieux dégradés. La directive-cadre sur l'eau (DCE) vise le 'bon état écologique' de toutes les masses d'eau. L'enjeu est de rompre le lien entre production agricole et pollution diffuse."
       },
       "sources": [
-        {"titre": "Directive Nitrates 91/676/CEE", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 1991, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "L'eutrophisation des milieux aquatiques", "auteur": "INRAE", "url": "https://www.inrae.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Directive Nitrates 91/676/CEE",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/",
+          "annee": 1991,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "L'eutrophisation des milieux aquatiques",
+          "auteur": "INRAE",
+          "url": "https://www.inrae.fr/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "eau",
-      "tags": ["pollution", "algues", "azote", "phosphore"],
-      "motsClésScientifiques": ["bloom algal", "hypoxie", "zone morte", "directive Nitrates", "cyanobactéries"],
-      "relations": [
-        {"cible": "pollution", "type": "est_type_de", "score": 85},
-        {"cible": "biodiversite", "type": "oppose_a", "score": 80},
-        {"cible": "zone-humide", "type": "oppose_a", "score": 70}
+      "tags": [
+        "pollution",
+        "algues",
+        "azote",
+        "phosphore"
       ],
-      "exemples": ["Marées vertes Bretagne (ulves)", "Zone morte Golfe du Mexique (22 000 km²)", "Bloom cyanobactéries lacs"],
-      "synonymes": ["dystrophisation", "eutrophication"],
+      "motsClésScientifiques": [
+        "bloom algal",
+        "hypoxie",
+        "zone morte",
+        "directive Nitrates",
+        "cyanobactéries"
+      ],
+      "relations": [
+        {
+          "cible": "pollution",
+          "type": "est_type_de",
+          "score": 85
+        },
+        {
+          "cible": "biodiversite",
+          "type": "oppose_a",
+          "score": 80
+        },
+        {
+          "cible": "zone-humide",
+          "type": "oppose_a",
+          "score": 70
+        }
+      ],
+      "exemples": [
+        "Marées vertes Bretagne (ulves)",
+        "Zone morte Golfe du Mexique (22 000 km²)",
+        "Bloom cyanobactéries lacs"
+      ],
+      "synonymes": [
+        "dystrophisation",
+        "eutrophication"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "700+ zones mortes océaniques dans le monde", "source": "PNUE", "annee": 2021},
-        {"valeur": "50% des eaux européennes affectées par l'eutrophisation", "source": "AEE", "annee": 2022}
-      ]
+        {
+          "valeur": "700+ zones mortes océaniques dans le monde",
+          "source": "PNUE",
+          "annee": 2021
+        },
+        {
+          "valeur": "50% des eaux européennes affectées par l'eutrophisation",
+          "source": "AEE",
+          "annee": 2022
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Eutrophication.jpg/800px-Eutrophication.jpg",
+        "alt": "Lac eutrophisé",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Prolifération d'algues due à l'eutrophisation"
+      }
     },
     {
       "id": "assainissement",
@@ -216,25 +564,86 @@
         "perspectives": "L'avenir passe par : la gestion intégrée des eaux urbaines (incluant pluviales), les 'villes éponges' (infiltration à la source), l'économie circulaire (récupération énergie et nutriments des boues), la REUT à grande échelle, et les solutions décentralisées (phytoépuration, toilettes sèches). Le concept de 'one water' intègre eau potable, eaux usées et eaux pluviales dans une vision systémique. L'enjeu est de transformer l'assainissement de contrainte en ressource."
       },
       "sources": [
-        {"titre": "Directive 91/271/CEE relative aux eaux résiduaires urbaines", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 1991, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "L'assainissement des eaux usées", "auteur": "Agences de l'eau", "url": "https://www.lesagencesdeleau.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "ODD 6 - Eau propre et assainissement", "auteur": "ONU", "url": "https://sdgs.un.org/goals/goal6", "annee": 2015, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Directive 91/271/CEE relative aux eaux résiduaires urbaines",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/",
+          "annee": 1991,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "L'assainissement des eaux usées",
+          "auteur": "Agences de l'eau",
+          "url": "https://www.lesagencesdeleau.fr/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "ODD 6 - Eau propre et assainissement",
+          "auteur": "ONU",
+          "url": "https://sdgs.un.org/goals/goal6",
+          "annee": 2015,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "eau",
-      "tags": ["épuration", "eaux usées", "collectif", "individuel"],
-      "motsClésScientifiques": ["DERU", "boues activées", "STEP", "ANC", "REUT", "phytoépuration"],
-      "relations": [
-        {"cible": "eau-grise", "type": "renvoie_a", "score": 75},
-        {"cible": "cycle-eau", "type": "renvoie_a", "score": 70},
-        {"cible": "eutrophisation", "type": "oppose_a", "score": 75}
+      "tags": [
+        "épuration",
+        "eaux usées",
+        "collectif",
+        "individuel"
       ],
-      "exemples": ["STEP boues activées", "Phytoépuration (filtre planté roseaux)", "Fosse toutes eaux + épandage"],
-      "synonymes": ["épuration", "traitement des eaux usées", "wastewater treatment"],
+      "motsClésScientifiques": [
+        "DERU",
+        "boues activées",
+        "STEP",
+        "ANC",
+        "REUT",
+        "phytoépuration"
+      ],
+      "relations": [
+        {
+          "cible": "eau-grise",
+          "type": "renvoie_a",
+          "score": 75
+        },
+        {
+          "cible": "cycle-eau",
+          "type": "renvoie_a",
+          "score": 70
+        },
+        {
+          "cible": "eutrophisation",
+          "type": "oppose_a",
+          "score": 75
+        }
+      ],
+      "exemples": [
+        "STEP boues activées",
+        "Phytoépuration (filtre planté roseaux)",
+        "Fosse toutes eaux + épandage"
+      ],
+      "synonymes": [
+        "épuration",
+        "traitement des eaux usées",
+        "wastewater treatment"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "France : 84% population en assainissement collectif", "source": "MTE", "annee": 2022},
-        {"valeur": "3,6 milliards personnes sans assainissement sûr dans le monde", "source": "ONU", "annee": 2023}
+        {
+          "valeur": "France : 84% population en assainissement collectif",
+          "source": "MTE",
+          "annee": 2022
+        },
+        {
+          "valeur": "3,6 milliards personnes sans assainissement sûr dans le monde",
+          "source": "ONU",
+          "annee": 2023
+        }
       ]
     },
     {
@@ -251,23 +660,72 @@
         "perspectives": "L'avenir passe par : la gestion quantitative (quotas de prélèvement, compteurs), la recharge artificielle (infiltration d'eaux traitées, ASR), la protection des zones d'alimentation (captage), et la gouvernance des aquifères transfrontaliers. Les aquifères côtiers font face à l'intrusion saline (élévation du niveau marin). Le concept de 'capital naturel' souterrain émerge pour mieux valoriser cette ressource invisible."
       },
       "sources": [
-        {"titre": "Groundwater: The world's most extracted natural resource", "auteur": "USGS", "url": "https://www.usgs.gov/special-topics/water-science-school/science/groundwater", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Global Groundwater: Assessment of large aquifer systems", "auteur": "UNESCO-IHP", "url": "https://www.unesco.org/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Groundwater: The world's most extracted natural resource",
+          "auteur": "USGS",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/groundwater",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Global Groundwater: Assessment of large aquifer systems",
+          "auteur": "UNESCO-IHP",
+          "url": "https://www.unesco.org/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["hydrogéologie", "piézométrie", "perméabilité", "porosité", "recharge", "aquifère captif"],
+      "motsClésScientifiques": [
+        "hydrogéologie",
+        "piézométrie",
+        "perméabilité",
+        "porosité",
+        "recharge",
+        "aquifère captif"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "97% de l'eau douce liquide stockée dans les aquifères", "source": "USGS", "annee": 2023},
-        {"valeur": "21 des 37 grands aquifères mondiaux surexploités", "source": "NASA/GRACE", "annee": 2015}
+        {
+          "valeur": "97% de l'eau douce liquide stockée dans les aquifères",
+          "source": "USGS",
+          "annee": 2023
+        },
+        {
+          "valeur": "21 des 37 grands aquifères mondiaux surexploités",
+          "source": "NASA/GRACE",
+          "annee": 2015
+        }
       ],
       "relations": [
-        {"cible": "nappe-phreatique", "type": "renvoie_a", "score": 95},
-        {"cible": "cycle-eau", "type": "renvoie_a", "score": 85},
-        {"cible": "stress-hydrique", "type": "renvoie_a", "score": 80}
+        {
+          "cible": "nappe-phreatique",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "cycle-eau",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "stress-hydrique",
+          "type": "renvoie_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Nappe de Beauce (France)", "Aquifère Ogallala (USA)", "Aquifère nubien (Afrique)"],
-      "synonymes": ["formation aquifère", "nappe souterraine", "groundwater reservoir"]
+      "exemples": [
+        "Nappe de Beauce (France)",
+        "Aquifère Ogallala (USA)",
+        "Aquifère nubien (Afrique)"
+      ],
+      "synonymes": [
+        "formation aquifère",
+        "nappe souterraine",
+        "groundwater reservoir"
+      ]
     },
     {
       "id": "nappe-phreatique",
@@ -283,23 +741,71 @@
         "perspectives": "L'avenir passe par : la maîtrise des prélèvements (volumes prélevables, compteurs), la protection des aires d'alimentation de captage (AAC), la recharge artificielle (bassins d'infiltration), et la restauration de la qualité (réduction intrants agricoles). Le changement climatique réduira la recharge hivernale et augmentera les besoins estivaux. L'enjeu est de préserver cette ressource invisible mais vitale."
       },
       "sources": [
-        {"titre": "Suivi piézométrique national", "auteur": "BRGM", "url": "https://www.brgm.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "État des nappes d'eau souterraine", "auteur": "BRGM/MTE", "url": "https://www.eaufrance.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Suivi piézométrique national",
+          "auteur": "BRGM",
+          "url": "https://www.brgm.fr/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "État des nappes d'eau souterraine",
+          "auteur": "BRGM/MTE",
+          "url": "https://www.eaufrance.fr/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["piézomètre", "niveau piézométrique", "recharge", "vulnérabilité", "infiltration"],
+      "motsClésScientifiques": [
+        "piézomètre",
+        "niveau piézométrique",
+        "recharge",
+        "vulnérabilité",
+        "infiltration"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "France : 23% des masses d'eau souterraines en mauvais état chimique", "source": "AEE/SDES", "annee": 2022},
-        {"valeur": "Nappe de Beauce : déficit chronique depuis 2022", "source": "BRGM", "annee": 2023}
+        {
+          "valeur": "France : 23% des masses d'eau souterraines en mauvais état chimique",
+          "source": "AEE/SDES",
+          "annee": 2022
+        },
+        {
+          "valeur": "Nappe de Beauce : déficit chronique depuis 2022",
+          "source": "BRGM",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "aquifere", "type": "est_type_de", "score": 95},
-        {"cible": "cycle-eau", "type": "renvoie_a", "score": 85},
-        {"cible": "stress-hydrique", "type": "renvoie_a", "score": 80}
+        {
+          "cible": "aquifere",
+          "type": "est_type_de",
+          "score": 95
+        },
+        {
+          "cible": "cycle-eau",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "stress-hydrique",
+          "type": "renvoie_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Nappe de Beauce", "Nappe alluviale du Rhin", "Nappe de la craie du bassin parisien"],
-      "synonymes": ["nappe libre", "nappe superficielle", "water table"]
+      "exemples": [
+        "Nappe de Beauce",
+        "Nappe alluviale du Rhin",
+        "Nappe de la craie du bassin parisien"
+      ],
+      "synonymes": [
+        "nappe libre",
+        "nappe superficielle",
+        "water table"
+      ]
     },
     {
       "id": "gestion-integree-eau",
@@ -315,24 +821,80 @@
         "perspectives": "L'avenir passe par : l'adaptation au changement climatique (prospective à 2050), la gestion des risques (crues, sécheresses), la gouvernance inclusive (représentation des usagers), et les solutions fondées sur la nature. Le concept de 'sécurité hydrique' (water security) intègre quantité, qualité, accès et résilience. L'enjeu mondial est de déployer la GIRE dans les pays où elle est encore embryonnaire."
       },
       "sources": [
-        {"titre": "Principes de Dublin sur l'eau", "auteur": "ICWE", "url": "https://www.gwp.org/", "annee": 1992, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Directive 2000/60/CE (DCE)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2000, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "SDG 6 Progress Report 2023", "auteur": "UN-Water", "url": "https://www.unwater.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Principes de Dublin sur l'eau",
+          "auteur": "ICWE",
+          "url": "https://www.gwp.org/",
+          "annee": 1992,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Directive 2000/60/CE (DCE)",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/",
+          "annee": 2000,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "SDG 6 Progress Report 2023",
+          "auteur": "UN-Water",
+          "url": "https://www.unwater.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["bassin versant", "SDAGE", "SAGE", "DCE", "IWRM", "nexus eau-énergie-alimentation"],
+      "motsClésScientifiques": [
+        "bassin versant",
+        "SDAGE",
+        "SAGE",
+        "DCE",
+        "IWRM",
+        "nexus eau-énergie-alimentation"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "65% des pays ont des cadres GIRE opérationnels", "source": "UN-Water", "annee": 2023},
-        {"valeur": "France : 12 bassins, 23 SDAGE, 200+ SAGE", "source": "OiEau", "annee": 2023}
+        {
+          "valeur": "65% des pays ont des cadres GIRE opérationnels",
+          "source": "UN-Water",
+          "annee": 2023
+        },
+        {
+          "valeur": "France : 12 bassins, 23 SDAGE, 200+ SAGE",
+          "source": "OiEau",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "cycle-eau", "type": "renvoie_a", "score": 85},
-        {"cible": "stress-hydrique", "type": "oppose_a", "score": 80},
-        {"cible": "zone-humide", "type": "renvoie_a", "score": 75}
+        {
+          "cible": "cycle-eau",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "stress-hydrique",
+          "type": "oppose_a",
+          "score": 80
+        },
+        {
+          "cible": "zone-humide",
+          "type": "renvoie_a",
+          "score": 75
+        }
       ],
-      "exemples": ["SDAGE Loire-Bretagne", "SAGE Nappe de Beauce", "Agences de l'eau (6 en France)"],
-      "synonymes": ["IWRM", "Integrated Water Resources Management", "gestion par bassin"]
+      "exemples": [
+        "SDAGE Loire-Bretagne",
+        "SAGE Nappe de Beauce",
+        "Agences de l'eau (6 en France)"
+      ],
+      "synonymes": [
+        "IWRM",
+        "Integrated Water Resources Management",
+        "gestion par bassin"
+      ]
     },
     {
       "id": "eau-virtuelle",
@@ -348,23 +910,72 @@
         "perspectives": "L'avenir passe par : l'intégration de l'eau virtuelle dans les politiques commerciales, la transparence sur l'origine hydrique des produits, et les accords de commerce équitable en eau. Le concept de 'water neutrality' (neutralité en eau) émerge pour les entreprises. L'enjeu est de ne pas externaliser le stress hydrique vers des régions vulnérables via le commerce."
       },
       "sources": [
-        {"titre": "Virtual water: an introduction", "auteur": "Allan, J.A.", "url": "https://www.waterfootprint.org/", "annee": 2003, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "The Water Footprint of Humanity", "auteur": "Hoekstra, A.Y. & Mekonnen, M.M.", "doi": "10.1073/pnas.1109936109", "journal": "PNAS", "annee": 2012, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "Virtual water: an introduction",
+          "auteur": "Allan, J.A.",
+          "url": "https://www.waterfootprint.org/",
+          "annee": 2003,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The Water Footprint of Humanity",
+          "auteur": "Hoekstra, A.Y. & Mekonnen, M.M.",
+          "doi": "10.1073/pnas.1109936109",
+          "journal": "PNAS",
+          "annee": 2012,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["virtual water trade", "empreinte eau", "eau bleue/verte/grise", "commerce agricole", "sécurité hydrique"],
+      "motsClésScientifiques": [
+        "virtual water trade",
+        "empreinte eau",
+        "eau bleue/verte/grise",
+        "commerce agricole",
+        "sécurité hydrique"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "2 400 km³/an d'eau virtuelle échangée via le commerce agricole mondial", "source": "WFN", "annee": 2020},
-        {"valeur": "Europe : 40% de l'empreinte eau importée", "source": "Water Footprint Network", "annee": 2020}
+        {
+          "valeur": "2 400 km³/an d'eau virtuelle échangée via le commerce agricole mondial",
+          "source": "WFN",
+          "annee": 2020
+        },
+        {
+          "valeur": "Europe : 40% de l'empreinte eau importée",
+          "source": "Water Footprint Network",
+          "annee": 2020
+        }
       ],
       "relations": [
-        {"cible": "empreinte-eau", "type": "renvoie_a", "score": 95},
-        {"cible": "stress-hydrique", "type": "renvoie_a", "score": 80},
-        {"cible": "cycle-eau", "type": "renvoie_a", "score": 70}
+        {
+          "cible": "empreinte-eau",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "stress-hydrique",
+          "type": "renvoie_a",
+          "score": 80
+        },
+        {
+          "cible": "cycle-eau",
+          "type": "renvoie_a",
+          "score": 70
+        }
       ],
-      "exemples": ["1 kg boeuf = 15 000 L eau virtuelle", "1 jean = 8 000 L", "1 tasse café = 140 L"],
-      "synonymes": ["virtual water", "eau cachée", "embedded water"]
+      "exemples": [
+        "1 kg boeuf = 15 000 L eau virtuelle",
+        "1 jean = 8 000 L",
+        "1 tasse café = 140 L"
+      ],
+      "synonymes": [
+        "virtual water",
+        "eau cachée",
+        "embedded water"
+      ]
     }
   ]
 }

@@ -17,22 +17,72 @@
         "perspectives": "Les évolutions attendues incluent : le déploiement des 'passeports numériques des produits', le développement de modèles Product-as-a-Service, et l'émergence d'une économie 'régénérative' allant au-delà de la simple circularité."
       },
       "sources": [
-        {"titre": "Towards the Circular Economy Vol. 1", "auteur": "Ellen MacArthur Foundation", "annee": 2012, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Conceptualizing the circular economy: An analysis of 114 definitions", "auteur": "Kirchherr, J. et al.", "doi": "10.1016/j.resconrec.2017.09.005", "journal": "Resources, Conservation and Recycling", "annee": 2017, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
-        {"titre": "Loi AGEC", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041553759", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Towards the Circular Economy Vol. 1",
+          "auteur": "Ellen MacArthur Foundation",
+          "annee": 2012,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Conceptualizing the circular economy: An analysis of 114 definitions",
+          "auteur": "Kirchherr, J. et al.",
+          "doi": "10.1016/j.resconrec.2017.09.005",
+          "journal": "Resources, Conservation and Recycling",
+          "annee": 2017,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Loi AGEC",
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041553759",
+          "annee": 2020,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
-      "tags": ["modèle économique", "ressources", "durabilité", "circularité"],
-      "motsClésScientifiques": ["découplage", "boucles de valeur", "métabolisme industriel", "régénératif", "limites planétaires"],
-      "relations": [
-        {"cible": "economie-lineaire", "type": "oppose_a", "score": 95},
-        {"cible": "ecoconception", "type": "renvoie_a", "score": 90},
-        {"cible": "recyclage", "type": "renvoie_a", "score": 85}
+      "tags": [
+        "modèle économique",
+        "ressources",
+        "durabilité",
+        "circularité"
       ],
-      "exemples": ["Location de vêtements", "Consigne des bouteilles", "Reconditionnement électronique"],
-      "synonymes": ["économie en boucle", "circularité économique"],
+      "motsClésScientifiques": [
+        "découplage",
+        "boucles de valeur",
+        "métabolisme industriel",
+        "régénératif",
+        "limites planétaires"
+      ],
+      "relations": [
+        {
+          "cible": "economie-lineaire",
+          "type": "oppose_a",
+          "score": 95
+        },
+        {
+          "cible": "ecoconception",
+          "type": "renvoie_a",
+          "score": 90
+        },
+        {
+          "cible": "recyclage",
+          "type": "renvoie_a",
+          "score": 85
+        }
+      ],
+      "exemples": [
+        "Location de vêtements",
+        "Consigne des bouteilles",
+        "Reconditionnement électronique"
+      ],
+      "synonymes": [
+        "économie en boucle",
+        "circularité économique"
+      ],
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Circular_economy.svg/800px-Circular_economy.svg.png",
         "alt": "Schéma de l'économie circulaire",
@@ -41,7 +91,11 @@
         "legende": "Les boucles de valeur de l'économie circulaire"
       },
       "indicateursQuantitatifs": [
-        {"valeur": "Taux de circularité mondial : 7,2%", "source": "Circle Economy", "annee": 2023}
+        {
+          "valeur": "Taux de circularité mondial : 7,2%",
+          "source": "Circle Economy",
+          "annee": 2023
+        }
       ]
     },
     {
@@ -57,24 +111,80 @@
         "perspectives": "La sortie du modèle linéaire implique une transformation systémique : écoconception obligatoire, REP étendues, fiscalité sur les ressources vierges, interdiction du jetable, droit à la réparation. Les scénarios de transition (ADEME, négaWatt) projettent une réduction de 50-80% des flux de matières d'ici 2050 dans les pays développés."
       },
       "sources": [
-        {"titre": "Linear Economy - Glossary", "auteur": "European Environment Agency", "url": "https://www.eea.europa.eu/help/glossary", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "The Limits to Growth", "auteur": "Meadows, D.H. et al.", "annee": 1972, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
-        {"titre": "The Entropy Law and the Economic Process", "auteur": "Georgescu-Roegen, N.", "annee": 1971, "type": "ouvrage_reference", "niveauPreuve": "elevé"}
+        {
+          "titre": "Linear Economy - Glossary",
+          "auteur": "European Environment Agency",
+          "url": "https://www.eea.europa.eu/help/glossary",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The Limits to Growth",
+          "auteur": "Meadows, D.H. et al.",
+          "annee": 1972,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The Entropy Law and the Economic Process",
+          "auteur": "Georgescu-Roegen, N.",
+          "annee": 1971,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
-      "tags": ["modèle économique", "extractivisme", "gaspillage"],
-      "motsClésScientifiques": ["extractivisme", "externalités", "métabolisme industriel", "entropie", "peak resources"],
-      "relations": [
-        {"cible": "economie-circulaire", "type": "oppose_a", "score": 95},
-        {"cible": "obsolescence-programmee", "type": "renvoie_a", "score": 85}
+      "tags": [
+        "modèle économique",
+        "extractivisme",
+        "gaspillage"
       ],
-      "exemples": ["Produits jetables à usage unique", "Obsolescence programmée", "Fast fashion"],
+      "motsClésScientifiques": [
+        "extractivisme",
+        "externalités",
+        "métabolisme industriel",
+        "entropie",
+        "peak resources"
+      ],
+      "relations": [
+        {
+          "cible": "economie-circulaire",
+          "type": "oppose_a",
+          "score": 95
+        },
+        {
+          "cible": "obsolescence-programmee",
+          "type": "renvoie_a",
+          "score": 85
+        }
+      ],
+      "exemples": [
+        "Produits jetables à usage unique",
+        "Obsolescence programmée",
+        "Fast fashion"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "92,8% des ressources mondiales ne sont pas circulaires", "source": "Circle Economy", "annee": 2023},
-        {"valeur": "100 milliards de tonnes de ressources extraites/an", "source": "UNEP IRP", "annee": 2019}
-      ]
+        {
+          "valeur": "92,8% des ressources mondiales ne sont pas circulaires",
+          "source": "Circle Economy",
+          "annee": 2023
+        },
+        {
+          "valeur": "100 milliards de tonnes de ressources extraites/an",
+          "source": "UNEP IRP",
+          "annee": 2019
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Linear_economy.svg/800px-Linear_economy.svg.png",
+        "alt": "Schéma économie linéaire",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Modèle extraire-produire-jeter"
+      }
     },
     {
       "id": "ecoconception",
@@ -89,25 +199,87 @@
         "perspectives": "L'écoconception évolue vers le 'design régénératif' (contribution positive à l'environnement), l'intégration de l'intelligence artificielle (optimisation multi-objectifs), et les 'jumeaux numériques' pour simuler les impacts avant fabrication. Les normes d'écoconception deviennent des conditions d'accès au marché européen."
       },
       "sources": [
-        {"titre": "ISO 14006:2020 - Lignes directrices pour l'écoconception", "auteur": "ISO", "annee": 2020, "type": "norme_iso", "niveauPreuve": "elevé"},
-        {"titre": "Cradle to Cradle: Remaking the Way We Make Things", "auteur": "McDonough, W. & Braungart, M.", "annee": 2002, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
-        {"titre": "Écoconception des produits", "auteur": "ADEME", "url": "https://librairie.ademe.fr/economie-circulaire-et-dechets", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "ISO 14006:2020 - Lignes directrices pour l'écoconception",
+          "auteur": "ISO",
+          "annee": 2020,
+          "type": "norme_iso",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Cradle to Cradle: Remaking the Way We Make Things",
+          "auteur": "McDonough, W. & Braungart, M.",
+          "annee": 2002,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Écoconception des produits",
+          "auteur": "ADEME",
+          "url": "https://librairie.ademe.fr/economie-circulaire-et-dechets",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
-      "tags": ["conception", "cycle de vie", "prévention", "innovation"],
-      "motsClésScientifiques": ["design for environment", "ACV", "cradle to cradle", "hotspots", "design for disassembly"],
-      "relations": [
-        {"cible": "economie-circulaire", "type": "contribue_a", "score": 90, "direction": "positif"},
-        {"cible": "analyse-cycle-vie", "type": "renvoie_a", "score": 85},
-        {"cible": "reparabilite", "type": "renvoie_a", "score": 80}
+      "tags": [
+        "conception",
+        "cycle de vie",
+        "prévention",
+        "innovation"
       ],
-      "exemples": ["Produits démontables pour réparation", "Matériaux recyclés ou biosourcés", "Réduction du poids des emballages"],
-      "synonymes": ["design écologique", "conception durable", "eco-design"],
+      "motsClésScientifiques": [
+        "design for environment",
+        "ACV",
+        "cradle to cradle",
+        "hotspots",
+        "design for disassembly"
+      ],
+      "relations": [
+        {
+          "cible": "economie-circulaire",
+          "type": "contribue_a",
+          "score": 90,
+          "direction": "positif"
+        },
+        {
+          "cible": "analyse-cycle-vie",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "reparabilite",
+          "type": "renvoie_a",
+          "score": 80
+        }
+      ],
+      "exemples": [
+        "Produits démontables pour réparation",
+        "Matériaux recyclés ou biosourcés",
+        "Réduction du poids des emballages"
+      ],
+      "synonymes": [
+        "design écologique",
+        "conception durable",
+        "eco-design"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "80% des impacts environnementaux déterminés dès la conception", "source": "Commission Européenne", "annee": 2020}
-      ]
+        {
+          "valeur": "80% des impacts environnementaux déterminés dès la conception",
+          "source": "Commission Européenne",
+          "annee": 2020
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Ecodesign.svg/800px-Ecodesign.svg.png",
+        "alt": "Écoconception",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Intégration de l'environnement dès la conception"
+      }
     },
     {
       "id": "analyse-cycle-vie",
@@ -122,25 +294,85 @@
         "perspectives": "L'avenir de l'ACV passe par l'automatisation (IA, jumeau numérique), l'intégration dans les outils de conception (CAO), la mise à jour en temps réel grâce à l'IoT, et le développement de bases de données ouvertes. L'ACV devient un langage commun pour le dialogue entre parties prenantes et un outil de pilotage de la transition écologique."
       },
       "sources": [
-        {"titre": "ISO 14040:2006 - Principes et cadre de l'ACV", "auteur": "ISO", "annee": 2006, "type": "norme_iso", "niveauPreuve": "elevé"},
-        {"titre": "Life Cycle Assessment: Theory and Practice", "auteur": "Hauschild, M.Z., Rosenbaum, R.K., Olsen, S.I.", "annee": 2018, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
-        {"titre": "Base IMPACTS®", "auteur": "ADEME", "url": "https://base-impacts.ademe.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "ISO 14040:2006 - Principes et cadre de l'ACV",
+          "auteur": "ISO",
+          "annee": 2006,
+          "type": "norme_iso",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Life Cycle Assessment: Theory and Practice",
+          "auteur": "Hauschild, M.Z., Rosenbaum, R.K., Olsen, S.I.",
+          "annee": 2018,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Base IMPACTS®",
+          "auteur": "ADEME",
+          "url": "https://base-impacts.ademe.fr/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
-      "tags": ["évaluation", "méthodologie", "impacts", "ISO"],
-      "motsClésScientifiques": ["unité fonctionnelle", "inventaire", "catégories d'impact", "PEF", "ecoinvent"],
-      "relations": [
-        {"cible": "ecoconception", "type": "renvoie_a", "score": 85},
-        {"cible": "empreinte-carbone", "type": "proche_de", "score": 70}
+      "tags": [
+        "évaluation",
+        "méthodologie",
+        "impacts",
+        "ISO"
       ],
-      "exemples": ["Comparaison sac plastique vs sac coton", "Évaluation empreinte carbone smartphone"],
-      "synonymes": ["ACV", "LCA (Life Cycle Assessment)", "bilan environnemental"],
+      "motsClésScientifiques": [
+        "unité fonctionnelle",
+        "inventaire",
+        "catégories d'impact",
+        "PEF",
+        "ecoinvent"
+      ],
+      "relations": [
+        {
+          "cible": "ecoconception",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "empreinte-carbone",
+          "type": "proche_de",
+          "score": 70
+        }
+      ],
+      "exemples": [
+        "Comparaison sac plastique vs sac coton",
+        "Évaluation empreinte carbone smartphone"
+      ],
+      "synonymes": [
+        "ACV",
+        "LCA (Life Cycle Assessment)",
+        "bilan environnemental"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Base IMPACTS® : 2 500+ jeux de données environnementales", "source": "ADEME", "annee": 2023},
-        {"valeur": "16 catégories d'impact standardisées (PEF)", "source": "Commission Européenne", "annee": 2021}
-      ]
+        {
+          "valeur": "Base IMPACTS® : 2 500+ jeux de données environnementales",
+          "source": "ADEME",
+          "annee": 2023
+        },
+        {
+          "valeur": "16 catégories d'impact standardisées (PEF)",
+          "source": "Commission Européenne",
+          "annee": 2021
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Life_cycle_assessment.svg/800px-Life_cycle_assessment.svg.png",
+        "alt": "Analyse du cycle de vie",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Évaluation des impacts environnementaux du berceau à la tombe"
+      }
     },
     {
       "id": "symbiose-industrielle",
@@ -155,24 +387,80 @@
         "perspectives": "L'avenir passe par les 'symbioses numériques' (plateformes de matching), l'intégration dans les SCOT et PLU, le développement de 'clusters circulaires', et l'extension aux flux immatériels (compétences, données). Les 'symbioses territoriales' intègrent agriculture, collectivités et industries dans des boucles locales."
       },
       "sources": [
-        {"titre": "Industrial Symbiosis: Literature and Taxonomy", "auteur": "Chertow, M.R.", "doi": "10.1146/annurev.energy.25.1.313", "journal": "Annual Review of Energy and Environment", "annee": 2000, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
-        {"titre": "Strategies for sustainable industrial development: The case of Kalundborg", "auteur": "Ehrenfeld, J. & Gertler, N.", "journal": "Journal of Industrial Ecology", "annee": 1997, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
-        {"titre": "Écologie Industrielle et Territoriale", "auteur": "ADEME", "url": "https://librairie.ademe.fr/economie-circulaire-et-dechets", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Industrial Symbiosis: Literature and Taxonomy",
+          "auteur": "Chertow, M.R.",
+          "doi": "10.1146/annurev.energy.25.1.313",
+          "journal": "Annual Review of Energy and Environment",
+          "annee": 2000,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Strategies for sustainable industrial development: The case of Kalundborg",
+          "auteur": "Ehrenfeld, J. & Gertler, N.",
+          "journal": "Journal of Industrial Ecology",
+          "annee": 1997,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Écologie Industrielle et Territoriale",
+          "auteur": "ADEME",
+          "url": "https://librairie.ademe.fr/economie-circulaire-et-dechets",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
-      "tags": ["industrie", "territoire", "mutualisation", "déchets"],
-      "motsClésScientifiques": ["écologie industrielle", "Kalundborg", "synergies", "métabolisme territorial", "parc éco-industriel"],
-      "relations": [
-        {"cible": "economie-circulaire", "type": "est_type_de", "score": 90},
-        {"cible": "ecologie-industrielle", "type": "proche_de", "score": 95}
+      "tags": [
+        "industrie",
+        "territoire",
+        "mutualisation",
+        "déchets"
       ],
-      "exemples": ["Kalundborg (Danemark)", "Valorisation chaleur fatale pour serres", "Échange de sous-produits entre usines"],
-      "synonymes": ["écologie industrielle territoriale", "synergies inter-entreprises"],
+      "motsClésScientifiques": [
+        "écologie industrielle",
+        "Kalundborg",
+        "synergies",
+        "métabolisme territorial",
+        "parc éco-industriel"
+      ],
+      "relations": [
+        {
+          "cible": "economie-circulaire",
+          "type": "est_type_de",
+          "score": 90
+        },
+        {
+          "cible": "ecologie-industrielle",
+          "type": "proche_de",
+          "score": 95
+        }
+      ],
+      "exemples": [
+        "Kalundborg (Danemark)",
+        "Valorisation chaleur fatale pour serres",
+        "Échange de sous-produits entre usines"
+      ],
+      "synonymes": [
+        "écologie industrielle territoriale",
+        "synergies inter-entreprises"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "200+ symbioses industrielles identifiées en France", "source": "ADEME", "annee": 2022},
-        {"valeur": "Kalundborg : 30 synergies actives, 3M tonnes CO2 évitées/an", "source": "Kalundborg Symbiosis", "annee": 2023}
+        {
+          "valeur": "200+ symbioses industrielles identifiées en France",
+          "source": "ADEME",
+          "annee": 2022
+        },
+        {
+          "valeur": "Kalundborg : 30 synergies actives, 3M tonnes CO2 évitées/an",
+          "source": "Kalundborg Symbiosis",
+          "annee": 2023
+        }
       ]
     },
     {
@@ -188,23 +476,74 @@
         "perspectives": "L'avenir passe par le 'design pour la longévité' (produits durables, modulaires, évolutifs), le 'product-as-a-service' (intérêt du fabricant à la durabilité), la transparence (passeport produit, durée de vie affichée), et la régulation (interdictions sectorielles, fiscalité sur le jetable). Les mouvements 'low-tech' et 'durable' portent une alternative culturelle."
       },
       "sources": [
-        {"titre": "Loi n° 2015-992 - Article L441-2 Code de la consommation", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044566654", "annee": 2015, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Made to Break: Technology and Obsolescence in America", "auteur": "Slade, G.", "annee": 2006, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
-        {"titre": "L'obsolescence programmée : définition et enjeux", "auteur": "HOP", "url": "https://www.halteobsolescence.org/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "moyen"}
+        {
+          "titre": "Loi n° 2015-992 - Article L441-2 Code de la consommation",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044566654",
+          "annee": 2015,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Made to Break: Technology and Obsolescence in America",
+          "auteur": "Slade, G.",
+          "annee": 2006,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "L'obsolescence programmée : définition et enjeux",
+          "auteur": "HOP",
+          "url": "https://www.halteobsolescence.org/",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "moyen"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
-      "tags": ["durabilité", "consommation", "délit", "réparation"],
-      "motsClésScientifiques": ["durée de vie", "réparabilité", "délit", "droit à la réparation", "design for longevity"],
-      "relations": [
-        {"cible": "economie-circulaire", "type": "oppose_a", "score": 90},
-        {"cible": "economie-lineaire", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "reparabilite", "type": "oppose_a", "score": 90}
+      "tags": [
+        "durabilité",
+        "consommation",
+        "délit",
+        "réparation"
       ],
-      "exemples": ["Batteries inamovibles smartphones", "Imprimantes bloquées", "Mises à jour ralentissant appareils"],
+      "motsClésScientifiques": [
+        "durée de vie",
+        "réparabilité",
+        "délit",
+        "droit à la réparation",
+        "design for longevity"
+      ],
+      "relations": [
+        {
+          "cible": "economie-circulaire",
+          "type": "oppose_a",
+          "score": 90
+        },
+        {
+          "cible": "economie-lineaire",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "reparabilite",
+          "type": "oppose_a",
+          "score": 90
+        }
+      ],
+      "exemples": [
+        "Batteries inamovibles smartphones",
+        "Imprimantes bloquées",
+        "Mises à jour ralentissant appareils"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Durée de vie moyenne smartphone : 2-3 ans vs 10 ans techniquement possibles", "source": "ADEME", "annee": 2022}
+        {
+          "valeur": "Durée de vie moyenne smartphone : 2-3 ans vs 10 ans techniquement possibles",
+          "source": "ADEME",
+          "annee": 2022
+        }
       ]
     },
     {
@@ -220,23 +559,72 @@
         "perspectives": "L'avenir de la réutilisation passe par la massification : consigne généralisée, emballages réemployables standardisés, 'product-as-a-service', seconde main intégrée par les marques (Decathlon, Back Market), et fiscalité favorable. L'objectif est d'inverser la hiérarchie actuelle où le neuf reste la norme."
       },
       "sources": [
-        {"titre": "Directive 2008/98/CE relative aux déchets", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2008, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Reuse in the European textile sector", "auteur": "EEA", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Loi AGEC - Titre III Réemploi et réutilisation", "url": "https://www.legifrance.gouv.fr/", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Directive 2008/98/CE relative aux déchets",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/",
+          "annee": 2008,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Reuse in the European textile sector",
+          "auteur": "EEA",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Loi AGEC - Titre III Réemploi et réutilisation",
+          "url": "https://www.legifrance.gouv.fr/",
+          "annee": 2020,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
-      "tags": ["prévention", "allongement durée de vie", "seconde main"],
-      "motsClésScientifiques": ["hiérarchie des déchets", "réemploi", "seconde main", "ressourcerie", "consigne"],
-      "relations": [
-        {"cible": "economie-circulaire", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "recyclage", "type": "proche_de", "score": 70}
+      "tags": [
+        "prévention",
+        "allongement durée de vie",
+        "seconde main"
       ],
-      "exemples": ["Vêtements d'occasion", "Bouteilles consignées", "Don de meubles"],
-      "synonymes": ["seconde vie", "usage prolongé"],
+      "motsClésScientifiques": [
+        "hiérarchie des déchets",
+        "réemploi",
+        "seconde main",
+        "ressourcerie",
+        "consigne"
+      ],
+      "relations": [
+        {
+          "cible": "economie-circulaire",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "recyclage",
+          "type": "proche_de",
+          "score": 70
+        }
+      ],
+      "exemples": [
+        "Vêtements d'occasion",
+        "Bouteilles consignées",
+        "Don de meubles"
+      ],
+      "synonymes": [
+        "seconde vie",
+        "usage prolongé"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Marché de la seconde main : 7 milliards € en France (2022)", "source": "Institut Français de la Mode", "annee": 2022}
+        {
+          "valeur": "Marché de la seconde main : 7 milliards € en France (2022)",
+          "source": "Institut Français de la Mode",
+          "annee": 2022
+        }
       ]
     },
     {
@@ -252,20 +640,61 @@
         "perspectives": "L'avenir de l'upcycling passe par l'industrialisation (automatisation partielle, design génératif), l'intégration dans les stratégies RSE des grandes marques, les plateformes de mise en relation (gisements/créateurs), et la reconnaissance dans les labels et certifications. L'upcycling pourrait devenir un segment significatif de l'économie créative circulaire."
       },
       "sources": [
-        {"titre": "Cradle to Cradle: Remaking the Way We Make Things", "auteur": "McDonough, W. & Braungart, M.", "annee": 2002, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
-        {"titre": "Upcycling-Based Business Models", "auteur": "Sung, K.", "journal": "Sustainability", "doi": "10.3390/su7010001", "annee": 2015, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "Cradle to Cradle: Remaking the Way We Make Things",
+          "auteur": "McDonough, W. & Braungart, M.",
+          "annee": 2002,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Upcycling-Based Business Models",
+          "auteur": "Sung, K.",
+          "journal": "Sustainability",
+          "doi": "10.3390/su7010001",
+          "annee": 2015,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
-      "tags": ["valorisation", "créativité", "design", "valeur ajoutée"],
-      "motsClésScientifiques": ["creative reuse", "downcycling", "design circulaire", "deadstock", "valorisation créative"],
-      "relations": [
-        {"cible": "recyclage", "type": "proche_de", "score": 75},
-        {"cible": "economie-circulaire", "type": "contribue_a", "score": 80, "direction": "positif"}
+      "tags": [
+        "valorisation",
+        "créativité",
+        "design",
+        "valeur ajoutée"
       ],
-      "exemples": ["Pneus usagés en mobilier design", "Bâches publicitaires en sacs", "Composants électroniques en bijoux"],
-      "synonymes": ["surcyclage", "valorisation créative"]
+      "motsClésScientifiques": [
+        "creative reuse",
+        "downcycling",
+        "design circulaire",
+        "deadstock",
+        "valorisation créative"
+      ],
+      "relations": [
+        {
+          "cible": "recyclage",
+          "type": "proche_de",
+          "score": 75
+        },
+        {
+          "cible": "economie-circulaire",
+          "type": "contribue_a",
+          "score": 80,
+          "direction": "positif"
+        }
+      ],
+      "exemples": [
+        "Pneus usagés en mobilier design",
+        "Bâches publicitaires en sacs",
+        "Composants électroniques en bijoux"
+      ],
+      "synonymes": [
+        "surcyclage",
+        "valorisation créative"
+      ]
     },
     {
       "id": "economie-fonctionnalite",
@@ -280,21 +709,67 @@
         "perspectives": "La transition vers l'usage pourrait s'accélérer avec : la mobilité partagée (MaaS), l'économie de l'abonnement (Netflix, Spotify généralisés aux biens), l'internet des objets (facturation à l'usage en temps réel), et la pression réglementaire sur le jetable. L'économie de la fonctionnalité est considérée comme un levier majeur de l'économie circulaire."
       },
       "sources": [
-        {"titre": "The Performance Economy", "auteur": "Stahel, W.R.", "annee": 2010, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
-        {"titre": "Product-service systems and sustainability", "auteur": "Mont, O.", "journal": "Journal of Cleaner Production", "annee": 2002, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
-        {"titre": "L'économie de fonctionnalité", "auteur": "ADEME", "url": "https://librairie.ademe.fr/economie-circulaire-et-dechets", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "The Performance Economy",
+          "auteur": "Stahel, W.R.",
+          "annee": 2010,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Product-service systems and sustainability",
+          "auteur": "Mont, O.",
+          "journal": "Journal of Cleaner Production",
+          "annee": 2002,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "L'économie de fonctionnalité",
+          "auteur": "ADEME",
+          "url": "https://librairie.ademe.fr/economie-circulaire-et-dechets",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
-      "tags": ["service", "usage", "location", "modèle économique"],
-      "motsClésScientifiques": ["product-service system", "servitization", "économie de la performance", "pay-per-use", "découplage"],
-      "relations": [
-        {"cible": "economie-circulaire", "type": "est_type_de", "score": 90},
-        {"cible": "obsolescence-programmee", "type": "oppose_a", "score": 85}
+      "tags": [
+        "service",
+        "usage",
+        "location",
+        "modèle économique"
       ],
-      "exemples": ["Michelin Fleet Solutions (pneus au km)", "Location machines à laver", "Autopartage"],
-      "synonymes": ["économie servicielle", "product-as-a-service"]
+      "motsClésScientifiques": [
+        "product-service system",
+        "servitization",
+        "économie de la performance",
+        "pay-per-use",
+        "découplage"
+      ],
+      "relations": [
+        {
+          "cible": "economie-circulaire",
+          "type": "est_type_de",
+          "score": 90
+        },
+        {
+          "cible": "obsolescence-programmee",
+          "type": "oppose_a",
+          "score": 85
+        }
+      ],
+      "exemples": [
+        "Michelin Fleet Solutions (pneus au km)",
+        "Location machines à laver",
+        "Autopartage"
+      ],
+      "synonymes": [
+        "économie servicielle",
+        "product-as-a-service"
+      ]
     },
     {
       "id": "reparabilite",
@@ -309,25 +784,83 @@
         "perspectives": "L'indice de durabilité (2024) intégrera fiabilité et évolutivité. L'objectif européen est de rendre la réparation 'le choix le plus économique' d'ici 2030. L'avenir passe par : pièces détachées imprimées en 3D, tutoriels vidéo généralisés, modularité standardisée, et intégration de la réparation dans les contrats de garantie. La réparabilité devient un argument commercial."
       },
       "sources": [
-        {"titre": "Loi AGEC - Article 16 (Indice de réparabilité)", "url": "https://www.legifrance.gouv.fr/", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Indice de réparabilité", "auteur": "Ministère de la Transition écologique", "url": "https://www.ecologie.gouv.fr/indice-reparabilite", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "The Right to Repair", "auteur": "European Parliament", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Loi AGEC - Article 16 (Indice de réparabilité)",
+          "url": "https://www.legifrance.gouv.fr/",
+          "annee": 2020,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Indice de réparabilité",
+          "auteur": "Ministère de la Transition écologique",
+          "url": "https://www.ecologie.gouv.fr/indice-reparabilite",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The Right to Repair",
+          "auteur": "European Parliament",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
-      "tags": ["réparation", "durabilité", "indice", "pièces détachées"],
-      "motsClésScientifiques": ["indice de réparabilité", "droit à la réparation", "design for repair", "pièces détachées", "démontabilité"],
-      "relations": [
-        {"cible": "economie-circulaire", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "obsolescence-programmee", "type": "oppose_a", "score": 90},
-        {"cible": "ecoconception", "type": "renvoie_a", "score": 80}
+      "tags": [
+        "réparation",
+        "durabilité",
+        "indice",
+        "pièces détachées"
       ],
-      "exemples": ["Indice affiché sur smartphones", "Fairphone conçu réparable", "Bonus réparation textile"],
-      "synonymes": ["indice de réparabilité", "droit à la réparation"],
+      "motsClésScientifiques": [
+        "indice de réparabilité",
+        "droit à la réparation",
+        "design for repair",
+        "pièces détachées",
+        "démontabilité"
+      ],
+      "relations": [
+        {
+          "cible": "economie-circulaire",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "obsolescence-programmee",
+          "type": "oppose_a",
+          "score": 90
+        },
+        {
+          "cible": "ecoconception",
+          "type": "renvoie_a",
+          "score": 80
+        }
+      ],
+      "exemples": [
+        "Indice affiché sur smartphones",
+        "Fairphone conçu réparable",
+        "Bonus réparation textile"
+      ],
+      "synonymes": [
+        "indice de réparabilité",
+        "droit à la réparation"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Note moyenne smartphones : 6,2/10", "source": "HOP", "annee": 2022},
-        {"valeur": "2000+ Repair Cafés en France", "source": "Repair Café France", "annee": 2023}
+        {
+          "valeur": "Note moyenne smartphones : 6,2/10",
+          "source": "HOP",
+          "annee": 2022
+        },
+        {
+          "valeur": "2000+ Repair Cafés en France",
+          "source": "Repair Café France",
+          "annee": 2023
+        }
       ]
     },
     {
@@ -343,23 +876,74 @@
         "perspectives": "L'avenir de la consigne passe par : les emballages réemployables standardisés, les systèmes mutualisés entre marques, la digitalisation (consigne dématérialisée), et l'extension à de nouvelles catégories (textile, électronique). L'objectif européen de 90% de collecte des bouteilles plastique d'ici 2029 devrait accélérer le déploiement de systèmes de consigne."
       },
       "sources": [
-        {"titre": "Loi AGEC - Article 66 (Consigne)", "url": "https://www.legifrance.gouv.fr/", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Deposit Return Systems for Packaging", "auteur": "Reloop Platform", "url": "https://www.reloopplatform.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Global Deposit Book 2022", "auteur": "Reloop", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Loi AGEC - Article 66 (Consigne)",
+          "url": "https://www.legifrance.gouv.fr/",
+          "annee": 2020,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Deposit Return Systems for Packaging",
+          "auteur": "Reloop Platform",
+          "url": "https://www.reloopplatform.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Global Deposit Book 2022",
+          "auteur": "Reloop",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
-      "tags": ["emballage", "retour", "réemploi", "collecte"],
-      "motsClésScientifiques": ["deposit-return system", "réemploi", "RVM", "taux de collecte", "standardisation"],
-      "relations": [
-        {"cible": "reutilisation", "type": "contribue_a", "score": 90, "direction": "positif"},
-        {"cible": "recyclage", "type": "contribue_a", "score": 80, "direction": "positif"}
+      "tags": [
+        "emballage",
+        "retour",
+        "réemploi",
+        "collecte"
       ],
-      "exemples": ["Bouteilles verre consignées", "Pfand allemand", "Consigne restauration rapide"],
-      "synonymes": ["système de consigne", "deposit-return system"],
+      "motsClésScientifiques": [
+        "deposit-return system",
+        "réemploi",
+        "RVM",
+        "taux de collecte",
+        "standardisation"
+      ],
+      "relations": [
+        {
+          "cible": "reutilisation",
+          "type": "contribue_a",
+          "score": 90,
+          "direction": "positif"
+        },
+        {
+          "cible": "recyclage",
+          "type": "contribue_a",
+          "score": 80,
+          "direction": "positif"
+        }
+      ],
+      "exemples": [
+        "Bouteilles verre consignées",
+        "Pfand allemand",
+        "Consigne restauration rapide"
+      ],
+      "synonymes": [
+        "système de consigne",
+        "deposit-return system"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Taux de retour : 98% en Allemagne vs 60% en France (collecte sélective)", "source": "Reloop", "annee": 2022}
+        {
+          "valeur": "Taux de retour : 98% en Allemagne vs 60% en France (collecte sélective)",
+          "source": "Reloop",
+          "annee": 2022
+        }
       ]
     },
     {
@@ -375,24 +959,75 @@
         "perspectives": "L'avenir de l'écologie industrielle passe par : les 'jumeaux numériques' de territoires (simulation des flux), l'IA pour le matching de synergies, l'intégration agriculture/industrie/ville, et les 'mines urbaines' (récupération des métaux dans les déchets). L'écologie industrielle pourrait devenir le cadre méthodologique de la planification écologique territoriale."
       },
       "sources": [
-        {"titre": "Strategies for Manufacturing (article fondateur)", "auteur": "Frosch, R.A. & Gallopoulos, N.E.", "journal": "Scientific American", "annee": 1989, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
-        {"titre": "Industrial Ecology", "auteur": "Graedel, T.E. & Allenby, B.R.", "annee": 2003, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
-        {"titre": "Journal of Industrial Ecology", "url": "https://onlinelibrary.wiley.com/journal/15309290", "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "Strategies for Manufacturing (article fondateur)",
+          "auteur": "Frosch, R.A. & Gallopoulos, N.E.",
+          "journal": "Scientific American",
+          "annee": 1989,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Industrial Ecology",
+          "auteur": "Graedel, T.E. & Allenby, B.R.",
+          "annee": 2003,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Journal of Industrial Ecology",
+          "url": "https://onlinelibrary.wiley.com/journal/15309290",
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "economie-circulaire",
-      "tags": ["flux", "métabolisme", "systémique", "industrie"],
-      "motsClésScientifiques": ["métabolisme industriel", "MFA", "symbiose", "boucles fermées", "analogie écosystémique"],
-      "relations": [
-        {"cible": "symbiose-industrielle", "type": "renvoie_a", "score": 95},
-        {"cible": "economie-circulaire", "type": "proche_de", "score": 90},
-        {"cible": "analyse-cycle-vie", "type": "renvoie_a", "score": 75}
+      "tags": [
+        "flux",
+        "métabolisme",
+        "systémique",
+        "industrie"
       ],
-      "exemples": ["Métabolisme industriel territorial", "Analyse des flux de matières (MFA)"],
-      "synonymes": ["écologie industrielle et territoriale", "EIT"],
+      "motsClésScientifiques": [
+        "métabolisme industriel",
+        "MFA",
+        "symbiose",
+        "boucles fermées",
+        "analogie écosystémique"
+      ],
+      "relations": [
+        {
+          "cible": "symbiose-industrielle",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "economie-circulaire",
+          "type": "proche_de",
+          "score": 90
+        },
+        {
+          "cible": "analyse-cycle-vie",
+          "type": "renvoie_a",
+          "score": 75
+        }
+      ],
+      "exemples": [
+        "Métabolisme industriel territorial",
+        "Analyse des flux de matières (MFA)"
+      ],
+      "synonymes": [
+        "écologie industrielle et territoriale",
+        "EIT"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "100+ démarches EIT accompagnées en France", "source": "ADEME", "annee": 2022}
+        {
+          "valeur": "100+ démarches EIT accompagnées en France",
+          "source": "ADEME",
+          "annee": 2022
+        }
       ]
     }
   ]

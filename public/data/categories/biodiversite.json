@@ -17,22 +17,72 @@
         "perspectives": "Les approches évoluent vers des modèles intégratifs combinant aires protégées, restauration et intégration dans les paysages productifs. L'ADN environnemental révolutionne le suivi. Les débats portent sur l'équité, les mécanismes de marché, et la gouvernance post-2030."
       },
       "sources": [
-        {"titre": "Convention sur la diversité biologique", "auteur": "Nations Unies", "url": "https://www.cbd.int/", "annee": 1992, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Global assessment report on biodiversity", "auteur": "IPBES", "url": "https://ipbes.net/global-assessment", "annee": 2019, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Biodiversity and ecosystem functioning", "auteur": "Loreau, M. et al.", "doi": "10.1126/science.1064088", "journal": "Science", "annee": 2001, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "Convention sur la diversité biologique",
+          "auteur": "Nations Unies",
+          "url": "https://www.cbd.int/",
+          "annee": 1992,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Global assessment report on biodiversity",
+          "auteur": "IPBES",
+          "url": "https://ipbes.net/global-assessment",
+          "annee": 2019,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Biodiversity and ecosystem functioning",
+          "auteur": "Loreau, M. et al.",
+          "doi": "10.1126/science.1064088",
+          "journal": "Science",
+          "annee": 2001,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
-      "tags": ["diversité", "espèces", "écosystèmes", "génétique"],
-      "motsClésScientifiques": ["diversité génétique", "diversité spécifique", "sixième extinction", "services écosystémiques"],
-      "relations": [
-        {"cible": "ecosysteme", "type": "renvoie_a", "score": 90},
-        {"cible": "services-ecosystemiques", "type": "renvoie_a", "score": 85},
-        {"cible": "erosion-biodiversite", "type": "oppose_a", "score": 95}
+      "tags": [
+        "diversité",
+        "espèces",
+        "écosystèmes",
+        "génétique"
       ],
-      "exemples": ["Forêt amazonienne : 10% des espèces connues", "Un gramme de sol : 10 milliards de micro-organismes"],
-      "synonymes": ["diversité biologique", "diversité du vivant"],
+      "motsClésScientifiques": [
+        "diversité génétique",
+        "diversité spécifique",
+        "sixième extinction",
+        "services écosystémiques"
+      ],
+      "relations": [
+        {
+          "cible": "ecosysteme",
+          "type": "renvoie_a",
+          "score": 90
+        },
+        {
+          "cible": "services-ecosystemiques",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "erosion-biodiversite",
+          "type": "oppose_a",
+          "score": 95
+        }
+      ],
+      "exemples": [
+        "Forêt amazonienne : 10% des espèces connues",
+        "Un gramme de sol : 10 milliards de micro-organismes"
+      ],
+      "synonymes": [
+        "diversité biologique",
+        "diversité du vivant"
+      ],
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Biodiversity_wetland.jpg/800px-Biodiversity_wetland.jpg",
         "alt": "Zone humide riche en biodiversité",
@@ -41,8 +91,16 @@
         "legende": "Écosystème de zone humide illustrant la richesse du vivant"
       },
       "indicateursQuantitatifs": [
-        {"valeur": "8,7 millions d'espèces estimées (86% non décrites)", "source": "Mora et al.", "annee": 2011},
-        {"valeur": "1 million d'espèces menacées d'extinction", "source": "IPBES", "annee": 2019}
+        {
+          "valeur": "8,7 millions d'espèces estimées (86% non décrites)",
+          "source": "Mora et al.",
+          "annee": 2011
+        },
+        {
+          "valeur": "1 million d'espèces menacées d'extinction",
+          "source": "IPBES",
+          "annee": 2019
+        }
       ]
     },
     {
@@ -58,24 +116,82 @@
         "perspectives": "L'avenir passe par la comptabilité écosystémique (SEEA-EA de l'ONU), les 'jumeaux numériques' d'écosystèmes, et l'intégration dans la planification territoriale. La notion d'écosystème s'étend aux systèmes socio-écologiques incluant les activités humaines."
       },
       "sources": [
-        {"titre": "The use and abuse of vegetational concepts and terms", "auteur": "Tansley, A.G.", "journal": "Ecology", "annee": 1935, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
-        {"titre": "Fundamentals of Ecology", "auteur": "Odum, E.P.", "annee": 1953, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
-        {"titre": "System of Environmental-Economic Accounting (SEEA-EA)", "auteur": "ONU", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "The use and abuse of vegetational concepts and terms",
+          "auteur": "Tansley, A.G.",
+          "journal": "Ecology",
+          "annee": 1935,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Fundamentals of Ecology",
+          "auteur": "Odum, E.P.",
+          "annee": 1953,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "System of Environmental-Economic Accounting (SEEA-EA)",
+          "auteur": "ONU",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
-      "tags": ["écologie", "biocénose", "biotope", "interactions"],
-      "motsClésScientifiques": ["biocénose", "biotope", "flux d'énergie", "cycles biogéochimiques", "résilience", "productivité"],
-      "relations": [
-        {"cible": "biodiversite", "type": "renvoie_a", "score": 90},
-        {"cible": "services-ecosystemiques", "type": "renvoie_a", "score": 85}
+      "tags": [
+        "écologie",
+        "biocénose",
+        "biotope",
+        "interactions"
       ],
-      "exemples": ["Écosystème forestier tempéré", "Récif corallien", "Zone humide"],
+      "motsClésScientifiques": [
+        "biocénose",
+        "biotope",
+        "flux d'énergie",
+        "cycles biogéochimiques",
+        "résilience",
+        "productivité"
+      ],
+      "relations": [
+        {
+          "cible": "biodiversite",
+          "type": "renvoie_a",
+          "score": 90
+        },
+        {
+          "cible": "services-ecosystemiques",
+          "type": "renvoie_a",
+          "score": 85
+        }
+      ],
+      "exemples": [
+        "Écosystème forestier tempéré",
+        "Récif corallien",
+        "Zone humide"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Forêts : 80% de la biodiversité terrestre", "source": "FAO", "annee": 2020},
-        {"valeur": "Récifs coralliens : 25% des espèces marines sur 0,1% des océans", "source": "UNEP", "annee": 2021}
-      ]
+        {
+          "valeur": "Forêts : 80% de la biodiversité terrestre",
+          "source": "FAO",
+          "annee": 2020
+        },
+        {
+          "valeur": "Récifs coralliens : 25% des espèces marines sur 0,1% des océans",
+          "source": "UNEP",
+          "annee": 2021
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Food_web.svg/800px-Food_web.svg.png",
+        "alt": "Réseau trophique d'un écosystème",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Interactions trophiques au sein d'un écosystème"
+      }
     },
     {
       "id": "services-ecosystemiques",
@@ -90,26 +206,94 @@
         "perspectives": "L'avenir passe par l'intégration systématique dans les décisions (taxonomie verte, due diligence), la cartographie fine des services, et les marchés de la biodiversité. Le débat porte sur le risque de financiarisation excessive de la nature et sur la reconnaissance des savoirs autochtones."
       },
       "sources": [
-        {"titre": "Millennium Ecosystem Assessment", "auteur": "Nations Unies", "url": "https://www.millenniumassessment.org/", "annee": 2005, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "The value of the world's ecosystem services", "auteur": "Costanza, R. et al.", "doi": "10.1038/387253a0", "journal": "Nature", "annee": 1997, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
-        {"titre": "The Economics of Ecosystems and Biodiversity (TEEB)", "url": "http://teebweb.org/", "annee": 2010, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Millennium Ecosystem Assessment",
+          "auteur": "Nations Unies",
+          "url": "https://www.millenniumassessment.org/",
+          "annee": 2005,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The value of the world's ecosystem services",
+          "auteur": "Costanza, R. et al.",
+          "doi": "10.1038/387253a0",
+          "journal": "Nature",
+          "annee": 1997,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The Economics of Ecosystems and Biodiversity (TEEB)",
+          "url": "http://teebweb.org/",
+          "annee": 2010,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
-      "tags": ["valeur", "bénéfices", "nature", "économie"],
-      "motsClésScientifiques": ["MEA", "NCP", "PSE", "capital naturel", "valeur économique", "TEEB"],
-      "relations": [
-        {"cible": "ecosysteme", "type": "renvoie_a", "score": 90},
-        {"cible": "biodiversite", "type": "renvoie_a", "score": 85},
-        {"cible": "pollinisation", "type": "est_type_de", "score": 80}
+      "tags": [
+        "valeur",
+        "bénéfices",
+        "nature",
+        "économie"
       ],
-      "exemples": ["Pollinisation : 153 Mrd €/an", "Régulation climat par forêts", "Filtration eau par zones humides"],
-      "synonymes": ["services environnementaux", "bienfaits de la nature", "contributions de la nature"],
+      "motsClésScientifiques": [
+        "MEA",
+        "NCP",
+        "PSE",
+        "capital naturel",
+        "valeur économique",
+        "TEEB"
+      ],
+      "relations": [
+        {
+          "cible": "ecosysteme",
+          "type": "renvoie_a",
+          "score": 90
+        },
+        {
+          "cible": "biodiversite",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "pollinisation",
+          "type": "est_type_de",
+          "score": 80
+        }
+      ],
+      "exemples": [
+        "Pollinisation : 153 Mrd €/an",
+        "Régulation climat par forêts",
+        "Filtration eau par zones humides"
+      ],
+      "synonymes": [
+        "services environnementaux",
+        "bienfaits de la nature",
+        "contributions de la nature"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Valeur services écosystémiques : 125-140 000 Mrd $/an", "source": "Costanza et al.", "annee": 2014},
-        {"valeur": "Pollinisation : 75% des cultures vivrières", "source": "IPBES", "annee": 2016}
-      ]
+        {
+          "valeur": "Valeur services écosystémiques : 125-140 000 Mrd $/an",
+          "source": "Costanza et al.",
+          "annee": 2014
+        },
+        {
+          "valeur": "Pollinisation : 75% des cultures vivrières",
+          "source": "IPBES",
+          "annee": 2016
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Ecosystem_services.svg/800px-Ecosystem_services.svg.png",
+        "alt": "Services écosystémiques",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Les quatre catégories de services écosystémiques"
+      }
     },
     {
       "id": "erosion-biodiversite",
@@ -124,25 +308,87 @@
         "perspectives": "L'avenir dépend d'une transformation profonde des modèles de production et de consommation. Les scénarios IPBES montrent que seules des trajectoires de 'changement transformateur' permettent d'inverser la tendance. L'émergence du concept de 'nature positive' vise une inversion de la courbe d'ici 2030."
       },
       "sources": [
-        {"titre": "Global assessment report on biodiversity", "auteur": "IPBES", "url": "https://ipbes.net/global-assessment", "annee": 2019, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Living Planet Report 2022", "auteur": "WWF", "url": "https://livingplanet.panda.org/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "The Sixth Extinction", "auteur": "Kolbert, E.", "annee": 2014, "type": "ouvrage_reference", "niveauPreuve": "elevé"}
+        {
+          "titre": "Global assessment report on biodiversity",
+          "auteur": "IPBES",
+          "url": "https://ipbes.net/global-assessment",
+          "annee": 2019,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Living Planet Report 2022",
+          "auteur": "WWF",
+          "url": "https://livingplanet.panda.org/",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The Sixth Extinction",
+          "auteur": "Kolbert, E.",
+          "annee": 2014,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
-      "tags": ["extinction", "menaces", "déclin", "crise"],
-      "motsClésScientifiques": ["sixième extinction", "Anthropocène", "défaunation", "dette d'extinction", "taux d'extinction"],
-      "relations": [
-        {"cible": "biodiversite", "type": "oppose_a", "score": 95},
-        {"cible": "changement-climatique", "type": "contribue_a", "score": 70, "direction": "negatif"}
+      "tags": [
+        "extinction",
+        "menaces",
+        "déclin",
+        "crise"
       ],
-      "exemples": ["Déclin 69% vertébrés depuis 1970", "1 million d'espèces menacées"],
-      "synonymes": ["perte de biodiversité", "sixième extinction", "effondrement du vivant"],
+      "motsClésScientifiques": [
+        "sixième extinction",
+        "Anthropocène",
+        "défaunation",
+        "dette d'extinction",
+        "taux d'extinction"
+      ],
+      "relations": [
+        {
+          "cible": "biodiversite",
+          "type": "oppose_a",
+          "score": 95
+        },
+        {
+          "cible": "changement-climatique",
+          "type": "contribue_a",
+          "score": 70,
+          "direction": "negatif"
+        }
+      ],
+      "exemples": [
+        "Déclin 69% vertébrés depuis 1970",
+        "1 million d'espèces menacées"
+      ],
+      "synonymes": [
+        "perte de biodiversité",
+        "sixième extinction",
+        "effondrement du vivant"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Déclin 69% populations vertébrés (1970-2018)", "source": "WWF LPI", "annee": 2022},
-        {"valeur": "Taux extinction 100-1000x le taux naturel", "source": "IPBES", "annee": 2019}
-      ]
+        {
+          "valeur": "Déclin 69% populations vertébrés (1970-2018)",
+          "source": "WWF LPI",
+          "annee": 2022
+        },
+        {
+          "valeur": "Taux extinction 100-1000x le taux naturel",
+          "source": "IPBES",
+          "annee": 2019
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Biodiversity_loss.svg/800px-Biodiversity_loss.svg.png",
+        "alt": "Graphique perte de biodiversité",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Déclin des populations animales sauvages"
+      }
     },
     {
       "id": "espece-endemique",
@@ -157,22 +403,69 @@
         "perspectives": "La conservation des endémiques passe par : la protection des hotspots, la gestion des menaces locales (invasives, pollution), la translocation assistée (controversée), et les banques de semences/gènes. L'objectif 30x30 vise à protéger les zones à fort endémisme."
       },
       "sources": [
-        {"titre": "Biodiversity Hotspots", "auteur": "Conservation International", "url": "https://www.conservation.org/priorities/biodiversity-hotspots", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Biodiversity hotspots for conservation priorities", "auteur": "Myers, N. et al.", "doi": "10.1038/35002501", "journal": "Nature", "annee": 2000, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "Biodiversity Hotspots",
+          "auteur": "Conservation International",
+          "url": "https://www.conservation.org/priorities/biodiversity-hotspots",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Biodiversity hotspots for conservation priorities",
+          "auteur": "Myers, N. et al.",
+          "doi": "10.1038/35002501",
+          "journal": "Nature",
+          "annee": 2000,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
-      "tags": ["répartition", "conservation", "vulnérabilité", "insularité"],
-      "motsClésScientifiques": ["hotspot", "spéciation", "biogéographie", "vulnérabilité", "aire de répartition"],
-      "relations": [
-        {"cible": "biodiversite", "type": "contribue_a", "score": 80, "direction": "positif"},
-        {"cible": "espece-invasive", "type": "oppose_a", "score": 70}
+      "tags": [
+        "répartition",
+        "conservation",
+        "vulnérabilité",
+        "insularité"
       ],
-      "exemples": ["Lémurien (Madagascar)", "Koala (Australie)", "Arbre dragon (Canaries)"],
+      "motsClésScientifiques": [
+        "hotspot",
+        "spéciation",
+        "biogéographie",
+        "vulnérabilité",
+        "aire de répartition"
+      ],
+      "relations": [
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 80,
+          "direction": "positif"
+        },
+        {
+          "cible": "espece-invasive",
+          "type": "oppose_a",
+          "score": 70
+        }
+      ],
+      "exemples": [
+        "Lémurien (Madagascar)",
+        "Koala (Australie)",
+        "Arbre dragon (Canaries)"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "36 hotspots : 2,5% des terres, 50% des plantes endémiques", "source": "Conservation International", "annee": 2021},
-        {"valeur": "Madagascar : 90% des espèces sont endémiques", "source": "WWF", "annee": 2020}
+        {
+          "valeur": "36 hotspots : 2,5% des terres, 50% des plantes endémiques",
+          "source": "Conservation International",
+          "annee": 2021
+        },
+        {
+          "valeur": "Madagascar : 90% des espèces sont endémiques",
+          "source": "WWF",
+          "annee": 2020
+        }
       ]
     },
     {
@@ -188,24 +481,79 @@
         "perspectives": "L'avenir passe par : la détection précoce (eDNA, sciences participatives), la prévention renforcée, la lutte biologique maîtrisée, et l'adaptation des écosystèmes. Le changement climatique favorise de nouvelles invasions (espèces tropicales vers le nord). Certains scientifiques proposent une vision moins manichéenne des 'nouveaux écosystèmes'."
       },
       "sources": [
-        {"titre": "Règlement (UE) 1143/2014 sur les EEE", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2014, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "The Ecology of Invasions by Animals and Plants", "auteur": "Elton, C.S.", "annee": 1958, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
-        {"titre": "IPBES thematic assessment on invasive alien species", "auteur": "IPBES", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Règlement (UE) 1143/2014 sur les EEE",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/",
+          "annee": 2014,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The Ecology of Invasions by Animals and Plants",
+          "auteur": "Elton, C.S.",
+          "annee": 1958,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "IPBES thematic assessment on invasive alien species",
+          "auteur": "IPBES",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
-      "tags": ["invasion biologique", "menace", "introduction", "contrôle"],
-      "motsClésScientifiques": ["EEE", "invasion biologique", "naturalisation", "gestion", "prévention"],
-      "relations": [
-        {"cible": "erosion-biodiversite", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "espece-endemique", "type": "oppose_a", "score": 80}
+      "tags": [
+        "invasion biologique",
+        "menace",
+        "introduction",
+        "contrôle"
       ],
-      "exemples": ["Frelon asiatique en Europe", "Jacinthe d'eau en Afrique", "Ragondin en France"],
-      "synonymes": ["espèce invasive", "EEE", "espèce allochtone envahissante"],
+      "motsClésScientifiques": [
+        "EEE",
+        "invasion biologique",
+        "naturalisation",
+        "gestion",
+        "prévention"
+      ],
+      "relations": [
+        {
+          "cible": "erosion-biodiversite",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "espece-endemique",
+          "type": "oppose_a",
+          "score": 80
+        }
+      ],
+      "exemples": [
+        "Frelon asiatique en Europe",
+        "Jacinthe d'eau en Afrique",
+        "Ragondin en France"
+      ],
+      "synonymes": [
+        "espèce invasive",
+        "EEE",
+        "espèce allochtone envahissante"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Coût invasives : 400+ Mrd $/an mondial", "source": "IPBES", "annee": 2023},
-        {"valeur": "+37% espèces invasives depuis 1970", "source": "IPBES", "annee": 2023}
+        {
+          "valeur": "Coût invasives : 400+ Mrd $/an mondial",
+          "source": "IPBES",
+          "annee": 2023
+        },
+        {
+          "valeur": "+37% espèces invasives depuis 1970",
+          "source": "IPBES",
+          "annee": 2023
+        }
       ]
     },
     {
@@ -221,23 +569,72 @@
         "perspectives": "L'avenir passe par : l'agroécologie (diversité florale, haies), la réduction des pesticides, les corridors écologiques, et la sensibilisation. La pollinisation robotique reste une dystopie. Le lien pollinisation-sécurité alimentaire devient un argument politique majeur."
       },
       "sources": [
-        {"titre": "The assessment report on pollinators, pollination and food production", "auteur": "IPBES", "url": "https://ipbes.net/assessment-reports/pollinators", "annee": 2016, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Worldwide decline of the entomofauna", "auteur": "Sánchez-Bayo, F. & Wyckhuys, K.A.G.", "doi": "10.1016/j.biocon.2019.01.020", "journal": "Biological Conservation", "annee": 2019, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "The assessment report on pollinators, pollination and food production",
+          "auteur": "IPBES",
+          "url": "https://ipbes.net/assessment-reports/pollinators",
+          "annee": 2016,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Worldwide decline of the entomofauna",
+          "auteur": "Sánchez-Bayo, F. & Wyckhuys, K.A.G.",
+          "doi": "10.1016/j.biocon.2019.01.020",
+          "journal": "Biological Conservation",
+          "annee": 2019,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
-      "tags": ["reproduction", "insectes", "abeilles", "agriculture"],
-      "motsClésScientifiques": ["pollinisateurs", "zoogamie", "déclin", "néonicotinoïdes", "sécurité alimentaire"],
-      "relations": [
-        {"cible": "services-ecosystemiques", "type": "est_type_de", "score": 90},
-        {"cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif"}
+      "tags": [
+        "reproduction",
+        "insectes",
+        "abeilles",
+        "agriculture"
       ],
-      "exemples": ["75% cultures vivrières dépendantes", "Abeilles : 80% plantes à fleurs pollinisées"],
-      "synonymes": ["pollinisation croisée", "fécondation des plantes"],
+      "motsClésScientifiques": [
+        "pollinisateurs",
+        "zoogamie",
+        "déclin",
+        "néonicotinoïdes",
+        "sécurité alimentaire"
+      ],
+      "relations": [
+        {
+          "cible": "services-ecosystemiques",
+          "type": "est_type_de",
+          "score": 90
+        },
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        }
+      ],
+      "exemples": [
+        "75% cultures vivrières dépendantes",
+        "Abeilles : 80% plantes à fleurs pollinisées"
+      ],
+      "synonymes": [
+        "pollinisation croisée",
+        "fécondation des plantes"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Valeur pollinisation : 235-577 Mrd $/an", "source": "IPBES", "annee": 2016},
-        {"valeur": "40% insectes pollinisateurs menacés", "source": "Sánchez-Bayo", "annee": 2019}
+        {
+          "valeur": "Valeur pollinisation : 235-577 Mrd $/an",
+          "source": "IPBES",
+          "annee": 2016
+        },
+        {
+          "valeur": "40% insectes pollinisateurs menacés",
+          "source": "Sánchez-Bayo",
+          "annee": 2019
+        }
       ]
     },
     {
@@ -253,25 +650,87 @@
         "perspectives": "L'avenir passe par : des réseaux connectés (trames verte et bleue), une protection effective (pas seulement déclarative), l'intégration des savoirs autochtones, et de nouveaux modèles de financement (dette-nature swaps, PSE). La notion évolue vers des 'paysages conservés' intégrant aires protégées et zones tampons gérées durablement."
       },
       "sources": [
-        {"titre": "Définition UICN des aires protégées", "auteur": "UICN", "url": "https://www.iucn.org/theme/protected-areas/about", "annee": 2008, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Protected Planet Report 2020", "auteur": "UNEP-WCMC & IUCN", "url": "https://livereport.protectedplanet.net/", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Kunming-Montreal Global Biodiversity Framework", "auteur": "CBD COP15", "annee": 2022, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Définition UICN des aires protégées",
+          "auteur": "UICN",
+          "url": "https://www.iucn.org/theme/protected-areas/about",
+          "annee": 2008,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Protected Planet Report 2020",
+          "auteur": "UNEP-WCMC & IUCN",
+          "url": "https://livereport.protectedplanet.net/",
+          "annee": 2020,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Kunming-Montreal Global Biodiversity Framework",
+          "auteur": "CBD COP15",
+          "annee": 2022,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
-      "tags": ["conservation", "protection", "territoire", "gestion"],
-      "motsClésScientifiques": ["catégories UICN", "30x30", "efficacité", "connectivité", "OECM"],
-      "relations": [
-        {"cible": "biodiversite", "type": "contribue_a", "score": 90, "direction": "positif"},
-        {"cible": "ecosysteme", "type": "renvoie_a", "score": 80}
+      "tags": [
+        "conservation",
+        "protection",
+        "territoire",
+        "gestion"
       ],
-      "exemples": ["Parc national des Cévennes", "Réserve naturelle de Camargue", "Réseau Natura 2000"],
-      "synonymes": ["espace protégé", "zone de conservation"],
+      "motsClésScientifiques": [
+        "catégories UICN",
+        "30x30",
+        "efficacité",
+        "connectivité",
+        "OECM"
+      ],
+      "relations": [
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 90,
+          "direction": "positif"
+        },
+        {
+          "cible": "ecosysteme",
+          "type": "renvoie_a",
+          "score": 80
+        }
+      ],
+      "exemples": [
+        "Parc national des Cévennes",
+        "Réserve naturelle de Camargue",
+        "Réseau Natura 2000"
+      ],
+      "synonymes": [
+        "espace protégé",
+        "zone de conservation"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "17% des terres, 8% des mers protégés (2022)", "source": "Protected Planet", "annee": 2022},
-        {"valeur": "Objectif 30x30 d'ici 2030", "source": "COP15", "annee": 2022}
-      ]
+        {
+          "valeur": "17% des terres, 8% des mers protégés (2022)",
+          "source": "Protected Planet",
+          "annee": 2022
+        },
+        {
+          "valeur": "Objectif 30x30 d'ici 2030",
+          "source": "COP15",
+          "annee": 2022
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Protected_area.jpg/800px-Protected_area.jpg",
+        "alt": "Aire protégée",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Parc national - zone de protection de la biodiversité"
+      }
     },
     {
       "id": "corridor-ecologique",
@@ -286,21 +745,67 @@
         "perspectives": "L'avenir passe par : des réseaux écologiques transfrontaliers (Alpes, Pyrénées), l'adaptation au changement climatique (corridors de migration vers le nord/altitude), et l'intégration dans les infrastructures vertes urbaines. La notion évolue vers des 'trames fonctionnelles' adaptées à différents groupes d'espèces."
       },
       "sources": [
-        {"titre": "Trame verte et bleue", "auteur": "Ministère de la Transition écologique", "url": "https://www.ecologie.gouv.fr/trame-verte-et-bleue", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Corridor Ecology", "auteur": "Hilty, J.A. et al.", "annee": 2006, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
-        {"titre": "Metapopulations and Wildlife Conservation", "auteur": "McCullough, D.R.", "annee": 1996, "type": "ouvrage_reference", "niveauPreuve": "elevé"}
+        {
+          "titre": "Trame verte et bleue",
+          "auteur": "Ministère de la Transition écologique",
+          "url": "https://www.ecologie.gouv.fr/trame-verte-et-bleue",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Corridor Ecology",
+          "auteur": "Hilty, J.A. et al.",
+          "annee": 2006,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Metapopulations and Wildlife Conservation",
+          "auteur": "McCullough, D.R.",
+          "annee": 1996,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "biodiversite",
-      "tags": ["connectivité", "trame verte", "migration", "paysage"],
-      "motsClésScientifiques": ["TVB", "fragmentation", "métapopulation", "connectivité", "écologie du paysage"],
-      "relations": [
-        {"cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "ecosysteme", "type": "renvoie_a", "score": 75}
+      "tags": [
+        "connectivité",
+        "trame verte",
+        "migration",
+        "paysage"
       ],
-      "exemples": ["Haies bocagères", "Passages à faune sous autoroutes", "Berges végétalisées"],
-      "synonymes": ["continuité écologique", "trame verte et bleue"]
+      "motsClésScientifiques": [
+        "TVB",
+        "fragmentation",
+        "métapopulation",
+        "connectivité",
+        "écologie du paysage"
+      ],
+      "relations": [
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "ecosysteme",
+          "type": "renvoie_a",
+          "score": 75
+        }
+      ],
+      "exemples": [
+        "Haies bocagères",
+        "Passages à faune sous autoroutes",
+        "Berges végétalisées"
+      ],
+      "synonymes": [
+        "continuité écologique",
+        "trame verte et bleue"
+      ]
     },
     {
       "id": "trame-verte-bleue",
@@ -316,21 +821,60 @@
         "perspectives": "L'évolution vers des 'trames fonctionnelles' adaptées aux groupes d'espèces, l'intégration du changement climatique, et le renforcement de l'opposabilité sont attendus. La TVB s'inscrit désormais dans la Stratégie nationale biodiversité 2030 et les objectifs 30x30 de Kunming-Montréal."
       },
       "sources": [
-        {"titre": "La Trame verte et bleue", "institution": "Ministère de la Transition écologique", "url": "https://www.ecologie.gouv.fr/trame-verte-et-bleue", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Loi Grenelle 2 - Article L371", "institution": "République Française", "annee": 2010, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "La Trame verte et bleue",
+          "institution": "Ministère de la Transition écologique",
+          "url": "https://www.ecologie.gouv.fr/trame-verte-et-bleue",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Loi Grenelle 2 - Article L371",
+          "institution": "République Française",
+          "annee": 2010,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["SRCE", "continuités écologiques", "réservoirs", "corridors", "opposabilité"],
+      "motsClésScientifiques": [
+        "SRCE",
+        "continuités écologiques",
+        "réservoirs",
+        "corridors",
+        "opposabilité"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "18 SRCE adoptés en France métropolitaine", "source": "OFB", "annee": 2020}
+        {
+          "valeur": "18 SRCE adoptés en France métropolitaine",
+          "source": "OFB",
+          "annee": 2020
+        }
       ],
       "relations": [
-        {"cible": "corridor-ecologique", "type": "renvoie_a", "score": 95},
-        {"cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif"}
+        {
+          "cible": "corridor-ecologique",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        }
       ],
-      "exemples": ["SRCE Île-de-France", "PLU avec OAP TVB", "Passages à faune A10"],
-      "synonymes": ["TVB", "Green and blue infrastructure"]
+      "exemples": [
+        "SRCE Île-de-France",
+        "PLU avec OAP TVB",
+        "Passages à faune A10"
+      ],
+      "synonymes": [
+        "TVB",
+        "Green and blue infrastructure"
+      ]
     },
     {
       "id": "rewilding",
@@ -346,21 +890,62 @@
         "perspectives": "Le rewilding s'étend en Europe avec des projets ambitieux (corridor des Carpates, delta du Danube). L'articulation avec les politiques agricoles (paiements pour services écosystémiques) et le tourisme de nature ouvre des perspectives économiques. Le 'ocean rewilding' et le 'urban rewilding' élargissent le concept."
       },
       "sources": [
-        {"titre": "Rewilding European Landscapes", "auteur": "Pereira, H.M. & Navarro, L.M.", "doi": "10.1007/978-3-319-12039-3", "annee": 2015, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
-        {"titre": "Science-based restoration of trophic structure", "auteur": "Svenning, J.-C. et al.", "doi": "10.1111/ele.12564", "journal": "Ecology Letters", "annee": 2016, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "Rewilding European Landscapes",
+          "auteur": "Pereira, H.M. & Navarro, L.M.",
+          "doi": "10.1007/978-3-319-12039-3",
+          "annee": 2015,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Science-based restoration of trophic structure",
+          "auteur": "Svenning, J.-C. et al.",
+          "doi": "10.1111/ele.12564",
+          "journal": "Ecology Letters",
+          "annee": 2016,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["réensauvagement", "cascades trophiques", "espèces clés", "processus naturels", "Yellowstone"],
+      "motsClésScientifiques": [
+        "réensauvagement",
+        "cascades trophiques",
+        "espèces clés",
+        "processus naturels",
+        "Yellowstone"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "10+ projets majeurs Rewilding Europe actifs", "source": "Rewilding Europe", "annee": 2023}
+        {
+          "valeur": "10+ projets majeurs Rewilding Europe actifs",
+          "source": "Rewilding Europe",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "ecosysteme", "type": "renvoie_a", "score": 80}
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "ecosysteme",
+          "type": "renvoie_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Réintroduction du loup en France", "Bisons d'Europe en Roumanie", "Castors en Grande-Bretagne"],
-      "synonymes": ["Réensauvagement", "Renaturalisation passive"]
+      "exemples": [
+        "Réintroduction du loup en France",
+        "Bisons d'Europe en Roumanie",
+        "Castors en Grande-Bretagne"
+      ],
+      "synonymes": [
+        "Réensauvagement",
+        "Renaturalisation passive"
+      ]
     },
     {
       "id": "espece-parapluie",
@@ -376,17 +961,47 @@
         "perspectives": "L'intégration avec les analyses de viabilité des populations, les réseaux écologiques et la modélisation de niche améliore le concept. Les 'umbrella assemblages' (ensembles d'espèces parapluies) et les approches multi-taxons progressent. L'objectif 30x30 relance l'intérêt pour les stratégies de priorisation spatiale."
       },
       "sources": [
-        {"titre": "Umbrella species and conservation planning", "auteur": "Roberge, J.-M. & Angelstam, P.", "doi": "10.1111/j.1523-1739.2004.00032.x", "journal": "Conservation Biology", "annee": 2004, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "Umbrella species and conservation planning",
+          "auteur": "Roberge, J.-M. & Angelstam, P.",
+          "doi": "10.1111/j.1523-1739.2004.00032.x",
+          "journal": "Conservation Biology",
+          "annee": 2004,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["umbrella species", "biologie de la conservation", "surrogates", "priorisation", "domaine vital"],
-      "relations": [
-        {"cible": "biodiversite", "type": "contribue_a", "score": 75, "direction": "positif"},
-        {"cible": "ecosysteme", "type": "renvoie_a", "score": 70}
+      "motsClésScientifiques": [
+        "umbrella species",
+        "biologie de la conservation",
+        "surrogates",
+        "priorisation",
+        "domaine vital"
       ],
-      "exemples": ["Ours brun dans les Pyrénées", "Lynx boréal dans le Jura", "Tigre en Asie du Sud-Est"],
-      "synonymes": ["Umbrella species", "Espèce substitut"]
+      "relations": [
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 75,
+          "direction": "positif"
+        },
+        {
+          "cible": "ecosysteme",
+          "type": "renvoie_a",
+          "score": 70
+        }
+      ],
+      "exemples": [
+        "Ours brun dans les Pyrénées",
+        "Lynx boréal dans le Jura",
+        "Tigre en Asie du Sud-Est"
+      ],
+      "synonymes": [
+        "Umbrella species",
+        "Espèce substitut"
+      ]
     },
     {
       "id": "hotspot-biodiversite",
@@ -402,23 +1017,72 @@
         "perspectives": "L'intégration des hotspots dans les objectifs post-2020 (Kunming-Montréal) et les mécanismes de financement (CEPF - Critical Ecosystem Partnership Fund) renforce leur rôle. L'émergence des 'climate refugia' (refuges climatiques) et des 'megadiverse countries' complète l'approche. L'objectif est d'atteindre une protection significative dans tous les hotspots d'ici 2030."
       },
       "sources": [
-        {"titre": "Biodiversity hotspots for conservation priorities", "auteur": "Myers, N. et al.", "doi": "10.1038/35002501", "journal": "Nature", "annee": 2000, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
-        {"titre": "Global Biodiversity Hotspots", "institution": "Conservation International", "url": "https://www.conservation.org/priorities/biodiversity-hotspots", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Biodiversity hotspots for conservation priorities",
+          "auteur": "Myers, N. et al.",
+          "doi": "10.1038/35002501",
+          "journal": "Nature",
+          "annee": 2000,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Global Biodiversity Hotspots",
+          "institution": "Conservation International",
+          "url": "https://www.conservation.org/priorities/biodiversity-hotspots",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["endémisme", "priorisation", "Conservation International", "CEPF", "biogéographie"],
+      "motsClésScientifiques": [
+        "endémisme",
+        "priorisation",
+        "Conservation International",
+        "CEPF",
+        "biogéographie"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "36 hotspots couvrant 2,5% des terres émergées", "source": "Conservation International", "annee": 2023},
-        {"valeur": "50%+ des espèces de plantes endémiques dans les hotspots", "source": "Myers et al.", "annee": 2000}
+        {
+          "valeur": "36 hotspots couvrant 2,5% des terres émergées",
+          "source": "Conservation International",
+          "annee": 2023
+        },
+        {
+          "valeur": "50%+ des espèces de plantes endémiques dans les hotspots",
+          "source": "Myers et al.",
+          "annee": 2000
+        }
       ],
       "relations": [
-        {"cible": "biodiversite", "type": "renvoie_a", "score": 95},
-        {"cible": "espece-endemique", "type": "renvoie_a", "score": 90},
-        {"cible": "erosion-biodiversite", "type": "oppose_a", "score": 80}
+        {
+          "cible": "biodiversite",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "espece-endemique",
+          "type": "renvoie_a",
+          "score": 90
+        },
+        {
+          "cible": "erosion-biodiversite",
+          "type": "oppose_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Bassin méditerranéen", "Andes tropicales", "Madagascar et îles de l'océan Indien", "Forêts atlantiques du Brésil"],
-      "synonymes": ["Point chaud de biodiversité", "Zone d'endémisme prioritaire"]
+      "exemples": [
+        "Bassin méditerranéen",
+        "Andes tropicales",
+        "Madagascar et îles de l'océan Indien",
+        "Forêts atlantiques du Brésil"
+      ],
+      "synonymes": [
+        "Point chaud de biodiversité",
+        "Zone d'endémisme prioritaire"
+      ]
     },
     {
       "id": "sixieme-extinction",
@@ -434,25 +1098,84 @@
         "perspectives": "La 'dé-extinction' (ressusciter des espèces éteintes par biotechnologie) fait débat mais reste marginale. Les solutions passent par la conservation in situ et ex situ, la restauration à grande échelle (Décennie ONU), et la transformation des modèles économiques. L'enjeu est de stabiliser l'extinction d'ici 2030 puis d'inverser la tendance."
       },
       "sources": [
-        {"titre": "The Sixth Extinction: An Unnatural History", "auteur": "Kolbert, E.", "annee": 2014, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
-        {"titre": "Accelerated modern human-induced species losses", "auteur": "Ceballos, G. et al.", "doi": "10.1126/sciadv.1400253", "journal": "Science Advances", "annee": 2015, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
-        {"titre": "Global assessment report on biodiversity", "institution": "IPBES", "url": "https://ipbes.net/global-assessment", "annee": 2019, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "The Sixth Extinction: An Unnatural History",
+          "auteur": "Kolbert, E.",
+          "annee": 2014,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Accelerated modern human-induced species losses",
+          "auteur": "Ceballos, G. et al.",
+          "doi": "10.1126/sciadv.1400253",
+          "journal": "Science Advances",
+          "annee": 2015,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Global assessment report on biodiversity",
+          "institution": "IPBES",
+          "url": "https://ipbes.net/global-assessment",
+          "annee": 2019,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["extinction de masse", "Anthropocène", "taux d'extinction", "dette d'extinction", "IPBES"],
+      "motsClésScientifiques": [
+        "extinction de masse",
+        "Anthropocène",
+        "taux d'extinction",
+        "dette d'extinction",
+        "IPBES"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Taux d'extinction 100-1000x supérieur au fond naturel", "source": "Ceballos et al.", "annee": 2015},
-        {"valeur": "1 million d'espèces menacées d'extinction", "source": "IPBES", "annee": 2019},
-        {"valeur": "69% de déclin des populations de vertébrés depuis 1970", "source": "WWF Living Planet Report", "annee": 2022}
+        {
+          "valeur": "Taux d'extinction 100-1000x supérieur au fond naturel",
+          "source": "Ceballos et al.",
+          "annee": 2015
+        },
+        {
+          "valeur": "1 million d'espèces menacées d'extinction",
+          "source": "IPBES",
+          "annee": 2019
+        },
+        {
+          "valeur": "69% de déclin des populations de vertébrés depuis 1970",
+          "source": "WWF Living Planet Report",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "biodiversite", "type": "oppose_a", "score": 95},
-        {"cible": "erosion-biodiversite", "type": "renvoie_a", "score": 95},
-        {"cible": "changement-climatique", "type": "renvoie_a", "score": 80}
+        {
+          "cible": "biodiversite",
+          "type": "oppose_a",
+          "score": 95
+        },
+        {
+          "cible": "erosion-biodiversite",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "changement-climatique",
+          "type": "renvoie_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Extinction du dodo", "Disparition du rhinocéros blanc du Nord", "Déclin des amphibiens (chytridiomycose)"],
-      "synonymes": ["Extinction de l'Anthropocène", "Extinction de l'Holocène", "Defaunation"]
+      "exemples": [
+        "Extinction du dodo",
+        "Disparition du rhinocéros blanc du Nord",
+        "Déclin des amphibiens (chytridiomycose)"
+      ],
+      "synonymes": [
+        "Extinction de l'Anthropocène",
+        "Extinction de l'Holocène",
+        "Defaunation"
+      ]
     }
   ]
 }

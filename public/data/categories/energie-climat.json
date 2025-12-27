@@ -75,15 +75,54 @@
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
       "categorie": "energie-climat",
-      "tags": ["réchauffement", "GES", "GIEC", "température"],
-      "motsClésScientifiques": ["forçage radiatif", "rétroactions", "points de basculement", "budget carbone", "scénarios SSP", "attribution", "adaptation", "atténuation"],
+      "tags": [
+        "réchauffement",
+        "GES",
+        "GIEC",
+        "température"
+      ],
+      "motsClésScientifiques": [
+        "forçage radiatif",
+        "rétroactions",
+        "points de basculement",
+        "budget carbone",
+        "scénarios SSP",
+        "attribution",
+        "adaptation",
+        "atténuation"
+      ],
       "relations": [
-        { "cible": "gaz-effet-serre", "type": "renvoie_a", "score": 95 },
-        { "cible": "empreinte-carbone", "type": "renvoie_a", "score": 85 },
-        { "cible": "neutralite-carbone", "type": "oppose_a", "score": 80 },
-        { "cible": "erosion-biodiversite", "type": "contribue_a", "score": 75, "direction": "positif" },
-        { "cible": "transition-energetique", "type": "renvoie_a", "score": 85 },
-        { "cible": "energie-fossile", "type": "renvoie_a", "score": 90 }
+        {
+          "cible": "gaz-effet-serre",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "empreinte-carbone",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "oppose_a",
+          "score": 80
+        },
+        {
+          "cible": "erosion-biodiversite",
+          "type": "contribue_a",
+          "score": 75,
+          "direction": "positif"
+        },
+        {
+          "cible": "transition-energetique",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "energie-fossile",
+          "type": "renvoie_a",
+          "score": 90
+        }
       ],
       "exemples": [
         "Hausse de 1,1°C de la température moyenne mondiale depuis 1850-1900",
@@ -91,7 +130,11 @@
         "Intensification des événements météorologiques extrêmes (canicules, inondations)",
         "Recul des glaciers alpins de 50% depuis 1850"
       ],
-      "synonymes": ["dérèglement climatique", "réchauffement climatique", "crise climatique"],
+      "synonymes": [
+        "dérèglement climatique",
+        "réchauffement climatique",
+        "crise climatique"
+      ],
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Global_Temperature_Anomaly.svg/800px-Global_Temperature_Anomaly.svg.png",
         "alt": "Anomalie de température mondiale depuis 1880",
@@ -135,22 +178,75 @@
         "perspectives": "La décarbonation passe par l'électrification, l'efficacité énergétique, et les énergies renouvelables pour le CO2. La réduction du méthane (élevage, fuites) offre un levier rapide car sa durée de vie est courte. Les technologies de capture du carbone (CCUS, DAC) sont considérées nécessaires pour les émissions résiduelles. L'objectif de neutralité nécessite aussi de préserver les puits naturels (forêts, océans)."
       },
       "sources": [
-        {"titre": "Climate Change 2021: The Physical Science Basis (AR6 WG1)", "auteur": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg1/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Global Greenhouse Gas Emissions Data", "auteur": "EPA", "url": "https://www.epa.gov/ghgemissions", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "WMO Greenhouse Gas Bulletin", "auteur": "WMO", "url": "https://library.wmo.int/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Climate Change 2021: The Physical Science Basis (AR6 WG1)",
+          "auteur": "IPCC",
+          "url": "https://www.ipcc.ch/report/ar6/wg1/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Global Greenhouse Gas Emissions Data",
+          "auteur": "EPA",
+          "url": "https://www.epa.gov/ghgemissions",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "WMO Greenhouse Gas Bulletin",
+          "auteur": "WMO",
+          "url": "https://library.wmo.int/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "energie-climat",
-      "tags": ["CO2", "méthane", "émissions", "atmosphère"],
-      "motsClésScientifiques": ["forçage radiatif", "PRG", "équivalent CO2", "budget carbone", "inventaire", "puits de carbone"],
-      "relations": [
-        {"cible": "changement-climatique", "type": "contribue_a", "score": 95, "direction": "positif"},
-        {"cible": "empreinte-carbone", "type": "renvoie_a", "score": 85},
-        {"cible": "neutralite-carbone", "type": "oppose_a", "score": 80}
+      "tags": [
+        "CO2",
+        "méthane",
+        "émissions",
+        "atmosphère"
       ],
-      "exemples": ["CO2 : combustion fossiles, déforestation", "CH4 : élevage, rizières, fuites gaz", "N2O : engrais azotés"],
-      "synonymes": ["GES", "greenhouse gases"],
+      "motsClésScientifiques": [
+        "forçage radiatif",
+        "PRG",
+        "équivalent CO2",
+        "budget carbone",
+        "inventaire",
+        "puits de carbone"
+      ],
+      "relations": [
+        {
+          "cible": "changement-climatique",
+          "type": "contribue_a",
+          "score": 95,
+          "direction": "positif"
+        },
+        {
+          "cible": "empreinte-carbone",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "oppose_a",
+          "score": 80
+        }
+      ],
+      "exemples": [
+        "CO2 : combustion fossiles, déforestation",
+        "CH4 : élevage, rizières, fuites gaz",
+        "N2O : engrais azotés"
+      ],
+      "synonymes": [
+        "GES",
+        "greenhouse gases"
+      ],
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Atmospheric_CO2_with_glacial_cycles.svg/800px-Atmospheric_CO2_with_glacial_cycles.svg.png",
         "alt": "Concentration atmosphérique de CO2 sur 800 000 ans",
@@ -159,8 +255,16 @@
         "legende": "CO2 atmosphérique : cycles glaciaires et pic actuel sans précédent"
       },
       "indicateursQuantitatifs": [
-        {"valeur": "CO2 atmosphérique : 420 ppm (2023) vs 280 ppm préindustriel", "source": "NOAA", "annee": 2023},
-        {"valeur": "Émissions mondiales : 57,4 GtCO2eq/an", "source": "UNEP", "annee": 2022}
+        {
+          "valeur": "CO2 atmosphérique : 420 ppm (2023) vs 280 ppm préindustriel",
+          "source": "NOAA",
+          "annee": 2023
+        },
+        {
+          "valeur": "Émissions mondiales : 57,4 GtCO2eq/an",
+          "source": "UNEP",
+          "annee": 2022
+        }
       ]
     },
     {
@@ -176,22 +280,74 @@
         "perspectives": "L'avenir passe par : la standardisation mondiale (ISSB), l'automatisation de la collecte de données (IoT, IA), les passeports produits numériques incluant l'empreinte carbone, et l'intégration dans les systèmes comptables. Les 'science-based targets' (SBTi) alignent les objectifs d'entreprises sur la science climatique. La 'comptabilité carbone triple' (stocks, flux, évitements) émerge. L'empreinte carbone pourrait devenir aussi courante que le prix."
       },
       "sources": [
-        {"titre": "GHG Protocol Corporate Standard", "auteur": "WRI/WBCSD", "url": "https://ghgprotocol.org/", "annee": 2015, "type": "norme_iso", "niveauPreuve": "elevé"},
-        {"titre": "ISO 14064:2018 - Gaz à effet de serre", "auteur": "ISO", "annee": 2018, "type": "norme_iso", "niveauPreuve": "elevé"},
-        {"titre": "Méthode Bilan Carbone", "auteur": "ADEME", "url": "https://bilans-ges.ademe.fr/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "GHG Protocol Corporate Standard",
+          "auteur": "WRI/WBCSD",
+          "url": "https://ghgprotocol.org/",
+          "annee": 2015,
+          "type": "norme_iso",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "ISO 14064:2018 - Gaz à effet de serre",
+          "auteur": "ISO",
+          "annee": 2018,
+          "type": "norme_iso",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Méthode Bilan Carbone",
+          "auteur": "ADEME",
+          "url": "https://bilans-ges.ademe.fr/",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "energie-climat",
-      "tags": ["bilan", "CO2", "mesure", "réduction"],
-      "motsClésScientifiques": ["scope 1/2/3", "GHG Protocol", "facteur d'émission", "ACV carbone", "SBTi", "CSRD"],
-      "relations": [
-        {"cible": "gaz-effet-serre", "type": "renvoie_a", "score": 90},
-        {"cible": "neutralite-carbone", "type": "renvoie_a", "score": 85},
-        {"cible": "analyse-cycle-vie", "type": "proche_de", "score": 75}
+      "tags": [
+        "bilan",
+        "CO2",
+        "mesure",
+        "réduction"
       ],
-      "exemples": ["Empreinte Français moyen : ~10 tCO2eq/an", "Vol Paris-NY : ~1 tCO2eq", "Smartphone : ~70 kg CO2eq"],
-      "synonymes": ["bilan carbone", "carbon footprint", "bilan GES"],
+      "motsClésScientifiques": [
+        "scope 1/2/3",
+        "GHG Protocol",
+        "facteur d'émission",
+        "ACV carbone",
+        "SBTi",
+        "CSRD"
+      ],
+      "relations": [
+        {
+          "cible": "gaz-effet-serre",
+          "type": "renvoie_a",
+          "score": 90
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "analyse-cycle-vie",
+          "type": "proche_de",
+          "score": 75
+        }
+      ],
+      "exemples": [
+        "Empreinte Français moyen : ~10 tCO2eq/an",
+        "Vol Paris-NY : ~1 tCO2eq",
+        "Smartphone : ~70 kg CO2eq"
+      ],
+      "synonymes": [
+        "bilan carbone",
+        "carbon footprint",
+        "bilan GES"
+      ],
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Carbon_footprint_breakdown.svg/800px-Carbon_footprint_breakdown.svg.png",
         "alt": "Répartition de l'empreinte carbone par secteur",
@@ -200,8 +356,16 @@
         "legende": "Répartition typique d'une empreinte carbone"
       },
       "indicateursQuantitatifs": [
-        {"valeur": "Empreinte France : 9,9 tCO2eq/hab/an (dont 50% importées)", "source": "SDES", "annee": 2022},
-        {"valeur": "Objectif 2050 : 2 tCO2eq/hab/an compatible 1,5°C", "source": "GIEC", "annee": 2018}
+        {
+          "valeur": "Empreinte France : 9,9 tCO2eq/hab/an (dont 50% importées)",
+          "source": "SDES",
+          "annee": 2022
+        },
+        {
+          "valeur": "Objectif 2050 : 2 tCO2eq/hab/an compatible 1,5°C",
+          "source": "GIEC",
+          "annee": 2018
+        }
       ]
     },
     {
@@ -217,22 +381,76 @@
         "perspectives": "Les scénarios de neutralité impliquent : décarbonation quasi-complète de l'énergie et des transports, électrification massive, efficacité et sobriété, agriculture régénérative, et captage pour les émissions résiduelles. Les technologies NETs (Negative Emission Technologies) incluent le boisement, le BECCS, le DAC, le biochar, et la minéralisation. L'après-neutralité ('net negative') pourrait être nécessaire pour réparer le dépassement. La notion évolue vers la 'contribution' des acteurs à la neutralité collective."
       },
       "sources": [
-        {"titre": "Special Report on Global Warming of 1.5°C", "auteur": "IPCC", "url": "https://www.ipcc.ch/sr15/", "annee": 2018, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Net Zero by 2050: A Roadmap for the Global Energy Sector", "auteur": "IEA", "url": "https://www.iea.org/reports/net-zero-by-2050", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Stratégie nationale bas-carbone (SNBC)", "auteur": "MTE", "url": "https://www.ecologie.gouv.fr/strategie-nationale-bas-carbone-snbc", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Special Report on Global Warming of 1.5°C",
+          "auteur": "IPCC",
+          "url": "https://www.ipcc.ch/sr15/",
+          "annee": 2018,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Net Zero by 2050: A Roadmap for the Global Energy Sector",
+          "auteur": "IEA",
+          "url": "https://www.iea.org/reports/net-zero-by-2050",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Stratégie nationale bas-carbone (SNBC)",
+          "auteur": "MTE",
+          "url": "https://www.ecologie.gouv.fr/strategie-nationale-bas-carbone-snbc",
+          "annee": 2020,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "energie-climat",
-      "tags": ["objectif", "compensation", "réduction", "2050"],
-      "motsClésScientifiques": ["net zero", "émissions négatives", "budget carbone", "BECCS", "DAC", "puits de carbone", "SBTi"],
-      "relations": [
-        {"cible": "empreinte-carbone", "type": "oppose_a", "score": 85},
-        {"cible": "gaz-effet-serre", "type": "oppose_a", "score": 80},
-        {"cible": "transition-energetique", "type": "renvoie_a", "score": 85}
+      "tags": [
+        "objectif",
+        "compensation",
+        "réduction",
+        "2050"
       ],
-      "exemples": ["France : neutralité 2050 (loi Énergie-Climat)", "UE : Green Deal, neutralité 2050", "Chine : neutralité 2060"],
-      "synonymes": ["net zero", "zéro émission nette", "carbon neutral"],
+      "motsClésScientifiques": [
+        "net zero",
+        "émissions négatives",
+        "budget carbone",
+        "BECCS",
+        "DAC",
+        "puits de carbone",
+        "SBTi"
+      ],
+      "relations": [
+        {
+          "cible": "empreinte-carbone",
+          "type": "oppose_a",
+          "score": 85
+        },
+        {
+          "cible": "gaz-effet-serre",
+          "type": "oppose_a",
+          "score": 80
+        },
+        {
+          "cible": "transition-energetique",
+          "type": "renvoie_a",
+          "score": 85
+        }
+      ],
+      "exemples": [
+        "France : neutralité 2050 (loi Énergie-Climat)",
+        "UE : Green Deal, neutralité 2050",
+        "Chine : neutralité 2060"
+      ],
+      "synonymes": [
+        "net zero",
+        "zéro émission nette",
+        "carbon neutral"
+      ],
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Net_zero_emissions.svg/800px-Net_zero_emissions.svg.png",
         "alt": "Schéma de la neutralité carbone",
@@ -241,8 +459,16 @@
         "legende": "Équilibre émissions-absorptions pour atteindre le net zéro"
       },
       "indicateursQuantitatifs": [
-        {"valeur": "Neutralité CO2 mondiale nécessaire entre 2045-2055 pour 1,5°C", "source": "GIEC SR15", "annee": 2018},
-        {"valeur": "130+ pays engagés sur le net zero", "source": "Net Zero Tracker", "annee": 2023}
+        {
+          "valeur": "Neutralité CO2 mondiale nécessaire entre 2045-2055 pour 1,5°C",
+          "source": "GIEC SR15",
+          "annee": 2018
+        },
+        {
+          "valeur": "130+ pays engagés sur le net zero",
+          "source": "Net Zero Tracker",
+          "annee": 2023
+        }
       ]
     },
     {
@@ -258,22 +484,79 @@
         "perspectives": "L'avenir passe par : le solaire et l'éolien offshore à grande échelle, l'hydrogène vert pour l'industrie et les transports lourds, les réseaux intelligents, et le stockage massif. Les 'power purchase agreements' (PPA) permettent aux entreprises de s'approvisionner en EnR. L'autoconsommation et les communautés énergétiques citoyennes se développent. Les EnR pourraient couvrir 90% des besoins électriques mondiaux d'ici 2050 (IRENA)."
       },
       "sources": [
-        {"titre": "Renewable Power Generation Costs in 2022", "auteur": "IRENA", "url": "https://www.irena.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "World Energy Outlook 2023", "auteur": "IEA", "url": "https://www.iea.org/reports/world-energy-outlook-2023", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Renewable Energy Directive (RED III)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2023, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Renewable Power Generation Costs in 2022",
+          "auteur": "IRENA",
+          "url": "https://www.irena.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "World Energy Outlook 2023",
+          "auteur": "IEA",
+          "url": "https://www.iea.org/reports/world-energy-outlook-2023",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Renewable Energy Directive (RED III)",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/",
+          "annee": 2023,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "energie-climat",
-      "tags": ["solaire", "éolien", "hydraulique", "biomasse", "transition"],
-      "motsClésScientifiques": ["photovoltaïque", "éolien offshore", "STEP", "hydrogène vert", "intermittence", "smart grid", "LCOE"],
-      "relations": [
-        {"cible": "transition-energetique", "type": "contribue_a", "score": 90, "direction": "positif"},
-        {"cible": "energie-fossile", "type": "oppose_a", "score": 95},
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 85, "direction": "positif"}
+      "tags": [
+        "solaire",
+        "éolien",
+        "hydraulique",
+        "biomasse",
+        "transition"
       ],
-      "exemples": ["Solaire PV : 1200 GW installés (2023)", "Éolien : 900 GW (2023)", "Hydroélectricité : 1400 GW"],
-      "synonymes": ["EnR", "énergies vertes", "énergies décarbonées"],
+      "motsClésScientifiques": [
+        "photovoltaïque",
+        "éolien offshore",
+        "STEP",
+        "hydrogène vert",
+        "intermittence",
+        "smart grid",
+        "LCOE"
+      ],
+      "relations": [
+        {
+          "cible": "transition-energetique",
+          "type": "contribue_a",
+          "score": 90,
+          "direction": "positif"
+        },
+        {
+          "cible": "energie-fossile",
+          "type": "oppose_a",
+          "score": 95
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        }
+      ],
+      "exemples": [
+        "Solaire PV : 1200 GW installés (2023)",
+        "Éolien : 900 GW (2023)",
+        "Hydroélectricité : 1400 GW"
+      ],
+      "synonymes": [
+        "EnR",
+        "énergies vertes",
+        "énergies décarbonées"
+      ],
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Renewable_energy_sources.svg/800px-Renewable_energy_sources.svg.png",
         "alt": "Sources d'énergies renouvelables",
@@ -282,8 +565,16 @@
         "legende": "Les principales sources d'énergie renouvelable"
       },
       "indicateursQuantitatifs": [
-        {"valeur": "30% de l'électricité mondiale d'origine renouvelable (2023)", "source": "IEA", "annee": 2023},
-        {"valeur": "Coût solaire PV : -89% entre 2010 et 2023", "source": "IRENA", "annee": 2023}
+        {
+          "valeur": "30% de l'électricité mondiale d'origine renouvelable (2023)",
+          "source": "IEA",
+          "annee": 2023
+        },
+        {
+          "valeur": "Coût solaire PV : -89% entre 2010 et 2023",
+          "source": "IRENA",
+          "annee": 2023
+        }
       ]
     },
     {
@@ -299,27 +590,99 @@
         "perspectives": "Les scénarios Net Zero de l'IEA (2021) projettent : fin des voitures thermiques neuves en 2035, 70% d'électricité renouvelable en 2050, électrification massive, et hydrogène pour l'industrie et l'aviation. La France vise -55% d'émissions en 2030 (vs 1990), la neutralité en 2050, et un mix électrique décarboné (nucléaire + EnR). L'enjeu est de transformer l'urgence en opportunité économique et sociale."
       },
       "sources": [
-        {"titre": "Net Zero by 2050: A Roadmap for the Global Energy Sector", "auteur": "IEA", "url": "https://www.iea.org/reports/net-zero-by-2050", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Loi Énergie-Climat n° 2019-1147", "url": "https://www.legifrance.gouv.fr/", "annee": 2019, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Futurs énergétiques 2050", "auteur": "RTE", "url": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Net Zero by 2050: A Roadmap for the Global Energy Sector",
+          "auteur": "IEA",
+          "url": "https://www.iea.org/reports/net-zero-by-2050",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Loi Énergie-Climat n° 2019-1147",
+          "url": "https://www.legifrance.gouv.fr/",
+          "annee": 2019,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Futurs énergétiques 2050",
+          "auteur": "RTE",
+          "url": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "energie-climat",
-      "tags": ["décarbonation", "renouvelables", "politique", "objectifs"],
-      "motsClésScientifiques": ["sobriété-efficacité-renouvelables", "électrification", "hydrogène vert", "smart grid", "transition juste", "stranded assets"],
-      "relations": [
-        {"cible": "energie-renouvelable", "type": "renvoie_a", "score": 95},
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 90, "direction": "positif"},
-        {"cible": "energie-fossile", "type": "oppose_a", "score": 85},
-        {"cible": "efficacite-energetique", "type": "renvoie_a", "score": 80}
+      "tags": [
+        "décarbonation",
+        "renouvelables",
+        "politique",
+        "objectifs"
       ],
-      "exemples": ["Fermeture des centrales charbon UE", "Fin des voitures thermiques 2035 (UE)", "Rénovation thermique des bâtiments"],
-      "synonymes": ["transition bas-carbone", "décarbonation", "Energiewende"],
+      "motsClésScientifiques": [
+        "sobriété-efficacité-renouvelables",
+        "électrification",
+        "hydrogène vert",
+        "smart grid",
+        "transition juste",
+        "stranded assets"
+      ],
+      "relations": [
+        {
+          "cible": "energie-renouvelable",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 90,
+          "direction": "positif"
+        },
+        {
+          "cible": "energie-fossile",
+          "type": "oppose_a",
+          "score": 85
+        },
+        {
+          "cible": "efficacite-energetique",
+          "type": "renvoie_a",
+          "score": 80
+        }
+      ],
+      "exemples": [
+        "Fermeture des centrales charbon UE",
+        "Fin des voitures thermiques 2035 (UE)",
+        "Rénovation thermique des bâtiments"
+      ],
+      "synonymes": [
+        "transition bas-carbone",
+        "décarbonation",
+        "Energiewende"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Investissements nécessaires : 4 000 Mrd$/an d'ici 2030", "source": "IEA", "annee": 2023},
-        {"valeur": "Objectif UE : -55% émissions en 2030 (vs 1990)", "source": "Fit for 55", "annee": 2021}
-      ]
+        {
+          "valeur": "Investissements nécessaires : 4 000 Mrd$/an d'ici 2030",
+          "source": "IEA",
+          "annee": 2023
+        },
+        {
+          "valeur": "Objectif UE : -55% émissions en 2030 (vs 1990)",
+          "source": "Fit for 55",
+          "annee": 2021
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Energy_transition.svg/800px-Energy_transition.svg.png",
+        "alt": "Transition énergétique",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Du fossile au renouvelable"
+      }
     },
     {
       "id": "energie-fossile",
@@ -334,22 +697,75 @@
         "perspectives": "La sortie des fossiles est inévitable : par choix (politique climatique) ou par contrainte (épuisement, coût). Les scénarios net zero projettent une réduction de 60-80% des fossiles d'ici 2050. Le charbon sera éliminé en premier (2030-2040 dans les pays développés), le pétrole ensuite (transports), le gaz en dernier (industrie, pointe électrique). Les 'derniers barils' iront aux usages non substituables (pétrochimie, aviation longue distance). La transition crée un risque de 'lock-in' si les investissements fossiles se poursuivent."
       },
       "sources": [
-        {"titre": "Global Carbon Budget 2023", "auteur": "Global Carbon Project", "url": "https://www.globalcarbonproject.org/carbonbudget/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "World Energy Outlook 2023", "auteur": "IEA", "url": "https://www.iea.org/reports/world-energy-outlook-2023", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "The Sky's Limit: Why the Paris Climate Goals Require a Managed Decline of Fossil Fuel Production", "auteur": "Oil Change International", "annee": 2016, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Global Carbon Budget 2023",
+          "auteur": "Global Carbon Project",
+          "url": "https://www.globalcarbonproject.org/carbonbudget/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "World Energy Outlook 2023",
+          "auteur": "IEA",
+          "url": "https://www.iea.org/reports/world-energy-outlook-2023",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The Sky's Limit: Why the Paris Climate Goals Require a Managed Decline of Fossil Fuel Production",
+          "auteur": "Oil Change International",
+          "annee": 2016,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "energie-climat",
-      "tags": ["pétrole", "gaz", "charbon", "CO2"],
-      "motsClésScientifiques": ["réserves", "pic pétrolier", "stranded assets", "phase-out", "carbon budget", "lock-in"],
-      "relations": [
-        {"cible": "energie-renouvelable", "type": "oppose_a", "score": 95},
-        {"cible": "gaz-effet-serre", "type": "contribue_a", "score": 90, "direction": "positif"},
-        {"cible": "changement-climatique", "type": "contribue_a", "score": 85, "direction": "positif"}
+      "tags": [
+        "pétrole",
+        "gaz",
+        "charbon",
+        "CO2"
       ],
-      "exemples": ["Pétrole : 100 millions de barils/jour", "Charbon : 8 Gt/an", "Gaz naturel : 4 000 Mrd m³/an"],
-      "synonymes": ["combustibles fossiles", "hydrocarbures"],
+      "motsClésScientifiques": [
+        "réserves",
+        "pic pétrolier",
+        "stranded assets",
+        "phase-out",
+        "carbon budget",
+        "lock-in"
+      ],
+      "relations": [
+        {
+          "cible": "energie-renouvelable",
+          "type": "oppose_a",
+          "score": 95
+        },
+        {
+          "cible": "gaz-effet-serre",
+          "type": "contribue_a",
+          "score": 90,
+          "direction": "positif"
+        },
+        {
+          "cible": "changement-climatique",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        }
+      ],
+      "exemples": [
+        "Pétrole : 100 millions de barils/jour",
+        "Charbon : 8 Gt/an",
+        "Gaz naturel : 4 000 Mrd m³/an"
+      ],
+      "synonymes": [
+        "combustibles fossiles",
+        "hydrocarbures"
+      ],
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Oil_Pumpjack.jpg/800px-Oil_Pumpjack.jpg",
         "alt": "Pompe à pétrole (pumpjack)",
@@ -358,8 +774,16 @@
         "legende": "Extraction pétrolière - énergie fossile dominante"
       },
       "indicateursQuantitatifs": [
-        {"valeur": "80% de l'énergie primaire mondiale (2022)", "source": "IEA", "annee": 2022},
-        {"valeur": "75% des émissions de GES mondiales", "source": "GIEC", "annee": 2022}
+        {
+          "valeur": "80% de l'énergie primaire mondiale (2022)",
+          "source": "IEA",
+          "annee": 2022
+        },
+        {
+          "valeur": "75% des émissions de GES mondiales",
+          "source": "GIEC",
+          "annee": 2022
+        }
       ]
     },
     {
@@ -375,26 +799,95 @@
         "perspectives": "Les bâtiments à énergie positive (BEPOS) et les standards Passivhaus se généralisent. L'industrie évolue vers la symbiose industrielle (valorisation chaleur fatale) et les procédés électriques. L'IA optimise en temps réel les consommations (smart buildings, smart grids). Le concept de 'flexibilité' (déplacer les consommations) complète l'efficacité. L'objectif est de diviser par 2 la consommation d'énergie finale en France d'ici 2050."
       },
       "sources": [
-        {"titre": "Energy Efficiency 2023", "auteur": "IEA", "url": "https://www.iea.org/reports/energy-efficiency-2023", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Directive (UE) 2023/1791 sur l'efficacité énergétique (EED révisée)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2023, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Scénario négaWatt 2022", "auteur": "négaWatt", "url": "https://www.negawatt.org/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Energy Efficiency 2023",
+          "auteur": "IEA",
+          "url": "https://www.iea.org/reports/energy-efficiency-2023",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Directive (UE) 2023/1791 sur l'efficacité énergétique (EED révisée)",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/",
+          "annee": 2023,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Scénario négaWatt 2022",
+          "auteur": "négaWatt",
+          "url": "https://www.negawatt.org/",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "energie-climat",
-      "tags": ["performance", "consommation", "technologie", "bâtiment"],
-      "motsClésScientifiques": ["négawatt", "effet rebond", "DPE", "RE2020", "pompe à chaleur", "ISO 50001", "rénovation"],
-      "relations": [
-        {"cible": "transition-energetique", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "sobriete-energetique", "type": "proche_de", "score": 80},
-        {"cible": "empreinte-carbone", "type": "oppose_a", "score": 70}
+      "tags": [
+        "performance",
+        "consommation",
+        "technologie",
+        "bâtiment"
       ],
-      "exemples": ["Rénovation thermique BBC", "LED : 10x plus efficaces", "Pompe à chaleur COP 4"],
-      "synonymes": ["performance énergétique", "rendement énergétique"],
+      "motsClésScientifiques": [
+        "négawatt",
+        "effet rebond",
+        "DPE",
+        "RE2020",
+        "pompe à chaleur",
+        "ISO 50001",
+        "rénovation"
+      ],
+      "relations": [
+        {
+          "cible": "transition-energetique",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "sobriete-energetique",
+          "type": "proche_de",
+          "score": 80
+        },
+        {
+          "cible": "empreinte-carbone",
+          "type": "oppose_a",
+          "score": 70
+        }
+      ],
+      "exemples": [
+        "Rénovation thermique BBC",
+        "LED : 10x plus efficaces",
+        "Pompe à chaleur COP 4"
+      ],
+      "synonymes": [
+        "performance énergétique",
+        "rendement énergétique"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Potentiel efficacité : -40% énergie bâtiments existants", "source": "ADEME", "annee": 2022},
-        {"valeur": "Objectif UE : -11,7% conso finale en 2030", "source": "EED", "annee": 2023}
-      ]
+        {
+          "valeur": "Potentiel efficacité : -40% énergie bâtiments existants",
+          "source": "ADEME",
+          "annee": 2022
+        },
+        {
+          "valeur": "Objectif UE : -11,7% conso finale en 2030",
+          "source": "EED",
+          "annee": 2023
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Energy_efficiency_label.svg/400px-Energy_efficiency_label.svg.png",
+        "alt": "Étiquette efficacité énergétique",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Étiquette énergie européenne"
+      }
     },
     {
       "id": "sobriete-energetique",
@@ -409,26 +902,94 @@
         "perspectives": "La sobriété devient un pilier des politiques climatiques. Les scénarios ADEME (Transition 2050) et négaWatt intègrent 20-40% de sobriété. L'enjeu est de passer de mesures d'urgence à une transformation structurelle : urbanisme sobre (proximité, densité), mobilités douces, économie de la fonctionnalité, modes de vie désintensifiés. La sobriété peut être source de bien-être (temps, santé, lien social) et non de sacrifice. Le concept s'élargit aux 'sobriétés' (numérique, matérielle, spatiale)."
       },
       "sources": [
-        {"titre": "Mitigation of Climate Change - AR6 WG3 (Chapitre 5 Demand-side)", "auteur": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg3/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Scénario négaWatt 2022", "auteur": "négaWatt", "url": "https://www.negawatt.org/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Plan de sobriété énergétique", "auteur": "Gouvernement français", "url": "https://www.ecologie.gouv.fr/sobriete-energetique", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Mitigation of Climate Change - AR6 WG3 (Chapitre 5 Demand-side)",
+          "auteur": "IPCC",
+          "url": "https://www.ipcc.ch/report/ar6/wg3/",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Scénario négaWatt 2022",
+          "auteur": "négaWatt",
+          "url": "https://www.negawatt.org/",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Plan de sobriété énergétique",
+          "auteur": "Gouvernement français",
+          "url": "https://www.ecologie.gouv.fr/sobriete-energetique",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
       "categorie": "energie-climat",
-      "tags": ["comportement", "réduction", "besoins", "négaWatt"],
-      "motsClésScientifiques": ["demand-side mitigation", "suffisance", "sobriété dimensionnelle", "sobriété d'usage", "déconsommation"],
-      "relations": [
-        {"cible": "efficacite-energetique", "type": "proche_de", "score": 85},
-        {"cible": "transition-energetique", "type": "contribue_a", "score": 80, "direction": "positif"},
-        {"cible": "empreinte-carbone", "type": "oppose_a", "score": 75}
+      "tags": [
+        "comportement",
+        "réduction",
+        "besoins",
+        "négaWatt"
       ],
-      "exemples": ["19°C dans les bâtiments", "Télétravail 2 jours/semaine", "Vélo pour trajets <5 km"],
-      "synonymes": ["suffisance énergétique", "frugalité énergétique", "demand-side sufficiency"],
+      "motsClésScientifiques": [
+        "demand-side mitigation",
+        "suffisance",
+        "sobriété dimensionnelle",
+        "sobriété d'usage",
+        "déconsommation"
+      ],
+      "relations": [
+        {
+          "cible": "efficacite-energetique",
+          "type": "proche_de",
+          "score": 85
+        },
+        {
+          "cible": "transition-energetique",
+          "type": "contribue_a",
+          "score": 80,
+          "direction": "positif"
+        },
+        {
+          "cible": "empreinte-carbone",
+          "type": "oppose_a",
+          "score": 75
+        }
+      ],
+      "exemples": [
+        "19°C dans les bâtiments",
+        "Télétravail 2 jours/semaine",
+        "Vélo pour trajets <5 km"
+      ],
+      "synonymes": [
+        "suffisance énergétique",
+        "frugalité énergétique",
+        "demand-side sufficiency"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Potentiel sobriété : 40-70% des réductions nécessaires", "source": "GIEC AR6 WG3", "annee": 2022},
-        {"valeur": "Baisse conso gaz France hiver 2022-23 : -12%", "source": "MTE", "annee": 2023}
-      ]
+        {
+          "valeur": "Potentiel sobriété : 40-70% des réductions nécessaires",
+          "source": "GIEC AR6 WG3",
+          "annee": 2022
+        },
+        {
+          "valeur": "Baisse conso gaz France hiver 2022-23 : -12%",
+          "source": "MTE",
+          "annee": 2023
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Negawatt_logo.svg/400px-Negawatt_logo.svg.png",
+        "alt": "Logo négaWatt",
+        "credit": "Wikimedia Commons",
+        "type": "logo",
+        "legende": "Association négaWatt - pionnière de la sobriété"
+      }
     },
     {
       "id": "giec",
@@ -444,22 +1005,72 @@
         "perspectives": "Le 7e cycle d'évaluation (AR7) est en préparation pour 2029. L'intégration des savoirs locaux et autochtones, la rapidité de mise à jour face à l'accélération des changements, et l'articulation avec les nouveaux acteurs (villes, entreprises) sont des évolutions attendues. Le GIEC reste l'institution clé de la gouvernance climatique mondiale."
       },
       "sources": [
-        {"titre": "Site officiel du GIEC", "institution": "IPCC", "url": "https://www.ipcc.ch/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Climate Change 2021: The Physical Science Basis (AR6 WG1)", "institution": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg1/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Site officiel du GIEC",
+          "institution": "IPCC",
+          "url": "https://www.ipcc.ch/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Climate Change 2021: The Physical Science Basis (AR6 WG1)",
+          "institution": "IPCC",
+          "url": "https://www.ipcc.ch/report/ar6/wg1/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["IPCC", "évaluation scientifique", "rapports d'évaluation", "AR6", "consensus scientifique"],
+      "motsClésScientifiques": [
+        "IPCC",
+        "évaluation scientifique",
+        "rapports d'évaluation",
+        "AR6",
+        "consensus scientifique"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "6 cycles de rapports depuis 1990", "source": "IPCC", "annee": 2023},
-        {"valeur": "Prix Nobel de la paix 2007 (partagé avec Al Gore)", "source": "Nobel Prize", "annee": 2007}
+        {
+          "valeur": "6 cycles de rapports depuis 1990",
+          "source": "IPCC",
+          "annee": 2023
+        },
+        {
+          "valeur": "Prix Nobel de la paix 2007 (partagé avec Al Gore)",
+          "source": "Nobel Prize",
+          "annee": 2007
+        }
       ],
       "relations": [
-        {"cible": "changement-climatique", "type": "renvoie_a", "score": 95},
-        {"cible": "gaz-effet-serre", "type": "renvoie_a", "score": 85}
+        {
+          "cible": "changement-climatique",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "gaz-effet-serre",
+          "type": "renvoie_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Rapport 1,5°C (2018)", "AR6 Synthesis Report (2023)", "Rapports WG1, WG2, WG3"],
-      "synonymes": ["IPCC", "Intergovernmental Panel on Climate Change"]
+      "exemples": [
+        "Rapport 1,5°C (2018)",
+        "AR6 Synthesis Report (2023)",
+        "Rapports WG1, WG2, WG3"
+      ],
+      "synonymes": [
+        "IPCC",
+        "Intergovernmental Panel on Climate Change"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/IPCC_logo.svg/400px-IPCC_logo.svg.png",
+        "alt": "Logo du GIEC/IPCC",
+        "credit": "IPCC - Wikimedia Commons",
+        "type": "logo",
+        "legende": "Groupe d'experts intergouvernemental sur l'évolution du climat"
+      }
     },
     {
       "id": "adaptation-climatique",
@@ -475,22 +1086,71 @@
         "perspectives": "L'adaptation doit passer à l'échelle et s'articuler avec l'atténuation (solutions sans regret). Les trajectoires d'adaptation à long terme, l'intégration dans les décisions d'investissement, et la justice sociale (protéger les plus vulnérables) sont les chantiers majeurs. Le concept de 'planète inhospitalière' au-delà de certains seuils souligne les limites de l'adaptation."
       },
       "sources": [
-        {"titre": "Climate Change 2022: Impacts, Adaptation and Vulnerability (AR6 WG2)", "institution": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg2/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "PNACC-3 : Plan national d'adaptation au changement climatique", "institution": "Gouvernement français", "annee": 2024, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Climate Change 2022: Impacts, Adaptation and Vulnerability (AR6 WG2)",
+          "institution": "IPCC",
+          "url": "https://www.ipcc.ch/report/ar6/wg2/",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "PNACC-3 : Plan national d'adaptation au changement climatique",
+          "institution": "Gouvernement français",
+          "annee": 2024,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["vulnérabilité", "résilience", "maladaptation", "pertes et dommages", "SfN"],
+      "motsClésScientifiques": [
+        "vulnérabilité",
+        "résilience",
+        "maladaptation",
+        "pertes et dommages",
+        "SfN"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Financement adaptation : 21 milliards $/an (2021)", "source": "Climate Policy Initiative", "annee": 2022},
-        {"valeur": "Objectif : 100 milliards $/an pour pays en développement", "source": "CCNUCC", "annee": 2020}
+        {
+          "valeur": "Financement adaptation : 21 milliards $/an (2021)",
+          "source": "Climate Policy Initiative",
+          "annee": 2022
+        },
+        {
+          "valeur": "Objectif : 100 milliards $/an pour pays en développement",
+          "source": "CCNUCC",
+          "annee": 2020
+        }
       ],
       "relations": [
-        {"cible": "changement-climatique", "type": "renvoie_a", "score": 95},
-        {"cible": "attenuation-climatique", "type": "proche_de", "score": 90}
+        {
+          "cible": "changement-climatique",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "attenuation-climatique",
+          "type": "proche_de",
+          "score": 90
+        }
       ],
-      "exemples": ["Digues contre la montée des eaux", "Variétés agricoles résistantes à la sécheresse", "Plans canicule"],
-      "synonymes": ["Adaptation au changement climatique", "Climate adaptation"]
+      "exemples": [
+        "Digues contre la montée des eaux",
+        "Variétés agricoles résistantes à la sécheresse",
+        "Plans canicule"
+      ],
+      "synonymes": [
+        "Adaptation au changement climatique",
+        "Climate adaptation"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Flood_protection_barrier.jpg/800px-Flood_protection_barrier.jpg",
+        "alt": "Barrière anti-inondation",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Infrastructure d'adaptation aux risques climatiques"
+      }
     },
     {
       "id": "attenuation-climatique",
@@ -506,23 +1166,78 @@
         "perspectives": "L'atténuation doit s'accélérer massivement. Les trajectoires net-zéro des entreprises, les normes sectorielles (RE2020, Euro 7), et les mécanismes de marché (ETS renforcé, MACF) se multiplient. L'articulation avec l'adaptation, la sobriété comme levier complémentaire, et l'innovation (hydrogène, batteries) dessinent la transformation à venir."
       },
       "sources": [
-        {"titre": "Climate Change 2022: Mitigation of Climate Change (AR6 WG3)", "institution": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg3/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Accord de Paris", "institution": "CCNUCC", "url": "https://unfccc.int/fr/processus-et-reunions/l-accord-de-paris/l-accord-de-paris", "annee": 2015, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Climate Change 2022: Mitigation of Climate Change (AR6 WG3)",
+          "institution": "IPCC",
+          "url": "https://www.ipcc.ch/report/ar6/wg3/",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Accord de Paris",
+          "institution": "CCNUCC",
+          "url": "https://unfccc.int/fr/processus-et-reunions/l-accord-de-paris/l-accord-de-paris",
+          "annee": 2015,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["mitigation", "CDN", "budget carbone", "net-zéro", "décarbonation"],
+      "motsClésScientifiques": [
+        "mitigation",
+        "CDN",
+        "budget carbone",
+        "net-zéro",
+        "décarbonation"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Objectif : -45% d'émissions mondiales d'ici 2030 (vs 2010)", "source": "GIEC", "annee": 2018},
-        {"valeur": "Neutralité carbone mondiale nécessaire vers 2050", "source": "GIEC 1.5°C", "annee": 2018}
+        {
+          "valeur": "Objectif : -45% d'émissions mondiales d'ici 2030 (vs 2010)",
+          "source": "GIEC",
+          "annee": 2018
+        },
+        {
+          "valeur": "Neutralité carbone mondiale nécessaire vers 2050",
+          "source": "GIEC 1.5°C",
+          "annee": 2018
+        }
       ],
       "relations": [
-        {"cible": "changement-climatique", "type": "renvoie_a", "score": 95},
-        {"cible": "adaptation-climatique", "type": "proche_de", "score": 90},
-        {"cible": "neutralite-carbone", "type": "renvoie_a", "score": 90}
+        {
+          "cible": "changement-climatique",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "adaptation-climatique",
+          "type": "proche_de",
+          "score": 90
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "renvoie_a",
+          "score": 90
+        }
       ],
-      "exemples": ["Sortie du charbon", "Électrification des transports", "Rénovation énergétique des bâtiments"],
-      "synonymes": ["Mitigation", "Réduction des émissions", "Climate mitigation"]
+      "exemples": [
+        "Sortie du charbon",
+        "Électrification des transports",
+        "Rénovation énergétique des bâtiments"
+      ],
+      "synonymes": [
+        "Mitigation",
+        "Réduction des émissions",
+        "Climate mitigation"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Wind_turbines_at_sunrise.jpg/800px-Wind_turbines_at_sunrise.jpg",
+        "alt": "Éoliennes au lever du soleil",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Énergie renouvelable - levier d'atténuation"
+      }
     },
     {
       "id": "boucle-retroaction",
@@ -538,22 +1253,72 @@
         "perspectives": "L'amélioration de la modélisation des rétroactions (résolution, représentation des processus) est prioritaire. Les systèmes d'observation (satellites, réseaux de mesure) suivent les indicateurs clés. La question centrale : peut-on rester en-deçà des seuils déclenchant des rétroactions incontrôlables ?"
       },
       "sources": [
-        {"titre": "AR6 WG1 Chapter 7: The Earth's Energy Budget, Climate Feedbacks, and Climate Sensitivity", "institution": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Climate feedbacks and sensitivity", "auteur": "Sherwood, S.C. et al.", "doi": "10.1029/2019RG000678", "journal": "Reviews of Geophysics", "annee": 2020, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "AR6 WG1 Chapter 7: The Earth's Energy Budget, Climate Feedbacks, and Climate Sensitivity",
+          "institution": "IPCC",
+          "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Climate feedbacks and sensitivity",
+          "auteur": "Sherwood, S.C. et al.",
+          "doi": "10.1029/2019RG000678",
+          "journal": "Reviews of Geophysics",
+          "annee": 2020,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["sensibilité climatique", "albédo", "vapeur d'eau", "pergélisol", "points de basculement"],
+      "motsClésScientifiques": [
+        "sensibilité climatique",
+        "albédo",
+        "vapeur d'eau",
+        "pergélisol",
+        "points de basculement"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Sensibilité climatique à l'équilibre : 2,5-4°C (meilleure estimation 3°C)", "source": "GIEC AR6", "annee": 2021},
-        {"valeur": "850 GtC de carbone dans le pergélisol (2x l'atmosphère)", "source": "Schuur et al.", "annee": 2015}
+        {
+          "valeur": "Sensibilité climatique à l'équilibre : 2,5-4°C (meilleure estimation 3°C)",
+          "source": "GIEC AR6",
+          "annee": 2021
+        },
+        {
+          "valeur": "850 GtC de carbone dans le pergélisol (2x l'atmosphère)",
+          "source": "Schuur et al.",
+          "annee": 2015
+        }
       ],
       "relations": [
-        {"cible": "changement-climatique", "type": "renvoie_a", "score": 95},
-        {"cible": "point-basculement", "type": "renvoie_a", "score": 90}
+        {
+          "cible": "changement-climatique",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "point-basculement",
+          "type": "renvoie_a",
+          "score": 90
+        }
       ],
-      "exemples": ["Fonte de la banquise arctique → absorption accrue → réchauffement", "Dégel du pergélisol → libération de méthane → effet de serre"],
-      "synonymes": ["Feedback climatique", "Climate feedback"]
+      "exemples": [
+        "Fonte de la banquise arctique → absorption accrue → réchauffement",
+        "Dégel du pergélisol → libération de méthane → effet de serre"
+      ],
+      "synonymes": [
+        "Feedback climatique",
+        "Climate feedback"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Climate_feedback_loops.svg/800px-Climate_feedback_loops.svg.png",
+        "alt": "Schéma des boucles de rétroaction climatique",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Mécanismes d'amplification du réchauffement"
+      }
     },
     {
       "id": "point-basculement",
@@ -569,22 +1334,75 @@
         "perspectives": "La recherche intensifie la surveillance des indicateurs précoces (early warning signals) et la modélisation des cascades. Les points de basculement positifs (bascules vers des solutions) émergent comme concept complémentaire. L'enjeu politique est d'intégrer ces risques de 'fat tail' dans les trajectoires d'atténuation."
       },
       "sources": [
-        {"titre": "Tipping points in the Earth's climate system", "auteur": "Lenton, T.M. et al.", "doi": "10.1073/pnas.0705414105", "journal": "PNAS", "annee": 2008, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
-        {"titre": "Exceeding 1.5°C global warming could trigger multiple climate tipping points", "auteur": "Armstrong McKay, D.I. et al.", "doi": "10.1126/science.abn7950", "journal": "Science", "annee": 2022, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "Tipping points in the Earth's climate system",
+          "auteur": "Lenton, T.M. et al.",
+          "doi": "10.1073/pnas.0705414105",
+          "journal": "PNAS",
+          "annee": 2008,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Exceeding 1.5°C global warming could trigger multiple climate tipping points",
+          "auteur": "Armstrong McKay, D.I. et al.",
+          "doi": "10.1126/science.abn7950",
+          "journal": "Science",
+          "annee": 2022,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["tipping elements", "irréversibilité", "cascades", "hystérésis", "early warning"],
+      "motsClésScientifiques": [
+        "tipping elements",
+        "irréversibilité",
+        "cascades",
+        "hystérésis",
+        "early warning"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "16 éléments de basculement identifiés", "source": "Armstrong McKay et al.", "annee": 2022},
-        {"valeur": "5 éléments potentiellement déjà proches du basculement", "source": "Armstrong McKay et al.", "annee": 2022}
+        {
+          "valeur": "16 éléments de basculement identifiés",
+          "source": "Armstrong McKay et al.",
+          "annee": 2022
+        },
+        {
+          "valeur": "5 éléments potentiellement déjà proches du basculement",
+          "source": "Armstrong McKay et al.",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "changement-climatique", "type": "renvoie_a", "score": 95},
-        {"cible": "boucle-retroaction", "type": "renvoie_a", "score": 90}
+        {
+          "cible": "changement-climatique",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "boucle-retroaction",
+          "type": "renvoie_a",
+          "score": 90
+        }
       ],
-      "exemples": ["Effondrement de la calotte du Groenland", "Dépérissement de l'Amazonie", "Arrêt de l'AMOC"],
-      "synonymes": ["Tipping point", "Élément de basculement", "Seuil climatique critique"]
+      "exemples": [
+        "Effondrement de la calotte du Groenland",
+        "Dépérissement de l'Amazonie",
+        "Arrêt de l'AMOC"
+      ],
+      "synonymes": [
+        "Tipping point",
+        "Élément de basculement",
+        "Seuil climatique critique"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Tipping_points_in_the_climate_system.svg/800px-Tipping_points_in_the_climate_system.svg.png",
+        "alt": "Points de basculement climatiques",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Éléments du système climatique à risque de basculement"
+      }
     }
   ]
 }
