@@ -89,10 +89,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Lead_Cycle_Updated.jpg/960px-Lead_Cycle_Updated.jpg",
-        "alt": "Cycle de l'eau",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Water_cycle.svg/1024px-Water_cycle.svg.png",
+        "alt": "Schéma du cycle de l'eau - circulation continue entre océans, atmosphère et continents",
+        "credit": "USGS - Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Water_cycle.svg",
+        "type": "schema",
+        "legende": "L'eau s'évapore, forme des nuages, précipite, ruisselle et retourne à la mer dans un cycle permanent"
       }
     },
     {
@@ -181,10 +183,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/WATER_SCARCITY_AND_VIOLENT_CONFLICT_IN_NIGERIA_%28IA_waterscarcityand1094562803%29.pdf/page1-640px-WATER_SCARCITY_AND_VIOLENT_CONFLICT_IN_NIGERIA_%28IA_waterscarcityand1094562803%29.pdf.jpg",
-        "alt": "Stress hydrique",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Drought_in_the_Valley_by_Cynthia_Mendoza%2C_U.S._Fish_and_Wildlife_Service.jpg/1024px-Drought_in_the_Valley_by_Cynthia_Mendoza%2C_U.S._Fish_and_Wildlife_Service.jpg",
+        "alt": "Sol craquelé par la sécheresse - le stress hydrique survient quand la demande en eau dépasse les ressources disponibles",
+        "credit": "USFWS/Cynthia Mendoza - Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drought_in_the_Valley_by_Cynthia_Mendoza,_U.S._Fish_and_Wildlife_Service.jpg",
+        "type": "photo",
+        "legende": "Plus de 2 milliards de personnes vivent dans des pays en situation de stress hydrique"
       }
     },
     {
@@ -362,10 +366,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/The_water_resources_of_Molokai%2C_Hawaiian_islands_%28IA_waterresourcesof00lind%29.pdf/page1-640px-The_water_resources_of_Molokai%2C_Hawaiian_islands_%28IA_waterresourcesof00lind%29.pdf.jpg",
-        "alt": "Empreinte eau",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Water_footprint_of_products.svg/800px-Water_footprint_of_products.svg.png",
+        "alt": "Schéma de l'empreinte eau des produits - quantité d'eau nécessaire pour produire biens et services",
+        "credit": "Wikimedia Commons - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Water_footprint_of_products.svg",
+        "type": "schema",
+        "legende": "L'empreinte eau mesure l'eau consommée directement et indirectement tout au long du cycle de vie"
       }
     },
     {
@@ -922,10 +928,12 @@
         "gestion par bassin"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Analysis_of_the_management_situation_-_John_Day_Basin_resource_management_plan_%28IA_analysisofmanage00unit_0%29.pdf/page1-640px-Analysis_of_the_management_situation_-_John_Day_Basin_resource_management_plan_%28IA_analysisofmanage00unit_0%29.pdf.jpg",
-        "alt": "Gestion intégrée de l'eau (GIRE)",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Aswan_High_Dam.jpg/1024px-Aswan_High_Dam.jpg",
+        "alt": "Barrage d'Assouan - exemple d'infrastructure de gestion intégrée des ressources en eau",
+        "credit": "Hajor - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aswan_High_Dam.jpg",
+        "type": "photo",
+        "legende": "La GIRE coordonne la gestion de l'eau entre usages agricoles, industriels et domestiques à l'échelle du bassin versant"
       }
     },
     {
@@ -1009,10 +1017,12 @@
         "embedded water"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/The_History_of_Cotton_Famine%3B_from_the_Fall_of_Sumter_to_the_Passing_of_the_Public_Works_Act_%28IA_dli.granth.71643%29.pdf/page1-640px-The_History_of_Cotton_Famine%3B_from_the_Fall_of_Sumter_to_the_Passing_of_the_Public_Works_Act_%28IA_dli.granth.71643%29.pdf.jpg",
-        "alt": "Eau virtuelle",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Cotton_field_kv25.jpg/1024px-Cotton_field_kv25.jpg",
+        "alt": "Champ de coton - le coton est l'une des cultures les plus consommatrices d'eau virtuelle",
+        "credit": "Kimberly Vardeman - CC BY 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cotton_field_kv25.jpg",
+        "type": "photo",
+        "legende": "L'eau virtuelle est l'eau utilisée pour produire un bien, souvent exportée via le commerce international"
       }
     }
   ]

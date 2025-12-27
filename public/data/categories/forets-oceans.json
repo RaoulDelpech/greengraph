@@ -240,10 +240,12 @@
         "old-growth forest"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Old_growth_in_northwestern_California_national_forests_%28microform%29_%28IA_CAT10842574%29.pdf/page1-640px-Old_growth_in_northwestern_California_national_forests_%28microform%29_%28IA_CAT10842574%29.pdf.jpg",
-        "alt": "Forêt primaire",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Biogradska_suma.jpg/1280px-Biogradska_suma.jpg",
+        "alt": "Forêt primaire de Biogradska Gora (Monténégro) - l'une des dernières forêts vierges d'Europe",
+        "credit": "Snežana Trifunović - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Biogradska_suma.jpg",
+        "type": "photo",
+        "legende": "Les forêts primaires n'ont jamais été exploitées et abritent une biodiversité exceptionnelle"
       }
     },
     {
@@ -399,10 +401,12 @@
         "forest carbon sink"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Carbon_storage_and_accumulation_in_United_States_forest_ecosystems_%28IA_CAT93989847%29.pdf/page1-640px-Carbon_storage_and_accumulation_in_United_States_forest_ecosystems_%28IA_CAT93989847%29.pdf.jpg",
-        "alt": "Puits de carbone forestier",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_rainforest.jpg/1280px-Amazon_rainforest.jpg",
+        "alt": "Forêt amazonienne - le plus grand puits de carbone terrestre de la planète",
+        "credit": "lubasi - CC BY-SA 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amazon_rainforest.jpg",
+        "type": "photo",
+        "legende": "Les forêts absorbent environ 30% des émissions de CO2 anthropiques et stockent 45% du carbone terrestre"
       }
     },
     {
@@ -639,10 +643,12 @@
         "overfishing"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Pauillac_-_Gironde_-_Cabanes_de_p%C3%AAcheurs_sur_l%27estuaire_de_la_Garonne_-_Picture_Image_Photography_%2813915746131%29.jpg/960px-Pauillac_-_Gironde_-_Cabanes_de_p%C3%AAcheurs_sur_l%27estuaire_de_la_Garonne_-_Picture_Image_Photography_%2813915746131%29.jpg",
-        "alt": "Surpêche",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Trawler_Hauling_Nets.jpg/1280px-Trawler_Hauling_Nets.jpg",
+        "alt": "Chalutier remontant ses filets - la surpêche épuise les stocks halieutiques mondiaux",
+        "credit": "NOAA - Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trawler_Hauling_Nets.jpg",
+        "type": "photo",
+        "legende": "La pêche industrielle intensive dépasse la capacité de renouvellement des stocks de poissons"
       }
     },
     {
@@ -1358,10 +1364,12 @@
         "high seas"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Professional_wind_surfer_practice_in_deep_blue_open_ocean_sea_%2852829424334%29.jpg/960px-Professional_wind_surfer_practice_in_deep_blue_open_ocean_sea_%2852829424334%29.jpg",
-        "alt": "Haute mer",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Clouds_over_the_Atlantic_Ocean.jpg/1280px-Clouds_over_the_Atlantic_Ocean.jpg",
+        "alt": "Vue de l'océan Atlantique - la haute mer désigne les eaux internationales au-delà des ZEE",
+        "credit": "Tiago Fioreze - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clouds_over_the_Atlantic_Ocean.jpg",
+        "type": "photo",
+        "legende": "L'océan ouvert au-delà des zones économiques exclusives, espace de liberté et d'enjeux de gouvernance internationale"
       }
     },
     {
@@ -1516,10 +1524,12 @@
         "migratory marine species"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/A_beachcomber_is_touching_a_dead_whale_washed_ashore_at_Ocean_beach_edit_1.jpg/960px-A_beachcomber_is_touching_a_dead_whale_washed_ashore_at_Ocean_beach_edit_1.jpg",
-        "alt": "Espèce marine migratrice",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Humpback_stellwagen_edit.jpg/1280px-Humpback_stellwagen_edit.jpg",
+        "alt": "Baleine à bosse en migration - ces cétacés parcourent des milliers de km entre zones d'alimentation et de reproduction",
+        "credit": "Whit Welles - CC BY 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humpback_stellwagen_edit.jpg",
+        "type": "photo",
+        "legende": "Les espèces marines migratrices traversent les frontières, nécessitant une protection internationale coordonnée"
       }
     },
     {
@@ -1595,10 +1605,12 @@
         "invasive seaweed"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Federal_Register_1999-07-29-_Vol_64_Iss_145_%28IA_sim_federal-register-find_1999-07-29_64_145%29.pdf/page1-640px-Federal_Register_1999-07-29-_Vol_64_Iss_145_%28IA_sim_federal-register-find_1999-07-29_64_145%29.pdf.jpg",
-        "alt": "Algue invasive",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Caulerpa_taxifolia.jpg/1280px-Caulerpa_taxifolia.jpg",
+        "alt": "Caulerpa taxifolia - algue tropicale devenue invasive en Méditerranée depuis les années 1980",
+        "credit": "NOAA - Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caulerpa_taxifolia.jpg",
+        "type": "photo",
+        "legende": "Cette algue 'tueuse' originaire des aquariums colonise les fonds marins et étouffe les écosystèmes natifs"
       }
     },
     {
@@ -1756,10 +1768,12 @@
         "sustainable aquaculture"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/In_brief%2C_The_State_of_World_Fisheries_and_Aquaculture%2C_2018.pdf/page1-640px-In_brief%2C_The_State_of_World_Fisheries_and_Aquaculture%2C_2018.pdf.jpg",
-        "alt": "Aquaculture durable",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Aquaculture_in_Vietnam.jpg/1280px-Aquaculture_in_Vietnam.jpg",
+        "alt": "Ferme aquacole au Vietnam - l'aquaculture fournit désormais plus de poisson que la pêche de capture",
+        "credit": "Wikimedia Commons - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aquaculture_in_Vietnam.jpg",
+        "type": "photo",
+        "legende": "L'aquaculture durable vise à réduire les impacts environnementaux de l'élevage de poissons et crustacés"
       }
     }
   ]

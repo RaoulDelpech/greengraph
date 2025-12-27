@@ -1034,10 +1034,12 @@
         "Espèce substitut"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Resident_fish_habitat_management_strategy_for_Wyoming_%28IA_residentfishhabi00gorg%29.pdf/page1-640px-Resident_fish_habitat_management_strategy_for_Wyoming_%28IA_residentfishhabi00gorg%29.pdf.jpg",
-        "alt": "Espèce parapluie",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Polar_Bear_-_Alaska_%28cropped%29.jpg/1024px-Polar_Bear_-_Alaska_%28cropped%29.jpg",
+        "alt": "Ours polaire - espèce parapluie de l'Arctique dont la protection bénéficie à tout l'écosystème",
+        "credit": "Alan D. Wilson - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polar_Bear_-_Alaska_(cropped).jpg",
+        "type": "photo",
+        "legende": "Une espèce parapluie a des besoins d'habitat si larges que sa protection protège de nombreuses autres espèces"
       }
     },
     {
@@ -1121,10 +1123,12 @@
         "Zone d'endémisme prioritaire"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Pronounced_loss_of_Amazon_rainforest_resilience_since_the_early_2000s.pdf/page1-640px-Pronounced_loss_of_Amazon_rainforest_resilience_since_the_early_2000s.pdf.jpg",
-        "alt": "Hotspot de biodiversité",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_rainforest.jpg/1024px-Amazon_rainforest.jpg",
+        "alt": "Forêt amazonienne - plus grand hotspot de biodiversité terrestre avec 10% des espèces mondiales",
+        "credit": "lubasi - CC BY-SA 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amazon_rainforest.jpg",
+        "type": "photo",
+        "legende": "Les hotspots de biodiversité concentrent des espèces endémiques menacées et sont prioritaires pour la conservation"
       }
     },
     {

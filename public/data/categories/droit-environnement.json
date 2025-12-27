@@ -155,10 +155,12 @@
         "PPP"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Reftinsky_reservoir_of_Sverdlovsk_region.jpg/960px-Reftinsky_reservoir_of_Sverdlovsk_region.jpg",
-        "alt": "Principe pollueur-payeur",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Industrial_waste.jpg/1024px-Industrial_waste.jpg",
+        "alt": "Pollution industrielle - le principe pollueur-payeur fait supporter le coût de la dépollution à l'auteur des dommages",
+        "credit": "Wikimedia Commons - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Industrial_waste.jpg",
+        "type": "photo",
+        "legende": "Le pollueur doit payer les coûts des mesures de prévention, de réduction et de réparation de la pollution"
       }
     },
     {
@@ -232,10 +234,12 @@
         "Vorsorgeprinzip"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Loimologia-_or_an_historical_account_of_the_Plague_in_London_in_1665-_with_precautionary_directions_against_the_like_contagion_%28IA_b30547131_0004%29.pdf/page1-640px-Loimologia-_or_an_historical_account_of_the_Plague_in_London_in_1665-_with_precautionary_directions_against_the_like_contagion_%28IA_b30547131_0004%29.pdf.jpg",
-        "alt": "Principe de précaution",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Hazard_warning_signs.svg/1024px-Hazard_warning_signs.svg.png",
+        "alt": "Panneaux d'avertissement - le principe de précaution justifie l'action face à un risque incertain mais potentiellement grave",
+        "credit": "Wikimedia Commons - Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hazard_warning_signs.svg",
+        "type": "schema",
+        "legende": "Face à l'incertitude scientifique, des mesures de protection peuvent être prises pour éviter des dommages irréversibles"
       }
     },
     {
@@ -548,10 +552,12 @@
         "vigilance duty"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Integrated_supply_chain_simulation_system_-_a_design_specification_for_a_generic_supply_chain_simulator_%28IA_integratedsupply7146umed%29.pdf/page1-640px-Integrated_supply_chain_simulation_system_-_a_design_specification_for_a_generic_supply_chain_simulator_%28IA_integratedsupply7146umed%29.pdf.jpg",
-        "alt": "Devoir de vigilance",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Container_ship_in_port.jpg/1024px-Container_ship_in_port.jpg",
+        "alt": "Navire porte-conteneurs - le devoir de vigilance couvre l'ensemble de la chaîne d'approvisionnement mondiale",
+        "credit": "Wikimedia Commons - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Container_ship_in_port.jpg",
+        "type": "photo",
+        "legende": "Les multinationales doivent identifier et prévenir les risques environnementaux et sociaux de leurs filiales et fournisseurs"
       }
     },
     {
@@ -705,10 +711,12 @@
         "Convention biodiversité"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Perth_CBD_from_Mill_Point.jpg/960px-Perth_CBD_from_Mill_Point.jpg",
-        "alt": "Convention sur la diversité biologique (CDB)",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Coral_reef_at_palmyra.jpg/1024px-Coral_reef_at_palmyra.jpg",
+        "alt": "Récif corallien - la Convention sur la Diversité Biologique protège la biodiversité mondiale depuis 1992",
+        "credit": "USFWS - Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coral_reef_at_palmyra.jpg",
+        "type": "photo",
+        "legende": "La CDB est le traité international majeur pour la conservation et l'utilisation durable de la biodiversité"
       }
     },
     {
@@ -1098,10 +1106,12 @@
         "règlement substances chimiques"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/29_CFR_1910.119_PSM_Elements.png/819px-29_CFR_1910.119_PSM_Elements.png",
-        "alt": "Règlement REACH",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/GHS_pictogram_bottles.svg/1024px-GHS_pictogram_bottles.svg.png",
+        "alt": "Pictogrammes de danger chimique - REACH encadre l'enregistrement, l'évaluation et l'autorisation des substances chimiques",
+        "credit": "Wikimedia Commons - Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:GHS_pictogram_bottles.svg",
+        "type": "schema",
+        "legende": "REACH impose aux fabricants de prouver l'innocuité des substances chimiques avant mise sur le marché européen"
       }
     },
     {

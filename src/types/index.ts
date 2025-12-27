@@ -60,7 +60,8 @@ export type ImageType = 'photo' | 'schema' | 'logo' | 'infographie' | 'illustrat
 export interface DefinitionImage {
   src: string;           // Chemin relatif (/images/...) ou URL
   alt: string;           // Description alternative
-  credit?: string;       // Source/crédit (ex: "Wikimedia Commons")
+  credit?: string;       // Source/crédit (ex: "Auteur - Wikimedia Commons CC BY-SA 4.0")
+  sourceUrl?: string;    // Lien vers la page source Wikimedia Commons
   type?: ImageType;      // Type d'image
   legende?: string;      // Légende optionnelle
 }

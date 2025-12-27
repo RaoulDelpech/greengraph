@@ -25,12 +25,23 @@ function DefinitionImageDisplay({ image }: { image: DefinitionImage }) {
         loading="lazy"
       />
       {(image.legende || image.credit) && (
-        <figcaption className="mt-1.5 text-xs text-gray-500 flex justify-between items-start">
-          {image.legende && <span className="italic">{image.legende}</span>}
+        <figcaption className="mt-1.5 text-xs text-gray-500 flex justify-between items-start gap-2">
+          {image.legende && <span className="italic flex-1">{image.legende}</span>}
           {image.credit && (
-            <span className="text-gray-400 text-right">
-              {image.credit}
-            </span>
+            image.sourceUrl ? (
+              <a
+                href={image.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:text-blue-700 hover:underline text-right flex-shrink-0"
+              >
+                {image.credit}
+              </a>
+            ) : (
+              <span className="text-gray-400 text-right flex-shrink-0">
+                {image.credit}
+              </span>
+            )
           )}
         </figcaption>
       )}

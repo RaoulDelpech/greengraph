@@ -238,10 +238,12 @@
         "hydrogène renouvelable"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Hydrogen_production_from_the_air.pdf/page1-640px-Hydrogen_production_from_the_air.pdf.jpg",
-        "alt": "Hydrogène vert",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Hydrogen_station_pump.jpg/1024px-Hydrogen_station_pump.jpg",
+        "alt": "Station de recharge hydrogène - l'hydrogène vert est produit par électrolyse avec de l'électricité renouvelable",
+        "credit": "Wikimedia Commons - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hydrogen_station_pump.jpg",
+        "type": "photo",
+        "legende": "L'hydrogène vert permet de stocker l'énergie renouvelable et de décarboner l'industrie et les transports lourds"
       }
     },
     {
@@ -479,10 +481,12 @@
         "carbon capture and storage"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/R42532_Carbon_Capture_and_Sequestration_%28CCS%29_A_Primer_%28IA_R42532CarbonCaptureandSequestrationCCSAPrimer-crs%29.pdf/page1-640px-R42532_Carbon_Capture_and_Sequestration_%28CCS%29_A_Primer_%28IA_R42532CarbonCaptureandSequestrationCCSAPrimer-crs%29.pdf.jpg",
-        "alt": "Captage et stockage du CO2 (CSC)",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Carbon_capture_and_storage.svg/1024px-Carbon_capture_and_storage.svg.png",
+        "alt": "Schéma du captage et stockage du CO2 - capture des émissions industrielles puis injection en sous-sol",
+        "credit": "LeJean Hardin / Jesse Allen - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carbon_capture_and_storage.svg",
+        "type": "schema",
+        "legende": "Le CSC capture le CO2 à la source, le transporte et le stocke dans des formations géologiques profondes"
       }
     },
     {
@@ -639,10 +643,12 @@
         "intelligent grid"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/GAO-21-81_Electricity_Grid_Cybersecurity_-_DOE_Needs_to_Ensure_Its_Plans_Fully_Address_Risks_to_Distribution_Systems.pdf/page1-640px-GAO-21-81_Electricity_Grid_Cybersecurity_-_DOE_Needs_to_Ensure_Its_Plans_Fully_Address_Risks_to_Distribution_Systems.pdf.jpg",
-        "alt": "Réseau électrique intelligent (Smart Grid)",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Smart_grid.svg/1024px-Smart_grid.svg.png",
+        "alt": "Schéma d'un réseau électrique intelligent intégrant production décentralisée et consommation pilotée",
+        "credit": "U.S. DOE - Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smart_grid.svg",
+        "type": "schema",
+        "legende": "Les smart grids optimisent en temps réel la production, le stockage et la consommation d'électricité"
       }
     },
     {
@@ -877,10 +883,12 @@
         "chemical recycling"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Ananth_Kumar_addressing_the_gathering_at_the_Foundation_Stone_Laying_Ceremony_for_the_Advanced_Polymer_Design_and_Development_Research_Laboratory_%28APDDRL%29_and_Plastics_Recycling_Unit_%28PRU%29%2C_at_Bengaluru.jpg/960px-thumbnail.jpg",
-        "alt": "Recyclage avancé",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Plastic_recycling.jpg/1024px-Plastic_recycling.jpg",
+        "alt": "Tri et recyclage des plastiques - les technologies avancées permettent de recycler des déchets autrefois incinérés",
+        "credit": "Wikimedia Commons - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plastic_recycling.jpg",
+        "type": "photo",
+        "legende": "Le recyclage chimique transforme les plastiques complexes en matières premières réutilisables"
       }
     },
     {
@@ -956,10 +964,12 @@
         "additive manufacturing"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Digital_Eagle_Articles_-_3D_Printing_Issue_1.pdf/page1-640px-Digital_Eagle_Articles_-_3D_Printing_Issue_1.pdf.jpg",
-        "alt": "Fabrication additive (Impression 3D)",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/3D-printing_timelapse.gif/480px-3D-printing_timelapse.gif",
+        "alt": "Imprimante 3D en action - la fabrication additive ne produit que la matière nécessaire, réduisant les déchets",
+        "credit": "Subhashish Panigrahi - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:3D-printing_timelapse.gif",
+        "type": "photo",
+        "legende": "L'impression 3D permet une production locale, personnalisée et économe en ressources"
       }
     },
     {
@@ -1036,10 +1046,12 @@
         "désalinisation"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Desalination_Water_Toast_by_Philippine_government_officials.jpg/960px-Desalination_Water_Toast_by_Philippine_government_officials.jpg",
-        "alt": "Dessalement de l'eau de mer",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Reverse_osmosis_desalination_plant.JPG/1024px-Reverse_osmosis_desalination_plant.JPG",
+        "alt": "Usine de dessalement par osmose inverse produisant de l'eau douce à partir d'eau de mer",
+        "credit": "James Grellier - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reverse_osmosis_desalination_plant.JPG",
+        "type": "photo",
+        "legende": "Le dessalement est une solution pour les régions en stress hydrique mais reste énergivore"
       }
     },
     {
@@ -1357,10 +1369,12 @@
         "matériaux bio-sourcés"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cell_wall_microstructure%2C_pore_size_distribution_and_absolute_density_of_hemp_shiv.pdf/page1-640px-Cell_wall_microstructure%2C_pore_size_distribution_and_absolute_density_of_hemp_shiv.pdf.jpg",
-        "alt": "Matériaux biosourcés",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bloc_de_chanvre.jpg/1024px-Bloc_de_chanvre.jpg",
+        "alt": "Bloc de béton de chanvre - les matériaux biosourcés stockent du carbone et remplacent les matériaux conventionnels",
+        "credit": "Wikimedia Commons - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bloc_de_chanvre.jpg",
+        "type": "photo",
+        "legende": "Le chanvre, le bois, la paille sont des matériaux renouvelables à faible impact environnemental"
       }
     },
     {
@@ -1437,10 +1451,12 @@
         "Green AI applications"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Environmental_assessment_of_proposed_monitoring_sites_%28IA_environmentalass20suno%29.pdf/page1-640px-Environmental_assessment_of_proposed_monitoring_sites_%28IA_environmentalass20suno%29.pdf.jpg",
-        "alt": "IA pour l'environnement",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Sentinel-2.jpg/1024px-Sentinel-2.jpg",
+        "alt": "Satellite Sentinel-2 d'observation de la Terre - l'IA analyse les données satellite pour surveiller l'environnement",
+        "credit": "ESA - CC BY-SA 3.0 IGO",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sentinel-2.jpg",
+        "type": "photo",
+        "legende": "L'intelligence artificielle optimise la surveillance environnementale et la gestion des ressources"
       }
     },
     {

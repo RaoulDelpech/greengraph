@@ -178,10 +178,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Current_recycling_innovations_to_utilize_e-waste_in_sustainable_green_metal_manufacturing.pdf/page1-640px-Current_recycling_innovations_to_utilize_e-waste_in_sustainable_green_metal_manufacturing.pdf.jpg",
-        "alt": "Économie linéaire",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Landfill_face.JPG/1024px-Landfill_face.JPG",
+        "alt": "Décharge - l'économie linéaire 'extraire-produire-jeter' génère des déchets massifs",
+        "credit": "U.S. EPA - Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landfill_face.JPG",
+        "type": "photo",
+        "legende": "Le modèle linéaire épuise les ressources et accumule les déchets, contrairement à l'économie circulaire"
       }
     },
     {
@@ -889,10 +891,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/A_guide_to_Madeira_-_containing_a_short_account_of_Funchall%2C_with_instructions_to_such_as_repair_to_that_island_for_health_%28IA_b24926371%29.pdf/page1-640px-A_guide_to_Madeira_-_containing_a_short_account_of_Funchall%2C_with_instructions_to_such_as_repair_to_that_island_for_health_%28IA_b24926371%29.pdf.jpg",
-        "alt": "Réparabilité",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Repair_Cafe_in_Toronto.jpg/1024px-Repair_Cafe_in_Toronto.jpg",
+        "alt": "Repair Café à Toronto - les ateliers de réparation participative prolongent la vie des objets",
+        "credit": "Wikimedia Commons - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Repair_Cafe_in_Toronto.jpg",
+        "type": "photo",
+        "legende": "L'indice de réparabilité français oblige à informer les consommateurs sur la facilité de réparation des produits"
       }
     },
     {
@@ -1068,10 +1072,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Towards_an_Ethical_Electronics_Ecologies_of_Congolese_Conflict_Minerals.pdf/page1-640px-Towards_an_Ethical_Electronics_Ecologies_of_Congolese_Conflict_Minerals.pdf.jpg",
-        "alt": "Écologie industrielle",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Kalundborg_Eco-Industrial_Park_Symbiosis_Map.jpg/1024px-Kalundborg_Eco-Industrial_Park_Symbiosis_Map.jpg",
+        "alt": "Schéma de la symbiose industrielle de Kalundborg - les déchets d'une entreprise deviennent ressources pour une autre",
+        "credit": "Wikimedia Commons - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kalundborg_Eco-Industrial_Park_Symbiosis_Map.jpg",
+        "type": "schema",
+        "legende": "L'écologie industrielle optimise les flux de matière et d'énergie entre industries d'un même territoire"
       }
     }
   ]

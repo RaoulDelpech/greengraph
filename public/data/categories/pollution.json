@@ -77,10 +77,12 @@
         "Air quality"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/A_diversity_of_automatic_recorders_to_monitor_ecological_communities_non-invasively_and_remotely_-_Ele14123-fig-0002-m.jpg/960px-A_diversity_of_automatic_recorders_to_monitor_ecological_communities_non-invasively_and_remotely_-_Ele14123-fig-0002-m.jpg",
-        "alt": "Qualité de l'air",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Luxembourg_City_-_Churchill_Square_-_Air_pollution_measuring_station.jpg/1024px-Luxembourg_City_-_Churchill_Square_-_Air_pollution_measuring_station.jpg",
+        "alt": "Station de mesure de la qualité de l'air à Luxembourg - surveillance des polluants atmosphériques en temps réel",
+        "credit": "GilPe - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luxembourg_City_-_Churchill_Square_-_Air_pollution_measuring_station.jpg",
+        "type": "photo",
+        "legende": "Les réseaux de surveillance mesurent en continu PM2.5, NOx, O3 et autres polluants atmosphériques"
       }
     },
     {
@@ -481,10 +483,12 @@
         "Noise pollution"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Urban_Rail_Noise_Abatement_Program_-_a_description_%28IA_urbanrailnoiseab00kurz%29.pdf/page1-640px-Urban_Rail_Noise_Abatement_Program_-_a_description_%28IA_urbanrailnoiseab00kurz%29.pdf.jpg",
-        "alt": "Pollution sonore",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Noise_barrier_A2_Netherlands.jpg/1024px-Noise_barrier_A2_Netherlands.jpg",
+        "alt": "Mur anti-bruit le long d'une autoroute aux Pays-Bas - protection contre la pollution sonore",
+        "credit": "Wikimedia Commons - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Noise_barrier_A2_Netherlands.jpg",
+        "type": "photo",
+        "legende": "Le bruit excessif affecte la santé (stress, troubles du sommeil) et nécessite des mesures d'atténuation"
       }
     },
     {

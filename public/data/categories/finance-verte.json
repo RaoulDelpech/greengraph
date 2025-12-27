@@ -77,10 +77,12 @@
         "sustainable finance"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/The_ASEAN_Issue_No._34-35_-_ASEAN_2045_Shaping_a_Green_Connected_and_Sustainable_Tomorrow.pdf/page1-640px-The_ASEAN_Issue_No._34-35_-_ASEAN_2045_Shaping_a_Green_Connected_and_Sustainable_Tomorrow.pdf.jpg",
-        "alt": "Finance durable",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Gr%C3%BCne_Finanzprodukte.svg/1024px-Gr%C3%BCne_Finanzprodukte.svg.png",
+        "alt": "Schéma des produits financiers verts - la finance durable réoriente les capitaux vers la transition écologique",
+        "credit": "Wikimedia Commons - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCne_Finanzprodukte.svg",
+        "type": "schema",
+        "legende": "Obligations vertes, fonds ISR, prêts verts : les instruments de la finance durable"
       }
     },
     {
@@ -315,10 +317,12 @@
         "classification verte européenne"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/United_Nations_Environment_Programme_State_of_Finance_for_Nature.pdf/page1-640px-United_Nations_Environment_Programme_State_of_Finance_for_Nature.pdf.jpg",
-        "alt": "Taxonomie européenne",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1024px-Flag_of_Europe.svg.png",
+        "alt": "Drapeau européen - la taxonomie UE définit les activités économiques durables",
+        "credit": "Wikimedia Commons - Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg",
+        "type": "logo",
+        "legende": "La taxonomie européenne est le référentiel de classification des activités économiques durables"
       }
     },
     {
@@ -474,10 +478,12 @@
         "SFDR"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Trends_in_Islamic_Finance_in_the_GCC_Book_Chapter_26.pdf/page1-640px-Trends_in_Islamic_Finance_in_the_GCC_Book_Chapter_26.pdf.jpg",
-        "alt": "SFDR (Sustainable Finance Disclosure Regulation)",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/European_Commission.svg/1024px-European_Commission.svg.png",
+        "alt": "Logo Commission Européenne - le SFDR impose des obligations de transparence aux acteurs financiers",
+        "credit": "Wikimedia Commons - Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:European_Commission.svg",
+        "type": "logo",
+        "legende": "Le règlement SFDR oblige les gestionnaires d'actifs à publier des informations sur la durabilité de leurs produits"
       }
     },
     {
@@ -554,10 +560,12 @@
         "climate financial risk"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Executive_Order_14030.pdf/page1-640px-Executive_Order_14030.pdf.jpg",
-        "alt": "Risque climatique financier",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flood_in_Germany_2021.jpg/1024px-Flood_in_Germany_2021.jpg",
+        "alt": "Inondations en Allemagne 2021 - les événements climatiques extrêmes représentent un risque financier majeur",
+        "credit": "Martin Seifert - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flood_in_Germany_2021.jpg",
+        "type": "photo",
+        "legende": "Le risque climatique impacte les portefeuilles d'investissement via les actifs physiques et la transition"
       }
     },
     {
@@ -712,10 +720,12 @@
         "investissement à impact"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/GSG_Logo.png",
-        "alt": "Finance à impact",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Solar_panels_on_a_roof.jpg/1024px-Solar_panels_on_a_roof.jpg",
+        "alt": "Panneaux solaires sur toit - exemple d'investissement à impact environnemental et financier mesurable",
+        "credit": "Wikimedia Commons - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Solar_panels_on_a_roof.jpg",
+        "type": "photo",
+        "legende": "La finance à impact vise un retour financier et un impact social ou environnemental intentionnel et mesurable"
       }
     },
     {
@@ -792,10 +802,12 @@
         "unité carbone"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Biofuels_Bioprod_Bioref_-_2024_-_Elias_-_Market_analysis_of_coupled_biochar_and_carbon_credit_production_from_wildfire_fuel_reduction_projects_in_the_western_USA.pdf/page1-640px-thumbnail.pdf.jpg",
-        "alt": "Crédit carbone",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Reforestation_in_Ecuador.jpg/1024px-Reforestation_in_Ecuador.jpg",
+        "alt": "Projet de reforestation en Équateur - les crédits carbone financent des projets de séquestration du CO2",
+        "credit": "Wikimedia Commons - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reforestation_in_Ecuador.jpg",
+        "type": "photo",
+        "legende": "Un crédit carbone représente une tonne de CO2 évitée ou séquestrée, échangeable sur les marchés"
       }
     },
     {
@@ -872,10 +884,12 @@
         "système d'échange de quotas"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/World_Bank_-_State_and_Trends_of_Carbon_Pricing_2022.pdf/page1-640px-World_Bank_-_State_and_Trends_of_Carbon_Pricing_2022.pdf.jpg",
-        "alt": "Marché du carbone",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Carbon_price_schemes_worldwide.svg/1024px-Carbon_price_schemes_worldwide.svg.png",
+        "alt": "Carte mondiale des systèmes de tarification du carbone - marchés d'échange de quotas et taxes carbone",
+        "credit": "Wikimedia Commons - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carbon_price_schemes_worldwide.svg",
+        "type": "schema",
+        "legende": "Les marchés du carbone (ETS) et taxes carbone mettent un prix sur les émissions de CO2"
       }
     },
     {
@@ -951,10 +965,12 @@
         "SRI label"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Infrastructure_Investment_and_Jobs_Act.pdf/page1-640px-Infrastructure_Investment_and_Jobs_Act.pdf.jpg",
-        "alt": "Label ISR",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/France_in_the_European_Union.svg/1024px-France_in_the_European_Union.svg.png",
+        "alt": "France dans l'UE - le label ISR est un label public français certifiant les fonds d'investissement responsable",
+        "credit": "Wikimedia Commons - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:France_in_the_European_Union.svg",
+        "type": "schema",
+        "legende": "Le label ISR français garantit que les fonds intègrent des critères environnementaux, sociaux et de gouvernance"
       }
     },
     {
@@ -1031,10 +1047,12 @@
         "écoblanchiment financier"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/OJ_C_202404767_of_2024_-_ES_Spanish.pdf/page1-640px-OJ_C_202404767_of_2024_-_ES_Spanish.pdf.jpg",
-        "alt": "Greenwashing financier",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Greenwashing.svg/1024px-Greenwashing.svg.png",
+        "alt": "Schéma du greenwashing - pratique trompeuse consistant à afficher une image écologique sans actions réelles",
+        "credit": "Wikimedia Commons - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greenwashing.svg",
+        "type": "schema",
+        "legende": "Le greenwashing financier désigne les allégations environnementales non fondées de produits financiers"
       }
     },
     {
@@ -1190,10 +1208,12 @@
         "biodiversity finance"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Nature_%28IA_nature2518811882lock%29.pdf/page1-640px-Nature_%28IA_nature2518811882lock%29.pdf.jpg",
-        "alt": "Finance biodiversité",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Coral_reef_at_palmyra.jpg/1024px-Coral_reef_at_palmyra.jpg",
+        "alt": "Récif corallien - la finance biodiversité mobilise des capitaux pour protéger les écosystèmes",
+        "credit": "USFWS - Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coral_reef_at_palmyra.jpg",
+        "type": "photo",
+        "legende": "La finance biodiversité intègre les risques liés à la perte de biodiversité et finance la conservation"
       }
     },
     {
@@ -1269,10 +1289,12 @@
         "catalytic capital"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/P._R._Kyndiah_addressing_at_the_National_Workshop_of_State_Governments_and_Channelising_Agencies_of_National_Scheduled_Tribes_Finance_and_Development_Corporation.jpg/960px-thumbnail.jpg",
-        "alt": "Blended finance (finance mixte)",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/African_Development_Bank_logo.svg/1024px-African_Development_Bank_logo.svg.png",
+        "alt": "Logo Banque Africaine de Développement - la blended finance combine fonds publics et privés pour le développement",
+        "credit": "AfDB - Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:African_Development_Bank_logo.svg",
+        "type": "logo",
+        "legende": "La finance mixte utilise des fonds publics pour réduire le risque et attirer les investisseurs privés"
       }
     },
     {
@@ -1347,10 +1369,12 @@
         "SBT"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Hans_van_Loon_2020_Strategic_Climate_Litigation_in_the_Dutch_Courts_-_a_source_of_inspiration_for_NGOs_elsewhere%3F.pdf/page1-640px-Hans_van_Loon_2020_Strategic_Climate_Litigation_in_the_Dutch_Courts_-_a_source_of_inspiration_for_NGOs_elsewhere%3F.pdf.jpg",
-        "alt": "Science-Based Targets (SBTi)",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Global_surface_temperature_reconstruction.svg/1024px-Global_surface_temperature_reconstruction.svg.png",
+        "alt": "Courbe des températures mondiales - les SBTi alignent les objectifs d'entreprises sur la science climatique",
+        "credit": "Wikimedia Commons - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Global_surface_temperature_reconstruction.svg",
+        "type": "schema",
+        "legende": "L'initiative SBTi valide les trajectoires de réduction d'émissions des entreprises selon les objectifs de Paris"
       }
     }
   ]

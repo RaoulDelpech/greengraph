@@ -347,10 +347,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/OJ_L_202400825_of_2024_-_EN_English.pdf/page1-640px-OJ_L_202400825_of_2024_-_EN_English.pdf.jpg",
-        "alt": "Greenwashing (écoblanchiment)",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Greenwashing.svg/1024px-Greenwashing.svg.png",
+        "alt": "Schéma du greenwashing - communication trompeuse sur les qualités environnementales d'un produit ou d'une entreprise",
+        "credit": "Wikimedia Commons - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greenwashing.svg",
+        "type": "schema",
+        "legende": "Le greenwashing induit le consommateur en erreur par des allégations écologiques non fondées"
       }
     },
     {
@@ -748,10 +750,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/OJ_C_184_of_2022_-_EN_English.pdf/page1-640px-OJ_C_184_of_2022_-_EN_English.pdf.jpg",
-        "alt": "Agroécologie",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Organic-vegetable-cultivation.jpeg/1024px-Organic-vegetable-cultivation.jpeg",
+        "alt": "Culture maraîchère diversifiée - l'agroécologie s'inspire des écosystèmes naturels pour une agriculture durable",
+        "credit": "Wikimedia Commons - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Organic-vegetable-cultivation.jpeg",
+        "type": "photo",
+        "legende": "L'agroécologie combine savoirs traditionnels et sciences pour des systèmes agricoles résilients et productifs"
       }
     },
     {

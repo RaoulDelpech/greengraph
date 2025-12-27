@@ -1056,10 +1056,12 @@
         "Intergovernmental Panel on Climate Change"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/INTERNATIONAL_CLIMATE_CHANGE_NEGOTIATIONS-_RESTORING_U.S._LEADERSHIP_%28IA_gov.gpo.fdsys.CHRG-110shrg44771%29.pdf/page1-640px-INTERNATIONAL_CLIMATE_CHANGE_NEGOTIATIONS-_RESTORING_U.S._LEADERSHIP_%28IA_gov.gpo.fdsys.CHRG-110shrg44771%29.pdf.jpg",
-        "alt": "GIEC",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ipcc_logo.svg/800px-Ipcc_logo.svg.png",
+        "alt": "Logo du GIEC - Groupe d'experts intergouvernemental sur l'évolution du climat",
+        "credit": "IPCC - Public Domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ipcc_logo.svg",
+        "type": "logo",
+        "legende": "Le GIEC évalue les données scientifiques sur le changement climatique et publie des rapports de synthèse"
       }
     },
     {
@@ -1384,10 +1386,12 @@
         "Seuil climatique critique"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/UlvikfjordMountainsPanorama.jpg/960px-UlvikfjordMountainsPanorama.jpg",
-        "alt": "Point de basculement",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Greenland_ice-sheet_AMSL.png/1024px-Greenland_ice-sheet_AMSL.png",
+        "alt": "Calotte glaciaire du Groenland - son effondrement est l'un des points de basculement climatiques majeurs",
+        "credit": "Eric Gaba - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greenland_ice-sheet_AMSL.png",
+        "type": "schema",
+        "legende": "Les points de basculement sont des seuils au-delà desquels un système climatique bascule de façon irréversible"
       }
     },
     {
@@ -1421,10 +1425,12 @@
         "Scope 3 : transport fournisseurs"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/MIDTERM_REVIEW_AND_UPDATE_ON_THE_CORPORATE_AVERAGE_FUEL_ECONOMY_PROGRAM_AND_GREENHOUSE_GAS_EMISSIONS_STANDARDS_FOR_MOTOR_VEHICLES_%28IA_gov.gpo.fdsys.CHRG-114hhrg23411%29.pdf/page1-640px-thumbnail.pdf.jpg",
-        "alt": "Scopes 1, 2 et 3",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/GHG_emissions_by_sector.svg/1024px-GHG_emissions_by_sector.svg.png",
+        "alt": "Schéma des émissions de GES par secteur - les scopes classifient les émissions directes et indirectes",
+        "credit": "Wikimedia Commons - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:GHG_emissions_by_sector.svg",
+        "type": "schema",
+        "legende": "Scope 1 = émissions directes, Scope 2 = énergie achetée, Scope 3 = chaîne de valeur"
       }
     },
     {
@@ -1780,10 +1786,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/HEALTH_IMPACTS_OF_PM-2.5_ASSOCIATED_WITH_POWER_PLANT_EMISSIONS_%28IA_gov.gpo.fdsys.CHRG-107shrg83723%29.pdf/page1-640px-HEALTH_IMPACTS_OF_PM-2.5_ASSOCIATED_WITH_POWER_PLANT_EMISSIONS_%28IA_gov.gpo.fdsys.CHRG-107shrg83723%29.pdf.jpg",
-        "alt": "Intensité carbone",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Electricity_emission_intensity%2C_World%2C_OWID.svg/1024px-Electricity_emission_intensity%2C_World%2C_OWID.svg.png",
+        "alt": "Évolution de l'intensité carbone de l'électricité mondiale en gCO2/kWh",
+        "credit": "Our World in Data - CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Electricity_emission_intensity,_World,_OWID.svg",
+        "type": "schema",
+        "legende": "L'intensité carbone mesure les émissions de CO2 par unité produite (kWh, € de PIB)"
       }
     }
   ]
