@@ -150,7 +150,7 @@ export function ChatPanel({ definitions, onDefinitionClick, onClose }: ChatPanel
         {messages.map((msg) => (
           <div
             key={msg.id}
-            className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
+            className={`flex flex-col ${msg.role === 'user' ? 'items-end' : 'items-start'}`}
           >
             <div
               className={`max-w-[85%] px-4 py-3 rounded-lg ${
@@ -163,6 +163,43 @@ export function ChatPanel({ definitions, onDefinitionClick, onClose }: ChatPanel
                 {msg.role === 'assistant' ? renderMessageContent(msg.content) : msg.content}
               </div>
             </div>
+
+            {/* Sources utilisées */}
+            {msg.role === 'assistant' && msg.sources && msg.sources.length > 0 && (
+              <div className="mt-2 max-w-[85%]">
+                <details className="group">
+                  <summary className="text-xs text-gray-500 cursor-pointer hover:text-gray-700 flex items-center gap-1">
+                    <svg className="w-3 h-3 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                    {msg.sources.length} source{msg.sources.length > 1 ? 's' : ''} consultée{msg.sources.length > 1 ? 's' : ''}
+                  </summary>
+                  <ul className="mt-1 space-y-1 pl-4 border-l-2 border-gray-200">
+                    {msg.sources.map((source, idx) => (
+                      <li key={idx} className="text-xs text-gray-600">
+                        <span className="font-medium">{source.auteur || source.institution}</span>
+                        {source.annee && <span className="text-gray-400"> ({source.annee})</span>}
+                        {source.titre && (
+                          <span className="block text-gray-500 truncate" title={source.titre}>
+                            {source.titre.length > 50 ? source.titre.slice(0, 50) + '...' : source.titre}
+                          </span>
+                        )}
+                        {source.url && (
+                          <a
+                            href={source.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-emerald-600 hover:underline"
+                          >
+                            Voir la source
+                          </a>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              </div>
+            )}
           </div>
         ))}
 

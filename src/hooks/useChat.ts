@@ -20,6 +20,7 @@ const SYSTEM_PROMPT = `Tu es un assistant spécialisé en écologie, environneme
 Tu réponds UNIQUEMENT en te basant sur les définitions fournies dans le contexte.
 Si aucune définition ne permet de répondre à la question, dis-le clairement : "Je n'ai pas de définition sur ce sujet dans ma base."
 Cite toujours les termes utilisés entre [crochets] pour permettre la navigation.
+Quand tu utilises des informations d'une source, mentionne-la naturellement (ex: "selon le GIEC", "d'après l'ADEME").
 Sois concis et pédagogue. Réponds en français.`;
 
 export function useChat({ definitions }: UseChatProps): UseChatReturn {
@@ -53,13 +54,47 @@ export function useChat({ definitions }: UseChatProps): UseChatReturn {
     }
 
     return relevantDefs
-      .map(
-        (def) =>
-          `[${def.terme}]: ${def.definition}${
-            def.exemples ? ` Exemples: ${def.exemples.join(', ')}` : ''
-          }`
-      )
-      .join('\n\n');
+      .map((def) => {
+        let context = `[${def.terme}]: ${def.definition}`;
+
+        // Ajouter le contenu expert si disponible
+        if (def.definitionEtendue) {
+          const ext = def.definitionEtendue;
+          if (ext.mecanismes) {
+            context += `\nMécanismes: ${ext.mecanismes}`;
+          }
+          if (ext.enjeuxActuels) {
+            context += `\nEnjeux actuels: ${ext.enjeuxActuels}`;
+          }
+        }
+
+        // Ajouter les indicateurs quantitatifs
+        if (def.indicateursQuantitatifs && def.indicateursQuantitatifs.length > 0) {
+          const indicators = def.indicateursQuantitatifs
+            .map(ind => `${ind.valeur} (${ind.source}, ${ind.annee})`)
+            .join('; ');
+          context += `\nDonnées chiffrées: ${indicators}`;
+        }
+
+        // Ajouter les sources principales
+        if (def.sources && def.sources.length > 0) {
+          const topSources = def.sources
+            .filter(s => s.niveauPreuve === 'elevé')
+            .slice(0, 2)
+            .map(s => s.auteur || s.institution || s.titre)
+            .join(', ');
+          if (topSources) {
+            context += `\nSources principales: ${topSources}`;
+          }
+        }
+
+        if (def.exemples && def.exemples.length > 0) {
+          context += `\nExemples: ${def.exemples.join(', ')}`;
+        }
+
+        return context;
+      })
+      .join('\n\n---\n\n');
   }, []);
 
   const sendMessage = useCallback(
@@ -86,6 +121,12 @@ export function useChat({ definitions }: UseChatProps): UseChatReturn {
         const relevantDefs = findRelevantDefinitions(content, 7);
         const context = buildContext(relevantDefs);
 
+        // Collecter les sources de haute qualité des définitions utilisées
+        const usedSources = relevantDefs
+          .flatMap(def => def.sources || [])
+          .filter(s => s.niveauPreuve === 'elevé')
+          .slice(0, 4);
+
         // Construire les messages pour Mistral
         const chatMessages = [
           { role: 'system' as const, content: SYSTEM_PROMPT },
@@ -107,6 +148,7 @@ export function useChat({ definitions }: UseChatProps): UseChatReturn {
           content: response,
           timestamp: new Date(),
           citations,
+          sources: usedSources,
         };
 
         setMessages((prev) => [...prev, assistantMessage]);
