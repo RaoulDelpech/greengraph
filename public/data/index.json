@@ -71,6 +71,38 @@
       "couleur": "#ef4444",
       "icone": "alert",
       "fichier": "pollution.json"
+    },
+    {
+      "id": "forets-oceans",
+      "nom": "Forêts & Océans",
+      "description": "Écosystèmes forestiers et marins, sylviculture durable, protection des océans",
+      "couleur": "#059669",
+      "icone": "trees",
+      "fichier": "forets-oceans.json"
+    },
+    {
+      "id": "finance-verte",
+      "nom": "Finance verte & ESG",
+      "description": "Finance durable, investissement responsable, critères ESG et taxonomie",
+      "couleur": "#0891b2",
+      "icone": "trending-up",
+      "fichier": "finance-verte.json"
+    },
+    {
+      "id": "droit-environnement",
+      "nom": "Droit de l'environnement",
+      "description": "Cadre juridique, conventions internationales, contentieux climatique",
+      "couleur": "#7c3aed",
+      "icone": "scale",
+      "fichier": "droit-environnement.json"
+    },
+    {
+      "id": "technologies-vertes",
+      "nom": "Technologies vertes",
+      "description": "Innovations technologiques pour la transition écologique",
+      "couleur": "#10b981",
+      "icone": "cpu",
+      "fichier": "technologies-vertes.json"
     }
   ]
 }

@@ -1,0 +1,535 @@
+{
+  "id": "finance-verte",
+  "nom": "Finance verte & ESG",
+  "description": "Finance durable, investissement responsable, critères ESG et taxonomie",
+  "couleur": "#0891b2",
+  "definitions": [
+    {
+      "id": "finance-durable",
+      "terme": "Finance durable",
+      "categorie": "finance-verte",
+      "resume": "Intégration des critères environnementaux, sociaux et de gouvernance dans les décisions financières. Réorientation des flux vers la transition écologique.",
+      "definition": "La finance durable désigne l'ensemble des pratiques financières qui intègrent les critères environnementaux, sociaux et de gouvernance (ESG) dans les décisions d'investissement, de crédit et d'assurance. Elle vise à réorienter les flux de capitaux vers des activités compatibles avec les objectifs climatiques et de développement durable. Elle englobe l'investissement responsable (ISR), les obligations vertes, la finance à impact, et les taxonomies définissant les activités durables.",
+      "definitionEtendue": {
+        "introduction": "La finance durable émerge avec les premiers fonds éthiques (exclusion armement, tabac) dans les années 1970. Les Principes pour l'Investissement Responsable (PRI, 2006) structurent le secteur. L'Accord de Paris (2015) crée l'impulsion politique. Le Green Deal européen (2019) et le Plan d'action pour la finance durable (2018) institutionnalisent la réglementation.",
+        "mecanismes": "La finance durable opère à travers : l'exclusion (secteurs controversés), la sélection ESG (best-in-class), l'engagement actionnarial (vote, dialogue), l'investissement thématique (climat, social), et l'impact investing (objectifs mesurables). Les flux sont orientés par les réglementations (taxonomie, disclosure), les incitations fiscales, et la demande des investisseurs.",
+        "contexteScientifique": "Les recherches portent sur : la performance financière de l'ESG (débat persistant), la mesure d'impact, le risque de greenwashing, et l'efficacité pour la transition. Le concept de 'double matérialité' (impact sur l'entreprise ET impact de l'entreprise) structure l'approche européenne.",
+        "enjeuxActuels": "La finance durable représente >35 000 Mrd$ d'actifs (2022). Les défis : qualité des données ESG, divergence des notations, greenwashing, et définition du 'durable' (taxonomie). La réglementation se renforce (SFDR, CSRD, taxonomie UE). Le financement de la transition (vs exclusion pure) gagne du terrain.",
+        "perspectives": "L'avenir passe par : la standardisation des données (ISSB), la taxonomie sociale, l'extension aux PME, et le financement de la transition dans les pays émergents. Le concept de 'finance de transition' reconnaît les besoins des secteurs en décarbonation."
+      },
+      "sources": [
+        {"titre": "Principles for Responsible Investment (PRI)", "url": "https://www.unpri.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "EU Sustainable Finance Action Plan", "auteur": "Commission Européenne", "url": "https://ec.europa.eu/info/business-economy-euro/banking-and-finance/sustainable-finance_en", "annee": 2018, "type": "loi", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["ESG", "PRI", "SFDR", "double matérialité", "taxonomie"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Finance durable : >35 000 Mrd$ d'actifs mondiaux", "source": "GSIA", "annee": 2022},
+        {"valeur": "PRI : 5 000+ signataires, 120 000 Mrd$ d'actifs", "source": "PRI", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "taxonomie-verte", "type": "renvoie_a", "score": 95},
+        {"cible": "investissement-responsable", "type": "proche_de", "score": 90}
+      ],
+      "exemples": ["Fonds ISR", "Green bonds", "Prêts verts"],
+      "synonymes": ["finance responsable", "sustainable finance"]
+    },
+    {
+      "id": "criteres-esg",
+      "terme": "Critères ESG",
+      "categorie": "finance-verte",
+      "resume": "Trois piliers d'évaluation extra-financière : Environnement, Social, Gouvernance. Base de l'analyse des entreprises durables.",
+      "definition": "Les critères ESG (Environnement, Social, Gouvernance) sont un ensemble de critères extra-financiers permettant d'évaluer la performance d'une entreprise au-delà de ses résultats économiques. Le pilier E couvre les impacts environnementaux (émissions, ressources, biodiversité). Le pilier S concerne les relations sociales (employés, fournisseurs, communautés). Le pilier G porte sur la gouvernance (éthique, rémunération, droits des actionnaires). Les critères ESG sont utilisés par les investisseurs, les agences de notation, et les régulateurs.",
+      "definitionEtendue": {
+        "introduction": "Le terme ESG est formalisé par le rapport 'Who Cares Wins' de l'ONU (2004). Il succède aux concepts d'investissement éthique et de RSE. Les agences de notation extra-financière (Vigeo-Eiris, MSCI, Sustainalytics) développent des méthodologies. La réglementation européenne (SFDR, CSRD) institutionnalise l'usage.",
+        "mecanismes": "L'évaluation ESG agrège des indicateurs multiples : E (émissions CO2, eau, déchets, biodiversité), S (accidents, diversité, formation, chaîne d'approvisionnement), G (indépendance du conseil, rémunération, éthique). Les méthodologies varient selon les agences, causant des divergences de notation. La pondération des critères dépend du secteur.",
+        "contexteScientifique": "Les recherches portent sur : la corrélation ESG-performance financière (résultats mitigés), la divergence des notations (corrélation <0,5 entre agences), la matérialité (quels critères comptent vraiment), et le risque de 'ESG washing'. Le concept de double matérialité distingue risques pour l'entreprise et impacts de l'entreprise.",
+        "enjeuxActuels": "L'ESG est mainstream (90% des grands investisseurs l'intègrent). Les défis : qualité et comparabilité des données, divergence des notations, priorisation E vs S vs G, et manipulation (greenwashing/socialwashing). La réglementation (CSRD) impose un reporting standardisé.",
+        "perspectives": "L'avenir passe par : la standardisation (ISSB, ESRS), l'amélioration des données (technologies, audit), l'intégration de la biodiversité et du social, et la réduction du greenwashing. L'ESG devient un prérequis plutôt qu'un différenciateur."
+      },
+      "sources": [
+        {"titre": "Who Cares Wins", "auteur": "UN Global Compact", "annee": 2004, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "SFDR - Règlement (UE) 2019/2088", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2019, "type": "loi", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["notation extra-financière", "matérialité", "CSRD", "ESRS", "divergence"],
+      "indicateursQuantitatifs": [
+        {"valeur": "90% des grands investisseurs intègrent l'ESG", "source": "PwC", "annee": 2022},
+        {"valeur": "Corrélation entre agences ESG : <0,5", "source": "MIT Sloan", "annee": 2022}
+      ],
+      "relations": [
+        {"cible": "finance-durable", "type": "contribue_a", "score": 95},
+        {"cible": "rse", "type": "proche_de", "score": 85}
+      ],
+      "exemples": ["Notation MSCI ESG", "Score Vigeo-Eiris", "Reporting CSRD"],
+      "synonymes": ["critères extra-financiers", "ESG criteria"]
+    },
+    {
+      "id": "obligation-verte",
+      "terme": "Obligation verte (Green bond)",
+      "categorie": "finance-verte",
+      "resume": "Titre de dette finançant exclusivement des projets environnementaux. Marché en forte croissance depuis 2014.",
+      "definition": "Une obligation verte (green bond) est un titre de dette dont les fonds levés sont exclusivement affectés au financement ou refinancement de projets ayant des bénéfices environnementaux : énergies renouvelables, efficacité énergétique, transports propres, gestion durable de l'eau et des déchets, biodiversité. Les Green Bond Principles (ICMA, 2014) définissent les bonnes pratiques. Le marché a dépassé 500 milliards $ d'émissions annuelles en 2021.",
+      "definitionEtendue": {
+        "introduction": "La première obligation verte est émise par la BEI en 2007. La Banque mondiale suit en 2008. Le marché décolle en 2014 avec les Green Bond Principles et l'émission Apple (1,5 Mrd$). La France émet la première obligation souveraine verte (OAT Verte, 7 Mrd€, 2017). Le marché atteint 2 500 Mrd$ de cumul en 2023.",
+        "mecanismes": "L'émission d'un green bond implique : définition des projets éligibles, cadre d'émission (framework), seconde opinion (SPO) par un vérificateur externe, allocation des fonds aux projets, et reporting d'impact. Les Principles distinguent : Use of Proceeds, Process for Evaluation, Management of Proceeds, et Reporting.",
+        "contexteScientifique": "Les recherches portent sur : le 'greenium' (prime de prix des green bonds, estimée à 2-5 bp), l'additionnalité (les projets auraient-ils été financés autrement?), la qualité des vérifications, et le risque de greenwashing. Le Green Bond Standard européen (EuGBS) renforce les exigences.",
+        "enjeuxActuels": "Le marché croît de 20%/an mais reste <5% des émissions obligataires. Les défis : définition du 'vert' (taxonomie), qualité des vérifications, reporting d'impact, et accessibilité aux émetteurs de taille moyenne. Les obligations de transition (transition bonds) émergent pour les secteurs carbonés.",
+        "perspectives": "L'avenir passe par : l'EuGBS (standard européen exigeant), l'extension aux obligations sociales et durables, l'amélioration du reporting d'impact, et le développement dans les marchés émergents. Les green bonds souverains se multiplient."
+      },
+      "sources": [
+        {"titre": "Green Bond Principles", "auteur": "ICMA", "url": "https://www.icmagroup.org/sustainable-finance/", "annee": 2021, "type": "norme_iso", "niveauPreuve": "elevé"},
+        {"titre": "Climate Bonds Initiative - Market Data", "url": "https://www.climatebonds.net/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["GBP", "SPO", "greenium", "EuGBS", "use of proceeds"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Marché green bonds : 2 500 Mrd$ cumulés", "source": "Climate Bonds Initiative", "annee": 2023},
+        {"valeur": "Émissions annuelles : 500+ Mrd$", "source": "CBI", "annee": 2022}
+      ],
+      "relations": [
+        {"cible": "finance-durable", "type": "est_type_de", "score": 95},
+        {"cible": "taxonomie-verte", "type": "renvoie_a", "score": 85}
+      ],
+      "exemples": ["OAT Verte française", "Green Bond Apple", "Émissions BEI"],
+      "synonymes": ["green bond", "emprunt vert"]
+    },
+    {
+      "id": "taxonomie-ue",
+      "terme": "Taxonomie européenne",
+      "categorie": "finance-verte",
+      "resume": "Classification officielle UE des activités économiques durables. Référentiel pour orienter les investissements vers la transition.",
+      "definition": "La taxonomie européenne est un système de classification établi par le règlement UE 2020/852 qui définit quelles activités économiques peuvent être considérées comme durables sur le plan environnemental. Une activité est alignée si elle contribue substantiellement à l'un des six objectifs environnementaux (climat, eau, économie circulaire, pollution, biodiversité) sans causer de préjudice significatif aux autres (DNSH), tout en respectant des garanties sociales minimales.",
+      "definitionEtendue": {
+        "introduction": "La taxonomie est le pilier du Plan d'action finance durable de l'UE (2018). Le règlement est adopté en 2020 et les actes délégués précisent les critères techniques par activité. La taxonomie climat (objectifs 1-2) entre en vigueur en 2022. Les objectifs 3-6 suivent en 2023. La controverse sur l'inclusion du gaz et du nucléaire marque les débats.",
+        "mecanismes": "Pour être 'alignée', une activité doit : (1) contribuer substantiellement à un objectif (seuils quantitatifs), (2) ne pas causer de préjudice significatif aux 5 autres (DNSH), (3) respecter les garanties sociales minimales (OCDE, OIT). Les entreprises soumises à la CSRD doivent reporter leur part d'activités alignées (chiffre d'affaires, CapEx, OpEx).",
+        "contexteScientifique": "Les recherches portent sur : les seuils techniques (pertinence scientifique), la couverture sectorielle (lacunes), les effets sur les flux financiers, et les risques de contournement. Le débat scientifique a entouré l'inclusion du nucléaire (bas carbone mais déchets) et du gaz (transition mais fossile).",
+        "enjeuxActuels": "La taxonomie est un outil puissant mais complexe. Les défis : disponibilité des données pour les PME, couverture sectorielle incomplète, critères parfois contestés (gaz, nucléaire), et coordination internationale (taxonomies divergentes). L'alignement moyen des entreprises européennes est faible (<10%).",
+        "perspectives": "L'avenir passe par : l'extension de la couverture sectorielle, la taxonomie sociale, l'harmonisation internationale (IPSF), et la simplification pour les PME. La taxonomie devient le langage commun de la finance durable en Europe."
+      },
+      "sources": [
+        {"titre": "Règlement (UE) 2020/852 (Taxonomie)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32020R0852", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "EU Taxonomy Compass", "auteur": "Commission Européenne", "url": "https://ec.europa.eu/sustainable-finance-taxonomy/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["DNSH", "contribution substantielle", "actes délégués", "6 objectifs", "alignement"],
+      "indicateursQuantitatifs": [
+        {"valeur": "6 objectifs environnementaux couverts", "source": "Commission Européenne", "annee": 2023},
+        {"valeur": "Alignement moyen entreprises UE : <10%", "source": "Études diverses", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "finance-durable", "type": "contribue_a", "score": 95},
+        {"cible": "obligation-verte", "type": "renvoie_a", "score": 85}
+      ],
+      "exemples": ["Énergies renouvelables (alignées)", "Transport électrique (aligné)", "Gaz naturel (transitoire, controversé)"],
+      "synonymes": ["EU Taxonomy", "classification verte européenne"]
+    },
+    {
+      "id": "csrd",
+      "terme": "CSRD (Corporate Sustainability Reporting Directive)",
+      "categorie": "finance-verte",
+      "resume": "Directive européenne imposant un reporting détaillé des performances de durabilité aux entreprises. Extension majeure des obligations.",
+      "definition": "La CSRD (Corporate Sustainability Reporting Directive, 2022/2464) est une directive européenne qui étend et renforce les obligations de reporting extra-financier des entreprises. Elle remplace la NFRD (2014) et s'applique progressivement à partir de 2024 à environ 50 000 entreprises en UE (vs 11 000 pour la NFRD). Le reporting suit les standards ESRS (European Sustainability Reporting Standards) et couvre les aspects environnementaux, sociaux et de gouvernance selon le principe de double matérialité.",
+      "definitionEtendue": {
+        "introduction": "La NFRD (2014) a initié le reporting extra-financier mais avec des exigences limitées et peu comparables. La CSRD (adoptée en 2022) répond aux critiques : standards détaillés (ESRS), audit obligatoire, format numérique (XBRL), extension du périmètre, et double matérialité. L'application commence en 2024 pour les grandes entreprises.",
+        "mecanismes": "Les entreprises soumises doivent : réaliser une analyse de double matérialité (impacts sur l'entreprise ET de l'entreprise), reporter selon les ESRS (12 standards thématiques), faire auditer le rapport, et le publier au format numérique. Le périmètre inclut la chaîne de valeur. Les PME cotées ont des standards simplifiés (LSME).",
+        "contexteScientifique": "Les recherches portent sur : les coûts de mise en conformité, les effets sur le comportement des entreprises, la qualité des données, et l'articulation avec les standards internationaux (ISSB). Le débat porte sur le niveau d'exigence (trop complexe pour les PME?) et la comparabilité internationale.",
+        "enjeuxActuels": "La CSRD est une révolution du reporting. Les défis : capacité des entreprises à collecter les données (chaîne de valeur), montée en compétence des auditeurs, coûts de mise en conformité, et articulation avec les standards ISSB. L'effet cascade vers les fournisseurs hors-UE crée des tensions.",
+        "perspectives": "L'avenir passe par : la simplification progressive, les outils numériques, l'harmonisation ESRS-ISSB, et l'extension aux PME non cotées. La CSRD vise à faire du reporting de durabilité un standard aussi rigoureux que le reporting financier."
+      },
+      "sources": [
+        {"titre": "Directive (UE) 2022/2464 (CSRD)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32022L2464", "annee": 2022, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "ESRS (European Sustainability Reporting Standards)", "auteur": "EFRAG", "url": "https://www.efrag.org/", "annee": 2023, "type": "norme_iso", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["ESRS", "double matérialité", "EFRAG", "audit durabilité", "XBRL"],
+      "indicateursQuantitatifs": [
+        {"valeur": "~50 000 entreprises concernées en UE", "source": "Commission Européenne", "annee": 2023},
+        {"valeur": "12 standards ESRS thématiques", "source": "EFRAG", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "criteres-esg", "type": "renvoie_a", "score": 90},
+        {"cible": "taxonomie-ue", "type": "renvoie_a", "score": 85}
+      ],
+      "exemples": ["Reporting climat (ESRS E1)", "Reporting social (ESRS S1-S4)", "Reporting gouvernance (ESRS G1)"],
+      "synonymes": ["directive reporting durabilité", "DPEF étendue"]
+    },
+    {
+      "id": "sfdr",
+      "terme": "SFDR (Sustainable Finance Disclosure Regulation)",
+      "categorie": "finance-verte",
+      "resume": "Règlement européen imposant aux acteurs financiers de divulguer l'intégration des risques de durabilité et les impacts négatifs.",
+      "definition": "Le SFDR (Règlement UE 2019/2088) est un règlement européen qui impose aux acteurs des marchés financiers (gestionnaires d'actifs, conseillers) de divulguer comment ils intègrent les risques de durabilité et les principales incidences négatives (PAI) dans leurs processus de décision et leurs produits. Il crée une classification des produits financiers (Articles 6, 8, 9) selon leur niveau d'ambition environnementale et sociale.",
+      "definitionEtendue": {
+        "introduction": "Le SFDR est adopté en 2019 dans le cadre du Plan d'action finance durable de l'UE. Il vise à lutter contre le greenwashing et à permettre aux investisseurs de comparer les produits durables. L'application débute en mars 2021 (niveau 1) et se complète en 2023 (RTS niveau 2). Le règlement s'articule avec la taxonomie et la CSRD.",
+        "mecanismes": "Le SFDR impose trois types de divulgation : au niveau de l'entité (politique d'intégration ESG), au niveau du produit (caractéristiques durables), et sur les PAI (14 indicateurs obligatoires). Les produits sont classés : Article 6 (pas d'objectif durable), Article 8 (promeut des caractéristiques E/S), Article 9 (objectif d'investissement durable).",
+        "contexteScientifique": "Les recherches portent sur : la pertinence de la classification (Article 8 trop large?), le risque de greenwashing persistant, la qualité des données PAI, et les effets sur les flux financiers. Le débat porte sur le durcissement des critères et la révision de la classification.",
+        "enjeuxActuels": "Le marché Article 8+9 représente >50% des fonds européens. Les défis : clarification des définitions (consultation 2023), reclassification de fonds (d'Article 9 vers 8), disponibilité des données PAI, et cohérence avec la taxonomie. La révision du SFDR est en cours (2024-25).",
+        "perspectives": "L'avenir passe par : la révision de la classification (catégories plus claires), l'amélioration des données, l'articulation renforcée avec la taxonomie, et l'extension des PAI. L'objectif est un marché où les allégations durables sont vérifiables."
+      },
+      "sources": [
+        {"titre": "Règlement (UE) 2019/2088 (SFDR)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32019R2088", "annee": 2019, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "RTS SFDR", "auteur": "ESAs", "annee": 2022, "type": "loi", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["Article 8", "Article 9", "PAI", "RTS", "investissement durable"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Fonds Article 8+9 : >50% du marché européen", "source": "Morningstar", "annee": 2023},
+        {"valeur": "14 indicateurs PAI obligatoires", "source": "RTS SFDR", "annee": 2022}
+      ],
+      "relations": [
+        {"cible": "finance-durable", "type": "contribue_a", "score": 90},
+        {"cible": "taxonomie-ue", "type": "renvoie_a", "score": 85}
+      ],
+      "exemples": ["Fonds Article 9 (objectif durable)", "Fonds Article 8 (promotion ESG)", "Déclaration PAI"],
+      "synonymes": ["règlement disclosure durabilité", "SFDR"]
+    },
+    {
+      "id": "risque-climatique-financier",
+      "terme": "Risque climatique financier",
+      "categorie": "finance-verte",
+      "resume": "Risques financiers liés au changement climatique : physiques (événements extrêmes) et de transition (décarbonation de l'économie).",
+      "definition": "Les risques climatiques financiers désignent les risques pesant sur les actifs financiers et la stabilité du système financier du fait du changement climatique. Ils se divisent en risques physiques (dommages causés par les événements climatiques extrêmes et les changements progressifs) et risques de transition (pertes liées à l'ajustement vers une économie bas carbone : réglementation, technologie, marché). La Task Force on Climate-related Financial Disclosures (TCFD) a normalisé leur divulgation.",
+      "definitionEtendue": {
+        "introduction": "Mark Carney, gouverneur de la Banque d'Angleterre, alerte sur la 'tragédie des horizons' en 2015 : les risques climatiques sont ignorés car au-delà des horizons de décision. La TCFD (FSB, 2017) crée un cadre de divulgation. Les banques centrales (NGFS, 2017) intègrent le risque climatique dans la supervision financière.",
+        "mecanismes": "Les risques physiques incluent : événements aigus (tempêtes, inondations) et chroniques (élévation du niveau de la mer, stress hydrique). Les risques de transition incluent : risques réglementaires (taxe carbone), technologiques (obsolescence), de marché (préférences consommateurs), et de réputation. Les 'stranded assets' (actifs échoués) cristallisent le risque transition.",
+        "contexteScientifique": "Les recherches portent sur : la quantification des risques (stress tests climatiques), les horizons temporels, la transmission aux bilans bancaires, et les effets systémiques. Les modèles intègrent les scénarios NGFS. Le débat porte sur la matérialité à court terme et les limites des modèles.",
+        "enjeuxActuels": "Les régulateurs intègrent le risque climatique : stress tests BCE (2022), exigences TCFD obligatoires (UK, UE). Les défis : données et méthodologies, horizons longs vs cycles financiers courts, et couverture des risques physiques. Les assureurs sont en première ligne.",
+        "perspectives": "L'avenir passe par : la standardisation des divulgations (ISSB intègre TCFD), les stress tests réguliers, l'intégration dans les exigences prudentielles (Bâle III vert?), et la tarification du risque climatique. Le risque climatique devient un risque financier conventionnel."
+      },
+      "sources": [
+        {"titre": "TCFD Recommendations", "auteur": "Task Force on Climate-related Financial Disclosures", "url": "https://www.fsb-tcfd.org/", "annee": 2017, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "NGFS Scenarios", "auteur": "Network for Greening the Financial System", "url": "https://www.ngfs.net/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["TCFD", "NGFS", "stranded assets", "risque physique", "risque de transition"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Actifs échoués potentiels : 1-4 000 Mrd$ (secteur fossile)", "source": "Carbon Tracker", "annee": 2022},
+        {"valeur": "4 000+ entreprises appliquent la TCFD", "source": "TCFD", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "changement-climatique", "type": "renvoie_a", "score": 90},
+        {"cible": "finance-durable", "type": "contribue_a", "score": 85}
+      ],
+      "exemples": ["Stress test climatique BCE", "Dépréciation actifs pétroliers", "Assurance catastrophes naturelles"],
+      "synonymes": ["risque climat", "climate financial risk"]
+    },
+    {
+      "id": "desinvestissement-fossile",
+      "terme": "Désinvestissement des énergies fossiles",
+      "categorie": "finance-verte",
+      "resume": "Retrait des investissements du secteur des énergies fossiles. Mouvement porté par des institutions, universités et fonds de pension.",
+      "definition": "Le désinvestissement des énergies fossiles (fossil fuel divestment) est une stratégie financière et un mouvement social consistant à retirer les investissements des entreprises productrices de charbon, pétrole et gaz. Initié par les universités américaines (2011), le mouvement s'est étendu aux fonds de pension, assureurs, fondations et collectivités. Il combine motivations éthiques (refus de profiter de la destruction climatique) et financières (risque de stranded assets).",
+      "definitionEtendue": {
+        "introduction": "Le mouvement débute en 2011 à Swarthmore College (USA), inspiré par le désinvestissement anti-apartheid. 350.org et Bill McKibben le popularisent avec la campagne 'Fossil Free'. Le Guardian lance 'Keep it in the ground' (2015). Des institutions majeures rejoignent : fonds souverain norvégien (partiellement), Université de Californie, assureurs européens.",
+        "mecanismes": "Le désinvestissement opère par : exclusion totale (charbon, puis pétrole/gaz), exclusion des 'pires' (expansion fossile), désengagement progressif, ou engagement sans désinvestissement. L'impact se veut double : signal politique (stigmatisation) et impact financier (hausse du coût du capital). L'efficacité fait débat.",
+        "contexteScientifique": "Les recherches portent sur : l'impact sur le coût du capital des entreprises fossiles (estimé à 0,1-0,5%), l'effet de stigmatisation, la substitution par d'autres investisseurs, et la performance des portefeuilles désinvestis. Les études montrent un impact symbolique supérieur à l'impact financier direct.",
+        "enjeuxActuels": "40 000 Mrd$ d'actifs ont annoncé un désinvestissement partiel ou total. Les défis : définitions variables (charbon seul vs tout fossile), engagement vs désinvestissement, et transition juste pour les régions dépendantes. La pression s'intensifie sur le gaz naturel.",
+        "perspectives": "L'avenir passe par : l'extension au-delà du charbon (pétrole, gaz), l'articulation avec l'engagement actionnarial, le financement positif de la transition, et la cohérence des politiques (institutions publiques). Le concept de 'finance alignée 1,5°C' dépasse le simple désinvestissement."
+      },
+      "sources": [
+        {"titre": "Global Fossil Fuel Divestment Commitments Database", "auteur": "Stand.earth", "url": "https://divestmentdatabase.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "moyen"},
+        {"titre": "The Financial Case for Fossil Fuel Divestment", "auteur": "IEEFA", "annee": 2018, "type": "rapport_institution", "niveauPreuve": "moyen"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["fossil free", "stranded assets", "stigmatisation", "exclusion", "engagement"],
+      "indicateursQuantitatifs": [
+        {"valeur": "40 000 Mrd$ d'actifs engagés dans le désinvestissement", "source": "Stand.earth", "annee": 2023},
+        {"valeur": "1 500+ institutions ont désinvesti", "source": "350.org", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "risque-climatique-financier", "type": "renvoie_a", "score": 85},
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 75}
+      ],
+      "exemples": ["Fonds souverain norvégien (charbon)", "Université Harvard", "Assureur Axa"],
+      "synonymes": ["fossil fuel divestment", "sortie des fossiles"]
+    },
+    {
+      "id": "finance-impact",
+      "terme": "Finance à impact",
+      "categorie": "finance-verte",
+      "resume": "Investissements visant explicitement des bénéfices sociaux ou environnementaux mesurables, en plus du rendement financier.",
+      "definition": "La finance à impact (impact investing) désigne les investissements réalisés avec l'intention explicite de générer des impacts sociaux ou environnementaux positifs et mesurables, tout en obtenant un rendement financier. Elle se distingue de l'ISR (qui évite les impacts négatifs) par l'intentionnalité et la mesure des résultats. Le marché de l'impact investing atteint 1 164 Mrd$ en 2022 selon le GIIN (Global Impact Investing Network).",
+      "definitionEtendue": {
+        "introduction": "Le terme 'impact investing' est forgé en 2007 lors d'une réunion à la Fondation Rockefeller. Le GIIN est créé en 2009 pour structurer le secteur. Le marché se développe avec les Social Impact Bonds (2010), les fonds d'impact, et les investissements dans les entreprises sociales. L'UE intègre l'impact dans le SFDR (investissement durable = impact).",
+        "mecanismes": "L'impact investing repose sur trois piliers : intentionnalité (objectif d'impact explicite), mesurabilité (indicateurs, Theory of Change), et additionnalité (l'investissement crée un impact qui n'aurait pas eu lieu). Les véhicules incluent : fonds d'impact, obligations sociales, investissement direct, et prêts à impact. La performance peut être 'market-rate' ou 'concessional'.",
+        "contexteScientifique": "Les recherches portent sur : la mesure d'impact (standards IRIS+, Impact Management Project), la performance financière, le risque d'impact washing, et l'additionnalité réelle. Le débat porte sur la définition (tout investissement durable est-il 'à impact'?) et les standards de preuve.",
+        "enjeuxActuels": "Le marché croît rapidement (+40% en 5 ans). Les défis : harmonisation de la mesure d'impact, risque d'impact washing, accès aux opportunités (deal flow), et professionnalisation du secteur. L'articulation avec le SFDR Article 9 est en débat.",
+        "perspectives": "L'avenir passe par : la standardisation de la mesure (ISSB intègre l'impact?), l'extension aux marchés publics, le développement du blended finance (public-privé), et la démocratisation (investisseurs particuliers). L'impact devient un objectif mainstream."
+      },
+      "sources": [
+        {"titre": "GIIN Annual Impact Investor Survey", "auteur": "Global Impact Investing Network", "url": "https://thegiin.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Impact Management Project", "url": "https://impactmanagementproject.com/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["GIIN", "IRIS+", "Theory of Change", "additionnalité", "blended finance"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Marché impact investing : 1 164 Mrd$", "source": "GIIN", "annee": 2022},
+        {"valeur": "Croissance annuelle : ~15%", "source": "GIIN", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "finance-durable", "type": "est_type_de", "score": 90},
+        {"cible": "investissement-responsable", "type": "proche_de", "score": 80}
+      ],
+      "exemples": ["Fonds Mirova Impact", "Social Impact Bonds", "Microfinance"],
+      "synonymes": ["impact investing", "investissement à impact"]
+    },
+    {
+      "id": "credit-carbone",
+      "terme": "Crédit carbone",
+      "categorie": "finance-verte",
+      "resume": "Unité négociable représentant une tonne de CO2 évitée ou séquestrée. Instrument de compensation ou de conformité réglementaire.",
+      "definition": "Un crédit carbone est un instrument financier représentant une réduction, un évitement ou une séquestration d'une tonne d'équivalent CO2. Il peut être utilisé dans les marchés réglementés (EU ETS) comme quota d'émission, ou dans les marchés volontaires comme outil de compensation. Les crédits sont générés par des projets (énergies renouvelables, reforestation, capture de méthane) et certifiés selon des standards (Verra, Gold Standard). Leur qualité et leur additionnalité font l'objet de débats.",
+      "definitionEtendue": {
+        "introduction": "Les crédits carbone naissent avec le Protocole de Kyoto (1997) qui crée les Mécanismes de Développement Propre (MDP). Le marché volontaire se développe en parallèle avec des standards privés. L'Accord de Paris (Article 6) révise le cadre international. Le marché volontaire explose après 2020 avec les engagements net-zero des entreprises.",
+        "mecanismes": "Un crédit carbone est généré par un projet réduisant les émissions (vs baseline) ou séquestrant du carbone. Le processus inclut : conception du projet, validation, mise en œuvre, monitoring, vérification, et émission des crédits. L'additionnalité (le projet n'aurait pas eu lieu sans le revenu carbone) est le critère clé. Les registres (Verra, Gold Standard) tracent les crédits pour éviter le double comptage.",
+        "contexteScientifique": "Les recherches portent sur : la qualité des crédits (additionnalité, permanence, fuites), les prix (volatilité), l'efficacité pour le climat, et les co-bénéfices. Les études montrent une qualité variable : certains crédits REDD+ ont une intégrité faible. Le débat oppose compensation et réduction à la source.",
+        "enjeuxActuels": "Le marché volontaire atteint 2 Mrd$/an mais traverse une crise de confiance (exposés sur la qualité). Les défis : intégrité des crédits, Article 6 (règles internationales), greenwashing (compensation sans réduction), et prix bas décourageant les projets. L'ICVCM (Integrity Council) crée des standards de qualité.",
+        "perspectives": "L'avenir passe par : le renforcement des standards (Core Carbon Principles), la transparence des registres, l'articulation avec l'Article 6, et la hiérarchisation (réduction d'abord, compensation en dernier recours). Les crédits de haute intégrité (removal) gagnent en valeur."
+      },
+      "sources": [
+        {"titre": "State of the Voluntary Carbon Markets", "auteur": "Ecosystem Marketplace", "url": "https://www.ecosystemmarketplace.com/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Core Carbon Principles (ICVCM)", "auteur": "ICVCM", "url": "https://icvcm.org/", "annee": 2023, "type": "norme_iso", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["Verra", "Gold Standard", "additionnalité", "permanence", "Article 6"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Marché volontaire : 2 Mrd$/an", "source": "Ecosystem Marketplace", "annee": 2022},
+        {"valeur": "500 Mt CO2 de crédits émis/an", "source": "Verra", "annee": 2022}
+      ],
+      "relations": [
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 70},
+        {"cible": "marche-carbone", "type": "renvoie_a", "score": 95}
+      ],
+      "exemples": ["Crédits REDD+ (forêts)", "Crédits cookstoves", "Crédits capture directe"],
+      "synonymes": ["carbon credit", "unité carbone"]
+    },
+    {
+      "id": "marche-carbone",
+      "terme": "Marché du carbone",
+      "categorie": "finance-verte",
+      "resume": "Système d'échange de quotas d'émission de CO2. L'EU ETS est le plus grand marché réglementé mondial.",
+      "definition": "Un marché du carbone est un système d'échange de droits d'émission de gaz à effet de serre permettant de mettre un prix sur le carbone. Dans les marchés réglementés (cap-and-trade), les gouvernements fixent un plafond d'émissions et allouent ou vendent des quotas aux émetteurs qui peuvent les échanger. L'EU ETS (European Union Emissions Trading System), lancé en 2005, est le plus grand marché carbone mondial, couvrant 40% des émissions européennes.",
+      "definitionEtendue": {
+        "introduction": "Le concept de marché de permis d'émission vient de l'économiste Ronald Coase et est développé par John Dales (1968). Le Protocole de Kyoto (1997) crée des marchés internationaux (MDP, MOC). L'EU ETS est lancé en 2005. D'autres marchés existent : Californie, Chine (2021), Corée. L'Article 6 de l'Accord de Paris crée un nouveau cadre.",
+        "mecanismes": "Dans un cap-and-trade, le plafond (cap) diminue chaque année, créant une rareté des quotas. Les entreprises couvertes doivent restituer des quotas correspondant à leurs émissions. Elles peuvent acheter ou vendre des quotas, créant un prix du carbone. L'allocation peut être gratuite (benchmarks) ou aux enchères. Le prix oriente les décisions d'investissement.",
+        "contexteScientifique": "Les recherches portent sur : l'efficacité environnementale, le niveau de prix optimal, la fuite carbone (délocalisation), les effets distributifs, et l'articulation avec d'autres politiques. Le prix EU ETS a atteint 100€/tCO2 en 2023. Les études montrent un effet réducteur mais modéré sur les émissions.",
+        "enjeuxActuels": "L'EU ETS est renforcé (phase 4, 2021-2030) : réduction du plafond, fin des quotas gratuits, extension aux secteurs maritimes. Le CBAM (taxe carbone aux frontières) protège contre les fuites. La Chine a lancé le plus grand ETS mondial. Les défis : volatilité des prix, allocation gratuite, et coordination internationale.",
+        "perspectives": "L'avenir passe par : des prix carbone plus élevés (>150€ pour atteindre les objectifs), l'extension sectorielle (bâtiment, transport via ETS 2), la coordination internationale (club climat), et l'articulation avec les crédits carbone (Article 6). La taxation carbone directe complète les marchés."
+      },
+      "sources": [
+        {"titre": "EU Emissions Trading System (ETS)", "auteur": "Commission Européenne", "url": "https://climate.ec.europa.eu/eu-action/eu-emissions-trading-system-eu-ets_en", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "State and Trends of Carbon Pricing", "auteur": "Banque mondiale", "url": "https://openknowledge.worldbank.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["EU ETS", "cap-and-trade", "quota", "CBAM", "fuite carbone"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Prix carbone EU ETS : 80-100€/tCO2 (2023)", "source": "ICE", "annee": 2023},
+        {"valeur": "EU ETS couvre 40% des émissions UE", "source": "Commission Européenne", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "credit-carbone", "type": "renvoie_a", "score": 85},
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 80}
+      ],
+      "exemples": ["EU ETS", "California Cap-and-Trade", "China ETS"],
+      "synonymes": ["carbon market", "système d'échange de quotas"]
+    },
+    {
+      "id": "label-isr",
+      "terme": "Label ISR",
+      "categorie": "finance-verte",
+      "resume": "Certification française garantissant l'intégration de critères ESG dans la gestion d'un fonds d'investissement.",
+      "definition": "Le label ISR (Investissement Socialement Responsable) est une certification française créée en 2016 par le ministère des Finances, attestant qu'un fonds d'investissement intègre des critères environnementaux, sociaux et de gouvernance (ESG) dans sa gestion. Le label garantit un processus formalisé, une sélection ESG, un engagement actionnarial, et une transparence accrue. Il a été réformé en 2024 pour exclure les énergies fossiles et renforcer les exigences climatiques.",
+      "definitionEtendue": {
+        "introduction": "Le label ISR est créé en 2016 pour valoriser les fonds responsables et lutter contre le greenwashing. Il s'inscrit dans la tradition française de l'ISR, initiée dans les années 2000. Plus de 1 200 fonds sont labellisés pour 800 Mrd€ d'encours (2023). La réforme 2024 durcit les critères face aux critiques sur la permissivité du label.",
+        "mecanismes": "L'obtention du label repose sur un audit par un organisme certificateur (Afnor, EY, Deloitte). Les critères incluent : objectifs ESG formalisés, méthodologie de sélection documentée, taux de sélectivité minimum, politique d'engagement et de vote, et reporting ESG. La réforme 2024 ajoute : exclusion charbon et hydrocarbures non conventionnels, trajectoire climat.",
+        "contexteScientifique": "Les recherches portent sur : la performance des fonds ISR (pas de sous-performance avérée), la réalité de la sélectivité, et l'impact sur les entreprises. Les critiques pointaient l'inclusion de fonds peu exigeants. La réforme répond à ces critiques en durcissant les exclusions et les exigences climat.",
+        "enjeuxActuels": "Le label ISR est le plus répandu en Europe mais concurrencé par les exigences SFDR. La réforme 2024 crée une transition (fonds existants doivent se conformer). Les défis : articulation avec le SFDR Article 8/9, attractivité internationale, et évolution vers l'impact.",
+        "perspectives": "L'avenir passe par : l'approfondissement climatique (trajectoire 1,5°C?), l'extension aux autres classes d'actifs, l'articulation européenne, et le renforcement de l'impact. Le label pourrait évoluer vers un 'label impact' au-delà de l'ISR."
+      },
+      "sources": [
+        {"titre": "Label ISR - Référentiel", "auteur": "Ministère de l'Économie", "url": "https://www.lelabelisr.fr/", "annee": 2024, "type": "norme_iso", "niveauPreuve": "elevé"},
+        {"titre": "Bilan du label ISR", "auteur": "AFG", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "moyen"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["certification", "sélectivité", "engagement", "exclusion", "réforme 2024"],
+      "indicateursQuantitatifs": [
+        {"valeur": "1 200+ fonds labellisés ISR", "source": "lelabelisr.fr", "annee": 2023},
+        {"valeur": "800 Mrd€ d'encours labellisés", "source": "AFG", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "investissement-responsable", "type": "est_type_de", "score": 95},
+        {"cible": "criteres-esg", "type": "renvoie_a", "score": 90}
+      ],
+      "exemples": ["Fonds actions ISR", "OPCVM labellisés", "Assurance-vie ISR"],
+      "synonymes": ["label investissement responsable", "SRI label"]
+    },
+    {
+      "id": "greenwashing-financier",
+      "terme": "Greenwashing financier",
+      "categorie": "finance-verte",
+      "resume": "Pratiques trompeuses faisant passer des produits financiers pour plus durables qu'ils ne le sont. Risque majeur pour la crédibilité de la finance verte.",
+      "definition": "Le greenwashing financier désigne les pratiques par lesquelles des acteurs financiers présentent leurs produits, fonds ou activités comme plus durables ou respectueux de l'environnement qu'ils ne le sont en réalité. Il peut prendre la forme d'allégations exagérées, de méthodologies ESG opaques, de labels peu exigeants, ou de communication trompeuse. Le greenwashing menace la crédibilité de la finance durable et détourne les capitaux des vrais projets de transition.",
+      "definitionEtendue": {
+        "introduction": "Le terme greenwashing apparaît dans les années 1980 pour les entreprises. Son application à la finance se développe avec l'essor de l'ISR et des green bonds. Les scandales (fonds 'durables' investis dans les fossiles, green bonds finançant des projets contestables) alertent les régulateurs. L'ESMA et l'AMF publient des lignes directrices anti-greenwashing.",
+        "mecanismes": "Le greenwashing financier prend plusieurs formes : labels peu exigeants, sélectivité ESG faible, 'best-in-class' incluant les pires secteurs, green bonds aux projets flous, indices ESG incluant des controverses, et communication décalée. Les causes incluent : absence de définitions communes, incitations commerciales, et asymétrie d'information.",
+        "contexteScientifique": "Les recherches portent sur : la détection du greenwashing, ses déterminants, et ses effets sur les marchés. Les études montrent une corrélation faible entre labels et impact réel. Le concept de 'transition washing' émerge pour les engagements net-zero non crédibles.",
+        "enjeuxActuels": "Les régulateurs renforcent la lutte : SFDR, CSRD, Green Claims Directive. Les procès se multiplient (DWS, BNY Mellon). L'ESMA propose un renforcement des noms de fonds ESG. Les défis : définitions communes, moyens de contrôle, et sanctions dissuasives.",
+        "perspectives": "L'avenir passe par : la standardisation (taxonomie, ESRS), la vérification indépendante, les sanctions renforcées, et l'éducation des investisseurs. Le greenwashing pourrait devenir un risque juridique majeur pour les acteurs financiers."
+      },
+      "sources": [
+        {"titre": "ESMA Report on Greenwashing", "auteur": "ESMA", "url": "https://www.esma.europa.eu/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "AMF Position on ESG Communication", "auteur": "AMF", "url": "https://www.amf-france.org/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["ESG washing", "transition washing", "allégations", "ESMA", "AMF"],
+      "indicateursQuantitatifs": [
+        {"valeur": "40% des allégations environnementales sont vagues ou non fondées", "source": "Commission Européenne", "annee": 2021},
+        {"valeur": "Amendes DWS : 19 M$ (SEC, 2023)", "source": "SEC", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "finance-durable", "type": "oppose_a", "score": 95},
+        {"cible": "greenwashing", "type": "est_type_de", "score": 95}
+      ],
+      "exemples": ["Fonds 'climat' investis dans les fossiles", "Green bond contesté", "Notation ESG élevée malgré controverses"],
+      "synonymes": ["ESG washing", "écoblanchiment financier"]
+    },
+    {
+      "id": "engagement-actionnarial",
+      "terme": "Engagement actionnarial",
+      "categorie": "finance-verte",
+      "resume": "Dialogue des investisseurs avec les entreprises pour influencer leurs pratiques ESG. Alternative ou complément au désinvestissement.",
+      "definition": "L'engagement actionnarial désigne les pratiques par lesquelles les investisseurs utilisent leurs droits d'actionnaires pour influencer le comportement des entreprises sur les enjeux ESG. Il peut prendre la forme de dialogue direct avec le management, de vote en assemblée générale (résolutions climat, rémunération), de dépôt de résolutions, ou de coalitions d'investisseurs. L'engagement est souvent présenté comme une alternative au désinvestissement, permettant de favoriser la transition de l'intérieur.",
+      "definitionEtendue": {
+        "introduction": "L'engagement actionnarial se développe dans les années 2000 avec les PRI (Principes pour l'Investissement Responsable, 2006). Les coalitions comme Climate Action 100+ (2017) regroupent des investisseurs gérant 68 000 Mrd$ pour engager les plus gros émetteurs. Le Say on Climate (vote consultatif sur la stratégie climat) se répand depuis 2021.",
+        "mecanismes": "L'engagement opère par plusieurs leviers : dialogue privé (rencontres, lettres), vote en AG (résolutions externes, Say on Pay, Say on Climate), dépôt de résolutions (shareholders proposals), et escalade (désengagement si échec). L'efficacité dépend de la taille de la participation, de la coordination, et de la crédibilité de la menace de désinvestissement.",
+        "contexteScientifique": "Les recherches portent sur : l'efficacité de l'engagement (résultats mitigés), les facteurs de succès, et la comparaison avec le désinvestissement. Les études montrent un impact sur les pratiques de reporting mais un effet limité sur les émissions réelles. Le débat oppose 'voice' (engagement) et 'exit' (désinvestissement).",
+        "enjeuxActuels": "L'engagement se professionnalise (équipes ESG dédiées, coalition). Les défis : conflits d'intérêts (gestionnaires votant pour leurs clients corporate), engagement de façade, et manque de transparence. Les régulateurs poussent à la divulgation des politiques de vote.",
+        "perspectives": "L'avenir passe par : la transparence des votes (publication systématique), le renforcement des coalitions, l'engagement sur la biodiversité (après le climat), et l'articulation avec les réglementations (Say on Climate obligatoire?). L'engagement devient un standard attendu des investisseurs responsables."
+      },
+      "sources": [
+        {"titre": "Climate Action 100+", "url": "https://www.climateaction100.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "PRI Stewardship", "auteur": "PRI", "url": "https://www.unpri.org/stewardship", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["Climate Action 100+", "Say on Climate", "stewardship", "vote AG", "résolution climat"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Climate Action 100+ : 700 investisseurs, 68 000 Mrd$", "source": "CA100+", "annee": 2023},
+        {"valeur": "Résolutions climat : 50% de soutien moyen (2023)", "source": "Proxy Preview", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "desinvestissement-fossile", "type": "oppose_a", "score": 70},
+        {"cible": "finance-durable", "type": "contribue_a", "score": 85}
+      ],
+      "exemples": ["Engagement Total sur la stratégie climat", "Résolution climat ExxonMobil", "Say on Climate Shell"],
+      "synonymes": ["shareholder engagement", "stewardship"]
+    },
+    {
+      "id": "finance-biodiversite",
+      "terme": "Finance biodiversité",
+      "categorie": "finance-verte",
+      "resume": "Instruments financiers dédiés à la protection et la restauration de la biodiversité. Secteur émergent après le climat.",
+      "definition": "La finance biodiversité désigne l'ensemble des flux financiers et instruments dédiés à la conservation, la restauration et l'utilisation durable de la biodiversité. Elle inclut les financements publics (aires protégées), privés (crédits biodiversité, fonds nature), et les mécanismes innovants (paiements pour services écosystémiques, obligations nature). Le déficit de financement est estimé à 700 milliards $/an. La TNFD (Taskforce on Nature-related Financial Disclosures) structure la divulgation des risques et dépendances.",
+      "definitionEtendue": {
+        "introduction": "La finance biodiversité émerge après la finance climat. Le rapport TEEB (2010) valorise économiquement la nature. Le Cadre de Kunming-Montréal (2022) fixe l'objectif de 200 Mrd$/an de financements biodiversité d'ici 2030. La TNFD (lancée 2021, recommandations 2023) s'inspire de la TCFD pour la nature.",
+        "mecanismes": "Les instruments incluent : financements publics (GEF, fonds verts), dette souveraine liée à la nature (debt-for-nature swaps), obligations biodiversité, crédits biodiversité (controversés), paiements pour services écosystémiques (PSE), et investissement d'impact nature. L'évaluation des risques nature utilise des outils comme ENCORE (dépendances) et SBTN (objectifs).",
+        "contexteScientifique": "Les recherches portent sur : la quantification des risques nature (plus complexes que le climat), les métriques de biodiversité pour la finance, l'efficacité des instruments, et l'articulation climat-biodiversité. Le concept de 'nature positive' (inversion de la courbe) guide les objectifs.",
+        "enjeuxActuels": "Le déficit de financement est massif (700 Mrd$/an). Les défis : métriques complexes (pas d'équivalent à la tonne CO2), données lacunaires, et risque de 'biodiversity washing'. La TNFD entre en application, les entreprises commencent à évaluer leurs dépendances nature.",
+        "perspectives": "L'avenir passe par : l'adoption massive de la TNFD, le développement de marchés de crédits biodiversité crédibles, la réforme des subventions nuisibles (500 Mrd$/an), et l'intégration climat-biodiversité. La finance biodiversité suit la trajectoire de la finance climat avec 10 ans de retard."
+      },
+      "sources": [
+        {"titre": "TNFD Recommendations", "auteur": "Taskforce on Nature-related Financial Disclosures", "url": "https://tnfd.global/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "State of Finance for Nature", "auteur": "UNEP", "url": "https://www.unep.org/resources/state-finance-nature", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["TNFD", "SBTN", "ENCORE", "nature positive", "PSE"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Déficit de financement biodiversité : 700 Mrd$/an", "source": "UNEP", "annee": 2022},
+        {"valeur": "Objectif Kunming-Montréal : 200 Mrd$/an d'ici 2030", "source": "CBD", "annee": 2022}
+      ],
+      "relations": [
+        {"cible": "biodiversite", "type": "contribue_a", "score": 95},
+        {"cible": "finance-durable", "type": "est_type_de", "score": 85}
+      ],
+      "exemples": ["Fonds NatureVest", "Debt-for-nature swap Belize", "Crédits biodiversité (pilotes)"],
+      "synonymes": ["nature finance", "biodiversity finance"]
+    },
+    {
+      "id": "blended-finance",
+      "terme": "Blended finance (finance mixte)",
+      "categorie": "finance-verte",
+      "resume": "Utilisation stratégique de financements publics pour mobiliser des capitaux privés vers les objectifs de développement durable.",
+      "definition": "Le blended finance (finance mixte) est l'utilisation stratégique de financements de développement (publics, philanthropiques) pour mobiliser des capitaux privés vers les objectifs de développement durable dans les pays émergents et en développement. Il vise à réduire les risques ou améliorer les rendements pour attirer des investisseurs commerciaux sur des projets qu'ils n'auraient pas financés seuls. Les instruments incluent les garanties, les prêts concessionnels, le first-loss capital, et l'assistance technique.",
+      "definitionEtendue": {
+        "introduction": "Le blended finance émerge dans les années 2010 face au constat que les ODD nécessitent des financements dépassant les capacités publiques (2 500 Mrd$/an de gap). La Conférence d'Addis-Abeba (2015) et l'Accord de Paris promeuvent la mobilisation du privé. Les banques de développement (IFC, BEI, AFD) sont les principaux acteurs.",
+        "mecanismes": "Le blending opère par plusieurs mécanismes : garanties (couvrant une partie des pertes), prêts concessionnels (taux inférieurs au marché), first-loss capital (absorbant les premières pertes), equity junior (subordination), et assistance technique (préparation des projets). L'objectif est un effet de levier : 1$ public mobilisant 3-5$ privés.",
+        "contexteScientifique": "Les recherches portent sur : l'additionnalité (les capitaux privés auraient-ils été mobilisés autrement?), l'effet de levier réel (souvent surestimé), les effets de distorsion des marchés, et l'impact développement. Le débat porte sur l'équilibre entre attractivité pour le privé et impact réel.",
+        "enjeuxActuels": "Le blended finance mobilise 150 Mrd$/an mais reste insuffisant face aux besoins. Les défis : projets 'bankables', capacités locales, complexité des structures, et concentration sur les pays à revenu intermédiaire. Les pays les moins avancés et l'adaptation climatique sont sous-financés.",
+        "perspectives": "L'avenir passe par : la standardisation des instruments, le pipeline de projets, l'extension à la biodiversité et l'adaptation, et les véhicules de plus grande échelle. Les garanties souveraines (MDBs) pourraient démultiplier l'effet de levier."
+      },
+      "sources": [
+        {"titre": "Blended Finance Taskforce", "auteur": "Business & Sustainable Development Commission", "url": "https://www.blendedfinance.earth/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Convergence - Blended Finance Data", "url": "https://www.convergence.finance/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["effet de levier", "garantie", "first-loss", "concessional", "MDB"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Blended finance : ~150 Mrd$/an mobilisés", "source": "Convergence", "annee": 2022},
+        {"valeur": "Effet de levier moyen : 4x (1$ public → 4$ total)", "source": "OECD", "annee": 2022}
+      ],
+      "relations": [
+        {"cible": "finance-durable", "type": "est_type_de", "score": 85},
+        {"cible": "finance-impact", "type": "proche_de", "score": 80}
+      ],
+      "exemples": ["Fonds climat vert (GCF)", "Emerging Africa Infrastructure Fund", "Garanties IDA"],
+      "synonymes": ["finance mixte", "catalytic capital"]
+    },
+    {
+      "id": "science-based-targets",
+      "terme": "Science-Based Targets (SBTi)",
+      "categorie": "finance-verte",
+      "resume": "Objectifs de réduction des émissions alignés sur la science climatique. Standard de crédibilité pour les engagements net-zero des entreprises.",
+      "definition": "Les Science-Based Targets (SBT) sont des objectifs de réduction des émissions de gaz à effet de serre alignés sur la science climatique pour limiter le réchauffement à 1,5°C ou bien en dessous de 2°C. L'initiative SBTi (Science Based Targets initiative), créée en 2015 par le CDP, le Global Compact, le WRI et le WWF, valide les engagements des entreprises. Les SBT sont devenus le standard de crédibilité pour les engagements net-zero du secteur privé, avec plus de 4 000 entreprises engagées.",
+      "definitionEtendue": {
+        "introduction": "La SBTi naît après l'Accord de Paris pour traduire les objectifs nationaux en engagements d'entreprises. Le Net-Zero Standard (2021) définit les critères d'un engagement net-zero crédible. L'initiative s'étend aux institutions financières (2022) et développe des méthodologies sectorielles. La SBTi devient le 'gold standard' des engagements climat.",
+        "mecanismes": "Une entreprise s'engage en deux étapes : commitment letter (engagement à définir un SBT dans 24 mois), puis validation (soumission et vérification par la SBTi). Les critères incluent : couverture des scopes 1, 2 et 3 (si >40% des émissions), réduction absolue ou sectorielle, horizon court terme (5-10 ans) et long terme (net-zero). Le Net-Zero Standard exige une réduction de 90%+ avant neutralisation.",
+        "contexteScientifique": "Les recherches portent sur : la rigueur des méthodologies, le suivi des engagements, et l'impact réel sur les émissions. Les critiques pointent : la permissivité de certaines trajectoires sectorielles, la complexité du scope 3, et les révisions méthodologiques. La SBTi maintient un équilibre entre exigence scientifique et adoption massive.",
+        "enjeuxActuels": "4 000+ entreprises engagées (2023). Les défis : scope 3 (difficile à mesurer et réduire), secteurs difficiles (aviation, ciment), et greenwashing (engagements sans action). L'extension aux institutions financières pose des défis méthodologiques (émissions financées). La SBTi renforce progressivement les exigences.",
+        "perspectives": "L'avenir passe par : le suivi des progrès (au-delà de la validation initiale), l'extension à la biodiversité (SBTN), le renforcement du scope 3, et l'intégration dans les réglementations. Les SBT deviennent un prérequis pour la crédibilité des engagements climat."
+      },
+      "sources": [
+        {"titre": "Science Based Targets initiative", "url": "https://sciencebasedtargets.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "SBTi Corporate Net-Zero Standard", "auteur": "SBTi", "annee": 2021, "type": "norme_iso", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["net-zero", "scope 3", "trajectoire 1.5°C", "validation", "SBTN"],
+      "indicateursQuantitatifs": [
+        {"valeur": "4 000+ entreprises avec SBT validé ou engagé", "source": "SBTi", "annee": 2023},
+        {"valeur": "Net-Zero Standard : réduction 90%+ avant neutralisation", "source": "SBTi", "annee": 2021}
+      ],
+      "relations": [
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 95},
+        {"cible": "empreinte-carbone", "type": "renvoie_a", "score": 85}
+      ],
+      "exemples": ["Objectif Danone -30% scope 1-2 d'ici 2030", "Trajectoire net-zero Microsoft", "SBT financiers BNP Paribas"],
+      "synonymes": ["objectifs fondés sur la science", "SBT"]
+    }
+  ]
+}

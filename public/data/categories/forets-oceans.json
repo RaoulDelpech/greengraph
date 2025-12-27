@@ -1,0 +1,690 @@
+{
+  "id": "forets-oceans",
+  "nom": "Forêts & Océans",
+  "description": "Écosystèmes forestiers et marins, sylviculture durable, protection des océans",
+  "couleur": "#059669",
+  "definitions": [
+    {
+      "id": "deforestation",
+      "terme": "Déforestation",
+      "categorie": "forets-oceans",
+      "resume": "Conversion permanente de terres forestières en terres non forestières. Principale cause de perte de biodiversité terrestre et source majeure d'émissions de CO2.",
+      "definition": "La déforestation désigne la conversion permanente de terres forestières en terres non forestières, principalement pour l'agriculture, l'élevage, l'exploitation minière ou l'urbanisation. Elle diffère de la dégradation forestière (réduction de la qualité sans changement d'usage). Responsable de 10-15% des émissions mondiales de GES, elle menace 80% de la biodiversité terrestre. La déforestation tropicale (Amazonie, Congo, Asie du Sud-Est) concentre les enjeux actuels.",
+      "definitionEtendue": {
+        "introduction": "La déforestation accompagne l'humanité depuis le Néolithique. L'Europe a perdu 80% de ses forêts originelles. La déforestation tropicale s'accélère depuis les années 1950 avec la mécanisation et la mondialisation agricole. Le concept de 'déforestation importée' émerge pour qualifier les importations de produits issus de la déforestation.",
+        "mecanismes": "Les moteurs directs sont : l'agriculture commerciale (soja, huile de palme, cacao, café), l'élevage extensif (bovins en Amazonie), l'exploitation forestière, les infrastructures, et l'agriculture de subsistance. Les causes sous-jacentes incluent : demande mondiale de commodités, gouvernance faible, droits fonciers flous, et pauvreté rurale.",
+        "contexteScientifique": "Le suivi par satellite (Global Forest Watch, Hansen et al.) permet une quantification précise. Les débats portent sur : la définition de 'forêt' (plantations vs forêts naturelles), les 'fuites' (déplacement de la déforestation), et l'efficacité des politiques (moratoires, certification). Les forêts stockent 45% du carbone terrestre.",
+        "enjeuxActuels": "L'Amazonie approche d'un point de basculement (25% de déforestation). Le règlement européen EUDR (2023) interdit l'importation de produits issus de déforestation. Les engagements de la COP26 (Glasgow, 2021) visent à stopper la déforestation d'ici 2030. Les défis : traçabilité des chaînes d'approvisionnement, droits des peuples autochtones.",
+        "perspectives": "L'avenir passe par : la traçabilité (satellite, blockchain), la restauration forestière (Décennie ONU), les paiements pour services écosystémiques (REDD+), et la transformation des chaînes de valeur. Le concept de 'déforestation nette zéro' intègre les gains et pertes."
+      },
+      "sources": [
+        {"titre": "Global Forest Resources Assessment 2020", "auteur": "FAO", "url": "https://www.fao.org/forest-resources-assessment/", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Règlement (UE) 2023/1115 (EUDR)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2023, "type": "loi", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["déforestation importée", "EUDR", "REDD+", "point de basculement", "Global Forest Watch"],
+      "indicateursQuantitatifs": [
+        {"valeur": "10 millions ha/an de déforestation nette mondiale", "source": "FAO", "annee": 2020},
+        {"valeur": "Amazonie : 17% déjà déforestée, seuil critique à 25%", "source": "INPE/Science", "annee": 2022}
+      ],
+      "relations": [
+        {"cible": "changement-climatique", "type": "contribue_a", "score": 85},
+        {"cible": "erosion-biodiversite", "type": "contribue_a", "score": 90}
+      ],
+      "exemples": ["Amazonie brésilienne", "Forêt du Congo", "Déforestation pour huile de palme en Indonésie"],
+      "synonymes": ["déboisement", "défrichement", "conversion forestière"]
+    },
+    {
+      "id": "reforestation",
+      "terme": "Reforestation",
+      "categorie": "forets-oceans",
+      "resume": "Rétablissement d'une couverture forestière sur des terres anciennement boisées. Stratégie clé d'atténuation climatique et de restauration écologique.",
+      "definition": "La reforestation désigne le rétablissement d'une couverture forestière sur des terres qui étaient autrefois boisées puis converties à d'autres usages. Elle se distingue du boisement (plantation sur des terres jamais forestières) et de la régénération naturelle (sans intervention humaine). La reforestation peut viser des objectifs multiples : séquestration carbone, restauration biodiversité, protection des sols, production de bois. La qualité écologique dépend des essences (natives vs exotiques), de la diversité, et des pratiques.",
+      "definitionEtendue": {
+        "introduction": "La reforestation moderne débute au XIXe siècle en Europe (restauration des terrains de montagne). Le XXe siècle voit des programmes massifs (Chine, Corée). Le XXIe siècle intègre les enjeux climatiques (puits de carbone) et de biodiversité. La Décennie ONU pour la restauration des écosystèmes (2021-2030) et le Bonn Challenge visent à restaurer 350 millions d'hectares.",
+        "mecanismes": "Trois approches principales : plantation active (pépinières, mise en terre), régénération naturelle assistée (RNA, protection et facilitation), et agroforesterie (arbres dans les systèmes agricoles). Les facteurs de succès incluent : choix des essences adaptées, préparation du sol, protection (clôtures, suivi), et implication des communautés locales.",
+        "contexteScientifique": "Les recherches portent sur : le potentiel de séquestration (débat Bastin et al. 2019), les risques de 'monoculture verte' (plantations industrielles comptées comme forêts), les co-bénéfices biodiversité, et la permanence du stockage carbone. L'approche 'paysage' intègre la reforestation dans une mosaïque d'usages.",
+        "enjeuxActuels": "Les engagements politiques se multiplient (4 milliards d'arbres UE, Great Green Wall Afrique). Les risques : plantations monoculture (eucalyptus, pins), greenwashing, conflits d'usage des terres, et incertitudes climatiques. Le marché carbone volontaire finance la reforestation mais les méthodologies sont critiquées.",
+        "perspectives": "L'avenir passe par : la régénération naturelle (moins coûteuse, plus résiliente), l'agroforesterie, les forêts urbaines, et les standards de qualité (certification, monitoring). Le concept de 'forêts de restauration' émerge pour distinguer des plantations industrielles."
+      },
+      "sources": [
+        {"titre": "The Bonn Challenge", "url": "https://www.bonnchallenge.org/", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "UN Decade on Ecosystem Restoration", "auteur": "UNEP/FAO", "url": "https://www.decadeonrestoration.org/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["RNA", "Bonn Challenge", "puits de carbone", "régénération naturelle", "restauration forestière"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Objectif Bonn Challenge : 350 Mha restaurés d'ici 2030", "source": "IUCN", "annee": 2020},
+        {"valeur": "Potentiel séquestration : 0,9 Mha = 205 GtC (débattu)", "source": "Science", "annee": 2019}
+      ],
+      "relations": [
+        {"cible": "deforestation", "type": "oppose_a", "score": 95},
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 80}
+      ],
+      "exemples": ["Great Green Wall (Sahel)", "4 milliards d'arbres UE", "Loess Plateau (Chine)"],
+      "synonymes": ["reboisement", "restauration forestière", "afforestation"]
+    },
+    {
+      "id": "foret-primaire",
+      "terme": "Forêt primaire",
+      "categorie": "forets-oceans",
+      "resume": "Forêt naturelle n'ayant jamais été exploitée ni significativement perturbée par l'homme. Réservoir irremplaçable de biodiversité et de carbone.",
+      "definition": "Une forêt primaire est une forêt naturelle qui n'a jamais été exploitée industriellement ni significativement perturbée par les activités humaines, conservant ses caractéristiques écologiques originelles. Elle se distingue des forêts secondaires (régénérées après perturbation) et des plantations. Les forêts primaires abritent une biodiversité exceptionnelle (espèces endémiques, vieux arbres, bois mort) et stockent plus de carbone que les forêts jeunes. Leur destruction est irréversible à l'échelle humaine.",
+      "definitionEtendue": {
+        "introduction": "Les forêts primaires couvraient la majorité des terres émergées avant l'expansion humaine. Elles ne représentent plus que 36% des forêts mondiales (FAO). Les dernières grandes forêts primaires se trouvent en Amazonie, Congo, Russie, Canada, et Papouasie. Le concept de 'Intact Forest Landscapes' (IFL) définit les massifs primaires de plus de 500 km² sans fragmentation.",
+        "mecanismes": "Les forêts primaires se caractérisent par : une structure verticale complexe (canopée, sous-bois), des arbres de tous âges (dont très vieux), du bois mort en quantité, une haute biodiversité (endémiques, espèces spécialistes), des sols riches en carbone, et des processus écologiques intacts (cycles, régénération). Leur formation nécessite des siècles voire des millénaires.",
+        "contexteScientifique": "Les recherches montrent que les forêts primaires stockent 30-50% de carbone de plus que les forêts secondaires. Leur remplacement par des plantations entraîne une perte nette de carbone et de biodiversité. Le débat porte sur leur rôle dans la lutte climatique (protection vs substitution par forêts jeunes 'puits actifs').",
+        "enjeuxActuels": "Les forêts primaires perdent 3,75 millions ha/an (2019-2022). La protection est insuffisante : 25% seulement en aires protégées. Les menaces : exploitation forestière, agriculture, mines, routes. Le règlement EUDR protège les forêts primaires des importations européennes. Les peuples autochtones sont les gardiens les plus efficaces.",
+        "perspectives": "L'avenir passe par : la protection stricte (moratoires, aires protégées), la reconnaissance des droits autochtones, la traçabilité des produits forestiers, et la valorisation des services écosystémiques (REDD+). Le concept de 'proforestation' promeut la protection des forêts existantes plutôt que les plantations."
+      },
+      "sources": [
+        {"titre": "Global Forest Resources Assessment 2020", "auteur": "FAO", "url": "https://www.fao.org/forest-resources-assessment/", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Intact Forest Landscapes", "auteur": "Global Forest Watch", "url": "https://www.globalforestwatch.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["IFL", "proforestation", "vieux bois", "forêt ancienne", "climax"],
+      "indicateursQuantitatifs": [
+        {"valeur": "36% des forêts mondiales sont primaires (1,11 Mrd ha)", "source": "FAO", "annee": 2020},
+        {"valeur": "Perte de 3,75 Mha/an de forêts primaires tropicales", "source": "WRI", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "deforestation", "type": "oppose_a", "score": 95},
+        {"cible": "biodiversite", "type": "contribue_a", "score": 90}
+      ],
+      "exemples": ["Forêt amazonienne intacte", "Taïga sibérienne", "Forêt du Congo"],
+      "synonymes": ["forêt vierge", "forêt ancienne", "old-growth forest"]
+    },
+    {
+      "id": "sylviculture-durable",
+      "terme": "Sylviculture durable",
+      "categorie": "forets-oceans",
+      "resume": "Gestion forestière conciliant production de bois, préservation des écosystèmes et fonctions sociales. Certifiée par des labels (FSC, PEFC).",
+      "definition": "La sylviculture durable est un mode de gestion des forêts qui vise à maintenir et améliorer leur santé et productivité tout en préservant leurs fonctions écologiques, économiques et sociales pour les générations présentes et futures. Elle s'appuie sur les critères d'Helsinki (1993) : maintien des ressources forestières, santé et vitalité, fonctions de production, biodiversité, fonctions de protection, et fonctions socio-économiques. Les certifications FSC et PEFC attestent de pratiques durables.",
+      "definitionEtendue": {
+        "introduction": "Le concept émerge au XVIIIe siècle en Allemagne (Hans Carl von Carlowitz, 1713). La surexploitation des forêts européennes conduit à la foresterie réglée. Le XXe siècle voit l'émergence de la gestion multifonctionnelle. Le Sommet de Rio (1992) consacre la gestion durable des forêts. Les certifications FSC (1993) et PEFC (1999) créent des standards de marché.",
+        "mecanismes": "La sylviculture durable repose sur : le rendement soutenu (prélèvement ≤ accroissement), le maintien du couvert forestier, la diversification des essences et âges, la protection des sols et eaux, la conservation de la biodiversité (îlots de vieux bois, arbres-habitats), et la concertation avec les parties prenantes. Elle adapte les techniques au contexte (futaie irrégulière, coupes progressives).",
+        "contexteScientifique": "Les recherches portent sur : les indicateurs de durabilité, l'adaptation au changement climatique (migration assistée, diversification), les compromis entre production et biodiversité, et l'optimisation carbone (stockage forêt + produits bois + substitution). Le débat 'land sharing vs land sparing' oppose intégration et séparation des fonctions.",
+        "enjeuxActuels": "15% des forêts mondiales sont certifiées (FSC + PEFC). Les défis : changement climatique (dépérissements, incendies), demande croissante de bois (bioéconomie), et intensification des pratiques. La France vise une gestion adaptative et multifonctionnelle (Programme National de la Forêt et du Bois).",
+        "perspectives": "L'avenir passe par : la sylviculture mélangée et irrégulière (résilience), l'intégration du carbone forestier dans les marchés, les services écosystémiques rémunérés, et l'adaptation climatique. Le concept de 'forêt mosaïque' diversifie les itinéraires sur un même territoire."
+      },
+      "sources": [
+        {"titre": "Critères et indicateurs paneuropéens (Forest Europe)", "url": "https://foresteurope.org/", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "FSC Principles and Criteria", "auteur": "FSC", "url": "https://fsc.org/", "annee": 2022, "type": "norme_iso", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["FSC", "PEFC", "gestion multifonctionnelle", "rendement soutenu", "futaie irrégulière"],
+      "indicateursQuantitatifs": [
+        {"valeur": "15% des forêts mondiales certifiées FSC ou PEFC", "source": "PEFC/FSC", "annee": 2023},
+        {"valeur": "France : 8,5 Mha certifiés PEFC (52% forêt de production)", "source": "PEFC France", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "deforestation", "type": "oppose_a", "score": 80},
+        {"cible": "economie-circulaire", "type": "contribue_a", "score": 70}
+      ],
+      "exemples": ["Certification FSC de forêts tropicales", "Futaie irrégulière Vosges", "Gestion Pro Silva"],
+      "synonymes": ["gestion forestière durable", "foresterie durable", "sustainable forestry"]
+    },
+    {
+      "id": "puits-carbone-forestier",
+      "terme": "Puits de carbone forestier",
+      "categorie": "forets-oceans",
+      "resume": "Capacité des forêts à absorber et stocker le CO2 atmosphérique via la photosynthèse. Rôle clé dans l'atténuation climatique.",
+      "definition": "Le puits de carbone forestier désigne la capacité des forêts à absorber le CO2 atmosphérique par la photosynthèse et à le stocker durablement dans la biomasse (troncs, branches, racines) et les sols. Les forêts mondiales absorbent environ 2,6 milliards de tonnes de CO2 par an, soit 30% des émissions anthropiques. Ce service écosystémique est au cœur des stratégies d'atténuation climatique (REDD+, crédits carbone), mais il est menacé par la déforestation, les incendies et le changement climatique.",
+      "definitionEtendue": {
+        "introduction": "Le rôle des forêts dans le cycle du carbone est établi depuis le XIXe siècle. Le protocole de Kyoto (1997) intègre les puits forestiers dans la comptabilité carbone. Le mécanisme REDD+ émerge à la COP de Bali (2007). L'Accord de Paris (2015) compte sur les puits naturels pour atteindre la neutralité carbone. Le concept évolue vers l'ensemble 'forêt + produits bois + substitution'.",
+        "mecanismes": "Le stockage forestier opère à trois niveaux : biomasse aérienne (40%), biomasse racinaire (20%), et sols forestiers (40%). Les forêts jeunes ont un flux d'absorption élevé mais un stock faible. Les forêts matures ont un stock élevé mais un flux réduit. Les forêts primaires sont des réservoirs stables. Les perturbations (coupes, incendies, tempêtes) relâchent le carbone.",
+        "contexteScientifique": "Les recherches portent sur : la quantification des flux (eddy covariance, inventaires), la permanence du stockage, les risques de saturation et de retournement, et l'optimisation (protection vs récolte-substitution). Le débat 'proforestation vs bioéconomie' oppose le maintien des stocks à la substitution des fossiles par le bois.",
+        "enjeuxActuels": "Les forêts européennes absorbent moins (stress hydrique, incendies, scolytes). L'Amazonie devient émetrice par endroits. Les marchés carbone forestiers explosent mais les méthodologies sont contestées (additionnalité, permanence). La France prévoit -9 MtCO2/an de son puits forestier d'ici 2030 (crise sanitaire des forêts).",
+        "perspectives": "L'avenir passe par : la protection des forêts existantes (premier levier), l'adaptation au changement climatique, la diversification des essences, et l'intégration dans les inventaires nationaux. Le concept de 'carbone forestier total' inclut forêt sur pied, produits bois, et substitution."
+      },
+      "sources": [
+        {"titre": "Global Carbon Budget 2023", "auteur": "Global Carbon Project", "url": "https://www.globalcarbonproject.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Forests and Climate Change (IPCC)", "auteur": "IPCC", "annee": 2019, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["REDD+", "séquestration carbone", "biomasse forestière", "flux net", "carbone sol"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Forêts mondiales : puits net de 2,6 GtC/an", "source": "Global Carbon Project", "annee": 2023},
+        {"valeur": "Forêts stockent 662 GtC (biomasse + sol)", "source": "FAO", "annee": 2020}
+      ],
+      "relations": [
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 90},
+        {"cible": "changement-climatique", "type": "oppose_a", "score": 85}
+      ],
+      "exemples": ["Forêt amazonienne : 150-200 GtC stockées", "Forêts françaises : -50 MtCO2eq/an (en baisse)"],
+      "synonymes": ["séquestration forestière", "stockage carbone forêt", "forest carbon sink"]
+    },
+    {
+      "id": "ocean-acidification",
+      "terme": "Acidification des océans",
+      "categorie": "forets-oceans",
+      "resume": "Diminution du pH océanique due à l'absorption du CO2 atmosphérique. Menace majeure pour les organismes calcificateurs et les écosystèmes marins.",
+      "definition": "L'acidification des océans désigne la diminution du pH des eaux marines résultant de l'absorption du CO2 atmosphérique. Les océans ont absorbé environ 30% des émissions anthropiques de CO2, ce qui a fait baisser le pH moyen de 8,2 à 8,1 depuis l'ère préindustrielle (soit +30% d'acidité). Cette évolution menace les organismes à squelette ou coquille calcaire (coraux, mollusques, plancton calcifiant) qui peinent à former leur coquille et affecte l'ensemble des chaînes alimentaires marines.",
+      "definitionEtendue": {
+        "introduction": "L'acidification océanique est identifiée comme problème majeur au début des années 2000. Elle est parfois appelée 'l'autre problème du CO2'. Le GIEC et l'IPBES alertent sur ses impacts. Elle fait partie des limites planétaires (Rockström, 2009). Le pH n'a pas été aussi bas depuis 14 millions d'années.",
+        "mecanismes": "Le CO2 dissous réagit avec l'eau pour former de l'acide carbonique (H2CO3), qui se dissocie en ions H+ (acidité) et bicarbonates. La saturation en carbonate de calcium (aragonite, calcite) diminue, rendant la calcification plus difficile. Les eaux froides et les profondeurs sont plus affectées. Les upwellings côtiers peuvent devenir corrosifs.",
+        "contexteScientifique": "Les recherches portent sur : les seuils de tolérance des espèces, les effets en cascade sur les écosystèmes, les interactions avec le réchauffement et la désoxygénation, et les capacités d'adaptation. Les expériences en mésocosmes simulent les conditions futures. L'Arctique atteindra la sous-saturation en aragonite d'ici 2050.",
+        "enjeuxActuels": "L'acidification est irréversible à l'échelle humaine (temps de résidence du CO2). Les coraux, les huîtres, les moules et le plancton calcifiant sont menacés. Les pêcheries dépendantes sont à risque. Il n'existe pas de solution autre que la réduction des émissions de CO2.",
+        "perspectives": "L'avenir dépend uniquement de la trajectoire des émissions. À +1,5°C, l'acidification restera gérable pour de nombreuses espèces. À +3-4°C, des effondrements d'écosystèmes sont attendus. Les aires marines protégées ne protègent pas de l'acidification. La recherche explore la résilience et l'adaptation assistée."
+      },
+      "sources": [
+        {"titre": "IPCC Special Report on Ocean and Cryosphere (SROCC)", "auteur": "IPCC", "url": "https://www.ipcc.ch/srocc/", "annee": 2019, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Ocean Acidification (IOC-UNESCO)", "auteur": "UNESCO", "url": "https://www.ioc.unesco.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["pH océanique", "saturation aragonite", "calcification", "CO2 dissous", "limite planétaire"],
+      "indicateursQuantitatifs": [
+        {"valeur": "pH océanique : passé de 8,2 à 8,1 (+30% acidité)", "source": "IPCC", "annee": 2021},
+        {"valeur": "Océans ont absorbé 30% du CO2 anthropique", "source": "Global Carbon Project", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "changement-climatique", "type": "renvoie_a", "score": 90},
+        {"cible": "recif-corallien", "type": "oppose_a", "score": 95}
+      ],
+      "exemples": ["Blanchissement des coraux", "Érosion des coquilles de ptéropodes", "Difficultés d'ostréiculture"],
+      "synonymes": ["acidification marine", "ocean acidification"]
+    },
+    {
+      "id": "recif-corallien",
+      "terme": "Récif corallien",
+      "categorie": "forets-oceans",
+      "resume": "Écosystème marin d'une biodiversité exceptionnelle, formé par les coraux constructeurs. Menacé par le réchauffement et l'acidification.",
+      "definition": "Un récif corallien est un écosystème marin formé par l'accumulation de squelettes calcaires de coraux constructeurs (scléractiniaires) vivant en symbiose avec des algues zooxanthelles. Bien qu'ils ne couvrent que 0,1% des océans, les récifs abritent 25% des espèces marines connues. Ils fournissent des services écosystémiques vitaux : protection côtière, pêche, tourisme, pharmacologie. Le réchauffement et l'acidification océaniques menacent leur survie à court terme.",
+      "definitionEtendue": {
+        "introduction": "Les récifs coralliens existent depuis 500 millions d'années. Ils atteignent leur apogée au Trias. Les récifs modernes datent de 10 000 ans. Darwin propose la première théorie de leur formation (1842). La Grande Barrière de Corail (Australie) est visible depuis l'espace. Le Triangle de Corail (Asie-Pacifique) concentre la plus haute biodiversité.",
+        "mecanismes": "Les coraux constructeurs sont des cnidaires coloniaux hébergeant des algues symbiotiques (zooxanthelles) qui fournissent 90% de leur énergie par photosynthèse. La calcification construit le récif. L'écosystème dépend d'eaux chaudes (23-29°C), claires, et peu profondes. La complexité structurale crée des habitats pour des milliers d'espèces.",
+        "contexteScientifique": "Les recherches portent sur : les seuils de blanchissement (+1-2°C au-dessus de la moyenne), la capacité d'adaptation, la restauration (jardinage de coraux, propagation assistée), et la résistance thermique. Les modèles projettent 70-90% de perte des coraux à +1,5°C et >99% à +2°C.",
+        "enjeuxActuels": "Les récifs ont perdu 50% de leur couverture depuis 1950. Les épisodes de blanchissement se répètent (2016, 2017, 2020, 2024). L'Initiative Internationale pour les Récifs Coralliens (ICRI) coordonne les efforts. Les aires marines protégées réduisent les pressions locales mais pas le réchauffement.",
+        "perspectives": "L'avenir des récifs dépend du scénario climatique. À +1,5°C, des refuges subsisteront. Au-delà, seuls des coraux thermotolérants ou des récifs artificiels pourraient persister. L'évolution assistée et la sélection de souches résistantes sont explorées."
+      },
+      "sources": [
+        {"titre": "IPCC Special Report 1.5°C - Chapter 3", "auteur": "IPCC", "annee": 2018, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Status of Coral Reefs of the World 2020", "auteur": "GCRMN", "url": "https://gcrmn.net/", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["zooxanthelles", "blanchissement", "calcification", "Grande Barrière", "symbiose"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Récifs : 0,1% des océans, 25% de la biodiversité marine", "source": "UNEP", "annee": 2021},
+        {"valeur": "50% des récifs perdus depuis 1950", "source": "GCRMN", "annee": 2020}
+      ],
+      "relations": [
+        {"cible": "ocean-acidification", "type": "oppose_a", "score": 95},
+        {"cible": "biodiversite", "type": "contribue_a", "score": 90}
+      ],
+      "exemples": ["Grande Barrière de Corail (Australie)", "Triangle de Corail", "Récifs de Polynésie française"],
+      "synonymes": ["barrière de corail", "coral reef"]
+    },
+    {
+      "id": "surpeche",
+      "terme": "Surpêche",
+      "categorie": "forets-oceans",
+      "resume": "Prélèvement de poissons au-delà de leur capacité de renouvellement. Cause majeure d'effondrement des stocks halieutiques.",
+      "definition": "La surpêche désigne l'exploitation des ressources halieutiques à un niveau supérieur à leur capacité de renouvellement biologique (Maximum Sustainable Yield, MSY). Elle conduit à l'effondrement des stocks, à la modification des écosystèmes marins (déséquilibre des chaînes trophiques), et à la perte de moyens de subsistance pour des millions de personnes. 35% des stocks mondiaux sont surexploités (FAO, 2022). La pêche industrielle, les subventions nuisibles, et la pêche INN (illicite, non déclarée, non réglementée) aggravent le phénomène.",
+      "definitionEtendue": {
+        "introduction": "La surpêche industrielle se développe après 1950 avec les flottes à moteur et les techniques modernes (chalutage, sennes). L'effondrement de la morue de Terre-Neuve (1992) est un cas emblématique. Le concept de Rendement Maximum Durable (RMD/MSY) émerge pour fixer des limites. La FAO estime que la production halieutique a atteint son pic dans les années 1990.",
+        "mecanismes": "La surpêche résulte de : surcapacité des flottes, subventions encourageant la pêche excessive, pêche INN (20% des captures), absence de quotas ou quotas mal respectés, et demande croissante. Elle affecte la structure des populations (grands individus, reproducteurs), la diversité génétique, et les réseaux trophiques ('fishing down the food web').",
+        "contexteScientifique": "Les recherches portent sur : l'évaluation des stocks (modèles démographiques), les aires marines protégées (effets de 'spillover'), l'approche écosystémique des pêches, et les impacts du changement climatique (déplacement des espèces). Le débat entre pêcheurs et scientifiques sur les quotas est récurrent.",
+        "enjeuxActuels": "35% des stocks sont surexploités, 57% pêchés au maximum. La Méditerranée est la mer la plus surexploitée (62%). L'OMC négocie sur les subventions à la pêche. La traçabilité des produits de la mer progresse (lutte contre la pêche INN). Le Pacte Bleu (UE) vise 100% de stocks durables.",
+        "perspectives": "L'avenir passe par : la réduction des capacités de pêche, la suppression des subventions nuisibles, l'extension des AMP efficaces, et l'approche écosystémique. L'aquaculture ne peut compenser la surpêche sans impacts propres. Les objectifs 30x30 incluent la protection marine."
+      },
+      "sources": [
+        {"titre": "The State of World Fisheries and Aquaculture 2022", "auteur": "FAO", "url": "https://www.fao.org/fishery/sofia/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Fishing down marine food webs", "auteur": "Pauly, D. et al.", "doi": "10.1126/science.279.5352.860", "journal": "Science", "annee": 1998, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["MSY", "RMD", "pêche INN", "fishing down", "stock halieutique"],
+      "indicateursQuantitatifs": [
+        {"valeur": "35% des stocks mondiaux surexploités", "source": "FAO", "annee": 2022},
+        {"valeur": "Méditerranée : 62% des stocks surexploités", "source": "CGPM", "annee": 2022}
+      ],
+      "relations": [
+        {"cible": "biodiversite", "type": "oppose_a", "score": 85},
+        {"cible": "aire-marine-protegee", "type": "oppose_a", "score": 90}
+      ],
+      "exemples": ["Effondrement morue Terre-Neuve (1992)", "Thon rouge Atlantique", "Anchois Pérou"],
+      "synonymes": ["surexploitation halieutique", "overfishing"]
+    },
+    {
+      "id": "aire-marine-protegee",
+      "terme": "Aire marine protégée (AMP)",
+      "categorie": "forets-oceans",
+      "resume": "Zone marine où les activités humaines sont réglementées pour protéger la biodiversité et les habitats. Objectif 30% d'ici 2030.",
+      "definition": "Une aire marine protégée (AMP) est un espace marin géographiquement défini, reconnu, dédié et géré pour assurer la conservation à long terme de la nature et des services écosystémiques associés. Elle peut aller de la protection intégrale (réserve marine sans prélèvement) à une protection partielle (restrictions d'activités). Les AMP efficaces permettent la reconstitution des stocks, l'augmentation de la biomasse et de la biodiversité, et l'exportation de biomasse vers les zones de pêche adjacentes (effet spillover).",
+      "definitionEtendue": {
+        "introduction": "Les premières AMP datent du début du XXe siècle (Fort Jefferson, 1935). Leur développement s'accélère après Rio (1992). Le Congrès mondial des parcs (2014) recommande 30% de protection. Kunming-Montréal (2022) fixe l'objectif '30x30'. En 2023, 8,3% des océans sont en AMP mais <3% en protection forte.",
+        "mecanismes": "Les AMP fonctionnent par : réduction de la mortalité par pêche (reconstitution des stocks), protection des habitats critiques (frayères, nurseries), maintien de la structure des communautés, et effet 'spillover' (exportation de biomasse). L'efficacité dépend de la taille, du niveau de protection, de l'application des règles, et de la gestion des pressions extérieures.",
+        "contexteScientifique": "Les recherches montrent que seules les AMP en protection intégrale et bien gérées produisent des bénéfices significatifs. Les 'paper parks' (AMP sans moyens) sont inefficaces. Le débat porte sur : grands sanctuaires vs réseaux d'AMP, protection stricte vs gestion durable, et équité (pêcheurs artisanaux vs industriels).",
+        "enjeuxActuels": "8,3% des océans en AMP (vs 17% objectif 2020). La qualité de protection est insuffisante (<3% en protection forte). La haute mer reste peu protégée malgré le traité BBNJ (2023). Les défis : financement, surveillance, changement climatique (déplacement des espèces).",
+        "perspectives": "L'avenir passe par : 30% d'AMP dont 10% en protection forte (30x30), le traité sur la haute mer, les réseaux d'AMP connectées, et l'intégration dans la planification spatiale marine. Le concept d'OECMs (Other Effective Conservation Measures) complète les AMP."
+      },
+      "sources": [
+        {"titre": "Marine Protected Planet", "auteur": "UNEP-WCMC", "url": "https://www.protectedplanet.net/marine", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Cadre mondial de la biodiversité de Kunming-Montréal", "auteur": "CBD", "url": "https://www.cbd.int/gbf/", "annee": 2022, "type": "loi", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["30x30", "spillover", "réserve intégrale", "BBNJ", "planification spatiale marine"],
+      "indicateursQuantitatifs": [
+        {"valeur": "8,3% des océans en AMP (2023)", "source": "UNEP-WCMC", "annee": 2023},
+        {"valeur": "Objectif 30x30 : 30% de protection d'ici 2030", "source": "CBD", "annee": 2022}
+      ],
+      "relations": [
+        {"cible": "surpeche", "type": "oppose_a", "score": 90},
+        {"cible": "biodiversite", "type": "contribue_a", "score": 85}
+      ],
+      "exemples": ["Sanctuaire Pelagos (Méditerranée)", "Réserve marine de la Grande Barrière", "Parc national de Port-Cros"],
+      "synonymes": ["réserve marine", "sanctuaire marin", "MPA"]
+    },
+    {
+      "id": "carbone-bleu",
+      "terme": "Carbone bleu",
+      "categorie": "forets-oceans",
+      "resume": "Carbone capté et stocké par les écosystèmes côtiers (mangroves, herbiers, marais). Puits de carbone très efficaces mais menacés.",
+      "definition": "Le carbone bleu désigne le carbone capté de l'atmosphère et stocké par les écosystèmes côtiers et marins : mangroves, herbiers de plantes marines (zostères, posidonies), et marais maritimes (prés-salés). Ces écosystèmes stockent le carbone dans leur biomasse et surtout dans leurs sédiments, à des taux 2 à 4 fois supérieurs aux forêts terrestres. Ils jouent un rôle crucial dans l'atténuation climatique mais sont menacés et leur destruction libère d'importants stocks de carbone.",
+      "definitionEtendue": {
+        "introduction": "Le concept de 'carbone bleu' est introduit par l'UNEP, l'UICN et la COI-UNESCO en 2009. Il vise à valoriser le rôle climatique des écosystèmes côtiers, traditionnellement négligés face aux forêts. Les conventions climat et biodiversité intègrent désormais le carbone bleu. Des projets de crédits carbone bleus émergent.",
+        "mecanismes": "Les végétaux côtiers captent le CO2 par photosynthèse. Le carbone s'accumule dans les sédiments en conditions anoxiques, où il peut rester stocké des millénaires. Les taux de séquestration sont élevés : 218 gC/m²/an pour les mangroves (vs 5 gC/m²/an pour les forêts tropicales dans le sol). La destruction libère le carbone stocké.",
+        "contexteScientifique": "Les recherches portent sur : la cartographie et quantification des stocks, la variabilité selon les sites, les facteurs de dégradation, et la restauration. Les incertitudes restent élevées (hétérogénéité, données lacunaires). Les méthodologies de crédits carbone bleus se développent (Verra, Gold Standard).",
+        "enjeuxActuels": "Les écosystèmes de carbone bleu déclinent : -35% des mangroves, -30% des herbiers, -50% des marais depuis 1970. Les menaces : urbanisation côtière, aquaculture, pollution, élévation du niveau de la mer. La restauration est possible mais lente. Les projets carbone bleu attirent les investissements.",
+        "perspectives": "L'avenir passe par : la protection et restauration des écosystèmes côtiers, l'intégration dans les NDC (contributions climat), les marchés carbone certifiés, et l'adaptation à l'élévation du niveau de la mer. Le carbone bleu pourrait représenter 2% de l'atténuation mondiale."
+      },
+      "sources": [
+        {"titre": "Blue Carbon - The Role of Healthy Oceans in Binding Carbon", "auteur": "UNEP/IUCN/IOC-UNESCO", "url": "https://www.unep.org/resources/report/blue-carbon", "annee": 2009, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Coastal Blue Carbon", "auteur": "IPCC AR6 WGII", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["mangrove", "herbier marin", "marais maritime", "séquestration côtière", "sédiments"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Écosystèmes bleus : 2-4x plus de carbone/ha que les forêts", "source": "UNEP", "annee": 2020},
+        {"valeur": "Mangroves stockent 1 000 tC/ha (dont 75% dans le sol)", "source": "Nature Geoscience", "annee": 2018}
+      ],
+      "relations": [
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 80},
+        {"cible": "puits-carbone-forestier", "type": "proche_de", "score": 85}
+      ],
+      "exemples": ["Mangroves d'Indonésie", "Herbiers de Posidonie (Méditerranée)", "Prés-salés de Bretagne"],
+      "synonymes": ["séquestration côtière", "coastal blue carbon"]
+    },
+    {
+      "id": "mangrove",
+      "terme": "Mangrove",
+      "categorie": "forets-oceans",
+      "resume": "Forêt côtière tropicale adaptée à l'eau salée. Écosystème clé pour la biodiversité, la protection côtière et le carbone bleu.",
+      "definition": "La mangrove est un écosystème forestier côtier tropical et subtropical constitué d'arbres et arbustes halophytes (tolérant le sel), principalement des palétuviers (Rhizophora, Avicennia). Situées à l'interface terre-mer, les mangroves fournissent des services écosystémiques exceptionnels : nurseries pour poissons et crustacés, protection côtière contre les tempêtes et l'érosion, séquestration de carbone bleu, et filtration des eaux. Elles ont perdu 35% de leur surface mondiale depuis 1970.",
+      "definitionEtendue": {
+        "introduction": "Les mangroves couvrent 150 000 km² dans 123 pays tropicaux. L'Asie du Sud-Est concentre 40% des surfaces. Les Sundarbans (Bangladesh-Inde) forment la plus grande mangrove continue. L'exploitation pour l'aquaculture de crevettes, le bois de chauffage, et l'urbanisation a causé des pertes massives. La protection et la restauration s'intensifient depuis les années 2000.",
+        "mecanismes": "Les palétuviers ont des adaptations uniques : racines-échasses ou pneumatophores (respiration), glandes à sel, viviparie (germination sur l'arbre). L'écosystème crée un habitat complexe utilisé par les poissons, crustacés, oiseaux et mammifères. Les racines atténuent les vagues et retiennent les sédiments. Le sol anoxique stocke le carbone sur des millénaires.",
+        "contexteScientifique": "Les recherches portent sur : la valeur économique des services (estimée à 194 000 $/ha/an), les techniques de restauration, la résilience au changement climatique (élévation du niveau de la mer), et le rôle dans les chaînes alimentaires marines. Les mangroves réduisent de 66% les dommages des inondations côtières.",
+        "enjeuxActuels": "Le déclin continue malgré les protections (-1%/an). Les menaces : aquaculture, agriculture (huile de palme), urbanisation, pollution, et changement climatique. L'Initiative Mondiale pour les Mangroves coordonne les efforts. Les projets carbone bleu valorisent économiquement la protection.",
+        "perspectives": "L'avenir passe par : l'arrêt de la conversion, la restauration à grande échelle (Bonn Challenge inclut les mangroves), l'intégration dans les stratégies climat (NDC), et la valorisation économique (crédits carbone, tourisme). Les mangroves peuvent s'adapter à l'élévation du niveau de la mer si elle reste lente."
+      },
+      "sources": [
+        {"titre": "Global Mangrove Watch", "auteur": "UNEP-WCMC", "url": "https://www.globalmangrovewatch.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "The State of the World's Mangroves", "auteur": "Global Mangrove Alliance", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["palétuvier", "Rhizophora", "halophyte", "nurserie", "protection côtière"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Mangroves : 150 000 km² dans 123 pays", "source": "Global Mangrove Watch", "annee": 2023},
+        {"valeur": "-35% de surface depuis 1970", "source": "UNEP", "annee": 2020}
+      ],
+      "relations": [
+        {"cible": "carbone-bleu", "type": "contribue_a", "score": 95},
+        {"cible": "biodiversite", "type": "contribue_a", "score": 85}
+      ],
+      "exemples": ["Sundarbans (Bangladesh-Inde)", "Mangroves du delta du Mékong", "Mangroves de Guyane"],
+      "synonymes": ["forêt de palétuviers", "mangrove forest"]
+    },
+    {
+      "id": "plastique-ocean",
+      "terme": "Pollution plastique océanique",
+      "categorie": "forets-oceans",
+      "resume": "Accumulation de déchets plastiques dans les océans formant des 'continents' de débris. Menace pour la faune marine et les écosystèmes.",
+      "definition": "La pollution plastique océanique désigne l'accumulation de déchets plastiques dans les mers et océans. Entre 8 et 12 millions de tonnes de plastique entrent dans les océans chaque année, formant des zones d'accumulation (gyres) dont le 'Great Pacific Garbage Patch'. Les plastiques se fragmentent en microplastiques (<5mm) et nanoplastiques, ingérés par la faune marine et entrant dans les chaînes alimentaires. La durée de dégradation peut atteindre plusieurs siècles.",
+      "definitionEtendue": {
+        "introduction": "La pollution plastique marine est identifiée dans les années 1970. Le 'Great Pacific Garbage Patch' est décrit en 1997 par Charles Moore. Les images de tortues et oiseaux morts alertent l'opinion. Le problème des microplastiques émerge dans les années 2000. Le traité international sur les plastiques est en négociation (2022-2024).",
+        "mecanismes": "Les plastiques proviennent de sources terrestres (80%) et maritimes (20%). Ils sont transportés par les fleuves, le vent, et les courants. Les gyres océaniques les concentrent. La photodégradation fragmente les plastiques sans les détruire. L'ingestion cause des occlusions, des leurres alimentaires, et le transfert de polluants (phtalates, BPA).",
+        "contexteScientifique": "Les recherches portent sur : la quantification (5 250 milliards de particules plastiques flottantes), les impacts sur la faune (1 500 espèces affectées), le transfert trophique, les effets sur la santé humaine (microplastiques dans les poissons, l'eau, l'air), et les solutions (collecte, prévention, alternatives).",
+        "enjeuxActuels": "La production de plastique double tous les 20 ans. Moins de 10% sont recyclés. Les négociations pour un traité mondial sur les plastiques avancent. L'UE interdit les plastiques à usage unique (2021). Les 'plastic credits' émergent. Le nettoyage océanique (The Ocean Cleanup) reste marginal face aux flux entrants.",
+        "perspectives": "L'avenir passe par : la réduction à la source (interdictions, écoconception), le recyclage massif, les alternatives biosourcées, la collecte fluviale (avant l'océan), et le changement de comportements. Le traité international pourrait fixer des objectifs contraignants de réduction de la production."
+      },
+      "sources": [
+        {"titre": "Marine Plastic Debris and Microplastics", "auteur": "UNEP", "url": "https://www.unep.org/", "annee": 2016, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "The New Plastics Economy", "auteur": "Ellen MacArthur Foundation", "url": "https://ellenmacarthurfoundation.org/", "annee": 2016, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["microplastiques", "gyre", "Great Pacific Garbage Patch", "ingestion", "fragmentation"],
+      "indicateursQuantitatifs": [
+        {"valeur": "8-12 Mt plastique/an entrent dans les océans", "source": "Science", "annee": 2015},
+        {"valeur": "5 250 milliards de particules plastiques flottantes", "source": "PLOS ONE", "annee": 2014}
+      ],
+      "relations": [
+        {"cible": "microplastiques", "type": "renvoie_a", "score": 95},
+        {"cible": "biodiversite", "type": "oppose_a", "score": 85}
+      ],
+      "exemples": ["Great Pacific Garbage Patch", "Tortues ingérant des sacs", "Microplastiques dans les moules"],
+      "synonymes": ["pollution marine plastique", "océan de plastique"]
+    },
+    {
+      "id": "zone-morte-oceanique",
+      "terme": "Zone morte océanique",
+      "categorie": "forets-oceans",
+      "resume": "Zone marine appauvrie en oxygène où la vie marine ne peut plus se maintenir. Causée par l'eutrophisation et le réchauffement.",
+      "definition": "Une zone morte océanique (ou zone hypoxique) est une région marine où la concentration en oxygène dissous est si faible (<2 mg/L) que la plupart des organismes ne peuvent survivre. Ces zones résultent principalement de l'eutrophisation causée par les apports excessifs de nutriments (azote, phosphore) d'origine agricole et urbaine, et sont aggravées par le réchauffement (moindre solubilité de l'O2). Plus de 700 zones mortes sont recensées dans le monde, couvrant 245 000 km².",
+      "definitionEtendue": {
+        "introduction": "Le phénomène est décrit dès les années 1970 dans la mer Baltique et le Golfe du Mexique. Le terme 'dead zone' se popularise dans les années 1990. Le nombre de zones mortes a doublé chaque décennie depuis 1960. Le changement climatique amplifie le problème en réduisant la solubilité de l'oxygène et en stratifiant les eaux.",
+        "mecanismes": "Le processus suit plusieurs étapes : (1) apports excessifs de nutriments (engrais, eaux usées), (2) prolifération algale (eutrophisation), (3) mort et sédimentation des algues, (4) décomposition bactérienne consommant l'oxygène, (5) hypoxie/anoxie tuant la faune. La stratification thermique empêche le brassage avec les eaux oxygénées de surface.",
+        "contexteScientifique": "Les recherches portent sur : la modélisation des flux de nutriments, les seuils d'hypoxie pour différentes espèces, la réversibilité, et les interactions avec le climat. Certaines zones (Golfe du Mexique) montrent une amélioration avec la réduction des apports. D'autres (Baltique) restent en crise malgré les efforts.",
+        "enjeuxActuels": "Les zones mortes menacent les pêcheries et les écosystèmes côtiers. Les causes agricoles dominent : la directive Nitrates (UE) vise à réduire les apports. Le réchauffement climatique étend les zones à faible oxygène en haute mer. La désoxygénation océanique globale est une menace émergente.",
+        "perspectives": "L'avenir passe par : la réduction drastique des apports de nutriments (agriculture, eaux usées), la restauration des zones tampons (zones humides, ripisylves), et l'adaptation des pêcheries. Le temps de réponse peut être long (décennies) du fait de l'inertie des systèmes."
+      },
+      "sources": [
+        {"titre": "Spreading Dead Zones and Consequences for Marine Ecosystems", "auteur": "Diaz, R.J. & Rosenberg, R.", "doi": "10.1126/science.1156401", "journal": "Science", "annee": 2008, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
+        {"titre": "Ocean deoxygenation (IUCN)", "auteur": "IUCN", "url": "https://www.iucn.org/", "annee": 2019, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["hypoxie", "anoxie", "eutrophisation", "désoxygénation", "nutriments"],
+      "indicateursQuantitatifs": [
+        {"valeur": "700+ zones mortes recensées dans le monde", "source": "Science", "annee": 2008},
+        {"valeur": "245 000 km² de zones hypoxiques", "source": "IUCN", "annee": 2019}
+      ],
+      "relations": [
+        {"cible": "eutrophisation", "type": "renvoie_a", "score": 95},
+        {"cible": "biodiversite", "type": "oppose_a", "score": 90}
+      ],
+      "exemples": ["Golfe du Mexique", "Mer Baltique", "Zone morte de l'Oregon"],
+      "synonymes": ["zone hypoxique", "dead zone"]
+    },
+    {
+      "id": "agroforesterie",
+      "terme": "Agroforesterie",
+      "categorie": "forets-oceans",
+      "resume": "Système agricole associant arbres et cultures ou élevage. Pratique ancestrale favorisant la biodiversité et la résilience climatique.",
+      "definition": "L'agroforesterie est un système d'utilisation des terres où des arbres sont délibérément associés à des cultures agricoles et/ou à l'élevage sur une même parcelle. Elle inclut de nombreuses pratiques : haies, alignements d'arbres, prés-vergers, cultures sous couvert forestier, sylvopastoralisme. L'agroforesterie optimise les interactions biologiques entre arbres et cultures : fertilité (azote, matière organique), microclimat, biodiversité auxiliaire, diversification des revenus.",
+      "definitionEtendue": {
+        "introduction": "L'agroforesterie est la pratique agricole la plus ancienne (systèmes traditionnels tropicaux, bocage européen). Marginalisée par l'agriculture intensive, elle connaît un renouveau depuis les années 1990 avec la prise de conscience environnementale. Le CIRAD et l'ICRAF développent la recherche. La PAC intègre l'agroforesterie depuis 2007.",
+        "mecanismes": "Les arbres apportent : ombrage (réduction stress hydrique), brise-vent, litière (matière organique), fixation d'azote (légumineuses), habitat pour auxiliaires (pollinisateurs, prédateurs de ravageurs). Ils captent le carbone et protègent les sols de l'érosion. La complémentarité des systèmes racinaires optimise l'utilisation des ressources.",
+        "contexteScientifique": "Les recherches portent sur : les associations optimales, la quantification des services écosystémiques, les compromis productivité/environnement, et l'adaptation au changement climatique. Les systèmes agroforestiers séquestrent 2-9 tC/ha/an selon les pratiques. Le concept de 'Land Equivalent Ratio' (LER) mesure la productivité comparée.",
+        "enjeuxActuels": "L'agroforesterie est promue par la PAC (écorégimes), la Stratégie forestière UE, et les plans nationaux. Les freins : mécanisation difficile, temps de retour long, complexité technique. Moins de 5% des terres agricoles européennes sont en agroforesterie. Le potentiel de développement est important.",
+        "perspectives": "L'avenir passe par : l'accompagnement technique, les aides à l'installation, la valorisation économique des produits (bois, fruits), et la reconnaissance des services environnementaux (carbone, eau). L'agroforesterie est un pilier de l'agroécologie et de l'agriculture régénérative."
+      },
+      "sources": [
+        {"titre": "Agroforestry (FAO)", "auteur": "FAO", "url": "https://www.fao.org/agroforestry/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Agroforesterie en France", "auteur": "AFAF", "url": "https://www.agroforesterie.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "moyen"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["sylvopastoralisme", "haie", "LER", "services écosystémiques", "agriculture régénérative"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Agroforesterie : 2-9 tC/ha/an de séquestration", "source": "IPCC", "annee": 2019},
+        {"valeur": "Europe : <5% des terres agricoles en agroforesterie", "source": "EURAF", "annee": 2022}
+      ],
+      "relations": [
+        {"cible": "agriculture-regenerative", "type": "proche_de", "score": 90},
+        {"cible": "biodiversite", "type": "contribue_a", "score": 80}
+      ],
+      "exemples": ["Bocage normand", "Dehesa espagnole", "Systèmes café-cacao ombragés"],
+      "synonymes": ["agriculture forestière", "arbres champêtres"]
+    },
+    {
+      "id": "bois-construction",
+      "terme": "Bois construction",
+      "categorie": "forets-oceans",
+      "resume": "Utilisation du bois comme matériau de construction. Alternative bas carbone au béton et à l'acier, stockant le carbone durablement.",
+      "definition": "Le bois construction désigne l'utilisation du bois et des produits dérivés (lamellé-collé, CLT, bois massif) comme matériaux de structure et d'enveloppe des bâtiments. Le bois présente un bilan carbone favorable : il stocke le CO2 capté par l'arbre, se substitue à des matériaux énergivores (béton, acier), et peut être recyclé ou valorisé énergétiquement en fin de vie. La construction bois représente un levier majeur de décarbonation du secteur du bâtiment.",
+      "definitionEtendue": {
+        "introduction": "Le bois est le matériau de construction originel de l'humanité. L'industrialisation a favorisé le béton et l'acier. Le renouveau du bois construction date des années 1990 avec les innovations techniques (CLT, lamellé-collé) et la prise de conscience environnementale. La RE2020 (France, 2022) impose un calcul carbone favorisant le bois.",
+        "mecanismes": "Le bois stocke ~250 kg CO2/m³. Sa mise en œuvre consomme peu d'énergie (faible énergie grise). Il se substitue au béton (émetteur) et à l'acier (énergivore). Le stockage est durable si le bois est protégé (durabilité > 50 ans en construction). En fin de vie, le recyclage ou la valorisation énergétique libère le carbone mais avec un bilan neutre (carbone biogénique).",
+        "contexteScientifique": "Les recherches portent sur : le bilan carbone complet (forêt + produits + substitution), la durabilité (traitement, entretien), le comportement au feu (intumescence), et les assemblages hybrides. Le débat porte sur le risque de surexploitation forestière et la concurrence avec le puits forestier.",
+        "enjeuxActuels": "La construction bois progresse (France : 10% des logements collectifs en bois, objectif 30%). Les freins : filière à structurer, compétences à développer, prix encore supérieur, réglementation incendie. Les records de hauteur (immeubles en bois de 80m+) prouvent la faisabilité technique.",
+        "perspectives": "L'avenir passe par : l'industrialisation (préfabrication, CLT), la formation des professionnels, la sécurisation de l'approvisionnement (forêts certifiées), et la réglementation carbone. L'objectif est de faire du bâtiment un stock de carbone plutôt qu'une source d'émissions."
+      },
+      "sources": [
+        {"titre": "Réglementation environnementale RE2020", "auteur": "MTE", "url": "https://www.ecologie.gouv.fr/re2020", "annee": 2022, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "Wood construction and climate mitigation", "auteur": "Churkina, G. et al.", "doi": "10.1038/s41893-019-0462-4", "journal": "Nature Sustainability", "annee": 2020, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["CLT", "lamellé-collé", "RE2020", "stockage carbone", "substitution"],
+      "indicateursQuantitatifs": [
+        {"valeur": "1 m³ de bois stocke ~250 kg CO2", "source": "FCBA", "annee": 2022},
+        {"valeur": "France : 10% des logements collectifs neufs en bois", "source": "FNB", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 80},
+        {"cible": "sylviculture-durable", "type": "renvoie_a", "score": 85}
+      ],
+      "exemples": ["Tour Hypérion (Bordeaux, 50m)", "Mjøstårnet (Norvège, 85m)", "Maisons à ossature bois"],
+      "synonymes": ["construction en bois", "timber construction"]
+    },
+    {
+      "id": "incendie-foret",
+      "terme": "Incendie de forêt",
+      "categorie": "forets-oceans",
+      "resume": "Feu non maîtrisé se propageant en milieu forestier. Phénomène naturel amplifié par le changement climatique et la gestion forestière.",
+      "definition": "Un incendie de forêt est un feu non maîtrisé qui se propage dans les espaces naturels boisés, landes ou maquis. Les incendies peuvent être d'origine naturelle (foudre) ou humaine (90% des cas en France). Le changement climatique (sécheresses, canicules) et l'accumulation de combustible (déprise agricole) augmentent le risque. Les incendies émettent du CO2, détruisent la biodiversité, et menacent les populations. La prévention et la gestion post-feu sont des enjeux croissants.",
+      "definitionEtendue": {
+        "introduction": "Le feu est un processus écologique naturel dans de nombreux écosystèmes (forêts méditerranéennes, savanes). L'exclusion du feu au XXe siècle a accumulé le combustible. Les méga-feux (Australie 2019-20, Californie, Sibérie) marquent un changement d'échelle. En France, le risque s'étend vers le nord avec le réchauffement.",
+        "mecanismes": "Un incendie nécessite trois conditions (triangle du feu) : combustible (végétation sèche), oxygène, et source d'ignition. La propagation dépend du vent, de la pente, et de la continuité du combustible. Les feux de cimes sont les plus intenses. Le changement climatique allonge la saison des feux et augmente leur intensité.",
+        "contexteScientifique": "Les recherches portent sur : la modélisation du comportement du feu, l'écologie du feu (régénération, espèces pyrophiles), le bilan carbone, et l'adaptation des forêts. Le paradoxe du feu : l'exclusion augmente le risque de méga-feux. Le brûlage dirigé est réhabilité dans certaines régions.",
+        "enjeuxActuels": "Les surfaces brûlées augmentent mondialement (+3% par décennie). L'été 2022 a vu 786 000 ha brûlés en UE. Les émissions des incendies représentent 5-10% des émissions de CO2 certaines années. La protection des populations (interfaces forêt-habitat) et la résilience forestière sont prioritaires.",
+        "perspectives": "L'avenir passe par : la réduction du combustible (sylviculture préventive, pastoralisme), l'adaptation des essences, la détection précoce (satellites, IA), et la gestion post-feu (régénération assistée). Le concept de 'vivre avec le feu' émerge plutôt que l'exclusion totale."
+      },
+      "sources": [
+        {"titre": "Forest fires in Europe, Middle East and North Africa 2022", "auteur": "JRC", "url": "https://effis.jrc.ec.europa.eu/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "IPCC Climate Change and Land (Chapter 2)", "auteur": "IPCC", "annee": 2019, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["méga-feu", "combustible", "brûlage dirigé", "régénération", "DFCI"],
+      "indicateursQuantitatifs": [
+        {"valeur": "UE 2022 : 786 000 ha brûlés (record)", "source": "EFFIS/JRC", "annee": 2023},
+        {"valeur": "France : risque étendu à 50% du territoire d'ici 2050", "source": "ONF", "annee": 2022}
+      ],
+      "relations": [
+        {"cible": "changement-climatique", "type": "renvoie_a", "score": 85},
+        {"cible": "puits-carbone-forestier", "type": "oppose_a", "score": 80}
+      ],
+      "exemples": ["Méga-feux Australie 2019-2020", "Incendies Gironde 2022", "Feux Sibérie 2021"],
+      "synonymes": ["feu de forêt", "wildfire"]
+    },
+    {
+      "id": "haute-mer",
+      "terme": "Haute mer",
+      "categorie": "forets-oceans",
+      "resume": "Zone océanique au-delà des juridictions nationales (64% des océans). Récemment protégée par un traité international (BBNJ, 2023).",
+      "definition": "La haute mer désigne les zones océaniques situées au-delà des Zones Économiques Exclusives (ZEE) des États, soit au-delà de 200 milles nautiques des côtes. Elle représente 64% de la surface des océans et 43% de la Terre. Longtemps considérée comme 'bien commun de l'humanité' sans gouvernance, elle a fait l'objet d'un traité historique en 2023 (BBNJ) permettant la création d'aires marines protégées et le partage des bénéfices des ressources génétiques marines.",
+      "definitionEtendue": {
+        "introduction": "La notion de haute mer remonte au droit romain (res communis). La Convention des Nations Unies sur le droit de la mer (CNUDM, 1982) définit son régime juridique mais ne prévoit pas de mécanisme de protection de l'environnement. Après 20 ans de négociation, le traité BBNJ (Biodiversity Beyond National Jurisdiction) est adopté en juin 2023.",
+        "mecanismes": "En haute mer, les libertés traditionnelles prévalent : navigation, pêche, survol, pose de câbles. La gestion des ressources (pêche, nodules polymétalliques) relève d'organisations sectorielles (ORGP, AIFM). Le traité BBNJ crée un cadre pour : les AMP en haute mer, les études d'impact environnemental, l'accès et le partage des avantages des ressources génétiques, et le renforcement des capacités.",
+        "contexteScientifique": "La haute mer abrite une biodiversité méconnue (95% des espèces non décrites). Les recherches portent sur : les écosystèmes de grands fonds (sources hydrothermales, monts sous-marins), les ressources génétiques marines (intérêt pharmaceutique), et les impacts cumulés (pêche, pollution, changement climatique). Le concept de 'patrimoine commun de l'humanité' guide le partage des bénéfices.",
+        "enjeuxActuels": "Le traité BBNJ doit être ratifié pour entrer en vigueur (60 ratifications requises). Les enjeux : création d'AMP (objectif 30x30), exploitation minière des fonds marins (moratoire demandé), et pêche en haute mer. La gouvernance reste fragmentée entre organes sectoriels.",
+        "perspectives": "L'avenir passe par : l'entrée en vigueur rapide du BBNJ, la création d'AMP représentatives, un moratoire sur l'exploitation minière, et le renforcement des ORGP. Le concept de 'stewardship' de l'océan global émerge pour une gouvernance intégrée."
+      },
+      "sources": [
+        {"titre": "Traité BBNJ (Accord sur la biodiversité marine)", "auteur": "Nations Unies", "url": "https://www.un.org/bbnj/", "annee": 2023, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "High Seas Alliance", "url": "https://www.highseasalliance.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "moyen"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["BBNJ", "ZEE", "CNUDM", "ressources génétiques marines", "ORGP"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Haute mer : 64% de la surface des océans", "source": "IUCN", "annee": 2023},
+        {"valeur": "<1% de la haute mer actuellement protégée", "source": "UNEP-WCMC", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "aire-marine-protegee", "type": "renvoie_a", "score": 85},
+        {"cible": "biodiversite", "type": "contribue_a", "score": 80}
+      ],
+      "exemples": ["Dorsale médio-atlantique", "Sources hydrothermales", "Sargasses"],
+      "synonymes": ["eaux internationales", "high seas"]
+    },
+    {
+      "id": "erosion-cotiere",
+      "terme": "Érosion côtière",
+      "categorie": "forets-oceans",
+      "resume": "Recul du trait de côte sous l'effet des vagues, du vent et de l'élévation du niveau de la mer. Risque croissant pour les populations littorales.",
+      "definition": "L'érosion côtière désigne le recul du trait de côte résultant de processus naturels (vagues, courants, vent, tempêtes) et anthropiques (extraction de sable, aménagements perturbant la dynamique sédimentaire). Le phénomène est amplifié par l'élévation du niveau de la mer liée au changement climatique. En France, 20% du littoral est en érosion. L'érosion menace les infrastructures, les habitations et les écosystèmes côtiers, imposant des choix de gestion difficiles (protection, relocalisation).",
+      "definitionEtendue": {
+        "introduction": "L'érosion côtière est un processus naturel qui façonne les littoraux. L'urbanisation massive du XXe siècle a ignoré cette dynamique. La prise de conscience émerge avec les tempêtes (Xynthia, 2010) et le changement climatique. La loi Climat et Résilience (2021) impose aux communes d'anticiper le recul du trait de côte.",
+        "mecanismes": "L'érosion résulte de : l'action des vagues (sapement, arrachement), le vent (érosion éolienne des dunes), les courants (transport sédimentaire), et les tempêtes. Le déficit sédimentaire (barrages, extraction) aggrave le phénomène. L'élévation du niveau de la mer déplace le point d'attaque des vagues vers l'intérieur.",
+        "contexteScientifique": "Les recherches portent sur : la modélisation de l'évolution du trait de côte, les impacts du changement climatique, les solutions fondées sur la nature (restauration dunaire, végétalisation), et les stratégies de gestion. Le débat oppose protection dure (digues, enrochements), protection souple (rechargement), et relocalisation.",
+        "enjeuxActuels": "1,4 million de logements sont potentiellement menacés en France. Les stratégies incluent : zonage réglementaire, rachat de biens (fonds Barnier), protection, et recomposition spatiale. Le coût de l'inaction dépasse celui de l'action. Les conflits d'usage (tourisme, pêche, urbanisme) complexifient les décisions.",
+        "perspectives": "L'avenir passe par : l'anticipation (projections à 2100), les solutions fondées sur la nature, la relocalisation des enjeux vulnérables, et l'adaptation des réglementations. Le concept de 'recul stratégique' (managed retreat) gagne en légitimité malgré les résistances."
+      },
+      "sources": [
+        {"titre": "Indicateurs nationaux de l'érosion côtière", "auteur": "CEREMA", "url": "https://www.cerema.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Loi Climat et Résilience (art. 236-250)", "url": "https://www.legifrance.gouv.fr/", "annee": 2021, "type": "loi", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["trait de côte", "recul stratégique", "dynamique sédimentaire", "submersion", "dune"],
+      "indicateursQuantitatifs": [
+        {"valeur": "France : 20% du littoral en érosion", "source": "CEREMA", "annee": 2023},
+        {"valeur": "1,4 million de logements potentiellement menacés", "source": "CEREMA", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "changement-climatique", "type": "renvoie_a", "score": 80},
+        {"cible": "adaptation-climatique", "type": "renvoie_a", "score": 85}
+      ],
+      "exemples": ["Recul des falaises de Dieppe", "Érosion dune du Pilat", "Submersion Xynthia"],
+      "synonymes": ["recul du trait de côte", "coastal erosion"]
+    },
+    {
+      "id": "espece-marine-migratrice",
+      "terme": "Espèce marine migratrice",
+      "categorie": "forets-oceans",
+      "resume": "Espèce marine effectuant des déplacements réguliers entre zones de reproduction, d'alimentation et d'hivernage. Vulnérable aux pressions humaines.",
+      "definition": "Une espèce marine migratrice est une espèce qui effectue des déplacements réguliers et prévisibles entre différentes zones géographiques pour accomplir son cycle de vie : reproduction, alimentation, croissance, hivernage. Ces migrations peuvent couvrir des milliers de kilomètres et traverser de multiples juridictions nationales. Les espèces migratrices marines (baleines, tortues, thons, requins, oiseaux marins) sont particulièrement vulnérables car exposées à des pressions multiples tout au long de leur parcours.",
+      "definitionEtendue": {
+        "introduction": "Les migrations marines sont connues depuis l'Antiquité (thons, baleines). La Convention de Bonn (CMS, 1979) crée un cadre international de protection. Les technologies de suivi (balises, eDNA) révolutionnent les connaissances. Le concept de 'corridors migratoires' émerge pour la conservation.",
+        "mecanismes": "Les migrations sont déclenchées par des signaux environnementaux (température, photopériode) et répondent à des besoins biologiques (reproduction dans des eaux favorables, alimentation dans des zones productives). La navigation utilise le champ magnétique, les courants, et la mémoire des individus. La fidélité aux sites est souvent élevée.",
+        "contexteScientifique": "Les recherches portent sur : les routes migratoires (suivis satellitaires), les aires essentielles (critical habitats), les impacts du changement climatique (décalages phénologiques, modification des routes), et les interactions avec les activités humaines (pêche, transport maritime, pollution).",
+        "enjeuxActuels": "Les espèces migratrices sont menacées par : la surpêche (prises accessoires), les collisions avec les navires, la pollution plastique, le bruit sous-marin, et le changement climatique. La gouvernance est complexe (eaux internationales, accords bilatéraux). Le traité BBNJ offre de nouvelles opportunités de protection.",
+        "perspectives": "L'avenir passe par : la protection des aires critiques (reproduction, alimentation), les corridors transfrontaliers, la réduction des captures accessoires, et la gestion écosystémique. Le concept de 'connectivité marine' intègre les migrations dans la planification spatiale."
+      },
+      "sources": [
+        {"titre": "Convention on Migratory Species (CMS)", "url": "https://www.cms.int/", "annee": 2023, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "State of the World's Migratory Species", "auteur": "CMS/UNEP", "annee": 2024, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["CMS", "corridor migratoire", "suivi satellitaire", "aires critiques", "connectivité"],
+      "indicateursQuantitatifs": [
+        {"valeur": "44% des espèces migratrices marines en déclin", "source": "CMS", "annee": 2024},
+        {"valeur": "Baleine grise : 20 000 km de migration A/R", "source": "NOAA", "annee": 2022}
+      ],
+      "relations": [
+        {"cible": "biodiversite", "type": "contribue_a", "score": 85},
+        {"cible": "aire-marine-protegee", "type": "renvoie_a", "score": 80}
+      ],
+      "exemples": ["Baleine à bosse", "Tortue luth", "Thon rouge", "Albatros hurleur"],
+      "synonymes": ["espèce migratrice marine", "migratory marine species"]
+    },
+    {
+      "id": "algue-invasive",
+      "terme": "Algue invasive",
+      "categorie": "forets-oceans",
+      "resume": "Espèce d'algue introduite hors de son aire naturelle proliférant au détriment des écosystèmes marins locaux.",
+      "definition": "Une algue invasive est une espèce d'algue introduite, volontairement ou accidentellement, dans un milieu marin en dehors de son aire de répartition naturelle, où elle prolifère et cause des impacts écologiques négatifs sur les espèces et habitats indigènes. Les algues invasives peuvent former des tapis denses étouffant les herbiers, modifiant les chaînes alimentaires et les habitats. La Méditerranée est particulièrement touchée (Caulerpa taxifolia, C. cylindracea, Asparagopsis).",
+      "definitionEtendue": {
+        "introduction": "La première invasion marine médiatisée est celle de Caulerpa taxifolia en Méditerranée, repérée à Monaco en 1984, probablement issue de l'aquarium. L'algue a colonisé des milliers d'hectares en 20 ans. Les eaux de ballast des navires et le commerce d'aquariophilie sont les principales voies d'introduction.",
+        "mecanismes": "Les algues invasives partagent des traits favorables : croissance rapide, reproduction asexuée efficace, tolérance à des conditions variées, absence de prédateurs locaux. Elles entrent en compétition pour l'espace et la lumière avec les espèces natives (posidonies, algues locales). Leur biomasse peut modifier les cycles des nutriments.",
+        "contexteScientifique": "Les recherches portent sur : les voies d'introduction, les modèles de dispersion, les impacts sur la biodiversité et les pêcheries, et les méthodes d'éradication. L'éradication est rarement réalisable une fois l'invasion établie. La prévention (contrôle des eaux de ballast, réglementation aquariophilie) est prioritaire.",
+        "enjeuxActuels": "Le changement climatique favorise les espèces tropicales en Méditerranée (tropicalisation). Les espèces du canal de Suez envahissent l'Est méditerranéen (lessepsian migrants). Les coûts de gestion sont élevés et l'efficacité limitée. La surveillance et la détection précoce sont essentielles.",
+        "perspectives": "L'avenir passe par : le renforcement de la Convention sur les eaux de ballast (OMI), la réglementation du commerce d'espèces exotiques, la surveillance coordonnée, et la recherche de méthodes de contrôle biologique. L'adaptation des écosystèmes locaux est imprévisible."
+      },
+      "sources": [
+        {"titre": "IUCN Guidelines for Invasive Species Management", "auteur": "IUCN", "url": "https://www.iucn.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Mediterranean Marine Science", "doi": "10.12681/mms.2847", "annee": 2022, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["Caulerpa", "eaux de ballast", "tropicalisation", "lessepsian", "herbier"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Méditerranée : 1 000+ espèces marines introduites", "source": "CIESM", "annee": 2022},
+        {"valeur": "Caulerpa taxifolia : 30 000 ha colonisés en Méditerranée", "source": "GIS Posidonie", "annee": 2015}
+      ],
+      "relations": [
+        {"cible": "espece-invasive", "type": "est_type_de", "score": 95},
+        {"cible": "biodiversite", "type": "oppose_a", "score": 85}
+      ],
+      "exemples": ["Caulerpa taxifolia", "Asparagopsis armata", "Sargasses (Caraïbes)"],
+      "synonymes": ["macroalgue invasive", "invasive seaweed"]
+    },
+    {
+      "id": "herbier-marin",
+      "terme": "Herbier marin",
+      "categorie": "forets-oceans",
+      "resume": "Prairie sous-marine formée de plantes à fleurs (posidonies, zostères). Écosystème clé pour la biodiversité et le carbone bleu.",
+      "definition": "Un herbier marin est un écosystème constitué de prairies sous-marines de plantes à fleurs (angiospermes) adaptées à la vie marine : posidonies en Méditerranée, zostères en Atlantique, thalassia dans les Caraïbes. Les herbiers fournissent des services écosystémiques majeurs : nurserie pour les poissons et crustacés, production primaire, stabilisation des sédiments, atténuation des vagues, et stockage de carbone bleu (jusqu'à 35 fois plus efficace que les forêts tropicales par unité de surface).",
+      "definitionEtendue": {
+        "introduction": "Les herbiers marins sont présents sur tous les littoraux du globe. Les posidonies (Posidonia oceanica) sont endémiques de Méditerranée et forment des herbiers patrimoniaux protégés. Les herbiers ont régressé de 30% depuis 1879 du fait des activités humaines. Leur protection est prioritaire (directive Habitat, Barcelone).",
+        "mecanismes": "Les herbiers marins sont des phanérogames (plantes à fleurs) qui ont colonisé le milieu marin il y a 100 millions d'années. Ils forment des prairies denses à faible profondeur (<40m pour la posidonie). Leur croissance est lente (1cm/an pour le rhizome). Les feuilles abritent une faune épiphyte riche. Les 'mattes' de rhizomes stockent le carbone sur des millénaires.",
+        "contexteScientifique": "Les recherches portent sur : la cartographie (télédétection, plongée), les impacts des pressions (mouillage, eutrophisation, herbivorie), la capacité de restauration, et le rôle dans le carbone bleu. Les herbiers de posidonie stockent 15-25% du carbone organique des sédiments côtiers méditerranéens.",
+        "enjeuxActuels": "Les herbiers sont menacés par : le mouillage des bateaux (arrachage), l'eutrophisation (turbidité), l'urbanisation côtière, les espèces invasives (Caulerpa), et le changement climatique. La posidonie est protégée par la directive Habitats. Les zones de mouillage organisées se développent.",
+        "perspectives": "L'avenir passe par : la réglementation du mouillage (zones équipées, ancres flottantes), la réduction des apports de nutriments, la restauration (transplantation, difficile et coûteuse), et la valorisation du carbone bleu. Les herbiers pourraient s'adapter au changement climatique si les pressions locales sont réduites."
+      },
+      "sources": [
+        {"titre": "Seagrass Meadows (IUCN)", "auteur": "IUCN", "url": "https://www.iucn.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Seagrass ecosystems as a globally significant carbon stock", "auteur": "Fourqurean, J.W. et al.", "doi": "10.1038/ngeo1477", "journal": "Nature Geoscience", "annee": 2012, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["posidonie", "zostère", "matte", "nurserie", "carbone bleu"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Herbiers : 35x plus de stockage carbone/ha que forêts tropicales", "source": "Nature Geoscience", "annee": 2012},
+        {"valeur": "-30% de surface d'herbiers depuis 1879", "source": "PNAS", "annee": 2009}
+      ],
+      "relations": [
+        {"cible": "carbone-bleu", "type": "contribue_a", "score": 95},
+        {"cible": "biodiversite", "type": "contribue_a", "score": 85}
+      ],
+      "exemples": ["Herbiers de posidonie (Méditerranée)", "Zostères (Atlantique)", "Thalassia (Caraïbes)"],
+      "synonymes": ["prairie sous-marine", "seagrass meadow"]
+    },
+    {
+      "id": "aquaculture-durable",
+      "terme": "Aquaculture durable",
+      "categorie": "forets-oceans",
+      "resume": "Élevage d'organismes aquatiques minimisant les impacts environnementaux et sociaux. Alternative à la surpêche si bien gérée.",
+      "definition": "L'aquaculture durable désigne les pratiques d'élevage d'organismes aquatiques (poissons, mollusques, algues, crustacés) qui minimisent les impacts environnementaux et sociaux tout en assurant la viabilité économique. Elle vise à réduire : la destruction d'habitats (mangroves), la pollution (effluents, antibiotiques), la dépendance aux farines de poisson sauvage, et les impacts sociaux. Les certifications (ASC, BAP) attestent de bonnes pratiques. L'aquaculture fournit 52% des produits de la mer consommés.",
+      "definitionEtendue": {
+        "introduction": "L'aquaculture existe depuis des millénaires (carpes en Chine). Elle explose depuis les années 1970 (+500%). La production mondiale atteint 120 Mt/an (2022). L'Asie domine (90%). Les critiques (environnementales, sociales) conduisent à l'émergence du concept de durabilité et des certifications dans les années 2000.",
+        "mecanismes": "L'aquaculture durable repose sur : le choix d'espèces à faible impact (herbivores, filtreurs plutôt que carnivores), l'alimentation durable (réduction farines de poisson, ingrédients alternatifs), la gestion des effluents, la prévention des maladies sans antibiotiques, l'intégration dans les écosystèmes (IMTA), et les conditions de travail décentes.",
+        "contexteScientifique": "Les recherches portent sur : les aliments alternatifs (insectes, algues, protéines unicellulaires), les systèmes intégrés (aquaponie, IMTA), la génétique (sélection, mais pas OGM en UE), et la traçabilité. Le débat porte sur le bilan carbone et la capacité à nourrir l'humanité sans pression sur les océans.",
+        "enjeuxActuels": "L'aquaculture croît de 3%/an. Les défis : réduire la dépendance aux farines de poisson (FMFO ratio), éviter la destruction des mangroves (crevettes), limiter les évasions (saumon), et améliorer les conditions de travail. L'UE promeut une aquaculture durable mais reste déficitaire.",
+        "perspectives": "L'avenir passe par : l'aquaculture offshore (réduire les conflits côtiers), l'IMTA (polyculture intégrée), l'algaculture (faible impact), et les protéines alternatives pour l'alimentation. Le concept de 'blue food' positionne l'aquaculture durable dans la sécurité alimentaire mondiale."
+      },
+      "sources": [
+        {"titre": "The State of World Fisheries and Aquaculture 2022", "auteur": "FAO", "url": "https://www.fao.org/fishery/sofia/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "ASC Certification Standards", "auteur": "Aquaculture Stewardship Council", "url": "https://www.asc-aqua.org/", "annee": 2023, "type": "norme_iso", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["ASC", "IMTA", "FMFO ratio", "aquaponie", "algoculture"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Aquaculture : 52% des produits de la mer consommés", "source": "FAO", "annee": 2022},
+        {"valeur": "Production mondiale : 120 Mt/an", "source": "FAO", "annee": 2022}
+      ],
+      "relations": [
+        {"cible": "surpeche", "type": "oppose_a", "score": 75},
+        {"cible": "economie-circulaire", "type": "contribue_a", "score": 70}
+      ],
+      "exemples": ["Moules de bouchot (France)", "Saumon ASC (Norvège)", "Crevettes bio (Madagascar)"],
+      "synonymes": ["aquaculture responsable", "sustainable aquaculture"]
+    }
+  ]
+}
