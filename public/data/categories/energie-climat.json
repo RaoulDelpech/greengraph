@@ -192,6 +192,13 @@
       ],
       "exemples": ["Empreinte Français moyen : ~10 tCO2eq/an", "Vol Paris-NY : ~1 tCO2eq", "Smartphone : ~70 kg CO2eq"],
       "synonymes": ["bilan carbone", "carbon footprint", "bilan GES"],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Carbon_footprint_breakdown.svg/800px-Carbon_footprint_breakdown.svg.png",
+        "alt": "Répartition de l'empreinte carbone par secteur",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Répartition typique d'une empreinte carbone"
+      },
       "indicateursQuantitatifs": [
         {"valeur": "Empreinte France : 9,9 tCO2eq/hab/an (dont 50% importées)", "source": "SDES", "annee": 2022},
         {"valeur": "Objectif 2050 : 2 tCO2eq/hab/an compatible 1,5°C", "source": "GIEC", "annee": 2018}
@@ -226,6 +233,13 @@
       ],
       "exemples": ["France : neutralité 2050 (loi Énergie-Climat)", "UE : Green Deal, neutralité 2050", "Chine : neutralité 2060"],
       "synonymes": ["net zero", "zéro émission nette", "carbon neutral"],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Net_zero_emissions.svg/800px-Net_zero_emissions.svg.png",
+        "alt": "Schéma de la neutralité carbone",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Équilibre émissions-absorptions pour atteindre le net zéro"
+      },
       "indicateursQuantitatifs": [
         {"valeur": "Neutralité CO2 mondiale nécessaire entre 2045-2055 pour 1,5°C", "source": "GIEC SR15", "annee": 2018},
         {"valeur": "130+ pays engagés sur le net zero", "source": "Net Zero Tracker", "annee": 2023}
@@ -260,6 +274,13 @@
       ],
       "exemples": ["Solaire PV : 1200 GW installés (2023)", "Éolien : 900 GW (2023)", "Hydroélectricité : 1400 GW"],
       "synonymes": ["EnR", "énergies vertes", "énergies décarbonées"],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Renewable_energy_sources.svg/800px-Renewable_energy_sources.svg.png",
+        "alt": "Sources d'énergies renouvelables",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Les principales sources d'énergie renouvelable"
+      },
       "indicateursQuantitatifs": [
         {"valeur": "30% de l'électricité mondiale d'origine renouvelable (2023)", "source": "IEA", "annee": 2023},
         {"valeur": "Coût solaire PV : -89% entre 2010 et 2023", "source": "IRENA", "annee": 2023}
@@ -329,6 +350,13 @@
       ],
       "exemples": ["Pétrole : 100 millions de barils/jour", "Charbon : 8 Gt/an", "Gaz naturel : 4 000 Mrd m³/an"],
       "synonymes": ["combustibles fossiles", "hydrocarbures"],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Oil_Pumpjack.jpg/800px-Oil_Pumpjack.jpg",
+        "alt": "Pompe à pétrole (pumpjack)",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Extraction pétrolière - énergie fossile dominante"
+      },
       "indicateursQuantitatifs": [
         {"valeur": "80% de l'énergie primaire mondiale (2022)", "source": "IEA", "annee": 2022},
         {"valeur": "75% des émissions de GES mondiales", "source": "GIEC", "annee": 2022}
