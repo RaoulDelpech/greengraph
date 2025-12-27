@@ -20,6 +20,9 @@ function DefinitionImageDisplay({ image }: { image: DefinitionImage }) {
         className={`w-full h-48 object-cover rounded-lg transition-opacity duration-300 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
         onLoad={() => setIsLoaded(true)}
         onError={() => setHasError(true)}
+        referrerPolicy="no-referrer"
+        crossOrigin="anonymous"
+        loading="lazy"
       />
       {(image.legende || image.credit) && (
         <figcaption className="mt-1.5 text-xs text-gray-500 flex justify-between items-start">

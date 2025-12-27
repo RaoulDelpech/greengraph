@@ -62,6 +62,9 @@ export function Sidebar({
                     onError={(e) => {
                       e.currentTarget.style.display = 'none';
                     }}
+                    referrerPolicy="no-referrer"
+                    crossOrigin="anonymous"
+                    loading="lazy"
                   />
                   {isSelected && (
                     <div
