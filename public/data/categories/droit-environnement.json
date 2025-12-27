@@ -18,22 +18,64 @@
         "perspectives": "L'avenir passe par : la reconnaissance des crimes d'écocide, les droits de la nature, le renforcement des contentieux, et l'harmonisation internationale. Le concept de 'justice climatique' intègre les dimensions sociales. Le droit de l'environnement devient un droit de l'urgence écologique."
       },
       "sources": [
-        {"titre": "Code de l'environnement", "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074220", "annee": 2024, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Déclaration de Rio sur l'environnement", "auteur": "Nations Unies", "url": "https://www.un.org/", "annee": 1992, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Code de l'environnement",
+          "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074220",
+          "annee": 2024,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Déclaration de Rio sur l'environnement",
+          "auteur": "Nations Unies",
+          "url": "https://www.un.org/",
+          "annee": 1992,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["pollueur-payeur", "précaution", "prévention", "effectivité", "contentieux"],
+      "motsClésScientifiques": [
+        "pollueur-payeur",
+        "précaution",
+        "prévention",
+        "effectivité",
+        "contentieux"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "France : Code de l'environnement = 7 livres, 2 500+ articles", "source": "Legifrance", "annee": 2024},
-        {"valeur": "1 300+ accords environnementaux internationaux", "source": "UNEP", "annee": 2020}
+        {
+          "valeur": "France : Code de l'environnement = 7 livres, 2 500+ articles",
+          "source": "Legifrance",
+          "annee": 2024
+        },
+        {
+          "valeur": "1 300+ accords environnementaux internationaux",
+          "source": "UNEP",
+          "annee": 2020
+        }
       ],
       "relations": [
-        {"cible": "principe-pollueur-payeur", "type": "renvoie_a", "score": 90},
-        {"cible": "principe-precaution", "type": "renvoie_a", "score": 90}
+        {
+          "cible": "principe-pollueur-payeur",
+          "type": "renvoie_a",
+          "score": 90
+        },
+        {
+          "cible": "principe-precaution",
+          "type": "renvoie_a",
+          "score": 90
+        }
       ],
-      "exemples": ["Code de l'environnement français", "Directive Habitats (UE)", "Accord de Paris"],
-      "synonymes": ["environmental law", "droit écologique"]
+      "exemples": [
+        "Code de l'environnement français",
+        "Directive Habitats (UE)",
+        "Accord de Paris"
+      ],
+      "synonymes": [
+        "environmental law",
+        "droit écologique"
+      ]
     },
     {
       "id": "principe-pollueur-payeur",
@@ -49,22 +91,63 @@
         "perspectives": "L'avenir passe par : l'extension à la biodiversité, l'arrêt des subventions nuisibles, la responsabilité pour dommage écologique, et l'articulation internationale. Le principe évolue vers 'pollueur-payeur-réparateur' incluant la restauration."
       },
       "sources": [
-        {"titre": "Recommandation OCDE sur le principe pollueur-payeur", "auteur": "OCDE", "annee": 1972, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Charte de l'environnement - Article 4", "url": "https://www.legifrance.gouv.fr/", "annee": 2004, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Recommandation OCDE sur le principe pollueur-payeur",
+          "auteur": "OCDE",
+          "annee": 1972,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Charte de l'environnement - Article 4",
+          "url": "https://www.legifrance.gouv.fr/",
+          "annee": 2004,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["externalité", "internalisation", "taxe pigouvienne", "CBAM", "REP"],
+      "motsClésScientifiques": [
+        "externalité",
+        "internalisation",
+        "taxe pigouvienne",
+        "CBAM",
+        "REP"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Taxes environnementales UE : 2,4% du PIB", "source": "Eurostat", "annee": 2022},
-        {"valeur": "Subventions fossiles mondiales : 7 000 Mrd$/an (implicites)", "source": "FMI", "annee": 2023}
+        {
+          "valeur": "Taxes environnementales UE : 2,4% du PIB",
+          "source": "Eurostat",
+          "annee": 2022
+        },
+        {
+          "valeur": "Subventions fossiles mondiales : 7 000 Mrd$/an (implicites)",
+          "source": "FMI",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "droit-environnement", "type": "est_principe_de", "score": 95},
-        {"cible": "marche-carbone", "type": "renvoie_a", "score": 80}
+        {
+          "cible": "droit-environnement",
+          "type": "est_principe_de",
+          "score": 95
+        },
+        {
+          "cible": "marche-carbone",
+          "type": "renvoie_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Taxe carbone", "TGAP (France)", "REP emballages"],
-      "synonymes": ["polluter pays principle", "PPP"]
+      "exemples": [
+        "Taxe carbone",
+        "TGAP (France)",
+        "REP emballages"
+      ],
+      "synonymes": [
+        "polluter pays principle",
+        "PPP"
+      ]
     },
     {
       "id": "principe-precaution",
@@ -80,22 +163,62 @@
         "perspectives": "L'avenir passe par : la clarification des conditions d'application, l'articulation avec l'innovation responsable, et l'extension aux risques systémiques. Le concept de 'safe operating space' (limites planétaires) s'inscrit dans la logique de précaution."
       },
       "sources": [
-        {"titre": "Déclaration de Rio - Principe 15", "auteur": "Nations Unies", "annee": 1992, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Charte de l'environnement - Article 5", "url": "https://www.legifrance.gouv.fr/", "annee": 2004, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Déclaration de Rio - Principe 15",
+          "auteur": "Nations Unies",
+          "annee": 1992,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Charte de l'environnement - Article 5",
+          "url": "https://www.legifrance.gouv.fr/",
+          "annee": 2004,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["Vorsorgeprinzip", "incertitude scientifique", "proportionnalité", "charge de la preuve"],
+      "motsClésScientifiques": [
+        "Vorsorgeprinzip",
+        "incertitude scientifique",
+        "proportionnalité",
+        "charge de la preuve"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Constitutionnalisé dans 15+ pays", "source": "UNEP", "annee": 2020},
-        {"valeur": "100+ décisions françaises l'invoquant", "source": "Conseil d'État", "annee": 2022}
+        {
+          "valeur": "Constitutionnalisé dans 15+ pays",
+          "source": "UNEP",
+          "annee": 2020
+        },
+        {
+          "valeur": "100+ décisions françaises l'invoquant",
+          "source": "Conseil d'État",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "droit-environnement", "type": "est_principe_de", "score": 95},
-        {"cible": "limites-planetaires", "type": "renvoie_a", "score": 75}
+        {
+          "cible": "droit-environnement",
+          "type": "est_principe_de",
+          "score": 95
+        },
+        {
+          "cible": "limites-planetaires",
+          "type": "renvoie_a",
+          "score": 75
+        }
       ],
-      "exemples": ["Moratoire OGM", "Réglementation REACH", "Interdiction bisphénol A"],
-      "synonymes": ["precautionary principle", "Vorsorgeprinzip"]
+      "exemples": [
+        "Moratoire OGM",
+        "Réglementation REACH",
+        "Interdiction bisphénol A"
+      ],
+      "synonymes": [
+        "precautionary principle",
+        "Vorsorgeprinzip"
+      ]
     },
     {
       "id": "accord-paris",
@@ -111,22 +234,72 @@
         "perspectives": "L'avenir passe par : des NDC alignées sur 1,5°C (réduction 43% d'ici 2030), le financement climat (1 000 Mrd$/an?), la mise en œuvre effective, et l'intégration climat-biodiversité. L'Accord de Paris reste le seul cadre multilatéral crédible."
       },
       "sources": [
-        {"titre": "Accord de Paris", "auteur": "CCNUCC", "url": "https://unfccc.int/process-and-meetings/the-paris-agreement", "annee": 2015, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Emissions Gap Report", "auteur": "UNEP", "url": "https://www.unep.org/emissions-gap-report", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Accord de Paris",
+          "auteur": "CCNUCC",
+          "url": "https://unfccc.int/process-and-meetings/the-paris-agreement",
+          "annee": 2015,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Emissions Gap Report",
+          "auteur": "UNEP",
+          "url": "https://www.unep.org/emissions-gap-report",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["NDC", "1.5°C", "global stocktake", "ratchet", "article 6"],
+      "motsClésScientifiques": [
+        "NDC",
+        "1.5°C",
+        "global stocktake",
+        "ratchet",
+        "article 6"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "195 pays signataires", "source": "CCNUCC", "annee": 2023},
-        {"valeur": "NDC actuelles : trajectoire +2,4-2,8°C", "source": "UNEP", "annee": 2023}
+        {
+          "valeur": "195 pays signataires",
+          "source": "CCNUCC",
+          "annee": 2023
+        },
+        {
+          "valeur": "NDC actuelles : trajectoire +2,4-2,8°C",
+          "source": "UNEP",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "changement-climatique", "type": "oppose_a", "score": 90},
-        {"cible": "neutralite-carbone", "type": "renvoie_a", "score": 85}
+        {
+          "cible": "changement-climatique",
+          "type": "oppose_a",
+          "score": 90
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "renvoie_a",
+          "score": 85
+        }
       ],
-      "exemples": ["NDC France (-40% en 2030)", "Global Stocktake COP28", "Article 6 marchés carbone"],
-      "synonymes": ["Paris Agreement", "COP21"]
+      "exemples": [
+        "NDC France (-40% en 2030)",
+        "Global Stocktake COP28",
+        "Article 6 marchés carbone"
+      ],
+      "synonymes": [
+        "Paris Agreement",
+        "COP21"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Paris_Agreement.svg/800px-Paris_Agreement.svg.png",
+        "alt": "Accord de Paris",
+        "credit": "Wikimedia Commons",
+        "type": "logo",
+        "legende": "Accord climatique de 2015"
+      }
     },
     {
       "id": "contentieux-climatique",
@@ -142,22 +315,64 @@
         "perspectives": "L'avenir passe par : l'extension aux entreprises (devoir de vigilance), les affaires transfrontalières (CEDH, CIJ), les class actions climat, et la reconnaissance de l'écocide. Le contentieux devient un levier majeur de la transition, complémentaire à la réglementation."
       },
       "sources": [
-        {"titre": "Global Climate Litigation Report 2023", "auteur": "UNEP/Grantham Institute", "url": "https://www.unep.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Affaire du Siècle - Tribunal administratif de Paris", "url": "https://laffairedusiecle.net/", "annee": 2021, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Global Climate Litigation Report 2023",
+          "auteur": "UNEP/Grantham Institute",
+          "url": "https://www.unep.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Affaire du Siècle - Tribunal administratif de Paris",
+          "url": "https://laffairedusiecle.net/",
+          "annee": 2021,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["Urgenda", "Affaire du Siècle", "droits fondamentaux", "devoir de vigilance", "causalité"],
+      "motsClésScientifiques": [
+        "Urgenda",
+        "Affaire du Siècle",
+        "droits fondamentaux",
+        "devoir de vigilance",
+        "causalité"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "2 500+ affaires climatiques dans le monde", "source": "Grantham Institute", "annee": 2023},
-        {"valeur": "70% des affaires contre des gouvernements", "source": "UNEP", "annee": 2023}
+        {
+          "valeur": "2 500+ affaires climatiques dans le monde",
+          "source": "Grantham Institute",
+          "annee": 2023
+        },
+        {
+          "valeur": "70% des affaires contre des gouvernements",
+          "source": "UNEP",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "droit-environnement", "type": "est_type_de", "score": 90},
-        {"cible": "accord-paris", "type": "renvoie_a", "score": 80}
+        {
+          "cible": "droit-environnement",
+          "type": "est_type_de",
+          "score": 90
+        },
+        {
+          "cible": "accord-paris",
+          "type": "renvoie_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Urgenda (Pays-Bas)", "Affaire du Siècle (France)", "Shell (condamnation réduction 45%)"],
-      "synonymes": ["climate litigation", "procès climatiques"]
+      "exemples": [
+        "Urgenda (Pays-Bas)",
+        "Affaire du Siècle (France)",
+        "Shell (condamnation réduction 45%)"
+      ],
+      "synonymes": [
+        "climate litigation",
+        "procès climatiques"
+      ]
     },
     {
       "id": "ecocide",
@@ -173,22 +388,71 @@
         "perspectives": "L'avenir passe par : l'adoption progressive au niveau national, puis l'inclusion au Statut de Rome. Le concept symbolise un changement de paradigme : de la réparation à la prévention par la criminalisation. L'écocide pourrait devenir le 5ème crime contre la paix."
       },
       "sources": [
-        {"titre": "Independent Expert Panel for the Legal Definition of Ecocide", "auteur": "Stop Ecocide Foundation", "url": "https://www.stopecocide.earth/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Directive (UE) 2024/1203 sur les crimes environnementaux", "auteur": "Union Européenne", "annee": 2024, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Independent Expert Panel for the Legal Definition of Ecocide",
+          "auteur": "Stop Ecocide Foundation",
+          "url": "https://www.stopecocide.earth/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Directive (UE) 2024/1203 sur les crimes environnementaux",
+          "auteur": "Union Européenne",
+          "annee": 2024,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["CPI", "Statut de Rome", "crime environnemental", "Polly Higgins", "wanton"],
+      "motsClésScientifiques": [
+        "CPI",
+        "Statut de Rome",
+        "crime environnemental",
+        "Polly Higgins",
+        "wanton"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "11 pays ont inscrit l'écocide dans leur droit", "source": "Stop Ecocide", "annee": 2023},
-        {"valeur": "Soutien : Belgique, Pays-Bas, UE (directive)", "source": "UE", "annee": 2024}
+        {
+          "valeur": "11 pays ont inscrit l'écocide dans leur droit",
+          "source": "Stop Ecocide",
+          "annee": 2023
+        },
+        {
+          "valeur": "Soutien : Belgique, Pays-Bas, UE (directive)",
+          "source": "UE",
+          "annee": 2024
+        }
       ],
       "relations": [
-        {"cible": "droit-environnement", "type": "est_type_de", "score": 90},
-        {"cible": "contentieux-climatique", "type": "proche_de", "score": 75}
+        {
+          "cible": "droit-environnement",
+          "type": "est_type_de",
+          "score": 90
+        },
+        {
+          "cible": "contentieux-climatique",
+          "type": "proche_de",
+          "score": 75
+        }
       ],
-      "exemples": ["Déforestation Amazonie", "Marée noire Deepwater Horizon", "Pollution industrielle Bhopal"],
-      "synonymes": ["crime d'écocide", "ecocide"]
+      "exemples": [
+        "Déforestation Amazonie",
+        "Marée noire Deepwater Horizon",
+        "Pollution industrielle Bhopal"
+      ],
+      "synonymes": [
+        "crime d'écocide",
+        "ecocide"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Stop_ecocide.svg/400px-Stop_ecocide.svg.png",
+        "alt": "Stop écocide",
+        "credit": "Wikimedia Commons",
+        "type": "logo",
+        "legende": "Campagne pour la reconnaissance de l'écocide"
+      }
     },
     {
       "id": "devoir-vigilance",
@@ -204,22 +468,63 @@
         "perspectives": "L'avenir passe par : la mise en œuvre effective de CS3D, l'extension géographique (autres juridictions), l'intégration climat (trajectoire 1,5°C), et le renforcement des sanctions. Le devoir de vigilance transforme la gouvernance des multinationales."
       },
       "sources": [
-        {"titre": "Loi n° 2017-399 relative au devoir de vigilance", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034290626", "annee": 2017, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Directive CS3D (Corporate Sustainability Due Diligence)", "auteur": "Union Européenne", "annee": 2024, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Loi n° 2017-399 relative au devoir de vigilance",
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034290626",
+          "annee": 2017,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Directive CS3D (Corporate Sustainability Due Diligence)",
+          "auteur": "Union Européenne",
+          "annee": 2024,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["CS3D", "plan de vigilance", "chaîne de valeur", "Ruggie", "responsabilité civile"],
+      "motsClésScientifiques": [
+        "CS3D",
+        "plan de vigilance",
+        "chaîne de valeur",
+        "Ruggie",
+        "responsabilité civile"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "France : ~300 entreprises soumises (loi 2017)", "source": "Sherpa", "annee": 2023},
-        {"valeur": "CS3D : ~13 000 entreprises UE concernées", "source": "Commission Européenne", "annee": 2024}
+        {
+          "valeur": "France : ~300 entreprises soumises (loi 2017)",
+          "source": "Sherpa",
+          "annee": 2023
+        },
+        {
+          "valeur": "CS3D : ~13 000 entreprises UE concernées",
+          "source": "Commission Européenne",
+          "annee": 2024
+        }
       ],
       "relations": [
-        {"cible": "rse", "type": "renvoie_a", "score": 85},
-        {"cible": "droit-environnement", "type": "est_type_de", "score": 90}
+        {
+          "cible": "rse",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "droit-environnement",
+          "type": "est_type_de",
+          "score": 90
+        }
       ],
-      "exemples": ["Plan de vigilance Total", "Assignation Casino (déforestation)", "Loi française 2017"],
-      "synonymes": ["due diligence", "vigilance duty"]
+      "exemples": [
+        "Plan de vigilance Total",
+        "Assignation Casino (déforestation)",
+        "Loi française 2017"
+      ],
+      "synonymes": [
+        "due diligence",
+        "vigilance duty"
+      ]
     },
     {
       "id": "droits-nature",
@@ -235,22 +540,62 @@
         "perspectives": "L'avenir passe par : la reconnaissance croissante d'écosystèmes comme sujets de droit, l'articulation avec les droits autochtones, et l'intégration dans les stratégies de conservation. Les droits de la nature symbolisent un changement de paradigme vers une relation de réciprocité avec le vivant."
       },
       "sources": [
-        {"titre": "Constitution de l'Équateur - Articles 71-74", "annee": 2008, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Rights of Nature Movement (Global Alliance)", "url": "https://www.therightsofnature.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "moyen"}
+        {
+          "titre": "Constitution de l'Équateur - Articles 71-74",
+          "annee": 2008,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Rights of Nature Movement (Global Alliance)",
+          "url": "https://www.therightsofnature.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "moyen"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["personnalité juridique", "Pachamama", "écocentrisme", "Stone", "gardiens"],
+      "motsClésScientifiques": [
+        "personnalité juridique",
+        "Pachamama",
+        "écocentrisme",
+        "Stone",
+        "gardiens"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "30+ juridictions avec droits de la nature", "source": "Rights of Nature Movement", "annee": 2023},
-        {"valeur": "Fleuve Whanganui : 1ère rivière personne juridique (2017)", "source": "NZ Government", "annee": 2017}
+        {
+          "valeur": "30+ juridictions avec droits de la nature",
+          "source": "Rights of Nature Movement",
+          "annee": 2023
+        },
+        {
+          "valeur": "Fleuve Whanganui : 1ère rivière personne juridique (2017)",
+          "source": "NZ Government",
+          "annee": 2017
+        }
       ],
       "relations": [
-        {"cible": "droit-environnement", "type": "est_type_de", "score": 85},
-        {"cible": "biodiversite", "type": "renvoie_a", "score": 80}
+        {
+          "cible": "droit-environnement",
+          "type": "est_type_de",
+          "score": 85
+        },
+        {
+          "cible": "biodiversite",
+          "type": "renvoie_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Constitution Équateur", "Fleuve Whanganui (NZ)", "Projet Parlement de Loire (France)"],
-      "synonymes": ["rights of nature", "droits de la Terre-Mère"]
+      "exemples": [
+        "Constitution Équateur",
+        "Fleuve Whanganui (NZ)",
+        "Projet Parlement de Loire (France)"
+      ],
+      "synonymes": [
+        "rights of nature",
+        "droits de la Terre-Mère"
+      ]
     },
     {
       "id": "convention-biodiversite",
@@ -266,22 +611,72 @@
         "perspectives": "L'avenir passe par : l'atteinte du 30x30, la réforme des subventions nuisibles, le financement massif, et l'intégration dans les politiques sectorielles. La CDB pourrait devenir aussi contraignante que l'Accord de Paris avec des mécanismes de conformité."
       },
       "sources": [
-        {"titre": "Convention sur la diversité biologique", "auteur": "Nations Unies", "url": "https://www.cbd.int/", "annee": 1992, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Cadre mondial de Kunming-Montréal", "auteur": "CBD", "url": "https://www.cbd.int/gbf/", "annee": 2022, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Convention sur la diversité biologique",
+          "auteur": "Nations Unies",
+          "url": "https://www.cbd.int/",
+          "annee": 1992,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Cadre mondial de Kunming-Montréal",
+          "auteur": "CBD",
+          "url": "https://www.cbd.int/gbf/",
+          "annee": 2022,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["CDB", "Nagoya", "SPANB", "30x30", "Kunming-Montréal"],
+      "motsClésScientifiques": [
+        "CDB",
+        "Nagoya",
+        "SPANB",
+        "30x30",
+        "Kunming-Montréal"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "196 parties (tous sauf USA)", "source": "CBD", "annee": 2023},
-        {"valeur": "Objectif 30x30 : 30% aires protégées d'ici 2030", "source": "Kunming-Montréal", "annee": 2022}
+        {
+          "valeur": "196 parties (tous sauf USA)",
+          "source": "CBD",
+          "annee": 2023
+        },
+        {
+          "valeur": "Objectif 30x30 : 30% aires protégées d'ici 2030",
+          "source": "Kunming-Montréal",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "biodiversite", "type": "renvoie_a", "score": 95},
-        {"cible": "aire-protegee", "type": "renvoie_a", "score": 85}
+        {
+          "cible": "biodiversite",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "aire-protegee",
+          "type": "renvoie_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Protocole de Nagoya (APA)", "Objectifs d'Aichi", "SPANB France"],
-      "synonymes": ["CBD", "Convention biodiversité"]
+      "exemples": [
+        "Protocole de Nagoya (APA)",
+        "Objectifs d'Aichi",
+        "SPANB France"
+      ],
+      "synonymes": [
+        "CBD",
+        "Convention biodiversité"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/CBD_logo.svg/400px-CBD_logo.svg.png",
+        "alt": "Logo CBD",
+        "credit": "Convention on Biological Diversity",
+        "type": "logo",
+        "legende": "Convention sur la diversité biologique"
+      }
     },
     {
       "id": "etude-impact-environnemental",
@@ -297,22 +692,64 @@
         "perspectives": "L'avenir passe par : l'évaluation des impacts cumulés, l'intégration climat-biodiversité, le suivi effectif, et la participation renforcée du public. Le concept d'évaluation environnementale stratégique (plans, programmes) monte en puissance."
       },
       "sources": [
-        {"titre": "Directive 2011/92/UE (EIE)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2011, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Code de l'environnement - Évaluation environnementale", "url": "https://www.legifrance.gouv.fr/", "annee": 2024, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Directive 2011/92/UE (EIE)",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/",
+          "annee": 2011,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Code de l'environnement - Évaluation environnementale",
+          "url": "https://www.legifrance.gouv.fr/",
+          "annee": 2024,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["ERC", "enquête publique", "autorité environnementale", "NEPA", "Espoo"],
+      "motsClésScientifiques": [
+        "ERC",
+        "enquête publique",
+        "autorité environnementale",
+        "NEPA",
+        "Espoo"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "France : ~5 000 EIE/an", "source": "MTE", "annee": 2022},
-        {"valeur": "Directive EIE : 30+ ans d'application", "source": "Commission Européenne", "annee": 2023}
+        {
+          "valeur": "France : ~5 000 EIE/an",
+          "source": "MTE",
+          "annee": 2022
+        },
+        {
+          "valeur": "Directive EIE : 30+ ans d'application",
+          "source": "Commission Européenne",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "droit-environnement", "type": "est_type_de", "score": 90},
-        {"cible": "compensation-ecologique", "type": "renvoie_a", "score": 85}
+        {
+          "cible": "droit-environnement",
+          "type": "est_type_de",
+          "score": 90
+        },
+        {
+          "cible": "compensation-ecologique",
+          "type": "renvoie_a",
+          "score": 85
+        }
       ],
-      "exemples": ["EIE projet autoroutier", "Évaluation parc éolien", "Étude impact industriel"],
-      "synonymes": ["EIE", "environmental impact assessment"]
+      "exemples": [
+        "EIE projet autoroutier",
+        "Évaluation parc éolien",
+        "Étude impact industriel"
+      ],
+      "synonymes": [
+        "EIE",
+        "environmental impact assessment"
+      ]
     },
     {
       "id": "prejudice-ecologique",
@@ -328,22 +765,61 @@
         "perspectives": "L'avenir passe par : le développement de la jurisprudence, l'amélioration des méthodes d'évaluation, et l'extension aux dommages climatiques et à la biodiversité. Le préjudice écologique pourrait devenir un levier majeur de protection de l'environnement."
       },
       "sources": [
-        {"titre": "Code civil - Articles 1246-1252 (préjudice écologique)", "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000033035245/", "annee": 2016, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Arrêt Erika - Cour de cassation", "annee": 2012, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Code civil - Articles 1246-1252 (préjudice écologique)",
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000033035245/",
+          "annee": 2016,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Arrêt Erika - Cour de cassation",
+          "annee": 2012,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["Erika", "réparation en nature", "dommage écologique", "équivalence écologique"],
+      "motsClésScientifiques": [
+        "Erika",
+        "réparation en nature",
+        "dommage écologique",
+        "équivalence écologique"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Loi biodiversité 2016 : premier Code civil au monde", "source": "France", "annee": 2016},
-        {"valeur": "Affaire Erika : reconnaissance jurisprudentielle 2012", "source": "Cass. crim.", "annee": 2012}
+        {
+          "valeur": "Loi biodiversité 2016 : premier Code civil au monde",
+          "source": "France",
+          "annee": 2016
+        },
+        {
+          "valeur": "Affaire Erika : reconnaissance jurisprudentielle 2012",
+          "source": "Cass. crim.",
+          "annee": 2012
+        }
       ],
       "relations": [
-        {"cible": "droit-environnement", "type": "est_type_de", "score": 90},
-        {"cible": "compensation-ecologique", "type": "renvoie_a", "score": 80}
+        {
+          "cible": "droit-environnement",
+          "type": "est_type_de",
+          "score": 90
+        },
+        {
+          "cible": "compensation-ecologique",
+          "type": "renvoie_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Affaire Erika", "Contentieux pollutions industrielles", "Atteintes aux zones humides"],
-      "synonymes": ["dommage écologique", "environmental damage"]
+      "exemples": [
+        "Affaire Erika",
+        "Contentieux pollutions industrielles",
+        "Atteintes aux zones humides"
+      ],
+      "synonymes": [
+        "dommage écologique",
+        "environmental damage"
+      ]
     },
     {
       "id": "acces-justice-environnementale",
@@ -359,22 +835,64 @@
         "perspectives": "L'avenir passe par : la réduction des coûts, la protection contre les SLAPP (directive UE en cours), l'assistance technique, et le renforcement du rôle des associations. L'accès à la justice est crucial pour l'effectivité du droit de l'environnement face à l'urgence écologique."
       },
       "sources": [
-        {"titre": "Convention d'Aarhus", "auteur": "UNECE", "url": "https://unece.org/environment-policy/public-participation/aarhus-convention", "annee": 1998, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Directive 2003/35/CE (participation du public)", "auteur": "Union Européenne", "annee": 2003, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Convention d'Aarhus",
+          "auteur": "UNECE",
+          "url": "https://unece.org/environment-policy/public-participation/aarhus-convention",
+          "annee": 1998,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Directive 2003/35/CE (participation du public)",
+          "auteur": "Union Européenne",
+          "annee": 2003,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["Aarhus", "qualité pour agir", "SLAPP", "ACCC", "recours effectif"],
+      "motsClésScientifiques": [
+        "Aarhus",
+        "qualité pour agir",
+        "SLAPP",
+        "ACCC",
+        "recours effectif"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Convention d'Aarhus : 47 parties", "source": "UNECE", "annee": 2023},
-        {"valeur": "100+ plaintes ACCC depuis 2002", "source": "UNECE", "annee": 2023}
+        {
+          "valeur": "Convention d'Aarhus : 47 parties",
+          "source": "UNECE",
+          "annee": 2023
+        },
+        {
+          "valeur": "100+ plaintes ACCC depuis 2002",
+          "source": "UNECE",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "droit-environnement", "type": "est_type_de", "score": 90},
-        {"cible": "contentieux-climatique", "type": "renvoie_a", "score": 80}
+        {
+          "cible": "droit-environnement",
+          "type": "est_type_de",
+          "score": 90
+        },
+        {
+          "cible": "contentieux-climatique",
+          "type": "renvoie_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Recours contre autorisations", "Affaire du Siècle", "Plaintes ACCC"],
-      "synonymes": ["access to environmental justice", "3ème pilier Aarhus"]
+      "exemples": [
+        "Recours contre autorisations",
+        "Affaire du Siècle",
+        "Plaintes ACCC"
+      ],
+      "synonymes": [
+        "access to environmental justice",
+        "3ème pilier Aarhus"
+      ]
     },
     {
       "id": "directive-habitats",
@@ -390,22 +908,65 @@
         "perspectives": "L'avenir passe par : le renforcement des moyens de gestion, l'extension du réseau marin, l'intégration de la connectivité (corridors), et les objectifs de restauration. Natura 2000 reste le pilier de la protection de la biodiversité européenne."
       },
       "sources": [
-        {"titre": "Directive 92/43/CEE (Habitats)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:31992L0043", "annee": 1992, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "State of Nature in the EU (EEA)", "auteur": "Agence Européenne Environnement", "url": "https://www.eea.europa.eu/", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Directive 92/43/CEE (Habitats)",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:31992L0043",
+          "annee": 1992,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "State of Nature in the EU (EEA)",
+          "auteur": "Agence Européenne Environnement",
+          "url": "https://www.eea.europa.eu/",
+          "annee": 2020,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["Natura 2000", "ZSC", "évaluation appropriée", "annexe I", "état de conservation"],
+      "motsClésScientifiques": [
+        "Natura 2000",
+        "ZSC",
+        "évaluation appropriée",
+        "annexe I",
+        "état de conservation"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Natura 2000 : 18% du territoire terrestre UE", "source": "EEA", "annee": 2023},
-        {"valeur": "France : 1 776 sites, 13% du territoire", "source": "MTE", "annee": 2023}
+        {
+          "valeur": "Natura 2000 : 18% du territoire terrestre UE",
+          "source": "EEA",
+          "annee": 2023
+        },
+        {
+          "valeur": "France : 1 776 sites, 13% du territoire",
+          "source": "MTE",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "biodiversite", "type": "contribue_a", "score": 90},
-        {"cible": "aire-protegee", "type": "renvoie_a", "score": 95}
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 90
+        },
+        {
+          "cible": "aire-protegee",
+          "type": "renvoie_a",
+          "score": 95
+        }
       ],
-      "exemples": ["ZSC forêt de Fontainebleau", "Site Natura 2000 marin", "Protection Grand Hamster"],
-      "synonymes": ["directive Faune-Flore-Habitats", "FFH directive"]
+      "exemples": [
+        "ZSC forêt de Fontainebleau",
+        "Site Natura 2000 marin",
+        "Protection Grand Hamster"
+      ],
+      "synonymes": [
+        "directive Faune-Flore-Habitats",
+        "FFH directive"
+      ]
     },
     {
       "id": "reglementation-reach",
@@ -421,22 +982,64 @@
         "perspectives": "L'avenir passe par : la révision REACH (substances essentielles, approche mixtures), le renforcement pour les PE et CMR, l'extension aux polymères, et l'articulation avec l'économie circulaire. REACH devient le modèle pour d'autres juridictions."
       },
       "sources": [
-        {"titre": "Règlement (CE) 1907/2006 (REACH)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32006R1907", "annee": 2006, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "ECHA - European Chemicals Agency", "url": "https://echa.europa.eu/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Règlement (CE) 1907/2006 (REACH)",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32006R1907",
+          "annee": 2006,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "ECHA - European Chemicals Agency",
+          "url": "https://echa.europa.eu/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["SVHC", "ECHA", "enregistrement", "autorisation", "no data no market"],
+      "motsClésScientifiques": [
+        "SVHC",
+        "ECHA",
+        "enregistrement",
+        "autorisation",
+        "no data no market"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "23 000+ substances enregistrées", "source": "ECHA", "annee": 2023},
-        {"valeur": "224 substances SVHC identifiées", "source": "ECHA", "annee": 2023}
+        {
+          "valeur": "23 000+ substances enregistrées",
+          "source": "ECHA",
+          "annee": 2023
+        },
+        {
+          "valeur": "224 substances SVHC identifiées",
+          "source": "ECHA",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "perturbateurs-endocriniens", "type": "renvoie_a", "score": 85},
-        {"cible": "principe-precaution", "type": "renvoie_a", "score": 80}
+        {
+          "cible": "perturbateurs-endocriniens",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "principe-precaution",
+          "type": "renvoie_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Interdiction bisphénol A", "Autorisation phtalates", "Enregistrement substances cosmétiques"],
-      "synonymes": ["REACH regulation", "règlement substances chimiques"]
+      "exemples": [
+        "Interdiction bisphénol A",
+        "Autorisation phtalates",
+        "Enregistrement substances cosmétiques"
+      ],
+      "synonymes": [
+        "REACH regulation",
+        "règlement substances chimiques"
+      ]
     },
     {
       "id": "loi-climat-resilience",
@@ -452,22 +1055,64 @@
         "perspectives": "L'avenir passe par : le renforcement des mesures (critique de la Convention), le suivi de mise en œuvre, et l'articulation avec la planification écologique. La loi illustre les possibilités et limites de la démocratie participative sur le climat."
       },
       "sources": [
-        {"titre": "Loi n° 2021-1104 du 22 août 2021 (Climat et Résilience)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924", "annee": 2021, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Avis du Haut Conseil pour le Climat", "auteur": "HCC", "url": "https://www.hautconseilclimat.fr/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Loi n° 2021-1104 du 22 août 2021 (Climat et Résilience)",
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924",
+          "annee": 2021,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Avis du Haut Conseil pour le Climat",
+          "auteur": "HCC",
+          "url": "https://www.hautconseilclimat.fr/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["ZAN", "Convention Citoyenne", "ZFE", "passoires thermiques", "écocide"],
+      "motsClésScientifiques": [
+        "ZAN",
+        "Convention Citoyenne",
+        "ZFE",
+        "passoires thermiques",
+        "écocide"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "305 articles de loi", "source": "Legifrance", "annee": 2021},
-        {"valeur": "Objectif ZAN : 2050 (division par 2 d'ici 2031)", "source": "Loi", "annee": 2021}
+        {
+          "valeur": "305 articles de loi",
+          "source": "Legifrance",
+          "annee": 2021
+        },
+        {
+          "valeur": "Objectif ZAN : 2050 (division par 2 d'ici 2031)",
+          "source": "Loi",
+          "annee": 2021
+        }
       ],
       "relations": [
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 80},
-        {"cible": "artificialisation-sols", "type": "renvoie_a", "score": 90}
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 80
+        },
+        {
+          "cible": "artificialisation-sols",
+          "type": "renvoie_a",
+          "score": 90
+        }
       ],
-      "exemples": ["Interdiction pub fossiles", "ZFE obligatoires", "Menu végétarien scolaire"],
-      "synonymes": ["loi climat 2021", "Climate and Resilience Law"]
+      "exemples": [
+        "Interdiction pub fossiles",
+        "ZFE obligatoires",
+        "Menu végétarien scolaire"
+      ],
+      "synonymes": [
+        "loi climat 2021",
+        "Climate and Resilience Law"
+      ]
     }
   ]
 }

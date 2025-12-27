@@ -18,22 +18,73 @@
         "perspectives": "L'AIE prévoit 5 000 GW en 2030 (+4x). L'avenir passe par : les cellules tandem, le solaire flottant, l'agrivoltaïsme, le stockage intégré, et la filière de recyclage. Le photovoltaïque sera le pilier de la transition énergétique."
       },
       "sources": [
-        {"titre": "World Energy Outlook", "auteur": "AIE", "url": "https://www.iea.org/reports/world-energy-outlook-2023", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "IRENA Solar Energy Statistics", "auteur": "IRENA", "url": "https://www.irena.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "World Energy Outlook",
+          "auteur": "AIE",
+          "url": "https://www.iea.org/reports/world-energy-outlook-2023",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "IRENA Solar Energy Statistics",
+          "auteur": "IRENA",
+          "url": "https://www.irena.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["photovoltaïque", "silicium", "pérovskite", "rendement", "LCOE"],
+      "motsClésScientifiques": [
+        "photovoltaïque",
+        "silicium",
+        "pérovskite",
+        "rendement",
+        "LCOE"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "1 200+ GW capacité mondiale installée", "source": "IRENA", "annee": 2023},
-        {"valeur": "Coût : -99% depuis 1976", "source": "NREL", "annee": 2023}
+        {
+          "valeur": "1 200+ GW capacité mondiale installée",
+          "source": "IRENA",
+          "annee": 2023
+        },
+        {
+          "valeur": "Coût : -99% depuis 1976",
+          "source": "NREL",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "energie-renouvelable", "type": "est_type_de", "score": 95},
-        {"cible": "transition-energetique", "type": "contribue_a", "score": 90}
+        {
+          "cible": "energie-renouvelable",
+          "type": "est_type_de",
+          "score": 95
+        },
+        {
+          "cible": "transition-energetique",
+          "type": "contribue_a",
+          "score": 90
+        }
       ],
-      "exemples": ["Parc solaire Bhadla (Inde, 2,2 GW)", "Toitures photovoltaïques", "Agrivoltaïsme"],
-      "synonymes": ["PV", "solar photovoltaics", "panneaux solaires"]
+      "exemples": [
+        "Parc solaire Bhadla (Inde, 2,2 GW)",
+        "Toitures photovoltaïques",
+        "Agrivoltaïsme"
+      ],
+      "synonymes": [
+        "PV",
+        "solar photovoltaics",
+        "panneaux solaires"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Solar_panels.jpg/800px-Solar_panels.jpg",
+        "alt": "Panneaux solaires",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Installation photovoltaïque"
+      }
     },
     {
       "id": "eolien",
@@ -49,22 +100,72 @@
         "perspectives": "L'AIE prévoit 3 000 GW en 2050. L'avenir passe par : l'offshore flottant, l'éolien en haute mer, l'hybridation (solaire-éolien-stockage), et le repowering des anciens parcs. L'éolien sera un pilier majeur de la décarbonation."
       },
       "sources": [
-        {"titre": "Global Wind Report", "auteur": "GWEC", "url": "https://gwec.net/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Wind Energy Statistics", "auteur": "IRENA", "url": "https://www.irena.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Global Wind Report",
+          "auteur": "GWEC",
+          "url": "https://gwec.net/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Wind Energy Statistics",
+          "auteur": "IRENA",
+          "url": "https://www.irena.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["aérogénérateur", "offshore", "flottant", "facteur de charge", "Betz"],
+      "motsClésScientifiques": [
+        "aérogénérateur",
+        "offshore",
+        "flottant",
+        "facteur de charge",
+        "Betz"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "900+ GW capacité mondiale", "source": "GWEC", "annee": 2023},
-        {"valeur": "Offshore : 64 GW installés", "source": "GWEC", "annee": 2023}
+        {
+          "valeur": "900+ GW capacité mondiale",
+          "source": "GWEC",
+          "annee": 2023
+        },
+        {
+          "valeur": "Offshore : 64 GW installés",
+          "source": "GWEC",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "energie-renouvelable", "type": "est_type_de", "score": 95},
-        {"cible": "transition-energetique", "type": "contribue_a", "score": 90}
+        {
+          "cible": "energie-renouvelable",
+          "type": "est_type_de",
+          "score": 95
+        },
+        {
+          "cible": "transition-energetique",
+          "type": "contribue_a",
+          "score": 90
+        }
       ],
-      "exemples": ["Hornsea 2 (UK, 1,3 GW)", "Parc éolien de Gansu (Chine)", "Éolien flottant Hywind"],
-      "synonymes": ["wind energy", "énergie du vent"]
+      "exemples": [
+        "Hornsea 2 (UK, 1,3 GW)",
+        "Parc éolien de Gansu (Chine)",
+        "Éolien flottant Hywind"
+      ],
+      "synonymes": [
+        "wind energy",
+        "énergie du vent"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Wind_turbines_at_sunrise.jpg/800px-Wind_turbines_at_sunrise.jpg",
+        "alt": "Éoliennes",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Parc éolien terrestre"
+      }
     },
     {
       "id": "hydrogene-vert",
@@ -80,22 +181,71 @@
         "perspectives": "L'AIE prévoit 70 Mt/an d'hydrogène bas-carbone en 2030. L'avenir passe par : la massification (GW électrolyseurs), les corridors d'import (Afrique, Moyen-Orient), et les usages ciblés. L'hydrogène vert sera essentiel pour les 20-30% d'émissions non électrifiables."
       },
       "sources": [
-        {"titre": "Global Hydrogen Review", "auteur": "AIE", "url": "https://www.iea.org/reports/global-hydrogen-review-2023", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Hydrogen Strategy for a Climate-Neutral Europe", "auteur": "Commission Européenne", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Global Hydrogen Review",
+          "auteur": "AIE",
+          "url": "https://www.iea.org/reports/global-hydrogen-review-2023",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Hydrogen Strategy for a Climate-Neutral Europe",
+          "auteur": "Commission Européenne",
+          "annee": 2020,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["électrolyse", "PEM", "pile à combustible", "power-to-X", "ammoniac"],
+      "motsClésScientifiques": [
+        "électrolyse",
+        "PEM",
+        "pile à combustible",
+        "power-to-X",
+        "ammoniac"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Production mondiale H2 : 95 Mt/an dont <1% vert", "source": "AIE", "annee": 2023},
-        {"valeur": "Objectif UE : 10 Mt H2 vert en 2030", "source": "Commission Européenne", "annee": 2020}
+        {
+          "valeur": "Production mondiale H2 : 95 Mt/an dont <1% vert",
+          "source": "AIE",
+          "annee": 2023
+        },
+        {
+          "valeur": "Objectif UE : 10 Mt H2 vert en 2030",
+          "source": "Commission Européenne",
+          "annee": 2020
+        }
       ],
       "relations": [
-        {"cible": "transition-energetique", "type": "contribue_a", "score": 90},
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 85}
+        {
+          "cible": "transition-energetique",
+          "type": "contribue_a",
+          "score": 90
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Électrolyseur NEOM (Arabie, 2,2 GW)", "HyDeal Ambition (40 GW)", "Acier vert H2 (SSAB)"],
-      "synonymes": ["green hydrogen", "hydrogène renouvelable"]
+      "exemples": [
+        "Électrolyseur NEOM (Arabie, 2,2 GW)",
+        "HyDeal Ambition (40 GW)",
+        "Acier vert H2 (SSAB)"
+      ],
+      "synonymes": [
+        "green hydrogen",
+        "hydrogène renouvelable"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Hydrogen_electrolyzer.jpg/800px-Hydrogen_electrolyzer.jpg",
+        "alt": "Électrolyseur hydrogène",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Production d'hydrogène par électrolyse"
+      }
     },
     {
       "id": "batterie-lithium",
@@ -111,22 +261,72 @@
         "perspectives": "L'avenir passe par : les batteries solides (2027-2030), le sodium-ion (ressources abondantes), le recyclage massif, et la seconde vie (véhicule → stationnaire). Le stockage par batteries sera essentiel pour intégrer les renouvelables variables."
       },
       "sources": [
-        {"titre": "Global EV Outlook", "auteur": "AIE", "url": "https://www.iea.org/reports/global-ev-outlook-2023", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Battery Pack Prices", "auteur": "BloombergNEF", "url": "https://about.bnef.com/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Global EV Outlook",
+          "auteur": "AIE",
+          "url": "https://www.iea.org/reports/global-ev-outlook-2023",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Battery Pack Prices",
+          "auteur": "BloombergNEF",
+          "url": "https://about.bnef.com/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["Li-ion", "NMC", "LFP", "solid-state", "densité énergétique"],
+      "motsClésScientifiques": [
+        "Li-ion",
+        "NMC",
+        "LFP",
+        "solid-state",
+        "densité énergétique"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Coût : 139$/kWh (2023) vs 1 200$ (2010)", "source": "BloombergNEF", "annee": 2023},
-        {"valeur": "Production : 700 GWh (2022), 2 TWh prévu (2030)", "source": "AIE", "annee": 2023}
+        {
+          "valeur": "Coût : 139$/kWh (2023) vs 1 200$ (2010)",
+          "source": "BloombergNEF",
+          "annee": 2023
+        },
+        {
+          "valeur": "Production : 700 GWh (2022), 2 TWh prévu (2030)",
+          "source": "AIE",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "vehicule-electrique", "type": "compose_de", "score": 95},
-        {"cible": "transition-energetique", "type": "contribue_a", "score": 85}
+        {
+          "cible": "vehicule-electrique",
+          "type": "compose_de",
+          "score": 95
+        },
+        {
+          "cible": "transition-energetique",
+          "type": "contribue_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Tesla 4680", "BYD Blade (LFP)", "Gigafactory Northvolt (Suède)"],
-      "synonymes": ["Li-ion batteries", "accumulateurs lithium"]
+      "exemples": [
+        "Tesla 4680",
+        "BYD Blade (LFP)",
+        "Gigafactory Northvolt (Suède)"
+      ],
+      "synonymes": [
+        "Li-ion batteries",
+        "accumulateurs lithium"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Lithium_battery.jpg/800px-Lithium_battery.jpg",
+        "alt": "Batterie lithium-ion",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Cellules de batteries lithium-ion"
+      }
     },
     {
       "id": "vehicule-electrique",
@@ -142,22 +342,72 @@
         "perspectives": "L'AIE prévoit 45% des ventes mondiales en 2030 et quasi-totalité en 2040. L'avenir passe par : les batteries solides, la recharge bidirectionnelle (V2G), et l'électrification des camions et bus. Le VE est le pilier de la décarbonation des transports."
       },
       "sources": [
-        {"titre": "Global EV Outlook 2023", "auteur": "AIE", "url": "https://www.iea.org/reports/global-ev-outlook-2023", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Transport & Environment - EV Sales", "url": "https://www.transportenvironment.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Global EV Outlook 2023",
+          "auteur": "AIE",
+          "url": "https://www.iea.org/reports/global-ev-outlook-2023",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Transport & Environment - EV Sales",
+          "url": "https://www.transportenvironment.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["BEV", "FCEV", "autonomie", "recharge rapide", "V2G"],
+      "motsClésScientifiques": [
+        "BEV",
+        "FCEV",
+        "autonomie",
+        "recharge rapide",
+        "V2G"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "18% des ventes mondiales voitures (2023)", "source": "AIE", "annee": 2023},
-        {"valeur": "35 millions VE en circulation (2023)", "source": "AIE", "annee": 2023}
+        {
+          "valeur": "18% des ventes mondiales voitures (2023)",
+          "source": "AIE",
+          "annee": 2023
+        },
+        {
+          "valeur": "35 millions VE en circulation (2023)",
+          "source": "AIE",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "batterie-lithium", "type": "utilise", "score": 95},
-        {"cible": "mobilite-douce", "type": "proche_de", "score": 70}
+        {
+          "cible": "batterie-lithium",
+          "type": "utilise",
+          "score": 95
+        },
+        {
+          "cible": "mobilite-douce",
+          "type": "proche_de",
+          "score": 70
+        }
       ],
-      "exemples": ["Tesla Model 3/Y", "BYD Seal", "Renault Mégane E-Tech"],
-      "synonymes": ["EV", "electric vehicle", "voiture électrique"]
+      "exemples": [
+        "Tesla Model 3/Y",
+        "BYD Seal",
+        "Renault Mégane E-Tech"
+      ],
+      "synonymes": [
+        "EV",
+        "electric vehicle",
+        "voiture électrique"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Electric_car_charging.jpg/800px-Electric_car_charging.jpg",
+        "alt": "Véhicule électrique en charge",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Recharge d'un véhicule électrique"
+      }
     },
     {
       "id": "captage-carbone",
@@ -173,22 +423,66 @@
         "perspectives": "L'AIE prévoit 1 Gt/an de CSC en 2030, 5-10 Gt/an en 2050. L'avenir passe par : l'industrialisation du DAC, le CSC sur cimenteries et acier, et la BECCS (bioénergie + CSC pour émissions négatives). Le CSC sera nécessaire mais ne doit pas retarder la réduction à la source."
       },
       "sources": [
-        {"titre": "Special Report on CCS", "auteur": "GIEC", "url": "https://www.ipcc.ch/", "annee": 2005, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "CCUS Projects Database", "auteur": "AIE", "url": "https://www.iea.org/data-and-statistics/data-tools/ccus-projects-explorer", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Special Report on CCS",
+          "auteur": "GIEC",
+          "url": "https://www.ipcc.ch/",
+          "annee": 2005,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "CCUS Projects Database",
+          "auteur": "AIE",
+          "url": "https://www.iea.org/data-and-statistics/data-tools/ccus-projects-explorer",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["CCS", "DAC", "stockage géologique", "post-combustion", "BECCS"],
+      "motsClésScientifiques": [
+        "CCS",
+        "DAC",
+        "stockage géologique",
+        "post-combustion",
+        "BECCS"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "45 Mt CO2/an capturés (2023)", "source": "AIE", "annee": 2023},
-        {"valeur": "Objectif : 1 Gt/an en 2030", "source": "AIE", "annee": 2023}
+        {
+          "valeur": "45 Mt CO2/an capturés (2023)",
+          "source": "AIE",
+          "annee": 2023
+        },
+        {
+          "valeur": "Objectif : 1 Gt/an en 2030",
+          "source": "AIE",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 85},
-        {"cible": "changement-climatique", "type": "oppose_a", "score": 80}
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 85
+        },
+        {
+          "cible": "changement-climatique",
+          "type": "oppose_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Sleipner (Norvège)", "Orca DAC (Islande)", "Northern Lights (hub norvégien)"],
-      "synonymes": ["CCS", "CCUS", "carbon capture and storage"]
+      "exemples": [
+        "Sleipner (Norvège)",
+        "Orca DAC (Islande)",
+        "Northern Lights (hub norvégien)"
+      ],
+      "synonymes": [
+        "CCS",
+        "CCUS",
+        "carbon capture and storage"
+      ]
     },
     {
       "id": "pompe-chaleur",
@@ -204,22 +498,73 @@
         "perspectives": "L'AIE prévoit 600 millions de PAC en 2030 (vs 190 M en 2022). L'avenir passe par : la massification, les PAC hybrides (appoint gaz pour grand froid), les fluides naturels, et l'intégration aux réseaux intelligents. Les PAC chauffent déjà 10% des bâtiments mondiaux."
       },
       "sources": [
-        {"titre": "The Future of Heat Pumps", "auteur": "AIE", "url": "https://www.iea.org/reports/the-future-of-heat-pumps", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Heat Pump Market Report", "auteur": "EHPA", "url": "https://www.ehpa.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "The Future of Heat Pumps",
+          "auteur": "AIE",
+          "url": "https://www.iea.org/reports/the-future-of-heat-pumps",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Heat Pump Market Report",
+          "auteur": "EHPA",
+          "url": "https://www.ehpa.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["COP", "fluide frigorigène", "géothermie", "air-eau", "thermodynamique"],
+      "motsClésScientifiques": [
+        "COP",
+        "fluide frigorigène",
+        "géothermie",
+        "air-eau",
+        "thermodynamique"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "3 millions PAC vendues en Europe (2022)", "source": "EHPA", "annee": 2022},
-        {"valeur": "COP moyen : 3-4 (3-4 kWh chaleur/kWh élec)", "source": "ADEME", "annee": 2023}
+        {
+          "valeur": "3 millions PAC vendues en Europe (2022)",
+          "source": "EHPA",
+          "annee": 2022
+        },
+        {
+          "valeur": "COP moyen : 3-4 (3-4 kWh chaleur/kWh élec)",
+          "source": "ADEME",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "efficacite-energetique", "type": "contribue_a", "score": 90},
-        {"cible": "transition-energetique", "type": "contribue_a", "score": 85}
+        {
+          "cible": "efficacite-energetique",
+          "type": "contribue_a",
+          "score": 90
+        },
+        {
+          "cible": "transition-energetique",
+          "type": "contribue_a",
+          "score": 85
+        }
       ],
-      "exemples": ["PAC air-eau résidentielle", "Géothermie sur nappe", "PAC industrielle haute température"],
-      "synonymes": ["heat pump", "PAC", "thermopompe"]
+      "exemples": [
+        "PAC air-eau résidentielle",
+        "Géothermie sur nappe",
+        "PAC industrielle haute température"
+      ],
+      "synonymes": [
+        "heat pump",
+        "PAC",
+        "thermopompe"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Heat_pump.jpg/800px-Heat_pump.jpg",
+        "alt": "Pompe à chaleur",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Unité extérieure de pompe à chaleur"
+      }
     },
     {
       "id": "smart-grid",
@@ -235,22 +580,71 @@
         "perspectives": "L'avenir passe par : l'IA prédictive généralisée, les réseaux locaux autonomes (microgrids), le V2G massif, et les marchés de flexibilité. Les smart grids sont le système nerveux de la transition énergétique, permettant d'atteindre 70-80% de renouvelables."
       },
       "sources": [
-        {"titre": "Smart Grids Innovation Challenge", "auteur": "AIE", "url": "https://www.iea.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Smart Grid Roadmap", "auteur": "Commission Européenne", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Smart Grids Innovation Challenge",
+          "auteur": "AIE",
+          "url": "https://www.iea.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Smart Grid Roadmap",
+          "auteur": "Commission Européenne",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["demand response", "V2G", "AMI", "flexibilité", "microgrid"],
+      "motsClésScientifiques": [
+        "demand response",
+        "V2G",
+        "AMI",
+        "flexibilité",
+        "microgrid"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "85% des foyers français équipés Linky", "source": "Enedis", "annee": 2023},
-        {"valeur": "Investissement UE smart grids : 50 Mrd€ prévu (2020-2030)", "source": "Commission Européenne", "annee": 2020}
+        {
+          "valeur": "85% des foyers français équipés Linky",
+          "source": "Enedis",
+          "annee": 2023
+        },
+        {
+          "valeur": "Investissement UE smart grids : 50 Mrd€ prévu (2020-2030)",
+          "source": "Commission Européenne",
+          "annee": 2020
+        }
       ],
       "relations": [
-        {"cible": "transition-energetique", "type": "contribue_a", "score": 90},
-        {"cible": "energie-renouvelable", "type": "renvoie_a", "score": 85}
+        {
+          "cible": "transition-energetique",
+          "type": "contribue_a",
+          "score": 90
+        },
+        {
+          "cible": "energie-renouvelable",
+          "type": "renvoie_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Linky (France)", "Smart Grid Gotland (Suède)", "Brooklyn Microgrid"],
-      "synonymes": ["réseau intelligent", "intelligent grid"]
+      "exemples": [
+        "Linky (France)",
+        "Smart Grid Gotland (Suède)",
+        "Brooklyn Microgrid"
+      ],
+      "synonymes": [
+        "réseau intelligent",
+        "intelligent grid"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Smart_grid.svg/800px-Smart_grid.svg.png",
+        "alt": "Réseau intelligent",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Architecture d'un smart grid"
+      }
     },
     {
       "id": "agriculture-precision",
@@ -266,22 +660,64 @@
         "perspectives": "L'avenir passe par : la robotisation (désherbage, récolte), l'IA embarquée, les jumeaux numériques de parcelles, et l'accessibilité aux petites exploitations. L'agriculture de précision doit s'inscrire dans une transition agroécologique globale pour maximiser ses bénéfices environnementaux."
       },
       "sources": [
-        {"titre": "Precision Agriculture: An Overview", "auteur": "FAO", "url": "https://www.fao.org/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Precision Farming Market Report", "auteur": "MarketsandMarkets", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "moyen"}
+        {
+          "titre": "Precision Agriculture: An Overview",
+          "auteur": "FAO",
+          "url": "https://www.fao.org/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Precision Farming Market Report",
+          "auteur": "MarketsandMarkets",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "moyen"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["GPS", "NDVI", "modulation", "drone agricole", "OAD"],
+      "motsClésScientifiques": [
+        "GPS",
+        "NDVI",
+        "modulation",
+        "drone agricole",
+        "OAD"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Réduction intrants : 10-30%", "source": "INRAE", "annee": 2022},
-        {"valeur": "30-50% des grandes exploitations céréalières équipées", "source": "CEMA", "annee": 2022}
+        {
+          "valeur": "Réduction intrants : 10-30%",
+          "source": "INRAE",
+          "annee": 2022
+        },
+        {
+          "valeur": "30-50% des grandes exploitations céréalières équipées",
+          "source": "CEMA",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "agroecologie", "type": "proche_de", "score": 75},
-        {"cible": "sobriete", "type": "contribue_a", "score": 80}
+        {
+          "cible": "agroecologie",
+          "type": "proche_de",
+          "score": 75
+        },
+        {
+          "cible": "sobriete",
+          "type": "contribue_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Guidage RTK", "Drones de pulvérisation", "Cartes de modulation azote"],
-      "synonymes": ["precision farming", "agriculture numérique"]
+      "exemples": [
+        "Guidage RTK",
+        "Drones de pulvérisation",
+        "Cartes de modulation azote"
+      ],
+      "synonymes": [
+        "precision farming",
+        "agriculture numérique"
+      ]
     },
     {
       "id": "biocarburant",
@@ -297,22 +733,64 @@
         "perspectives": "L'avenir passe par : les SAF pour l'aviation (50% en 2050), les biocarburants marins, et les e-fuels. Les biocarburants 1G seront progressivement limités. Les biocarburants sont une solution de transition pour les secteurs non électrifiables, complémentaire à l'électrification."
       },
       "sources": [
-        {"titre": "Renewables 2023 - Biofuels", "auteur": "AIE", "url": "https://www.iea.org/energy-system/low-emission-fuels/biofuels", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Directive RED II", "auteur": "Union Européenne", "annee": 2018, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Renewables 2023 - Biofuels",
+          "auteur": "AIE",
+          "url": "https://www.iea.org/energy-system/low-emission-fuels/biofuels",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Directive RED II",
+          "auteur": "Union Européenne",
+          "annee": 2018,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["bioéthanol", "biodiesel", "SAF", "lignocellulose", "e-fuel"],
+      "motsClésScientifiques": [
+        "bioéthanol",
+        "biodiesel",
+        "SAF",
+        "lignocellulose",
+        "e-fuel"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "4% des carburants transport mondiaux", "source": "AIE", "annee": 2023},
-        {"valeur": "Objectif UE : 14% renouvelables transport en 2030", "source": "RED II", "annee": 2018}
+        {
+          "valeur": "4% des carburants transport mondiaux",
+          "source": "AIE",
+          "annee": 2023
+        },
+        {
+          "valeur": "Objectif UE : 14% renouvelables transport en 2030",
+          "source": "RED II",
+          "annee": 2018
+        }
       ],
       "relations": [
-        {"cible": "energie-renouvelable", "type": "est_type_de", "score": 85},
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 75}
+        {
+          "cible": "energie-renouvelable",
+          "type": "est_type_de",
+          "score": 85
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 75
+        }
       ],
-      "exemples": ["Bioéthanol E85", "Biodiesel B30", "SAF Neste (kérosène durable)"],
-      "synonymes": ["biofuels", "agrocarburants"]
+      "exemples": [
+        "Bioéthanol E85",
+        "Biodiesel B30",
+        "SAF Neste (kérosène durable)"
+      ],
+      "synonymes": [
+        "biofuels",
+        "agrocarburants"
+      ]
     },
     {
       "id": "recyclage-avance",
@@ -328,22 +806,65 @@
         "perspectives": "L'avenir passe par : la complémentarité avec le recyclage mécanique, l'amélioration des bilans environnementaux, et l'intégration dans l'écoconception (design for recycling). Le recyclage avancé peut contribuer à une économie circulaire des plastiques mais ne remplace pas la réduction à la source."
       },
       "sources": [
-        {"titre": "Chemical Recycling of Plastics", "auteur": "OCDE", "url": "https://www.oecd.org/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Advanced Recycling Technologies", "auteur": "Ellen MacArthur Foundation", "url": "https://www.ellenmacarthurfoundation.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Chemical Recycling of Plastics",
+          "auteur": "OCDE",
+          "url": "https://www.oecd.org/",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Advanced Recycling Technologies",
+          "auteur": "Ellen MacArthur Foundation",
+          "url": "https://www.ellenmacarthurfoundation.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["pyrolyse", "solvolyse", "enzymatique", "dépolymérisation", "feedstock"],
+      "motsClésScientifiques": [
+        "pyrolyse",
+        "solvolyse",
+        "enzymatique",
+        "dépolymérisation",
+        "feedstock"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "9% des plastiques mondiaux recyclés (mécanique)", "source": "OCDE", "annee": 2022},
-        {"valeur": "100+ projets de recyclage chimique annoncés", "source": "ICIS", "annee": 2023}
+        {
+          "valeur": "9% des plastiques mondiaux recyclés (mécanique)",
+          "source": "OCDE",
+          "annee": 2022
+        },
+        {
+          "valeur": "100+ projets de recyclage chimique annoncés",
+          "source": "ICIS",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "economie-circulaire", "type": "contribue_a", "score": 90},
-        {"cible": "pollution-plastique", "type": "oppose_a", "score": 80}
+        {
+          "cible": "economie-circulaire",
+          "type": "contribue_a",
+          "score": 90
+        },
+        {
+          "cible": "pollution-plastique",
+          "type": "oppose_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Carbios (recyclage enzymatique PET)", "Plastic Energy (pyrolyse)", "Eastman (méthanoyse)"],
-      "synonymes": ["recyclage chimique", "chemical recycling"]
+      "exemples": [
+        "Carbios (recyclage enzymatique PET)",
+        "Plastic Energy (pyrolyse)",
+        "Eastman (méthanoyse)"
+      ],
+      "synonymes": [
+        "recyclage chimique",
+        "chemical recycling"
+      ]
     },
     {
       "id": "impression-3d",
@@ -359,22 +880,64 @@
         "perspectives": "L'avenir passe par : la production série compétitive, les matériaux recyclés/biosourcés, l'impression multi-matériaux, et les réseaux de production décentralisés. La fabrication additive peut contribuer à l'économie circulaire (réparation, pièces personnalisées) si les matériaux sont durables."
       },
       "sources": [
-        {"titre": "Wohlers Report 2023", "auteur": "Wohlers Associates", "url": "https://wohlersassociates.com/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Additive Manufacturing: Environmental Implications", "auteur": "MIT", "annee": 2021, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "Wohlers Report 2023",
+          "auteur": "Wohlers Associates",
+          "url": "https://wohlersassociates.com/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Additive Manufacturing: Environmental Implications",
+          "auteur": "MIT",
+          "annee": 2021,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["FDM", "SLA", "SLS", "topologie", "fabrication distribuée"],
+      "motsClésScientifiques": [
+        "FDM",
+        "SLA",
+        "SLS",
+        "topologie",
+        "fabrication distribuée"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Marché mondial : 15 Mrd$ (2023)", "source": "Wohlers", "annee": 2023},
-        {"valeur": "Réduction déchets matière : jusqu'à 90%", "source": "MIT", "annee": 2021}
+        {
+          "valeur": "Marché mondial : 15 Mrd$ (2023)",
+          "source": "Wohlers",
+          "annee": 2023
+        },
+        {
+          "valeur": "Réduction déchets matière : jusqu'à 90%",
+          "source": "MIT",
+          "annee": 2021
+        }
       ],
       "relations": [
-        {"cible": "economie-circulaire", "type": "contribue_a", "score": 75},
-        {"cible": "ecoconception", "type": "proche_de", "score": 80}
+        {
+          "cible": "economie-circulaire",
+          "type": "contribue_a",
+          "score": 75
+        },
+        {
+          "cible": "ecoconception",
+          "type": "proche_de",
+          "score": 80
+        }
       ],
-      "exemples": ["Pièces aéronautiques (GE, Airbus)", "Prothèses médicales", "Pièces de rechange auto"],
-      "synonymes": ["3D printing", "additive manufacturing"]
+      "exemples": [
+        "Pièces aéronautiques (GE, Airbus)",
+        "Prothèses médicales",
+        "Pièces de rechange auto"
+      ],
+      "synonymes": [
+        "3D printing",
+        "additive manufacturing"
+      ]
     },
     {
       "id": "dessalement",
@@ -390,22 +953,65 @@
         "perspectives": "L'avenir passe par : le dessalement 100% renouvelable, la valorisation de la saumure (lithium, magnésium), les technologies basse énergie, et l'intégration dans la gestion de l'eau (complément, pas substitut). Le dessalement sera essentiel dans les régions arides mais doit s'inscrire dans une sobriété hydrique globale."
       },
       "sources": [
-        {"titre": "Desalination Industry Report", "auteur": "IDA/GWI", "url": "https://idadesal.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "World Water Development Report", "auteur": "UNESCO", "url": "https://www.unesco.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Desalination Industry Report",
+          "auteur": "IDA/GWI",
+          "url": "https://idadesal.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "World Water Development Report",
+          "auteur": "UNESCO",
+          "url": "https://www.unesco.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["osmose inverse", "saumure", "membrane", "distillation", "kWh/m³"],
+      "motsClésScientifiques": [
+        "osmose inverse",
+        "saumure",
+        "membrane",
+        "distillation",
+        "kWh/m³"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "100+ millions m³/jour de capacité mondiale", "source": "IDA", "annee": 2023},
-        {"valeur": "Consommation : 3-4 kWh/m³ (osmose inverse)", "source": "IDA", "annee": 2023}
+        {
+          "valeur": "100+ millions m³/jour de capacité mondiale",
+          "source": "IDA",
+          "annee": 2023
+        },
+        {
+          "valeur": "Consommation : 3-4 kWh/m³ (osmose inverse)",
+          "source": "IDA",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "stress-hydrique", "type": "oppose_a", "score": 85},
-        {"cible": "energie-renouvelable", "type": "renvoie_a", "score": 75}
+        {
+          "cible": "stress-hydrique",
+          "type": "oppose_a",
+          "score": 85
+        },
+        {
+          "cible": "energie-renouvelable",
+          "type": "renvoie_a",
+          "score": 75
+        }
       ],
-      "exemples": ["Usine de Ras Al Khair (Arabie, 1M m³/j)", "Dessalement solaire Masdar", "Usine Barcelone"],
-      "synonymes": ["desalination", "désalinisation"]
+      "exemples": [
+        "Usine de Ras Al Khair (Arabie, 1M m³/j)",
+        "Dessalement solaire Masdar",
+        "Usine Barcelone"
+      ],
+      "synonymes": [
+        "desalination",
+        "désalinisation"
+      ]
     },
     {
       "id": "bioplastique",
@@ -421,22 +1027,65 @@
         "perspectives": "L'avenir passe par : les sources 2G (déchets, algues), l'amélioration des propriétés, les filières de fin de vie adaptées, et les applications ciblées. Les bioplastiques peuvent contribuer à une économie circulaire mais ne sont pas une solution miracle : la réduction reste prioritaire."
       },
       "sources": [
-        {"titre": "Bioplastics Market Data", "auteur": "European Bioplastics", "url": "https://www.european-bioplastics.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Life cycle assessment of bioplastics", "auteur": "JRC", "url": "https://publications.jrc.ec.europa.eu/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Bioplastics Market Data",
+          "auteur": "European Bioplastics",
+          "url": "https://www.european-bioplastics.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Life cycle assessment of bioplastics",
+          "auteur": "JRC",
+          "url": "https://publications.jrc.ec.europa.eu/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["PLA", "PHA", "biosourcé", "biodégradable", "compostable"],
+      "motsClésScientifiques": [
+        "PLA",
+        "PHA",
+        "biosourcé",
+        "biodégradable",
+        "compostable"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "1% des plastiques mondiaux sont bioplastiques", "source": "European Bioplastics", "annee": 2023},
-        {"valeur": "Capacité : 2,2 Mt/an (2023), 6,3 Mt prévus (2028)", "source": "European Bioplastics", "annee": 2023}
+        {
+          "valeur": "1% des plastiques mondiaux sont bioplastiques",
+          "source": "European Bioplastics",
+          "annee": 2023
+        },
+        {
+          "valeur": "Capacité : 2,2 Mt/an (2023), 6,3 Mt prévus (2028)",
+          "source": "European Bioplastics",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "economie-circulaire", "type": "contribue_a", "score": 75},
-        {"cible": "pollution-plastique", "type": "oppose_a", "score": 70}
+        {
+          "cible": "economie-circulaire",
+          "type": "contribue_a",
+          "score": 75
+        },
+        {
+          "cible": "pollution-plastique",
+          "type": "oppose_a",
+          "score": 70
+        }
       ],
-      "exemples": ["Bouteilles PLA", "Sacs compostables", "Bio-PE Braskem (canne à sucre)"],
-      "synonymes": ["biobased plastics", "plastiques biosourcés"]
+      "exemples": [
+        "Bouteilles PLA",
+        "Sacs compostables",
+        "Bio-PE Braskem (canne à sucre)"
+      ],
+      "synonymes": [
+        "biobased plastics",
+        "plastiques biosourcés"
+      ]
     },
     {
       "id": "stockage-energie",
@@ -452,22 +1101,65 @@
         "perspectives": "L'AIE prévoit 1 500 GW de stockage en 2030 (x6). L'avenir passe par : les batteries post-lithium, le stockage saisonnier (H2), les batteries à flux pour la durée, et l'intégration dans les réseaux. Le stockage est le complément indispensable des renouvelables pour un système 100% décarboné."
       },
       "sources": [
-        {"titre": "Energy Storage Outlook", "auteur": "BloombergNEF", "url": "https://about.bnef.com/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Grid-Scale Storage", "auteur": "AIE", "url": "https://www.iea.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Energy Storage Outlook",
+          "auteur": "BloombergNEF",
+          "url": "https://about.bnef.com/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Grid-Scale Storage",
+          "auteur": "AIE",
+          "url": "https://www.iea.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["STEP", "batterie flux", "power-to-gas", "saisonnier", "flexibilité"],
+      "motsClésScientifiques": [
+        "STEP",
+        "batterie flux",
+        "power-to-gas",
+        "saisonnier",
+        "flexibilité"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Coût batteries : -90% en 10 ans (150$/kWh)", "source": "BloombergNEF", "annee": 2023},
-        {"valeur": "STEP : 95% du stockage mondial (160 GW)", "source": "AIE", "annee": 2023}
+        {
+          "valeur": "Coût batteries : -90% en 10 ans (150$/kWh)",
+          "source": "BloombergNEF",
+          "annee": 2023
+        },
+        {
+          "valeur": "STEP : 95% du stockage mondial (160 GW)",
+          "source": "AIE",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "energie-renouvelable", "type": "renvoie_a", "score": 95},
-        {"cible": "smart-grid", "type": "contribue_a", "score": 90}
+        {
+          "cible": "energie-renouvelable",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "smart-grid",
+          "type": "contribue_a",
+          "score": 90
+        }
       ],
-      "exemples": ["Hornsdale Power Reserve (Australie)", "STEP Grand'Maison (France)", "Moss Landing (730 MWh)"],
-      "synonymes": ["energy storage", "batteries stationnaires"]
+      "exemples": [
+        "Hornsdale Power Reserve (Australie)",
+        "STEP Grand'Maison (France)",
+        "Moss Landing (730 MWh)"
+      ],
+      "synonymes": [
+        "energy storage",
+        "batteries stationnaires"
+      ]
     },
     {
       "id": "nucleaire-nouvelle-generation",
@@ -483,22 +1175,66 @@
         "perspectives": "L'avenir passe par : les SMR pour des réseaux décentralisés et la cogénération, la Gen IV pour la transmutation des déchets, et la fusion (ITER, tokamaks compacts) à plus long terme. Le nucléaire de nouvelle génération peut compléter les renouvelables pour un mix décarboné, mais les délais et coûts restent incertains."
       },
       "sources": [
-        {"titre": "Nuclear Energy Technology Roadmap", "auteur": "AIE/NEA", "url": "https://www.oecd-nea.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "SMR Technology Development", "auteur": "AIEA", "url": "https://www.iaea.org/topics/small-modular-reactors", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Nuclear Energy Technology Roadmap",
+          "auteur": "AIE/NEA",
+          "url": "https://www.oecd-nea.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "SMR Technology Development",
+          "auteur": "AIEA",
+          "url": "https://www.iaea.org/topics/small-modular-reactors",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["SMR", "génération IV", "sels fondus", "thorium", "sûreté passive"],
+      "motsClésScientifiques": [
+        "SMR",
+        "génération IV",
+        "sels fondus",
+        "thorium",
+        "sûreté passive"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "30+ designs SMR en développement mondial", "source": "AIEA", "annee": 2023},
-        {"valeur": "Premiers SMR commerciaux : horizon 2030", "source": "AIEA", "annee": 2023}
+        {
+          "valeur": "30+ designs SMR en développement mondial",
+          "source": "AIEA",
+          "annee": 2023
+        },
+        {
+          "valeur": "Premiers SMR commerciaux : horizon 2030",
+          "source": "AIEA",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "transition-energetique", "type": "contribue_a", "score": 80},
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 80}
+        {
+          "cible": "transition-energetique",
+          "type": "contribue_a",
+          "score": 80
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 80
+        }
       ],
-      "exemples": ["NuScale (USA)", "HTR-PM (Chine)", "Rolls-Royce SMR (UK)"],
-      "synonymes": ["SMR", "advanced nuclear", "Gen IV reactors"]
+      "exemples": [
+        "NuScale (USA)",
+        "HTR-PM (Chine)",
+        "Rolls-Royce SMR (UK)"
+      ],
+      "synonymes": [
+        "SMR",
+        "advanced nuclear",
+        "Gen IV reactors"
+      ]
     },
     {
       "id": "materiau-biosource",
@@ -514,22 +1250,65 @@
         "perspectives": "L'avenir passe par : la généralisation de la RE2020 à l'international, les bâtiments à énergie et carbone positifs, les nouveaux matériaux (mycelium, algues), et l'industrialisation des filières. Les matériaux biosourcés sont essentiels pour décarboner la construction, responsable de 40% des émissions."
       },
       "sources": [
-        {"titre": "Construire avec les matériaux biosourcés", "auteur": "ADEME", "url": "https://librairie.ademe.fr/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Wood in the Circular Economy", "auteur": "EEA", "url": "https://www.eea.europa.eu/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Construire avec les matériaux biosourcés",
+          "auteur": "ADEME",
+          "url": "https://librairie.ademe.fr/",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Wood in the Circular Economy",
+          "auteur": "EEA",
+          "url": "https://www.eea.europa.eu/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["CLT", "chanvre", "stockage carbone", "RE2020", "empreinte matériaux"],
+      "motsClésScientifiques": [
+        "CLT",
+        "chanvre",
+        "stockage carbone",
+        "RE2020",
+        "empreinte matériaux"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Bois : stocke 1,8 tCO2/m³", "source": "ADEME", "annee": 2022},
-        {"valeur": "15-20% du marché isolation France (biosourcé)", "source": "ADEME", "annee": 2023}
+        {
+          "valeur": "Bois : stocke 1,8 tCO2/m³",
+          "source": "ADEME",
+          "annee": 2022
+        },
+        {
+          "valeur": "15-20% du marché isolation France (biosourcé)",
+          "source": "ADEME",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "economie-circulaire", "type": "contribue_a", "score": 85},
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 85}
+        {
+          "cible": "economie-circulaire",
+          "type": "contribue_a",
+          "score": 85
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Tour Hyperion (Bordeaux, bois)", "Isolation chanvre", "Ossature bois"],
-      "synonymes": ["bio-based materials", "matériaux bio-sourcés"]
+      "exemples": [
+        "Tour Hyperion (Bordeaux, bois)",
+        "Isolation chanvre",
+        "Ossature bois"
+      ],
+      "synonymes": [
+        "bio-based materials",
+        "matériaux bio-sourcés"
+      ]
     },
     {
       "id": "intelligence-artificielle-environnement",
@@ -545,22 +1324,65 @@
         "perspectives": "L'avenir passe par : l'IA embarquée (edge computing), les modèles climatiques haute résolution, l'optimisation temps réel des systèmes énergétiques, et la surveillance globale des engagements (MRV). L'IA peut accélérer significativement la transition si son empreinte est maîtrisée et son accès démocratisé."
       },
       "sources": [
-        {"titre": "AI for Climate: A Roadmap", "auteur": "WEF/Stanford", "url": "https://www.weforum.org/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Tackling Climate Change with Machine Learning", "auteur": "Rolnick et al.", "doi": "10.1145/3485128", "annee": 2022, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "AI for Climate: A Roadmap",
+          "auteur": "WEF/Stanford",
+          "url": "https://www.weforum.org/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Tackling Climate Change with Machine Learning",
+          "auteur": "Rolnick et al.",
+          "doi": "10.1145/3485128",
+          "annee": 2022,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["machine learning", "computer vision", "prévision", "optimisation", "Green AI"],
+      "motsClésScientifiques": [
+        "machine learning",
+        "computer vision",
+        "prévision",
+        "optimisation",
+        "Green AI"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Google data centers : -40% énergie refroidissement (IA)", "source": "DeepMind", "annee": 2016},
-        {"valeur": "Prévision éolienne : +20% précision", "source": "DeepMind", "annee": 2019}
+        {
+          "valeur": "Google data centers : -40% énergie refroidissement (IA)",
+          "source": "DeepMind",
+          "annee": 2016
+        },
+        {
+          "valeur": "Prévision éolienne : +20% précision",
+          "source": "DeepMind",
+          "annee": 2019
+        }
       ],
       "relations": [
-        {"cible": "smart-grid", "type": "contribue_a", "score": 90},
-        {"cible": "agriculture-precision", "type": "renvoie_a", "score": 85}
+        {
+          "cible": "smart-grid",
+          "type": "contribue_a",
+          "score": 90
+        },
+        {
+          "cible": "agriculture-precision",
+          "type": "renvoie_a",
+          "score": 85
+        }
       ],
-      "exemples": ["DeepMind (éolien, data centers)", "Global Forest Watch", "GraphCast (météo)"],
-      "synonymes": ["AI for climate", "Green AI applications"]
+      "exemples": [
+        "DeepMind (éolien, data centers)",
+        "Global Forest Watch",
+        "GraphCast (météo)"
+      ],
+      "synonymes": [
+        "AI for climate",
+        "Green AI applications"
+      ]
     },
     {
       "id": "geothermie",
@@ -576,22 +1398,72 @@
         "perspectives": "L'avenir passe par : la réduction des coûts de forage (techniques pétrolières), les EGS à grande échelle, la géothermie supercritique (Iceland Deep Drilling), et l'intégration dans les systèmes énergétiques. La géothermie peut fournir 3-5% de l'électricité et 5-10% de la chaleur mondiales."
       },
       "sources": [
-        {"titre": "Geothermal Energy Technology Roadmap", "auteur": "AIE", "url": "https://www.iea.org/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "World Geothermal Power Report", "auteur": "IGA", "url": "https://www.geothermal-energy.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Geothermal Energy Technology Roadmap",
+          "auteur": "AIE",
+          "url": "https://www.iea.org/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "World Geothermal Power Report",
+          "auteur": "IGA",
+          "url": "https://www.geothermal-energy.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["EGS", "gradient géothermique", "supercritique", "réseau de chaleur", "forage"],
+      "motsClésScientifiques": [
+        "EGS",
+        "gradient géothermique",
+        "supercritique",
+        "réseau de chaleur",
+        "forage"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "16 GW électriques installés (monde)", "source": "IGA", "annee": 2023},
-        {"valeur": "107 GWth de chaleur directe", "source": "IGA", "annee": 2023}
+        {
+          "valeur": "16 GW électriques installés (monde)",
+          "source": "IGA",
+          "annee": 2023
+        },
+        {
+          "valeur": "107 GWth de chaleur directe",
+          "source": "IGA",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "energie-renouvelable", "type": "est_type_de", "score": 95},
-        {"cible": "pompe-chaleur", "type": "renvoie_a", "score": 80}
+        {
+          "cible": "energie-renouvelable",
+          "type": "est_type_de",
+          "score": 95
+        },
+        {
+          "cible": "pompe-chaleur",
+          "type": "renvoie_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Centrale Hellisheiði (Islande)", "Réseau chaleur Paris-Saclay", "EGS Soultz (France)"],
-      "synonymes": ["geothermal energy", "énergie géothermique"]
+      "exemples": [
+        "Centrale Hellisheiði (Islande)",
+        "Réseau chaleur Paris-Saclay",
+        "EGS Soultz (France)"
+      ],
+      "synonymes": [
+        "geothermal energy",
+        "énergie géothermique"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Geothermal_power_plant.jpg/800px-Geothermal_power_plant.jpg",
+        "alt": "Centrale géothermique",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Exploitation de la chaleur terrestre"
+      }
     }
   ]
 }

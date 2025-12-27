@@ -315,13 +315,183 @@ IMAGES_DEVELOPPEMENT_DURABLE = {
     }
 }
 
+IMAGES_FORETS_OCEANS = {
+    "deforestation": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Deforestation_in_the_Amazon.jpg/800px-Deforestation_in_the_Amazon.jpg",
+        "alt": "Déforestation en Amazonie",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Front de déforestation en forêt amazonienne"
+    },
+    "reforestation": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Reforestation.jpg/800px-Reforestation.jpg",
+        "alt": "Plantation d'arbres",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Reforestation - restauration des forêts"
+    },
+    "recif-corallien": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Coral_reef_at_palmyra.jpg/800px-Coral_reef_at_palmyra.jpg",
+        "alt": "Récif corallien",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Écosystème de récif corallien"
+    },
+    "mangrove": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Red_mangrove.jpg/800px-Red_mangrove.jpg",
+        "alt": "Mangrove",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Forêt de mangrove - écosystème côtier"
+    },
+    "ocean-acidification": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Ocean_acidification.svg/800px-Ocean_acidification.svg.png",
+        "alt": "Acidification des océans",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Mécanisme d'acidification des océans"
+    },
+    "plastique-ocean": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Ocean_plastic.jpg/800px-Ocean_plastic.jpg",
+        "alt": "Pollution plastique océanique",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Déchets plastiques dans l'océan"
+    },
+    "agroforesterie": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Agroforestry.jpg/800px-Agroforestry.jpg",
+        "alt": "Parcelle agroforestière",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Culture associant arbres et productions agricoles"
+    }
+}
+
+IMAGES_FINANCE_VERTE = {
+    "finance-durable": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Green_finance.svg/800px-Green_finance.svg.png",
+        "alt": "Finance durable",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Concept de finance durable"
+    },
+    "criteres-esg": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/ESG_criteria.svg/800px-ESG_criteria.svg.png",
+        "alt": "Critères ESG",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Environnement, Social, Gouvernance"
+    },
+    "obligation-verte": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Green_bond.svg/400px-Green_bond.svg.png",
+        "alt": "Obligation verte",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Financement de projets environnementaux"
+    },
+    "credit-carbone": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Carbon_credit.svg/800px-Carbon_credit.svg.png",
+        "alt": "Crédit carbone",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Marché des quotas d'émission"
+    }
+}
+
+IMAGES_DROIT_ENVIRONNEMENT = {
+    "accord-paris": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Paris_Agreement.svg/800px-Paris_Agreement.svg.png",
+        "alt": "Accord de Paris",
+        "credit": "Wikimedia Commons",
+        "type": "logo",
+        "legende": "Accord climatique de 2015"
+    },
+    "ecocide": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Stop_ecocide.svg/400px-Stop_ecocide.svg.png",
+        "alt": "Stop écocide",
+        "credit": "Wikimedia Commons",
+        "type": "logo",
+        "legende": "Campagne pour la reconnaissance de l'écocide"
+    },
+    "convention-biodiversite": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/CBD_logo.svg/400px-CBD_logo.svg.png",
+        "alt": "Logo CBD",
+        "credit": "Convention on Biological Diversity",
+        "type": "logo",
+        "legende": "Convention sur la diversité biologique"
+    }
+}
+
+IMAGES_TECHNOLOGIES_VERTES = {
+    "energie-solaire-photovoltaique": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Solar_panels.jpg/800px-Solar_panels.jpg",
+        "alt": "Panneaux solaires",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Installation photovoltaïque"
+    },
+    "eolien": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Wind_turbines_at_sunrise.jpg/800px-Wind_turbines_at_sunrise.jpg",
+        "alt": "Éoliennes",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Parc éolien terrestre"
+    },
+    "hydrogene-vert": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Hydrogen_electrolyzer.jpg/800px-Hydrogen_electrolyzer.jpg",
+        "alt": "Électrolyseur hydrogène",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Production d'hydrogène par électrolyse"
+    },
+    "vehicule-electrique": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Electric_car_charging.jpg/800px-Electric_car_charging.jpg",
+        "alt": "Véhicule électrique en charge",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Recharge d'un véhicule électrique"
+    },
+    "pompe-chaleur": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Heat_pump.jpg/800px-Heat_pump.jpg",
+        "alt": "Pompe à chaleur",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Unité extérieure de pompe à chaleur"
+    },
+    "smart-grid": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Smart_grid.svg/800px-Smart_grid.svg.png",
+        "alt": "Réseau intelligent",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Architecture d'un smart grid"
+    },
+    "geothermie": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Geothermal_power_plant.jpg/800px-Geothermal_power_plant.jpg",
+        "alt": "Centrale géothermique",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Exploitation de la chaleur terrestre"
+    },
+    "batterie-lithium": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Lithium_battery.jpg/800px-Lithium_battery.jpg",
+        "alt": "Batterie lithium-ion",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Cellules de batteries lithium-ion"
+    }
+}
+
 ALL_IMAGES = {
     "energie-climat": IMAGES_ENERGIE_CLIMAT,
     "biodiversite": IMAGES_BIODIVERSITE,
     "economie-circulaire": IMAGES_ECONOMIE_CIRCULAIRE,
     "dechets": IMAGES_DECHETS,
     "eau": IMAGES_EAU,
-    "developpement-durable": IMAGES_DEVELOPPEMENT_DURABLE
+    "developpement-durable": IMAGES_DEVELOPPEMENT_DURABLE,
+    "forets-oceans": IMAGES_FORETS_OCEANS,
+    "finance-verte": IMAGES_FINANCE_VERTE,
+    "droit-environnement": IMAGES_DROIT_ENVIRONNEMENT,
+    "technologies-vertes": IMAGES_TECHNOLOGIES_VERTES
 }
 
 def add_images_to_category(category_file, images_dict):

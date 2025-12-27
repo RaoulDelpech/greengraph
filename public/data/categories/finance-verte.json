@@ -18,22 +18,71 @@
         "perspectives": "L'avenir passe par : la standardisation des données (ISSB), la taxonomie sociale, l'extension aux PME, et le financement de la transition dans les pays émergents. Le concept de 'finance de transition' reconnaît les besoins des secteurs en décarbonation."
       },
       "sources": [
-        {"titre": "Principles for Responsible Investment (PRI)", "url": "https://www.unpri.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "EU Sustainable Finance Action Plan", "auteur": "Commission Européenne", "url": "https://ec.europa.eu/info/business-economy-euro/banking-and-finance/sustainable-finance_en", "annee": 2018, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Principles for Responsible Investment (PRI)",
+          "url": "https://www.unpri.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "EU Sustainable Finance Action Plan",
+          "auteur": "Commission Européenne",
+          "url": "https://ec.europa.eu/info/business-economy-euro/banking-and-finance/sustainable-finance_en",
+          "annee": 2018,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["ESG", "PRI", "SFDR", "double matérialité", "taxonomie"],
+      "motsClésScientifiques": [
+        "ESG",
+        "PRI",
+        "SFDR",
+        "double matérialité",
+        "taxonomie"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Finance durable : >35 000 Mrd$ d'actifs mondiaux", "source": "GSIA", "annee": 2022},
-        {"valeur": "PRI : 5 000+ signataires, 120 000 Mrd$ d'actifs", "source": "PRI", "annee": 2023}
+        {
+          "valeur": "Finance durable : >35 000 Mrd$ d'actifs mondiaux",
+          "source": "GSIA",
+          "annee": 2022
+        },
+        {
+          "valeur": "PRI : 5 000+ signataires, 120 000 Mrd$ d'actifs",
+          "source": "PRI",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "taxonomie-verte", "type": "renvoie_a", "score": 95},
-        {"cible": "investissement-responsable", "type": "proche_de", "score": 90}
+        {
+          "cible": "taxonomie-verte",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "investissement-responsable",
+          "type": "proche_de",
+          "score": 90
+        }
       ],
-      "exemples": ["Fonds ISR", "Green bonds", "Prêts verts"],
-      "synonymes": ["finance responsable", "sustainable finance"]
+      "exemples": [
+        "Fonds ISR",
+        "Green bonds",
+        "Prêts verts"
+      ],
+      "synonymes": [
+        "finance responsable",
+        "sustainable finance"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Green_finance.svg/800px-Green_finance.svg.png",
+        "alt": "Finance durable",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Concept de finance durable"
+      }
     },
     {
       "id": "criteres-esg",
@@ -49,22 +98,71 @@
         "perspectives": "L'avenir passe par : la standardisation (ISSB, ESRS), l'amélioration des données (technologies, audit), l'intégration de la biodiversité et du social, et la réduction du greenwashing. L'ESG devient un prérequis plutôt qu'un différenciateur."
       },
       "sources": [
-        {"titre": "Who Cares Wins", "auteur": "UN Global Compact", "annee": 2004, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "SFDR - Règlement (UE) 2019/2088", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2019, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Who Cares Wins",
+          "auteur": "UN Global Compact",
+          "annee": 2004,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "SFDR - Règlement (UE) 2019/2088",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/",
+          "annee": 2019,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["notation extra-financière", "matérialité", "CSRD", "ESRS", "divergence"],
+      "motsClésScientifiques": [
+        "notation extra-financière",
+        "matérialité",
+        "CSRD",
+        "ESRS",
+        "divergence"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "90% des grands investisseurs intègrent l'ESG", "source": "PwC", "annee": 2022},
-        {"valeur": "Corrélation entre agences ESG : <0,5", "source": "MIT Sloan", "annee": 2022}
+        {
+          "valeur": "90% des grands investisseurs intègrent l'ESG",
+          "source": "PwC",
+          "annee": 2022
+        },
+        {
+          "valeur": "Corrélation entre agences ESG : <0,5",
+          "source": "MIT Sloan",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "finance-durable", "type": "contribue_a", "score": 95},
-        {"cible": "rse", "type": "proche_de", "score": 85}
+        {
+          "cible": "finance-durable",
+          "type": "contribue_a",
+          "score": 95
+        },
+        {
+          "cible": "rse",
+          "type": "proche_de",
+          "score": 85
+        }
       ],
-      "exemples": ["Notation MSCI ESG", "Score Vigeo-Eiris", "Reporting CSRD"],
-      "synonymes": ["critères extra-financiers", "ESG criteria"]
+      "exemples": [
+        "Notation MSCI ESG",
+        "Score Vigeo-Eiris",
+        "Reporting CSRD"
+      ],
+      "synonymes": [
+        "critères extra-financiers",
+        "ESG criteria"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/ESG_criteria.svg/800px-ESG_criteria.svg.png",
+        "alt": "Critères ESG",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Environnement, Social, Gouvernance"
+      }
     },
     {
       "id": "obligation-verte",
@@ -80,22 +178,71 @@
         "perspectives": "L'avenir passe par : l'EuGBS (standard européen exigeant), l'extension aux obligations sociales et durables, l'amélioration du reporting d'impact, et le développement dans les marchés émergents. Les green bonds souverains se multiplient."
       },
       "sources": [
-        {"titre": "Green Bond Principles", "auteur": "ICMA", "url": "https://www.icmagroup.org/sustainable-finance/", "annee": 2021, "type": "norme_iso", "niveauPreuve": "elevé"},
-        {"titre": "Climate Bonds Initiative - Market Data", "url": "https://www.climatebonds.net/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Green Bond Principles",
+          "auteur": "ICMA",
+          "url": "https://www.icmagroup.org/sustainable-finance/",
+          "annee": 2021,
+          "type": "norme_iso",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Climate Bonds Initiative - Market Data",
+          "url": "https://www.climatebonds.net/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["GBP", "SPO", "greenium", "EuGBS", "use of proceeds"],
+      "motsClésScientifiques": [
+        "GBP",
+        "SPO",
+        "greenium",
+        "EuGBS",
+        "use of proceeds"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Marché green bonds : 2 500 Mrd$ cumulés", "source": "Climate Bonds Initiative", "annee": 2023},
-        {"valeur": "Émissions annuelles : 500+ Mrd$", "source": "CBI", "annee": 2022}
+        {
+          "valeur": "Marché green bonds : 2 500 Mrd$ cumulés",
+          "source": "Climate Bonds Initiative",
+          "annee": 2023
+        },
+        {
+          "valeur": "Émissions annuelles : 500+ Mrd$",
+          "source": "CBI",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "finance-durable", "type": "est_type_de", "score": 95},
-        {"cible": "taxonomie-verte", "type": "renvoie_a", "score": 85}
+        {
+          "cible": "finance-durable",
+          "type": "est_type_de",
+          "score": 95
+        },
+        {
+          "cible": "taxonomie-verte",
+          "type": "renvoie_a",
+          "score": 85
+        }
       ],
-      "exemples": ["OAT Verte française", "Green Bond Apple", "Émissions BEI"],
-      "synonymes": ["green bond", "emprunt vert"]
+      "exemples": [
+        "OAT Verte française",
+        "Green Bond Apple",
+        "Émissions BEI"
+      ],
+      "synonymes": [
+        "green bond",
+        "emprunt vert"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Green_bond.svg/400px-Green_bond.svg.png",
+        "alt": "Obligation verte",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Financement de projets environnementaux"
+      }
     },
     {
       "id": "taxonomie-ue",
@@ -111,22 +258,65 @@
         "perspectives": "L'avenir passe par : l'extension de la couverture sectorielle, la taxonomie sociale, l'harmonisation internationale (IPSF), et la simplification pour les PME. La taxonomie devient le langage commun de la finance durable en Europe."
       },
       "sources": [
-        {"titre": "Règlement (UE) 2020/852 (Taxonomie)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32020R0852", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "EU Taxonomy Compass", "auteur": "Commission Européenne", "url": "https://ec.europa.eu/sustainable-finance-taxonomy/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Règlement (UE) 2020/852 (Taxonomie)",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32020R0852",
+          "annee": 2020,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "EU Taxonomy Compass",
+          "auteur": "Commission Européenne",
+          "url": "https://ec.europa.eu/sustainable-finance-taxonomy/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["DNSH", "contribution substantielle", "actes délégués", "6 objectifs", "alignement"],
+      "motsClésScientifiques": [
+        "DNSH",
+        "contribution substantielle",
+        "actes délégués",
+        "6 objectifs",
+        "alignement"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "6 objectifs environnementaux couverts", "source": "Commission Européenne", "annee": 2023},
-        {"valeur": "Alignement moyen entreprises UE : <10%", "source": "Études diverses", "annee": 2023}
+        {
+          "valeur": "6 objectifs environnementaux couverts",
+          "source": "Commission Européenne",
+          "annee": 2023
+        },
+        {
+          "valeur": "Alignement moyen entreprises UE : <10%",
+          "source": "Études diverses",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "finance-durable", "type": "contribue_a", "score": 95},
-        {"cible": "obligation-verte", "type": "renvoie_a", "score": 85}
+        {
+          "cible": "finance-durable",
+          "type": "contribue_a",
+          "score": 95
+        },
+        {
+          "cible": "obligation-verte",
+          "type": "renvoie_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Énergies renouvelables (alignées)", "Transport électrique (aligné)", "Gaz naturel (transitoire, controversé)"],
-      "synonymes": ["EU Taxonomy", "classification verte européenne"]
+      "exemples": [
+        "Énergies renouvelables (alignées)",
+        "Transport électrique (aligné)",
+        "Gaz naturel (transitoire, controversé)"
+      ],
+      "synonymes": [
+        "EU Taxonomy",
+        "classification verte européenne"
+      ]
     },
     {
       "id": "csrd",
@@ -142,22 +332,65 @@
         "perspectives": "L'avenir passe par : la simplification progressive, les outils numériques, l'harmonisation ESRS-ISSB, et l'extension aux PME non cotées. La CSRD vise à faire du reporting de durabilité un standard aussi rigoureux que le reporting financier."
       },
       "sources": [
-        {"titre": "Directive (UE) 2022/2464 (CSRD)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32022L2464", "annee": 2022, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "ESRS (European Sustainability Reporting Standards)", "auteur": "EFRAG", "url": "https://www.efrag.org/", "annee": 2023, "type": "norme_iso", "niveauPreuve": "elevé"}
+        {
+          "titre": "Directive (UE) 2022/2464 (CSRD)",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32022L2464",
+          "annee": 2022,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "ESRS (European Sustainability Reporting Standards)",
+          "auteur": "EFRAG",
+          "url": "https://www.efrag.org/",
+          "annee": 2023,
+          "type": "norme_iso",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["ESRS", "double matérialité", "EFRAG", "audit durabilité", "XBRL"],
+      "motsClésScientifiques": [
+        "ESRS",
+        "double matérialité",
+        "EFRAG",
+        "audit durabilité",
+        "XBRL"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "~50 000 entreprises concernées en UE", "source": "Commission Européenne", "annee": 2023},
-        {"valeur": "12 standards ESRS thématiques", "source": "EFRAG", "annee": 2023}
+        {
+          "valeur": "~50 000 entreprises concernées en UE",
+          "source": "Commission Européenne",
+          "annee": 2023
+        },
+        {
+          "valeur": "12 standards ESRS thématiques",
+          "source": "EFRAG",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "criteres-esg", "type": "renvoie_a", "score": 90},
-        {"cible": "taxonomie-ue", "type": "renvoie_a", "score": 85}
+        {
+          "cible": "criteres-esg",
+          "type": "renvoie_a",
+          "score": 90
+        },
+        {
+          "cible": "taxonomie-ue",
+          "type": "renvoie_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Reporting climat (ESRS E1)", "Reporting social (ESRS S1-S4)", "Reporting gouvernance (ESRS G1)"],
-      "synonymes": ["directive reporting durabilité", "DPEF étendue"]
+      "exemples": [
+        "Reporting climat (ESRS E1)",
+        "Reporting social (ESRS S1-S4)",
+        "Reporting gouvernance (ESRS G1)"
+      ],
+      "synonymes": [
+        "directive reporting durabilité",
+        "DPEF étendue"
+      ]
     },
     {
       "id": "sfdr",
@@ -173,22 +406,64 @@
         "perspectives": "L'avenir passe par : la révision de la classification (catégories plus claires), l'amélioration des données, l'articulation renforcée avec la taxonomie, et l'extension des PAI. L'objectif est un marché où les allégations durables sont vérifiables."
       },
       "sources": [
-        {"titre": "Règlement (UE) 2019/2088 (SFDR)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32019R2088", "annee": 2019, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "RTS SFDR", "auteur": "ESAs", "annee": 2022, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Règlement (UE) 2019/2088 (SFDR)",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32019R2088",
+          "annee": 2019,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "RTS SFDR",
+          "auteur": "ESAs",
+          "annee": 2022,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["Article 8", "Article 9", "PAI", "RTS", "investissement durable"],
+      "motsClésScientifiques": [
+        "Article 8",
+        "Article 9",
+        "PAI",
+        "RTS",
+        "investissement durable"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Fonds Article 8+9 : >50% du marché européen", "source": "Morningstar", "annee": 2023},
-        {"valeur": "14 indicateurs PAI obligatoires", "source": "RTS SFDR", "annee": 2022}
+        {
+          "valeur": "Fonds Article 8+9 : >50% du marché européen",
+          "source": "Morningstar",
+          "annee": 2023
+        },
+        {
+          "valeur": "14 indicateurs PAI obligatoires",
+          "source": "RTS SFDR",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "finance-durable", "type": "contribue_a", "score": 90},
-        {"cible": "taxonomie-ue", "type": "renvoie_a", "score": 85}
+        {
+          "cible": "finance-durable",
+          "type": "contribue_a",
+          "score": 90
+        },
+        {
+          "cible": "taxonomie-ue",
+          "type": "renvoie_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Fonds Article 9 (objectif durable)", "Fonds Article 8 (promotion ESG)", "Déclaration PAI"],
-      "synonymes": ["règlement disclosure durabilité", "SFDR"]
+      "exemples": [
+        "Fonds Article 9 (objectif durable)",
+        "Fonds Article 8 (promotion ESG)",
+        "Déclaration PAI"
+      ],
+      "synonymes": [
+        "règlement disclosure durabilité",
+        "SFDR"
+      ]
     },
     {
       "id": "risque-climatique-financier",
@@ -204,22 +479,65 @@
         "perspectives": "L'avenir passe par : la standardisation des divulgations (ISSB intègre TCFD), les stress tests réguliers, l'intégration dans les exigences prudentielles (Bâle III vert?), et la tarification du risque climatique. Le risque climatique devient un risque financier conventionnel."
       },
       "sources": [
-        {"titre": "TCFD Recommendations", "auteur": "Task Force on Climate-related Financial Disclosures", "url": "https://www.fsb-tcfd.org/", "annee": 2017, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "NGFS Scenarios", "auteur": "Network for Greening the Financial System", "url": "https://www.ngfs.net/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "TCFD Recommendations",
+          "auteur": "Task Force on Climate-related Financial Disclosures",
+          "url": "https://www.fsb-tcfd.org/",
+          "annee": 2017,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "NGFS Scenarios",
+          "auteur": "Network for Greening the Financial System",
+          "url": "https://www.ngfs.net/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["TCFD", "NGFS", "stranded assets", "risque physique", "risque de transition"],
+      "motsClésScientifiques": [
+        "TCFD",
+        "NGFS",
+        "stranded assets",
+        "risque physique",
+        "risque de transition"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Actifs échoués potentiels : 1-4 000 Mrd$ (secteur fossile)", "source": "Carbon Tracker", "annee": 2022},
-        {"valeur": "4 000+ entreprises appliquent la TCFD", "source": "TCFD", "annee": 2023}
+        {
+          "valeur": "Actifs échoués potentiels : 1-4 000 Mrd$ (secteur fossile)",
+          "source": "Carbon Tracker",
+          "annee": 2022
+        },
+        {
+          "valeur": "4 000+ entreprises appliquent la TCFD",
+          "source": "TCFD",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "changement-climatique", "type": "renvoie_a", "score": 90},
-        {"cible": "finance-durable", "type": "contribue_a", "score": 85}
+        {
+          "cible": "changement-climatique",
+          "type": "renvoie_a",
+          "score": 90
+        },
+        {
+          "cible": "finance-durable",
+          "type": "contribue_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Stress test climatique BCE", "Dépréciation actifs pétroliers", "Assurance catastrophes naturelles"],
-      "synonymes": ["risque climat", "climate financial risk"]
+      "exemples": [
+        "Stress test climatique BCE",
+        "Dépréciation actifs pétroliers",
+        "Assurance catastrophes naturelles"
+      ],
+      "synonymes": [
+        "risque climat",
+        "climate financial risk"
+      ]
     },
     {
       "id": "desinvestissement-fossile",
@@ -235,22 +553,64 @@
         "perspectives": "L'avenir passe par : l'extension au-delà du charbon (pétrole, gaz), l'articulation avec l'engagement actionnarial, le financement positif de la transition, et la cohérence des politiques (institutions publiques). Le concept de 'finance alignée 1,5°C' dépasse le simple désinvestissement."
       },
       "sources": [
-        {"titre": "Global Fossil Fuel Divestment Commitments Database", "auteur": "Stand.earth", "url": "https://divestmentdatabase.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "moyen"},
-        {"titre": "The Financial Case for Fossil Fuel Divestment", "auteur": "IEEFA", "annee": 2018, "type": "rapport_institution", "niveauPreuve": "moyen"}
+        {
+          "titre": "Global Fossil Fuel Divestment Commitments Database",
+          "auteur": "Stand.earth",
+          "url": "https://divestmentdatabase.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "moyen"
+        },
+        {
+          "titre": "The Financial Case for Fossil Fuel Divestment",
+          "auteur": "IEEFA",
+          "annee": 2018,
+          "type": "rapport_institution",
+          "niveauPreuve": "moyen"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["fossil free", "stranded assets", "stigmatisation", "exclusion", "engagement"],
+      "motsClésScientifiques": [
+        "fossil free",
+        "stranded assets",
+        "stigmatisation",
+        "exclusion",
+        "engagement"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "40 000 Mrd$ d'actifs engagés dans le désinvestissement", "source": "Stand.earth", "annee": 2023},
-        {"valeur": "1 500+ institutions ont désinvesti", "source": "350.org", "annee": 2023}
+        {
+          "valeur": "40 000 Mrd$ d'actifs engagés dans le désinvestissement",
+          "source": "Stand.earth",
+          "annee": 2023
+        },
+        {
+          "valeur": "1 500+ institutions ont désinvesti",
+          "source": "350.org",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "risque-climatique-financier", "type": "renvoie_a", "score": 85},
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 75}
+        {
+          "cible": "risque-climatique-financier",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 75
+        }
       ],
-      "exemples": ["Fonds souverain norvégien (charbon)", "Université Harvard", "Assureur Axa"],
-      "synonymes": ["fossil fuel divestment", "sortie des fossiles"]
+      "exemples": [
+        "Fonds souverain norvégien (charbon)",
+        "Université Harvard",
+        "Assureur Axa"
+      ],
+      "synonymes": [
+        "fossil fuel divestment",
+        "sortie des fossiles"
+      ]
     },
     {
       "id": "finance-impact",
@@ -266,22 +626,64 @@
         "perspectives": "L'avenir passe par : la standardisation de la mesure (ISSB intègre l'impact?), l'extension aux marchés publics, le développement du blended finance (public-privé), et la démocratisation (investisseurs particuliers). L'impact devient un objectif mainstream."
       },
       "sources": [
-        {"titre": "GIIN Annual Impact Investor Survey", "auteur": "Global Impact Investing Network", "url": "https://thegiin.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Impact Management Project", "url": "https://impactmanagementproject.com/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "GIIN Annual Impact Investor Survey",
+          "auteur": "Global Impact Investing Network",
+          "url": "https://thegiin.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Impact Management Project",
+          "url": "https://impactmanagementproject.com/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["GIIN", "IRIS+", "Theory of Change", "additionnalité", "blended finance"],
+      "motsClésScientifiques": [
+        "GIIN",
+        "IRIS+",
+        "Theory of Change",
+        "additionnalité",
+        "blended finance"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Marché impact investing : 1 164 Mrd$", "source": "GIIN", "annee": 2022},
-        {"valeur": "Croissance annuelle : ~15%", "source": "GIIN", "annee": 2023}
+        {
+          "valeur": "Marché impact investing : 1 164 Mrd$",
+          "source": "GIIN",
+          "annee": 2022
+        },
+        {
+          "valeur": "Croissance annuelle : ~15%",
+          "source": "GIIN",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "finance-durable", "type": "est_type_de", "score": 90},
-        {"cible": "investissement-responsable", "type": "proche_de", "score": 80}
+        {
+          "cible": "finance-durable",
+          "type": "est_type_de",
+          "score": 90
+        },
+        {
+          "cible": "investissement-responsable",
+          "type": "proche_de",
+          "score": 80
+        }
       ],
-      "exemples": ["Fonds Mirova Impact", "Social Impact Bonds", "Microfinance"],
-      "synonymes": ["impact investing", "investissement à impact"]
+      "exemples": [
+        "Fonds Mirova Impact",
+        "Social Impact Bonds",
+        "Microfinance"
+      ],
+      "synonymes": [
+        "impact investing",
+        "investissement à impact"
+      ]
     },
     {
       "id": "credit-carbone",
@@ -297,22 +699,72 @@
         "perspectives": "L'avenir passe par : le renforcement des standards (Core Carbon Principles), la transparence des registres, l'articulation avec l'Article 6, et la hiérarchisation (réduction d'abord, compensation en dernier recours). Les crédits de haute intégrité (removal) gagnent en valeur."
       },
       "sources": [
-        {"titre": "State of the Voluntary Carbon Markets", "auteur": "Ecosystem Marketplace", "url": "https://www.ecosystemmarketplace.com/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Core Carbon Principles (ICVCM)", "auteur": "ICVCM", "url": "https://icvcm.org/", "annee": 2023, "type": "norme_iso", "niveauPreuve": "elevé"}
+        {
+          "titre": "State of the Voluntary Carbon Markets",
+          "auteur": "Ecosystem Marketplace",
+          "url": "https://www.ecosystemmarketplace.com/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Core Carbon Principles (ICVCM)",
+          "auteur": "ICVCM",
+          "url": "https://icvcm.org/",
+          "annee": 2023,
+          "type": "norme_iso",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["Verra", "Gold Standard", "additionnalité", "permanence", "Article 6"],
+      "motsClésScientifiques": [
+        "Verra",
+        "Gold Standard",
+        "additionnalité",
+        "permanence",
+        "Article 6"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Marché volontaire : 2 Mrd$/an", "source": "Ecosystem Marketplace", "annee": 2022},
-        {"valeur": "500 Mt CO2 de crédits émis/an", "source": "Verra", "annee": 2022}
+        {
+          "valeur": "Marché volontaire : 2 Mrd$/an",
+          "source": "Ecosystem Marketplace",
+          "annee": 2022
+        },
+        {
+          "valeur": "500 Mt CO2 de crédits émis/an",
+          "source": "Verra",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 70},
-        {"cible": "marche-carbone", "type": "renvoie_a", "score": 95}
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 70
+        },
+        {
+          "cible": "marche-carbone",
+          "type": "renvoie_a",
+          "score": 95
+        }
       ],
-      "exemples": ["Crédits REDD+ (forêts)", "Crédits cookstoves", "Crédits capture directe"],
-      "synonymes": ["carbon credit", "unité carbone"]
+      "exemples": [
+        "Crédits REDD+ (forêts)",
+        "Crédits cookstoves",
+        "Crédits capture directe"
+      ],
+      "synonymes": [
+        "carbon credit",
+        "unité carbone"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Carbon_credit.svg/800px-Carbon_credit.svg.png",
+        "alt": "Crédit carbone",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Marché des quotas d'émission"
+      }
     },
     {
       "id": "marche-carbone",
@@ -328,22 +780,65 @@
         "perspectives": "L'avenir passe par : des prix carbone plus élevés (>150€ pour atteindre les objectifs), l'extension sectorielle (bâtiment, transport via ETS 2), la coordination internationale (club climat), et l'articulation avec les crédits carbone (Article 6). La taxation carbone directe complète les marchés."
       },
       "sources": [
-        {"titre": "EU Emissions Trading System (ETS)", "auteur": "Commission Européenne", "url": "https://climate.ec.europa.eu/eu-action/eu-emissions-trading-system-eu-ets_en", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "State and Trends of Carbon Pricing", "auteur": "Banque mondiale", "url": "https://openknowledge.worldbank.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "EU Emissions Trading System (ETS)",
+          "auteur": "Commission Européenne",
+          "url": "https://climate.ec.europa.eu/eu-action/eu-emissions-trading-system-eu-ets_en",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "State and Trends of Carbon Pricing",
+          "auteur": "Banque mondiale",
+          "url": "https://openknowledge.worldbank.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["EU ETS", "cap-and-trade", "quota", "CBAM", "fuite carbone"],
+      "motsClésScientifiques": [
+        "EU ETS",
+        "cap-and-trade",
+        "quota",
+        "CBAM",
+        "fuite carbone"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Prix carbone EU ETS : 80-100€/tCO2 (2023)", "source": "ICE", "annee": 2023},
-        {"valeur": "EU ETS couvre 40% des émissions UE", "source": "Commission Européenne", "annee": 2023}
+        {
+          "valeur": "Prix carbone EU ETS : 80-100€/tCO2 (2023)",
+          "source": "ICE",
+          "annee": 2023
+        },
+        {
+          "valeur": "EU ETS couvre 40% des émissions UE",
+          "source": "Commission Européenne",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "credit-carbone", "type": "renvoie_a", "score": 85},
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 80}
+        {
+          "cible": "credit-carbone",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 80
+        }
       ],
-      "exemples": ["EU ETS", "California Cap-and-Trade", "China ETS"],
-      "synonymes": ["carbon market", "système d'échange de quotas"]
+      "exemples": [
+        "EU ETS",
+        "California Cap-and-Trade",
+        "China ETS"
+      ],
+      "synonymes": [
+        "carbon market",
+        "système d'échange de quotas"
+      ]
     },
     {
       "id": "label-isr",
@@ -359,22 +854,64 @@
         "perspectives": "L'avenir passe par : l'approfondissement climatique (trajectoire 1,5°C?), l'extension aux autres classes d'actifs, l'articulation européenne, et le renforcement de l'impact. Le label pourrait évoluer vers un 'label impact' au-delà de l'ISR."
       },
       "sources": [
-        {"titre": "Label ISR - Référentiel", "auteur": "Ministère de l'Économie", "url": "https://www.lelabelisr.fr/", "annee": 2024, "type": "norme_iso", "niveauPreuve": "elevé"},
-        {"titre": "Bilan du label ISR", "auteur": "AFG", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "moyen"}
+        {
+          "titre": "Label ISR - Référentiel",
+          "auteur": "Ministère de l'Économie",
+          "url": "https://www.lelabelisr.fr/",
+          "annee": 2024,
+          "type": "norme_iso",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Bilan du label ISR",
+          "auteur": "AFG",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "moyen"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["certification", "sélectivité", "engagement", "exclusion", "réforme 2024"],
+      "motsClésScientifiques": [
+        "certification",
+        "sélectivité",
+        "engagement",
+        "exclusion",
+        "réforme 2024"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "1 200+ fonds labellisés ISR", "source": "lelabelisr.fr", "annee": 2023},
-        {"valeur": "800 Mrd€ d'encours labellisés", "source": "AFG", "annee": 2023}
+        {
+          "valeur": "1 200+ fonds labellisés ISR",
+          "source": "lelabelisr.fr",
+          "annee": 2023
+        },
+        {
+          "valeur": "800 Mrd€ d'encours labellisés",
+          "source": "AFG",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "investissement-responsable", "type": "est_type_de", "score": 95},
-        {"cible": "criteres-esg", "type": "renvoie_a", "score": 90}
+        {
+          "cible": "investissement-responsable",
+          "type": "est_type_de",
+          "score": 95
+        },
+        {
+          "cible": "criteres-esg",
+          "type": "renvoie_a",
+          "score": 90
+        }
       ],
-      "exemples": ["Fonds actions ISR", "OPCVM labellisés", "Assurance-vie ISR"],
-      "synonymes": ["label investissement responsable", "SRI label"]
+      "exemples": [
+        "Fonds actions ISR",
+        "OPCVM labellisés",
+        "Assurance-vie ISR"
+      ],
+      "synonymes": [
+        "label investissement responsable",
+        "SRI label"
+      ]
     },
     {
       "id": "greenwashing-financier",
@@ -390,22 +927,65 @@
         "perspectives": "L'avenir passe par : la standardisation (taxonomie, ESRS), la vérification indépendante, les sanctions renforcées, et l'éducation des investisseurs. Le greenwashing pourrait devenir un risque juridique majeur pour les acteurs financiers."
       },
       "sources": [
-        {"titre": "ESMA Report on Greenwashing", "auteur": "ESMA", "url": "https://www.esma.europa.eu/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "AMF Position on ESG Communication", "auteur": "AMF", "url": "https://www.amf-france.org/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "ESMA Report on Greenwashing",
+          "auteur": "ESMA",
+          "url": "https://www.esma.europa.eu/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "AMF Position on ESG Communication",
+          "auteur": "AMF",
+          "url": "https://www.amf-france.org/",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["ESG washing", "transition washing", "allégations", "ESMA", "AMF"],
+      "motsClésScientifiques": [
+        "ESG washing",
+        "transition washing",
+        "allégations",
+        "ESMA",
+        "AMF"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "40% des allégations environnementales sont vagues ou non fondées", "source": "Commission Européenne", "annee": 2021},
-        {"valeur": "Amendes DWS : 19 M$ (SEC, 2023)", "source": "SEC", "annee": 2023}
+        {
+          "valeur": "40% des allégations environnementales sont vagues ou non fondées",
+          "source": "Commission Européenne",
+          "annee": 2021
+        },
+        {
+          "valeur": "Amendes DWS : 19 M$ (SEC, 2023)",
+          "source": "SEC",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "finance-durable", "type": "oppose_a", "score": 95},
-        {"cible": "greenwashing", "type": "est_type_de", "score": 95}
+        {
+          "cible": "finance-durable",
+          "type": "oppose_a",
+          "score": 95
+        },
+        {
+          "cible": "greenwashing",
+          "type": "est_type_de",
+          "score": 95
+        }
       ],
-      "exemples": ["Fonds 'climat' investis dans les fossiles", "Green bond contesté", "Notation ESG élevée malgré controverses"],
-      "synonymes": ["ESG washing", "écoblanchiment financier"]
+      "exemples": [
+        "Fonds 'climat' investis dans les fossiles",
+        "Green bond contesté",
+        "Notation ESG élevée malgré controverses"
+      ],
+      "synonymes": [
+        "ESG washing",
+        "écoblanchiment financier"
+      ]
     },
     {
       "id": "engagement-actionnarial",
@@ -421,22 +1001,64 @@
         "perspectives": "L'avenir passe par : la transparence des votes (publication systématique), le renforcement des coalitions, l'engagement sur la biodiversité (après le climat), et l'articulation avec les réglementations (Say on Climate obligatoire?). L'engagement devient un standard attendu des investisseurs responsables."
       },
       "sources": [
-        {"titre": "Climate Action 100+", "url": "https://www.climateaction100.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "PRI Stewardship", "auteur": "PRI", "url": "https://www.unpri.org/stewardship", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Climate Action 100+",
+          "url": "https://www.climateaction100.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "PRI Stewardship",
+          "auteur": "PRI",
+          "url": "https://www.unpri.org/stewardship",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["Climate Action 100+", "Say on Climate", "stewardship", "vote AG", "résolution climat"],
+      "motsClésScientifiques": [
+        "Climate Action 100+",
+        "Say on Climate",
+        "stewardship",
+        "vote AG",
+        "résolution climat"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Climate Action 100+ : 700 investisseurs, 68 000 Mrd$", "source": "CA100+", "annee": 2023},
-        {"valeur": "Résolutions climat : 50% de soutien moyen (2023)", "source": "Proxy Preview", "annee": 2023}
+        {
+          "valeur": "Climate Action 100+ : 700 investisseurs, 68 000 Mrd$",
+          "source": "CA100+",
+          "annee": 2023
+        },
+        {
+          "valeur": "Résolutions climat : 50% de soutien moyen (2023)",
+          "source": "Proxy Preview",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "desinvestissement-fossile", "type": "oppose_a", "score": 70},
-        {"cible": "finance-durable", "type": "contribue_a", "score": 85}
+        {
+          "cible": "desinvestissement-fossile",
+          "type": "oppose_a",
+          "score": 70
+        },
+        {
+          "cible": "finance-durable",
+          "type": "contribue_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Engagement Total sur la stratégie climat", "Résolution climat ExxonMobil", "Say on Climate Shell"],
-      "synonymes": ["shareholder engagement", "stewardship"]
+      "exemples": [
+        "Engagement Total sur la stratégie climat",
+        "Résolution climat ExxonMobil",
+        "Say on Climate Shell"
+      ],
+      "synonymes": [
+        "shareholder engagement",
+        "stewardship"
+      ]
     },
     {
       "id": "finance-biodiversite",
@@ -452,22 +1074,65 @@
         "perspectives": "L'avenir passe par : l'adoption massive de la TNFD, le développement de marchés de crédits biodiversité crédibles, la réforme des subventions nuisibles (500 Mrd$/an), et l'intégration climat-biodiversité. La finance biodiversité suit la trajectoire de la finance climat avec 10 ans de retard."
       },
       "sources": [
-        {"titre": "TNFD Recommendations", "auteur": "Taskforce on Nature-related Financial Disclosures", "url": "https://tnfd.global/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "State of Finance for Nature", "auteur": "UNEP", "url": "https://www.unep.org/resources/state-finance-nature", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "TNFD Recommendations",
+          "auteur": "Taskforce on Nature-related Financial Disclosures",
+          "url": "https://tnfd.global/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "State of Finance for Nature",
+          "auteur": "UNEP",
+          "url": "https://www.unep.org/resources/state-finance-nature",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["TNFD", "SBTN", "ENCORE", "nature positive", "PSE"],
+      "motsClésScientifiques": [
+        "TNFD",
+        "SBTN",
+        "ENCORE",
+        "nature positive",
+        "PSE"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Déficit de financement biodiversité : 700 Mrd$/an", "source": "UNEP", "annee": 2022},
-        {"valeur": "Objectif Kunming-Montréal : 200 Mrd$/an d'ici 2030", "source": "CBD", "annee": 2022}
+        {
+          "valeur": "Déficit de financement biodiversité : 700 Mrd$/an",
+          "source": "UNEP",
+          "annee": 2022
+        },
+        {
+          "valeur": "Objectif Kunming-Montréal : 200 Mrd$/an d'ici 2030",
+          "source": "CBD",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "biodiversite", "type": "contribue_a", "score": 95},
-        {"cible": "finance-durable", "type": "est_type_de", "score": 85}
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 95
+        },
+        {
+          "cible": "finance-durable",
+          "type": "est_type_de",
+          "score": 85
+        }
       ],
-      "exemples": ["Fonds NatureVest", "Debt-for-nature swap Belize", "Crédits biodiversité (pilotes)"],
-      "synonymes": ["nature finance", "biodiversity finance"]
+      "exemples": [
+        "Fonds NatureVest",
+        "Debt-for-nature swap Belize",
+        "Crédits biodiversité (pilotes)"
+      ],
+      "synonymes": [
+        "nature finance",
+        "biodiversity finance"
+      ]
     },
     {
       "id": "blended-finance",
@@ -483,22 +1148,64 @@
         "perspectives": "L'avenir passe par : la standardisation des instruments, le pipeline de projets, l'extension à la biodiversité et l'adaptation, et les véhicules de plus grande échelle. Les garanties souveraines (MDBs) pourraient démultiplier l'effet de levier."
       },
       "sources": [
-        {"titre": "Blended Finance Taskforce", "auteur": "Business & Sustainable Development Commission", "url": "https://www.blendedfinance.earth/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Convergence - Blended Finance Data", "url": "https://www.convergence.finance/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Blended Finance Taskforce",
+          "auteur": "Business & Sustainable Development Commission",
+          "url": "https://www.blendedfinance.earth/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Convergence - Blended Finance Data",
+          "url": "https://www.convergence.finance/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["effet de levier", "garantie", "first-loss", "concessional", "MDB"],
+      "motsClésScientifiques": [
+        "effet de levier",
+        "garantie",
+        "first-loss",
+        "concessional",
+        "MDB"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Blended finance : ~150 Mrd$/an mobilisés", "source": "Convergence", "annee": 2022},
-        {"valeur": "Effet de levier moyen : 4x (1$ public → 4$ total)", "source": "OECD", "annee": 2022}
+        {
+          "valeur": "Blended finance : ~150 Mrd$/an mobilisés",
+          "source": "Convergence",
+          "annee": 2022
+        },
+        {
+          "valeur": "Effet de levier moyen : 4x (1$ public → 4$ total)",
+          "source": "OECD",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "finance-durable", "type": "est_type_de", "score": 85},
-        {"cible": "finance-impact", "type": "proche_de", "score": 80}
+        {
+          "cible": "finance-durable",
+          "type": "est_type_de",
+          "score": 85
+        },
+        {
+          "cible": "finance-impact",
+          "type": "proche_de",
+          "score": 80
+        }
       ],
-      "exemples": ["Fonds climat vert (GCF)", "Emerging Africa Infrastructure Fund", "Garanties IDA"],
-      "synonymes": ["finance mixte", "catalytic capital"]
+      "exemples": [
+        "Fonds climat vert (GCF)",
+        "Emerging Africa Infrastructure Fund",
+        "Garanties IDA"
+      ],
+      "synonymes": [
+        "finance mixte",
+        "catalytic capital"
+      ]
     },
     {
       "id": "science-based-targets",
@@ -514,22 +1221,63 @@
         "perspectives": "L'avenir passe par : le suivi des progrès (au-delà de la validation initiale), l'extension à la biodiversité (SBTN), le renforcement du scope 3, et l'intégration dans les réglementations. Les SBT deviennent un prérequis pour la crédibilité des engagements climat."
       },
       "sources": [
-        {"titre": "Science Based Targets initiative", "url": "https://sciencebasedtargets.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "SBTi Corporate Net-Zero Standard", "auteur": "SBTi", "annee": 2021, "type": "norme_iso", "niveauPreuve": "elevé"}
+        {
+          "titre": "Science Based Targets initiative",
+          "url": "https://sciencebasedtargets.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "SBTi Corporate Net-Zero Standard",
+          "auteur": "SBTi",
+          "annee": 2021,
+          "type": "norme_iso",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["net-zero", "scope 3", "trajectoire 1.5°C", "validation", "SBTN"],
+      "motsClésScientifiques": [
+        "net-zero",
+        "scope 3",
+        "trajectoire 1.5°C",
+        "validation",
+        "SBTN"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "4 000+ entreprises avec SBT validé ou engagé", "source": "SBTi", "annee": 2023},
-        {"valeur": "Net-Zero Standard : réduction 90%+ avant neutralisation", "source": "SBTi", "annee": 2021}
+        {
+          "valeur": "4 000+ entreprises avec SBT validé ou engagé",
+          "source": "SBTi",
+          "annee": 2023
+        },
+        {
+          "valeur": "Net-Zero Standard : réduction 90%+ avant neutralisation",
+          "source": "SBTi",
+          "annee": 2021
+        }
       ],
       "relations": [
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 95},
-        {"cible": "empreinte-carbone", "type": "renvoie_a", "score": 85}
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 95
+        },
+        {
+          "cible": "empreinte-carbone",
+          "type": "renvoie_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Objectif Danone -30% scope 1-2 d'ici 2030", "Trajectoire net-zero Microsoft", "SBT financiers BNP Paribas"],
-      "synonymes": ["objectifs fondés sur la science", "SBT"]
+      "exemples": [
+        "Objectif Danone -30% scope 1-2 d'ici 2030",
+        "Trajectoire net-zero Microsoft",
+        "SBT financiers BNP Paribas"
+      ],
+      "synonymes": [
+        "objectifs fondés sur la science",
+        "SBT"
+      ]
     }
   ]
 }

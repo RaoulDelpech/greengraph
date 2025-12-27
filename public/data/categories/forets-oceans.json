@@ -18,22 +18,73 @@
         "perspectives": "L'avenir passe par : la traçabilité (satellite, blockchain), la restauration forestière (Décennie ONU), les paiements pour services écosystémiques (REDD+), et la transformation des chaînes de valeur. Le concept de 'déforestation nette zéro' intègre les gains et pertes."
       },
       "sources": [
-        {"titre": "Global Forest Resources Assessment 2020", "auteur": "FAO", "url": "https://www.fao.org/forest-resources-assessment/", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Règlement (UE) 2023/1115 (EUDR)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2023, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Global Forest Resources Assessment 2020",
+          "auteur": "FAO",
+          "url": "https://www.fao.org/forest-resources-assessment/",
+          "annee": 2020,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Règlement (UE) 2023/1115 (EUDR)",
+          "auteur": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/",
+          "annee": 2023,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["déforestation importée", "EUDR", "REDD+", "point de basculement", "Global Forest Watch"],
+      "motsClésScientifiques": [
+        "déforestation importée",
+        "EUDR",
+        "REDD+",
+        "point de basculement",
+        "Global Forest Watch"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "10 millions ha/an de déforestation nette mondiale", "source": "FAO", "annee": 2020},
-        {"valeur": "Amazonie : 17% déjà déforestée, seuil critique à 25%", "source": "INPE/Science", "annee": 2022}
+        {
+          "valeur": "10 millions ha/an de déforestation nette mondiale",
+          "source": "FAO",
+          "annee": 2020
+        },
+        {
+          "valeur": "Amazonie : 17% déjà déforestée, seuil critique à 25%",
+          "source": "INPE/Science",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "changement-climatique", "type": "contribue_a", "score": 85},
-        {"cible": "erosion-biodiversite", "type": "contribue_a", "score": 90}
+        {
+          "cible": "changement-climatique",
+          "type": "contribue_a",
+          "score": 85
+        },
+        {
+          "cible": "erosion-biodiversite",
+          "type": "contribue_a",
+          "score": 90
+        }
       ],
-      "exemples": ["Amazonie brésilienne", "Forêt du Congo", "Déforestation pour huile de palme en Indonésie"],
-      "synonymes": ["déboisement", "défrichement", "conversion forestière"]
+      "exemples": [
+        "Amazonie brésilienne",
+        "Forêt du Congo",
+        "Déforestation pour huile de palme en Indonésie"
+      ],
+      "synonymes": [
+        "déboisement",
+        "défrichement",
+        "conversion forestière"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Deforestation_in_the_Amazon.jpg/800px-Deforestation_in_the_Amazon.jpg",
+        "alt": "Déforestation en Amazonie",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Front de déforestation en forêt amazonienne"
+      }
     },
     {
       "id": "reforestation",
@@ -49,22 +100,72 @@
         "perspectives": "L'avenir passe par : la régénération naturelle (moins coûteuse, plus résiliente), l'agroforesterie, les forêts urbaines, et les standards de qualité (certification, monitoring). Le concept de 'forêts de restauration' émerge pour distinguer des plantations industrielles."
       },
       "sources": [
-        {"titre": "The Bonn Challenge", "url": "https://www.bonnchallenge.org/", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "UN Decade on Ecosystem Restoration", "auteur": "UNEP/FAO", "url": "https://www.decadeonrestoration.org/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "The Bonn Challenge",
+          "url": "https://www.bonnchallenge.org/",
+          "annee": 2020,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "UN Decade on Ecosystem Restoration",
+          "auteur": "UNEP/FAO",
+          "url": "https://www.decadeonrestoration.org/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["RNA", "Bonn Challenge", "puits de carbone", "régénération naturelle", "restauration forestière"],
+      "motsClésScientifiques": [
+        "RNA",
+        "Bonn Challenge",
+        "puits de carbone",
+        "régénération naturelle",
+        "restauration forestière"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Objectif Bonn Challenge : 350 Mha restaurés d'ici 2030", "source": "IUCN", "annee": 2020},
-        {"valeur": "Potentiel séquestration : 0,9 Mha = 205 GtC (débattu)", "source": "Science", "annee": 2019}
+        {
+          "valeur": "Objectif Bonn Challenge : 350 Mha restaurés d'ici 2030",
+          "source": "IUCN",
+          "annee": 2020
+        },
+        {
+          "valeur": "Potentiel séquestration : 0,9 Mha = 205 GtC (débattu)",
+          "source": "Science",
+          "annee": 2019
+        }
       ],
       "relations": [
-        {"cible": "deforestation", "type": "oppose_a", "score": 95},
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 80}
+        {
+          "cible": "deforestation",
+          "type": "oppose_a",
+          "score": 95
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Great Green Wall (Sahel)", "4 milliards d'arbres UE", "Loess Plateau (Chine)"],
-      "synonymes": ["reboisement", "restauration forestière", "afforestation"]
+      "exemples": [
+        "Great Green Wall (Sahel)",
+        "4 milliards d'arbres UE",
+        "Loess Plateau (Chine)"
+      ],
+      "synonymes": [
+        "reboisement",
+        "restauration forestière",
+        "afforestation"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Reforestation.jpg/800px-Reforestation.jpg",
+        "alt": "Plantation d'arbres",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Reforestation - restauration des forêts"
+      }
     },
     {
       "id": "foret-primaire",
@@ -80,22 +181,66 @@
         "perspectives": "L'avenir passe par : la protection stricte (moratoires, aires protégées), la reconnaissance des droits autochtones, la traçabilité des produits forestiers, et la valorisation des services écosystémiques (REDD+). Le concept de 'proforestation' promeut la protection des forêts existantes plutôt que les plantations."
       },
       "sources": [
-        {"titre": "Global Forest Resources Assessment 2020", "auteur": "FAO", "url": "https://www.fao.org/forest-resources-assessment/", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Intact Forest Landscapes", "auteur": "Global Forest Watch", "url": "https://www.globalforestwatch.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Global Forest Resources Assessment 2020",
+          "auteur": "FAO",
+          "url": "https://www.fao.org/forest-resources-assessment/",
+          "annee": 2020,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Intact Forest Landscapes",
+          "auteur": "Global Forest Watch",
+          "url": "https://www.globalforestwatch.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["IFL", "proforestation", "vieux bois", "forêt ancienne", "climax"],
+      "motsClésScientifiques": [
+        "IFL",
+        "proforestation",
+        "vieux bois",
+        "forêt ancienne",
+        "climax"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "36% des forêts mondiales sont primaires (1,11 Mrd ha)", "source": "FAO", "annee": 2020},
-        {"valeur": "Perte de 3,75 Mha/an de forêts primaires tropicales", "source": "WRI", "annee": 2023}
+        {
+          "valeur": "36% des forêts mondiales sont primaires (1,11 Mrd ha)",
+          "source": "FAO",
+          "annee": 2020
+        },
+        {
+          "valeur": "Perte de 3,75 Mha/an de forêts primaires tropicales",
+          "source": "WRI",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "deforestation", "type": "oppose_a", "score": 95},
-        {"cible": "biodiversite", "type": "contribue_a", "score": 90}
+        {
+          "cible": "deforestation",
+          "type": "oppose_a",
+          "score": 95
+        },
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 90
+        }
       ],
-      "exemples": ["Forêt amazonienne intacte", "Taïga sibérienne", "Forêt du Congo"],
-      "synonymes": ["forêt vierge", "forêt ancienne", "old-growth forest"]
+      "exemples": [
+        "Forêt amazonienne intacte",
+        "Taïga sibérienne",
+        "Forêt du Congo"
+      ],
+      "synonymes": [
+        "forêt vierge",
+        "forêt ancienne",
+        "old-growth forest"
+      ]
     },
     {
       "id": "sylviculture-durable",
@@ -111,22 +256,65 @@
         "perspectives": "L'avenir passe par : la sylviculture mélangée et irrégulière (résilience), l'intégration du carbone forestier dans les marchés, les services écosystémiques rémunérés, et l'adaptation climatique. Le concept de 'forêt mosaïque' diversifie les itinéraires sur un même territoire."
       },
       "sources": [
-        {"titre": "Critères et indicateurs paneuropéens (Forest Europe)", "url": "https://foresteurope.org/", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "FSC Principles and Criteria", "auteur": "FSC", "url": "https://fsc.org/", "annee": 2022, "type": "norme_iso", "niveauPreuve": "elevé"}
+        {
+          "titre": "Critères et indicateurs paneuropéens (Forest Europe)",
+          "url": "https://foresteurope.org/",
+          "annee": 2020,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "FSC Principles and Criteria",
+          "auteur": "FSC",
+          "url": "https://fsc.org/",
+          "annee": 2022,
+          "type": "norme_iso",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["FSC", "PEFC", "gestion multifonctionnelle", "rendement soutenu", "futaie irrégulière"],
+      "motsClésScientifiques": [
+        "FSC",
+        "PEFC",
+        "gestion multifonctionnelle",
+        "rendement soutenu",
+        "futaie irrégulière"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "15% des forêts mondiales certifiées FSC ou PEFC", "source": "PEFC/FSC", "annee": 2023},
-        {"valeur": "France : 8,5 Mha certifiés PEFC (52% forêt de production)", "source": "PEFC France", "annee": 2023}
+        {
+          "valeur": "15% des forêts mondiales certifiées FSC ou PEFC",
+          "source": "PEFC/FSC",
+          "annee": 2023
+        },
+        {
+          "valeur": "France : 8,5 Mha certifiés PEFC (52% forêt de production)",
+          "source": "PEFC France",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "deforestation", "type": "oppose_a", "score": 80},
-        {"cible": "economie-circulaire", "type": "contribue_a", "score": 70}
+        {
+          "cible": "deforestation",
+          "type": "oppose_a",
+          "score": 80
+        },
+        {
+          "cible": "economie-circulaire",
+          "type": "contribue_a",
+          "score": 70
+        }
       ],
-      "exemples": ["Certification FSC de forêts tropicales", "Futaie irrégulière Vosges", "Gestion Pro Silva"],
-      "synonymes": ["gestion forestière durable", "foresterie durable", "sustainable forestry"]
+      "exemples": [
+        "Certification FSC de forêts tropicales",
+        "Futaie irrégulière Vosges",
+        "Gestion Pro Silva"
+      ],
+      "synonymes": [
+        "gestion forestière durable",
+        "foresterie durable",
+        "sustainable forestry"
+      ]
     },
     {
       "id": "puits-carbone-forestier",
@@ -142,22 +330,64 @@
         "perspectives": "L'avenir passe par : la protection des forêts existantes (premier levier), l'adaptation au changement climatique, la diversification des essences, et l'intégration dans les inventaires nationaux. Le concept de 'carbone forestier total' inclut forêt sur pied, produits bois, et substitution."
       },
       "sources": [
-        {"titre": "Global Carbon Budget 2023", "auteur": "Global Carbon Project", "url": "https://www.globalcarbonproject.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Forests and Climate Change (IPCC)", "auteur": "IPCC", "annee": 2019, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Global Carbon Budget 2023",
+          "auteur": "Global Carbon Project",
+          "url": "https://www.globalcarbonproject.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Forests and Climate Change (IPCC)",
+          "auteur": "IPCC",
+          "annee": 2019,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["REDD+", "séquestration carbone", "biomasse forestière", "flux net", "carbone sol"],
+      "motsClésScientifiques": [
+        "REDD+",
+        "séquestration carbone",
+        "biomasse forestière",
+        "flux net",
+        "carbone sol"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Forêts mondiales : puits net de 2,6 GtC/an", "source": "Global Carbon Project", "annee": 2023},
-        {"valeur": "Forêts stockent 662 GtC (biomasse + sol)", "source": "FAO", "annee": 2020}
+        {
+          "valeur": "Forêts mondiales : puits net de 2,6 GtC/an",
+          "source": "Global Carbon Project",
+          "annee": 2023
+        },
+        {
+          "valeur": "Forêts stockent 662 GtC (biomasse + sol)",
+          "source": "FAO",
+          "annee": 2020
+        }
       ],
       "relations": [
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 90},
-        {"cible": "changement-climatique", "type": "oppose_a", "score": 85}
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 90
+        },
+        {
+          "cible": "changement-climatique",
+          "type": "oppose_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Forêt amazonienne : 150-200 GtC stockées", "Forêts françaises : -50 MtCO2eq/an (en baisse)"],
-      "synonymes": ["séquestration forestière", "stockage carbone forêt", "forest carbon sink"]
+      "exemples": [
+        "Forêt amazonienne : 150-200 GtC stockées",
+        "Forêts françaises : -50 MtCO2eq/an (en baisse)"
+      ],
+      "synonymes": [
+        "séquestration forestière",
+        "stockage carbone forêt",
+        "forest carbon sink"
+      ]
     },
     {
       "id": "ocean-acidification",
@@ -173,22 +403,72 @@
         "perspectives": "L'avenir dépend uniquement de la trajectoire des émissions. À +1,5°C, l'acidification restera gérable pour de nombreuses espèces. À +3-4°C, des effondrements d'écosystèmes sont attendus. Les aires marines protégées ne protègent pas de l'acidification. La recherche explore la résilience et l'adaptation assistée."
       },
       "sources": [
-        {"titre": "IPCC Special Report on Ocean and Cryosphere (SROCC)", "auteur": "IPCC", "url": "https://www.ipcc.ch/srocc/", "annee": 2019, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Ocean Acidification (IOC-UNESCO)", "auteur": "UNESCO", "url": "https://www.ioc.unesco.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "IPCC Special Report on Ocean and Cryosphere (SROCC)",
+          "auteur": "IPCC",
+          "url": "https://www.ipcc.ch/srocc/",
+          "annee": 2019,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Ocean Acidification (IOC-UNESCO)",
+          "auteur": "UNESCO",
+          "url": "https://www.ioc.unesco.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["pH océanique", "saturation aragonite", "calcification", "CO2 dissous", "limite planétaire"],
+      "motsClésScientifiques": [
+        "pH océanique",
+        "saturation aragonite",
+        "calcification",
+        "CO2 dissous",
+        "limite planétaire"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "pH océanique : passé de 8,2 à 8,1 (+30% acidité)", "source": "IPCC", "annee": 2021},
-        {"valeur": "Océans ont absorbé 30% du CO2 anthropique", "source": "Global Carbon Project", "annee": 2023}
+        {
+          "valeur": "pH océanique : passé de 8,2 à 8,1 (+30% acidité)",
+          "source": "IPCC",
+          "annee": 2021
+        },
+        {
+          "valeur": "Océans ont absorbé 30% du CO2 anthropique",
+          "source": "Global Carbon Project",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "changement-climatique", "type": "renvoie_a", "score": 90},
-        {"cible": "recif-corallien", "type": "oppose_a", "score": 95}
+        {
+          "cible": "changement-climatique",
+          "type": "renvoie_a",
+          "score": 90
+        },
+        {
+          "cible": "recif-corallien",
+          "type": "oppose_a",
+          "score": 95
+        }
       ],
-      "exemples": ["Blanchissement des coraux", "Érosion des coquilles de ptéropodes", "Difficultés d'ostréiculture"],
-      "synonymes": ["acidification marine", "ocean acidification"]
+      "exemples": [
+        "Blanchissement des coraux",
+        "Érosion des coquilles de ptéropodes",
+        "Difficultés d'ostréiculture"
+      ],
+      "synonymes": [
+        "acidification marine",
+        "ocean acidification"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Ocean_acidification.svg/800px-Ocean_acidification.svg.png",
+        "alt": "Acidification des océans",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Mécanisme d'acidification des océans"
+      }
     },
     {
       "id": "recif-corallien",
@@ -204,22 +484,71 @@
         "perspectives": "L'avenir des récifs dépend du scénario climatique. À +1,5°C, des refuges subsisteront. Au-delà, seuls des coraux thermotolérants ou des récifs artificiels pourraient persister. L'évolution assistée et la sélection de souches résistantes sont explorées."
       },
       "sources": [
-        {"titre": "IPCC Special Report 1.5°C - Chapter 3", "auteur": "IPCC", "annee": 2018, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Status of Coral Reefs of the World 2020", "auteur": "GCRMN", "url": "https://gcrmn.net/", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "IPCC Special Report 1.5°C - Chapter 3",
+          "auteur": "IPCC",
+          "annee": 2018,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Status of Coral Reefs of the World 2020",
+          "auteur": "GCRMN",
+          "url": "https://gcrmn.net/",
+          "annee": 2020,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["zooxanthelles", "blanchissement", "calcification", "Grande Barrière", "symbiose"],
+      "motsClésScientifiques": [
+        "zooxanthelles",
+        "blanchissement",
+        "calcification",
+        "Grande Barrière",
+        "symbiose"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Récifs : 0,1% des océans, 25% de la biodiversité marine", "source": "UNEP", "annee": 2021},
-        {"valeur": "50% des récifs perdus depuis 1950", "source": "GCRMN", "annee": 2020}
+        {
+          "valeur": "Récifs : 0,1% des océans, 25% de la biodiversité marine",
+          "source": "UNEP",
+          "annee": 2021
+        },
+        {
+          "valeur": "50% des récifs perdus depuis 1950",
+          "source": "GCRMN",
+          "annee": 2020
+        }
       ],
       "relations": [
-        {"cible": "ocean-acidification", "type": "oppose_a", "score": 95},
-        {"cible": "biodiversite", "type": "contribue_a", "score": 90}
+        {
+          "cible": "ocean-acidification",
+          "type": "oppose_a",
+          "score": 95
+        },
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 90
+        }
       ],
-      "exemples": ["Grande Barrière de Corail (Australie)", "Triangle de Corail", "Récifs de Polynésie française"],
-      "synonymes": ["barrière de corail", "coral reef"]
+      "exemples": [
+        "Grande Barrière de Corail (Australie)",
+        "Triangle de Corail",
+        "Récifs de Polynésie française"
+      ],
+      "synonymes": [
+        "barrière de corail",
+        "coral reef"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Coral_reef_at_palmyra.jpg/800px-Coral_reef_at_palmyra.jpg",
+        "alt": "Récif corallien",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Écosystème de récif corallien"
+      }
     },
     {
       "id": "surpeche",
@@ -235,22 +564,66 @@
         "perspectives": "L'avenir passe par : la réduction des capacités de pêche, la suppression des subventions nuisibles, l'extension des AMP efficaces, et l'approche écosystémique. L'aquaculture ne peut compenser la surpêche sans impacts propres. Les objectifs 30x30 incluent la protection marine."
       },
       "sources": [
-        {"titre": "The State of World Fisheries and Aquaculture 2022", "auteur": "FAO", "url": "https://www.fao.org/fishery/sofia/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Fishing down marine food webs", "auteur": "Pauly, D. et al.", "doi": "10.1126/science.279.5352.860", "journal": "Science", "annee": 1998, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "The State of World Fisheries and Aquaculture 2022",
+          "auteur": "FAO",
+          "url": "https://www.fao.org/fishery/sofia/",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Fishing down marine food webs",
+          "auteur": "Pauly, D. et al.",
+          "doi": "10.1126/science.279.5352.860",
+          "journal": "Science",
+          "annee": 1998,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["MSY", "RMD", "pêche INN", "fishing down", "stock halieutique"],
+      "motsClésScientifiques": [
+        "MSY",
+        "RMD",
+        "pêche INN",
+        "fishing down",
+        "stock halieutique"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "35% des stocks mondiaux surexploités", "source": "FAO", "annee": 2022},
-        {"valeur": "Méditerranée : 62% des stocks surexploités", "source": "CGPM", "annee": 2022}
+        {
+          "valeur": "35% des stocks mondiaux surexploités",
+          "source": "FAO",
+          "annee": 2022
+        },
+        {
+          "valeur": "Méditerranée : 62% des stocks surexploités",
+          "source": "CGPM",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "biodiversite", "type": "oppose_a", "score": 85},
-        {"cible": "aire-marine-protegee", "type": "oppose_a", "score": 90}
+        {
+          "cible": "biodiversite",
+          "type": "oppose_a",
+          "score": 85
+        },
+        {
+          "cible": "aire-marine-protegee",
+          "type": "oppose_a",
+          "score": 90
+        }
       ],
-      "exemples": ["Effondrement morue Terre-Neuve (1992)", "Thon rouge Atlantique", "Anchois Pérou"],
-      "synonymes": ["surexploitation halieutique", "overfishing"]
+      "exemples": [
+        "Effondrement morue Terre-Neuve (1992)",
+        "Thon rouge Atlantique",
+        "Anchois Pérou"
+      ],
+      "synonymes": [
+        "surexploitation halieutique",
+        "overfishing"
+      ]
     },
     {
       "id": "aire-marine-protegee",
@@ -266,22 +639,66 @@
         "perspectives": "L'avenir passe par : 30% d'AMP dont 10% en protection forte (30x30), le traité sur la haute mer, les réseaux d'AMP connectées, et l'intégration dans la planification spatiale marine. Le concept d'OECMs (Other Effective Conservation Measures) complète les AMP."
       },
       "sources": [
-        {"titre": "Marine Protected Planet", "auteur": "UNEP-WCMC", "url": "https://www.protectedplanet.net/marine", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Cadre mondial de la biodiversité de Kunming-Montréal", "auteur": "CBD", "url": "https://www.cbd.int/gbf/", "annee": 2022, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Marine Protected Planet",
+          "auteur": "UNEP-WCMC",
+          "url": "https://www.protectedplanet.net/marine",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Cadre mondial de la biodiversité de Kunming-Montréal",
+          "auteur": "CBD",
+          "url": "https://www.cbd.int/gbf/",
+          "annee": 2022,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["30x30", "spillover", "réserve intégrale", "BBNJ", "planification spatiale marine"],
+      "motsClésScientifiques": [
+        "30x30",
+        "spillover",
+        "réserve intégrale",
+        "BBNJ",
+        "planification spatiale marine"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "8,3% des océans en AMP (2023)", "source": "UNEP-WCMC", "annee": 2023},
-        {"valeur": "Objectif 30x30 : 30% de protection d'ici 2030", "source": "CBD", "annee": 2022}
+        {
+          "valeur": "8,3% des océans en AMP (2023)",
+          "source": "UNEP-WCMC",
+          "annee": 2023
+        },
+        {
+          "valeur": "Objectif 30x30 : 30% de protection d'ici 2030",
+          "source": "CBD",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "surpeche", "type": "oppose_a", "score": 90},
-        {"cible": "biodiversite", "type": "contribue_a", "score": 85}
+        {
+          "cible": "surpeche",
+          "type": "oppose_a",
+          "score": 90
+        },
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Sanctuaire Pelagos (Méditerranée)", "Réserve marine de la Grande Barrière", "Parc national de Port-Cros"],
-      "synonymes": ["réserve marine", "sanctuaire marin", "MPA"]
+      "exemples": [
+        "Sanctuaire Pelagos (Méditerranée)",
+        "Réserve marine de la Grande Barrière",
+        "Parc national de Port-Cros"
+      ],
+      "synonymes": [
+        "réserve marine",
+        "sanctuaire marin",
+        "MPA"
+      ]
     },
     {
       "id": "carbone-bleu",
@@ -297,22 +714,64 @@
         "perspectives": "L'avenir passe par : la protection et restauration des écosystèmes côtiers, l'intégration dans les NDC (contributions climat), les marchés carbone certifiés, et l'adaptation à l'élévation du niveau de la mer. Le carbone bleu pourrait représenter 2% de l'atténuation mondiale."
       },
       "sources": [
-        {"titre": "Blue Carbon - The Role of Healthy Oceans in Binding Carbon", "auteur": "UNEP/IUCN/IOC-UNESCO", "url": "https://www.unep.org/resources/report/blue-carbon", "annee": 2009, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Coastal Blue Carbon", "auteur": "IPCC AR6 WGII", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Blue Carbon - The Role of Healthy Oceans in Binding Carbon",
+          "auteur": "UNEP/IUCN/IOC-UNESCO",
+          "url": "https://www.unep.org/resources/report/blue-carbon",
+          "annee": 2009,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Coastal Blue Carbon",
+          "auteur": "IPCC AR6 WGII",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["mangrove", "herbier marin", "marais maritime", "séquestration côtière", "sédiments"],
+      "motsClésScientifiques": [
+        "mangrove",
+        "herbier marin",
+        "marais maritime",
+        "séquestration côtière",
+        "sédiments"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Écosystèmes bleus : 2-4x plus de carbone/ha que les forêts", "source": "UNEP", "annee": 2020},
-        {"valeur": "Mangroves stockent 1 000 tC/ha (dont 75% dans le sol)", "source": "Nature Geoscience", "annee": 2018}
+        {
+          "valeur": "Écosystèmes bleus : 2-4x plus de carbone/ha que les forêts",
+          "source": "UNEP",
+          "annee": 2020
+        },
+        {
+          "valeur": "Mangroves stockent 1 000 tC/ha (dont 75% dans le sol)",
+          "source": "Nature Geoscience",
+          "annee": 2018
+        }
       ],
       "relations": [
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 80},
-        {"cible": "puits-carbone-forestier", "type": "proche_de", "score": 85}
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 80
+        },
+        {
+          "cible": "puits-carbone-forestier",
+          "type": "proche_de",
+          "score": 85
+        }
       ],
-      "exemples": ["Mangroves d'Indonésie", "Herbiers de Posidonie (Méditerranée)", "Prés-salés de Bretagne"],
-      "synonymes": ["séquestration côtière", "coastal blue carbon"]
+      "exemples": [
+        "Mangroves d'Indonésie",
+        "Herbiers de Posidonie (Méditerranée)",
+        "Prés-salés de Bretagne"
+      ],
+      "synonymes": [
+        "séquestration côtière",
+        "coastal blue carbon"
+      ]
     },
     {
       "id": "mangrove",
@@ -328,22 +787,71 @@
         "perspectives": "L'avenir passe par : l'arrêt de la conversion, la restauration à grande échelle (Bonn Challenge inclut les mangroves), l'intégration dans les stratégies climat (NDC), et la valorisation économique (crédits carbone, tourisme). Les mangroves peuvent s'adapter à l'élévation du niveau de la mer si elle reste lente."
       },
       "sources": [
-        {"titre": "Global Mangrove Watch", "auteur": "UNEP-WCMC", "url": "https://www.globalmangrovewatch.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "The State of the World's Mangroves", "auteur": "Global Mangrove Alliance", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Global Mangrove Watch",
+          "auteur": "UNEP-WCMC",
+          "url": "https://www.globalmangrovewatch.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The State of the World's Mangroves",
+          "auteur": "Global Mangrove Alliance",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["palétuvier", "Rhizophora", "halophyte", "nurserie", "protection côtière"],
+      "motsClésScientifiques": [
+        "palétuvier",
+        "Rhizophora",
+        "halophyte",
+        "nurserie",
+        "protection côtière"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Mangroves : 150 000 km² dans 123 pays", "source": "Global Mangrove Watch", "annee": 2023},
-        {"valeur": "-35% de surface depuis 1970", "source": "UNEP", "annee": 2020}
+        {
+          "valeur": "Mangroves : 150 000 km² dans 123 pays",
+          "source": "Global Mangrove Watch",
+          "annee": 2023
+        },
+        {
+          "valeur": "-35% de surface depuis 1970",
+          "source": "UNEP",
+          "annee": 2020
+        }
       ],
       "relations": [
-        {"cible": "carbone-bleu", "type": "contribue_a", "score": 95},
-        {"cible": "biodiversite", "type": "contribue_a", "score": 85}
+        {
+          "cible": "carbone-bleu",
+          "type": "contribue_a",
+          "score": 95
+        },
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Sundarbans (Bangladesh-Inde)", "Mangroves du delta du Mékong", "Mangroves de Guyane"],
-      "synonymes": ["forêt de palétuviers", "mangrove forest"]
+      "exemples": [
+        "Sundarbans (Bangladesh-Inde)",
+        "Mangroves du delta du Mékong",
+        "Mangroves de Guyane"
+      ],
+      "synonymes": [
+        "forêt de palétuviers",
+        "mangrove forest"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Red_mangrove.jpg/800px-Red_mangrove.jpg",
+        "alt": "Mangrove",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Forêt de mangrove - écosystème côtier"
+      }
     },
     {
       "id": "plastique-ocean",
@@ -359,22 +867,72 @@
         "perspectives": "L'avenir passe par : la réduction à la source (interdictions, écoconception), le recyclage massif, les alternatives biosourcées, la collecte fluviale (avant l'océan), et le changement de comportements. Le traité international pourrait fixer des objectifs contraignants de réduction de la production."
       },
       "sources": [
-        {"titre": "Marine Plastic Debris and Microplastics", "auteur": "UNEP", "url": "https://www.unep.org/", "annee": 2016, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "The New Plastics Economy", "auteur": "Ellen MacArthur Foundation", "url": "https://ellenmacarthurfoundation.org/", "annee": 2016, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Marine Plastic Debris and Microplastics",
+          "auteur": "UNEP",
+          "url": "https://www.unep.org/",
+          "annee": 2016,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The New Plastics Economy",
+          "auteur": "Ellen MacArthur Foundation",
+          "url": "https://ellenmacarthurfoundation.org/",
+          "annee": 2016,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["microplastiques", "gyre", "Great Pacific Garbage Patch", "ingestion", "fragmentation"],
+      "motsClésScientifiques": [
+        "microplastiques",
+        "gyre",
+        "Great Pacific Garbage Patch",
+        "ingestion",
+        "fragmentation"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "8-12 Mt plastique/an entrent dans les océans", "source": "Science", "annee": 2015},
-        {"valeur": "5 250 milliards de particules plastiques flottantes", "source": "PLOS ONE", "annee": 2014}
+        {
+          "valeur": "8-12 Mt plastique/an entrent dans les océans",
+          "source": "Science",
+          "annee": 2015
+        },
+        {
+          "valeur": "5 250 milliards de particules plastiques flottantes",
+          "source": "PLOS ONE",
+          "annee": 2014
+        }
       ],
       "relations": [
-        {"cible": "microplastiques", "type": "renvoie_a", "score": 95},
-        {"cible": "biodiversite", "type": "oppose_a", "score": 85}
+        {
+          "cible": "microplastiques",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "biodiversite",
+          "type": "oppose_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Great Pacific Garbage Patch", "Tortues ingérant des sacs", "Microplastiques dans les moules"],
-      "synonymes": ["pollution marine plastique", "océan de plastique"]
+      "exemples": [
+        "Great Pacific Garbage Patch",
+        "Tortues ingérant des sacs",
+        "Microplastiques dans les moules"
+      ],
+      "synonymes": [
+        "pollution marine plastique",
+        "océan de plastique"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Ocean_plastic.jpg/800px-Ocean_plastic.jpg",
+        "alt": "Pollution plastique océanique",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Déchets plastiques dans l'océan"
+      }
     },
     {
       "id": "zone-morte-oceanique",
@@ -390,22 +948,66 @@
         "perspectives": "L'avenir passe par : la réduction drastique des apports de nutriments (agriculture, eaux usées), la restauration des zones tampons (zones humides, ripisylves), et l'adaptation des pêcheries. Le temps de réponse peut être long (décennies) du fait de l'inertie des systèmes."
       },
       "sources": [
-        {"titre": "Spreading Dead Zones and Consequences for Marine Ecosystems", "auteur": "Diaz, R.J. & Rosenberg, R.", "doi": "10.1126/science.1156401", "journal": "Science", "annee": 2008, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
-        {"titre": "Ocean deoxygenation (IUCN)", "auteur": "IUCN", "url": "https://www.iucn.org/", "annee": 2019, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Spreading Dead Zones and Consequences for Marine Ecosystems",
+          "auteur": "Diaz, R.J. & Rosenberg, R.",
+          "doi": "10.1126/science.1156401",
+          "journal": "Science",
+          "annee": 2008,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Ocean deoxygenation (IUCN)",
+          "auteur": "IUCN",
+          "url": "https://www.iucn.org/",
+          "annee": 2019,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["hypoxie", "anoxie", "eutrophisation", "désoxygénation", "nutriments"],
+      "motsClésScientifiques": [
+        "hypoxie",
+        "anoxie",
+        "eutrophisation",
+        "désoxygénation",
+        "nutriments"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "700+ zones mortes recensées dans le monde", "source": "Science", "annee": 2008},
-        {"valeur": "245 000 km² de zones hypoxiques", "source": "IUCN", "annee": 2019}
+        {
+          "valeur": "700+ zones mortes recensées dans le monde",
+          "source": "Science",
+          "annee": 2008
+        },
+        {
+          "valeur": "245 000 km² de zones hypoxiques",
+          "source": "IUCN",
+          "annee": 2019
+        }
       ],
       "relations": [
-        {"cible": "eutrophisation", "type": "renvoie_a", "score": 95},
-        {"cible": "biodiversite", "type": "oppose_a", "score": 90}
+        {
+          "cible": "eutrophisation",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "biodiversite",
+          "type": "oppose_a",
+          "score": 90
+        }
       ],
-      "exemples": ["Golfe du Mexique", "Mer Baltique", "Zone morte de l'Oregon"],
-      "synonymes": ["zone hypoxique", "dead zone"]
+      "exemples": [
+        "Golfe du Mexique",
+        "Mer Baltique",
+        "Zone morte de l'Oregon"
+      ],
+      "synonymes": [
+        "zone hypoxique",
+        "dead zone"
+      ]
     },
     {
       "id": "agroforesterie",
@@ -421,22 +1023,72 @@
         "perspectives": "L'avenir passe par : l'accompagnement technique, les aides à l'installation, la valorisation économique des produits (bois, fruits), et la reconnaissance des services environnementaux (carbone, eau). L'agroforesterie est un pilier de l'agroécologie et de l'agriculture régénérative."
       },
       "sources": [
-        {"titre": "Agroforestry (FAO)", "auteur": "FAO", "url": "https://www.fao.org/agroforestry/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Agroforesterie en France", "auteur": "AFAF", "url": "https://www.agroforesterie.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "moyen"}
+        {
+          "titre": "Agroforestry (FAO)",
+          "auteur": "FAO",
+          "url": "https://www.fao.org/agroforestry/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Agroforesterie en France",
+          "auteur": "AFAF",
+          "url": "https://www.agroforesterie.fr/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "moyen"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["sylvopastoralisme", "haie", "LER", "services écosystémiques", "agriculture régénérative"],
+      "motsClésScientifiques": [
+        "sylvopastoralisme",
+        "haie",
+        "LER",
+        "services écosystémiques",
+        "agriculture régénérative"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Agroforesterie : 2-9 tC/ha/an de séquestration", "source": "IPCC", "annee": 2019},
-        {"valeur": "Europe : <5% des terres agricoles en agroforesterie", "source": "EURAF", "annee": 2022}
+        {
+          "valeur": "Agroforesterie : 2-9 tC/ha/an de séquestration",
+          "source": "IPCC",
+          "annee": 2019
+        },
+        {
+          "valeur": "Europe : <5% des terres agricoles en agroforesterie",
+          "source": "EURAF",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "agriculture-regenerative", "type": "proche_de", "score": 90},
-        {"cible": "biodiversite", "type": "contribue_a", "score": 80}
+        {
+          "cible": "agriculture-regenerative",
+          "type": "proche_de",
+          "score": 90
+        },
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Bocage normand", "Dehesa espagnole", "Systèmes café-cacao ombragés"],
-      "synonymes": ["agriculture forestière", "arbres champêtres"]
+      "exemples": [
+        "Bocage normand",
+        "Dehesa espagnole",
+        "Systèmes café-cacao ombragés"
+      ],
+      "synonymes": [
+        "agriculture forestière",
+        "arbres champêtres"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Agroforestry.jpg/800px-Agroforestry.jpg",
+        "alt": "Parcelle agroforestière",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Culture associant arbres et productions agricoles"
+      }
     },
     {
       "id": "bois-construction",
@@ -452,22 +1104,66 @@
         "perspectives": "L'avenir passe par : l'industrialisation (préfabrication, CLT), la formation des professionnels, la sécurisation de l'approvisionnement (forêts certifiées), et la réglementation carbone. L'objectif est de faire du bâtiment un stock de carbone plutôt qu'une source d'émissions."
       },
       "sources": [
-        {"titre": "Réglementation environnementale RE2020", "auteur": "MTE", "url": "https://www.ecologie.gouv.fr/re2020", "annee": 2022, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Wood construction and climate mitigation", "auteur": "Churkina, G. et al.", "doi": "10.1038/s41893-019-0462-4", "journal": "Nature Sustainability", "annee": 2020, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "Réglementation environnementale RE2020",
+          "auteur": "MTE",
+          "url": "https://www.ecologie.gouv.fr/re2020",
+          "annee": 2022,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Wood construction and climate mitigation",
+          "auteur": "Churkina, G. et al.",
+          "doi": "10.1038/s41893-019-0462-4",
+          "journal": "Nature Sustainability",
+          "annee": 2020,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["CLT", "lamellé-collé", "RE2020", "stockage carbone", "substitution"],
+      "motsClésScientifiques": [
+        "CLT",
+        "lamellé-collé",
+        "RE2020",
+        "stockage carbone",
+        "substitution"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "1 m³ de bois stocke ~250 kg CO2", "source": "FCBA", "annee": 2022},
-        {"valeur": "France : 10% des logements collectifs neufs en bois", "source": "FNB", "annee": 2023}
+        {
+          "valeur": "1 m³ de bois stocke ~250 kg CO2",
+          "source": "FCBA",
+          "annee": 2022
+        },
+        {
+          "valeur": "France : 10% des logements collectifs neufs en bois",
+          "source": "FNB",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 80},
-        {"cible": "sylviculture-durable", "type": "renvoie_a", "score": 85}
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 80
+        },
+        {
+          "cible": "sylviculture-durable",
+          "type": "renvoie_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Tour Hypérion (Bordeaux, 50m)", "Mjøstårnet (Norvège, 85m)", "Maisons à ossature bois"],
-      "synonymes": ["construction en bois", "timber construction"]
+      "exemples": [
+        "Tour Hypérion (Bordeaux, 50m)",
+        "Mjøstårnet (Norvège, 85m)",
+        "Maisons à ossature bois"
+      ],
+      "synonymes": [
+        "construction en bois",
+        "timber construction"
+      ]
     },
     {
       "id": "incendie-foret",
@@ -483,22 +1179,64 @@
         "perspectives": "L'avenir passe par : la réduction du combustible (sylviculture préventive, pastoralisme), l'adaptation des essences, la détection précoce (satellites, IA), et la gestion post-feu (régénération assistée). Le concept de 'vivre avec le feu' émerge plutôt que l'exclusion totale."
       },
       "sources": [
-        {"titre": "Forest fires in Europe, Middle East and North Africa 2022", "auteur": "JRC", "url": "https://effis.jrc.ec.europa.eu/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "IPCC Climate Change and Land (Chapter 2)", "auteur": "IPCC", "annee": 2019, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Forest fires in Europe, Middle East and North Africa 2022",
+          "auteur": "JRC",
+          "url": "https://effis.jrc.ec.europa.eu/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "IPCC Climate Change and Land (Chapter 2)",
+          "auteur": "IPCC",
+          "annee": 2019,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["méga-feu", "combustible", "brûlage dirigé", "régénération", "DFCI"],
+      "motsClésScientifiques": [
+        "méga-feu",
+        "combustible",
+        "brûlage dirigé",
+        "régénération",
+        "DFCI"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "UE 2022 : 786 000 ha brûlés (record)", "source": "EFFIS/JRC", "annee": 2023},
-        {"valeur": "France : risque étendu à 50% du territoire d'ici 2050", "source": "ONF", "annee": 2022}
+        {
+          "valeur": "UE 2022 : 786 000 ha brûlés (record)",
+          "source": "EFFIS/JRC",
+          "annee": 2023
+        },
+        {
+          "valeur": "France : risque étendu à 50% du territoire d'ici 2050",
+          "source": "ONF",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "changement-climatique", "type": "renvoie_a", "score": 85},
-        {"cible": "puits-carbone-forestier", "type": "oppose_a", "score": 80}
+        {
+          "cible": "changement-climatique",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "puits-carbone-forestier",
+          "type": "oppose_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Méga-feux Australie 2019-2020", "Incendies Gironde 2022", "Feux Sibérie 2021"],
-      "synonymes": ["feu de forêt", "wildfire"]
+      "exemples": [
+        "Méga-feux Australie 2019-2020",
+        "Incendies Gironde 2022",
+        "Feux Sibérie 2021"
+      ],
+      "synonymes": [
+        "feu de forêt",
+        "wildfire"
+      ]
     },
     {
       "id": "haute-mer",
@@ -514,22 +1252,64 @@
         "perspectives": "L'avenir passe par : l'entrée en vigueur rapide du BBNJ, la création d'AMP représentatives, un moratoire sur l'exploitation minière, et le renforcement des ORGP. Le concept de 'stewardship' de l'océan global émerge pour une gouvernance intégrée."
       },
       "sources": [
-        {"titre": "Traité BBNJ (Accord sur la biodiversité marine)", "auteur": "Nations Unies", "url": "https://www.un.org/bbnj/", "annee": 2023, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "High Seas Alliance", "url": "https://www.highseasalliance.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "moyen"}
+        {
+          "titre": "Traité BBNJ (Accord sur la biodiversité marine)",
+          "auteur": "Nations Unies",
+          "url": "https://www.un.org/bbnj/",
+          "annee": 2023,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "High Seas Alliance",
+          "url": "https://www.highseasalliance.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "moyen"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["BBNJ", "ZEE", "CNUDM", "ressources génétiques marines", "ORGP"],
+      "motsClésScientifiques": [
+        "BBNJ",
+        "ZEE",
+        "CNUDM",
+        "ressources génétiques marines",
+        "ORGP"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Haute mer : 64% de la surface des océans", "source": "IUCN", "annee": 2023},
-        {"valeur": "<1% de la haute mer actuellement protégée", "source": "UNEP-WCMC", "annee": 2023}
+        {
+          "valeur": "Haute mer : 64% de la surface des océans",
+          "source": "IUCN",
+          "annee": 2023
+        },
+        {
+          "valeur": "<1% de la haute mer actuellement protégée",
+          "source": "UNEP-WCMC",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "aire-marine-protegee", "type": "renvoie_a", "score": 85},
-        {"cible": "biodiversite", "type": "contribue_a", "score": 80}
+        {
+          "cible": "aire-marine-protegee",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Dorsale médio-atlantique", "Sources hydrothermales", "Sargasses"],
-      "synonymes": ["eaux internationales", "high seas"]
+      "exemples": [
+        "Dorsale médio-atlantique",
+        "Sources hydrothermales",
+        "Sargasses"
+      ],
+      "synonymes": [
+        "eaux internationales",
+        "high seas"
+      ]
     },
     {
       "id": "erosion-cotiere",
@@ -545,22 +1325,64 @@
         "perspectives": "L'avenir passe par : l'anticipation (projections à 2100), les solutions fondées sur la nature, la relocalisation des enjeux vulnérables, et l'adaptation des réglementations. Le concept de 'recul stratégique' (managed retreat) gagne en légitimité malgré les résistances."
       },
       "sources": [
-        {"titre": "Indicateurs nationaux de l'érosion côtière", "auteur": "CEREMA", "url": "https://www.cerema.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Loi Climat et Résilience (art. 236-250)", "url": "https://www.legifrance.gouv.fr/", "annee": 2021, "type": "loi", "niveauPreuve": "elevé"}
+        {
+          "titre": "Indicateurs nationaux de l'érosion côtière",
+          "auteur": "CEREMA",
+          "url": "https://www.cerema.fr/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Loi Climat et Résilience (art. 236-250)",
+          "url": "https://www.legifrance.gouv.fr/",
+          "annee": 2021,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["trait de côte", "recul stratégique", "dynamique sédimentaire", "submersion", "dune"],
+      "motsClésScientifiques": [
+        "trait de côte",
+        "recul stratégique",
+        "dynamique sédimentaire",
+        "submersion",
+        "dune"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "France : 20% du littoral en érosion", "source": "CEREMA", "annee": 2023},
-        {"valeur": "1,4 million de logements potentiellement menacés", "source": "CEREMA", "annee": 2023}
+        {
+          "valeur": "France : 20% du littoral en érosion",
+          "source": "CEREMA",
+          "annee": 2023
+        },
+        {
+          "valeur": "1,4 million de logements potentiellement menacés",
+          "source": "CEREMA",
+          "annee": 2023
+        }
       ],
       "relations": [
-        {"cible": "changement-climatique", "type": "renvoie_a", "score": 80},
-        {"cible": "adaptation-climatique", "type": "renvoie_a", "score": 85}
+        {
+          "cible": "changement-climatique",
+          "type": "renvoie_a",
+          "score": 80
+        },
+        {
+          "cible": "adaptation-climatique",
+          "type": "renvoie_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Recul des falaises de Dieppe", "Érosion dune du Pilat", "Submersion Xynthia"],
-      "synonymes": ["recul du trait de côte", "coastal erosion"]
+      "exemples": [
+        "Recul des falaises de Dieppe",
+        "Érosion dune du Pilat",
+        "Submersion Xynthia"
+      ],
+      "synonymes": [
+        "recul du trait de côte",
+        "coastal erosion"
+      ]
     },
     {
       "id": "espece-marine-migratrice",
@@ -576,22 +1398,64 @@
         "perspectives": "L'avenir passe par : la protection des aires critiques (reproduction, alimentation), les corridors transfrontaliers, la réduction des captures accessoires, et la gestion écosystémique. Le concept de 'connectivité marine' intègre les migrations dans la planification spatiale."
       },
       "sources": [
-        {"titre": "Convention on Migratory Species (CMS)", "url": "https://www.cms.int/", "annee": 2023, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "State of the World's Migratory Species", "auteur": "CMS/UNEP", "annee": 2024, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {
+          "titre": "Convention on Migratory Species (CMS)",
+          "url": "https://www.cms.int/",
+          "annee": 2023,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "State of the World's Migratory Species",
+          "auteur": "CMS/UNEP",
+          "annee": 2024,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["CMS", "corridor migratoire", "suivi satellitaire", "aires critiques", "connectivité"],
+      "motsClésScientifiques": [
+        "CMS",
+        "corridor migratoire",
+        "suivi satellitaire",
+        "aires critiques",
+        "connectivité"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "44% des espèces migratrices marines en déclin", "source": "CMS", "annee": 2024},
-        {"valeur": "Baleine grise : 20 000 km de migration A/R", "source": "NOAA", "annee": 2022}
+        {
+          "valeur": "44% des espèces migratrices marines en déclin",
+          "source": "CMS",
+          "annee": 2024
+        },
+        {
+          "valeur": "Baleine grise : 20 000 km de migration A/R",
+          "source": "NOAA",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "biodiversite", "type": "contribue_a", "score": 85},
-        {"cible": "aire-marine-protegee", "type": "renvoie_a", "score": 80}
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 85
+        },
+        {
+          "cible": "aire-marine-protegee",
+          "type": "renvoie_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Baleine à bosse", "Tortue luth", "Thon rouge", "Albatros hurleur"],
-      "synonymes": ["espèce migratrice marine", "migratory marine species"]
+      "exemples": [
+        "Baleine à bosse",
+        "Tortue luth",
+        "Thon rouge",
+        "Albatros hurleur"
+      ],
+      "synonymes": [
+        "espèce migratrice marine",
+        "migratory marine species"
+      ]
     },
     {
       "id": "algue-invasive",
@@ -607,22 +1471,64 @@
         "perspectives": "L'avenir passe par : le renforcement de la Convention sur les eaux de ballast (OMI), la réglementation du commerce d'espèces exotiques, la surveillance coordonnée, et la recherche de méthodes de contrôle biologique. L'adaptation des écosystèmes locaux est imprévisible."
       },
       "sources": [
-        {"titre": "IUCN Guidelines for Invasive Species Management", "auteur": "IUCN", "url": "https://www.iucn.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Mediterranean Marine Science", "doi": "10.12681/mms.2847", "annee": 2022, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "IUCN Guidelines for Invasive Species Management",
+          "auteur": "IUCN",
+          "url": "https://www.iucn.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Mediterranean Marine Science",
+          "doi": "10.12681/mms.2847",
+          "annee": 2022,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["Caulerpa", "eaux de ballast", "tropicalisation", "lessepsian", "herbier"],
+      "motsClésScientifiques": [
+        "Caulerpa",
+        "eaux de ballast",
+        "tropicalisation",
+        "lessepsian",
+        "herbier"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Méditerranée : 1 000+ espèces marines introduites", "source": "CIESM", "annee": 2022},
-        {"valeur": "Caulerpa taxifolia : 30 000 ha colonisés en Méditerranée", "source": "GIS Posidonie", "annee": 2015}
+        {
+          "valeur": "Méditerranée : 1 000+ espèces marines introduites",
+          "source": "CIESM",
+          "annee": 2022
+        },
+        {
+          "valeur": "Caulerpa taxifolia : 30 000 ha colonisés en Méditerranée",
+          "source": "GIS Posidonie",
+          "annee": 2015
+        }
       ],
       "relations": [
-        {"cible": "espece-invasive", "type": "est_type_de", "score": 95},
-        {"cible": "biodiversite", "type": "oppose_a", "score": 85}
+        {
+          "cible": "espece-invasive",
+          "type": "est_type_de",
+          "score": 95
+        },
+        {
+          "cible": "biodiversite",
+          "type": "oppose_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Caulerpa taxifolia", "Asparagopsis armata", "Sargasses (Caraïbes)"],
-      "synonymes": ["macroalgue invasive", "invasive seaweed"]
+      "exemples": [
+        "Caulerpa taxifolia",
+        "Asparagopsis armata",
+        "Sargasses (Caraïbes)"
+      ],
+      "synonymes": [
+        "macroalgue invasive",
+        "invasive seaweed"
+      ]
     },
     {
       "id": "herbier-marin",
@@ -638,22 +1544,66 @@
         "perspectives": "L'avenir passe par : la réglementation du mouillage (zones équipées, ancres flottantes), la réduction des apports de nutriments, la restauration (transplantation, difficile et coûteuse), et la valorisation du carbone bleu. Les herbiers pourraient s'adapter au changement climatique si les pressions locales sont réduites."
       },
       "sources": [
-        {"titre": "Seagrass Meadows (IUCN)", "auteur": "IUCN", "url": "https://www.iucn.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "Seagrass ecosystems as a globally significant carbon stock", "auteur": "Fourqurean, J.W. et al.", "doi": "10.1038/ngeo1477", "journal": "Nature Geoscience", "annee": 2012, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+        {
+          "titre": "Seagrass Meadows (IUCN)",
+          "auteur": "IUCN",
+          "url": "https://www.iucn.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Seagrass ecosystems as a globally significant carbon stock",
+          "auteur": "Fourqurean, J.W. et al.",
+          "doi": "10.1038/ngeo1477",
+          "journal": "Nature Geoscience",
+          "annee": 2012,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["posidonie", "zostère", "matte", "nurserie", "carbone bleu"],
+      "motsClésScientifiques": [
+        "posidonie",
+        "zostère",
+        "matte",
+        "nurserie",
+        "carbone bleu"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Herbiers : 35x plus de stockage carbone/ha que forêts tropicales", "source": "Nature Geoscience", "annee": 2012},
-        {"valeur": "-30% de surface d'herbiers depuis 1879", "source": "PNAS", "annee": 2009}
+        {
+          "valeur": "Herbiers : 35x plus de stockage carbone/ha que forêts tropicales",
+          "source": "Nature Geoscience",
+          "annee": 2012
+        },
+        {
+          "valeur": "-30% de surface d'herbiers depuis 1879",
+          "source": "PNAS",
+          "annee": 2009
+        }
       ],
       "relations": [
-        {"cible": "carbone-bleu", "type": "contribue_a", "score": 95},
-        {"cible": "biodiversite", "type": "contribue_a", "score": 85}
+        {
+          "cible": "carbone-bleu",
+          "type": "contribue_a",
+          "score": 95
+        },
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 85
+        }
       ],
-      "exemples": ["Herbiers de posidonie (Méditerranée)", "Zostères (Atlantique)", "Thalassia (Caraïbes)"],
-      "synonymes": ["prairie sous-marine", "seagrass meadow"]
+      "exemples": [
+        "Herbiers de posidonie (Méditerranée)",
+        "Zostères (Atlantique)",
+        "Thalassia (Caraïbes)"
+      ],
+      "synonymes": [
+        "prairie sous-marine",
+        "seagrass meadow"
+      ]
     },
     {
       "id": "aquaculture-durable",
@@ -669,22 +1619,65 @@
         "perspectives": "L'avenir passe par : l'aquaculture offshore (réduire les conflits côtiers), l'IMTA (polyculture intégrée), l'algaculture (faible impact), et les protéines alternatives pour l'alimentation. Le concept de 'blue food' positionne l'aquaculture durable dans la sécurité alimentaire mondiale."
       },
       "sources": [
-        {"titre": "The State of World Fisheries and Aquaculture 2022", "auteur": "FAO", "url": "https://www.fao.org/fishery/sofia/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
-        {"titre": "ASC Certification Standards", "auteur": "Aquaculture Stewardship Council", "url": "https://www.asc-aqua.org/", "annee": 2023, "type": "norme_iso", "niveauPreuve": "elevé"}
+        {
+          "titre": "The State of World Fisheries and Aquaculture 2022",
+          "auteur": "FAO",
+          "url": "https://www.fao.org/fishery/sofia/",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "ASC Certification Standards",
+          "auteur": "Aquaculture Stewardship Council",
+          "url": "https://www.asc-aqua.org/",
+          "annee": 2023,
+          "type": "norme_iso",
+          "niveauPreuve": "elevé"
+        }
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["ASC", "IMTA", "FMFO ratio", "aquaponie", "algoculture"],
+      "motsClésScientifiques": [
+        "ASC",
+        "IMTA",
+        "FMFO ratio",
+        "aquaponie",
+        "algoculture"
+      ],
       "indicateursQuantitatifs": [
-        {"valeur": "Aquaculture : 52% des produits de la mer consommés", "source": "FAO", "annee": 2022},
-        {"valeur": "Production mondiale : 120 Mt/an", "source": "FAO", "annee": 2022}
+        {
+          "valeur": "Aquaculture : 52% des produits de la mer consommés",
+          "source": "FAO",
+          "annee": 2022
+        },
+        {
+          "valeur": "Production mondiale : 120 Mt/an",
+          "source": "FAO",
+          "annee": 2022
+        }
       ],
       "relations": [
-        {"cible": "surpeche", "type": "oppose_a", "score": 75},
-        {"cible": "economie-circulaire", "type": "contribue_a", "score": 70}
+        {
+          "cible": "surpeche",
+          "type": "oppose_a",
+          "score": 75
+        },
+        {
+          "cible": "economie-circulaire",
+          "type": "contribue_a",
+          "score": 70
+        }
       ],
-      "exemples": ["Moules de bouchot (France)", "Saumon ASC (Norvège)", "Crevettes bio (Madagascar)"],
-      "synonymes": ["aquaculture responsable", "sustainable aquaculture"]
+      "exemples": [
+        "Moules de bouchot (France)",
+        "Saumon ASC (Norvège)",
+        "Crevettes bio (Madagascar)"
+      ],
+      "synonymes": [
+        "aquaculture responsable",
+        "sustainable aquaculture"
+      ]
     }
   ]
 }
