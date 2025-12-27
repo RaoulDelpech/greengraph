@@ -1,9 +1,10 @@
-import { useState, useCallback, useRef, useEffect, forwardRef, useImperativeHandle } from 'react';
+import { useState, useCallback, useRef, useEffect, forwardRef, useImperativeHandle, useMemo } from 'react';
 import Fuse from 'fuse.js';
-import type { Definition } from '../../types';
+import type { Definition, Categorie } from '../../types';
 
 interface SearchBarProps {
   definitions: Definition[];
+  categories: Categorie[];
   onSelectResult: (id: string) => void;
 }
 
@@ -16,8 +17,13 @@ interface SearchResult {
   score?: number;
 }
 
+interface GroupedResults {
+  category: Categorie;
+  results: SearchResult[];
+}
+
 export const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar(
-  { definitions, onSelectResult },
+  { definitions, categories, onSelectResult },
   ref
 ) {
   const [query, setQuery] = useState('');
@@ -33,6 +39,38 @@ export const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function Se
       inputRef.current?.focus();
     },
   }));
+
+  // Map catégorie ID -> catégorie
+  const categoryMap = useMemo(() => {
+    const map = new Map<string, Categorie>();
+    categories.forEach(cat => map.set(cat.id, cat));
+    return map;
+  }, [categories]);
+
+  // Grouper les résultats par catégorie
+  const groupedResults = useMemo((): GroupedResults[] => {
+    const groups = new Map<string, SearchResult[]>();
+
+    results.forEach(result => {
+      const catId = result.item.categorie;
+      if (!groups.has(catId)) {
+        groups.set(catId, []);
+      }
+      groups.get(catId)!.push(result);
+    });
+
+    return Array.from(groups.entries())
+      .map(([catId, catResults]) => ({
+        category: categoryMap.get(catId) || { id: catId, nom: catId, description: '', couleur: '#6b7280', fichier: '' },
+        results: catResults,
+      }))
+      .sort((a, b) => a.category.nom.localeCompare(b.category.nom));
+  }, [results, categoryMap]);
+
+  // Liste plate pour la navigation clavier
+  const flatResults = useMemo(() => {
+    return groupedResults.flatMap(g => g.results);
+  }, [groupedResults]);
 
   // Configurer Fuse.js pour la recherche full-text
   const fuse = useRef(
@@ -103,7 +141,7 @@ export const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function Se
       switch (e.key) {
         case 'ArrowDown':
           e.preventDefault();
-          setSelectedIndex((prev) => Math.min(prev + 1, results.length - 1));
+          setSelectedIndex((prev) => Math.min(prev + 1, flatResults.length - 1));
           break;
         case 'ArrowUp':
           e.preventDefault();
@@ -111,8 +149,8 @@ export const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function Se
           break;
         case 'Enter':
           e.preventDefault();
-          if (results[selectedIndex]) {
-            onSelectResult(results[selectedIndex].item.id);
+          if (flatResults[selectedIndex]) {
+            onSelectResult(flatResults[selectedIndex].item.id);
             setQuery('');
             setIsOpen(false);
           }
@@ -122,7 +160,7 @@ export const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function Se
           break;
       }
     },
-    [isOpen, results, selectedIndex, onSelectResult]
+    [isOpen, flatResults, selectedIndex, onSelectResult]
   );
 
   const handleResultClick = useCallback(
@@ -190,39 +228,98 @@ export const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function Se
         )}
       </div>
 
-      {/* Résultats */}
-      {isOpen && results.length > 0 && (
+      {/* Résultats groupés par catégorie */}
+      {isOpen && groupedResults.length > 0 && (
         <div
           id="search-results"
           role="listbox"
           aria-label="Résultats de recherche"
           className="absolute top-full left-0 right-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden z-50"
         >
-          <ul className="max-h-80 overflow-y-auto">
-            {results.map((result, index) => (
-              <li
-                key={result.item.id}
-                role="option"
-                aria-selected={index === selectedIndex}
-              >
-                <button
-                  onClick={() => handleResultClick(result.item.id)}
-                  tabIndex={-1}
-                  className={`
-                    w-full px-4 py-3 text-left hover:bg-gray-50 transition-colors
-                    focus:outline-none focus:bg-emerald-50
-                    ${index === selectedIndex ? 'bg-emerald-50' : ''}
-                    ${index !== results.length - 1 ? 'border-b border-gray-100' : ''}
-                  `}
-                >
-                  <p className="font-medium text-gray-800">{result.item.terme}</p>
-                  <p className="text-sm text-gray-600 truncate mt-0.5">
-                    {result.item.definition.slice(0, 100)}...
-                  </p>
-                </button>
-              </li>
-            ))}
-          </ul>
+          <div className="max-h-96 overflow-y-auto">
+            {groupedResults.map((group) => {
+              // Calculer l'index global pour chaque résultat du groupe
+              let globalIndex = 0;
+              for (const g of groupedResults) {
+                if (g === group) break;
+                globalIndex += g.results.length;
+              }
+
+              return (
+                <div key={group.category.id}>
+                  {/* En-tête catégorie */}
+                  <div
+                    className="sticky top-0 px-3 py-1.5 bg-gray-50 border-b border-gray-100 flex items-center gap-2"
+                  >
+                    <span
+                      className="w-2.5 h-2.5 rounded-full flex-shrink-0"
+                      style={{ backgroundColor: group.category.couleur }}
+                    />
+                    <span className="text-xs font-semibold text-gray-600 uppercase tracking-wide">
+                      {group.category.nom}
+                    </span>
+                    <span className="text-xs text-gray-400">
+                      ({group.results.length})
+                    </span>
+                  </div>
+
+                  {/* Résultats de la catégorie */}
+                  <ul>
+                    {group.results.map((result, idx) => {
+                      const itemGlobalIndex = globalIndex + idx;
+                      const isSelected = itemGlobalIndex === selectedIndex;
+
+                      return (
+                        <li
+                          key={result.item.id}
+                          role="option"
+                          aria-selected={isSelected}
+                        >
+                          <button
+                            onClick={() => handleResultClick(result.item.id)}
+                            tabIndex={-1}
+                            className={`
+                              w-full px-4 py-2.5 text-left hover:bg-gray-50 transition-colors
+                              focus:outline-none border-l-3
+                              ${isSelected ? 'bg-emerald-50 border-l-emerald-500' : 'border-l-transparent'}
+                            `}
+                          >
+                            <div className="flex items-start gap-2">
+                              <div className="flex-1 min-w-0">
+                                <p className="font-medium text-gray-800">{result.item.terme}</p>
+                                <p className="text-xs text-gray-500 line-clamp-2 mt-0.5">
+                                  {result.item.resume || result.item.definition.slice(0, 120)}
+                                </p>
+                              </div>
+                              <svg
+                                className="w-4 h-4 text-gray-300 flex-shrink-0 mt-1"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                              >
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                              </svg>
+                            </div>
+                          </button>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Footer avec raccourci clavier */}
+          <div className="px-3 py-2 bg-gray-50 border-t border-gray-200 flex items-center justify-between text-xs text-gray-500">
+            <span>{flatResults.length} résultat{flatResults.length > 1 ? 's' : ''}</span>
+            <span className="flex items-center gap-1">
+              <kbd className="px-1.5 py-0.5 bg-gray-200 rounded text-gray-600">↑↓</kbd>
+              naviguer
+              <kbd className="px-1.5 py-0.5 bg-gray-200 rounded text-gray-600 ml-2">↵</kbd>
+              sélectionner
+            </span>
+          </div>
         </div>
       )}
 

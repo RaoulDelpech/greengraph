@@ -125,6 +125,7 @@ function App() {
       <Header
         ref={searchBarRef}
         definitions={definitions}
+        categories={categories}
         onSelectDefinition={handleFocusDefinition}
         isMobile={isMobile}
         onToggleMobileSidebar={handleToggleMobileSidebar}

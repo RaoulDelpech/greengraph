@@ -1,10 +1,11 @@
 import { forwardRef } from 'react';
 import { SearchBar } from '../Search';
 import type { SearchBarHandle } from '../Search';
-import type { Definition } from '../../types';
+import type { Definition, Categorie } from '../../types';
 
 interface HeaderProps {
   definitions: Definition[];
+  categories: Categorie[];
   onSelectDefinition: (id: string) => void;
   isMobile?: boolean;
   onToggleMobileSidebar?: () => void;
@@ -13,6 +14,7 @@ interface HeaderProps {
 export const Header = forwardRef<SearchBarHandle, HeaderProps>(function Header(
   {
     definitions,
+    categories,
     onSelectDefinition,
     isMobile,
     onToggleMobileSidebar,
@@ -53,7 +55,7 @@ export const Header = forwardRef<SearchBarHandle, HeaderProps>(function Header(
       </div>
 
       <div className="flex-1 max-w-md md:max-w-lg">
-        <SearchBar ref={ref} definitions={definitions} onSelectResult={onSelectDefinition} />
+        <SearchBar ref={ref} definitions={definitions} categories={categories} onSelectResult={onSelectDefinition} />
       </div>
 
       <div className="hidden sm:flex items-center gap-2">
