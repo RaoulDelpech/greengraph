@@ -37,7 +37,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["ODD 11", "métabolisme urbain", "Agenda 21", "écoquartier", "résilience urbaine"],
+      "motsClésScientifiques": [
+        "ODD 11",
+        "métabolisme urbain",
+        "Agenda 21",
+        "écoquartier",
+        "résilience urbaine"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "68% de la population mondiale en ville d'ici 2050",
@@ -51,12 +57,40 @@
         }
       ],
       "relations": [
-        {"cible": "mobilite-douce", "type": "renvoie_a", "score": 85},
-        {"cible": "ilot-chaleur-urbain", "type": "renvoie_a", "score": 80},
-        {"cible": "transition-ecologique", "type": "est_type_de", "score": 75}
+        {
+          "cible": "mobilite-douce",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "ilot-chaleur-urbain",
+          "type": "renvoie_a",
+          "score": 80
+        },
+        {
+          "cible": "transition-ecologique",
+          "type": "est_type_de",
+          "score": 75
+        }
       ],
-      "exemples": ["Freiburg (Allemagne)", "Copenhague", "Curitiba (Brésil)", "Grenoble"],
-      "synonymes": ["Ville verte", "Sustainable city", "Éco-ville"]
+      "exemples": [
+        "Freiburg (Allemagne)",
+        "Copenhague",
+        "Curitiba (Brésil)",
+        "Grenoble"
+      ],
+      "synonymes": [
+        "Ville verte",
+        "Sustainable city",
+        "Éco-ville"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Sustainable_city.jpg/800px-Sustainable_city.jpg",
+        "alt": "Ville durable",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Aménagement urbain durable"
+      }
     },
     {
       "id": "mobilite-douce",
@@ -91,7 +125,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["part modale", "report modal", "intermodalité", "VAE", "zone 30"],
+      "motsClésScientifiques": [
+        "part modale",
+        "report modal",
+        "intermodalité",
+        "VAE",
+        "zone 30"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "Part modale vélo : 3% en France, 27% aux Pays-Bas",
@@ -105,12 +145,42 @@
         }
       ],
       "relations": [
-        {"cible": "ville-durable", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "empreinte-carbone", "type": "contribue_a", "score": 80, "direction": "positif"},
-        {"cible": "qualite-air", "type": "contribue_a", "score": 75, "direction": "positif"}
+        {
+          "cible": "ville-durable",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "empreinte-carbone",
+          "type": "contribue_a",
+          "score": 80,
+          "direction": "positif"
+        },
+        {
+          "cible": "qualite-air",
+          "type": "contribue_a",
+          "score": 75,
+          "direction": "positif"
+        }
       ],
-      "exemples": ["Vélib' (Paris)", "Pistes cyclables Corona (Berlin)", "Plan vélo Strasbourg"],
-      "synonymes": ["Mobilité active", "Modes actifs", "Soft mobility"]
+      "exemples": [
+        "Vélib' (Paris)",
+        "Pistes cyclables Corona (Berlin)",
+        "Plan vélo Strasbourg"
+      ],
+      "synonymes": [
+        "Mobilité active",
+        "Modes actifs",
+        "Soft mobility"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Bicycle_lane.jpg/800px-Bicycle_lane.jpg",
+        "alt": "Piste cyclable",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Infrastructure de mobilité douce"
+      }
     },
     {
       "id": "ilot-chaleur-urbain",
@@ -144,7 +214,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["microclimat", "albédo", "évapotranspiration", "canyon urbain", "canicule"],
+      "motsClésScientifiques": [
+        "microclimat",
+        "albédo",
+        "évapotranspiration",
+        "canyon urbain",
+        "canicule"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "Écart de température ville-campagne : 2 à 10°C",
@@ -158,11 +234,35 @@
         }
       ],
       "relations": [
-        {"cible": "changement-climatique", "type": "renvoie_a", "score": 85},
-        {"cible": "nature-en-ville", "type": "contribue_a", "score": 80, "direction": "positif"}
+        {
+          "cible": "changement-climatique",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "nature-en-ville",
+          "type": "contribue_a",
+          "score": 80,
+          "direction": "positif"
+        }
       ],
-      "exemples": ["Paris (+3-4°C vs grande couronne)", "Phoenix", "Tokyo"],
-      "synonymes": ["ICU", "Urban heat island", "Dôme de chaleur"]
+      "exemples": [
+        "Paris (+3-4°C vs grande couronne)",
+        "Phoenix",
+        "Tokyo"
+      ],
+      "synonymes": [
+        "ICU",
+        "Urban heat island",
+        "Dôme de chaleur"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Urban_heat_island.svg/800px-Urban_heat_island.svg.png",
+        "alt": "Îlot de chaleur urbain",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Différence de température ville-campagne"
+      }
     },
     {
       "id": "artificialisation-sols",
@@ -197,7 +297,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["ZAN", "étalement urbain", "imperméabilisation", "sobriété foncière", "renaturation"],
+      "motsClésScientifiques": [
+        "ZAN",
+        "étalement urbain",
+        "imperméabilisation",
+        "sobriété foncière",
+        "renaturation"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "20 000-30 000 ha artificialisés par an en France",
@@ -211,11 +317,28 @@
         }
       ],
       "relations": [
-        {"cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "negatif"},
-        {"cible": "ville-durable", "type": "oppose_a", "score": 70}
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "negatif"
+        },
+        {
+          "cible": "ville-durable",
+          "type": "oppose_a",
+          "score": 70
+        }
       ],
-      "exemples": ["Zones pavillonnaires", "Centres commerciaux périphériques", "Entrepôts logistiques"],
-      "synonymes": ["Consommation d'espace", "Land take", "Étalement urbain"]
+      "exemples": [
+        "Zones pavillonnaires",
+        "Centres commerciaux périphériques",
+        "Entrepôts logistiques"
+      ],
+      "synonymes": [
+        "Consommation d'espace",
+        "Land take",
+        "Étalement urbain"
+      ]
     },
     {
       "id": "nature-en-ville",
@@ -249,7 +372,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["services écosystémiques", "trame verte", "biodiversité urbaine", "biophilie", "coefficient de biotope"],
+      "motsClésScientifiques": [
+        "services écosystémiques",
+        "trame verte",
+        "biodiversité urbaine",
+        "biophilie",
+        "coefficient de biotope"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "Règle 3-30-300 : 3 arbres visibles, 30% canopée, 300m d'un parc",
@@ -263,12 +392,36 @@
         }
       ],
       "relations": [
-        {"cible": "biodiversite", "type": "contribue_a", "score": 80, "direction": "positif"},
-        {"cible": "ilot-chaleur-urbain", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "ville-durable", "type": "contribue_a", "score": 80, "direction": "positif"}
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 80,
+          "direction": "positif"
+        },
+        {
+          "cible": "ilot-chaleur-urbain",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "ville-durable",
+          "type": "contribue_a",
+          "score": 80,
+          "direction": "positif"
+        }
       ],
-      "exemples": ["Coulée verte Paris", "High Line New York", "Parc Martin Luther King", "Jardins partagés"],
-      "synonymes": ["Biodiversité urbaine", "Espaces verts", "Infrastructure verte"]
+      "exemples": [
+        "Coulée verte Paris",
+        "High Line New York",
+        "Parc Martin Luther King",
+        "Jardins partagés"
+      ],
+      "synonymes": [
+        "Biodiversité urbaine",
+        "Espaces verts",
+        "Infrastructure verte"
+      ]
     },
     {
       "id": "ecoquartier",
@@ -302,7 +455,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["label ÉcoQuartier", "aménagement durable", "mixité", "participation", "BBC"],
+      "motsClésScientifiques": [
+        "label ÉcoQuartier",
+        "aménagement durable",
+        "mixité",
+        "participation",
+        "BBC"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "560+ écoquartiers labellisés en France",
@@ -311,11 +470,28 @@
         }
       ],
       "relations": [
-        {"cible": "ville-durable", "type": "est_type_de", "score": 90},
-        {"cible": "efficacite-energetique", "type": "contribue_a", "score": 80, "direction": "positif"}
+        {
+          "cible": "ville-durable",
+          "type": "est_type_de",
+          "score": 90
+        },
+        {
+          "cible": "efficacite-energetique",
+          "type": "contribue_a",
+          "score": 80,
+          "direction": "positif"
+        }
       ],
-      "exemples": ["Clichy-Batignolles (Paris)", "Confluence (Lyon)", "Ginko (Bordeaux)", "Caserne de Bonne (Grenoble)"],
-      "synonymes": ["Quartier durable", "Sustainable neighborhood"]
+      "exemples": [
+        "Clichy-Batignolles (Paris)",
+        "Confluence (Lyon)",
+        "Ginko (Bordeaux)",
+        "Caserne de Bonne (Grenoble)"
+      ],
+      "synonymes": [
+        "Quartier durable",
+        "Sustainable neighborhood"
+      ]
     },
     {
       "id": "zone-faibles-emissions",
@@ -350,7 +526,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["Crit'Air", "qualité de l'air", "NOx", "particules fines", "LOM"],
+      "motsClésScientifiques": [
+        "Crit'Air",
+        "qualité de l'air",
+        "NOx",
+        "particules fines",
+        "LOM"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "45 agglomérations concernées en France d'ici 2025",
@@ -364,11 +546,30 @@
         }
       ],
       "relations": [
-        {"cible": "qualite-air", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "mobilite-douce", "type": "contribue_a", "score": 70, "direction": "positif"}
+        {
+          "cible": "qualite-air",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "mobilite-douce",
+          "type": "contribue_a",
+          "score": 70,
+          "direction": "positif"
+        }
       ],
-      "exemples": ["ZFE Grand Paris", "ZFE Lyon", "ZFE Grenoble", "Londres ULEZ"],
-      "synonymes": ["ZFE-m", "Low Emission Zone", "LEZ"]
+      "exemples": [
+        "ZFE Grand Paris",
+        "ZFE Lyon",
+        "ZFE Grenoble",
+        "Londres ULEZ"
+      ],
+      "synonymes": [
+        "ZFE-m",
+        "Low Emission Zone",
+        "LEZ"
+      ]
     },
     {
       "id": "transport-commun",
@@ -402,7 +603,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["part modale", "intermodalité", "BHNS", "versement mobilité", "MaaS"],
+      "motsClésScientifiques": [
+        "part modale",
+        "intermodalité",
+        "BHNS",
+        "versement mobilité",
+        "MaaS"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "Part modale TC : 15% en Île-de-France, 8% en province",
@@ -416,12 +623,35 @@
         }
       ],
       "relations": [
-        {"cible": "mobilite-douce", "type": "proche_de", "score": 75},
-        {"cible": "empreinte-carbone", "type": "contribue_a", "score": 80, "direction": "positif"},
-        {"cible": "ville-durable", "type": "contribue_a", "score": 85, "direction": "positif"}
+        {
+          "cible": "mobilite-douce",
+          "type": "proche_de",
+          "score": 75
+        },
+        {
+          "cible": "empreinte-carbone",
+          "type": "contribue_a",
+          "score": 80,
+          "direction": "positif"
+        },
+        {
+          "cible": "ville-durable",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        }
       ],
-      "exemples": ["Métro parisien", "Tramway de Strasbourg", "RER", "BHNS Nantes"],
-      "synonymes": ["Transports collectifs", "TC", "Public transit"]
+      "exemples": [
+        "Métro parisien",
+        "Tramway de Strasbourg",
+        "RER",
+        "BHNS Nantes"
+      ],
+      "synonymes": [
+        "Transports collectifs",
+        "TC",
+        "Public transit"
+      ]
     }
   ]
 }

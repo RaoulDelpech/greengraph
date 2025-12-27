@@ -36,7 +36,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["PM2,5", "NOx", "ozone", "indice ATMO", "AASQA"],
+      "motsClésScientifiques": [
+        "PM2,5",
+        "NOx",
+        "ozone",
+        "indice ATMO",
+        "AASQA"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "48 000 décès prématurés/an en France liés à la pollution de l'air",
@@ -50,11 +56,33 @@
         }
       ],
       "relations": [
-        {"cible": "zone-faibles-emissions", "type": "renvoie_a", "score": 85},
-        {"cible": "gaz-effet-serre", "type": "proche_de", "score": 60}
+        {
+          "cible": "zone-faibles-emissions",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "gaz-effet-serre",
+          "type": "proche_de",
+          "score": 60
+        }
       ],
-      "exemples": ["Pics de pollution aux particules", "Ozone estival", "Pollution au dioxyde d'azote près des axes routiers"],
-      "synonymes": ["Pollution atmosphérique", "Air quality"]
+      "exemples": [
+        "Pics de pollution aux particules",
+        "Ozone estival",
+        "Pollution au dioxyde d'azote près des axes routiers"
+      ],
+      "synonymes": [
+        "Pollution atmosphérique",
+        "Air quality"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Air_quality_index.svg/800px-Air_quality_index.svg.png",
+        "alt": "Indice de qualité de l'air",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Échelle de qualité de l'air"
+      }
     },
     {
       "id": "microplastiques",
@@ -89,7 +117,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["nanoplastiques", "microbilles", "transfert trophique", "perturbateurs endocriniens", "gyre océanique"],
+      "motsClésScientifiques": [
+        "nanoplastiques",
+        "microbilles",
+        "transfert trophique",
+        "perturbateurs endocriniens",
+        "gyre océanique"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "5-50 milliards de tonnes de plastique dans les océans",
@@ -103,11 +137,26 @@
         }
       ],
       "relations": [
-        {"cible": "economie-circulaire", "type": "renvoie_a", "score": 70},
-        {"cible": "dechet", "type": "renvoie_a", "score": 80}
+        {
+          "cible": "economie-circulaire",
+          "type": "renvoie_a",
+          "score": 70
+        },
+        {
+          "cible": "dechet",
+          "type": "renvoie_a",
+          "score": 80
+        }
       ],
-      "exemples": ["Microbilles dans les cosmétiques", "Fibres textiles synthétiques", "Fragments de bouteilles PET"],
-      "synonymes": ["MP", "Plastic particles"]
+      "exemples": [
+        "Microbilles dans les cosmétiques",
+        "Fibres textiles synthétiques",
+        "Fragments de bouteilles PET"
+      ],
+      "synonymes": [
+        "MP",
+        "Plastic particles"
+      ]
     },
     {
       "id": "perturbateurs-endocriniens",
@@ -141,7 +190,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["bisphénol", "phtalates", "effets cocktail", "fenêtres d'exposition", "SNPE"],
+      "motsClésScientifiques": [
+        "bisphénol",
+        "phtalates",
+        "effets cocktail",
+        "fenêtres d'exposition",
+        "SNPE"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "800+ substances identifiées comme PE potentiels",
@@ -155,11 +210,28 @@
         }
       ],
       "relations": [
-        {"cible": "microplastiques", "type": "proche_de", "score": 60},
-        {"cible": "qualite-air", "type": "proche_de", "score": 50}
+        {
+          "cible": "microplastiques",
+          "type": "proche_de",
+          "score": 60
+        },
+        {
+          "cible": "qualite-air",
+          "type": "proche_de",
+          "score": 50
+        }
       ],
-      "exemples": ["Bisphénol A (BPA)", "Phtalates (DEHP)", "Pesticides (DDT, chlordécone)", "Retardateurs de flamme bromés"],
-      "synonymes": ["PE", "Endocrine disruptors", "Xénohormones"]
+      "exemples": [
+        "Bisphénol A (BPA)",
+        "Phtalates (DEHP)",
+        "Pesticides (DDT, chlordécone)",
+        "Retardateurs de flamme bromés"
+      ],
+      "synonymes": [
+        "PE",
+        "Endocrine disruptors",
+        "Xénohormones"
+      ]
     },
     {
       "id": "pollution-sols",
@@ -193,7 +265,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["BASOL", "métaux lourds", "hydrocarbures", "phytoremédiation", "friches industrielles"],
+      "motsClésScientifiques": [
+        "BASOL",
+        "métaux lourds",
+        "hydrocarbures",
+        "phytoremédiation",
+        "friches industrielles"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "9 000+ sites pollués inventoriés en France (BASOL)",
@@ -207,11 +285,28 @@
         }
       ],
       "relations": [
-        {"cible": "biodiversite", "type": "contribue_a", "score": 70, "direction": "negatif"},
-        {"cible": "cycle-eau", "type": "contribue_a", "score": 65, "direction": "negatif"}
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 70,
+          "direction": "negatif"
+        },
+        {
+          "cible": "cycle-eau",
+          "type": "contribue_a",
+          "score": 65,
+          "direction": "negatif"
+        }
       ],
-      "exemples": ["Sites industriels (métallurgie, chimie)", "Anciennes décharges", "Sols agricoles pollués aux pesticides"],
-      "synonymes": ["Contamination des sols", "Soil pollution"]
+      "exemples": [
+        "Sites industriels (métallurgie, chimie)",
+        "Anciennes décharges",
+        "Sols agricoles pollués aux pesticides"
+      ],
+      "synonymes": [
+        "Contamination des sols",
+        "Soil pollution"
+      ]
     },
     {
       "id": "pollution-lumineuse",
@@ -246,7 +341,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["trame noire", "halo lumineux", "mélatonine", "LED", "RICE"],
+      "motsClésScientifiques": [
+        "trame noire",
+        "halo lumineux",
+        "mélatonine",
+        "LED",
+        "RICE"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "Croissance de +2%/an de la pollution lumineuse mondiale",
@@ -260,11 +361,27 @@
         }
       ],
       "relations": [
-        {"cible": "biodiversite", "type": "contribue_a", "score": 75, "direction": "negatif"},
-        {"cible": "efficacite-energetique", "type": "renvoie_a", "score": 60}
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 75,
+          "direction": "negatif"
+        },
+        {
+          "cible": "efficacite-energetique",
+          "type": "renvoie_a",
+          "score": 60
+        }
       ],
-      "exemples": ["Éclairage public excessif", "Enseignes lumineuses 24/7", "Serres éclairées"],
-      "synonymes": ["Light pollution", "Nuisances lumineuses"]
+      "exemples": [
+        "Éclairage public excessif",
+        "Enseignes lumineuses 24/7",
+        "Serres éclairées"
+      ],
+      "synonymes": [
+        "Light pollution",
+        "Nuisances lumineuses"
+      ]
     },
     {
       "id": "pollution-sonore",
@@ -298,7 +415,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["décibel", "Lden", "cartographie de bruit", "DALYs", "zones calmes"],
+      "motsClésScientifiques": [
+        "décibel",
+        "Lden",
+        "cartographie de bruit",
+        "DALYs",
+        "zones calmes"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "20% des Européens exposés à des niveaux nocifs (>55 dB Lden)",
@@ -312,11 +435,28 @@
         }
       ],
       "relations": [
-        {"cible": "mobilite-douce", "type": "contribue_a", "score": 65, "direction": "positif"},
-        {"cible": "ville-durable", "type": "renvoie_a", "score": 60}
+        {
+          "cible": "mobilite-douce",
+          "type": "contribue_a",
+          "score": 65,
+          "direction": "positif"
+        },
+        {
+          "cible": "ville-durable",
+          "type": "renvoie_a",
+          "score": 60
+        }
       ],
-      "exemples": ["Bruit routier", "Bruit aérien (aéroports)", "Bruit ferroviaire", "Bruit de chantier"],
-      "synonymes": ["Nuisances sonores", "Noise pollution"]
+      "exemples": [
+        "Bruit routier",
+        "Bruit aérien (aéroports)",
+        "Bruit ferroviaire",
+        "Bruit de chantier"
+      ],
+      "synonymes": [
+        "Nuisances sonores",
+        "Noise pollution"
+      ]
     },
     {
       "id": "depollution",
@@ -349,7 +489,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["remédiation", "bioremédiation", "phytoremédiation", "excavation", "confinement"],
+      "motsClésScientifiques": [
+        "remédiation",
+        "bioremédiation",
+        "phytoremédiation",
+        "excavation",
+        "confinement"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "Coût moyen de dépollution : 100-500 EUR/m³ de sol traité",
@@ -363,11 +509,34 @@
         }
       ],
       "relations": [
-        {"cible": "pollution-sols", "type": "renvoie_a", "score": 95},
-        {"cible": "economie-circulaire", "type": "proche_de", "score": 55}
+        {
+          "cible": "pollution-sols",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "economie-circulaire",
+          "type": "proche_de",
+          "score": 55
+        }
       ],
-      "exemples": ["Dépollution d'anciennes usines à gaz", "Traitement de sols aux hydrocarbures", "Phytoremédiation par saules"],
-      "synonymes": ["Remédiation", "Remediation", "Assainissement"]
+      "exemples": [
+        "Dépollution d'anciennes usines à gaz",
+        "Traitement de sols aux hydrocarbures",
+        "Phytoremédiation par saules"
+      ],
+      "synonymes": [
+        "Remédiation",
+        "Remediation",
+        "Assainissement"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Phytoremediation.jpg/800px-Phytoremediation.jpg",
+        "alt": "Phytoremédiation",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Dépollution des sols par les plantes"
+      }
     },
     {
       "id": "sante-environnementale",
@@ -402,7 +571,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["exposome", "PNSE", "One Health", "inégalités environnementales", "évaluation d'impact santé"],
+      "motsClésScientifiques": [
+        "exposome",
+        "PNSE",
+        "One Health",
+        "inégalités environnementales",
+        "évaluation d'impact santé"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "23% de la mortalité mondiale attribuable à l'environnement",
@@ -416,12 +591,31 @@
         }
       ],
       "relations": [
-        {"cible": "qualite-air", "type": "renvoie_a", "score": 85},
-        {"cible": "perturbateurs-endocriniens", "type": "renvoie_a", "score": 80},
-        {"cible": "changement-climatique", "type": "renvoie_a", "score": 75}
+        {
+          "cible": "qualite-air",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "perturbateurs-endocriniens",
+          "type": "renvoie_a",
+          "score": 80
+        },
+        {
+          "cible": "changement-climatique",
+          "type": "renvoie_a",
+          "score": 75
+        }
       ],
-      "exemples": ["Études sur la pollution de l'air et mortalité", "Suivi de l'imprégnation aux pesticides", "Évaluation d'impact santé de projets urbains"],
-      "synonymes": ["Environmental health", "Santé-environnement"]
+      "exemples": [
+        "Études sur la pollution de l'air et mortalité",
+        "Suivi de l'imprégnation aux pesticides",
+        "Évaluation d'impact santé de projets urbains"
+      ],
+      "synonymes": [
+        "Environmental health",
+        "Santé-environnement"
+      ]
     }
   ]
 }

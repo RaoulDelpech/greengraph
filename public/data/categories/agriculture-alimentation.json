@@ -45,7 +45,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["biodiversité fonctionnelle", "services écosystémiques", "systèmes alimentaires", "transition agricole", "résilience"],
+      "motsClésScientifiques": [
+        "biodiversité fonctionnelle",
+        "services écosystémiques",
+        "systèmes alimentaires",
+        "transition agricole",
+        "résilience"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "Réduction de 8-25% des rendements vs conventionnel",
@@ -59,12 +65,39 @@
         }
       ],
       "relations": [
-        {"cible": "biodiversite", "type": "contribue_a", "score": 90, "direction": "positif"},
-        {"cible": "permaculture", "type": "proche_de", "score": 85},
-        {"cible": "agriculture-biologique", "type": "proche_de", "score": 80}
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 90,
+          "direction": "positif"
+        },
+        {
+          "cible": "permaculture",
+          "type": "proche_de",
+          "score": 85
+        },
+        {
+          "cible": "agriculture-biologique",
+          "type": "proche_de",
+          "score": 80
+        }
       ],
-      "exemples": ["Fermes en polyculture-élevage", "Agroforesterie tropicale", "Systèmes de culture associée maïs-haricot"],
-      "synonymes": ["Agriculture écologique", "Agriculture durable"]
+      "exemples": [
+        "Fermes en polyculture-élevage",
+        "Agroforesterie tropicale",
+        "Systèmes de culture associée maïs-haricot"
+      ],
+      "synonymes": [
+        "Agriculture écologique",
+        "Agriculture durable"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Agroecology_farm.jpg/800px-Agroecology_farm.jpg",
+        "alt": "Ferme agroécologique",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Pratiques agroécologiques diversifiées"
+      }
     },
     {
       "id": "permaculture",
@@ -99,7 +132,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["design écologique", "résilience", "autosuffisance", "zonage", "guildes végétales"],
+      "motsClésScientifiques": [
+        "design écologique",
+        "résilience",
+        "autosuffisance",
+        "zonage",
+        "guildes végétales"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "Plus de 3 millions de personnes formées dans le monde",
@@ -108,11 +147,33 @@
         }
       ],
       "relations": [
-        {"cible": "agroecologie", "type": "proche_de", "score": 85},
-        {"cible": "agroforesterie", "type": "contribue_a", "score": 75, "direction": "positif"}
+        {
+          "cible": "agroecologie",
+          "type": "proche_de",
+          "score": 85
+        },
+        {
+          "cible": "agroforesterie",
+          "type": "contribue_a",
+          "score": 75,
+          "direction": "positif"
+        }
       ],
-      "exemples": ["Ferme du Bec Hellouin (France)", "Zaytuna Farm (Australie)", "Jardins-forêts"],
-      "synonymes": ["Culture permanente"]
+      "exemples": [
+        "Ferme du Bec Hellouin (France)",
+        "Zaytuna Farm (Australie)",
+        "Jardins-forêts"
+      ],
+      "synonymes": [
+        "Culture permanente"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Permaculture_garden.jpg/800px-Permaculture_garden.jpg",
+        "alt": "Jardin en permaculture",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Design inspiré des écosystèmes naturels"
+      }
     },
     {
       "id": "agriculture-biologique",
@@ -156,7 +217,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["certification", "pesticides", "fertilisation organique", "bien-être animal", "SAU"],
+      "motsClésScientifiques": [
+        "certification",
+        "pesticides",
+        "fertilisation organique",
+        "bien-être animal",
+        "SAU"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "10,7% de la SAU française en bio (2023)",
@@ -175,11 +242,34 @@
         }
       ],
       "relations": [
-        {"cible": "agroecologie", "type": "proche_de", "score": 75},
-        {"cible": "biodiversite", "type": "contribue_a", "score": 70, "direction": "positif"}
+        {
+          "cible": "agroecologie",
+          "type": "proche_de",
+          "score": 75
+        },
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 70,
+          "direction": "positif"
+        }
       ],
-      "exemples": ["Labels AB, Eurofeuille", "Demeter (biodynamie)", "Nature & Progrès"],
-      "synonymes": ["Bio", "Organic farming"]
+      "exemples": [
+        "Labels AB, Eurofeuille",
+        "Demeter (biodynamie)",
+        "Nature & Progrès"
+      ],
+      "synonymes": [
+        "Bio",
+        "Organic farming"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Organic_farming.jpg/800px-Organic_farming.jpg",
+        "alt": "Agriculture biologique",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Culture sans pesticides ni engrais chimiques"
+      }
     },
     {
       "id": "agroforesterie",
@@ -214,7 +304,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["silvoarable", "sylvopastoralisme", "LER", "séquestration carbone", "bocage"],
+      "motsClésScientifiques": [
+        "silvoarable",
+        "sylvopastoralisme",
+        "LER",
+        "séquestration carbone",
+        "bocage"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "LER (Land Equivalent Ratio) moyen de 1,2 à 1,4",
@@ -228,12 +324,35 @@
         }
       ],
       "relations": [
-        {"cible": "agroecologie", "type": "est_type_de", "score": 85},
-        {"cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 75, "direction": "positif"}
+        {
+          "cible": "agroecologie",
+          "type": "est_type_de",
+          "score": 85
+        },
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 75,
+          "direction": "positif"
+        }
       ],
-      "exemples": ["Alignements de noyers en grandes cultures", "Prés-vergers", "Truffières", "Haies bocagères"],
-      "synonymes": ["Systèmes agroforestiers", "Silvoarable", "Sylvopastoralisme"]
+      "exemples": [
+        "Alignements de noyers en grandes cultures",
+        "Prés-vergers",
+        "Truffières",
+        "Haies bocagères"
+      ],
+      "synonymes": [
+        "Systèmes agroforestiers",
+        "Silvoarable",
+        "Sylvopastoralisme"
+      ]
     },
     {
       "id": "souverainete-alimentaire",
@@ -267,7 +386,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["Via Campesina", "sécurité alimentaire", "circuits courts", "réforme agraire", "PAT"],
+      "motsClésScientifiques": [
+        "Via Campesina",
+        "sécurité alimentaire",
+        "circuits courts",
+        "réforme agraire",
+        "PAT"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "200 millions de membres Via Campesina dans 81 pays",
@@ -276,11 +401,33 @@
         }
       ],
       "relations": [
-        {"cible": "circuits-courts", "type": "contribue_a", "score": 90, "direction": "positif"},
-        {"cible": "agroecologie", "type": "proche_de", "score": 80}
+        {
+          "cible": "circuits-courts",
+          "type": "contribue_a",
+          "score": 90,
+          "direction": "positif"
+        },
+        {
+          "cible": "agroecologie",
+          "type": "proche_de",
+          "score": 80
+        }
       ],
-      "exemples": ["Projets Alimentaires Territoriaux (PAT)", "AMAP", "Politiques agricoles de l'Équateur"],
-      "synonymes": ["Food sovereignty"]
+      "exemples": [
+        "Projets Alimentaires Territoriaux (PAT)",
+        "AMAP",
+        "Politiques agricoles de l'Équateur"
+      ],
+      "synonymes": [
+        "Food sovereignty"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Local_food.jpg/800px-Local_food.jpg",
+        "alt": "Marché local",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Circuits courts et production locale"
+      }
     },
     {
       "id": "circuits-courts",
@@ -313,7 +460,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["vente directe", "AMAP", "proximité", "PAT", "restauration collective"],
+      "motsClésScientifiques": [
+        "vente directe",
+        "AMAP",
+        "proximité",
+        "PAT",
+        "restauration collective"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "21% des exploitations françaises vendent en circuits courts",
@@ -327,11 +480,29 @@
         }
       ],
       "relations": [
-        {"cible": "souverainete-alimentaire", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "empreinte-carbone", "type": "contribue_a", "score": 50, "direction": "positif"}
+        {
+          "cible": "souverainete-alimentaire",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "empreinte-carbone",
+          "type": "contribue_a",
+          "score": 50,
+          "direction": "positif"
+        }
       ],
-      "exemples": ["AMAP", "Marchés de producteurs", "Magasins de producteurs", "Drive fermier"],
-      "synonymes": ["Short food supply chains", "Vente directe"]
+      "exemples": [
+        "AMAP",
+        "Marchés de producteurs",
+        "Magasins de producteurs",
+        "Drive fermier"
+      ],
+      "synonymes": [
+        "Short food supply chains",
+        "Vente directe"
+      ]
     },
     {
       "id": "agriculture-regenerative",
@@ -366,7 +537,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["santé des sols", "séquestration carbone", "couverts végétaux", "non-labour", "4 pour 1000"],
+      "motsClésScientifiques": [
+        "santé des sols",
+        "séquestration carbone",
+        "couverts végétaux",
+        "non-labour",
+        "4 pour 1000"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "Potentiel de séquestration : 0,4% de carbone/an dans les sols (4 pour 1000)",
@@ -380,12 +557,40 @@
         }
       ],
       "relations": [
-        {"cible": "agroecologie", "type": "proche_de", "score": 80},
-        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 85, "direction": "positif"},
-        {"cible": "biodiversite", "type": "contribue_a", "score": 75, "direction": "positif"}
+        {
+          "cible": "agroecologie",
+          "type": "proche_de",
+          "score": 80
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        },
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 75,
+          "direction": "positif"
+        }
       ],
-      "exemples": ["Semis direct sous couvert", "Pâturage tournant dynamique", "Cultures de couverture"],
-      "synonymes": ["Agriculture de conservation", "Carbon farming"]
+      "exemples": [
+        "Semis direct sous couvert",
+        "Pâturage tournant dynamique",
+        "Cultures de couverture"
+      ],
+      "synonymes": [
+        "Agriculture de conservation",
+        "Carbon farming"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Cover_crops.jpg/800px-Cover_crops.jpg",
+        "alt": "Cultures de couverture",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Régénération des sols par les couverts végétaux"
+      }
     },
     {
       "id": "gaspillage-alimentaire",
@@ -420,7 +625,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["pertes alimentaires", "DLC", "DDM", "ODD 12.3", "chaîne alimentaire"],
+      "motsClésScientifiques": [
+        "pertes alimentaires",
+        "DLC",
+        "DDM",
+        "ODD 12.3",
+        "chaîne alimentaire"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "1,3 milliard de tonnes gaspillées par an dans le monde",
@@ -439,11 +650,27 @@
         }
       ],
       "relations": [
-        {"cible": "empreinte-carbone", "type": "contribue_a", "score": 75, "direction": "negatif"},
-        {"cible": "economie-circulaire", "type": "renvoie_a", "score": 70}
+        {
+          "cible": "empreinte-carbone",
+          "type": "contribue_a",
+          "score": 75,
+          "direction": "negatif"
+        },
+        {
+          "cible": "economie-circulaire",
+          "type": "renvoie_a",
+          "score": 70
+        }
       ],
-      "exemples": ["Fruits et légumes 'moches'", "Restes en restauration", "Produits proches de la DLC"],
-      "synonymes": ["Food waste", "Pertes alimentaires"]
+      "exemples": [
+        "Fruits et légumes 'moches'",
+        "Restes en restauration",
+        "Produits proches de la DLC"
+      ],
+      "synonymes": [
+        "Food waste",
+        "Pertes alimentaires"
+      ]
     },
     {
       "id": "semences-paysannes",
@@ -477,7 +704,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["biodiversité cultivée", "sélection massale", "COV", "Catalogue officiel", "ressources génétiques"],
+      "motsClésScientifiques": [
+        "biodiversité cultivée",
+        "sélection massale",
+        "COV",
+        "Catalogue officiel",
+        "ressources génétiques"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "75% des variétés agricoles perdues au XXe siècle",
@@ -491,11 +724,30 @@
         }
       ],
       "relations": [
-        {"cible": "biodiversite", "type": "contribue_a", "score": 90, "direction": "positif"},
-        {"cible": "souverainete-alimentaire", "type": "contribue_a", "score": 85, "direction": "positif"}
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 90,
+          "direction": "positif"
+        },
+        {
+          "cible": "souverainete-alimentaire",
+          "type": "contribue_a",
+          "score": 85,
+          "direction": "positif"
+        }
       ],
-      "exemples": ["Blés anciens", "Tomates anciennes", "Maïs population", "Pommes de terre locales"],
-      "synonymes": ["Variétés paysannes", "Semences de ferme", "Variétés anciennes"]
+      "exemples": [
+        "Blés anciens",
+        "Tomates anciennes",
+        "Maïs population",
+        "Pommes de terre locales"
+      ],
+      "synonymes": [
+        "Variétés paysannes",
+        "Semences de ferme",
+        "Variétés anciennes"
+      ]
     },
     {
       "id": "elevage-extensif",
@@ -529,7 +781,13 @@
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-27",
-      "motsClésScientifiques": ["pâturage", "prairies permanentes", "UGB", "transhumance", "services écosystémiques"],
+      "motsClésScientifiques": [
+        "pâturage",
+        "prairies permanentes",
+        "UGB",
+        "transhumance",
+        "services écosystémiques"
+      ],
       "indicateursQuantitatifs": [
         {
           "valeur": "Charge extensive < 1,4 UGB/ha de SFP",
@@ -543,12 +801,36 @@
         }
       ],
       "relations": [
-        {"cible": "biodiversite", "type": "contribue_a", "score": 70, "direction": "positif"},
-        {"cible": "gaz-effet-serre", "type": "contribue_a", "score": 40, "direction": "negatif"},
-        {"cible": "services-ecosystemiques", "type": "contribue_a", "score": 75, "direction": "positif"}
+        {
+          "cible": "biodiversite",
+          "type": "contribue_a",
+          "score": 70,
+          "direction": "positif"
+        },
+        {
+          "cible": "gaz-effet-serre",
+          "type": "contribue_a",
+          "score": 40,
+          "direction": "negatif"
+        },
+        {
+          "cible": "services-ecosystemiques",
+          "type": "contribue_a",
+          "score": 75,
+          "direction": "positif"
+        }
       ],
-      "exemples": ["Alpages", "Parcours méditerranéens", "Ranching", "Races rustiques (Aubrac, Salers)"],
-      "synonymes": ["Pastoralisme", "Élevage herbager", "Élevage à l'herbe"]
+      "exemples": [
+        "Alpages",
+        "Parcours méditerranéens",
+        "Ranching",
+        "Races rustiques (Aubrac, Salers)"
+      ],
+      "synonymes": [
+        "Pastoralisme",
+        "Élevage herbager",
+        "Élevage à l'herbe"
+      ]
     }
   ]
 }

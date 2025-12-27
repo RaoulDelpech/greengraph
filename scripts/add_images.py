@@ -481,6 +481,120 @@ IMAGES_TECHNOLOGIES_VERTES = {
     }
 }
 
+IMAGES_AGRICULTURE = {
+    "agroecologie": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Agroecology_farm.jpg/800px-Agroecology_farm.jpg",
+        "alt": "Ferme agroécologique",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Pratiques agroécologiques diversifiées"
+    },
+    "agriculture-biologique": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Organic_farming.jpg/800px-Organic_farming.jpg",
+        "alt": "Agriculture biologique",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Culture sans pesticides ni engrais chimiques"
+    },
+    "permaculture": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Permaculture_garden.jpg/800px-Permaculture_garden.jpg",
+        "alt": "Jardin en permaculture",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Design inspiré des écosystèmes naturels"
+    },
+    "souverainete-alimentaire": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Local_food.jpg/800px-Local_food.jpg",
+        "alt": "Marché local",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Circuits courts et production locale"
+    },
+    "agriculture-regenerative": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Cover_crops.jpg/800px-Cover_crops.jpg",
+        "alt": "Cultures de couverture",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Régénération des sols par les couverts végétaux"
+    }
+}
+
+IMAGES_URBANISME = {
+    "ville-durable": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Sustainable_city.jpg/800px-Sustainable_city.jpg",
+        "alt": "Ville durable",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Aménagement urbain durable"
+    },
+    "mobilite-douce": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Bicycle_lane.jpg/800px-Bicycle_lane.jpg",
+        "alt": "Piste cyclable",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Infrastructure de mobilité douce"
+    },
+    "ilot-chaleur-urbain": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Urban_heat_island.svg/800px-Urban_heat_island.svg.png",
+        "alt": "Îlot de chaleur urbain",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Différence de température ville-campagne"
+    },
+    "vegetalisation-urbaine": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Green_roof.jpg/800px-Green_roof.jpg",
+        "alt": "Toit végétalisé",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Végétalisation des toitures urbaines"
+    },
+    "transport-collectif": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Tramway.jpg/800px-Tramway.jpg",
+        "alt": "Tramway",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Transport en commun électrique"
+    }
+}
+
+IMAGES_POLLUTION = {
+    "pollution-air": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Air_pollution.jpg/800px-Air_pollution.jpg",
+        "alt": "Pollution de l'air",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Smog urbain dû à la pollution atmosphérique"
+    },
+    "pollution-plastique": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Ocean_plastic.jpg/800px-Ocean_plastic.jpg",
+        "alt": "Pollution plastique",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Déchets plastiques dans l'environnement"
+    },
+    "perturbateur-endocrinien": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Endocrine_disruptors.svg/800px-Endocrine_disruptors.svg.png",
+        "alt": "Perturbateurs endocriniens",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Sources et effets des perturbateurs endocriniens"
+    },
+    "qualite-air": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Air_quality_index.svg/800px-Air_quality_index.svg.png",
+        "alt": "Indice de qualité de l'air",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Échelle de qualité de l'air"
+    },
+    "depollution": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Phytoremediation.jpg/800px-Phytoremediation.jpg",
+        "alt": "Phytoremédiation",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Dépollution des sols par les plantes"
+    }
+}
+
 ALL_IMAGES = {
     "energie-climat": IMAGES_ENERGIE_CLIMAT,
     "biodiversite": IMAGES_BIODIVERSITE,
@@ -491,7 +605,10 @@ ALL_IMAGES = {
     "forets-oceans": IMAGES_FORETS_OCEANS,
     "finance-verte": IMAGES_FINANCE_VERTE,
     "droit-environnement": IMAGES_DROIT_ENVIRONNEMENT,
-    "technologies-vertes": IMAGES_TECHNOLOGIES_VERTES
+    "technologies-vertes": IMAGES_TECHNOLOGIES_VERTES,
+    "agriculture-alimentation": IMAGES_AGRICULTURE,
+    "urbanisme-durable": IMAGES_URBANISME,
+    "pollution": IMAGES_POLLUTION
 }
 
 def add_images_to_category(category_file, images_dict):
