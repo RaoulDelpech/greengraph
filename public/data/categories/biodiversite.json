@@ -292,6 +292,158 @@
       ],
       "exemples": ["Haies bocagères", "Passages à faune sous autoroutes", "Berges végétalisées"],
       "synonymes": ["continuité écologique", "trame verte et bleue"]
+    },
+    {
+      "id": "trame-verte-bleue",
+      "terme": "Trame verte et bleue",
+      "categorie": "biodiversite",
+      "resume": "Politique française de préservation des continuités écologiques terrestres (verte) et aquatiques (bleue) pour maintenir la biodiversité.",
+      "definition": "La Trame verte et bleue (TVB) est un outil d'aménagement du territoire français visant à enrayer la perte de biodiversité en préservant et restaurant les continuités écologiques. La trame verte concerne les milieux terrestres (forêts, prairies, haies), la trame bleue les milieux aquatiques et humides (cours d'eau, zones humides). Elle s'appuie sur l'identification de réservoirs de biodiversité et de corridors écologiques, et se décline dans les documents d'urbanisme (SRCE, SCOT, PLU).",
+      "definitionEtendue": {
+        "introduction": "La TVB est issue du Grenelle de l'environnement (2007) et inscrite dans la loi Grenelle 2 (2010). Elle traduit les engagements européens (réseau Natura 2000, stratégie biodiversité) en politique d'aménagement. Les Schémas Régionaux de Cohérence Écologique (SRCE), coélaborés par l'État et les Régions, constituent le cadre de référence régional.",
+        "mecanismes": "La TVB identifie des 'réservoirs de biodiversité' (zones à forte richesse) et des 'corridors' les reliant. Les sous-trames correspondent aux grands types de milieux : forestier, bocager, humide, aquatique. La cartographie s'appuie sur les données naturalistes, la télédétection et la modélisation. L'opposabilité aux documents d'urbanisme garantit la prise en compte.",
+        "contexteScientifique": "La TVB s'appuie sur l'écologie du paysage (fragmentation, connectivité) et la biologie de la conservation. Les outils de modélisation (Graphab, Conefor) quantifient la connectivité. Les recherches évaluent l'efficacité réelle des corridors selon les espèces et les contextes. Le suivi des indicateurs TVB par l'OFB permet l'évaluation.",
+        "enjeuxActuels": "La prise en compte effective dans les projets d'aménagement reste inégale. Le changement climatique impose de penser des corridors de migration latitudinale et altitudinale. L'articulation avec les politiques agricoles (haies, prairies permanentes) et forestières est cruciale. La 'trame noire' (continuités nocturnes) émerge.",
+        "perspectives": "L'évolution vers des 'trames fonctionnelles' adaptées aux groupes d'espèces, l'intégration du changement climatique, et le renforcement de l'opposabilité sont attendus. La TVB s'inscrit désormais dans la Stratégie nationale biodiversité 2030 et les objectifs 30x30 de Kunming-Montréal."
+      },
+      "sources": [
+        {"titre": "La Trame verte et bleue", "institution": "Ministère de la Transition écologique", "url": "https://www.ecologie.gouv.fr/trame-verte-et-bleue", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Loi Grenelle 2 - Article L371", "institution": "République Française", "annee": 2010, "type": "loi", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["SRCE", "continuités écologiques", "réservoirs", "corridors", "opposabilité"],
+      "indicateursQuantitatifs": [
+        {"valeur": "18 SRCE adoptés en France métropolitaine", "source": "OFB", "annee": 2020}
+      ],
+      "relations": [
+        {"cible": "corridor-ecologique", "type": "renvoie_a", "score": 95},
+        {"cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif"}
+      ],
+      "exemples": ["SRCE Île-de-France", "PLU avec OAP TVB", "Passages à faune A10"],
+      "synonymes": ["TVB", "Green and blue infrastructure"]
+    },
+    {
+      "id": "rewilding",
+      "terme": "Rewilding",
+      "categorie": "biodiversite",
+      "resume": "Approche de conservation visant à restaurer les processus écologiques naturels en réduisant l'intervention humaine et en réintroduisant des espèces clés.",
+      "definition": "Le rewilding (réensauvagement) est une approche de conservation qui vise à restaurer les écosystèmes en réintroduisant des espèces clés (notamment de grands herbivores et prédateurs) et en laissant les processus naturels opérer avec une intervention humaine minimale. Contrairement à la conservation classique qui gère activement les habitats, le rewilding mise sur l'autonomie des écosystèmes et la restauration des chaînes trophiques complètes pour retrouver un fonctionnement 'sauvage'.",
+      "definitionEtendue": {
+        "introduction": "Le concept de rewilding émerge aux États-Unis dans les années 1990 avec les travaux de Michael Soulé et Reed Noss ('Continental Conservation'). En Europe, le mouvement se structure avec Rewilding Europe (2011) et des projets emblématiques comme Oostvaardersplassen (Pays-Bas). Le rewilding se distingue de la restauration écologique classique par son objectif de rétablir des processus plutôt que des états de référence historiques.",
+        "mecanismes": "Le rewilding s'appuie sur trois piliers : 1) Les 'espèces ingénieures' ou 'keystone species' qui structurent les écosystèmes (castors créant des zones humides, grands herbivores entretenant les paysages ouverts), 2) Les grands prédateurs qui régulent les populations de proies (cascades trophiques), 3) La réduction de l'intervention humaine pour laisser les dynamiques naturelles s'exprimer. La réintroduction d'espèces disparues ou l'utilisation de 'proxies' (espèces proches) sont des outils clés.",
+        "contexteScientifique": "Le cas du loup à Yellowstone (1995) illustre les cascades trophiques : la prédation a modifié le comportement des cervidés, permettant la régénération de la végétation rivulaire et stabilisant les berges. Les critiques portent sur l'idéalisation d'une nature 'sauvage', les conflits avec les activités humaines (élevage), et la question de l'état de référence. Le 'trophic rewilding' de Svenning et al. (2016) formalise l'approche scientifique.",
+        "enjeuxActuels": "L'acceptation sociale, notamment par les éleveurs face aux prédateurs, reste le principal défi. Les questions de sécurité, d'indemnisation des dégâts, et de gouvernance territoriale sont cruciales. Le rewilding est parfois critiqué comme une vision élitiste éloignée des réalités rurales. La question des espèces 'de novo' (aurochs reconstitués, mammouths) soulève des débats éthiques.",
+        "perspectives": "Le rewilding s'étend en Europe avec des projets ambitieux (corridor des Carpates, delta du Danube). L'articulation avec les politiques agricoles (paiements pour services écosystémiques) et le tourisme de nature ouvre des perspectives économiques. Le 'ocean rewilding' et le 'urban rewilding' élargissent le concept."
+      },
+      "sources": [
+        {"titre": "Rewilding European Landscapes", "auteur": "Pereira, H.M. & Navarro, L.M.", "doi": "10.1007/978-3-319-12039-3", "annee": 2015, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
+        {"titre": "Science-based restoration of trophic structure", "auteur": "Svenning, J.-C. et al.", "doi": "10.1111/ele.12564", "journal": "Ecology Letters", "annee": 2016, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["réensauvagement", "cascades trophiques", "espèces clés", "processus naturels", "Yellowstone"],
+      "indicateursQuantitatifs": [
+        {"valeur": "10+ projets majeurs Rewilding Europe actifs", "source": "Rewilding Europe", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "ecosysteme", "type": "renvoie_a", "score": 80}
+      ],
+      "exemples": ["Réintroduction du loup en France", "Bisons d'Europe en Roumanie", "Castors en Grande-Bretagne"],
+      "synonymes": ["Réensauvagement", "Renaturalisation passive"]
+    },
+    {
+      "id": "espece-parapluie",
+      "terme": "Espèce parapluie",
+      "categorie": "biodiversite",
+      "resume": "Espèce dont la conservation protège indirectement de nombreuses autres espèces partageant le même habitat.",
+      "definition": "Une espèce parapluie (umbrella species) est une espèce dont les besoins en termes d'habitat sont suffisamment vastes et représentatifs pour que sa protection assure la conservation de nombreuses autres espèces vivant dans le même écosystème. Ce concept, développé en biologie de la conservation, permet de concentrer les efforts de protection sur quelques espèces emblématiques tout en bénéficiant à l'ensemble de la communauté écologique. Les grands mammifères (ours, loup, lynx) sont souvent utilisés comme espèces parapluies.",
+      "definitionEtendue": {
+        "introduction": "Le concept d'espèce parapluie apparaît dans les années 1980-90 avec la structuration de la biologie de la conservation. Il est lié aux concepts d'espèce clé de voûte (keystone species, Robert Paine 1969), d'espèce indicatrice et d'espèce porte-drapeau (flagship species). L'idée est d'optimiser l'allocation des ressources de conservation en ciblant des espèces 'substituts' (surrogates) de la biodiversité globale.",
+        "mecanismes": "L'efficacité d'une espèce parapluie dépend de : la taille de son domaine vital (plus il est grand, plus la zone protégée couvre d'espèces), la diversité d'habitats utilisés, et la représentativité de ses besoins par rapport aux autres espèces. Par exemple, protéger l'habitat du grand tétras préserve des forêts matures abritant des centaines d'autres espèces.",
+        "contexteScientifique": "Des études testent empiriquement l'efficacité des espèces parapluies comme substituts de la biodiversité globale. Les résultats sont mitigés : la congruence entre besoins de l'espèce parapluie et biodiversité associée n'est pas toujours optimale. Des approches multi-espèces ou basées sur les habitats peuvent être plus efficaces. Néanmoins, l'effet mobilisateur sur le public justifie l'approche.",
+        "enjeuxActuels": "La sélection des espèces parapluies pertinentes, leur combinaison avec d'autres approches (réseaux d'aires protégées, connectivité), et l'évaluation de leur efficacité réelle sont des enjeux de recherche et de gestion. Le risque est de négliger des espèces ou habitats non couverts par le 'parapluie'.",
+        "perspectives": "L'intégration avec les analyses de viabilité des populations, les réseaux écologiques et la modélisation de niche améliore le concept. Les 'umbrella assemblages' (ensembles d'espèces parapluies) et les approches multi-taxons progressent. L'objectif 30x30 relance l'intérêt pour les stratégies de priorisation spatiale."
+      },
+      "sources": [
+        {"titre": "Umbrella species and conservation planning", "auteur": "Roberge, J.-M. & Angelstam, P.", "doi": "10.1111/j.1523-1739.2004.00032.x", "journal": "Conservation Biology", "annee": 2004, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["umbrella species", "biologie de la conservation", "surrogates", "priorisation", "domaine vital"],
+      "relations": [
+        {"cible": "biodiversite", "type": "contribue_a", "score": 75, "direction": "positif"},
+        {"cible": "ecosysteme", "type": "renvoie_a", "score": 70}
+      ],
+      "exemples": ["Ours brun dans les Pyrénées", "Lynx boréal dans le Jura", "Tigre en Asie du Sud-Est"],
+      "synonymes": ["Umbrella species", "Espèce substitut"]
+    },
+    {
+      "id": "hotspot-biodiversite",
+      "terme": "Hotspot de biodiversité",
+      "categorie": "biodiversite",
+      "resume": "Zone géographique concentrant une biodiversité exceptionnelle et fortement menacée, prioritaire pour la conservation mondiale.",
+      "definition": "Un hotspot de biodiversité est une région biogéographique présentant une concentration exceptionnelle d'espèces endémiques et subissant une perte significative d'habitat. Le concept, développé par Norman Myers en 1988, identifie les zones prioritaires pour la conservation mondiale. Pour être qualifiée de hotspot, une région doit abriter au moins 1 500 espèces de plantes vasculaires endémiques et avoir perdu au moins 70% de sa végétation primaire. Les 36 hotspots actuels ne couvrent que 2,5% de la surface terrestre mais abritent plus de 50% des espèces de plantes et 43% des vertébrés endémiques.",
+      "definitionEtendue": {
+        "introduction": "Norman Myers introduit le concept de hotspot en 1988 dans un article fondateur sur les forêts tropicales. Conservation International l'adopte et l'étend avec Russell Mittermeier (2000, 2004). L'objectif est de maximiser l'impact des investissements de conservation limités en ciblant les zones à la fois les plus riches et les plus menacées : 'biodiversity triage'. Les 36 hotspots actuels guident les stratégies de nombreuses ONG et bailleurs.",
+        "mecanismes": "Les hotspots résultent de processus biogéographiques favorisant l'endémisme : isolement géographique (îles, montagnes), stabilité climatique historique (refuges glaciaires), et hétérogénéité environnementale. Le bassin méditerranéen, les Andes tropicales, ou Madagascar sont des exemples. La menace provient de la déforestation, l'urbanisation et l'agriculture intensive.",
+        "contexteScientifique": "Le concept de hotspot a été très influent mais aussi critiqué : biais taxonomique (plantes, vertébrés), négligence des zones moins riches mais fonctionnellement importantes, et focalisation sur l'endémisme plutôt que sur les services écosystémiques. D'autres approches existent : Endemic Bird Areas (BirdLife), Global 200 (WWF), Key Biodiversity Areas. Les hotspots restent un outil de priorisation parmi d'autres.",
+        "enjeuxActuels": "La protection effective des hotspots reste insuffisante : moins de 10% de leur surface est strictement protégée. Les conflits avec le développement économique, les droits des populations locales, et le financement durable sont des défis majeurs. Le changement climatique modifie les contours des hotspots et menace des espèces déjà vulnérables.",
+        "perspectives": "L'intégration des hotspots dans les objectifs post-2020 (Kunming-Montréal) et les mécanismes de financement (CEPF - Critical Ecosystem Partnership Fund) renforce leur rôle. L'émergence des 'climate refugia' (refuges climatiques) et des 'megadiverse countries' complète l'approche. L'objectif est d'atteindre une protection significative dans tous les hotspots d'ici 2030."
+      },
+      "sources": [
+        {"titre": "Biodiversity hotspots for conservation priorities", "auteur": "Myers, N. et al.", "doi": "10.1038/35002501", "journal": "Nature", "annee": 2000, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
+        {"titre": "Global Biodiversity Hotspots", "institution": "Conservation International", "url": "https://www.conservation.org/priorities/biodiversity-hotspots", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["endémisme", "priorisation", "Conservation International", "CEPF", "biogéographie"],
+      "indicateursQuantitatifs": [
+        {"valeur": "36 hotspots couvrant 2,5% des terres émergées", "source": "Conservation International", "annee": 2023},
+        {"valeur": "50%+ des espèces de plantes endémiques dans les hotspots", "source": "Myers et al.", "annee": 2000}
+      ],
+      "relations": [
+        {"cible": "biodiversite", "type": "renvoie_a", "score": 95},
+        {"cible": "espece-endemique", "type": "renvoie_a", "score": 90},
+        {"cible": "erosion-biodiversite", "type": "oppose_a", "score": 80}
+      ],
+      "exemples": ["Bassin méditerranéen", "Andes tropicales", "Madagascar et îles de l'océan Indien", "Forêts atlantiques du Brésil"],
+      "synonymes": ["Point chaud de biodiversité", "Zone d'endémisme prioritaire"]
+    },
+    {
+      "id": "sixieme-extinction",
+      "terme": "Sixième extinction",
+      "categorie": "biodiversite",
+      "resume": "Crise actuelle d'extinction massive des espèces causée par les activités humaines, comparable aux cinq grandes extinctions géologiques passées.",
+      "definition": "La sixième extinction, ou extinction de l'Holocène/Anthropocène, désigne la crise actuelle d'extinction des espèces causée par les activités humaines. Son taux est estimé 100 à 1000 fois supérieur au taux d'extinction naturel de fond. Contrairement aux cinq extinctions de masse précédentes (dont celle des dinosaures il y a 66 millions d'années), celle-ci est d'origine anthropique : destruction des habitats, surexploitation, pollution, espèces invasives, et changement climatique. Le terme a été popularisé par Elizabeth Kolbert (prix Pulitzer 2015).",
+      "definitionEtendue": {
+        "introduction": "Le concept d'extinction massive anthropique émerge dans les années 1990-2000 avec les travaux de Paul Ehrlich et Edward O. Wilson. Le rapport IPBES (2019) estimant un million d'espèces menacées a marqué les esprits. Le terme 'sixième extinction' renvoie aux cinq grandes crises identifiées dans les registres fossiles : Ordovicien-Silurien (-445 Ma), Dévonien supérieur (-375 Ma), Permien-Trias (-252 Ma), Trias-Jurassique (-201 Ma), Crétacé-Paléogène (-66 Ma).",
+        "mecanismes": "Les extinctions passées résultaient de causes géophysiques (volcanisme, météorite, glaciations). L'extinction actuelle est multicausale et synergique : la perte d'habitat (déforestation, urbanisation) reste la cause première, aggravée par la surexploitation (chasse, pêche), les pollutions, les espèces invasives et le changement climatique. Le 'dette d'extinction' suggère que de nombreuses espèces sont condamnées mais pas encore éteintes.",
+        "contexteScientifique": "Les estimations de taux d'extinction varient selon les méthodologies. Ceballos et al. (2015) estiment que 477 espèces de vertébrés ont disparu depuis 1900, contre 9 attendues naturellement. Les modèles projettent 15-37% des espèces menacées d'extinction climatique d'ici 2050 (Thomas et al. 2004). Les débats portent sur les incertitudes taxonomiques (espèces non décrites), les taux précis, et la réversibilité.",
+        "enjeuxActuels": "L'urgence de la crise motive les objectifs internationaux (30x30 de Kunming-Montréal). Les priorités incluent la protection des hotspots, la restauration des habitats, et la lutte contre le trafic d'espèces. La question de la 'biologie de l'extinction' (quel seuil de population viable ?) et des services écosystémiques perdus est cruciale.",
+        "perspectives": "La 'dé-extinction' (ressusciter des espèces éteintes par biotechnologie) fait débat mais reste marginale. Les solutions passent par la conservation in situ et ex situ, la restauration à grande échelle (Décennie ONU), et la transformation des modèles économiques. L'enjeu est de stabiliser l'extinction d'ici 2030 puis d'inverser la tendance."
+      },
+      "sources": [
+        {"titre": "The Sixth Extinction: An Unnatural History", "auteur": "Kolbert, E.", "annee": 2014, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
+        {"titre": "Accelerated modern human-induced species losses", "auteur": "Ceballos, G. et al.", "doi": "10.1126/sciadv.1400253", "journal": "Science Advances", "annee": 2015, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
+        {"titre": "Global assessment report on biodiversity", "institution": "IPBES", "url": "https://ipbes.net/global-assessment", "annee": 2019, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["extinction de masse", "Anthropocène", "taux d'extinction", "dette d'extinction", "IPBES"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Taux d'extinction 100-1000x supérieur au fond naturel", "source": "Ceballos et al.", "annee": 2015},
+        {"valeur": "1 million d'espèces menacées d'extinction", "source": "IPBES", "annee": 2019},
+        {"valeur": "69% de déclin des populations de vertébrés depuis 1970", "source": "WWF Living Planet Report", "annee": 2022}
+      ],
+      "relations": [
+        {"cible": "biodiversite", "type": "oppose_a", "score": 95},
+        {"cible": "erosion-biodiversite", "type": "renvoie_a", "score": 95},
+        {"cible": "changement-climatique", "type": "renvoie_a", "score": 80}
+      ],
+      "exemples": ["Extinction du dodo", "Disparition du rhinocéros blanc du Nord", "Déclin des amphibiens (chytridiomycose)"],
+      "synonymes": ["Extinction de l'Anthropocène", "Extinction de l'Holocène", "Defaunation"]
     }
   ]
 }
