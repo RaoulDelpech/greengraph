@@ -236,6 +236,135 @@
         {"valeur": "France : 84% population en assainissement collectif", "source": "MTE", "annee": 2022},
         {"valeur": "3,6 milliards personnes sans assainissement sûr dans le monde", "source": "ONU", "annee": 2023}
       ]
+    },
+    {
+      "id": "aquifere",
+      "terme": "Aquifère",
+      "categorie": "eau",
+      "resume": "Formation géologique perméable contenant et transmettant des eaux souterraines. Réserve stratégique d'eau douce, souvent surexploitée.",
+      "definition": "Un aquifère est une formation géologique (roche, sable, gravier) suffisamment poreuse et perméable pour stocker et transmettre des quantités significatives d'eau souterraine. Les aquifères constituent les réserves d'eau douce les plus importantes de la planète (97% de l'eau douce liquide). Ils alimentent les sources, les puits et soutiennent les rivières. On distingue les aquifères libres (surface piézométrique libre) et captifs (confinés entre des couches imperméables). Leur recharge dépend de l'infiltration des eaux de surface.",
+      "definitionEtendue": {
+        "introduction": "L'hydrogéologie, science des eaux souterraines, se développe au XIXe siècle avec Henry Darcy (loi de Darcy, 1856). Les aquifères majeurs sont cartographiés mondialement : aquifère des Grandes Plaines (USA), aquifère nubien (Afrique), bassin parisien (France). L'exploitation des eaux souterraines s'est intensifiée avec le pompage motorisé (XXe siècle). Certains aquifères 'fossiles' contiennent de l'eau infiltrée il y a des millénaires.",
+        "mecanismes": "Un aquifère se caractérise par : la porosité (volume de vides/volume total), la perméabilité (capacité à laisser circuler l'eau, exprimée par la conductivité hydraulique), et la transmissivité (débit transmis). La zone non saturée (vadose) sépare la surface de la nappe. La piézométrie mesure le niveau de l'eau dans l'aquifère. Le temps de renouvellement varie de quelques années (nappes alluviales) à des milliers d'années (aquifères profonds).",
+        "contexteScientifique": "La modélisation des aquifères utilise les équations de Darcy et de continuité. Les études isotopiques (tritium, carbone-14) datent les eaux et tracent les écoulements. Les aquifères transfrontaliers (ISARM, 468 identifiés) posent des défis de gouvernance. La recherche porte sur : la recharge artificielle (MAR), la contamination (nitrates, pesticides), et les interactions nappe-rivière. Le changement climatique modifie les régimes de recharge.",
+        "enjeuxActuels": "30% de l'eau douce mondiale provient des aquifères. La surexploitation (prélèvements > recharge) affecte 21 des 37 plus grands aquifères (NASA, 2015). En France, plusieurs nappes sont déficitaires (Beauce, Picardie). Les contentieux européens (directive Nitrates, directive Cadre Eau) ciblent la qualité. Les sécheresses accentuent la pression : les restrictions portent souvent sur les prélèvements dans les nappes.",
+        "perspectives": "L'avenir passe par : la gestion quantitative (quotas de prélèvement, compteurs), la recharge artificielle (infiltration d'eaux traitées, ASR), la protection des zones d'alimentation (captage), et la gouvernance des aquifères transfrontaliers. Les aquifères côtiers font face à l'intrusion saline (élévation du niveau marin). Le concept de 'capital naturel' souterrain émerge pour mieux valoriser cette ressource invisible."
+      },
+      "sources": [
+        {"titre": "Groundwater: The world's most extracted natural resource", "auteur": "USGS", "url": "https://www.usgs.gov/special-topics/water-science-school/science/groundwater", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Global Groundwater: Assessment of large aquifer systems", "auteur": "UNESCO-IHP", "url": "https://www.unesco.org/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["hydrogéologie", "piézométrie", "perméabilité", "porosité", "recharge", "aquifère captif"],
+      "indicateursQuantitatifs": [
+        {"valeur": "97% de l'eau douce liquide stockée dans les aquifères", "source": "USGS", "annee": 2023},
+        {"valeur": "21 des 37 grands aquifères mondiaux surexploités", "source": "NASA/GRACE", "annee": 2015}
+      ],
+      "relations": [
+        {"cible": "nappe-phreatique", "type": "renvoie_a", "score": 95},
+        {"cible": "cycle-eau", "type": "renvoie_a", "score": 85},
+        {"cible": "stress-hydrique", "type": "renvoie_a", "score": 80}
+      ],
+      "exemples": ["Nappe de Beauce (France)", "Aquifère Ogallala (USA)", "Aquifère nubien (Afrique)"],
+      "synonymes": ["formation aquifère", "nappe souterraine", "groundwater reservoir"]
+    },
+    {
+      "id": "nappe-phreatique",
+      "terme": "Nappe phréatique",
+      "categorie": "eau",
+      "resume": "Première nappe d'eau souterraine rencontrée sous la surface, directement alimentée par les infiltrations. Ressource essentielle mais vulnérable à la pollution.",
+      "definition": "La nappe phréatique est la première nappe d'eau souterraine rencontrée depuis la surface du sol, contenue dans un aquifère libre (non captif). Elle est directement alimentée par l'infiltration des eaux de pluie et de surface, ce qui la rend vulnérable à la pollution. La surface de la nappe (niveau piézométrique) fluctue selon les saisons et les prélèvements. Les nappes phréatiques sont essentielles pour l'alimentation en eau potable, l'irrigation et le soutien des écosystèmes (zones humides, rivières).",
+      "definitionEtendue": {
+        "introduction": "Le terme 'phréatique' vient du grec 'phréar' (puits). L'exploitation des nappes phréatiques est aussi ancienne que l'humanité (puits traditionnels). Le pompage motorisé (XXe siècle) a intensifié les prélèvements. En France, le suivi piézométrique est assuré par le BRGM depuis les années 1970. Les nappes phréatiques sont distinguées des nappes captives (profondes, confinées), mieux protégées mais à recharge plus lente.",
+        "mecanismes": "La nappe phréatique occupe la zone saturée d'un aquifère libre. Sa surface supérieure (toit de la nappe) correspond au niveau piézométrique. L'eau s'écoule selon le gradient hydraulique vers les exutoires (sources, rivières). La recharge s'effectue par infiltration directe des précipitations, ruissellement, ou depuis les cours d'eau (nappe d'accompagnement). Les fluctuations saisonnières reflètent l'équilibre recharge/prélèvements.",
+        "contexteScientifique": "Le suivi des nappes utilise des piézomètres (tubes de mesure). Les modèles hydrogéologiques simulent les écoulements et les impacts des prélèvements. La vulnérabilité aux pollutions (nitrates, pesticides, solvants) dépend de la profondeur et du type de sol sus-jacent. Les cartes de vulnérabilité (méthodes DRASTIC, PAPRIKA) guident la protection. Les études de recharge sont cruciales face au changement climatique.",
+        "enjeuxActuels": "En France, de nombreuses nappes sont en déficit : la Beauce atteint des niveaux historiquement bas (2022-23). La qualité est dégradée : 23% des masses d'eau souterraines en mauvais état chimique (DCE). Les contentieux européens portent sur les nitrates et pesticides. Les conflits d'usage (eau potable vs irrigation) s'intensifient. Le Plan eau (2023) vise une meilleure gestion quantitative.",
+        "perspectives": "L'avenir passe par : la maîtrise des prélèvements (volumes prélevables, compteurs), la protection des aires d'alimentation de captage (AAC), la recharge artificielle (bassins d'infiltration), et la restauration de la qualité (réduction intrants agricoles). Le changement climatique réduira la recharge hivernale et augmentera les besoins estivaux. L'enjeu est de préserver cette ressource invisible mais vitale."
+      },
+      "sources": [
+        {"titre": "Suivi piézométrique national", "auteur": "BRGM", "url": "https://www.brgm.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "État des nappes d'eau souterraine", "auteur": "BRGM/MTE", "url": "https://www.eaufrance.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["piézomètre", "niveau piézométrique", "recharge", "vulnérabilité", "infiltration"],
+      "indicateursQuantitatifs": [
+        {"valeur": "France : 23% des masses d'eau souterraines en mauvais état chimique", "source": "AEE/SDES", "annee": 2022},
+        {"valeur": "Nappe de Beauce : déficit chronique depuis 2022", "source": "BRGM", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "aquifere", "type": "est_type_de", "score": 95},
+        {"cible": "cycle-eau", "type": "renvoie_a", "score": 85},
+        {"cible": "stress-hydrique", "type": "renvoie_a", "score": 80}
+      ],
+      "exemples": ["Nappe de Beauce", "Nappe alluviale du Rhin", "Nappe de la craie du bassin parisien"],
+      "synonymes": ["nappe libre", "nappe superficielle", "water table"]
+    },
+    {
+      "id": "gestion-integree-eau",
+      "terme": "Gestion intégrée de l'eau (GIRE)",
+      "categorie": "eau",
+      "resume": "Approche coordonnée de gestion des ressources en eau à l'échelle du bassin versant, intégrant tous les usages et la préservation des écosystèmes.",
+      "definition": "La Gestion Intégrée des Ressources en Eau (GIRE, ou IWRM en anglais) est une approche systémique de planification et de gestion de l'eau à l'échelle d'un bassin versant. Elle intègre tous les usages (eau potable, irrigation, industrie, énergie), les milieux aquatiques (rivières, nappes, zones humides), et l'ensemble des acteurs (État, collectivités, usagers). L'objectif est d'optimiser l'utilisation de la ressource tout en préservant les écosystèmes et en anticipant les évolutions (climat, démographie).",
+      "definitionEtendue": {
+        "introduction": "Le concept de GIRE émerge lors de la Conférence de Dublin (1992) qui pose quatre principes : l'eau douce est une ressource vulnérable et finie ; sa gestion doit être participative ; les femmes jouent un rôle central ; l'eau a une valeur économique. La Directive Cadre sur l'Eau européenne (DCE, 2000) institutionnalise cette approche par bassin. En France, la loi sur l'eau de 1964 avait déjà créé les agences de l'eau par bassin.",
+        "mecanismes": "La GIRE repose sur : la gestion par bassin versant (unité hydrologique cohérente), la planification (SDAGE, SAGE en France), la participation des usagers (comités de bassin), l'équilibre entre usages (partage de la ressource), et la préservation du bon état écologique. Les outils incluent : redevances, aides, réglementation, et contrats de milieu. L'approche 'nexus' élargit à l'eau-énergie-alimentation.",
+        "contexteScientifique": "La recherche porte sur : les indicateurs de mise en œuvre de la GIRE, les modèles de gouvernance multi-acteurs, et l'articulation avec le changement climatique. Le débat oppose vision technico-économique (allocation optimale) et vision socio-écologique (droits, équité, écosystèmes). L'évaluation de la GIRE (ODD 6.5) montre des progrès mais une mise en œuvre incomplète (65% des pays disposent de cadres de GIRE).",
+        "enjeuxActuels": "En France, 23 SDAGE et 200+ SAGE encadrent la gestion de l'eau. Les enjeux : gestion quantitative face aux sécheresses (arrêtés-cadres, volumes prélevables), atteinte du bon état DCE (repoussé de 2015 à 2027), conflits d'usages (bassines, canaux), et financement (modèle économique des agences de l'eau). Le Plan eau (2023) renforce les économies et le partage.",
+        "perspectives": "L'avenir passe par : l'adaptation au changement climatique (prospective à 2050), la gestion des risques (crues, sécheresses), la gouvernance inclusive (représentation des usagers), et les solutions fondées sur la nature. Le concept de 'sécurité hydrique' (water security) intègre quantité, qualité, accès et résilience. L'enjeu mondial est de déployer la GIRE dans les pays où elle est encore embryonnaire."
+      },
+      "sources": [
+        {"titre": "Principes de Dublin sur l'eau", "auteur": "ICWE", "url": "https://www.gwp.org/", "annee": 1992, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Directive 2000/60/CE (DCE)", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2000, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "SDG 6 Progress Report 2023", "auteur": "UN-Water", "url": "https://www.unwater.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["bassin versant", "SDAGE", "SAGE", "DCE", "IWRM", "nexus eau-énergie-alimentation"],
+      "indicateursQuantitatifs": [
+        {"valeur": "65% des pays ont des cadres GIRE opérationnels", "source": "UN-Water", "annee": 2023},
+        {"valeur": "France : 12 bassins, 23 SDAGE, 200+ SAGE", "source": "OiEau", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "cycle-eau", "type": "renvoie_a", "score": 85},
+        {"cible": "stress-hydrique", "type": "oppose_a", "score": 80},
+        {"cible": "zone-humide", "type": "renvoie_a", "score": 75}
+      ],
+      "exemples": ["SDAGE Loire-Bretagne", "SAGE Nappe de Beauce", "Agences de l'eau (6 en France)"],
+      "synonymes": ["IWRM", "Integrated Water Resources Management", "gestion par bassin"]
+    },
+    {
+      "id": "eau-virtuelle",
+      "terme": "Eau virtuelle",
+      "categorie": "eau",
+      "resume": "Volume d'eau utilisé pour produire un bien ou service, y compris tout au long de sa chaîne de production. Révèle les flux d'eau cachés dans le commerce.",
+      "definition": "L'eau virtuelle est le volume d'eau douce utilisé pour produire un bien, un service ou une denrée alimentaire, à toutes les étapes de sa chaîne de production. Ce concept, introduit par John Anthony Allan en 1993, révèle les flux d'eau 'cachés' dans le commerce international : importer des produits agricoles revient à importer l'eau utilisée pour les produire. Les pays en stress hydrique peuvent ainsi 'importer' de l'eau sous forme virtuelle. L'empreinte eau est l'application de ce concept à la consommation.",
+      "definitionEtendue": {
+        "introduction": "John Anthony Allan (King's College London) développe le concept en 1993 pour analyser les politiques hydriques du Moyen-Orient. L'idée est que les pays arides peuvent économiser leur eau en important des produits gourmands en eau plutôt que de les produire localement. Allan reçoit le Stockholm Water Prize en 2008. Le concept a été étendu par Arjen Hoekstra avec l'empreinte eau et le Water Footprint Network (2008).",
+        "mecanismes": "L'eau virtuelle d'un produit s'additionne à chaque étape : matières premières, transformation, transport. Pour un produit agricole, elle inclut l'eau de pluie (verte), l'irrigation (bleue), et la dilution des polluants (grise). Le commerce mondial de produits agricoles représente 2 400 km³/an d'eau virtuelle échangée. Les flux vont des régions excédentaires (Brésil, USA) vers les régions déficitaires (Moyen-Orient, Europe).",
+        "contexteScientifique": "Le concept fait débat : l'eau verte (pluie) a-t-elle le même 'coût' que l'eau bleue (prélevée) ? L'eau virtuelle ignore le contexte local (stress hydrique différent). Les modèles économiques (virtual water trade) analysent l'efficience du commerce mondial de l'eau. La recherche intègre l'eau virtuelle dans les analyses de sécurité alimentaire et de géopolitique de l'eau.",
+        "enjeuxActuels": "L'eau virtuelle révèle la dépendance des pays importateurs : l'Europe importe 40% de son eau virtuelle (via soja, café, coton). Les pays exportateurs (Brésil, Australie) 'exportent' leur eau, parfois au prix d'une surexploitation locale. Le concept alimente les débats sur : la souveraineté alimentaire, la délocalisation des impacts environnementaux, et la 'dette en eau' des pays développés.",
+        "perspectives": "L'avenir passe par : l'intégration de l'eau virtuelle dans les politiques commerciales, la transparence sur l'origine hydrique des produits, et les accords de commerce équitable en eau. Le concept de 'water neutrality' (neutralité en eau) émerge pour les entreprises. L'enjeu est de ne pas externaliser le stress hydrique vers des régions vulnérables via le commerce."
+      },
+      "sources": [
+        {"titre": "Virtual water: an introduction", "auteur": "Allan, J.A.", "url": "https://www.waterfootprint.org/", "annee": 2003, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "The Water Footprint of Humanity", "auteur": "Hoekstra, A.Y. & Mekonnen, M.M.", "doi": "10.1073/pnas.1109936109", "journal": "PNAS", "annee": 2012, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["virtual water trade", "empreinte eau", "eau bleue/verte/grise", "commerce agricole", "sécurité hydrique"],
+      "indicateursQuantitatifs": [
+        {"valeur": "2 400 km³/an d'eau virtuelle échangée via le commerce agricole mondial", "source": "WFN", "annee": 2020},
+        {"valeur": "Europe : 40% de l'empreinte eau importée", "source": "Water Footprint Network", "annee": 2020}
+      ],
+      "relations": [
+        {"cible": "empreinte-eau", "type": "renvoie_a", "score": 95},
+        {"cible": "stress-hydrique", "type": "renvoie_a", "score": 80},
+        {"cible": "cycle-eau", "type": "renvoie_a", "score": 70}
+      ],
+      "exemples": ["1 kg boeuf = 15 000 L eau virtuelle", "1 jean = 8 000 L", "1 tasse café = 140 L"],
+      "synonymes": ["virtual water", "eau cachée", "embedded water"]
     }
   ]
 }
