@@ -66,9 +66,9 @@ const RELATION_LABELS: Record<RelationType, string> = {
 };
 
 const RELATION_COLORS: Record<RelationType, string> = {
-  renvoie_a: 'bg-blue-100 text-blue-700 border-blue-200',
+  renvoie_a: 'bg-ocean-100 text-ocean-800 border-ocean-200',
   est_type_de: 'bg-gray-100 text-gray-700 border-gray-200',
-  contribue_a: 'bg-emerald-100 text-emerald-700 border-emerald-200',
+  contribue_a: 'bg-forest-100 text-forest-800 border-forest-200',
   proche_de: 'bg-slate-100 text-slate-600 border-slate-200',
   oppose_a: 'bg-red-100 text-red-700 border-red-200',
 };
@@ -189,7 +189,7 @@ export function DefinitionPanel({
   return (
     <div className="h-full flex flex-col bg-white shadow-xl">
       {/* Header compact */}
-      <div className="p-4 border-b border-gray-100 bg-gradient-to-r from-gray-50 to-white">
+      <div className="p-4 border-b border-gray-100 bg-gradient-to-r from-forest-50 to-white">
         <div className="flex items-start justify-between gap-3">
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2 mb-2">
@@ -202,7 +202,7 @@ export function DefinitionPanel({
                 </span>
               )}
               {definition.niveauValidation === 'vérifié' && (
-                <span className="text-emerald-600 text-xs font-medium flex items-center gap-1">
+                <span className="text-forest-700 text-xs font-medium flex items-center gap-1">
                   <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
@@ -210,7 +210,7 @@ export function DefinitionPanel({
                 </span>
               )}
             </div>
-            <h2 className="text-lg font-bold text-gray-900 leading-tight">
+            <h2 className="text-lg font-bold text-forest-900 leading-tight font-serif">
               {definition.terme}
             </h2>
             {definition.synonymes && definition.synonymes.length > 0 && (
@@ -250,7 +250,7 @@ export function DefinitionPanel({
         )}
 
         {/* Définition - section principale */}
-        <div className="p-4 bg-emerald-50/50 border-b border-gray-100">
+        <div className="p-4 bg-forest-50/50 border-b border-forest-100">
           {renderDefinitionContent()}
         </div>
 
@@ -335,7 +335,7 @@ export function DefinitionPanel({
               <ul className="space-y-1.5">
                 {definition.exemples.map((exemple, index) => (
                   <li key={index} className="flex items-start gap-2 text-sm text-gray-600">
-                    <span className="text-emerald-500 mt-0.5 flex-shrink-0">•</span>
+                    <span className="text-forest-600 mt-0.5 flex-shrink-0">•</span>
                     <span>{exemple}</span>
                   </li>
                 ))}
@@ -421,7 +421,7 @@ export function DefinitionPanel({
                 {depth === 'expert' && definition.motsClésScientifiques?.map((mot) => (
                   <span
                     key={mot}
-                    className="px-2 py-0.5 bg-emerald-100 text-emerald-700 rounded text-xs font-medium"
+                    className="px-2 py-0.5 bg-forest-100 text-forest-700 rounded text-xs font-medium"
                   >
                     {mot}
                   </span>

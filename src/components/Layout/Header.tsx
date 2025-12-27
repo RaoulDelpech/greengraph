@@ -22,47 +22,78 @@ export const Header = forwardRef<SearchBarHandle, HeaderProps>(function Header(
   ref
 ) {
   return (
-    <header className="h-14 md:h-16 bg-white border-b border-gray-200 px-3 md:px-4 flex items-center justify-between gap-2 md:gap-4 shadow-sm flex-shrink-0">
-      <div className="flex items-center gap-2 md:gap-3">
-        {/* Bouton hamburger mobile */}
-        {isMobile && onToggleMobileSidebar && (
-          <button
-            onClick={onToggleMobileSidebar}
-            className="p-2 -ml-1 hover:bg-gray-100 rounded-lg transition-colors"
-            aria-label="Menu"
-          >
-            <svg className="w-5 h-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-          </button>
-        )}
+    <div className="flex-shrink-0">
+      {/* Bandeau institutionnel supérieur */}
+      <div className="bg-gradient-institutional text-white text-xs py-1.5 px-4 text-center tracking-wide hidden sm:block">
+        <span className="opacity-90">Ressource pédagogique open-source</span>
+        <span className="mx-2 opacity-50">|</span>
+        <span className="opacity-90">{definitions.length} concepts environnementaux</span>
+      </div>
 
-        <div className="w-8 h-8 md:w-10 md:h-10 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-lg flex items-center justify-center flex-shrink-0">
-          <svg className="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M13 10V3L4 14h7v7l9-11h-7z"
-            />
-          </svg>
+      {/* Header principal */}
+      <header className="h-14 md:h-16 bg-white border-b border-gray-200 px-3 md:px-6 flex items-center justify-between gap-3 md:gap-6 shadow-sm">
+        <div className="flex items-center gap-3 md:gap-4">
+          {/* Bouton hamburger mobile */}
+          {isMobile && onToggleMobileSidebar && (
+            <button
+              onClick={onToggleMobileSidebar}
+              className="p-2 -ml-1 hover:bg-gray-100 rounded-lg transition-colors"
+              aria-label="Menu"
+            >
+              <svg className="w-5 h-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          )}
+
+          {/* Logo avec favicon SVG */}
+          <div className="flex items-center gap-3">
+            <div className="w-9 h-9 md:w-10 md:h-10 flex-shrink-0">
+              <img
+                src="/greengraph/favicon.svg"
+                alt="GreenGraph"
+                className="w-full h-full"
+              />
+            </div>
+
+            <div className="hidden sm:block">
+              <h1 className="text-lg md:text-xl font-bold text-forest-900 font-serif leading-tight">
+                GreenGraph
+              </h1>
+              <p className="text-xs text-gray-500 leading-tight">
+                Glossaire interactif de l'environnement
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div className="hidden sm:block">
-          <h1 className="text-lg md:text-xl font-bold text-gray-900">GreenGraph</h1>
-          <p className="text-xs text-gray-500 hidden md:block">Taxonomie environnementale</p>
+        {/* Barre de recherche */}
+        <div className="flex-1 max-w-md md:max-w-lg">
+          <SearchBar
+            ref={ref}
+            definitions={definitions}
+            categories={categories}
+            onSelectResult={onSelectDefinition}
+          />
         </div>
-      </div>
 
-      <div className="flex-1 max-w-md md:max-w-lg">
-        <SearchBar ref={ref} definitions={definitions} categories={categories} onSelectResult={onSelectDefinition} />
-      </div>
-
-      <div className="hidden sm:flex items-center gap-2">
-        <span className="text-sm text-gray-600 whitespace-nowrap">
-          {definitions.length} définitions
-        </span>
-      </div>
-    </header>
+        {/* Stats (desktop) */}
+        <div className="hidden md:flex items-center gap-4">
+          <div className="text-right">
+            <p className="text-sm font-semibold text-forest-800">
+              {definitions.length}
+            </p>
+            <p className="text-xs text-gray-500">définitions</p>
+          </div>
+          <div className="h-8 w-px bg-gray-200" />
+          <div className="text-right">
+            <p className="text-sm font-semibold text-forest-800">
+              {categories.length}
+            </p>
+            <p className="text-xs text-gray-500">catégories</p>
+          </div>
+        </div>
+      </header>
+    </div>
   );
 });

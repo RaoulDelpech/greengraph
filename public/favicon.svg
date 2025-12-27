@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2D6A4F"/>
+      <stop offset="100%" style="stop-color:#1B4332"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#40916C"/>
+      <stop offset="100%" style="stop-color:#2D6A4F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fond cercle -->
+  <circle cx="50" cy="50" r="48" fill="url(#leafGrad)"/>
+
+  <!-- Feuille stylisée (forme principale) -->
+  <path d="M50 15 C30 25, 20 45, 25 65 C30 80, 45 88, 50 88 C55 88, 70 80, 75 65 C80 45, 70 25, 50 15"
+        fill="none" stroke="#B7E4C7" stroke-width="3" opacity="0.6"/>
+
+  <!-- Nervures de la feuille = connexions du graphe -->
+  <path d="M50 25 L50 75" stroke="#B7E4C7" stroke-width="2" opacity="0.8"/>
+  <path d="M50 40 L35 55" stroke="#B7E4C7" stroke-width="1.5" opacity="0.7"/>
+  <path d="M50 40 L65 55" stroke="#B7E4C7" stroke-width="1.5" opacity="0.7"/>
+  <path d="M50 55 L38 68" stroke="#B7E4C7" stroke-width="1.5" opacity="0.7"/>
+  <path d="M50 55 L62 68" stroke="#B7E4C7" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Noeuds du graphe -->
+  <circle cx="50" cy="25" r="6" fill="url(#nodeGrad)" stroke="#D8F3DC" stroke-width="2"/>
+  <circle cx="50" cy="40" r="5" fill="url(#nodeGrad)" stroke="#D8F3DC" stroke-width="1.5"/>
+  <circle cx="35" cy="55" r="4" fill="url(#nodeGrad)" stroke="#D8F3DC" stroke-width="1.5"/>
+  <circle cx="65" cy="55" r="4" fill="url(#nodeGrad)" stroke="#D8F3DC" stroke-width="1.5"/>
+  <circle cx="50" cy="55" r="5" fill="url(#nodeGrad)" stroke="#D8F3DC" stroke-width="1.5"/>
+  <circle cx="38" cy="68" r="3.5" fill="url(#nodeGrad)" stroke="#D8F3DC" stroke-width="1"/>
+  <circle cx="62" cy="68" r="3.5" fill="url(#nodeGrad)" stroke="#D8F3DC" stroke-width="1"/>
+  <circle cx="50" cy="75" r="5" fill="url(#nodeGrad)" stroke="#D8F3DC" stroke-width="1.5"/>
+</svg>

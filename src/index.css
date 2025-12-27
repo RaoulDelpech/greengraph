@@ -1,51 +1,121 @@
 @import "tailwindcss";
 
 :root {
-  /* Couleurs principales - Nature */
-  --color-primary: #059669;
-  --color-primary-light: #34d399;
-  --color-primary-dark: #047857;
+  /* ========================================
+     PALETTE INSTITUTIONNELLE GREENGRAPH
+     ======================================== */
 
-  /* Couleurs secondaires */
-  --color-secondary: #0284c7;
-  --color-secondary-light: #38bdf8;
+  /* Primaire - Vert Forêt (autorité, nature) */
+  --color-forest-900: #1B4332;
+  --color-forest-800: #2D6A4F;
+  --color-forest-700: #40916C;
+  --color-forest-600: #52B788;
+  --color-forest-500: #74C69D;
+  --color-forest-400: #95D5B2;
+  --color-forest-300: #B7E4C7;
+  --color-forest-200: #D8F3DC;
+  --color-forest-100: #E9F5EC;
+  --color-forest-50: #F4FAF6;
 
-  /* Neutres */
-  --color-bg: #f8fafc;
+  /* Secondaire - Bleu Océan (profondeur, sérieux) */
+  --color-ocean-900: #1E3A5F;
+  --color-ocean-800: #2C5282;
+  --color-ocean-700: #3B6B9A;
+  --color-ocean-600: #4A7FB2;
+  --color-ocean-500: #5A94CA;
+  --color-ocean-400: #7AAED8;
+  --color-ocean-300: #A3C9E8;
+  --color-ocean-200: #C5DDF2;
+  --color-ocean-100: #E1EEF8;
+
+  /* Neutres chauds (lisibilité, confort) */
+  --color-neutral-900: #1A202C;
+  --color-neutral-800: #2D3748;
+  --color-neutral-700: #4A5568;
+  --color-neutral-600: #718096;
+  --color-neutral-500: #A0AEC0;
+  --color-neutral-400: #CBD5E0;
+  --color-neutral-300: #E2E8F0;
+  --color-neutral-200: #EDF2F7;
+  --color-neutral-100: #F7FAFC;
+  --color-neutral-50: #FAFBFC;
+
+  /* Accent - Ocre (alertes, importance) */
+  --color-accent-warm: #C77B30;
+  --color-accent-warm-light: #E8A65C;
+
+  /* Accent - Rouge (oppositions, urgence) */
+  --color-accent-red: #C53030;
+  --color-accent-red-light: #FC8181;
+
+  /* ========================================
+     SEMANTIC COLORS
+     ======================================== */
+  --color-primary: var(--color-forest-800);
+  --color-primary-light: var(--color-forest-600);
+  --color-primary-dark: var(--color-forest-900);
+
+  --color-secondary: var(--color-ocean-800);
+  --color-secondary-light: var(--color-ocean-600);
+
+  --color-bg: var(--color-neutral-50);
   --color-surface: #ffffff;
-  --color-text: #1e293b;
-  --color-text-muted: #64748b;
+  --color-text: var(--color-neutral-800);
+  --color-text-muted: var(--color-neutral-600);
+  --color-text-light: var(--color-neutral-500);
 
-  /* Catégories */
-  --color-cat-dechets: #f59e0b;
-  --color-cat-biodiversite: #22c55e;
-  --color-cat-energie: #eab308;
-  --color-cat-eau: #3b82f6;
-  --color-cat-circulaire: #8b5cf6;
-  --color-cat-durable: #14b8a6;
+  /* Relations (pour le graphe) */
+  --color-rel-renvoie: var(--color-ocean-600);
+  --color-rel-type: var(--color-neutral-600);
+  --color-rel-contribue-pos: var(--color-forest-600);
+  --color-rel-contribue-neg: var(--color-accent-warm);
+  --color-rel-proche: var(--color-neutral-400);
+  --color-rel-oppose: var(--color-accent-red);
 
-  /* Relations */
-  --color-rel-renvoie: #3b82f6;
-  --color-rel-type: #6b7280;
-  --color-rel-contribue-pos: #22c55e;
-  --color-rel-contribue-neg: #f97316;
-  --color-rel-proche: #9ca3af;
-  --color-rel-oppose: #ef4444;
+  /* ========================================
+     TYPOGRAPHY
+     ======================================== */
+  --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
+/* ========================================
+   BASE STYLES
+   ======================================== */
 body {
   margin: 0;
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: var(--font-sans);
   background-color: var(--color-bg);
   color: var(--color-text);
   min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #root {
   min-height: 100vh;
 }
 
-/* React Flow overrides */
+/* Titres en serif pour l'autorité scientifique */
+h1, h2, h3, .font-serif {
+  font-family: var(--font-serif);
+}
+
+/* ========================================
+   INSTITUTIONAL HEADER BAND
+   ======================================== */
+.institutional-header {
+  background: linear-gradient(135deg, var(--color-forest-900) 0%, var(--color-forest-800) 100%);
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.25rem 1rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+/* ========================================
+   REACT FLOW OVERRIDES
+   ======================================== */
 .react-flow__node {
   border-radius: 8px;
   font-size: 14px;
@@ -55,48 +125,54 @@ body {
   stroke-width: 2;
 }
 
-/* Scrollbar style */
+.react-flow__attribution {
+  opacity: 0.5;
+}
+
+/* ========================================
+   SCROLLBAR
+   ======================================== */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f5f9;
+  background: var(--color-neutral-200);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
+  background: var(--color-neutral-400);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
+  background: var(--color-neutral-500);
 }
 
-/* Accessibilité - Focus visible amélioré */
+/* ========================================
+   ACCESSIBILITY
+   ======================================== */
 :focus-visible {
-  outline: 3px solid #0891b2;
+  outline: 3px solid var(--color-ocean-600);
   outline-offset: 2px;
 }
 
-/* Reset focus pour éléments avec leur propre style de focus */
 button:focus-visible,
 a:focus-visible,
 input:focus-visible,
 [tabindex]:focus-visible {
-  outline: 3px solid #0891b2;
+  outline: 3px solid var(--color-ocean-600);
   outline-offset: 2px;
   border-radius: 4px;
 }
 
-/* Skip link pour navigation clavier */
 .skip-link {
   position: absolute;
   top: -40px;
   left: 0;
-  background: #059669;
+  background: var(--color-forest-800);
   color: white;
   padding: 8px 16px;
   z-index: 100;
@@ -107,7 +183,6 @@ input:focus-visible,
   top: 0;
 }
 
-/* Screen reader only */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -120,7 +195,9 @@ input:focus-visible,
   border: 0;
 }
 
-/* High contrast mode support */
+/* ========================================
+   HIGH CONTRAST MODE
+   ======================================== */
 @media (prefers-contrast: high) {
   :root {
     --color-text: #000000;
@@ -132,11 +209,38 @@ input:focus-visible,
   }
 }
 
-/* Reduced motion */
+/* ========================================
+   REDUCED MOTION
+   ======================================== */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* ========================================
+   CUSTOM UTILITY CLASSES
+   ======================================== */
+.text-forest-900 { color: var(--color-forest-900); }
+.text-forest-800 { color: var(--color-forest-800); }
+.text-forest-700 { color: var(--color-forest-700); }
+.text-forest-600 { color: var(--color-forest-600); }
+.text-ocean-800 { color: var(--color-ocean-800); }
+.text-ocean-600 { color: var(--color-ocean-600); }
+
+.bg-forest-900 { background-color: var(--color-forest-900); }
+.bg-forest-800 { background-color: var(--color-forest-800); }
+.bg-forest-700 { background-color: var(--color-forest-700); }
+.bg-forest-100 { background-color: var(--color-forest-100); }
+.bg-forest-50 { background-color: var(--color-forest-50); }
+.bg-ocean-100 { background-color: var(--color-ocean-100); }
+
+.border-forest-800 { border-color: var(--color-forest-800); }
+.border-forest-300 { border-color: var(--color-forest-300); }
+
+/* Gradient institutionnel */
+.bg-gradient-institutional {
+  background: linear-gradient(135deg, var(--color-forest-900) 0%, var(--color-forest-800) 50%, var(--color-ocean-900) 100%);
 }
