@@ -387,6 +387,162 @@
         {"valeur": "Potentiel sobriété : 40-70% des réductions nécessaires", "source": "GIEC AR6 WG3", "annee": 2022},
         {"valeur": "Baisse conso gaz France hiver 2022-23 : -12%", "source": "MTE", "annee": 2023}
       ]
+    },
+    {
+      "id": "giec",
+      "terme": "GIEC",
+      "categorie": "energie-climat",
+      "resume": "Groupe intergouvernemental d'experts sur l'évolution du climat, organisme de référence mondiale pour l'évaluation scientifique du changement climatique.",
+      "definition": "Le GIEC (Groupe d'experts intergouvernemental sur l'évolution du climat, IPCC en anglais) est un organisme international créé en 1988 par l'ONU pour évaluer les connaissances scientifiques sur le changement climatique. Il ne produit pas de recherches mais synthétise et évalue les publications scientifiques existantes. Ses rapports, publiés tous les 6-7 ans, font autorité et fondent les négociations climatiques internationales. Le GIEC a reçu le prix Nobel de la paix en 2007.",
+      "definitionEtendue": {
+        "introduction": "Le GIEC est créé en 1988 par l'Organisation météorologique mondiale (OMM) et le Programme des Nations Unies pour l'environnement (PNUE), à la demande du G7. Son premier rapport (1990) a conduit à la Convention-cadre sur le changement climatique (CCNUCC, Rio 1992). Depuis, six cycles d'évaluation (AR1 à AR6) ont été publiés, chacun approfondissant les connaissances et renforçant les certitudes sur l'origine humaine du réchauffement.",
+        "mecanismes": "Le GIEC est organisé en trois groupes de travail : WG1 (bases physiques du climat), WG2 (impacts, adaptation, vulnérabilité), WG3 (atténuation). Un rapport de synthèse intègre les conclusions. Des centaines de scientifiques bénévoles participent à la rédaction et la relecture. Les gouvernements approuvent les 'résumés pour décideurs' ligne par ligne, assurant légitimité politique et rigueur scientifique.",
+        "contexteScientifique": "Les rapports du GIEC utilisent un vocabulaire calibré de l'incertitude : 'virtuellement certain' (99-100%), 'très probable' (90-100%), 'probable' (66-100%). Le 6e rapport (AR6, 2021-2023) conclut qu'il est 'sans équivoque' que le réchauffement est d'origine humaine. Les controverses historiques (Climategate 2009, erreurs sur les glaciers himalayens) ont renforcé les procédures de contrôle qualité.",
+        "enjeuxActuels": "Le GIEC doit intégrer des connaissances de plus en plus diverses (sciences sociales, solutions, justice climatique) tout en maintenant sa rigueur. Les rapports spéciaux (1,5°C en 2018, océans et cryosphère en 2019) répondent à des demandes de la CCNUCC. L'équilibre géographique des auteurs et les enjeux de traduction restent des défis.",
+        "perspectives": "Le 7e cycle d'évaluation (AR7) est en préparation pour 2029. L'intégration des savoirs locaux et autochtones, la rapidité de mise à jour face à l'accélération des changements, et l'articulation avec les nouveaux acteurs (villes, entreprises) sont des évolutions attendues. Le GIEC reste l'institution clé de la gouvernance climatique mondiale."
+      },
+      "sources": [
+        {"titre": "Site officiel du GIEC", "institution": "IPCC", "url": "https://www.ipcc.ch/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Climate Change 2021: The Physical Science Basis (AR6 WG1)", "institution": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg1/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["IPCC", "évaluation scientifique", "rapports d'évaluation", "AR6", "consensus scientifique"],
+      "indicateursQuantitatifs": [
+        {"valeur": "6 cycles de rapports depuis 1990", "source": "IPCC", "annee": 2023},
+        {"valeur": "Prix Nobel de la paix 2007 (partagé avec Al Gore)", "source": "Nobel Prize", "annee": 2007}
+      ],
+      "relations": [
+        {"cible": "changement-climatique", "type": "renvoie_a", "score": 95},
+        {"cible": "gaz-effet-serre", "type": "renvoie_a", "score": 85}
+      ],
+      "exemples": ["Rapport 1,5°C (2018)", "AR6 Synthesis Report (2023)", "Rapports WG1, WG2, WG3"],
+      "synonymes": ["IPCC", "Intergovernmental Panel on Climate Change"]
+    },
+    {
+      "id": "adaptation-climatique",
+      "terme": "Adaptation climatique",
+      "categorie": "energie-climat",
+      "resume": "Ajustements des systèmes naturels et humains pour réduire les dommages du changement climatique et exploiter les opportunités éventuelles.",
+      "definition": "L'adaptation climatique désigne les ajustements des systèmes écologiques, sociaux et économiques en réponse aux effets actuels ou anticipés du changement climatique. Elle vise à réduire la vulnérabilité, limiter les dommages et saisir d'éventuelles opportunités. Contrairement à l'atténuation (qui réduit les émissions), l'adaptation accepte un certain niveau de changement et s'y prépare. Elle inclut des mesures techniques (digues, climatisation), comportementales (calendriers agricoles), et institutionnelles (planification, assurances).",
+      "definitionEtendue": {
+        "introduction": "L'adaptation émerge comme priorité politique dans les années 2000, après avoir été longtemps secondaire derrière l'atténuation. L'Accord de Paris (2015) lui donne un statut égal à l'atténuation (objectif mondial d'adaptation, communications nationales). En France, le Plan National d'Adaptation au Changement Climatique (PNACC) existe depuis 2011, le 3e étant en cours (2024-2028).",
+        "mecanismes": "L'adaptation peut être autonome (spontanée, comme le décalage des vendanges) ou planifiée (politiques publiques). Elle se décline à toutes les échelles : individuelle (comportements), locale (urbanisme, agriculture), nationale (infrastructures, santé), et internationale (financement des pays vulnérables). Le concept de 'maladaptation' désigne les actions qui aggravent la vulnérabilité à long terme (ex : climatisation énergivore).",
+        "contexteScientifique": "Le WG2 du GIEC évalue les impacts et l'adaptation. Les concepts clés incluent : vulnérabilité (exposition × sensibilité / capacité d'adaptation), résilience, et limites de l'adaptation (seuils au-delà desquels l'adaptation n'est plus possible). Les recherches portent sur les solutions fondées sur la nature (SfN), l'adaptation transformationnelle (changement de système), et la justice climatique (qui s'adapte, à quel coût).",
+        "enjeuxActuels": "Le financement reste insuffisant : les pays en développement reçoivent une fraction des 100 milliards $/an promis. Les 'pertes et dommages' (impacts non adaptables) font l'objet du nouveau fonds de Varsovie (COP27, 2022). En France, les enjeux incluent : ressource en eau (sécheresses), littoral (érosion, submersion), santé (canicules), et forêts (dépérissement).",
+        "perspectives": "L'adaptation doit passer à l'échelle et s'articuler avec l'atténuation (solutions sans regret). Les trajectoires d'adaptation à long terme, l'intégration dans les décisions d'investissement, et la justice sociale (protéger les plus vulnérables) sont les chantiers majeurs. Le concept de 'planète inhospitalière' au-delà de certains seuils souligne les limites de l'adaptation."
+      },
+      "sources": [
+        {"titre": "Climate Change 2022: Impacts, Adaptation and Vulnerability (AR6 WG2)", "institution": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg2/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "PNACC-3 : Plan national d'adaptation au changement climatique", "institution": "Gouvernement français", "annee": 2024, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["vulnérabilité", "résilience", "maladaptation", "pertes et dommages", "SfN"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Financement adaptation : 21 milliards $/an (2021)", "source": "Climate Policy Initiative", "annee": 2022},
+        {"valeur": "Objectif : 100 milliards $/an pour pays en développement", "source": "CCNUCC", "annee": 2020}
+      ],
+      "relations": [
+        {"cible": "changement-climatique", "type": "renvoie_a", "score": 95},
+        {"cible": "attenuation-climatique", "type": "proche_de", "score": 90}
+      ],
+      "exemples": ["Digues contre la montée des eaux", "Variétés agricoles résistantes à la sécheresse", "Plans canicule"],
+      "synonymes": ["Adaptation au changement climatique", "Climate adaptation"]
+    },
+    {
+      "id": "attenuation-climatique",
+      "terme": "Atténuation climatique",
+      "categorie": "energie-climat",
+      "resume": "Actions visant à réduire les émissions de gaz à effet de serre ou à augmenter les puits de carbone pour limiter le réchauffement climatique.",
+      "definition": "L'atténuation climatique (mitigation en anglais) désigne l'ensemble des interventions humaines visant à réduire les sources d'émissions de gaz à effet de serre ou à renforcer les puits de carbone. Elle constitue le premier pilier de la lutte contre le changement climatique, aux côtés de l'adaptation. Les leviers incluent : la transition énergétique (énergies renouvelables, efficacité), les changements d'usage des terres (reforestation), et les modifications de comportements (sobriété).",
+      "definitionEtendue": {
+        "introduction": "L'atténuation est au cœur de la gouvernance climatique depuis la CCNUCC (1992) et le Protocole de Kyoto (1997). L'Accord de Paris (2015) fixe l'objectif de limiter le réchauffement à 1,5-2°C, impliquant une réduction des émissions de 45% d'ici 2030 et la neutralité carbone vers 2050. Les Contributions Déterminées au niveau National (CDN) traduisent les engagements de chaque pays.",
+        "mecanismes": "L'atténuation agit sur tous les secteurs émetteurs : énergie (décarbonation de la production, efficacité), transports (électrification, report modal), bâtiments (isolation, chauffage), industrie (procédés, matériaux), agriculture (pratiques, méthane), et UTCATF (usage des terres, forêts). Les leviers combinent réglementation, fiscalité carbone, subventions, innovation, et changement de comportements.",
+        "contexteScientifique": "Le WG3 du GIEC évalue les trajectoires d'atténuation. Les scénarios à 1,5°C requièrent des transformations rapides et profondes de tous les systèmes. Le concept de 'budget carbone' quantifie les émissions compatibles avec un objectif de température. Les débats portent sur : le rôle des technologies de capture du carbone (CDR), l'équité (émissions historiques, développement), et le rythme de la transition.",
+        "enjeuxActuels": "L'écart entre engagements et actions ('emissions gap') reste critique : les CDN actuelles mèneraient à +2,5-3°C. Les secteurs difficiles à décarboner (aviation, industrie lourde) nécessitent des innovations. Le financement de la transition dans les pays en développement, la sortie des énergies fossiles (COP28), et la 'transition juste' pour les travailleurs sont des enjeux majeurs.",
+        "perspectives": "L'atténuation doit s'accélérer massivement. Les trajectoires net-zéro des entreprises, les normes sectorielles (RE2020, Euro 7), et les mécanismes de marché (ETS renforcé, MACF) se multiplient. L'articulation avec l'adaptation, la sobriété comme levier complémentaire, et l'innovation (hydrogène, batteries) dessinent la transformation à venir."
+      },
+      "sources": [
+        {"titre": "Climate Change 2022: Mitigation of Climate Change (AR6 WG3)", "institution": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg3/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Accord de Paris", "institution": "CCNUCC", "url": "https://unfccc.int/fr/processus-et-reunions/l-accord-de-paris/l-accord-de-paris", "annee": 2015, "type": "loi", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["mitigation", "CDN", "budget carbone", "net-zéro", "décarbonation"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Objectif : -45% d'émissions mondiales d'ici 2030 (vs 2010)", "source": "GIEC", "annee": 2018},
+        {"valeur": "Neutralité carbone mondiale nécessaire vers 2050", "source": "GIEC 1.5°C", "annee": 2018}
+      ],
+      "relations": [
+        {"cible": "changement-climatique", "type": "renvoie_a", "score": 95},
+        {"cible": "adaptation-climatique", "type": "proche_de", "score": 90},
+        {"cible": "neutralite-carbone", "type": "renvoie_a", "score": 90}
+      ],
+      "exemples": ["Sortie du charbon", "Électrification des transports", "Rénovation énergétique des bâtiments"],
+      "synonymes": ["Mitigation", "Réduction des émissions", "Climate mitigation"]
+    },
+    {
+      "id": "boucle-retroaction",
+      "terme": "Boucle de rétroaction",
+      "categorie": "energie-climat",
+      "resume": "Mécanisme par lequel un effet du changement climatique amplifie ou atténue le réchauffement initial.",
+      "definition": "Une boucle de rétroaction climatique est un processus par lequel un changement initial du système climatique entraîne des effets secondaires qui amplifient (rétroaction positive) ou atténuent (rétroaction négative) ce changement. Ces mécanismes déterminent la sensibilité climatique et peuvent accélérer le réchauffement au-delà des projections linéaires. Exemple : la fonte des glaces réduit l'albédo (réflexion solaire), augmentant l'absorption de chaleur, accélérant la fonte (rétroaction positive).",
+      "definitionEtendue": {
+        "introduction": "Le concept de rétroaction est central en climatologie depuis les travaux de Svante Arrhenius (1896) sur le CO2 et la vapeur d'eau. La compréhension des rétroactions a progressé avec les modèles climatiques et l'observation des paléoclimats. Les rétroactions expliquent pourquoi la sensibilité climatique (réchauffement pour un doublement du CO2) est de 2,5-4°C plutôt que le 1°C de l'effet direct.",
+        "mecanismes": "Principales rétroactions positives : vapeur d'eau (plus de chaleur → plus d'évaporation → plus d'effet de serre), albédo glace-neige (fonte → surface plus sombre → plus d'absorption), et carbone du pergélisol (dégel → libération de méthane et CO2). Rétroactions négatives : augmentation du rayonnement infrarouge sortant (loi de Stefan-Boltzmann), certaines rétroactions nuageuses. Les nuages restent la principale source d'incertitude.",
+        "contexteScientifique": "Les modèles climatiques intègrent les rétroactions connues mais certaines restent mal quantifiées (nuages, pergélisol, végétation). Les paléoclimats (périodes chaudes passées) fournissent des analogues. L'AR6 du GIEC affine les estimations : sensibilité climatique à l'équilibre entre 2,5 et 4°C (meilleure estimation 3°C). Le risque de rétroactions non-linéaires au-delà de certains seuils (points de basculement) est croissant.",
+        "enjeuxActuels": "Les rétroactions rapides (vapeur d'eau, neige) sont bien comprises. Les inquiétudes portent sur les rétroactions lentes à seuil : dégel du pergélisol (850 GtC de carbone stocké), déstabilisation des calottes glaciaires, et dépérissement de l'Amazonie. Ces rétroactions pourraient s'enclencher irréversiblement au-delà de 1,5-2°C.",
+        "perspectives": "L'amélioration de la modélisation des rétroactions (résolution, représentation des processus) est prioritaire. Les systèmes d'observation (satellites, réseaux de mesure) suivent les indicateurs clés. La question centrale : peut-on rester en-deçà des seuils déclenchant des rétroactions incontrôlables ?"
+      },
+      "sources": [
+        {"titre": "AR6 WG1 Chapter 7: The Earth's Energy Budget, Climate Feedbacks, and Climate Sensitivity", "institution": "IPCC", "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Climate feedbacks and sensitivity", "auteur": "Sherwood, S.C. et al.", "doi": "10.1029/2019RG000678", "journal": "Reviews of Geophysics", "annee": 2020, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["sensibilité climatique", "albédo", "vapeur d'eau", "pergélisol", "points de basculement"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Sensibilité climatique à l'équilibre : 2,5-4°C (meilleure estimation 3°C)", "source": "GIEC AR6", "annee": 2021},
+        {"valeur": "850 GtC de carbone dans le pergélisol (2x l'atmosphère)", "source": "Schuur et al.", "annee": 2015}
+      ],
+      "relations": [
+        {"cible": "changement-climatique", "type": "renvoie_a", "score": 95},
+        {"cible": "point-basculement", "type": "renvoie_a", "score": 90}
+      ],
+      "exemples": ["Fonte de la banquise arctique → absorption accrue → réchauffement", "Dégel du pergélisol → libération de méthane → effet de serre"],
+      "synonymes": ["Feedback climatique", "Climate feedback"]
+    },
+    {
+      "id": "point-basculement",
+      "terme": "Point de basculement",
+      "categorie": "energie-climat",
+      "resume": "Seuil critique au-delà duquel un système climatique bascule vers un nouvel état, souvent irréversiblement.",
+      "definition": "Un point de basculement climatique (tipping point) est un seuil critique au-delà duquel un élément du système climatique subit un changement abrupt, auto-entretenu et souvent irréversible à l'échelle humaine. Ces éléments de basculement (tipping elements) incluent les calottes glaciaires, les forêts tropicales, les courants océaniques et le pergélisol. Le franchissement d'un point de basculement peut déclencher des cascades affectant d'autres systèmes, avec des conséquences majeures et durables.",
+      "definitionEtendue": {
+        "introduction": "Le concept de tipping point climatique est formalisé par Tim Lenton et al. en 2008 dans un article influent de PNAS. Il s'inspire de la théorie des systèmes dynamiques (bifurcations, hystérésis). Le GIEC intègre progressivement ces concepts, les AR5 et AR6 détaillant les risques. Le terme gagne le grand public avec les alertes sur l'irréversibilité potentielle au-delà de 1,5-2°C.",
+        "mecanismes": "Les éléments de basculement identifiés incluent : calotte du Groenland et de l'Antarctique ouest (élévation du niveau de la mer), forêt amazonienne (dépérissement → savane), pergélisol (libération massive de carbone), circulation thermohaline atlantique (AMOC, refroidissement Europe), et récifs coralliens (blanchissement massif). Le basculement résulte de rétroactions positives s'auto-amplifiant au-delà d'un seuil.",
+        "contexteScientifique": "Une mise à jour majeure (Armstrong McKay et al., Science 2022) identifie 16 éléments de basculement dont 5 déjà potentiellement franchis ou proches (calottes, récifs, pergélisol). Les seuils sont estimés entre 1-3°C pour plusieurs éléments. Les interactions entre éléments (cascades de basculement) pourraient s'enclencher dès 1,5-2°C. L'incertitude sur les seuils précis reste élevée.",
+        "enjeuxActuels": "La question centrale est : sommes-nous déjà proches de points de basculement ? Les observations (fonte accélérée, dépérissement forestier, ralentissement AMOC) sont préoccupantes. Les implications pour les trajectoires d'émission sont majeures : dépasser 1,5°C même temporairement (overshoot) pourrait franchir des seuils irréversibles.",
+        "perspectives": "La recherche intensifie la surveillance des indicateurs précoces (early warning signals) et la modélisation des cascades. Les points de basculement positifs (bascules vers des solutions) émergent comme concept complémentaire. L'enjeu politique est d'intégrer ces risques de 'fat tail' dans les trajectoires d'atténuation."
+      },
+      "sources": [
+        {"titre": "Tipping points in the Earth's climate system", "auteur": "Lenton, T.M. et al.", "doi": "10.1073/pnas.0705414105", "journal": "PNAS", "annee": 2008, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
+        {"titre": "Exceeding 1.5°C global warming could trigger multiple climate tipping points", "auteur": "Armstrong McKay, D.I. et al.", "doi": "10.1126/science.abn7950", "journal": "Science", "annee": 2022, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["tipping elements", "irréversibilité", "cascades", "hystérésis", "early warning"],
+      "indicateursQuantitatifs": [
+        {"valeur": "16 éléments de basculement identifiés", "source": "Armstrong McKay et al.", "annee": 2022},
+        {"valeur": "5 éléments potentiellement déjà proches du basculement", "source": "Armstrong McKay et al.", "annee": 2022}
+      ],
+      "relations": [
+        {"cible": "changement-climatique", "type": "renvoie_a", "score": 95},
+        {"cible": "boucle-retroaction", "type": "renvoie_a", "score": 90}
+      ],
+      "exemples": ["Effondrement de la calotte du Groenland", "Dépérissement de l'Amazonie", "Arrêt de l'AMOC"],
+      "synonymes": ["Tipping point", "Élément de basculement", "Seuil climatique critique"]
     }
   ]
 }
