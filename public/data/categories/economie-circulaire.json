@@ -33,6 +33,13 @@
       ],
       "exemples": ["Location de vêtements", "Consigne des bouteilles", "Reconditionnement électronique"],
       "synonymes": ["économie en boucle", "circularité économique"],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Circular_economy.svg/800px-Circular_economy.svg.png",
+        "alt": "Schéma de l'économie circulaire",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "schema",
+        "legende": "Les boucles de valeur de l'économie circulaire"
+      },
       "indicateursQuantitatifs": [
         {"valeur": "Taux de circularité mondial : 7,2%", "source": "Circle Economy", "annee": 2023}
       ]

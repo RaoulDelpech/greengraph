@@ -55,6 +55,16 @@ export interface IndicateurQuantitatif {
   annee: number;
 }
 
+export type ImageType = 'photo' | 'schema' | 'logo' | 'infographie' | 'illustration';
+
+export interface DefinitionImage {
+  src: string;           // Chemin relatif (/images/...) ou URL
+  alt: string;           // Description alternative
+  credit?: string;       // Source/crédit (ex: "Wikimedia Commons")
+  type?: ImageType;      // Type d'image
+  legende?: string;      // Légende optionnelle
+}
+
 export type NiveauValidation = 'vérifié' | 'préliminaire' | 'en_révision';
 
 export interface Definition {
@@ -85,6 +95,7 @@ export interface Definition {
   exemples?: string[];     // Exemples concrets
   synonymes?: string[];    // Termes équivalents
   indicateursQuantitatifs?: IndicateurQuantitatif[];  // Données chiffrées
+  image?: DefinitionImage; // Image principale illustrant le concept
 }
 
 export interface Categorie {

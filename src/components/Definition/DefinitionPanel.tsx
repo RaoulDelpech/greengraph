@@ -1,6 +1,39 @@
 import { useState, useEffect } from 'react';
-import type { Definition, Categorie, RelationType, DefinitionDepth, Source } from '../../types';
+import type { Definition, Categorie, RelationType, DefinitionDepth, Source, DefinitionImage } from '../../types';
 import { DefinitionDepthToggle } from './DefinitionDepthToggle';
+
+// Composant pour afficher l'image de définition
+function DefinitionImageDisplay({ image }: { image: DefinitionImage }) {
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [hasError, setHasError] = useState(false);
+
+  if (hasError) return null;
+
+  return (
+    <figure className="relative">
+      {!isLoaded && (
+        <div className="absolute inset-0 bg-gray-100 animate-pulse rounded-lg" />
+      )}
+      <img
+        src={image.src}
+        alt={image.alt}
+        className={`w-full h-48 object-cover rounded-lg transition-opacity duration-300 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
+        onLoad={() => setIsLoaded(true)}
+        onError={() => setHasError(true)}
+      />
+      {(image.legende || image.credit) && (
+        <figcaption className="mt-1.5 text-xs text-gray-500 flex justify-between items-start">
+          {image.legende && <span className="italic">{image.legende}</span>}
+          {image.credit && (
+            <span className="text-gray-400 text-right">
+              {image.credit}
+            </span>
+          )}
+        </figcaption>
+      )}
+    </figure>
+  );
+}
 
 interface DefinitionPanelProps {
   definition: Definition;
@@ -195,6 +228,13 @@ export function DefinitionPanel({
 
       {/* Content avec scroll */}
       <div className="flex-1 overflow-y-auto">
+        {/* Image si présente */}
+        {definition.image && (
+          <div className="p-4 pb-2 border-b border-gray-100">
+            <DefinitionImageDisplay image={definition.image} />
+          </div>
+        )}
+
         {/* Définition - section principale */}
         <div className="p-4 bg-emerald-50/50 border-b border-gray-100">
           {renderDefinitionContent()}

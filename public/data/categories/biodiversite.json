@@ -33,6 +33,13 @@
       ],
       "exemples": ["Forêt amazonienne : 10% des espèces connues", "Un gramme de sol : 10 milliards de micro-organismes"],
       "synonymes": ["diversité biologique", "diversité du vivant"],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Biodiversity_wetland.jpg/800px-Biodiversity_wetland.jpg",
+        "alt": "Zone humide riche en biodiversité",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Écosystème de zone humide illustrant la richesse du vivant"
+      },
       "indicateursQuantitatifs": [
         {"valeur": "8,7 millions d'espèces estimées (86% non décrites)", "source": "Mora et al.", "annee": 2011},
         {"valeur": "1 million d'espèces menacées d'extinction", "source": "IPBES", "annee": 2019}

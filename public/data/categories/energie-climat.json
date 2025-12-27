@@ -92,6 +92,13 @@
         "Recul des glaciers alpins de 50% depuis 1850"
       ],
       "synonymes": ["dérèglement climatique", "réchauffement climatique", "crise climatique"],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Global_Temperature_Anomaly.svg/800px-Global_Temperature_Anomaly.svg.png",
+        "alt": "Anomalie de température mondiale depuis 1880",
+        "credit": "NASA/GISS - Wikimedia Commons",
+        "type": "schema",
+        "legende": "Évolution des anomalies de température mondiale (1880-2023)"
+      },
       "indicateursQuantitatifs": [
         {
           "valeur": "+1,1°C de réchauffement depuis l'ère préindustrielle (2011-2020)",
@@ -144,6 +151,13 @@
       ],
       "exemples": ["CO2 : combustion fossiles, déforestation", "CH4 : élevage, rizières, fuites gaz", "N2O : engrais azotés"],
       "synonymes": ["GES", "greenhouse gases"],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Atmospheric_CO2_with_glacial_cycles.svg/800px-Atmospheric_CO2_with_glacial_cycles.svg.png",
+        "alt": "Concentration atmosphérique de CO2 sur 800 000 ans",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "CO2 atmosphérique : cycles glaciaires et pic actuel sans précédent"
+      },
       "indicateursQuantitatifs": [
         {"valeur": "CO2 atmosphérique : 420 ppm (2023) vs 280 ppm préindustriel", "source": "NOAA", "annee": 2023},
         {"valeur": "Émissions mondiales : 57,4 GtCO2eq/an", "source": "UNEP", "annee": 2022}
