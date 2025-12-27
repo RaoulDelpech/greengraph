@@ -79,11 +79,10 @@
         "conversion forestière"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Deforestation_in_the_Amazon.jpg/800px-Deforestation_in_the_Amazon.jpg",
-        "alt": "Déforestation en Amazonie",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Bolivia_satellite_deforestation_1986_2001.jpg",
+        "alt": "Déforestation",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Front de déforestation en forêt amazonienne"
+        "type": "photo"
       }
     },
     {
@@ -160,11 +159,10 @@
         "afforestation"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Reforestation.jpg/800px-Reforestation.jpg",
-        "alt": "Plantation d'arbres",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Tree_planter_planting_trees_in_British_Columbia%2C_Canada.jpg/800px-Tree_planter_planting_trees_in_British_Columbia%2C_Canada.jpg",
+        "alt": "Reforestation",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Reforestation - restauration des forêts"
+        "type": "photo"
       }
     },
     {
@@ -242,11 +240,10 @@
         "old-growth forest"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Daintree_Rainforest.jpg/800px-Daintree_Rainforest.jpg",
-        "alt": "Forêt tropicale primaire de Daintree, Australie",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Canopée intacte d'une forêt primaire tropicale"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Old_growth_in_northwestern_California_national_forests_%28microform%29_%28IA_CAT10842574%29.pdf/page1-640px-Old_growth_in_northwestern_California_national_forests_%28microform%29_%28IA_CAT10842574%29.pdf.jpg",
+        "alt": "Forêt primaire",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -323,11 +320,10 @@
         "sustainable forestry"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sustainable_forestry.jpg/800px-Sustainable_forestry.jpg",
-        "alt": "Exploitation forestière durable avec coupes sélectives",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Forestry_by_horse_-_geograph.org.uk_-_199155.jpg",
+        "alt": "Sylviculture durable",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Gestion forestière respectant les cycles naturels"
+        "type": "photo"
       }
     },
     {
@@ -403,11 +399,10 @@
         "forest carbon sink"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Sequoia_sempervirens_Big_Basin_Redwoods_State_Park_4.jpg/800px-Sequoia_sempervirens_Big_Basin_Redwoods_State_Park_4.jpg",
-        "alt": "Séquoias géants, puissants puits de carbone",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Les forêts anciennes stockent des quantités massives de carbone"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Carbon_storage_and_accumulation_in_United_States_forest_ecosystems_%28IA_CAT93989847%29.pdf/page1-640px-Carbon_storage_and_accumulation_in_United_States_forest_ecosystems_%28IA_CAT93989847%29.pdf.jpg",
+        "alt": "Puits de carbone forestier",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -484,11 +479,10 @@
         "ocean acidification"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Ocean_acidification.svg/800px-Ocean_acidification.svg.png",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Coral_Bleaching_in_Hawaii.jpg/750px-Coral_Bleaching_in_Hawaii.jpg",
         "alt": "Acidification des océans",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Mécanisme d'acidification des océans"
+        "type": "photo"
       }
     },
     {
@@ -564,11 +558,10 @@
         "coral reef"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Coral_reef_at_palmyra.jpg/800px-Coral_reef_at_palmyra.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Soft_coral_peach_komodo.jpg/960px-Soft_coral_peach_komodo.jpg",
         "alt": "Récif corallien",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Écosystème de récif corallien"
+        "type": "photo"
       }
     },
     {
@@ -646,11 +639,10 @@
         "overfishing"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Trawer_Codend.jpg/800px-Trawer_Codend.jpg",
-        "alt": "Chalutier remontant ses filets pleins",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Pauillac_-_Gironde_-_Cabanes_de_p%C3%AAcheurs_sur_l%27estuaire_de_la_Garonne_-_Picture_Image_Photography_%2813915746131%29.jpg/960px-Pauillac_-_Gironde_-_Cabanes_de_p%C3%AAcheurs_sur_l%27estuaire_de_la_Garonne_-_Picture_Image_Photography_%2813915746131%29.jpg",
+        "alt": "Surpêche",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "La surpêche épuise les stocks halieutiques mondiaux"
+        "type": "photo"
       }
     },
     {
@@ -728,11 +720,10 @@
         "MPA"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Papah%C4%81naumoku%C4%81kea_Marine_National_Monument.jpg/800px-Papah%C4%81naumoku%C4%81kea_Marine_National_Monument.jpg",
-        "alt": "Réserve marine de Papahānaumokuākea, Hawaï",
-        "credit": "NOAA - Wikimedia Commons",
-        "type": "photo",
-        "legende": "Aire marine protégée abritant une biodiversité exceptionnelle"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Map_delineating_The_Saint_Brandon_Marine_Protected_Area_%28Cargados_Carajos%29_by_the_World_Bank_in_1998.jpg/960px-Map_delineating_The_Saint_Brandon_Marine_Protected_Area_%28Cargados_Carajos%29_by_the_World_Bank_in_1998.jpg",
+        "alt": "Aire marine protégée (AMP)",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -808,11 +799,10 @@
         "coastal blue carbon"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Seagrass_meadow.jpg/800px-Seagrass_meadow.jpg",
-        "alt": "Prairie sous-marine de posidonies",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Les herbiers marins stockent le carbone bleu"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Carbon_uptake_and_photosynthesis_in_a_seagrass_meadow.png/960px-Carbon_uptake_and_photosynthesis_in_a_seagrass_meadow.png",
+        "alt": "Carbone bleu",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -888,11 +878,10 @@
         "mangrove forest"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Red_mangrove.jpg/800px-Red_mangrove.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Detail_of_mangrove_roots.jpg/960px-Detail_of_mangrove_roots.jpg",
         "alt": "Mangrove",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Forêt de mangrove - écosystème côtier"
+        "type": "photo"
       }
     },
     {
@@ -969,11 +958,10 @@
         "océan de plastique"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Ocean_plastic.jpg/800px-Ocean_plastic.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/004_Beach_pollution_in_Tenerife_-_Atlantic_Ocean_beach_plastic_garbage_debris.jpg/960px-004_Beach_pollution_in_Tenerife_-_Atlantic_Ocean_beach_plastic_garbage_debris.jpg",
         "alt": "Pollution plastique océanique",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Déchets plastiques dans l'océan"
+        "type": "photo"
       }
     },
     {
@@ -1051,11 +1039,10 @@
         "dead zone"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Aquatic_Dead_Zones.jpg/800px-Aquatic_Dead_Zones.jpg",
-        "alt": "Carte des zones mortes océaniques mondiales",
-        "credit": "NASA/Wikimedia Commons",
-        "type": "schema",
-        "legende": "Zones hypoxiques causées par l'eutrophisation"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Baltic_blooms_ESA21514635.jpeg/960px-Baltic_blooms_ESA21514635.jpeg",
+        "alt": "Zone morte océanique",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -1132,11 +1119,10 @@
         "arbres champêtres"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Agroforestry.jpg/800px-Agroforestry.jpg",
-        "alt": "Parcelle agroforestière",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Agroforestry_contour_planting.jpg/960px-Agroforestry_contour_planting.jpg",
+        "alt": "Agroforesterie",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Culture associant arbres et productions agricoles"
+        "type": "photo"
       }
     },
     {
@@ -1214,11 +1200,10 @@
         "timber construction"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Brock_Commons_Tallwood_House.jpg/800px-Brock_Commons_Tallwood_House.jpg",
-        "alt": "Tour en bois Brock Commons, Vancouver",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Construction bois haute performance - 18 étages"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/25_Wood_frame_condominium_construction_in_Canada_-_apartment_building_construction_in_Fernie%2C_British_Columbia.jpg/960px-25_Wood_frame_condominium_construction_in_Canada_-_apartment_building_construction_in_Fernie%2C_British_Columbia.jpg",
+        "alt": "Bois construction",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -1294,11 +1279,10 @@
         "wildfire"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Deerfire_high_res.jpg/800px-Deerfire_high_res.jpg",
-        "alt": "Incendie de forêt avec panache de fumée",
-        "credit": "John McColgan - Wikimedia Commons",
-        "type": "photo",
-        "legende": "Mégafeu - phénomène amplifié par le changement climatique"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Lick_Fire_on_the_Umatilla_National_Forest_burning_at_night.jpg/960px-Lick_Fire_on_the_Umatilla_National_Forest_burning_at_night.jpg",
+        "alt": "Incendie de forêt",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -1374,11 +1358,10 @@
         "high seas"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Open_ocean.jpg/800px-Open_ocean.jpg",
-        "alt": "Océan ouvert, haute mer",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Professional_wind_surfer_practice_in_deep_blue_open_ocean_sea_%2852829424334%29.jpg/960px-Professional_wind_surfer_practice_in_deep_blue_open_ocean_sea_%2852829424334%29.jpg",
+        "alt": "Haute mer",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "La haute mer couvre 64% de la surface océanique"
+        "type": "photo"
       }
     },
     {
@@ -1454,11 +1437,10 @@
         "coastal erosion"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Coastal_erosion_at_Happisburgh.jpg/800px-Coastal_erosion_at_Happisburgh.jpg",
-        "alt": "Érosion côtière à Happisburgh, Royaume-Uni",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Recul du trait de côte menaçant les habitations"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Coastal_erosion%2C_Cliffs_at_Kilnsea_-_geograph.org.uk_-_700630.jpg",
+        "alt": "Érosion côtière",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -1534,11 +1516,10 @@
         "migratory marine species"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Humpback_whale_underwater_shot.jpg/800px-Humpback_whale_underwater_shot.jpg",
-        "alt": "Baleine à bosse en migration",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Les baleines parcourent des milliers de kilomètres"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/A_beachcomber_is_touching_a_dead_whale_washed_ashore_at_Ocean_beach_edit_1.jpg/960px-A_beachcomber_is_touching_a_dead_whale_washed_ashore_at_Ocean_beach_edit_1.jpg",
+        "alt": "Espèce marine migratrice",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -1614,11 +1595,10 @@
         "invasive seaweed"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Caulerpa_taxifolia.jpg/800px-Caulerpa_taxifolia.jpg",
-        "alt": "Caulerpa taxifolia, algue tueuse",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Federal_Register_1999-07-29-_Vol_64_Iss_145_%28IA_sim_federal-register-find_1999-07-29_64_145%29.pdf/page1-640px-Federal_Register_1999-07-29-_Vol_64_Iss_145_%28IA_sim_federal-register-find_1999-07-29_64_145%29.pdf.jpg",
+        "alt": "Algue invasive",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Algue invasive menaçant la Méditerranée"
+        "type": "photo"
       }
     },
     {
@@ -1696,11 +1676,10 @@
         "seagrass meadow"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Posidonia_oceanica_meadow.jpg/800px-Posidonia_oceanica_meadow.jpg",
-        "alt": "Herbier de posidonies en Méditerranée",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Écosystème marin à haute valeur écologique"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Posidonia_oceanica_%28L%29.jpg/960px-Posidonia_oceanica_%28L%29.jpg",
+        "alt": "Herbier marin",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -1777,11 +1756,10 @@
         "sustainable aquaculture"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Aquaculture_in_Norway.jpg/800px-Aquaculture_in_Norway.jpg",
-        "alt": "Ferme aquacole en Norvège",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/In_brief%2C_The_State_of_World_Fisheries_and_Aquaculture%2C_2018.pdf/page1-640px-In_brief%2C_The_State_of_World_Fisheries_and_Aquaculture%2C_2018.pdf.jpg",
+        "alt": "Aquaculture durable",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Aquaculture intégrée respectant l'environnement"
+        "type": "photo"
       }
     }
   ]

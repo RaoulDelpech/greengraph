@@ -79,11 +79,10 @@
         "panneaux solaires"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Solar_panels.jpg/800px-Solar_panels.jpg",
-        "alt": "Panneaux solaires",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Paneles_solares_en_Cari%C3%B1ena%2C_Espa%C3%B1a%2C_2015-01-08%2C_DD_09-12_PAN.JPG/960px-Paneles_solares_en_Cari%C3%B1ena%2C_Espa%C3%B1a%2C_2015-01-08%2C_DD_09-12_PAN.JPG",
+        "alt": "Énergie solaire photovoltaïque",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Installation photovoltaïque"
+        "type": "photo"
       }
     },
     {
@@ -160,11 +159,10 @@
         "énergie du vent"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Wind_turbines_at_sunrise.jpg/800px-Wind_turbines_at_sunrise.jpg",
-        "alt": "Éoliennes",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Wind_Turbines_and_Power_Lines%2C_East_Sussex%2C_England_-_April_2009.jpg/960px-Wind_Turbines_and_Power_Lines%2C_East_Sussex%2C_England_-_April_2009.jpg",
+        "alt": "Énergie éolienne",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Parc éolien terrestre"
+        "type": "photo"
       }
     },
     {
@@ -240,11 +238,10 @@
         "hydrogène renouvelable"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Hydrogen_electrolyzer.jpg/800px-Hydrogen_electrolyzer.jpg",
-        "alt": "Électrolyseur hydrogène",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Hydrogen_production_from_the_air.pdf/page1-640px-Hydrogen_production_from_the_air.pdf.jpg",
+        "alt": "Hydrogène vert",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Production d'hydrogène par électrolyse"
+        "type": "photo"
       }
     },
     {
@@ -321,11 +318,10 @@
         "accumulateurs lithium"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Lithium_battery.jpg/800px-Lithium_battery.jpg",
-        "alt": "Batterie lithium-ion",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Lithium_battery_cost_in_%24_per_kWh_for_Electric_Vehicules_2010-2019.jpg/960px-Lithium_battery_cost_in_%24_per_kWh_for_Electric_Vehicules_2010-2019.jpg",
+        "alt": "Batteries lithium-ion",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Cellules de batteries lithium-ion"
+        "type": "photo"
       }
     },
     {
@@ -402,11 +398,10 @@
         "voiture électrique"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Electric_car_charging.jpg/800px-Electric_car_charging.jpg",
-        "alt": "Véhicule électrique en charge",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cologne_Germany_Electric-Car-Charging-Point-at-TUV-Rheinland-01.jpg/960px-Cologne_Germany_Electric-Car-Charging-Point-at-TUV-Rheinland-01.jpg",
+        "alt": "Véhicule électrique",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Recharge d'un véhicule électrique"
+        "type": "photo"
       }
     },
     {
@@ -484,11 +479,10 @@
         "carbon capture and storage"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Carbon_capture_and_storage.jpg/800px-Carbon_capture_and_storage.jpg",
-        "alt": "Installation de captage de CO2",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/R42532_Carbon_Capture_and_Sequestration_%28CCS%29_A_Primer_%28IA_R42532CarbonCaptureandSequestrationCCSAPrimer-crs%29.pdf/page1-640px-R42532_Carbon_Capture_and_Sequestration_%28CCS%29_A_Primer_%28IA_R42532CarbonCaptureandSequestrationCCSAPrimer-crs%29.pdf.jpg",
+        "alt": "Captage et stockage du CO2 (CSC)",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Captage direct du CO2 dans l'atmosphère"
+        "type": "photo"
       }
     },
     {
@@ -566,11 +560,10 @@
         "thermopompe"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Heat_pump.jpg/800px-Heat_pump.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Heat_Pump_Installation_%2851323299230%29.jpg/960px-Heat_Pump_Installation_%2851323299230%29.jpg",
         "alt": "Pompe à chaleur",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Unité extérieure de pompe à chaleur"
+        "type": "photo"
       }
     },
     {
@@ -646,11 +639,10 @@
         "intelligent grid"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Smart_grid.svg/800px-Smart_grid.svg.png",
-        "alt": "Réseau intelligent",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/GAO-21-81_Electricity_Grid_Cybersecurity_-_DOE_Needs_to_Ensure_Its_Plans_Fully_Address_Risks_to_Distribution_Systems.pdf/page1-640px-GAO-21-81_Electricity_Grid_Cybersecurity_-_DOE_Needs_to_Ensure_Its_Plans_Fully_Address_Risks_to_Distribution_Systems.pdf.jpg",
+        "alt": "Réseau électrique intelligent (Smart Grid)",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Architecture d'un smart grid"
+        "type": "photo"
       }
     },
     {
@@ -726,11 +718,10 @@
         "agriculture numérique"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Precision_agriculture_drone.jpg/800px-Precision_agriculture_drone.jpg",
-        "alt": "Drone agricole survolant un champ",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Drone d'agriculture de précision pour l'épandage ciblé"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/IRRI_BBM_rice_drone_demo_2.jpg/960px-IRRI_BBM_rice_drone_demo_2.jpg",
+        "alt": "Agriculture de précision",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -806,11 +797,10 @@
         "agrocarburants"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Biodiesel_pump.jpg/800px-Biodiesel_pump.jpg",
-        "alt": "Pompe à biocarburant",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Biodiesel_autoconsumo.jpg/884px-Biodiesel_autoconsumo.jpg",
+        "alt": "Biocarburants",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Station de distribution de biodiesel"
+        "type": "photo"
       }
     },
     {
@@ -887,11 +877,10 @@
         "chemical recycling"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Advanced_recycling_plant.jpg/800px-Advanced_recycling_plant.jpg",
-        "alt": "Usine de recyclage chimique",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Ananth_Kumar_addressing_the_gathering_at_the_Foundation_Stone_Laying_Ceremony_for_the_Advanced_Polymer_Design_and_Development_Research_Laboratory_%28APDDRL%29_and_Plastics_Recycling_Unit_%28PRU%29%2C_at_Bengaluru.jpg/960px-thumbnail.jpg",
+        "alt": "Recyclage avancé",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Technologies de recyclage moléculaire"
+        "type": "photo"
       }
     },
     {
@@ -967,11 +956,10 @@
         "additive manufacturing"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/3D_printed_house.jpg/800px-3D_printed_house.jpg",
-        "alt": "Maison construite par impression 3D",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Construction additive réduisant les déchets"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Digital_Eagle_Articles_-_3D_Printing_Issue_1.pdf/page1-640px-Digital_Eagle_Articles_-_3D_Printing_Issue_1.pdf.jpg",
+        "alt": "Fabrication additive (Impression 3D)",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -1048,11 +1036,10 @@
         "désalinisation"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Desalination_plant_Israel.jpg/800px-Desalination_plant_Israel.jpg",
-        "alt": "Usine de dessalement en Israël",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Desalination_Water_Toast_by_Philippine_government_officials.jpg/960px-Desalination_Water_Toast_by_Philippine_government_officials.jpg",
+        "alt": "Dessalement de l'eau de mer",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Usine de dessalement par osmose inverse"
+        "type": "photo"
       }
     },
     {
@@ -1129,11 +1116,10 @@
         "plastiques biosourcés"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Bioplastic_products.jpg/800px-Bioplastic_products.jpg",
-        "alt": "Produits en bioplastique",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bio-K_Abfallbeutel_Kompostbeutel_CG.jpg/960px-Bio-K_Abfallbeutel_Kompostbeutel_CG.jpg",
+        "alt": "Bioplastiques",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Emballages biodégradables à base végétale"
+        "type": "photo"
       }
     },
     {
@@ -1210,11 +1196,10 @@
         "batteries stationnaires"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Tesla_Megapack.jpg/800px-Tesla_Megapack.jpg",
-        "alt": "Batteries de stockage à grande échelle",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/20240706_Energy_storage_-_renewable_energy_-_battery_-_100_ms.gif/960px-20240706_Energy_storage_-_renewable_energy_-_battery_-_100_ms.gif",
+        "alt": "Stockage d'énergie",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Système de stockage par batteries industrielles"
+        "type": "photo"
       }
     },
     {
@@ -1292,11 +1277,10 @@
         "Gen IV reactors"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/SMR_concept.svg/800px-SMR_concept.svg.png",
-        "alt": "Concept de petit réacteur modulaire SMR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Modern_statue_near_Nuclear_power_plant_Dukovany%2C_Czech_Republic_near_Dukovany%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg/960px-Modern_statue_near_Nuclear_power_plant_Dukovany%2C_Czech_Republic_near_Dukovany%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg",
+        "alt": "Nucléaire de nouvelle génération",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Réacteurs modulaires de nouvelle génération"
+        "type": "photo"
       }
     },
     {
@@ -1373,11 +1357,10 @@
         "matériaux bio-sourcés"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Hemp_construction.jpg/800px-Hemp_construction.jpg",
-        "alt": "Construction en béton de chanvre",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Matériau isolant biosourcé à base de chanvre"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cell_wall_microstructure%2C_pore_size_distribution_and_absolute_density_of_hemp_shiv.pdf/page1-640px-Cell_wall_microstructure%2C_pore_size_distribution_and_absolute_density_of_hemp_shiv.pdf.jpg",
+        "alt": "Matériaux biosourcés",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -1454,11 +1437,10 @@
         "Green AI applications"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/AI_environmental_monitoring.svg/800px-AI_environmental_monitoring.svg.png",
-        "alt": "IA pour le monitoring environnemental",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Environmental_assessment_of_proposed_monitoring_sites_%28IA_environmentalass20suno%29.pdf/page1-640px-Environmental_assessment_of_proposed_monitoring_sites_%28IA_environmentalass20suno%29.pdf.jpg",
+        "alt": "IA pour l'environnement",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Intelligence artificielle au service de l'écologie"
+        "type": "photo"
       }
     },
     {
@@ -1535,11 +1517,10 @@
         "énergie géothermique"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Geothermal_power_plant.jpg/800px-Geothermal_power_plant.jpg",
-        "alt": "Centrale géothermique",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/NesjavellirPowerPlant_edit2.jpg/960px-NesjavellirPowerPlant_edit2.jpg",
+        "alt": "Géothermie",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Exploitation de la chaleur terrestre"
+        "type": "photo"
       }
     }
   ]

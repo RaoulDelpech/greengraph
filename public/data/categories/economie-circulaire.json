@@ -84,11 +84,10 @@
         "circularité économique"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Circular_economy.svg/800px-Circular_economy.svg.png",
-        "alt": "Schéma de l'économie circulaire",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "schema",
-        "legende": "Les boucles de valeur de l'économie circulaire"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Repair_versus_recycling_%28Norwegian%29.png/960px-Repair_versus_recycling_%28Norwegian%29.png",
+        "alt": "Économie circulaire",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       },
       "indicateursQuantitatifs": [
         {
@@ -179,11 +178,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Linear_economy.svg/800px-Linear_economy.svg.png",
-        "alt": "Schéma économie linéaire",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Current_recycling_innovations_to_utilize_e-waste_in_sustainable_green_metal_manufacturing.pdf/page1-640px-Current_recycling_innovations_to_utilize_e-waste_in_sustainable_green_metal_manufacturing.pdf.jpg",
+        "alt": "Économie linéaire",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Modèle extraire-produire-jeter"
+        "type": "photo"
       }
     },
     {
@@ -274,11 +272,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Ecodesign.svg/800px-Ecodesign.svg.png",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/EU%E2%80%99s_eco-design_framework_for_sustainable_products_live_interview_with_MEP_Alessandra_Moretti_01.jpg/960px-EU%E2%80%99s_eco-design_framework_for_sustainable_products_live_interview_with_MEP_Alessandra_Moretti_01.jpg",
         "alt": "Écoconception",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Intégration de l'environnement dès la conception"
+        "type": "photo"
       }
     },
     {
@@ -367,11 +364,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Life_cycle_assessment.svg/800px-Life_cycle_assessment.svg.png",
-        "alt": "Analyse du cycle de vie",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Life_Cycle_Thinking_Product_System.jpg",
+        "alt": "Analyse du cycle de vie (ACV)",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Évaluation des impacts environnementaux du berceau à la tombe"
+        "type": "photo"
       }
     },
     {
@@ -463,11 +459,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kalundborg_symbiosis.svg/800px-Kalundborg_symbiosis.svg.png",
-        "alt": "Symbiose industrielle de Kalundborg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Kalundborg_Eco-Industrial_Park_Symbiosis_Map.jpg/960px-Kalundborg_Eco-Industrial_Park_Symbiosis_Map.jpg",
+        "alt": "Symbiose industrielle",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Échanges de flux entre industries à Kalundborg, Danemark"
+        "type": "photo"
       }
     },
     {
@@ -553,11 +548,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Planned_obsolescence.jpg/800px-Planned_obsolescence.jpg",
-        "alt": "Appareils électroniques obsolètes",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/ELECTRONIC_WASTE_%28IA_gov.gpo.fdsys.CHRG-109shrg37447%29.pdf/page1-640px-ELECTRONIC_WASTE_%28IA_gov.gpo.fdsys.CHRG-109shrg37447%29.pdf.jpg",
+        "alt": "Obsolescence programmée",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Déchets électroniques issus de l'obsolescence programmée"
+        "type": "photo"
       }
     },
     {
@@ -641,11 +635,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Reuse_center.jpg/800px-Reuse_center.jpg",
-        "alt": "Centre de réutilisation",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Donner une seconde vie aux objets"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Old_Furniture_and_Vintage_Clothing%2C_Upper_Holloway_-_geograph.org.uk_-_548127.jpg",
+        "alt": "Réutilisation",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -717,11 +710,10 @@
         "valorisation créative"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Upcycled_furniture.jpg/800px-Upcycled_furniture.jpg",
-        "alt": "Mobilier upcyclé",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Visitors_at_upcycled_bubble_made_with_agroplastics%2C_PE-LD_%284%29_at_Mexico._With_furniture_made_out_of_the_same_waste_source_material.png/800px-Visitors_at_upcycled_bubble_made_with_agroplastics%2C_PE-LD_%284%29_at_Mexico._With_furniture_made_out_of_the_same_waste_source_material.png",
+        "alt": "Upcycling (surcyclage)",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Transformation créative de déchets en objets de valeur"
+        "type": "photo"
       }
     },
     {
@@ -799,11 +791,10 @@
         "product-as-a-service"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Product_as_service.svg/800px-Product_as_service.svg.png",
-        "alt": "Schéma économie de fonctionnalité",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Andreas_Leo_-_Daimler_Mobility_Service_GmbH_%2810402125333%29.jpg/850px-Andreas_Leo_-_Daimler_Mobility_Service_GmbH_%2810402125333%29.jpg",
+        "alt": "Économie de la fonctionnalité",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Vendre l'usage plutôt que le produit"
+        "type": "photo"
       }
     },
     {
@@ -898,11 +889,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Repair_cafe.jpg/800px-Repair_cafe.jpg",
-        "alt": "Repair Café en action",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Atelier de réparation participatif"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/A_guide_to_Madeira_-_containing_a_short_account_of_Funchall%2C_with_instructions_to_such_as_repair_to_that_island_for_health_%28IA_b24926371%29.pdf/page1-640px-A_guide_to_Madeira_-_containing_a_short_account_of_Funchall%2C_with_instructions_to_such_as_repair_to_that_island_for_health_%28IA_b24926371%29.pdf.jpg",
+        "alt": "Réparabilité",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -988,11 +978,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Bottle_deposit_machine.jpg/800px-Bottle_deposit_machine.jpg",
-        "alt": "Machine de consigne pour bouteilles",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Four_different_bottle_return_deposit_schemes_from_four_countries%2C_Winschoten_%282022%29_01.jpg/960px-Four_different_bottle_return_deposit_schemes_from_four_countries%2C_Winschoten_%282022%29_01.jpg",
+        "alt": "Consigne",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Système de consigne automatisé"
+        "type": "photo"
       }
     },
     {
@@ -1079,11 +1068,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Industrial_ecology.svg/800px-Industrial_ecology.svg.png",
-        "alt": "Schéma d'écologie industrielle",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Towards_an_Ethical_Electronics_Ecologies_of_Congolese_Conflict_Minerals.pdf/page1-640px-Towards_an_Ethical_Electronics_Ecologies_of_Congolese_Conflict_Minerals.pdf.jpg",
+        "alt": "Écologie industrielle",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Flux de matières dans un écosystème industriel"
+        "type": "photo"
       }
     }
   ]

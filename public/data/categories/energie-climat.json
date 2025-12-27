@@ -136,11 +136,10 @@
         "crise climatique"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Global_Temperature_Anomaly.svg/800px-Global_Temperature_Anomaly.svg.png",
-        "alt": "Anomalie de température mondiale depuis 1880",
-        "credit": "NASA/GISS - Wikimedia Commons",
-        "type": "schema",
-        "legende": "Évolution des anomalies de température mondiale (1880-2023)"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/20181204_Warming_stripes_%28global%2C_WMO%2C_1850-2018%29_-_Climate_Lab_Book_%28Ed_Hawkins%29.png/960px-20181204_Warming_stripes_%28global%2C_WMO%2C_1850-2018%29_-_Climate_Lab_Book_%28Ed_Hawkins%29.png",
+        "alt": "Changement climatique",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       },
       "indicateursQuantitatifs": [
         {
@@ -248,11 +247,10 @@
         "greenhouse gases"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Atmospheric_CO2_with_glacial_cycles.svg/800px-Atmospheric_CO2_with_glacial_cycles.svg.png",
-        "alt": "Concentration atmosphérique de CO2 sur 800 000 ans",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Greenhouse_gas_emissions_-_global_-_1970-.png/960px-Greenhouse_gas_emissions_-_global_-_1970-.png",
+        "alt": "Gaz à effet de serre (GES)",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "CO2 atmosphérique : cycles glaciaires et pic actuel sans précédent"
+        "type": "photo"
       },
       "indicateursQuantitatifs": [
         {
@@ -349,11 +347,10 @@
         "bilan GES"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Carbon_footprint_breakdown.svg/800px-Carbon_footprint_breakdown.svg.png",
-        "alt": "Répartition de l'empreinte carbone par secteur",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Wikimedia_Foundation_Environmental_Sustainability_%28Carbon_Footprint%29_Report_for_2021.pdf/page1-640px-Wikimedia_Foundation_Environmental_Sustainability_%28Carbon_Footprint%29_Report_for_2021.pdf.jpg",
+        "alt": "Empreinte carbone",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Répartition typique d'une empreinte carbone"
+        "type": "photo"
       },
       "indicateursQuantitatifs": [
         {
@@ -452,11 +449,10 @@
         "carbon neutral"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Net_zero_emissions.svg/800px-Net_zero_emissions.svg.png",
-        "alt": "Schéma de la neutralité carbone",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/R41603_Is_Biopower_Carbon_Neutral_%28IA_R41603IsBiopowerCarbonNeutral-crs%29.pdf/page1-640px-R41603_Is_Biopower_Carbon_Neutral_%28IA_R41603IsBiopowerCarbonNeutral-crs%29.pdf.jpg",
+        "alt": "Neutralité carbone",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Équilibre émissions-absorptions pour atteindre le net zéro"
+        "type": "photo"
       },
       "indicateursQuantitatifs": [
         {
@@ -558,11 +554,10 @@
         "énergies décarbonées"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Renewable_energy_sources.svg/800px-Renewable_energy_sources.svg.png",
-        "alt": "Sources d'énergies renouvelables",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Leeward_Renewable_Energy_staff_present_solar_panels_%2853166029902%29.jpg/960px-Leeward_Renewable_Energy_staff_present_solar_panels_%2853166029902%29.jpg",
+        "alt": "Énergie renouvelable",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Les principales sources d'énergie renouvelable"
+        "type": "photo"
       },
       "indicateursQuantitatifs": [
         {
@@ -677,11 +672,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Energy_transition.svg/800px-Energy_transition.svg.png",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/The_Minister_of_State_%28IC%29_for_Power_and_New_and_Renewable_Energy%2C_Shri_Raj_Kumar_Singh_speaking_about_India%E2%80%99s_Transition_to_Clean_Energy_at_the_Plenary_of_IEA_Ministerial_Meeting%2C_in_Paris_on_November_08%2C_2017.jpg/960px-thumbnail.jpg",
         "alt": "Transition énergétique",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Du fossile au renouvelable"
+        "type": "photo"
       }
     },
     {
@@ -767,11 +761,10 @@
         "hydrocarbures"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Oil_Pumpjack.jpg/800px-Oil_Pumpjack.jpg",
-        "alt": "Pompe à pétrole (pumpjack)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Skansen_in_Sanok_-_oil_drilling_rig_%28wooden%29.JPG/960px-Skansen_in_Sanok_-_oil_drilling_rig_%28wooden%29.JPG",
+        "alt": "Énergie fossile",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Extraction pétrolière - énergie fossile dominante"
+        "type": "photo"
       },
       "indicateursQuantitatifs": [
         {
@@ -882,11 +875,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Energy_efficiency_label.svg/400px-Energy_efficiency_label.svg.png",
-        "alt": "Étiquette efficacité énergétique",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Feasibility_Study_for_Off-Grid_Hybrid_Power_Systems_Considering_an_Energy_Efficiency_Initiative_for_an_Island_in_Ecuador.pdf/page1-640px-Feasibility_Study_for_Off-Grid_Hybrid_Power_Systems_Considering_an_Energy_Efficiency_Initiative_for_an_Island_in_Ecuador.pdf.jpg",
+        "alt": "Efficacité énergétique",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Étiquette énergie européenne"
+        "type": "photo"
       }
     },
     {
@@ -984,11 +976,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Negawatt_logo.svg/400px-Negawatt_logo.svg.png",
-        "alt": "Logo négaWatt",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/69/Stamp_of_Indonesia_-_2005_-_Colnect_385144_-_Energy_Energy_conservation_.jpeg",
+        "alt": "Sobriété énergétique",
         "credit": "Wikimedia Commons",
-        "type": "logo",
-        "legende": "Association négaWatt - pionnière de la sobriété"
+        "type": "photo"
       }
     },
     {
@@ -1065,11 +1056,10 @@
         "Intergovernmental Panel on Climate Change"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/IPCC_logo.svg/400px-IPCC_logo.svg.png",
-        "alt": "Logo du GIEC/IPCC",
-        "credit": "IPCC - Wikimedia Commons",
-        "type": "logo",
-        "legende": "Groupe d'experts intergouvernemental sur l'évolution du climat"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/INTERNATIONAL_CLIMATE_CHANGE_NEGOTIATIONS-_RESTORING_U.S._LEADERSHIP_%28IA_gov.gpo.fdsys.CHRG-110shrg44771%29.pdf/page1-640px-INTERNATIONAL_CLIMATE_CHANGE_NEGOTIATIONS-_RESTORING_U.S._LEADERSHIP_%28IA_gov.gpo.fdsys.CHRG-110shrg44771%29.pdf.jpg",
+        "alt": "GIEC",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -1145,11 +1135,10 @@
         "Climate adaptation"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Flood_protection_barrier.jpg/800px-Flood_protection_barrier.jpg",
-        "alt": "Barrière anti-inondation",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Overview_of_USACE_CW_climate_change_adaptation_activities_%26_flood_risk_-_USACE-p16021coll2-2904.pdf/page1-640px-Overview_of_USACE_CW_climate_change_adaptation_activities_%26_flood_risk_-_USACE-p16021coll2-2904.pdf.jpg",
+        "alt": "Adaptation climatique",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Infrastructure d'adaptation aux risques climatiques"
+        "type": "photo"
       }
     },
     {
@@ -1232,11 +1221,10 @@
         "Climate mitigation"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Wind_turbines_at_sunrise.jpg/800px-Wind_turbines_at_sunrise.jpg",
-        "alt": "Éoliennes au lever du soleil",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Wind_Turbines_%5E_Solar_Panels_at_Upper_Holton_Wind_%5E_Solar_Farm_-_geograph.org.uk_-_4618332.jpg/960px-Wind_Turbines_%5E_Solar_Panels_at_Upper_Holton_Wind_%5E_Solar_Farm_-_geograph.org.uk_-_4618332.jpg",
+        "alt": "Atténuation climatique",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Énergie renouvelable - levier d'atténuation"
+        "type": "photo"
       }
     },
     {
@@ -1313,11 +1301,10 @@
         "Climate feedback"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Climate_feedback_loops.svg/800px-Climate_feedback_loops.svg.png",
-        "alt": "Schéma des boucles de rétroaction climatique",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Arctic_carbon_fluxes_influenced_by_sea_ice_decline_and_permafrost_thaw.webp/813px-Arctic_carbon_fluxes_influenced_by_sea_ice_decline_and_permafrost_thaw.webp.png",
+        "alt": "Boucle de rétroaction",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Mécanismes d'amplification du réchauffement"
+        "type": "photo"
       }
     },
     {
@@ -1397,11 +1384,406 @@
         "Seuil climatique critique"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Tipping_points_in_the_climate_system.svg/800px-Tipping_points_in_the_climate_system.svg.png",
-        "alt": "Points de basculement climatiques",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/UlvikfjordMountainsPanorama.jpg/960px-UlvikfjordMountainsPanorama.jpg",
+        "alt": "Point de basculement",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Éléments du système climatique à risque de basculement"
+        "type": "photo"
+      }
+    },
+    {
+      "id": "scope-1-2-3",
+      "terme": "Scopes 1, 2 et 3",
+      "categorie": "energie-climat",
+      "resume": "Classification des émissions de GES d'une organisation selon leur source : directes (scope 1), indirectes liées à l'énergie (scope 2), et autres indirectes (scope 3).",
+      "definition": "Les scopes 1, 2 et 3 constituent le cadre de comptabilisation des émissions de gaz à effet de serre défini par le GHG Protocol. Le scope 1 couvre les émissions directes (combustion sur site, véhicules de l'entreprise). Le scope 2 concerne les émissions indirectes liées à l'énergie achetée (électricité, vapeur, chaleur). Le scope 3, le plus important (souvent 80% du total), englobe toutes les autres émissions indirectes : chaîne d'approvisionnement amont, utilisation des produits, déplacements des employés, fin de vie des produits.",
+      "sources": [
+        {
+          "titre": "GHG Protocol Corporate Standard",
+          "auteur": "WRI/WBCSD",
+          "url": "https://ghgprotocol.org/",
+          "annee": 2015,
+          "type": "norme_iso",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "relations": [
+        {
+          "cible": "empreinte-carbone",
+          "type": "renvoie_a",
+          "score": 90
+        }
+      ],
+      "exemples": [
+        "Scope 1 : chaudière gaz",
+        "Scope 2 : électricité achetée",
+        "Scope 3 : transport fournisseurs"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/MIDTERM_REVIEW_AND_UPDATE_ON_THE_CORPORATE_AVERAGE_FUEL_ECONOMY_PROGRAM_AND_GREENHOUSE_GAS_EMISSIONS_STANDARDS_FOR_MOTOR_VEHICLES_%28IA_gov.gpo.fdsys.CHRG-114hhrg23411%29.pdf/page1-640px-thumbnail.pdf.jpg",
+        "alt": "Scopes 1, 2 et 3",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "trajectoire-2-degres",
+      "terme": "Trajectoire 2°C / 1.5°C",
+      "categorie": "energie-climat",
+      "resume": "Scénarios de réduction des émissions mondiales permettant de limiter le réchauffement climatique à 2°C ou 1.5°C par rapport à l'ère préindustrielle.",
+      "definition": "Les trajectoires 2°C et 1.5°C sont des scénarios d'émissions compatibles avec les objectifs de l'Accord de Paris. Une trajectoire 1.5°C nécessite d'atteindre la neutralité carbone mondiale vers 2050 et de réduire les émissions de 43% d'ici 2030. La trajectoire 2°C offre plus de marge (neutralité vers 2070) mais avec des impacts climatiques plus sévères. Ces trajectoires servent de référence pour évaluer les engagements nationaux (NDCs) et les stratégies d'entreprises (SBTi).",
+      "sources": [
+        {
+          "titre": "Special Report on Global Warming of 1.5°C",
+          "auteur": "IPCC",
+          "url": "https://www.ipcc.ch/sr15/",
+          "annee": 2018,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "relations": [
+        {
+          "cible": "accord-paris",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "renvoie_a",
+          "score": 90
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Paris_Agreement_%28English%29.pdf/page1-640px-Paris_Agreement_%28English%29.pdf.jpg",
+        "alt": "Trajectoire 2°C / 1.5°C",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "mix-energetique",
+      "terme": "Mix énergétique",
+      "categorie": "energie-climat",
+      "resume": "Répartition des différentes sources d'énergie primaire utilisées pour couvrir les besoins énergétiques d'un pays ou d'une région.",
+      "definition": "Le mix énergétique désigne la combinaison des sources d'énergie primaire utilisées pour satisfaire les besoins en énergie d'un territoire. Il comprend les énergies fossiles (pétrole, gaz, charbon), le nucléaire, et les renouvelables (hydraulique, éolien, solaire, biomasse). La transition énergétique vise à décarboner ce mix en remplaçant progressivement les fossiles par des sources bas-carbone. Le mix électrique, sous-ensemble, concerne spécifiquement la production d'électricité.",
+      "sources": [
+        {
+          "titre": "World Energy Outlook 2023",
+          "auteur": "AIE",
+          "url": "https://www.iea.org/reports/world-energy-outlook-2023",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "relations": [
+        {
+          "cible": "transition-energetique",
+          "type": "renvoie_a",
+          "score": 90
+        },
+        {
+          "cible": "energie-renouvelable",
+          "type": "renvoie_a",
+          "score": 85
+        }
+      ],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "Monde 2022 : fossiles 82%, nucléaire 4%, renouvelables 14%",
+          "source": "AIE",
+          "annee": 2023
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Wisconsin_electricity_generation_by_type.webp/960px-Wisconsin_electricity_generation_by_type.webp.png",
+        "alt": "Mix énergétique",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "decarbonation",
+      "terme": "Décarbonation",
+      "categorie": "energie-climat",
+      "resume": "Processus de réduction des émissions de CO2 d'une activité économique, d'un secteur ou d'une économie entière.",
+      "definition": "La décarbonation désigne l'ensemble des actions visant à réduire les émissions de dioxyde de carbone (et par extension de GES) d'un système économique. Elle passe par l'efficacité énergétique, l'électrification des usages, le remplacement des énergies fossiles par des renouvelables ou du nucléaire, et les changements de procédés industriels. La décarbonation profonde vise une réduction de 90-95% des émissions, le résidu étant compensé par des puits de carbone.",
+      "sources": [
+        {
+          "titre": "Net Zero by 2050",
+          "auteur": "AIE",
+          "url": "https://www.iea.org/reports/net-zero-by-2050",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "relations": [
+        {
+          "cible": "neutralite-carbone",
+          "type": "renvoie_a",
+          "score": 95
+        },
+        {
+          "cible": "transition-energetique",
+          "type": "renvoie_a",
+          "score": 90
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Car2Go_Charging_Station_Stuttgart_2013_01.jpg/960px-Car2Go_Charging_Station_Stuttgart_2013_01.jpg",
+        "alt": "Décarbonation",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "pouvoir-rechauffement-global",
+      "terme": "Pouvoir de réchauffement global (PRG)",
+      "categorie": "energie-climat",
+      "resume": "Indicateur permettant de comparer l'impact climatique des différents gaz à effet de serre sur un horizon temporel donné, exprimé en équivalent CO2.",
+      "definition": "Le pouvoir de réchauffement global (PRG) est un coefficient qui mesure la capacité d'un gaz à effet de serre à absorber la chaleur par rapport au CO2 sur une période donnée (généralement 100 ans). Le méthane (CH4) a un PRG100 de 28 (28 fois plus réchauffant que le CO2), le protoxyde d'azote (N2O) de 265, et certains gaz fluorés dépassent 10 000. Le PRG permet d'exprimer les émissions en équivalent CO2 (CO2eq) pour les agréger.",
+      "sources": [
+        {
+          "titre": "AR6 Climate Change 2021",
+          "auteur": "IPCC",
+          "url": "https://www.ipcc.ch/report/ar6/wg1/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "relations": [
+        {
+          "cible": "gaz-effet-serre",
+          "type": "renvoie_a",
+          "score": 95
+        }
+      ],
+      "exemples": [
+        "CH4 : PRG100 = 28",
+        "N2O : PRG100 = 265",
+        "SF6 : PRG100 = 23 500"
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Methane-emissions-from-oil-and-gas-production-and-methane-intensity-for-selected-producers-2023.png/960px-Methane-emissions-from-oil-and-gas-production-and-methane-intensity-for-selected-producers-2023.png",
+        "alt": "Pouvoir de réchauffement global (PRG)",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "strategie-nationale-bas-carbone",
+      "terme": "Stratégie nationale bas-carbone (SNBC)",
+      "categorie": "energie-climat",
+      "resume": "Feuille de route de la France pour atteindre la neutralité carbone en 2050, définissant des budgets carbone par secteur.",
+      "definition": "La Stratégie nationale bas-carbone (SNBC) est le document de planification climatique français, établi par la loi de transition énergétique (2015) et révisé régulièrement. Elle définit des trajectoires de réduction des émissions par secteur (transport, bâtiment, agriculture, industrie, énergie) et fixe des budgets carbone quinquennaux contraignants. La SNBC-2 (2020) vise la neutralité carbone en 2050 avec une réduction de 40% des émissions en 2030 par rapport à 1990.",
+      "sources": [
+        {
+          "titre": "Stratégie nationale bas-carbone",
+          "auteur": "Ministère de la Transition écologique",
+          "url": "https://www.ecologie.gouv.fr/strategie-nationale-bas-carbone-snbc",
+          "annee": 2020,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "relations": [
+        {
+          "cible": "neutralite-carbone",
+          "type": "renvoie_a",
+          "score": 90
+        },
+        {
+          "cible": "budget-carbone",
+          "type": "renvoie_a",
+          "score": 85
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Bilan_%C3%A9nerg%C3%A9tique_France_2020_french_energy_balance_From_SDES_open_data.png/960px-Bilan_%C3%A9nerg%C3%A9tique_France_2020_french_energy_balance_From_SDES_open_data.png",
+        "alt": "Stratégie nationale bas-carbone (SNBC)",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "budget-carbone",
+      "terme": "Budget carbone",
+      "categorie": "energie-climat",
+      "resume": "Quantité maximale de CO2 pouvant être émise pour rester sous un seuil de réchauffement donné, ou plafond d'émissions sur une période.",
+      "definition": "Le budget carbone désigne deux concepts liés : (1) au niveau mondial, la quantité cumulée de CO2 qu'il est encore possible d'émettre pour limiter le réchauffement à 1.5°C ou 2°C avec une probabilité donnée ; (2) au niveau national, les plafonds d'émissions fixés par période (quinquennale en France via la SNBC). Le budget carbone mondial pour 1.5°C était estimé à environ 500 GtCO2 en 2020, soit une dizaine d'années au rythme actuel d'émissions.",
+      "sources": [
+        {
+          "titre": "AR6 Synthesis Report",
+          "auteur": "IPCC",
+          "url": "https://www.ipcc.ch/report/ar6/syr/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "relations": [
+        {
+          "cible": "trajectoire-2-degres",
+          "type": "renvoie_a",
+          "score": 90
+        },
+        {
+          "cible": "neutralite-carbone",
+          "type": "renvoie_a",
+          "score": 85
+        }
+      ],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "Budget 1.5°C (50%) : ~250 GtCO2 restants (2023)",
+          "source": "GIEC AR6",
+          "annee": 2023
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Global_Carbon_Budget_Results_-_Fossil_CO2_emissions_charts.png/960px-Global_Carbon_Budget_Results_-_Fossil_CO2_emissions_charts.png",
+        "alt": "Budget carbone",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "compensation-carbone",
+      "terme": "Compensation carbone",
+      "categorie": "energie-climat",
+      "resume": "Mécanisme permettant de financer des projets réduisant les émissions ailleurs pour 'compenser' ses propres émissions.",
+      "definition": "La compensation carbone consiste à financer des projets de réduction ou de séquestration d'émissions (reforestation, énergies renouvelables, efficacité énergétique) pour 'neutraliser' des émissions produites ailleurs. Elle repose sur des crédits carbone certifiés (Gold Standard, Verra). Controversée, elle ne doit pas se substituer à la réduction à la source mais la compléter pour les émissions résiduelles. Les standards de qualité exigent additionnalité, permanence et absence de double-comptage.",
+      "sources": [
+        {
+          "titre": "Carbon Offset Guide",
+          "auteur": "Carbon Offset Research",
+          "url": "https://www.offsetguide.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "moyen"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "relations": [
+        {
+          "cible": "neutralite-carbone",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "credit-carbone",
+          "type": "renvoie_a",
+          "score": 90
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Costs_of_sequestering_carbon_through_tree_planting_and_forest_management_in_the_United_States_%28IA_CAT91946672%29.pdf/page1-640px-Costs_of_sequestering_carbon_through_tree_planting_and_forest_management_in_the_United_States_%28IA_CAT91946672%29.pdf.jpg",
+        "alt": "Compensation carbone",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "electrification",
+      "terme": "Électrification des usages",
+      "categorie": "energie-climat",
+      "resume": "Remplacement des énergies fossiles par l'électricité dans les transports, le chauffage et l'industrie pour décarboner l'économie.",
+      "definition": "L'électrification des usages consiste à remplacer les combustibles fossiles par l'électricité dans les secteurs où c'est techniquement possible : véhicules électriques (transport), pompes à chaleur (chauffage), fours électriques (industrie). Cette stratégie n'est climatiquement efficace que si l'électricité est elle-même décarbonée (renouvelables, nucléaire). Elle nécessite le renforcement des réseaux électriques et le développement du stockage.",
+      "sources": [
+        {
+          "titre": "Net Zero by 2050",
+          "auteur": "AIE",
+          "url": "https://www.iea.org/reports/net-zero-by-2050",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "relations": [
+        {
+          "cible": "decarbonation",
+          "type": "renvoie_a",
+          "score": 90
+        },
+        {
+          "cible": "vehicule-electrique",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "pompe-chaleur",
+          "type": "renvoie_a",
+          "score": 85
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Mumbai_Hop_On_-_Hop_Off_Bus_01.png/960px-Mumbai_Hop_On_-_Hop_Off_Bus_01.png",
+        "alt": "Électrification des usages",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "intensite-carbone",
+      "terme": "Intensité carbone",
+      "categorie": "energie-climat",
+      "resume": "Quantité de CO2 émise par unité produite (kWh, euro de PIB, tonne de produit), indicateur d'efficacité climatique.",
+      "definition": "L'intensité carbone mesure les émissions de CO2 rapportées à une unité de référence : gCO2/kWh pour l'électricité, kgCO2/€ pour l'économie, tCO2/tonne pour un matériau. Elle permet de comparer l'efficacité climatique de différentes technologies ou économies. L'électricité française a une intensité de ~50 gCO2/kWh (nucléaire) contre 400-600 pour le gaz et 800-1000 pour le charbon. La décarbonation vise à réduire cette intensité.",
+      "sources": [
+        {
+          "titre": "Electricity Map",
+          "auteur": "Electricity Maps",
+          "url": "https://app.electricitymaps.com/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "relations": [
+        {
+          "cible": "empreinte-carbone",
+          "type": "renvoie_a",
+          "score": 85
+        },
+        {
+          "cible": "mix-energetique",
+          "type": "renvoie_a",
+          "score": 80
+        }
+      ],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "France : ~50 gCO2/kWh, Allemagne : ~350 gCO2/kWh",
+          "source": "Electricity Maps",
+          "annee": 2023
+        }
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/HEALTH_IMPACTS_OF_PM-2.5_ASSOCIATED_WITH_POWER_PLANT_EMISSIONS_%28IA_gov.gpo.fdsys.CHRG-107shrg83723%29.pdf/page1-640px-HEALTH_IMPACTS_OF_PM-2.5_ASSOCIATED_WITH_POWER_PLANT_EMISSIONS_%28IA_gov.gpo.fdsys.CHRG-107shrg83723%29.pdf.jpg",
+        "alt": "Intensité carbone",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     }
   ]

@@ -77,11 +77,10 @@
         "Air quality"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Air_quality_index.svg/800px-Air_quality_index.svg.png",
-        "alt": "Indice de qualité de l'air",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/A_diversity_of_automatic_recorders_to_monitor_ecological_communities_non-invasively_and_remotely_-_Ele14123-fig-0002-m.jpg/960px-A_diversity_of_automatic_recorders_to_monitor_ecological_communities_non-invasively_and_remotely_-_Ele14123-fig-0002-m.jpg",
+        "alt": "Qualité de l'air",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Échelle de qualité de l'air"
+        "type": "photo"
       }
     },
     {
@@ -158,11 +157,10 @@
         "Plastic particles"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Microplastics.jpg/800px-Microplastics.jpg",
-        "alt": "Microplastiques sous microscope",
-        "credit": "NOAA - Wikimedia Commons",
-        "type": "photo",
-        "legende": "Fragments plastiques de moins de 5mm"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Mikroplastasarp.jpg",
+        "alt": "Microplastiques",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -240,11 +238,10 @@
         "Xénohormones"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Endocrine_disruptors.svg/800px-Endocrine_disruptors.svg.png",
-        "alt": "Action des perturbateurs endocriniens",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Chemical_contamination_of_drinking_water-es.png/960px-Chemical_contamination_of_drinking_water-es.png",
+        "alt": "Perturbateurs endocriniens",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Molécules interférant avec le système hormonal"
+        "type": "photo"
       }
     },
     {
@@ -322,11 +319,10 @@
         "Soil pollution"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Soil_contamination.jpg/800px-Soil_contamination.jpg",
-        "alt": "Sol contaminé",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Everett_Smelter_Contaminated_Soil_Cleanup_Map.png/890px-Everett_Smelter_Contaminated_Soil_Cleanup_Map.png",
+        "alt": "Pollution des sols",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Pollution industrielle des sols"
+        "type": "photo"
       }
     },
     {
@@ -404,11 +400,10 @@
         "Nuisances lumineuses"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Light_pollution_europe.jpg/800px-Light_pollution_europe.jpg",
-        "alt": "Pollution lumineuse vue du ciel",
-        "credit": "NASA - Wikimedia Commons",
-        "type": "photo",
-        "legende": "L'Europe la nuit - halos lumineux des villes"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/The_Night_sky_light_pollution_at_Lailai_geological_zone.jpg/960px-The_Night_sky_light_pollution_at_Lailai_geological_zone.jpg",
+        "alt": "Pollution lumineuse",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -486,11 +481,10 @@
         "Noise pollution"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Noise_pollution.jpg/800px-Noise_pollution.jpg",
-        "alt": "Source de pollution sonore urbaine",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Urban_Rail_Noise_Abatement_Program_-_a_description_%28IA_urbanrailnoiseab00kurz%29.pdf/page1-640px-Urban_Rail_Noise_Abatement_Program_-_a_description_%28IA_urbanrailnoiseab00kurz%29.pdf.jpg",
+        "alt": "Pollution sonore",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Le bruit, nuisance invisible mais omniprésente"
+        "type": "photo"
       }
     },
     {
@@ -566,11 +560,10 @@
         "Assainissement"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Phytoremediation.jpg/800px-Phytoremediation.jpg",
-        "alt": "Phytoremédiation",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Site_Marks_Recovery_Act_Milestone_with_Contaminated_Soil_Cleanup_%287407922142%29.jpg/960px-Site_Marks_Recovery_Act_Milestone_with_Contaminated_Soil_Cleanup_%287407922142%29.jpg",
+        "alt": "Dépollution",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Dépollution des sols par les plantes"
+        "type": "photo"
       }
     },
     {
@@ -652,11 +645,10 @@
         "Santé-environnement"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Environmental_health.svg/800px-Environmental_health.svg.png",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Conceptual-map-illustrating-the-connections-among-nonhuman-nature-ecosystem-services-environmental-ethics-environmental-ar.jpg/761px-Conceptual-map-illustrating-the-connections-among-nonhuman-nature-ecosystem-services-environmental-ethics-environmental-ar.jpg",
         "alt": "Santé environnementale",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Liens entre environnement et santé humaine"
+        "type": "photo"
       }
     }
   ]

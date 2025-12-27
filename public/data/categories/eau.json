@@ -89,11 +89,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Water_cycle.svg/800px-Water_cycle.svg.png",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Lead_Cycle_Updated.jpg/960px-Lead_Cycle_Updated.jpg",
         "alt": "Cycle de l'eau",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Le cycle hydrologique naturel"
+        "type": "photo"
       }
     },
     {
@@ -182,11 +181,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Water_stress.svg/800px-Water_stress.svg.png",
-        "alt": "Carte du stress hydrique mondial",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/WATER_SCARCITY_AND_VIOLENT_CONFLICT_IN_NIGERIA_%28IA_waterscarcityand1094562803%29.pdf/page1-640px-WATER_SCARCITY_AND_VIOLENT_CONFLICT_IN_NIGERIA_%28IA_waterscarcityand1094562803%29.pdf.jpg",
+        "alt": "Stress hydrique",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Régions sous stress hydrique"
+        "type": "photo"
       }
     },
     {
@@ -273,11 +271,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Greywater_recycling.jpg/800px-Greywater_recycling.jpg",
-        "alt": "Système de recyclage des eaux grises",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Greywater_Recycling_Heat_Recovery_System_2.jpg/765px-Greywater_Recycling_Heat_Recovery_System_2.jpg",
+        "alt": "Eaux grises",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Récupération des eaux de lavage pour l'irrigation"
+        "type": "photo"
       }
     },
     {
@@ -365,11 +362,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Water_footprint.svg/800px-Water_footprint.svg.png",
-        "alt": "Empreinte eau par produit",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/The_water_resources_of_Molokai%2C_Hawaiian_islands_%28IA_waterresourcesof00lind%29.pdf/page1-640px-The_water_resources_of_Molokai%2C_Hawaiian_islands_%28IA_waterresourcesof00lind%29.pdf.jpg",
+        "alt": "Empreinte eau",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Consommation d'eau cachée dans nos produits"
+        "type": "photo"
       }
     },
     {
@@ -466,11 +462,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Wetland.jpg/800px-Wetland.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/03455jfFields_Birds_Sanctuary_Wetland_Marsh_Paddy_Candaba_Pampangafvf_06.JPG/960px-03455jfFields_Birds_Sanctuary_Wetland_Marsh_Paddy_Candaba_Pampangafvf_06.JPG",
         "alt": "Zone humide",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Écosystème de zone humide"
+        "type": "photo"
       }
     },
     {
@@ -558,11 +553,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Eutrophication.jpg/800px-Eutrophication.jpg",
-        "alt": "Lac eutrophisé",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Eutrophied_lake_-_Maack_-_200908_02.jpg/960px-Eutrophied_lake_-_Maack_-_200908_02.jpg",
+        "alt": "Eutrophisation",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Prolifération d'algues due à l'eutrophisation"
+        "type": "photo"
       }
     },
     {
@@ -660,11 +654,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Wastewater_treatment_plant.jpg/800px-Wastewater_treatment_plant.jpg",
-        "alt": "Station d'épuration",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Bassins de traitement des eaux usées"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Newtown_Creek_Wastewater_Treatment_Plant_-_Looking_Up.jpg/960px-Newtown_Creek_Wastewater_Treatment_Plant_-_Looking_Up.jpg",
+        "alt": "Assainissement",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -748,11 +741,10 @@
         "groundwater reservoir"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Aquifer.svg/800px-Aquifer.svg.png",
-        "alt": "Coupe d'un aquifère",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flowing_artesian_well.jpg/960px-Flowing_artesian_well.jpg",
+        "alt": "Aquifère",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Structure géologique contenant l'eau souterraine"
+        "type": "photo"
       }
     },
     {
@@ -835,11 +827,10 @@
         "water table"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Water_table.svg/800px-Water_table.svg.png",
-        "alt": "Schéma de nappe phréatique",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Groundwater_%28aquifer%2C_aquitard%2C_3_type_wells%29.PNG/960px-Groundwater_%28aquifer%2C_aquitard%2C_3_type_wells%29.PNG",
+        "alt": "Nappe phréatique",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Réservoir d'eau souterraine peu profond"
+        "type": "photo"
       }
     },
     {
@@ -931,11 +922,10 @@
         "gestion par bassin"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Integrated_water_management.svg/800px-Integrated_water_management.svg.png",
-        "alt": "Gestion intégrée des ressources en eau",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Analysis_of_the_management_situation_-_John_Day_Basin_resource_management_plan_%28IA_analysisofmanage00unit_0%29.pdf/page1-640px-Analysis_of_the_management_situation_-_John_Day_Basin_resource_management_plan_%28IA_analysisofmanage00unit_0%29.pdf.jpg",
+        "alt": "Gestion intégrée de l'eau (GIRE)",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Approche holistique de la gestion de l'eau"
+        "type": "photo"
       }
     },
     {
@@ -1019,11 +1009,10 @@
         "embedded water"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Virtual_water.svg/800px-Virtual_water.svg.png",
-        "alt": "Concept d'eau virtuelle",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/The_History_of_Cotton_Famine%3B_from_the_Fall_of_Sumter_to_the_Passing_of_the_Public_Works_Act_%28IA_dli.granth.71643%29.pdf/page1-640px-The_History_of_Cotton_Famine%3B_from_the_Fall_of_Sumter_to_the_Passing_of_the_Public_Works_Act_%28IA_dli.granth.71643%29.pdf.jpg",
+        "alt": "Eau virtuelle",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Eau incorporée dans la production des biens"
+        "type": "photo"
       }
     }
   ]

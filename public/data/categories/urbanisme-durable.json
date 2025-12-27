@@ -85,11 +85,10 @@
         "Éco-ville"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Sustainable_city.jpg/800px-Sustainable_city.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/20080708_Chicago_City_Hall_Green_Roof.JPG/960px-20080708_Chicago_City_Hall_Green_Roof.JPG",
         "alt": "Ville durable",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Aménagement urbain durable"
+        "type": "photo"
       }
     },
     {
@@ -175,11 +174,10 @@
         "Soft mobility"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Bicycle_lane.jpg/800px-Bicycle_lane.jpg",
-        "alt": "Piste cyclable",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/HK_%E5%95%9F%E5%BE%B7_Kai_Tak_%E5%A4%A9%E9%9A%9B%E9%87%8C%E6%9D%B1_Tin_Chai_Lane_East_December_2020_SS2_01.jpg/960px-HK_%E5%95%9F%E5%BE%B7_Kai_Tak_%E5%A4%A9%E9%9A%9B%E9%87%8C%E6%9D%B1_Tin_Chai_Lane_East_December_2020_SS2_01.jpg",
+        "alt": "Mobilité douce",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Infrastructure de mobilité douce"
+        "type": "photo"
       }
     },
     {
@@ -257,11 +255,10 @@
         "Dôme de chaleur"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Urban_heat_island.svg/800px-Urban_heat_island.svg.png",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Urban_heat_island_variation.jpg/960px-Urban_heat_island_variation.jpg",
         "alt": "Îlot de chaleur urbain",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Différence de température ville-campagne"
+        "type": "photo"
       }
     },
     {
@@ -340,11 +337,10 @@
         "Étalement urbain"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Urban_sprawl.jpg/800px-Urban_sprawl.jpg",
-        "alt": "Étalement urbain",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Urban_Sprawl%2C_N6_-_geograph.org.uk_-_296886.jpg",
+        "alt": "Artificialisation des sols",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Consommation d'espaces naturels par l'urbanisation"
+        "type": "photo"
       }
     },
     {
@@ -430,11 +426,10 @@
         "Infrastructure verte"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Urban_park.jpg/800px-Urban_park.jpg",
-        "alt": "Parc urbain verdoyant",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Espaces verts améliorant la qualité de vie"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Urban_green_space_-_geograph.org.uk_-_3344678.jpg/960px-Urban_green_space_-_geograph.org.uk_-_3344678.jpg",
+        "alt": "Nature en ville",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -507,11 +502,10 @@
         "Sustainable neighborhood"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Vauban_Freiburg.jpg/800px-Vauban_Freiburg.jpg",
-        "alt": "Écoquartier Vauban à Freiburg",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Quartier durable exemplaire en Allemagne"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/EVA-_Lanxmeer_Green_roof_2009.jpg/960px-EVA-_Lanxmeer_Green_roof_2009.jpg",
+        "alt": "Écoquartier",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -592,11 +586,10 @@
         "LEZ"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Low_emission_zone.svg/800px-Low_emission_zone.svg.png",
-        "alt": "Panneau zone à faibles émissions",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/London_low_emission_zone_sign_%28detail%29.png",
+        "alt": "Zone à Faibles Émissions",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Restriction de circulation pour améliorer la qualité de l'air"
+        "type": "photo"
       }
     },
     {
@@ -681,11 +674,10 @@
         "Public transit"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Modern_tramway.jpg/800px-Modern_tramway.jpg",
-        "alt": "Tramway moderne",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Transport collectif électrique et efficace"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Melbourne_%28AU%29%2C_City_Circle_Tram_--_2019_--_1550.jpg/960px-Melbourne_%28AU%29%2C_City_Circle_Tram_--_2019_--_1550.jpg",
+        "alt": "Transport en commun",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     }
   ]

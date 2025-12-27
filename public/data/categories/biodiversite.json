@@ -84,11 +84,10 @@
         "diversité du vivant"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Biodiversity_wetland.jpg/800px-Biodiversity_wetland.jpg",
-        "alt": "Zone humide riche en biodiversité",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Écosystème de zone humide illustrant la richesse du vivant"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Inside_the_tropical_rainforest_%2811464713995%29.jpg/960px-Inside_the_tropical_rainforest_%2811464713995%29.jpg",
+        "alt": "Biodiversité",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       },
       "indicateursQuantitatifs": [
         {
@@ -186,11 +185,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Food_web.svg/800px-Food_web.svg.png",
-        "alt": "Réseau trophique d'un écosystème",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Marion_Mill_Pond%2C_ecosystem_restoration%2C_Marion%2C_Michigan_-_USACE-p16021coll7-25124.pdf/page1-640px-Marion_Mill_Pond%2C_ecosystem_restoration%2C_Marion%2C_Michigan_-_USACE-p16021coll7-25124.pdf.jpg",
+        "alt": "Écosystème",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Interactions trophiques au sein d'un écosystème"
+        "type": "photo"
       }
     },
     {
@@ -288,11 +286,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Ecosystem_services.svg/800px-Ecosystem_services.svg.png",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bee_pollinating_a_rose.jpg/960px-Bee_pollinating_a_rose.jpg",
         "alt": "Services écosystémiques",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Les quatre catégories de services écosystémiques"
+        "type": "photo"
       }
     },
     {
@@ -383,11 +380,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Biodiversity_loss.svg/800px-Biodiversity_loss.svg.png",
-        "alt": "Graphique perte de biodiversité",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/ENDANGERED_SPECIES.jpg/960px-ENDANGERED_SPECIES.jpg",
+        "alt": "Érosion de la biodiversité",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Déclin des populations animales sauvages"
+        "type": "photo"
       }
     },
     {
@@ -468,11 +464,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lemur_catta_Madagascar.jpg/800px-Lemur_catta_Madagascar.jpg",
-        "alt": "Lémurien catta, endémique de Madagascar",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Le lémurien catta, emblème de l'endémisme malgache"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Eulemur_rufifrons%2C_Isalo_National_Park_2007-03-01.jpg/960px-Eulemur_rufifrons%2C_Isalo_National_Park_2007-03-01.jpg",
+        "alt": "Espèce endémique",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -563,11 +558,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cane_toad.jpg/800px-Cane_toad.jpg",
-        "alt": "Crapaud buffle, espèce invasive",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Rhinella_marina_Cane_toad_in_bromeliad_tank_74_Sunbury_St_Geebung_P1110464.jpg/960px-Rhinella_marina_Cane_toad_in_bromeliad_tank_74_Sunbury_St_Geebung_P1110464.jpg",
+        "alt": "Espèce exotique envahissante",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Crapaud buffle - envahisseur d'Australie"
+        "type": "photo"
       }
     },
     {
@@ -651,11 +645,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Bumblebee_pollinating.jpg/800px-Bumblebee_pollinating.jpg",
-        "alt": "Bourdon pollinisant une fleur",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "La pollinisation, service écosystémique vital"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bee_pollinating_a_rose.jpg/960px-Bee_pollinating_a_rose.jpg",
+        "alt": "Pollinisation",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -746,11 +739,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Protected_area.jpg/800px-Protected_area.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Wilderness_National_Park.jpg/960px-Wilderness_National_Park.jpg",
         "alt": "Aire protégée",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Parc national - zone de protection de la biodiversité"
+        "type": "photo"
       }
     },
     {
@@ -828,11 +820,10 @@
         "trame verte et bleue"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Wildlife_overpass.jpg/800px-Wildlife_overpass.jpg",
-        "alt": "Écoduc au-dessus d'une autoroute",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Green_infrastructure_2010_UE_Illustr.jpg/902px-Green_infrastructure_2010_UE_Illustr.jpg",
+        "alt": "Corridor écologique",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Passage à faune reconnectant les habitats"
+        "type": "photo"
       }
     },
     {
@@ -904,11 +895,10 @@
         "Green and blue infrastructure"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Green_blue_infrastructure.svg/800px-Green_blue_infrastructure.svg.png",
-        "alt": "Schéma de la trame verte et bleue",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Biodiversidad_en_un_Canal_de_conducci%C3%B3n_de_agua.jpg/960px-Biodiversidad_en_un_Canal_de_conducci%C3%B3n_de_agua.jpg",
+        "alt": "Trame verte et bleue",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Réseau écologique connectant les milieux naturels"
+        "type": "photo"
       }
     },
     {
@@ -982,11 +972,10 @@
         "Renaturalisation passive"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/European_bison_Bialowieza.jpg/800px-European_bison_Bialowieza.jpg",
-        "alt": "Bison d'Europe à Bialowieza",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Réintroduction du bison - symbole du rewilding"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Zimbri_%C3%AEn_s%C4%83lb%C4%83ticie.jpg/960px-Zimbri_%C3%AEn_s%C4%83lb%C4%83ticie.jpg",
+        "alt": "Rewilding",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -1045,11 +1034,10 @@
         "Espèce substitut"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Amur_leopard.jpg/800px-Amur_leopard.jpg",
-        "alt": "Léopard de l'Amour",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Espèce parapluie dont la protection bénéficie à tout l'écosystème"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Resident_fish_habitat_management_strategy_for_Wyoming_%28IA_residentfishhabi00gorg%29.pdf/page1-640px-Resident_fish_habitat_management_strategy_for_Wyoming_%28IA_residentfishhabi00gorg%29.pdf.jpg",
+        "alt": "Espèce parapluie",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -1133,11 +1121,10 @@
         "Zone d'endémisme prioritaire"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Biodiversity_hotspots_map.svg/800px-Biodiversity_hotspots_map.svg.png",
-        "alt": "Carte des hotspots de biodiversité",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Pronounced_loss_of_Amazon_rainforest_resilience_since_the_early_2000s.pdf/page1-640px-Pronounced_loss_of_Amazon_rainforest_resilience_since_the_early_2000s.pdf.jpg",
+        "alt": "Hotspot de biodiversité",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Les 36 points chauds de la biodiversité mondiale"
+        "type": "photo"
       }
     },
     {
@@ -1233,11 +1220,10 @@
         "Defaunation"
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Extinction_rate.svg/800px-Extinction_rate.svg.png",
-        "alt": "Graphique du taux d'extinction des espèces",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Dronte_dodo_Raphus_cucullatus.jpg/960px-Dronte_dodo_Raphus_cucullatus.jpg",
+        "alt": "Sixième extinction",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Taux d'extinction 100 à 1000 fois supérieur au rythme naturel"
+        "type": "photo"
       }
     }
   ]

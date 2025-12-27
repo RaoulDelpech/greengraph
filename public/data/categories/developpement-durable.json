@@ -146,11 +146,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Sustainable_development.svg/800px-Sustainable_development.svg.png",
-        "alt": "Piliers du développement durable",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Sustainable_Development_Goal_4-ar.png/960px-Sustainable_Development_Goal_4-ar.png",
+        "alt": "Développement durable",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Les trois piliers : économique, social, environnemental"
+        "type": "photo"
       }
     },
     {
@@ -249,11 +248,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/CSR_diagram.svg/800px-CSR_diagram.svg.png",
-        "alt": "Schéma RSE",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/18/Corporate_social_responsibility_framework.jpg",
+        "alt": "Responsabilité sociétale des entreprises (RSE)",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Responsabilité Sociétale des Entreprises"
+        "type": "photo"
       }
     },
     {
@@ -349,11 +347,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Greenwashing.svg/400px-Greenwashing.svg.png",
-        "alt": "Illustration greenwashing",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/OJ_L_202400825_of_2024_-_EN_English.pdf/page1-640px-OJ_L_202400825_of_2024_-_EN_English.pdf.jpg",
+        "alt": "Greenwashing (écoblanchiment)",
         "credit": "Wikimedia Commons",
-        "type": "illustration",
-        "legende": "Écoblanchiment - communication trompeuse"
+        "type": "photo"
       }
     },
     {
@@ -447,11 +444,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ecological_footprint.svg/800px-Ecological_footprint.svg.png",
-        "alt": "Schéma empreinte écologique",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/How_many_earths_2018_English.jpg/960px-How_many_earths_2018_English.jpg",
+        "alt": "Empreinte écologique",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Mesure de la pression humaine sur les écosystèmes"
+        "type": "photo"
       }
     },
     {
@@ -551,11 +547,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Planetary_boundaries.svg/800px-Planetary_boundaries.svg.png",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Planetary_Boundaries_-_Planetary_Health_Check_2025.png/805px-Planetary_Boundaries_-_Planetary_Health_Check_2025.png",
         "alt": "Limites planétaires",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Les 9 limites planétaires (Rockström et al.)"
+        "type": "photo"
       }
     },
     {
@@ -652,11 +647,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Ecological_transition.jpg/800px-Ecological_transition.jpg",
-        "alt": "Ville en transition écologique",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Transformation vers un modèle durable"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Green_sustainable_city_with_lots_of_public_transport_and_green_spaces.jpg/960px-Green_sustainable_city_with_lots_of_public_transport_and_green_spaces.jpg",
+        "alt": "Transition écologique",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -754,11 +748,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Agroecology_farm.jpg/800px-Agroecology_farm.jpg",
-        "alt": "Ferme agroécologique diversifiée",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Agriculture intégrant les principes écologiques"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/OJ_C_184_of_2022_-_EN_English.pdf/page1-640px-OJ_C_184_of_2022_-_EN_English.pdf.jpg",
+        "alt": "Agroécologie",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -855,11 +848,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Social_enterprise.jpg/800px-Social_enterprise.jpg",
-        "alt": "Entreprise sociale",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Talavera%2CNuevaEcijajf9520_14.JPG/960px-Talavera%2CNuevaEcijajf9520_14.JPG",
+        "alt": "Économie sociale et solidaire (ESS)",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Économie au service de l'humain et de l'environnement"
+        "type": "photo"
       }
     },
     {
@@ -958,11 +950,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Minimalist_lifestyle.jpg/800px-Minimalist_lifestyle.jpg",
-        "alt": "Mode de vie sobre",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Réduire volontairement sa consommation"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Simple_Life.jpg/960px-Simple_Life.jpg",
+        "alt": "Sobriété",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -1060,11 +1051,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Natural_capital.svg/800px-Natural_capital.svg.png",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Pristine_Cliffs_%28198176875%29.jpeg/960px-Pristine_Cliffs_%28198176875%29.jpeg",
         "alt": "Capital naturel",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Stocks de ressources fournies par la nature"
+        "type": "photo"
       }
     }
   ]

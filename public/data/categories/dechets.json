@@ -96,11 +96,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Landfill_site.jpg/800px-Landfill_site.jpg",
-        "alt": "Centre d'enfouissement de déchets",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Garbage_dump_site_in_Ikot_Oduot%2C_Ibesikpo.jpg/960px-Garbage_dump_site_in_Ikot_Oduot%2C_Ibesikpo.jpg",
+        "alt": "Déchet",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Décharge - fin de vie des déchets non valorisés"
+        "type": "photo"
       }
     },
     {
@@ -197,11 +196,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Waste_hierarchy.svg/800px-Waste_hierarchy.svg.png",
-        "alt": "Pyramide de la hiérarchie des déchets",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Reverse_waste_pyramid_%28Norwegian%29.png/960px-Reverse_waste_pyramid_%28Norwegian%29.png",
+        "alt": "Hiérarchie des déchets",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Prévention > Réemploi > Recyclage > Valorisation > Élimination"
+        "type": "photo"
       }
     },
     {
@@ -298,11 +296,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Recycling_plant.jpg/800px-Recycling_plant.jpg",
-        "alt": "Centre de tri des déchets",
-        "credit": "Wikimedia Commons - CC BY-SA",
-        "type": "photo",
-        "legende": "Tri mécanisé pour le recyclage"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Derelict_Recycling_Plant%2C_Burley%2C_Leeds_-_geograph.org.uk_-_98125.jpg",
+        "alt": "Recyclage",
+        "credit": "Wikimedia Commons",
+        "type": "photo"
       }
     },
     {
@@ -389,11 +386,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Compost_bin.jpg/800px-Compost_bin.jpg",
-        "alt": "Bac à compost",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Compost_bins_at_the_Evergreen_State_College_Organic_Farm_during_mid_June_of_2019.jpg/960px-Compost_bins_at_the_Evergreen_State_College_Organic_Farm_during_mid_June_of_2019.jpg",
+        "alt": "Compostage",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Compostage des déchets organiques"
+        "type": "photo"
       }
     },
     {
@@ -483,11 +479,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Biogas_plant.jpg/800px-Biogas_plant.jpg",
-        "alt": "Unité de méthanisation",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Biogas_Photovoltaik_Wind.jpg/960px-Biogas_Photovoltaik_Wind.jpg",
+        "alt": "Méthanisation",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Production de biogaz par méthanisation"
+        "type": "photo"
       }
     },
     {
@@ -574,11 +569,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Food_waste_compost.jpg/800px-Food_waste_compost.jpg",
-        "alt": "Biodéchets pour compostage",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/%27Food_waste_to_compost%27_-_geograph.org.uk_-_8144652.jpg/960px-%27Food_waste_to_compost%27_-_geograph.org.uk_-_8144652.jpg",
+        "alt": "Biodéchets",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Déchets organiques valorisables en compost"
+        "type": "photo"
       }
     },
     {
@@ -669,11 +663,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Recycling_bins.jpg/800px-Recycling_bins.jpg",
-        "alt": "Poubelles de tri sélectif",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Singapore_Recycling-bins-01.jpg/960px-Singapore_Recycling-bins-01.jpg",
+        "alt": "Tri sélectif",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Conteneurs de tri sélectif"
+        "type": "photo"
       }
     },
     {
@@ -770,11 +763,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EPR_logo.svg/400px-EPR_logo.svg.png",
-        "alt": "Responsabilité élargie du producteur",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/The_Producer_Responsibility_Obligations_%28Packaging_Waste%29_Regulations_1997_%28UKSI_1997-648%29.pdf/page1-640px-The_Producer_Responsibility_Obligations_%28Packaging_Waste%29_Regulations_1997_%28UKSI_1997-648%29.pdf.jpg",
+        "alt": "Responsabilité élargie du producteur (REP)",
         "credit": "Wikimedia Commons",
-        "type": "schema",
-        "legende": "Le producteur responsable de la fin de vie du produit"
+        "type": "photo"
       }
     },
     {
@@ -868,11 +860,10 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Hazardous_waste.jpg/800px-Hazardous_waste.jpg",
-        "alt": "Stockage de déchets dangereux",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/USAG_Rheinland-Pfalz_opens_new_hazardous_waste_storage_facility_%288796158%29.jpg/960px-USAG_Rheinland-Pfalz_opens_new_hazardous_waste_storage_facility_%288796158%29.jpg",
+        "alt": "Déchet dangereux",
         "credit": "Wikimedia Commons",
-        "type": "photo",
-        "legende": "Déchets nécessitant un traitement spécifique"
+        "type": "photo"
       }
     }
   ]
