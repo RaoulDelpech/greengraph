@@ -1,0 +1,427 @@
+{
+  "id": "urbanisme-durable",
+  "nom": "Urbanisme durable",
+  "description": "Ville durable, mobilité, aménagement du territoire et qualité de vie urbaine",
+  "couleur": "#06b6d4",
+  "definitions": [
+    {
+      "id": "ville-durable",
+      "terme": "Ville durable",
+      "categorie": "urbanisme-durable",
+      "resume": "Concept urbain intégrant les dimensions environnementale, sociale et économique pour créer des espaces de vie résilients et équitables.",
+      "definition": "La ville durable est un modèle d'urbanisme visant à concilier développement urbain et respect de l'environnement, tout en garantissant la qualité de vie des habitants et l'équité sociale. Elle intègre la réduction de l'empreinte écologique, la mixité fonctionnelle et sociale, les mobilités douces, la nature en ville, et la participation citoyenne. Ce concept, formalisé après le Sommet de Rio (1992), guide les politiques urbaines contemporaines face aux défis climatiques et démographiques.",
+      "definitionEtendue": {
+        "introduction": "Le concept de ville durable émerge dans les années 1990 avec les Agendas 21 locaux issus du Sommet de Rio. La Charte d'Aalborg (1994) engage les villes européennes. En France, les écoquartiers (label depuis 2012) et les PLU-i traduisent ces principes. L'ODD 11 des Nations Unies vise des villes 'inclusives, sûres, résilientes et durables'.",
+        "mecanismes": "La ville durable repose sur plusieurs piliers : densité maîtrisée (limiter l'étalement urbain), mixité fonctionnelle (logements, commerces, emplois), mobilités alternatives (transports en commun, vélo, marche), performance énergétique des bâtiments, gestion durable de l'eau et des déchets, présence de nature (trames vertes et bleues), et gouvernance participative.",
+        "contexteScientifique": "La recherche urbaine analyse les métabolismes urbains (flux de matière et d'énergie), les inégalités environnementales, et les trajectoires de transition. Les indicateurs de durabilité urbaine (European Green City Index, Global Cities Index) permettent les comparaisons. Le débat porte sur la tension entre densification et qualité de vie, et sur l'échelle pertinente d'action.",
+        "enjeuxActuels": "Les enjeux incluent l'adaptation au changement climatique (îlots de chaleur, inondations), la rénovation du parc existant vs construction neuve, la gentrification verte, et l'articulation entre échelons territoriaux (quartier, ville, métropole). La 'ville du quart d'heure' (Carlos Moreno) propose une nouvelle vision post-COVID.",
+        "perspectives": "Les jumeaux numériques urbains, l'intelligence artificielle pour la gestion des flux, les 'super-îlots' (Barcelone), et les nouveaux modèles de gouvernance (budgets participatifs, urbanisme tactique) dessinent la ville de demain. La question de la sobriété foncière (Zéro Artificialisation Nette) devient centrale."
+      },
+      "sources": [
+        {
+          "titre": "Charte d'Aalborg - Charte des villes européennes pour la durabilité",
+          "institution": "ICLEI",
+          "url": "https://www.iclei.org/",
+          "annee": 1994,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The New Urban Agenda",
+          "institution": "ONU-Habitat",
+          "url": "https://habitat3.org/the-new-urban-agenda/",
+          "annee": 2016,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["ODD 11", "métabolisme urbain", "Agenda 21", "écoquartier", "résilience urbaine"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "68% de la population mondiale en ville d'ici 2050",
+          "source": "ONU-Habitat",
+          "annee": 2018
+        },
+        {
+          "valeur": "Villes = 70% des émissions mondiales de CO2",
+          "source": "C40 Cities",
+          "annee": 2018
+        }
+      ],
+      "relations": [
+        {"cible": "mobilite-douce", "type": "renvoie_a", "score": 85},
+        {"cible": "ilot-chaleur-urbain", "type": "renvoie_a", "score": 80},
+        {"cible": "transition-ecologique", "type": "est_type_de", "score": 75}
+      ],
+      "exemples": ["Freiburg (Allemagne)", "Copenhague", "Curitiba (Brésil)", "Grenoble"],
+      "synonymes": ["Ville verte", "Sustainable city", "Éco-ville"]
+    },
+    {
+      "id": "mobilite-douce",
+      "terme": "Mobilité douce",
+      "categorie": "urbanisme-durable",
+      "resume": "Modes de déplacement non motorisés ou faiblement émetteurs, privilégiant la marche, le vélo et les micro-mobilités.",
+      "definition": "La mobilité douce, ou mobilité active, désigne les modes de déplacement utilisant l'énergie humaine (marche, vélo, trottinette) ou des véhicules légers à faibles émissions. Elle s'oppose aux modes motorisés individuels (voiture) et vise à réduire l'empreinte carbone des transports, améliorer la qualité de l'air et la santé publique, et reconquérir l'espace public. Son développement nécessite des infrastructures adaptées (pistes cyclables, zones piétonnes).",
+      "definitionEtendue": {
+        "introduction": "Le concept de mobilité douce émerge dans les années 1970-80 avec les premières politiques vélo aux Pays-Bas et au Danemark. En France, la loi LAURE (1996) puis la LOM (2019) structurent les politiques cyclables. Le Plan Vélo national (2018) vise 9% de part modale en 2024. La crise COVID-19 a accéléré le développement des infrastructures.",
+        "mecanismes": "Le report modal vers les mobilités douces nécessite : des infrastructures sécurisées (pistes cyclables séparées, zones 30), du stationnement (arceaux, parkings vélos sécurisés), de l'intermodalité (vélo + train), et un changement culturel. Les systèmes de vélos en libre-service, les aides à l'achat de VAE et le forfait mobilités durables sont des leviers incitatifs.",
+        "contexteScientifique": "La recherche documente les bénéfices sanitaires (activité physique, qualité de l'air), économiques (coût par km, emplois), et environnementaux. Les études de trafic modélisent les potentiels de report modal. Le concept de 'stress lié au cyclisme' (LTS) évalue la qualité des infrastructures. Les débats portent sur la cohabitation des flux et l'équité sociale.",
+        "enjeuxActuels": "Le développement des mobilités douces fait face à la résistance au changement, au manque d'espace (réallocation de voiries), aux conflits d'usage (piétons vs vélos vs trottinettes), et aux enjeux de sécurité. L'accessibilité pour tous (PMR, enfants, seniors) et le vol de vélos restent des freins.",
+        "perspectives": "Les 'autoroutes vélo' (REV), les rues scolaires, les super-îlots et le 'vélo cargo' transforment la mobilité urbaine. Les innovations (vélo à assistance électrique, nouvelles formes) et les politiques restrictives sur la voiture (ZFE, péages urbains) accélèrent la transition. L'objectif est de faire du vélo le mode majoritaire pour les trajets courts (<5 km)."
+      },
+      "sources": [
+        {
+          "titre": "Loi d'orientation des mobilités (LOM)",
+          "institution": "République Française",
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039666574",
+          "annee": 2019,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Global Bicycle Cities Index",
+          "institution": "Copenhagenize Design Co.",
+          "url": "https://copenhagenizeindex.eu/",
+          "annee": 2019,
+          "type": "rapport_institution",
+          "niveauPreuve": "moyen"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["part modale", "report modal", "intermodalité", "VAE", "zone 30"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "Part modale vélo : 3% en France, 27% aux Pays-Bas",
+          "source": "Eurostat",
+          "annee": 2022
+        },
+        {
+          "valeur": "Objectif Plan Vélo France : 9% de part modale en 2024",
+          "source": "Plan Vélo national",
+          "annee": 2018
+        }
+      ],
+      "relations": [
+        {"cible": "ville-durable", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "empreinte-carbone", "type": "contribue_a", "score": 80, "direction": "positif"},
+        {"cible": "qualite-air", "type": "contribue_a", "score": 75, "direction": "positif"}
+      ],
+      "exemples": ["Vélib' (Paris)", "Pistes cyclables Corona (Berlin)", "Plan vélo Strasbourg"],
+      "synonymes": ["Mobilité active", "Modes actifs", "Soft mobility"]
+    },
+    {
+      "id": "ilot-chaleur-urbain",
+      "terme": "Îlot de chaleur urbain",
+      "categorie": "urbanisme-durable",
+      "resume": "Phénomène climatique local caractérisé par des températures plus élevées en ville qu'en périphérie rurale, aggravé par le changement climatique.",
+      "definition": "L'îlot de chaleur urbain (ICU) est un microclimat caractérisé par des températures plus élevées dans les zones urbaines que dans les zones rurales environnantes. Cet écart peut atteindre 5 à 10°C la nuit. Il résulte de l'absorption de chaleur par les surfaces minérales (béton, asphalte), du manque de végétation, de la chaleur anthropique (climatisation, trafic), et de la morphologie urbaine limitant la ventilation. L'ICU aggrave les risques sanitaires lors des canicules.",
+      "definitionEtendue": {
+        "introduction": "Le phénomène d'ICU est décrit dès le XIXe siècle par Luke Howard (Londres, 1820). La recherche moderne se développe dans les années 1970-80 avec les travaux de Tim Oke. En France, la canicule de 2003 (15 000 morts) a mis en lumière les risques sanitaires. Les Plans Climat et les PLU intègrent désormais la lutte contre les ICU.",
+        "mecanismes": "L'ICU résulte de plusieurs facteurs : albédo faible des surfaces sombres (asphalte absorbe 80% du rayonnement), capacité thermique élevée des matériaux, imperméabilisation réduisant l'évapotranspiration, chaleur anthropique (climatisation, moteurs), et effet canyon (immeubles réfléchissant la chaleur). La nuit, les matériaux restituent la chaleur accumulée, empêchant le rafraîchissement.",
+        "contexteScientifique": "La recherche utilise la télédétection (images satellites thermiques), les modèles climatiques urbains, et les mesures in situ. Les indicateurs incluent l'intensité de l'ICU (différence ville-campagne) et le nombre de nuits tropicales (T>20°C). Les études épidémiologiques documentent la surmortalité liée aux canicules en ville, particulièrement pour les populations vulnérables.",
+        "enjeuxActuels": "Avec le changement climatique, les canicules deviennent plus fréquentes et intenses. L'adaptation urbaine est urgente : végétalisation, désimperméabilisation, matériaux réfléchissants, fontaines et brumisation. Les inégalités spatiales (quartiers populaires moins végétalisés) et la tension avec la densification sont des enjeux majeurs.",
+        "perspectives": "Les cool roofs (toitures réfléchissantes), les forêts urbaines, les cours d'eau réouverts, et la conception bioclimatique (orientation, ventilation naturelle) sont des solutions. Les jumeaux numériques permettent de simuler les effets des aménagements. L'objectif est de limiter le réchauffement urbain additionnel à 1-2°C malgré le changement climatique global."
+      },
+      "sources": [
+        {
+          "titre": "Boundary Layer Climates",
+          "auteur": "Oke, T.R.",
+          "annee": 1987,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Adapter les villes aux canicules et à la chaleur urbaine",
+          "institution": "ADEME",
+          "url": "https://librairie.ademe.fr/changement-climatique-et-energie/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["microclimat", "albédo", "évapotranspiration", "canyon urbain", "canicule"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "Écart de température ville-campagne : 2 à 10°C",
+          "source": "Météo-France",
+          "annee": 2020
+        },
+        {
+          "valeur": "Canicule 2003 : 15 000 morts en France",
+          "source": "INSERM",
+          "annee": 2003
+        }
+      ],
+      "relations": [
+        {"cible": "changement-climatique", "type": "renvoie_a", "score": 85},
+        {"cible": "nature-en-ville", "type": "contribue_a", "score": 80, "direction": "positif"}
+      ],
+      "exemples": ["Paris (+3-4°C vs grande couronne)", "Phoenix", "Tokyo"],
+      "synonymes": ["ICU", "Urban heat island", "Dôme de chaleur"]
+    },
+    {
+      "id": "artificialisation-sols",
+      "terme": "Artificialisation des sols",
+      "categorie": "urbanisme-durable",
+      "resume": "Transformation de sols naturels, agricoles ou forestiers en surfaces artificialisées (bâti, routes, parkings), entraînant une perte de biodiversité et de services écosystémiques.",
+      "definition": "L'artificialisation des sols désigne le processus de transformation de sols naturels, agricoles ou forestiers en surfaces artificielles : zones bâties, infrastructures de transport, espaces verts urbains. Elle entraîne une perte irréversible de fonctions écologiques : production alimentaire, infiltration de l'eau, stockage de carbone, habitat pour la biodiversité. En France, elle consomme environ 20 000 à 30 000 ha/an, principalement pour l'habitat individuel.",
+      "definitionEtendue": {
+        "introduction": "La prise de conscience de l'artificialisation date des années 2000 avec les travaux de l'IFEN puis du CEREMA. La loi Climat et Résilience (2021) fixe l'objectif 'Zéro Artificialisation Nette' (ZAN) à l'horizon 2050, avec une division par deux du rythme d'ici 2031. Les SRADDET, SCoT et PLU doivent décliner ces objectifs.",
+        "mecanismes": "L'artificialisation résulte de l'étalement urbain (logements, zones commerciales), des infrastructures de transport, et des zones d'activité. Elle est mesurée par les fichiers fonciers (Cerema) et l'occupation du sol (OSO, Corine Land Cover). On distingue l'imperméabilisation (surfaces étanches) de l'artificialisation au sens large (incluant jardins).",
+        "contexteScientifique": "La recherche documente les impacts : perte de 5-10% des terres agricoles depuis 1980, fragmentation écologique, aggravation du ruissellement et des inondations. Le débat porte sur les indicateurs (surfaces vs fonctions), la mesure de la 'renaturation' compensatoire, et les effets des politiques de densification (report en périphérie).",
+        "enjeuxActuels": "Le ZAN bouscule les modèles économiques des collectivités (vente de terrains) et des promoteurs. Les tensions portent sur la répartition des droits à construire, la densification acceptée, et la définition de la compensation. Le renouvellement urbain et la réhabilitation des friches deviennent prioritaires.",
+        "perspectives": "La sobriété foncière implique de densifier l'existant, recycler les friches, et limiter les grandes surfaces commerciales et logistiques. Les observatoires du foncier, la fiscalité (taxation des plus-values foncières), et les outils d'aide à la décision (cartographie des potentiels) accompagnent la transition. Le défi est de concilier logement accessible et préservation des sols."
+      },
+      "sources": [
+        {
+          "titre": "Loi Climat et Résilience - Zéro Artificialisation Nette",
+          "institution": "République Française",
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924",
+          "annee": 2021,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "L'artificialisation des sols en France",
+          "institution": "CEREMA",
+          "url": "https://www.cerema.fr/fr/actualites/artificialisation-sols",
+          "annee": 2022,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["ZAN", "étalement urbain", "imperméabilisation", "sobriété foncière", "renaturation"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "20 000-30 000 ha artificialisés par an en France",
+          "source": "CEREMA",
+          "annee": 2020
+        },
+        {
+          "valeur": "Objectif : ZAN en 2050, -50% d'ici 2031",
+          "source": "Loi Climat et Résilience",
+          "annee": 2021
+        }
+      ],
+      "relations": [
+        {"cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "negatif"},
+        {"cible": "ville-durable", "type": "oppose_a", "score": 70}
+      ],
+      "exemples": ["Zones pavillonnaires", "Centres commerciaux périphériques", "Entrepôts logistiques"],
+      "synonymes": ["Consommation d'espace", "Land take", "Étalement urbain"]
+    },
+    {
+      "id": "nature-en-ville",
+      "terme": "Nature en ville",
+      "categorie": "urbanisme-durable",
+      "resume": "Ensemble des espaces végétalisés et de la biodiversité présents en milieu urbain, fournissant des services écosystémiques essentiels aux citadins.",
+      "definition": "La nature en ville désigne l'ensemble des éléments naturels présents dans l'espace urbain : parcs, jardins, arbres d'alignement, friches, toitures et murs végétalisés, cours d'eau et zones humides. Elle inclut la biodiversité associée (faune, flore, champignons). Au-delà de l'agrément, elle fournit des services écosystémiques : régulation thermique, purification de l'air, gestion des eaux pluviales, bien-être psychologique et cohésion sociale.",
+      "definitionEtendue": {
+        "introduction": "La conception de la nature en ville évolue depuis le XIXe siècle : d'abord hygiéniste (parcs comme poumons verts), puis récréative, enfin écologique. Le concept de 'trames vertes et bleues' (Grenelle de l'environnement, 2007) intègre la dimension de continuité écologique. Les plans locaux de biodiversité se multiplient depuis les années 2010.",
+        "mecanismes": "La nature en ville agit par plusieurs mécanismes : évapotranspiration (rafraîchissement), filtration des polluants atmosphériques et des eaux, habitat pour la biodiversité, atténuation du bruit. Son efficacité dépend de la quantité (% d'espaces verts), de la qualité (diversité, strates végétales), et de la connectivité (corridors écologiques).",
+        "contexteScientifique": "La recherche documente les bénéfices sanitaires (réduction du stress, activité physique), environnementaux (services écosystémiques évalués économiquement) et sociaux (lien social, appropriation). Le concept de 'biophilie' (E.O. Wilson) et les études sur les inégalités d'accès à la nature enrichissent le champ. Les référentiels (3-30-300 de Cecil Konijnendijk) proposent des objectifs.",
+        "enjeuxActuels": "Les enjeux incluent la gestion différenciée (réduction des pesticides, fauchage tardif), la végétalisation du bâti existant (contraintes techniques), l'acceptation de la nature 'spontanée', et l'équité spatiale (quartiers populaires souvent moins dotés). L'entretien et la pérennité des plantations en contexte de sécheresse sont des défis croissants.",
+        "perspectives": "Les forêts urbaines (miyawaki), l'agriculture urbaine, les corridors écologiques et la trame noire (protection de l'obscurité) enrichissent les approches. La mesure par indicateurs (BiodiverCity, CBS), les obligations réglementaires (coefficient de biotope) et la participation citoyenne (jardins partagés) structurent le développement de la nature en ville."
+      },
+      "sources": [
+        {
+          "titre": "Urban Green Spaces and Health - A Review of Evidence",
+          "institution": "WHO Europe",
+          "url": "https://www.who.int/europe/publications/i/item/urban-green-spaces-and-health",
+          "annee": 2016,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "La règle des 3-30-300 pour la nature en ville",
+          "auteur": "Konijnendijk, C.C.",
+          "annee": 2021,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "moyen"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["services écosystémiques", "trame verte", "biodiversité urbaine", "biophilie", "coefficient de biotope"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "Règle 3-30-300 : 3 arbres visibles, 30% canopée, 300m d'un parc",
+          "source": "Konijnendijk",
+          "annee": 2021
+        },
+        {
+          "valeur": "1°C de rafraîchissement par 10% de couvert arboré supplémentaire",
+          "source": "Étude Lancet",
+          "annee": 2023
+        }
+      ],
+      "relations": [
+        {"cible": "biodiversite", "type": "contribue_a", "score": 80, "direction": "positif"},
+        {"cible": "ilot-chaleur-urbain", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "ville-durable", "type": "contribue_a", "score": 80, "direction": "positif"}
+      ],
+      "exemples": ["Coulée verte Paris", "High Line New York", "Parc Martin Luther King", "Jardins partagés"],
+      "synonymes": ["Biodiversité urbaine", "Espaces verts", "Infrastructure verte"]
+    },
+    {
+      "id": "ecoquartier",
+      "terme": "Écoquartier",
+      "categorie": "urbanisme-durable",
+      "resume": "Quartier conçu selon des principes de développement durable, intégrant performance environnementale, mixité sociale et participation citoyenne.",
+      "definition": "Un écoquartier est une opération d'aménagement urbain respectant les principes du développement durable et s'inscrivant dans la stratégie territoriale. En France, le label national ÉcoQuartier (créé en 2012) certifie les projets répondant à 20 engagements dans quatre dimensions : démarche et processus (gouvernance, participation), cadre de vie et usages (mixité, mobilités), développement territorial (économie locale, insertion), et environnement et climat (énergie, biodiversité, eau).",
+      "definitionEtendue": {
+        "introduction": "Les premiers écoquartiers émergent dans les années 1990-2000 en Europe du Nord : Vauban (Freiburg, 1996), Hammarby Sjöstad (Stockholm, 2000), BedZED (Londres, 2002). En France, la démarche nationale est lancée en 2008 avec les premiers appels à projets. Le label ÉcoQuartier (2012) puis sa nouvelle version (2016) structurent la certification.",
+        "mecanismes": "L'écoquartier intègre dès la conception : l'efficacité énergétique (bâtiments BBC ou passifs), la gestion des eaux (noues, récupération), la biodiversité (trames vertes), la mobilité (priorité piétons-vélos), la mixité (logements sociaux, équipements), et la participation (concertation, gouvernance). Le suivi post-livraison est obligatoire pour le label.",
+        "contexteScientifique": "Les retours d'expérience montrent des performances environnementales variables selon les projets. Les critiques portent sur le coût (gentrification), les effets de vitrine, et le gap entre ambition et réalité (consommations réelles vs théoriques). La recherche analyse les conditions de succès et les facteurs d'échec des écoquartiers.",
+        "enjeuxActuels": "Les enjeux actuels incluent le passage à l'échelle (au-delà du quartier pilote), la réhabilitation vs construction neuve, l'adaptation des écoquartiers au changement climatique, et l'évaluation des usages réels. La question sociale (accessibilité financière, diversité) reste cruciale.",
+        "perspectives": "Les quartiers à énergie positive, l'intégration de l'économie circulaire (matériaux biosourcés, recyclage), les écoquartiers en rénovation urbaine (NPNRU) et les 'quartiers fertiles' (agriculture urbaine) dessinent l'avenir. L'évaluation continue et l'amélioration des référentiels sont nécessaires."
+      },
+      "sources": [
+        {
+          "titre": "Référentiel ÉcoQuartier",
+          "institution": "Ministère de la Transition écologique",
+          "url": "http://www.ecoquartiers.logement.gouv.fr/",
+          "annee": 2016,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "L'écoquartier, clés d'un aménagement durable",
+          "auteur": "Charlot-Valdieu, C. & Outrequin, P.",
+          "annee": 2011,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "moyen"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["label ÉcoQuartier", "aménagement durable", "mixité", "participation", "BBC"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "560+ écoquartiers labellisés en France",
+          "source": "Ministère",
+          "annee": 2023
+        }
+      ],
+      "relations": [
+        {"cible": "ville-durable", "type": "est_type_de", "score": 90},
+        {"cible": "efficacite-energetique", "type": "contribue_a", "score": 80, "direction": "positif"}
+      ],
+      "exemples": ["Clichy-Batignolles (Paris)", "Confluence (Lyon)", "Ginko (Bordeaux)", "Caserne de Bonne (Grenoble)"],
+      "synonymes": ["Quartier durable", "Sustainable neighborhood"]
+    },
+    {
+      "id": "zone-faibles-emissions",
+      "terme": "Zone à Faibles Émissions",
+      "categorie": "urbanisme-durable",
+      "resume": "Périmètre urbain où la circulation des véhicules les plus polluants est restreinte pour améliorer la qualité de l'air.",
+      "definition": "Une Zone à Faibles Émissions mobilité (ZFE-m) est un territoire urbain où l'accès des véhicules motorisés est restreint selon leur niveau d'émissions polluantes, identifié par les vignettes Crit'Air. Elle vise à réduire les émissions d'oxydes d'azote (NOx) et de particules fines responsables de la pollution atmosphérique urbaine. Obligatoire dans les agglomérations de plus de 150 000 habitants en France depuis la LOM (2019), elle concernera 45 agglomérations d'ici 2025.",
+      "definitionEtendue": {
+        "introduction": "Les premières ZFE apparaissent en Europe du Nord dans les années 2000 (Stockholm 1996, Londres 2008). En France, des expérimentations débutent à Paris et Grenoble (2015) sous le nom de 'zones de circulation restreinte'. La loi LOM (2019) puis la loi Climat (2021) généralisent et renforcent le dispositif avec le terme ZFE-m.",
+        "mecanismes": "La ZFE repose sur le système Crit'Air : les véhicules sont classés de 0 (électrique) à 5 (plus de 20 ans) selon leur date d'immatriculation et leur motorisation. Chaque ZFE fixe un calendrier d'interdiction progressive (ex : Crit'Air 5 en 2023, Crit'Air 4 en 2024...). Les contrôles sont effectués par la police ou par vidéo-verbalisation.",
+        "contexteScientifique": "Les études européennes (LEZ-Europe) montrent une réduction de 3-15% des émissions de NOx et particules. L'efficacité dépend du périmètre, de la rigueur des restrictions et des alternatives offertes. Les critiques portent sur l'impact social (ménages modestes avec vieux véhicules) et l'effet de report (pollution en périphérie).",
+        "enjeuxActuels": "L'acceptabilité sociale est le principal défi : les aides au renouvellement du parc (prime à la conversion, microcrédit) sont insuffisantes pour certains ménages. L'harmonisation entre agglomérations, la cohérence avec les politiques de mobilité, et les dérogations (artisans, handicapés) complexifient la mise en œuvre.",
+        "perspectives": "L'extension des ZFE à toutes les villes de plus de 150 000 habitants, le renforcement des contrôles automatiques (LAPI), et l'interdiction progressive des véhicules thermiques s'inscrivent dans la trajectoire vers des villes sans voiture à moteur thermique. L'articulation avec le développement des transports en commun et des mobilités douces est cruciale."
+      },
+      "sources": [
+        {
+          "titre": "Loi d'orientation des mobilités - ZFE-m",
+          "institution": "République Française",
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039666574",
+          "annee": 2019,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Low Emission Zones in Europe",
+          "institution": "Transport & Environment",
+          "url": "https://www.transportenvironment.org/",
+          "annee": 2019,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["Crit'Air", "qualité de l'air", "NOx", "particules fines", "LOM"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "45 agglomérations concernées en France d'ici 2025",
+          "source": "Ministère",
+          "annee": 2021
+        },
+        {
+          "valeur": "Réduction de 3-15% des NOx dans les ZFE européennes",
+          "source": "Transport & Environment",
+          "annee": 2019
+        }
+      ],
+      "relations": [
+        {"cible": "qualite-air", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "mobilite-douce", "type": "contribue_a", "score": 70, "direction": "positif"}
+      ],
+      "exemples": ["ZFE Grand Paris", "ZFE Lyon", "ZFE Grenoble", "Londres ULEZ"],
+      "synonymes": ["ZFE-m", "Low Emission Zone", "LEZ"]
+    },
+    {
+      "id": "transport-commun",
+      "terme": "Transport en commun",
+      "categorie": "urbanisme-durable",
+      "resume": "Systèmes de transport collectif (bus, métro, tramway, train) permettant de réduire l'usage de la voiture individuelle et les émissions associées.",
+      "definition": "Les transports en commun (ou transports collectifs) désignent les systèmes de transport partagés ouverts au public : bus, tramway, métro, train, car, trolleybus. Ils constituent une alternative à la voiture individuelle, réduisant les émissions de GES par voyageur-km, la congestion et l'espace de voirie dédié au transport. Leur développement est un levier majeur de la transition écologique urbaine et de l'équité sociale dans l'accès à la mobilité.",
+      "definitionEtendue": {
+        "introduction": "Les transports en commun modernes naissent au XIXe siècle (omnibus, tramway, métro de Londres 1863). Après un déclin au profit de la voiture (années 1960-80), ils connaissent un renouveau depuis les années 1990 : retour du tramway, développement des BHNS, investissements massifs. En France, la LOTI (1982) puis la LOM (2019) structurent les politiques de mobilité.",
+        "mecanismes": "L'efficacité des TC repose sur la fréquence (temps d'attente), la vitesse commerciale (sites propres), le maillage (accessibilité), l'intermodalité (pôles d'échanges, tarification intégrée), et le confort. Le financement combine billettique, subventions publiques et versement mobilité des entreprises. La capacité d'un tramway (200 passagers) équivaut à 100-150 voitures.",
+        "contexteScientifique": "Les analyses de cycle de vie montrent que les TC émettent 20-50 fois moins de CO2/passager-km que la voiture solo. Les études de mobilité documentent les déterminants du report modal. Les débats portent sur la gratuité (Dunkerque, Montpellier), le financement pérenne, et l'optimisation des réseaux (données, IA).",
+        "enjeuxActuels": "Le financement des nouvelles infrastructures (Grand Paris Express : 36 milliards EUR), la décarbonation des flottes (bus électriques/hydrogène), l'accessibilité PMR, et l'adaptation post-COVID (télétravail, nouvelles habitudes) sont les principaux enjeux. La desserte des zones périurbaines et rurales reste insuffisante.",
+        "perspectives": "Les bus à haut niveau de service (BHNS), les RER métropolitains, les navettes autonomes, et les Mobility as a Service (MaaS, application unique) dessinent l'avenir. La tarification solidaire, l'open data et la personnalisation des services renforcent l'attractivité. L'objectif est de doubler la part modale des TC d'ici 2030 dans les grandes agglomérations."
+      },
+      "sources": [
+        {
+          "titre": "Les transports collectifs urbains en France - Annuaire statistique",
+          "institution": "UTP / GART",
+          "url": "https://www.gart.org/",
+          "annee": 2023,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Loi d'orientation des mobilités",
+          "institution": "République Française",
+          "annee": 2019,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["part modale", "intermodalité", "BHNS", "versement mobilité", "MaaS"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "Part modale TC : 15% en Île-de-France, 8% en province",
+          "source": "INSEE EMD",
+          "annee": 2019
+        },
+        {
+          "valeur": "Émissions : 30 gCO2/passager-km (métro) vs 150 g (voiture solo)",
+          "source": "ADEME Base Carbone",
+          "annee": 2023
+        }
+      ],
+      "relations": [
+        {"cible": "mobilite-douce", "type": "proche_de", "score": 75},
+        {"cible": "empreinte-carbone", "type": "contribue_a", "score": 80, "direction": "positif"},
+        {"cible": "ville-durable", "type": "contribue_a", "score": 85, "direction": "positif"}
+      ],
+      "exemples": ["Métro parisien", "Tramway de Strasbourg", "RER", "BHNS Nantes"],
+      "synonymes": ["Transports collectifs", "TC", "Public transit"]
+    }
+  ]
+}

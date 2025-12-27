@@ -1,0 +1,554 @@
+{
+  "id": "agriculture-alimentation",
+  "nom": "Agriculture & Alimentation",
+  "description": "Systèmes agricoles durables, souveraineté alimentaire et pratiques régénératives",
+  "couleur": "#84cc16",
+  "definitions": [
+    {
+      "id": "agroecologie",
+      "terme": "Agroécologie",
+      "categorie": "agriculture-alimentation",
+      "resume": "Approche agricole intégrant les principes écologiques pour concevoir des systèmes alimentaires durables, résilients et socialement équitables.",
+      "definition": "L'agroécologie est une discipline scientifique, un ensemble de pratiques agricoles et un mouvement social qui applique les concepts et principes de l'écologie à la conception et la gestion de systèmes alimentaires durables. Elle vise à optimiser les interactions entre plantes, animaux, humains et environnement tout en préservant les équilibres écologiques. Contrairement à l'agriculture industrielle, elle s'appuie sur la biodiversité fonctionnelle, les cycles naturels et les savoirs paysans locaux plutôt que sur les intrants chimiques.",
+      "definitionEtendue": {
+        "introduction": "Le terme agroécologie apparaît dans les années 1930 avec le scientifique russe Basil Bensin, mais c'est dans les années 1980-90 que Miguel Altieri (Université de Berkeley) et Stephen Gliessman structurent la discipline. En France, elle gagne en visibilité avec Pierre Rabhi et est inscrite dans la loi d'avenir agricole de 2014.",
+        "mecanismes": "L'agroécologie repose sur plusieurs leviers : la diversification des cultures (polyculture, agroforesterie), l'utilisation de la biodiversité comme facteur de production (auxiliaires de culture, pollinisateurs), le bouclage des cycles de nutriments (intégration agriculture-élevage), la réduction des intrants de synthèse, et la valorisation des savoirs locaux. Ces pratiques créent des agroécosystèmes résilients capables de s'autoréguler.",
+        "contexteScientifique": "La recherche en agroécologie s'appuie sur l'écologie des communautés, l'entomologie, la science du sol et les sciences sociales. Des débats existent sur la capacité de l'agroécologie à nourrir le monde : les méta-analyses (Ponisio et al. 2015) montrent un rendement inférieur de 8-25% mais une meilleure résilience climatique et économique. L'INRAE et le CIRAD mènent des programmes majeurs (TATA-BOX, GLDC).",
+        "enjeuxActuels": "Les enjeux incluent le passage à l'échelle (scaling-up), la reconnaissance économique des services écosystémiques rendus, la formation des agriculteurs, et l'adaptation des politiques agricoles (PAC). La transition agroécologique nécessite un accompagnement technique et financier sur plusieurs années.",
+        "perspectives": "L'agroécologie est au cœur des stratégies Farm to Fork et Biodiversité 2030 de l'UE. L'intégration du numérique (agriculture de précision agroécologique), le développement de l'agroécologie urbaine et la reconnaissance internationale (FAO, CFS) ouvrent de nouvelles perspectives. La recherche s'oriente vers la modélisation des transitions à grande échelle."
+      },
+      "sources": [
+        {
+          "titre": "Agroecology: The Science of Sustainable Agriculture",
+          "auteur": "Altieri, M.A.",
+          "annee": 2018,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "The 10 Elements of Agroecology",
+          "institution": "FAO",
+          "url": "https://www.fao.org/agroecology/overview/10-elements/en/",
+          "annee": 2019,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Diversification practices reduce organic to conventional yield gap",
+          "auteur": "Ponisio, L.C. et al.",
+          "doi": "10.1098/rspb.2014.1396",
+          "journal": "Proceedings of the Royal Society B",
+          "annee": 2015,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["biodiversité fonctionnelle", "services écosystémiques", "systèmes alimentaires", "transition agricole", "résilience"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "Réduction de 8-25% des rendements vs conventionnel",
+          "source": "Ponisio et al., PRSB",
+          "annee": 2015
+        },
+        {
+          "valeur": "30% de GES agricoles réductibles par pratiques agroécologiques",
+          "source": "IPCC Land Report",
+          "annee": 2019
+        }
+      ],
+      "relations": [
+        {"cible": "biodiversite", "type": "contribue_a", "score": 90, "direction": "positif"},
+        {"cible": "permaculture", "type": "proche_de", "score": 85},
+        {"cible": "agriculture-biologique", "type": "proche_de", "score": 80}
+      ],
+      "exemples": ["Fermes en polyculture-élevage", "Agroforesterie tropicale", "Systèmes de culture associée maïs-haricot"],
+      "synonymes": ["Agriculture écologique", "Agriculture durable"]
+    },
+    {
+      "id": "permaculture",
+      "terme": "Permaculture",
+      "categorie": "agriculture-alimentation",
+      "resume": "Méthode de conception de systèmes agricoles et d'habitats humains inspirée des écosystèmes naturels, visant l'autonomie et la durabilité.",
+      "definition": "La permaculture (contraction de 'permanent agriculture' puis 'permanent culture') est une approche systémique de conception d'écosystèmes productifs et durables. Développée par Bill Mollison et David Holmgren en Australie dans les années 1970, elle s'appuie sur trois principes éthiques (prendre soin de la Terre, prendre soin des humains, partager équitablement) et 12 principes de design. Elle intègre agriculture, architecture, économie et organisation sociale.",
+      "definitionEtendue": {
+        "introduction": "Bill Mollison, biologiste, et David Holmgren, designer environnemental, publient 'Permaculture One' en 1978 en réponse aux crises environnementales. Le concept évolue d'une méthode agricole vers une philosophie de design applicable à tous les domaines de la vie humaine. Le mouvement s'est internationalisé avec des instituts de formation sur tous les continents.",
+        "mecanismes": "La permaculture utilise le zonage (zones 0 à 5 selon l'intensité d'usage), l'analyse des secteurs (soleil, vent, eau), et le placement des éléments selon leurs interactions. Les guildes de plantes, la gestion de l'eau (swales, mares), les microclimats et l'empilement des fonctions maximisent l'efficacité énergétique et la productivité. Chaque élément remplit plusieurs fonctions, chaque fonction est remplie par plusieurs éléments.",
+        "contexteScientifique": "La permaculture s'appuie sur l'écologie, l'ethnobotanique et les savoirs traditionnels plutôt que sur la recherche académique classique. Les études scientifiques restent limitées mais des travaux récents (Ferguson & Lovell, 2014) documentent les bénéfices en termes de biodiversité et séquestration carbone. La critique académique porte sur le manque de validation empirique de certaines affirmations.",
+        "enjeuxActuels": "Les enjeux incluent la professionnalisation du mouvement, la mesure des impacts réels, l'adaptation aux contextes urbains, et l'articulation avec les politiques publiques. La permaculture doit démontrer sa viabilité économique à l'échelle de fermes commerciales et pas seulement de jardins familiaux.",
+        "perspectives": "La permaculture urbaine et périurbaine se développe rapidement. L'intégration avec l'agroécologie scientifique, le développement de 'fermes-écoles' et la reconnaissance institutionnelle (certificats, diplômes) structurent le mouvement. Les outils numériques de design permaculturel émergent."
+      },
+      "sources": [
+        {
+          "titre": "Permaculture: Principles and Pathways Beyond Sustainability",
+          "auteur": "Holmgren, D.",
+          "annee": 2002,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Permaculture and the Social Design of Nature",
+          "auteur": "Ferguson, R.S. & Lovell, S.T.",
+          "doi": "10.1007/s13593-014-0213-8",
+          "journal": "Agronomy for Sustainable Development",
+          "annee": 2014,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["design écologique", "résilience", "autosuffisance", "zonage", "guildes végétales"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "Plus de 3 millions de personnes formées dans le monde",
+          "source": "Permaculture Research Institute",
+          "annee": 2020
+        }
+      ],
+      "relations": [
+        {"cible": "agroecologie", "type": "proche_de", "score": 85},
+        {"cible": "agroforesterie", "type": "contribue_a", "score": 75, "direction": "positif"}
+      ],
+      "exemples": ["Ferme du Bec Hellouin (France)", "Zaytuna Farm (Australie)", "Jardins-forêts"],
+      "synonymes": ["Culture permanente"]
+    },
+    {
+      "id": "agriculture-biologique",
+      "terme": "Agriculture biologique",
+      "categorie": "agriculture-alimentation",
+      "resume": "Mode de production agricole excluant les pesticides et engrais de synthèse, certifié par des labels réglementaires garantissant des pratiques respectueuses de l'environnement.",
+      "definition": "L'agriculture biologique est un système de production agricole qui exclut l'utilisation de produits chimiques de synthèse (pesticides, engrais, OGM) et privilégie les ressources naturelles, le recyclage de la matière organique et la rotation des cultures. Encadrée par des réglementations strictes (règlement UE 2018/848), elle est contrôlée par des organismes certificateurs et identifiée par des labels (AB, Eurofeuille). Elle représente une alternative au modèle agricole conventionnel.",
+      "definitionEtendue": {
+        "introduction": "Les racines de l'agriculture biologique remontent aux années 1920-40 avec Rudolf Steiner (biodynamie), Albert Howard (compostage) et Hans Müller (bio-organique). Le mouvement s'organise dans les années 1970 avec la création de l'IFOAM (1972). En France, le label AB est créé en 1985 et intégré au règlement européen en 1991.",
+        "mecanismes": "L'AB repose sur la fertilisation organique (compost, engrais verts, fumier), la lutte biologique contre les ravageurs, les rotations longues et diversifiées, et le respect du bien-être animal. Les sols vivants, riches en matière organique et en biodiversité, sont au cœur du système. La certification implique une période de conversion de 2-3 ans.",
+        "contexteScientifique": "Les méta-analyses (Seufert et al. 2012, Ponisio et al. 2015) montrent des rendements inférieurs de 19-25% en moyenne, mais une meilleure performance sur certains critères (biodiversité, qualité des sols, absence de résidus). Le débat scientifique porte sur la capacité du bio à nourrir le monde et sur l'impact réel sur la santé humaine.",
+        "enjeuxActuels": "La croissance rapide du marché bio (+10%/an) génère des tensions : importations, 'conventionnalisation' du bio, accessibilité prix. L'harmonisation des cahiers des charges au niveau mondial, la bio locale vs importée, et les nouvelles technologies (biocontrôle, génomique) sont des enjeux majeurs.",
+        "perspectives": "L'UE vise 25% de SAU bio en 2030 (Green Deal). Les labels bio+ (Demeter, Nature & Progrès) montent en gamme. L'agriculture régénérative et l'agroécologie redéfinissent le positionnement du bio. La blockchain pour la traçabilité et les innovations en biocontrôle ouvrent de nouvelles voies."
+      },
+      "sources": [
+        {
+          "titre": "Comparing the yields of organic and conventional agriculture",
+          "auteur": "Seufert, V., Ramankutty, N. & Foley, J.A.",
+          "doi": "10.1038/nature11069",
+          "journal": "Nature",
+          "annee": 2012,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Règlement (UE) 2018/848 relatif à la production biologique",
+          "institution": "Union Européenne",
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32018R0848",
+          "annee": 2018,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "L'agriculture biologique en France - Chiffres clés",
+          "institution": "Agence Bio",
+          "url": "https://www.agencebio.org/",
+          "annee": 2024,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["certification", "pesticides", "fertilisation organique", "bien-être animal", "SAU"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "10,7% de la SAU française en bio (2023)",
+          "source": "Agence Bio",
+          "annee": 2023
+        },
+        {
+          "valeur": "Objectif UE : 25% de SAU bio en 2030",
+          "source": "Green Deal - Farm to Fork",
+          "annee": 2020
+        },
+        {
+          "valeur": "Marché bio français : 12 milliards EUR (2023)",
+          "source": "Agence Bio",
+          "annee": 2023
+        }
+      ],
+      "relations": [
+        {"cible": "agroecologie", "type": "proche_de", "score": 75},
+        {"cible": "biodiversite", "type": "contribue_a", "score": 70, "direction": "positif"}
+      ],
+      "exemples": ["Labels AB, Eurofeuille", "Demeter (biodynamie)", "Nature & Progrès"],
+      "synonymes": ["Bio", "Organic farming"]
+    },
+    {
+      "id": "agroforesterie",
+      "terme": "Agroforesterie",
+      "categorie": "agriculture-alimentation",
+      "resume": "Système agricole intégrant arbres et cultures ou élevage sur une même parcelle, optimisant les synergies écologiques et économiques.",
+      "definition": "L'agroforesterie désigne l'ensemble des pratiques agricoles associant arbres (ou arbustes) avec des cultures ou de l'élevage sur une même parcelle. Cette intégration crée des interactions positives : les arbres fournissent ombre, protection contre le vent, biomasse, habitat pour auxiliaires, tandis que les cultures ou animaux bénéficient de ces services et fertilisent le sol. L'agroforesterie combine production agricole et services écosystémiques.",
+      "definitionEtendue": {
+        "introduction": "L'agroforesterie est une pratique ancestrale présente dans de nombreuses cultures (bocage européen, systèmes tropicaux). Le terme moderne apparaît dans les années 1970 avec la création de l'ICRAF (World Agroforestry). En France, l'agroforesterie moderne se développe depuis les années 1990 sous l'impulsion de chercheurs comme Christian Dupraz (INRAE).",
+        "mecanismes": "Les systèmes agroforestiers fonctionnent sur la complémentarité spatiale et temporelle. Les arbres captent lumière, eau et nutriments à des profondeurs et périodes différentes des cultures. Ils séquestrent du carbone, régulent le microclimat (-2 à -5°C en été), limitent l'érosion et accueillent la biodiversité. Les haies, alignements intraparcellaires, prés-vergers sont les principales formes.",
+        "contexteScientifique": "La recherche (Dupraz & Liagre 2008, systèmes SAFE en UE) démontre des gains de productivité de 20-40% par rapport aux monocultures (Land Equivalent Ratio > 1). Les études portent sur l'optimisation des associations arbre-culture, la gestion de la compétition pour l'eau, et la valorisation économique du bois.",
+        "enjeuxActuels": "Les freins sont la méconnaissance technique, l'inadaptation des aides PAC historiques, le temps de retour sur investissement (10-20 ans pour les arbres). La mesure du carbone stocké et la rémunération des services écosystémiques sont des enjeux majeurs.",
+        "perspectives": "L'agroforesterie est intégrée dans les stratégies climatiques (4 pour 1000, PAC 2023-27). Le développement de filières bois-énergie et bois d'œuvre agricole, l'agroforesterie maraîchère et les outils de modélisation (Hi-sAFe) ouvrent de nouvelles perspectives. Objectif France : 500 000 ha supplémentaires d'ici 2030."
+      },
+      "sources": [
+        {
+          "titre": "Agroforesterie : des arbres et des cultures",
+          "auteur": "Dupraz, C. & Liagre, F.",
+          "annee": 2008,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Productivity and radiation use efficiency of temperate silvoarable agroforestry",
+          "auteur": "Graves, A.R. et al.",
+          "doi": "10.1016/j.foreco.2007.10.013",
+          "journal": "Forest Ecology and Management",
+          "annee": 2007,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["silvoarable", "sylvopastoralisme", "LER", "séquestration carbone", "bocage"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "LER (Land Equivalent Ratio) moyen de 1,2 à 1,4",
+          "source": "Projet SAFE",
+          "annee": 2005
+        },
+        {
+          "valeur": "Stockage de 2-5 tCO2/ha/an supplémentaires",
+          "source": "ADEME",
+          "annee": 2021
+        }
+      ],
+      "relations": [
+        {"cible": "agroecologie", "type": "est_type_de", "score": 85},
+        {"cible": "biodiversite", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 75, "direction": "positif"}
+      ],
+      "exemples": ["Alignements de noyers en grandes cultures", "Prés-vergers", "Truffières", "Haies bocagères"],
+      "synonymes": ["Systèmes agroforestiers", "Silvoarable", "Sylvopastoralisme"]
+    },
+    {
+      "id": "souverainete-alimentaire",
+      "terme": "Souveraineté alimentaire",
+      "categorie": "agriculture-alimentation",
+      "resume": "Droit des peuples à définir leur propre politique agricole et alimentaire, en privilégiant les productions locales et les marchés intérieurs.",
+      "definition": "La souveraineté alimentaire est un concept politique et juridique affirmant le droit des peuples, des États ou des régions à définir leurs propres systèmes alimentaires et agricoles. Introduit par Via Campesina en 1996, il s'oppose à la libéralisation des marchés agricoles et promeut les circuits courts, les semences paysannes, la réforme agraire et la protection des marchés locaux contre le dumping. Il dépasse la notion de sécurité alimentaire (accès à la nourriture) en intégrant la dimension politique.",
+      "definitionEtendue": {
+        "introduction": "Le concept émerge lors du Sommet mondial de l'alimentation de 1996, porté par Via Campesina, mouvement paysan international. Il s'inscrit en opposition au paradigme de la sécurité alimentaire promu par la FAO et l'OMC, jugé trop focalisé sur le commerce international. La Déclaration de Nyéléni (Mali, 2007) en formalise les principes.",
+        "mecanismes": "La souveraineté alimentaire repose sur six piliers : 1) Accès aux ressources (terre, eau, semences), 2) Valorisation des producteurs locaux, 3) Localisation des systèmes alimentaires, 4) Autonomie décisionnelle, 5) Valorisation des savoirs traditionnels, 6) Respect de la nature. Elle implique des politiques de protection commerciale, de stockage public et de régulation des prix.",
+        "contexteScientifique": "Le concept est porté par des chercheurs en études agraires et économie politique (Philip McMichael, Harriet Friedmann). Les débats portent sur la faisabilité économique, la tension avec les accords commerciaux (OMC) et la définition des échelles pertinentes (nationale, régionale, locale). Des recherches documentent les modèles alternatifs (AMAP, marchés paysans).",
+        "enjeuxActuels": "La crise COVID-19 et la guerre en Ukraine ont relancé le débat sur la dépendance alimentaire. Les enjeux incluent la résilience des systèmes alimentaires, la relocalisation des productions stratégiques, et l'articulation avec les politiques climatiques et de biodiversité. En France, le débat sur la 'souveraineté alimentaire' se développe dans un sens souvent plus productiviste.",
+        "perspectives": "La souveraineté alimentaire est reconnue dans plusieurs constitutions (Équateur, Bolivie, Népal). Elle inspire les politiques de transition agroécologique et les projets alimentaires territoriaux (PAT). Le lien avec les enjeux climatiques (souveraineté semencière face au changement climatique) renforce son actualité."
+      },
+      "sources": [
+        {
+          "titre": "Déclaration de Nyéléni sur la souveraineté alimentaire",
+          "institution": "Forum Nyéléni",
+          "url": "https://nyeleni.org/spip.php?article290",
+          "annee": 2007,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Food Regimes and Agrarian Questions",
+          "auteur": "McMichael, P.",
+          "annee": 2013,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["Via Campesina", "sécurité alimentaire", "circuits courts", "réforme agraire", "PAT"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "200 millions de membres Via Campesina dans 81 pays",
+          "source": "Via Campesina",
+          "annee": 2023
+        }
+      ],
+      "relations": [
+        {"cible": "circuits-courts", "type": "contribue_a", "score": 90, "direction": "positif"},
+        {"cible": "agroecologie", "type": "proche_de", "score": 80}
+      ],
+      "exemples": ["Projets Alimentaires Territoriaux (PAT)", "AMAP", "Politiques agricoles de l'Équateur"],
+      "synonymes": ["Food sovereignty"]
+    },
+    {
+      "id": "circuits-courts",
+      "terme": "Circuits courts",
+      "categorie": "agriculture-alimentation",
+      "resume": "Modes de commercialisation réduisant les intermédiaires entre producteurs et consommateurs, favorisant la proximité géographique et relationnelle.",
+      "definition": "Les circuits courts désignent les modes de commercialisation des produits agricoles impliquant au maximum un intermédiaire entre le producteur et le consommateur. Ils incluent la vente directe (marchés, ferme, paniers AMAP) et la vente avec un intermédiaire (restauration collective, magasins de producteurs). En France, ils concernent 21% des exploitations et répondent à une demande croissante de transparence et de qualité alimentaire.",
+      "definitionEtendue": {
+        "introduction": "Les circuits courts existent depuis toujours (marchés locaux) mais connaissent un renouveau depuis les années 2000 face aux scandales alimentaires et à la mondialisation. En France, le Grenelle de l'environnement (2007) puis la loi d'avenir agricole (2014) leur donnent un cadre. Les AMAP (Associations pour le Maintien d'une Agriculture Paysanne), créées au Japon puis importées en France en 2001, en sont emblématiques.",
+        "mecanismes": "Les circuits courts fonctionnent sur la réduction des distances physiques et sociales. Économiquement, le producteur capte une plus grande part de la valeur ajoutée. Socialement, la relation directe crée confiance et fidélisation. Environnementalement, l'impact est nuancé : moins de transport mais parfois moins d'optimisation logistique que les circuits longs.",
+        "contexteScientifique": "Les recherches (Chaffotte & Chiffoleau, INRAE) montrent que les circuits courts ne sont pas systématiquement meilleurs pour l'environnement (le dernier kilomètre en voiture peut annuler les gains). Leur impact social (création de lien, maintien d'emplois agricoles) est mieux documenté. Le concept de 'proximité' dépasse la seule distance géographique.",
+        "enjeuxActuels": "La professionnalisation et la logistique (coût du temps, livraison) sont des défis majeurs. L'articulation avec la restauration collective (loi EGalim : 50% de produits durables dont 20% bio) offre des débouchés. Le numérique (plateformes de vente, drive fermier) transforme les pratiques.",
+        "perspectives": "Les projets alimentaires territoriaux (PAT) structurent les circuits courts à l'échelle des bassins de vie. La logistique mutualisée, les 'food hubs' et l'essor de la restauration collective locale ouvrent des perspectives de passage à l'échelle. Le label RUP (Région Ultra-Périphérique) et les indications géographiques complètent le dispositif."
+      },
+      "sources": [
+        {
+          "titre": "Les circuits courts alimentaires : bien manger dans les territoires",
+          "auteur": "Chiffoleau, Y.",
+          "annee": 2019,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Circuits courts et durabilité : une relation à interroger",
+          "institution": "ADEME",
+          "annee": 2017,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["vente directe", "AMAP", "proximité", "PAT", "restauration collective"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "21% des exploitations françaises vendent en circuits courts",
+          "source": "Agreste - Recensement agricole",
+          "annee": 2020
+        },
+        {
+          "valeur": "2 000+ AMAP en France",
+          "source": "Réseau AMAP",
+          "annee": 2023
+        }
+      ],
+      "relations": [
+        {"cible": "souverainete-alimentaire", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "empreinte-carbone", "type": "contribue_a", "score": 50, "direction": "positif"}
+      ],
+      "exemples": ["AMAP", "Marchés de producteurs", "Magasins de producteurs", "Drive fermier"],
+      "synonymes": ["Short food supply chains", "Vente directe"]
+    },
+    {
+      "id": "agriculture-regenerative",
+      "terme": "Agriculture régénérative",
+      "categorie": "agriculture-alimentation",
+      "resume": "Approche agricole visant à restaurer la santé des sols, séquestrer du carbone et régénérer les écosystèmes agricoles dégradés.",
+      "definition": "L'agriculture régénérative désigne un ensemble de pratiques agricoles axées sur la restauration et l'amélioration des écosystèmes agricoles, en particulier la santé des sols. Elle va au-delà de la durabilité (maintenir l'état actuel) en visant une amélioration active : augmentation de la matière organique, séquestration de carbone, restauration de la biodiversité des sols, et amélioration des cycles de l'eau. Elle repose sur la minimisation du travail du sol, les couverts végétaux permanents, et l'intégration de l'élevage.",
+      "definitionEtendue": {
+        "introduction": "Le terme 'regenerative agriculture' apparaît dans les années 1980 avec le Rodale Institute aux États-Unis. Il gagne en visibilité dans les années 2010 porté par des figures comme Gabe Brown et Allan Savory. En France, le mouvement se structure autour de l'agriculture de conservation des sols (ACS) et des travaux de Lucien Séguy et Konrad Schreiber.",
+        "mecanismes": "Les cinq principes fondamentaux sont : 1) Minimiser la perturbation mécanique et chimique du sol, 2) Maintenir le sol couvert en permanence, 3) Maintenir des racines vivantes toute l'année, 4) Maximiser la diversité végétale, 5) Intégrer les animaux. Ces pratiques stimulent l'activité biologique, augmentent la matière organique et améliorent la structure du sol.",
+        "contexteScientifique": "La recherche documente les bénéfices sur la séquestration carbone (0,2-1 tC/ha/an), l'infiltration de l'eau, et la biodiversité des sols. Les débats portent sur la quantification exacte du carbone stocké (permanence, saturation), la généralisation possible, et l'articulation avec les rendements. L'initiative '4 pour 1000' promeut ces pratiques à l'échelle mondiale.",
+        "enjeuxActuels": "La transition vers le régénératif nécessite un changement de paradigme (sols comme capital vivant), un accompagnement technique et une période d'adaptation (3-5 ans). La rémunération carbone (crédits carbone, Label Bas Carbone) est un levier économique émergent mais controversé (additionnalité, mesure).",
+        "perspectives": "Les grandes entreprises agroalimentaires (Danone, Nestlé, General Mills) lancent des programmes d'agriculture régénérative dans leurs filières. La certification régénérative (ROC, Savory Land to Market) se développe. L'articulation avec les politiques climatiques (SNBC, PAC) et la mesure standardisée des impacts sont des chantiers majeurs."
+      },
+      "sources": [
+        {
+          "titre": "Regenerative Agriculture: Merging Farming and Natural Resource Conservation Profitably",
+          "auteur": "LaCanne, C.E. & Lundgren, J.G.",
+          "doi": "10.7717/peerj.4428",
+          "journal": "PeerJ",
+          "annee": 2018,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Dirt to Soil: One Family's Journey into Regenerative Agriculture",
+          "auteur": "Brown, G.",
+          "annee": 2018,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "moyen"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["santé des sols", "séquestration carbone", "couverts végétaux", "non-labour", "4 pour 1000"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "Potentiel de séquestration : 0,4% de carbone/an dans les sols (4 pour 1000)",
+          "source": "Initiative 4 pour 1000",
+          "annee": 2015
+        },
+        {
+          "valeur": "Agriculture de conservation : 3% de la SAU française",
+          "source": "APAD",
+          "annee": 2023
+        }
+      ],
+      "relations": [
+        {"cible": "agroecologie", "type": "proche_de", "score": 80},
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 85, "direction": "positif"},
+        {"cible": "biodiversite", "type": "contribue_a", "score": 75, "direction": "positif"}
+      ],
+      "exemples": ["Semis direct sous couvert", "Pâturage tournant dynamique", "Cultures de couverture"],
+      "synonymes": ["Agriculture de conservation", "Carbon farming"]
+    },
+    {
+      "id": "gaspillage-alimentaire",
+      "terme": "Gaspillage alimentaire",
+      "categorie": "agriculture-alimentation",
+      "resume": "Perte ou gaspillage de nourriture destinée à la consommation humaine, à tous les stades de la chaîne alimentaire.",
+      "definition": "Le gaspillage alimentaire désigne toute nourriture destinée à la consommation humaine qui est perdue, jetée ou dégradée à une étape de la chaîne alimentaire (production, transformation, distribution, consommation). On distingue les pertes alimentaires (avant le consommateur, souvent dans les pays du Sud) du gaspillage (au niveau de la distribution et des consommateurs, surtout dans les pays du Nord). Ce phénomène représente un tiers de la production mondiale et génère 8-10% des émissions de GES.",
+      "definitionEtendue": {
+        "introduction": "La prise de conscience du gaspillage alimentaire comme enjeu environnemental date des années 2010 avec les travaux de la FAO ('Global Food Losses and Food Waste', 2011). En France, le Pacte national anti-gaspillage (2013) puis la loi Garot (2016) structurent la lutte. L'ODD 12.3 vise une réduction de 50% d'ici 2030.",
+        "mecanismes": "Le gaspillage résulte de multiples causes : normes esthétiques (calibrage), dates de péremption mal comprises (DLC vs DDM), promotions incitant au surachat, portions inadaptées en restauration, chaîne du froid défaillante. À chaque étape, des leviers existent : optimisation des récoltes, dons aux associations, compostage, méthanisation.",
+        "contexteScientifique": "Les méthodologies de mesure varient (définitions, périmètres) mais les estimations convergent : 1,3 milliard de tonnes/an mondial, dont 20% en Europe. Les analyses de cycle de vie montrent que le gaspillage en fin de chaîne (après transformation, transport, réfrigération) a l'empreinte carbone la plus élevée par kg. La recherche porte sur les leviers comportementaux et les innovations (emballages intelligents).",
+        "enjeuxActuels": "La réglementation se renforce (loi AGEC 2020 en France, directive UE). L'articulation entre lutte anti-gaspi et aide alimentaire, le gaspillage en restauration collective, et la mesure standardisée (Food Loss Index) sont des enjeux clés. L'upcycling alimentaire (valorisation de sous-produits) émerge comme filière économique.",
+        "perspectives": "Le numérique (apps anti-gaspi comme Too Good To Go, gestion des stocks en IA), les nouvelles dates de péremption dynamiques, et les emballages actifs prolongeant la durée de vie sont des innovations prometteuses. L'économie circulaire appliquée à l'alimentation (cascadage des usages) se développe."
+      },
+      "sources": [
+        {
+          "titre": "Global Food Losses and Food Waste",
+          "institution": "FAO",
+          "url": "https://www.fao.org/3/i2697e/i2697e.pdf",
+          "annee": 2011,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Loi n° 2016-138 relative à la lutte contre le gaspillage alimentaire (Loi Garot)",
+          "institution": "République Française",
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031982342",
+          "annee": 2016,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["pertes alimentaires", "DLC", "DDM", "ODD 12.3", "chaîne alimentaire"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "1,3 milliard de tonnes gaspillées par an dans le monde",
+          "source": "FAO",
+          "annee": 2011
+        },
+        {
+          "valeur": "10 millions de tonnes gaspillées par an en France",
+          "source": "ADEME",
+          "annee": 2016
+        },
+        {
+          "valeur": "8-10% des émissions mondiales de GES",
+          "source": "GIEC",
+          "annee": 2019
+        }
+      ],
+      "relations": [
+        {"cible": "empreinte-carbone", "type": "contribue_a", "score": 75, "direction": "negatif"},
+        {"cible": "economie-circulaire", "type": "renvoie_a", "score": 70}
+      ],
+      "exemples": ["Fruits et légumes 'moches'", "Restes en restauration", "Produits proches de la DLC"],
+      "synonymes": ["Food waste", "Pertes alimentaires"]
+    },
+    {
+      "id": "semences-paysannes",
+      "terme": "Semences paysannes",
+      "categorie": "agriculture-alimentation",
+      "resume": "Semences sélectionnées, reproduites et échangées par les agriculteurs, garantes de la biodiversité cultivée et de l'autonomie paysanne.",
+      "definition": "Les semences paysannes désignent les variétés végétales sélectionnées, multipliées et conservées par les agriculteurs eux-mêmes, par opposition aux semences commerciales certifiées. Issues de sélection massale sur plusieurs générations, elles sont adaptées aux terroirs et conditions locales. Libres de droits de propriété intellectuelle (brevets, COV), elles peuvent être ressemées et échangées. Elles constituent un patrimoine génétique menacé par l'uniformisation des cultures.",
+      "definitionEtendue": {
+        "introduction": "Jusqu'au XXe siècle, toutes les semences étaient paysannes. L'industrialisation agricole et le développement des variétés hybrides F1 (non ressemables) ont marginalisé cette pratique. Le Réseau Semences Paysannes (2003) en France et Via Campesina au niveau mondial militent pour leur reconnaissance. La loi biodiversité de 2016 puis le règlement européen 2018/848 (bio) ouvrent des brèches juridiques.",
+        "mecanismes": "Les semences paysannes sont obtenues par sélection massale : l'agriculteur choisit les meilleurs individus pour la reproduction au fil des ans. Cela crée des populations génétiquement diverses (vs lignées pures homogènes), plus résilientes mais moins uniformes. L'échange entre paysans permet la diffusion et l'adaptation locale. Les maisons de semences paysannes organisent la conservation et la distribution.",
+        "contexteScientifique": "La recherche documente la perte de biodiversité cultivée : 75% des variétés ont disparu au XXe siècle (FAO). Les études comparent les performances des variétés paysannes vs modernes selon les contextes (agriculture à faibles intrants, adaptation climatique). Le débat porte sur le statut juridique (Catalogue officiel vs liberté), la biosécurité et les OGM.",
+        "enjeuxActuels": "Le cadre juridique reste contraignant : le Catalogue officiel des variétés limite la commercialisation. Les enjeux portent sur l'accès aux ressources génétiques (protocole de Nagoya), la protection contre la biopiraterie et les brevets sur le vivant. L'adaptation au changement climatique renouvelle l'intérêt pour la diversité génétique.",
+        "perspectives": "Le règlement bio UE 2018/848 autorise le 'matériel hétérogène biologique'. Les programmes de sélection participative associant chercheurs et paysans se multiplient. Les banques de semences communautaires, le numérique (bases de données génétiques) et les nouvelles techniques génomiques (sans OGM) ouvrent des perspectives controversées."
+      },
+      "sources": [
+        {
+          "titre": "The State of the World's Biodiversity for Food and Agriculture",
+          "institution": "FAO",
+          "url": "https://www.fao.org/state-of-biodiversity-for-food-agriculture/",
+          "annee": 2019,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Protocole de Nagoya sur l'accès et le partage des avantages",
+          "institution": "Convention sur la diversité biologique",
+          "annee": 2010,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["biodiversité cultivée", "sélection massale", "COV", "Catalogue officiel", "ressources génétiques"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "75% des variétés agricoles perdues au XXe siècle",
+          "source": "FAO",
+          "annee": 2010
+        },
+        {
+          "valeur": "80+ maisons de semences paysannes en France",
+          "source": "Réseau Semences Paysannes",
+          "annee": 2023
+        }
+      ],
+      "relations": [
+        {"cible": "biodiversite", "type": "contribue_a", "score": 90, "direction": "positif"},
+        {"cible": "souverainete-alimentaire", "type": "contribue_a", "score": 85, "direction": "positif"}
+      ],
+      "exemples": ["Blés anciens", "Tomates anciennes", "Maïs population", "Pommes de terre locales"],
+      "synonymes": ["Variétés paysannes", "Semences de ferme", "Variétés anciennes"]
+    },
+    {
+      "id": "elevage-extensif",
+      "terme": "Élevage extensif",
+      "categorie": "agriculture-alimentation",
+      "resume": "Système d'élevage à faible densité animale utilisant principalement les ressources naturelles (pâturages), avec un impact environnemental modéré.",
+      "definition": "L'élevage extensif désigne un mode de production animale caractérisé par une faible densité de bétail par unité de surface, une utilisation prédominante des ressources naturelles (herbe, parcours) plutôt que d'aliments concentrés, et une intégration dans les écosystèmes locaux. Il s'oppose à l'élevage intensif ou industriel. Il peut fournir des services écosystémiques (entretien des paysages, biodiversité, stockage carbone dans les prairies) mais nécessite de grandes surfaces.",
+      "definitionEtendue": {
+        "introduction": "L'élevage extensif est le mode d'élevage historique, encore dominant dans de nombreuses régions du monde (pasteurs nomades, ranching américain, alpages européens). La PAC a longtemps favorisé l'intensification mais reconnaît désormais les systèmes herbagers à travers les MAEC et les aides couplées. En France, il concerne notamment les zones de montagne et les AOC fromagères.",
+        "mecanismes": "Le système repose sur le pâturage : les animaux valorisent des surfaces non cultivables (prairies, parcours, alpages) en transformant la cellulose en protéines. La charge moyenne est inférieure à 1,4 UGB/ha. Les cycles naturels (mise bas saisonnière, transhumance) s'adaptent à la disponibilité des ressources. La complémentation en concentrés est limitée.",
+        "contexteScientifique": "Les recherches comparent les bilans environnementaux : par kg de produit, l'extensif émet souvent plus de GES (méthane entérique, moindre productivité) mais par ha il stocke du carbone (prairies permanentes) et préserve la biodiversité. L'évaluation dépend du système de référence (viande de ruminant vs alternatives) et des services écosystémiques pris en compte.",
+        "enjeuxActuels": "La viabilité économique face à la concurrence internationale, la rémunération des services environnementaux, le renouvellement des générations et l'adaptation au changement climatique (sécheresses) sont les principaux enjeux. Le débat sur la consommation de viande questionne la place de l'élevage.",
+        "perspectives": "Le pâturage tournant dynamique (méthode Savory) optimise la productivité et les services écosystémiques. Les paiements pour services environnementaux (PSE), la valorisation en circuits courts et labels de qualité, et l'éco-pastoralisme en milieux naturels offrent des perspectives. La recherche explore l'élevage 'bas carbone' combinant extensif et innovations."
+      },
+      "sources": [
+        {
+          "titre": "Livestock's Long Shadow: Environmental Issues and Options",
+          "institution": "FAO",
+          "url": "https://www.fao.org/3/a0701e/a0701e.pdf",
+          "annee": 2006,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Grazing Ecology and Forest History",
+          "auteur": "Vera, F.W.M.",
+          "annee": 2000,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["pâturage", "prairies permanentes", "UGB", "transhumance", "services écosystémiques"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "Charge extensive < 1,4 UGB/ha de SFP",
+          "source": "PAC - ICHN",
+          "annee": 2023
+        },
+        {
+          "valeur": "Prairies permanentes : 0,5-2 tC/ha stocké",
+          "source": "INRAE - Projet CASDAR Carbon Dairy",
+          "annee": 2020
+        }
+      ],
+      "relations": [
+        {"cible": "biodiversite", "type": "contribue_a", "score": 70, "direction": "positif"},
+        {"cible": "gaz-effet-serre", "type": "contribue_a", "score": 40, "direction": "negatif"},
+        {"cible": "services-ecosystemiques", "type": "contribue_a", "score": 75, "direction": "positif"}
+      ],
+      "exemples": ["Alpages", "Parcours méditerranéens", "Ranching", "Races rustiques (Aubrac, Salers)"],
+      "synonymes": ["Pastoralisme", "Élevage herbager", "Élevage à l'herbe"]
+    }
+  ]
+}

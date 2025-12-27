@@ -47,6 +47,30 @@
       "couleur": "#14b8a6",
       "icone": "globe",
       "fichier": "developpement-durable.json"
+    },
+    {
+      "id": "agriculture-alimentation",
+      "nom": "Agriculture & Alimentation",
+      "description": "Systèmes agricoles durables, souveraineté alimentaire et pratiques régénératives",
+      "couleur": "#84cc16",
+      "icone": "wheat",
+      "fichier": "agriculture-alimentation.json"
+    },
+    {
+      "id": "urbanisme-durable",
+      "nom": "Urbanisme durable",
+      "description": "Ville durable, mobilité, aménagement du territoire et qualité de vie urbaine",
+      "couleur": "#06b6d4",
+      "icone": "building",
+      "fichier": "urbanisme-durable.json"
+    },
+    {
+      "id": "pollution",
+      "nom": "Pollution & Santé",
+      "description": "Polluants, impacts sanitaires et environnementaux, remédiation",
+      "couleur": "#ef4444",
+      "icone": "alert",
+      "fichier": "pollution.json"
     }
   ]
 }

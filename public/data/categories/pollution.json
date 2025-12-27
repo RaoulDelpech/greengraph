@@ -1,0 +1,427 @@
+{
+  "id": "pollution",
+  "nom": "Pollution & Santé",
+  "description": "Polluants, impacts sanitaires et environnementaux, remédiation",
+  "couleur": "#ef4444",
+  "definitions": [
+    {
+      "id": "qualite-air",
+      "terme": "Qualité de l'air",
+      "categorie": "pollution",
+      "resume": "État de l'air ambiant caractérisé par les concentrations de polluants atmosphériques, avec des impacts majeurs sur la santé humaine et les écosystèmes.",
+      "definition": "La qualité de l'air désigne l'état de pureté ou de pollution de l'atmosphère, mesuré par les concentrations de polluants atmosphériques : particules fines (PM10, PM2,5), oxydes d'azote (NOx), ozone (O3), dioxyde de soufre (SO2), composés organiques volatils (COV). Elle est suivie par des réseaux de surveillance (AASQA en France) et encadrée par des valeurs limites européennes. La pollution de l'air est responsable de 48 000 décès prématurés par an en France.",
+      "definitionEtendue": {
+        "introduction": "La prise de conscience de la pollution atmosphérique date des 'smogs' meurtriers (Londres 1952 : 12 000 morts). En France, la loi LAURE (1996) crée le droit de respirer un air sain et organise la surveillance. Les Associations Agréées de Surveillance de la Qualité de l'Air (AASQA) mesurent quotidiennement les polluants. L'indice ATMO informe le public.",
+        "mecanismes": "Les polluants proviennent du trafic routier (NOx, PM), de l'industrie (SO2, PM), du chauffage (PM, HAP), de l'agriculture (ammoniac, particules). L'ozone troposphérique est un polluant secondaire formé par réaction photochimique. Les impacts sanitaires incluent maladies respiratoires, cardiovasculaires et cancers. Les populations vulnérables (enfants, personnes âgées, asthmatiques) sont particulièrement exposées.",
+        "contexteScientifique": "L'OMS a abaissé ses valeurs guides en 2021 (PM2,5 : 5 µg/m³). Les études épidémiologiques (Aphekom, Santé publique France) documentent les décès attribuables. Les modèles de qualité de l'air simulent la dispersion des polluants. Le débat porte sur les effets des faibles doses, les mélanges de polluants, et la justice environnementale.",
+        "enjeuxActuels": "L'alignement sur les valeurs OMS 2021 (plus strictes que les normes UE actuelles), la réduction des émissions (transport, chauffage au bois, agriculture), les pics de pollution, et la communication au public sont les principaux enjeux. Les contentieux juridiques (État condamné) accélèrent l'action.",
+        "perspectives": "Les capteurs low-cost et citoyens, les jumeaux numériques de la qualité de l'air, les zones à faibles émissions, et l'électrification des transports améliorent progressivement la situation. L'objectif UE (Zero Pollution Action Plan) vise la conformité OMS 2050. L'intégration climat-air-énergie-santé structure les politiques."
+      },
+      "sources": [
+        {
+          "titre": "WHO Global Air Quality Guidelines 2021",
+          "institution": "OMS",
+          "url": "https://www.who.int/publications/i/item/9789240034228",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Impacts de l'exposition chronique aux particules fines sur la mortalité en France",
+          "institution": "Santé publique France",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["PM2,5", "NOx", "ozone", "indice ATMO", "AASQA"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "48 000 décès prématurés/an en France liés à la pollution de l'air",
+          "source": "Santé publique France",
+          "annee": 2021
+        },
+        {
+          "valeur": "Valeur guide OMS PM2,5 : 5 µg/m³ (vs 25 µg/m³ norme UE actuelle)",
+          "source": "OMS",
+          "annee": 2021
+        }
+      ],
+      "relations": [
+        {"cible": "zone-faibles-emissions", "type": "renvoie_a", "score": 85},
+        {"cible": "gaz-effet-serre", "type": "proche_de", "score": 60}
+      ],
+      "exemples": ["Pics de pollution aux particules", "Ozone estival", "Pollution au dioxyde d'azote près des axes routiers"],
+      "synonymes": ["Pollution atmosphérique", "Air quality"]
+    },
+    {
+      "id": "microplastiques",
+      "terme": "Microplastiques",
+      "categorie": "pollution",
+      "resume": "Fragments de plastique de moins de 5 mm omniprésents dans l'environnement, issus de la dégradation des déchets plastiques et des produits manufacturés.",
+      "definition": "Les microplastiques sont des particules de plastique dont la taille est inférieure à 5 mm. On distingue les microplastiques primaires (fabriqués : microbilles cosmétiques, granulés industriels) et secondaires (dégradation de déchets plastiques). Omniprésents dans les océans, les sols, l'eau potable et l'air, ils entrent dans la chaîne alimentaire. Leur impact sur la santé humaine fait l'objet de recherches croissantes.",
+      "definitionEtendue": {
+        "introduction": "Le terme 'microplastique' est introduit par Richard Thompson en 2004. La prise de conscience s'accélère avec les études sur les gyres océaniques (continent de plastique). L'UE interdit les microbilles dans les cosmétiques (2018) puis élargit les restrictions (règlement REACH 2023). La recherche sur les nano- et microplastiques explose depuis 2015.",
+        "mecanismes": "Les sources incluent la fragmentation des déchets (UV, vagues, abrasion), les fibres textiles (lavage), les pneumatiques (usure), et les produits contenant des microbilles. Le transport se fait par l'eau, le vent et les organismes. L'ingestion par la faune marine est documentée ; le transfert trophique jusqu'à l'humain est confirmé (poissons, sel, eau).",
+        "contexteScientifique": "La recherche documente la contamination ubiquitaire : microplastiques trouvés dans le placenta, le sang, les poumons humains. Les effets toxicologiques (perturbation endocrinienne, inflammation, vecteur de polluants adsorbés) sont étudiés in vitro et sur modèles animaux. Les données épidémiologiques humaines restent limitées. Le comptage et la caractérisation posent des défis méthodologiques.",
+        "enjeuxActuels": "La réduction à la source (interdiction des plastiques à usage unique, écoconception), le captage (filtres lave-linge, stations d'épuration), et la compréhension des impacts sanitaires sont les priorités. L'harmonisation des méthodes de mesure et la surveillance environnementale structurée font défaut.",
+        "perspectives": "Un traité international sur les plastiques est en négociation (UNEA). Les alternatives au plastique (biomatériaux), les technologies de filtration avancées, et la recherche sur les nanoplastiques progressent. L'objectif est de réduire drastiquement les rejets de plastique dans l'environnement d'ici 2040."
+      },
+      "sources": [
+        {
+          "titre": "Microplastics in the marine environment",
+          "auteur": "Thompson, R.C. et al.",
+          "doi": "10.1126/science.1094559",
+          "journal": "Science",
+          "annee": 2004,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "REACH restriction on intentionally added microplastics",
+          "institution": "European Commission",
+          "annee": 2023,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["nanoplastiques", "microbilles", "transfert trophique", "perturbateurs endocriniens", "gyre océanique"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "5-50 milliards de tonnes de plastique dans les océans",
+          "source": "UNEP",
+          "annee": 2021
+        },
+        {
+          "valeur": "Humains ingèrent ~5g de plastique/semaine (estimation)",
+          "source": "WWF/Newcastle University",
+          "annee": 2019
+        }
+      ],
+      "relations": [
+        {"cible": "economie-circulaire", "type": "renvoie_a", "score": 70},
+        {"cible": "dechet", "type": "renvoie_a", "score": 80}
+      ],
+      "exemples": ["Microbilles dans les cosmétiques", "Fibres textiles synthétiques", "Fragments de bouteilles PET"],
+      "synonymes": ["MP", "Plastic particles"]
+    },
+    {
+      "id": "perturbateurs-endocriniens",
+      "terme": "Perturbateurs endocriniens",
+      "categorie": "pollution",
+      "resume": "Substances chimiques interférant avec le système hormonal, présentes dans de nombreux produits du quotidien et l'environnement.",
+      "definition": "Les perturbateurs endocriniens (PE) sont des substances chimiques d'origine naturelle ou synthétique capables d'interférer avec le système hormonal des organismes vivants. Ils peuvent mimer, bloquer ou modifier l'action des hormones, entraînant des effets sur le développement, la reproduction, le métabolisme ou le système immunitaire. Présents dans les pesticides, plastiques, cosmétiques et produits ménagers, ils font l'objet de préoccupations sanitaires croissantes.",
+      "definitionEtendue": {
+        "introduction": "Le concept de perturbation endocrinienne émerge avec les travaux de Theo Colborn ('Our Stolen Future', 1996) et la Déclaration de Wingspread (1991). L'affaire du Distilbène (DES) et les observations sur la faune (féminisation des poissons) ont alerté. L'UE adopte une définition en 2017 et une stratégie spécifique. En France, la SNPE (Stratégie Nationale sur les PE) structure l'action depuis 2014.",
+        "mecanismes": "Les PE agissent à des doses parfois très faibles (effet non-monotone) et lors de fenêtres de vulnérabilité (développement fœtal, puberté). Les voies d'exposition incluent l'alimentation, le contact cutané et l'inhalation. Les effets peuvent être transgénérationnels. Les principales familles sont les phtalates, bisphénols, parabènes, pesticides organochlorés, PCB, dioxines, et certains retardateurs de flamme.",
+        "contexteScientifique": "La recherche documente les liens avec l'obésité, le diabète, les troubles de la reproduction, les cancers hormonodépendants, et les troubles neurocomportementaux. Les effets cocktail (mélanges) et les faibles doses sont particulièrement étudiés. Les agences (ANSES, EFSA) réévaluent les substances. La relation dose-réponse atypique complique l'évaluation des risques classique.",
+        "enjeuxActuels": "L'identification et la substitution des PE dans les produits de consommation, l'harmonisation réglementaire (critères d'identification), la protection des populations vulnérables, et la recherche sur les effets cocktail sont les priorités. Le 'Bisphénol-free' a révélé les risques de substitution regrettable (BPS aussi problématique).",
+        "perspectives": "Le règlement CLP révisé et REACH intègrent mieux les PE. Le développement de la toxicologie prédictive (in silico, organoïdes), les alternatives sûres, et l'éducation du public progressent. L'objectif européen (Chemicals Strategy for Sustainability) vise une protection renforcée des populations vulnérables."
+      },
+      "sources": [
+        {
+          "titre": "Our Stolen Future",
+          "auteur": "Colborn, T., Dumanoski, D. & Myers, J.P.",
+          "annee": 1996,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "State of the Science of Endocrine Disrupting Chemicals",
+          "institution": "UNEP/WHO",
+          "url": "https://www.who.int/publications/i/item/9789241505031",
+          "annee": 2012,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["bisphénol", "phtalates", "effets cocktail", "fenêtres d'exposition", "SNPE"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "800+ substances identifiées comme PE potentiels",
+          "source": "UNEP/WHO",
+          "annee": 2012
+        },
+        {
+          "valeur": "Coût estimé des PE en UE : 157 milliards EUR/an",
+          "source": "Étude Trasande",
+          "annee": 2015
+        }
+      ],
+      "relations": [
+        {"cible": "microplastiques", "type": "proche_de", "score": 60},
+        {"cible": "qualite-air", "type": "proche_de", "score": 50}
+      ],
+      "exemples": ["Bisphénol A (BPA)", "Phtalates (DEHP)", "Pesticides (DDT, chlordécone)", "Retardateurs de flamme bromés"],
+      "synonymes": ["PE", "Endocrine disruptors", "Xénohormones"]
+    },
+    {
+      "id": "pollution-sols",
+      "terme": "Pollution des sols",
+      "categorie": "pollution",
+      "resume": "Contamination des sols par des substances chimiques d'origine industrielle, agricole ou urbaine, affectant leurs fonctions écologiques et sanitaires.",
+      "definition": "La pollution des sols désigne la présence dans les sols de substances chimiques (métaux lourds, hydrocarbures, pesticides, solvants) à des concentrations dépassant les seuils naturels et pouvant affecter les fonctions écologiques du sol, la qualité des eaux souterraines et la santé humaine. Elle résulte d'activités industrielles, agricoles, minières ou de la gestion des déchets. En France, on dénombre plus de 9 000 sites pollués connus.",
+      "definitionEtendue": {
+        "introduction": "La prise de conscience de la pollution des sols date des années 1970-80 avec les scandales de sites contaminés (Love Canal aux USA, 1978). En France, la politique des sites et sols pollués se structure dans les années 1990 (bases de données BASOL, BASIAS). Le principe pollueur-payeur et la dépollution avant changement d'usage guident l'action.",
+        "mecanismes": "Les polluants proviennent de dépôts atmosphériques, d'épandages (pesticides, boues), de fuites et déversements (industrie, stockage), et d'enfouissement de déchets. Leur devenir dépend de leurs propriétés (solubilité, volatilité, dégradabilité) et des caractéristiques du sol (pH, teneur en matière organique). La contamination peut atteindre les nappes phréatiques.",
+        "contexteScientifique": "Les études caractérisent la nature et l'étendue des pollutions (diagnostics), évaluent les risques (IEM, EQRS) et testent les techniques de remédiation. Les recherches portent sur la bioremédiation (utilisation de micro-organismes ou plantes), la spéciation des métaux, et les effets cocktail. Le concept de 'sol vivant' souligne l'importance de la biologie du sol.",
+        "enjeuxActuels": "La réhabilitation des friches industrielles (brownfields), le financement de la dépollution (défaillance du pollueur), les pollutions diffuses agricoles (pesticides, nitrates), et la protection des sols non encore contaminés sont les principaux enjeux. L'absence de directive européenne spécifique sur les sols est critiquée.",
+        "perspectives": "La proposition de directive européenne sur la santé des sols (2023), le développement de technologies de dépollution innovantes (phytoremédiation, nanoremédiation), et l'intégration de la qualité des sols dans les politiques d'aménagement progressent. L'objectif est d'atteindre 'zéro pollution des sols' à l'horizon 2050."
+      },
+      "sources": [
+        {
+          "titre": "Global Assessment of Soil Pollution",
+          "institution": "FAO/UNEP",
+          "url": "https://www.fao.org/publications/card/en/c/CB4827EN/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Méthodologie de gestion des sites et sols pollués",
+          "institution": "Ministère de la Transition écologique",
+          "annee": 2017,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["BASOL", "métaux lourds", "hydrocarbures", "phytoremédiation", "friches industrielles"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "9 000+ sites pollués inventoriés en France (BASOL)",
+          "source": "Géorisques",
+          "annee": 2023
+        },
+        {
+          "valeur": "33% des sols mondiaux dégradés",
+          "source": "FAO",
+          "annee": 2021
+        }
+      ],
+      "relations": [
+        {"cible": "biodiversite", "type": "contribue_a", "score": 70, "direction": "negatif"},
+        {"cible": "cycle-eau", "type": "contribue_a", "score": 65, "direction": "negatif"}
+      ],
+      "exemples": ["Sites industriels (métallurgie, chimie)", "Anciennes décharges", "Sols agricoles pollués aux pesticides"],
+      "synonymes": ["Contamination des sols", "Soil pollution"]
+    },
+    {
+      "id": "pollution-lumineuse",
+      "terme": "Pollution lumineuse",
+      "categorie": "pollution",
+      "resume": "Éclairage artificiel nocturne excessif perturbant les écosystèmes, la santé humaine et l'observation astronomique.",
+      "definition": "La pollution lumineuse désigne l'ensemble des effets néfastes de l'éclairage artificiel nocturne sur l'environnement et la santé. Elle inclut le halo lumineux (diffusion dans l'atmosphère), l'éblouissement, les lumières intrusives et le sur-éclairage. Elle perturbe les rythmes biologiques (humains et animaux), la biodiversité nocturne (insectes, oiseaux migrateurs, chauves-souris), et l'observation astronomique. C'est une forme de pollution en croissance rapide (+2%/an).",
+      "definitionEtendue": {
+        "introduction": "La préoccupation pour la pollution lumineuse émerge dans les années 1970-80 avec les astronomes. L'Association Nationale pour la Protection du Ciel et de l'Environnement Nocturnes (ANPCEN, 1999) structure le mouvement en France. La trame noire est inscrite dans la loi Biodiversité (2016). L'arrêté nuisances lumineuses (2018) réglemente l'éclairage.",
+        "mecanismes": "L'éclairage public, les enseignes, les bâtiments et les véhicules émettent de la lumière vers le ciel et horizontalement. Les LED bleues (6 000K) sont particulièrement problématiques pour la biodiversité et la santé (suppression de la mélatonine). La lumière perturbe les comportements (reproduction, migration, chasse) et peut entraîner des mortalités massives (insectes).",
+        "contexteScientifique": "Les études documentent le déclin des insectes nocturnes (40-60% en zones éclairées), les effets sur les oiseaux migrateurs, et les perturbations du sommeil humain. Le concept de 'trame noire' (continuités écologiques nocturnes) émerge par analogie avec les trames vertes et bleues. Les méthodes de mesure (radiance satellitaire, SQM) se développent.",
+        "enjeuxActuels": "La réduction de la consommation énergétique (éclairage = 40% de la facture électrique des communes), la préservation de la biodiversité nocturne, et l'amélioration de la santé publique motivent l'action. L'acceptabilité sociale (sentiment de sécurité) et le renouvellement du parc (passage aux LED) sont des enjeux clés.",
+        "perspectives": "L'extinction nocturne (cœur de nuit), les LED ambrées (2 700K), l'éclairage intelligent (détection, variation), et les réserves internationales de ciel étoilé (RICE) se développent. Les labels (Villes et Villages Étoilés) valorisent les bonnes pratiques. L'objectif est de réduire de 50% la pollution lumineuse d'ici 2030."
+      },
+      "sources": [
+        {
+          "titre": "Artificially lit surface of Earth at night increasing in radiance and extent",
+          "auteur": "Kyba, C.C.M. et al.",
+          "doi": "10.1126/sciadv.1701528",
+          "journal": "Science Advances",
+          "annee": 2017,
+          "type": "article_peer_reviewed",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Arrêté du 27 décembre 2018 relatif à la prévention, à la réduction et à la limitation des nuisances lumineuses",
+          "institution": "République Française",
+          "annee": 2018,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["trame noire", "halo lumineux", "mélatonine", "LED", "RICE"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "Croissance de +2%/an de la pollution lumineuse mondiale",
+          "source": "Kyba et al., Science Advances",
+          "annee": 2017
+        },
+        {
+          "valeur": "40-60% de déclin des insectes en zones éclairées",
+          "source": "Études diverses",
+          "annee": 2020
+        }
+      ],
+      "relations": [
+        {"cible": "biodiversite", "type": "contribue_a", "score": 75, "direction": "negatif"},
+        {"cible": "efficacite-energetique", "type": "renvoie_a", "score": 60}
+      ],
+      "exemples": ["Éclairage public excessif", "Enseignes lumineuses 24/7", "Serres éclairées"],
+      "synonymes": ["Light pollution", "Nuisances lumineuses"]
+    },
+    {
+      "id": "pollution-sonore",
+      "terme": "Pollution sonore",
+      "categorie": "pollution",
+      "resume": "Exposition à des niveaux de bruit excessifs affectant la santé humaine, le bien-être et les écosystèmes.",
+      "definition": "La pollution sonore désigne l'ensemble des nuisances causées par des niveaux de bruit excessifs dans l'environnement. Les sources principales sont les transports (routier, aérien, ferroviaire), l'industrie, la construction et les activités de loisirs. Elle provoque stress, troubles du sommeil, maladies cardiovasculaires et altération de la qualité de vie. En Europe, elle est considérée comme le second facteur environnemental de morbidité après la pollution de l'air.",
+      "definitionEtendue": {
+        "introduction": "La réglementation du bruit remonte aux années 1970 (loi bruit 1992 en France). La directive européenne 2002/49/CE impose des cartes de bruit stratégiques et des plans d'action. L'OMS publie des valeurs guides (2018). La Journée internationale de sensibilisation au bruit (avril) et les observatoires du bruit structurent la prise de conscience.",
+        "mecanismes": "Le bruit se mesure en décibels (dB). L'exposition chronique à 55 dB(A) de jour ou 45 dB de nuit est considérée comme nuisible. Les effets physiologiques incluent la sécrétion de cortisol, l'hypertension, et les troubles cognitifs chez l'enfant. Les inégalités d'exposition sont marquées (quartiers défavorisés plus exposés).",
+        "contexteScientifique": "Les études épidémiologiques (DEBATS sur le bruit aérien, études trafic routier) documentent les liens avec les maladies cardiovasculaires, le diabète et les troubles mentaux. L'OMS estime la perte d'années de vie en bonne santé (DALYs) liée au bruit. Les recherches sur le bruit sous-marin et ses effets sur la faune marine progressent.",
+        "enjeuxActuels": "La réduction du bruit à la source (véhicules, revêtements routiers), la protection des zones calmes, l'isolation acoustique des bâtiments, et la prise en compte dans l'urbanisme sont les priorités. L'électrification des transports réduit le bruit moteur mais pas le bruit de roulement.",
+        "perspectives": "Les 'zones calmes' protégées, les revêtements absorbants, les murs antibruit végétalisés, et l'urbanisme acoustique (disposition des bâtiments) améliorent la situation. La cartographie en temps réel (capteurs), les applications mobiles, et l'intégration du critère bruit dans les choix de mobilité progressent."
+      },
+      "sources": [
+        {
+          "titre": "Environmental Noise Guidelines for the European Region",
+          "institution": "OMS Europe",
+          "url": "https://www.who.int/europe/publications/i/item/9789289053563",
+          "annee": 2018,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Directive 2002/49/CE relative à l'évaluation et à la gestion du bruit dans l'environnement",
+          "institution": "Union Européenne",
+          "annee": 2002,
+          "type": "loi",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["décibel", "Lden", "cartographie de bruit", "DALYs", "zones calmes"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "20% des Européens exposés à des niveaux nocifs (>55 dB Lden)",
+          "source": "AEE",
+          "annee": 2020
+        },
+        {
+          "valeur": "12 000 décès prématurés/an en Europe liés au bruit",
+          "source": "OMS/AEE",
+          "annee": 2020
+        }
+      ],
+      "relations": [
+        {"cible": "mobilite-douce", "type": "contribue_a", "score": 65, "direction": "positif"},
+        {"cible": "ville-durable", "type": "renvoie_a", "score": 60}
+      ],
+      "exemples": ["Bruit routier", "Bruit aérien (aéroports)", "Bruit ferroviaire", "Bruit de chantier"],
+      "synonymes": ["Nuisances sonores", "Noise pollution"]
+    },
+    {
+      "id": "depollution",
+      "terme": "Dépollution",
+      "categorie": "pollution",
+      "resume": "Ensemble des techniques visant à éliminer ou réduire la contamination des milieux pollués (sols, eaux, air) pour restaurer leur qualité.",
+      "definition": "La dépollution (ou remédiation) désigne l'ensemble des techniques et procédés visant à éliminer, neutraliser ou réduire les polluants présents dans un milieu contaminé (sol, eau souterraine, sédiments). Elle peut être réalisée in situ (sur place) ou ex situ (excavation et traitement). Les techniques incluent des procédés physico-chimiques, biologiques (bioremédiation) ou thermiques. Le choix dépend du type de pollution, des objectifs et des contraintes économiques.",
+      "definitionEtendue": {
+        "introduction": "Les premières grandes opérations de dépollution datent des années 1980 aux États-Unis (Superfund, 1980). En France, la politique de gestion des sites pollués se structure dans les années 1990. L'approche évolue de la dépollution systématique vers la gestion selon l'usage futur (IEM - Interprétation de l'État des Milieux). Les friches industrielles représentent un patrimoine à valoriser.",
+        "mecanismes": "Les techniques de dépollution incluent : excavation et traitement hors site (centres spécialisés), traitement sur site (biopiles, ventilation), techniques in situ (injection, bioremédiation, phytoremédiation), et confinement (barrières). La bioremédiation utilise des micro-organismes ou plantes pour dégrader les polluants. Le choix dépend des polluants, de leur concentration et de l'hydrogéologie.",
+        "contexteScientifique": "La recherche développe des techniques innovantes : nanoremédiation, électroremédiation, couplage de procédés. L'évaluation des risques résiduels et le suivi à long terme sont essentiels. Le concept de 'Natural Attenuation' (atténuation naturelle surveillée) reconnaît la capacité d'auto-épuration des milieux. Le bilan coût-bénéfice et l'analyse du cycle de vie des traitements sont étudiés.",
+        "enjeuxActuels": "Le coût élevé de la dépollution (milliers à millions d'EUR par site), le financement (pollueur défaillant), les pollutions émergentes (PFAS, microplastiques), et la valorisation des friches sont les principaux enjeux. L'objectif est de recycler 100% des friches plutôt que d'artificialiser des sols vierges.",
+        "perspectives": "Les 'fonds friches' et dispositifs de financement public, les techniques de dépollution douces (phytoremédiation), l'économie circulaire des terres excavées, et l'intégration de la dépollution dans les projets urbains progressent. L'émergence des pollutions aux PFAS ('polluants éternels') pose de nouveaux défis techniques."
+      },
+      "sources": [
+        {
+          "titre": "Guide méthodologique de gestion des sites et sols pollués",
+          "institution": "BRGM/ADEME",
+          "annee": 2017,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Bioremediation: principles and applications",
+          "auteur": "Crawford, R.L. & Crawford, D.L.",
+          "annee": 1996,
+          "type": "ouvrage_reference",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["remédiation", "bioremédiation", "phytoremédiation", "excavation", "confinement"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "Coût moyen de dépollution : 100-500 EUR/m³ de sol traité",
+          "source": "ADEME",
+          "annee": 2020
+        },
+        {
+          "valeur": "Fonds friches France Relance : 750 millions EUR",
+          "source": "Gouvernement",
+          "annee": 2021
+        }
+      ],
+      "relations": [
+        {"cible": "pollution-sols", "type": "renvoie_a", "score": 95},
+        {"cible": "economie-circulaire", "type": "proche_de", "score": 55}
+      ],
+      "exemples": ["Dépollution d'anciennes usines à gaz", "Traitement de sols aux hydrocarbures", "Phytoremédiation par saules"],
+      "synonymes": ["Remédiation", "Remediation", "Assainissement"]
+    },
+    {
+      "id": "sante-environnementale",
+      "terme": "Santé environnementale",
+      "categorie": "pollution",
+      "resume": "Discipline étudiant les relations entre l'environnement et la santé humaine, intégrant les expositions aux polluants et les déterminants écologiques du bien-être.",
+      "definition": "La santé environnementale est le domaine de la santé publique qui étudie les effets des facteurs environnementaux sur la santé humaine. Elle englobe la qualité de l'air, de l'eau et des sols, l'exposition aux substances chimiques, le bruit, le changement climatique, et les conditions de logement. Elle vise à prévenir les maladies et promouvoir la santé en agissant sur l'environnement. En France, elle est structurée par les Plans Nationaux Santé Environnement (PNSE).",
+      "definitionEtendue": {
+        "introduction": "L'OMS définit la santé environnementale dès 1972. En France, le Grenelle de l'environnement (2007) puis les PNSE successifs (PNSE 1 à 4) structurent la politique. L'approche 'One Health' (Une seule santé) intègre santé humaine, animale et environnementale. La pandémie COVID-19 a renforcé la prise de conscience des liens santé-environnement.",
+        "mecanismes": "Les expositions environnementales agissent par inhalation, ingestion, contact cutané ou in utero. L'exposome (totalité des expositions au cours de la vie) complète la vision génétique de la santé. Les inégalités environnementales recoupent les inégalités sociales (populations précaires plus exposées). Les fenêtres de vulnérabilité (grossesse, enfance) sont critiques.",
+        "contexteScientifique": "L'épidémiologie environnementale documente les associations exposition-maladie. Les cohortes (ELFE en France) suivent des populations sur le long terme. La toxicologie évalue les effets des substances. Le concept de 'charge environnementale de morbidité' (environmental burden of disease) quantifie l'impact des facteurs environnementaux. Les controverses portent sur l'établissement des causalités et les faibles doses.",
+        "enjeuxActuels": "L'intégration santé-environnement dans les politiques publiques (évaluation d'impact santé), la formation des professionnels de santé, la réduction des inégalités environnementales, et la lutte contre les pollutions émergentes (PE, PFAS) sont les priorités. La communication des risques au public reste un défi.",
+        "perspectives": "L'exposome et les biomarqueurs d'exposition, la médecine environnementale, les 'contrats locaux de santé', et l'approche 'santé dans toutes les politiques' (Health in All Policies) progressent. Les co-bénéfices santé-climat (mobilité active, alimentation durable) alignent les agendas. L'objectif est de réduire de 20% la charge de morbidité environnementale d'ici 2030."
+      },
+      "sources": [
+        {
+          "titre": "Plan National Santé Environnement 4 (PNSE 4)",
+          "institution": "Ministères Santé et Transition écologique",
+          "url": "https://solidarites-sante.gouv.fr/sante-et-environnement/",
+          "annee": 2021,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        },
+        {
+          "titre": "Preventing disease through healthy environments",
+          "institution": "OMS",
+          "url": "https://www.who.int/publications/i/item/9789241565196",
+          "annee": 2016,
+          "type": "rapport_institution",
+          "niveauPreuve": "elevé"
+        }
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["exposome", "PNSE", "One Health", "inégalités environnementales", "évaluation d'impact santé"],
+      "indicateursQuantitatifs": [
+        {
+          "valeur": "23% de la mortalité mondiale attribuable à l'environnement",
+          "source": "OMS",
+          "annee": 2016
+        },
+        {
+          "valeur": "100 000+ décès/an en France liés à l'environnement",
+          "source": "Santé publique France",
+          "annee": 2021
+        }
+      ],
+      "relations": [
+        {"cible": "qualite-air", "type": "renvoie_a", "score": 85},
+        {"cible": "perturbateurs-endocriniens", "type": "renvoie_a", "score": 80},
+        {"cible": "changement-climatique", "type": "renvoie_a", "score": 75}
+      ],
+      "exemples": ["Études sur la pollution de l'air et mortalité", "Suivi de l'imprégnation aux pesticides", "Évaluation d'impact santé de projets urbains"],
+      "synonymes": ["Environmental health", "Santé-environnement"]
+    }
+  ]
+}
