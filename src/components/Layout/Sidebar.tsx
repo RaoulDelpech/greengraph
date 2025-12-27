@@ -52,19 +52,43 @@ export function Sidebar({
                 ${isSelected ? 'bg-gray-100' : 'hover:bg-gray-50'}
               `}
             >
-              <div
-                className={`w-4 h-4 rounded border-2 flex items-center justify-center transition-colors`}
-                style={{
-                  borderColor: category.couleur,
-                  backgroundColor: isSelected ? category.couleur : 'transparent',
-                }}
-              >
-                {isSelected && (
-                  <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                  </svg>
-                )}
-              </div>
+              {/* Image de catégorie ou checkbox */}
+              {category.image ? (
+                <div className="relative w-10 h-10 flex-shrink-0">
+                  <img
+                    src={category.image}
+                    alt={category.nom}
+                    className="w-10 h-10 rounded-lg object-cover"
+                    onError={(e) => {
+                      e.currentTarget.style.display = 'none';
+                    }}
+                  />
+                  {isSelected && (
+                    <div
+                      className="absolute -top-1 -right-1 w-4 h-4 rounded-full flex items-center justify-center"
+                      style={{ backgroundColor: category.couleur }}
+                    >
+                      <svg className="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <div
+                  className={`w-4 h-4 rounded border-2 flex items-center justify-center transition-colors`}
+                  style={{
+                    borderColor: category.couleur,
+                    backgroundColor: isSelected ? category.couleur : 'transparent',
+                  }}
+                >
+                  {isSelected && (
+                    <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                    </svg>
+                  )}
+                </div>
+              )}
               <div className="flex-1 min-w-0">
                 <p className="font-medium text-gray-800 text-sm truncate">{category.nom}</p>
                 <p className="text-xs text-gray-500 truncate">{category.description}</p>

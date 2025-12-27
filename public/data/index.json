@@ -6,6 +6,7 @@
       "description": "Concepts liés au modèle économique circulaire et à la réduction des déchets",
       "couleur": "#8b5cf6",
       "icone": "recycle",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Circular_economy.svg/200px-Circular_economy.svg.png",
       "fichier": "economie-circulaire.json"
     },
     {
@@ -14,6 +15,7 @@
       "description": "Diversité du vivant, écosystèmes et conservation",
       "couleur": "#22c55e",
       "icone": "leaf",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Biodiversity_wetland.jpg/200px-Biodiversity_wetland.jpg",
       "fichier": "biodiversite.json"
     },
     {
@@ -22,6 +24,7 @@
       "description": "Transition énergétique, changement climatique et émissions",
       "couleur": "#eab308",
       "icone": "sun",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Global_Temperature_Anomaly.svg/200px-Global_Temperature_Anomaly.svg.png",
       "fichier": "energie-climat.json"
     },
     {
@@ -30,6 +33,7 @@
       "description": "Traitement, valorisation et réduction des déchets",
       "couleur": "#f59e0b",
       "icone": "trash",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Recycling_symbol.svg/200px-Recycling_symbol.svg.png",
       "fichier": "dechets.json"
     },
     {
@@ -38,6 +42,7 @@
       "description": "Gestion de l'eau, qualité et préservation",
       "couleur": "#3b82f6",
       "icone": "droplet",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Water_cycle.svg/200px-Water_cycle.svg.png",
       "fichier": "eau.json"
     },
     {
@@ -46,6 +51,7 @@
       "description": "Concepts transversaux de durabilité et responsabilité",
       "couleur": "#14b8a6",
       "icone": "globe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Sustainable_Development_Goals.png/200px-Sustainable_Development_Goals.png",
       "fichier": "developpement-durable.json"
     },
     {
@@ -54,6 +60,7 @@
       "description": "Systèmes agricoles durables, souveraineté alimentaire et pratiques régénératives",
       "couleur": "#84cc16",
       "icone": "wheat",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Agroecology_farm.jpg/200px-Agroecology_farm.jpg",
       "fichier": "agriculture-alimentation.json"
     },
     {
@@ -62,6 +69,7 @@
       "description": "Ville durable, mobilité, aménagement du territoire et qualité de vie urbaine",
       "couleur": "#06b6d4",
       "icone": "building",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Green_roof.jpg/200px-Green_roof.jpg",
       "fichier": "urbanisme-durable.json"
     },
     {
@@ -70,6 +78,7 @@
       "description": "Polluants, impacts sanitaires et environnementaux, remédiation",
       "couleur": "#ef4444",
       "icone": "alert",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Air_pollution.jpg/200px-Air_pollution.jpg",
       "fichier": "pollution.json"
     },
     {
@@ -78,6 +87,7 @@
       "description": "Écosystèmes forestiers et marins, sylviculture durable, protection des océans",
       "couleur": "#059669",
       "icone": "trees",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Coral_reef_at_palmyra.jpg/200px-Coral_reef_at_palmyra.jpg",
       "fichier": "forets-oceans.json"
     },
     {
@@ -86,6 +96,7 @@
       "description": "Finance durable, investissement responsable, critères ESG et taxonomie",
       "couleur": "#0891b2",
       "icone": "trending-up",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/ESG_criteria.svg/200px-ESG_criteria.svg.png",
       "fichier": "finance-verte.json"
     },
     {
@@ -94,6 +105,7 @@
       "description": "Cadre juridique, conventions internationales, contentieux climatique",
       "couleur": "#7c3aed",
       "icone": "scale",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Paris_Agreement.svg/200px-Paris_Agreement.svg.png",
       "fichier": "droit-environnement.json"
     },
     {
@@ -102,6 +114,7 @@
       "description": "Innovations technologiques pour la transition écologique",
       "couleur": "#10b981",
       "icone": "cpu",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Solar_panels.jpg/200px-Solar_panels.jpg",
       "fichier": "technologies-vertes.json"
     }
   ]

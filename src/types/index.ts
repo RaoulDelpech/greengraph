@@ -104,6 +104,7 @@ export interface Categorie {
   description: string;
   couleur: string;
   icone?: string;
+  image?: string;  // Image miniature pour l'écran principal
   fichier: string;
 }
 
