@@ -338,7 +338,14 @@
         "Consommation d'espace",
         "Land take",
         "Étalement urbain"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Urban_sprawl.jpg/800px-Urban_sprawl.jpg",
+        "alt": "Étalement urbain",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Consommation d'espaces naturels par l'urbanisation"
+      }
     },
     {
       "id": "nature-en-ville",
@@ -421,7 +428,14 @@
         "Biodiversité urbaine",
         "Espaces verts",
         "Infrastructure verte"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Urban_park.jpg/800px-Urban_park.jpg",
+        "alt": "Parc urbain verdoyant",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Espaces verts améliorant la qualité de vie"
+      }
     },
     {
       "id": "ecoquartier",
@@ -491,7 +505,14 @@
       "synonymes": [
         "Quartier durable",
         "Sustainable neighborhood"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Vauban_Freiburg.jpg/800px-Vauban_Freiburg.jpg",
+        "alt": "Écoquartier Vauban à Freiburg",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Quartier durable exemplaire en Allemagne"
+      }
     },
     {
       "id": "zone-faibles-emissions",
@@ -569,7 +590,14 @@
         "ZFE-m",
         "Low Emission Zone",
         "LEZ"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Low_emission_zone.svg/800px-Low_emission_zone.svg.png",
+        "alt": "Panneau zone à faibles émissions",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Restriction de circulation pour améliorer la qualité de l'air"
+      }
     },
     {
       "id": "transport-commun",
@@ -651,7 +679,14 @@
         "Transports collectifs",
         "TC",
         "Public transit"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Modern_tramway.jpg/800px-Modern_tramway.jpg",
+        "alt": "Tramway moderne",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Transport collectif électrique et efficace"
+      }
     }
   ]
 }

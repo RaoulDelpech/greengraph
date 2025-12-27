@@ -461,7 +461,14 @@
           "source": "Kalundborg Symbiosis",
           "annee": 2023
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kalundborg_symbiosis.svg/800px-Kalundborg_symbiosis.svg.png",
+        "alt": "Symbiose industrielle de Kalundborg",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Échanges de flux entre industries à Kalundborg, Danemark"
+      }
     },
     {
       "id": "obsolescence-programmee",
@@ -544,7 +551,14 @@
           "source": "ADEME",
           "annee": 2022
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Planned_obsolescence.jpg/800px-Planned_obsolescence.jpg",
+        "alt": "Appareils électroniques obsolètes",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Déchets électroniques issus de l'obsolescence programmée"
+      }
     },
     {
       "id": "reutilisation",
@@ -625,7 +639,14 @@
           "source": "Institut Français de la Mode",
           "annee": 2022
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Reuse_center.jpg/800px-Reuse_center.jpg",
+        "alt": "Centre de réutilisation",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Donner une seconde vie aux objets"
+      }
     },
     {
       "id": "upcycling",
@@ -694,7 +715,14 @@
       "synonymes": [
         "surcyclage",
         "valorisation créative"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Upcycled_furniture.jpg/800px-Upcycled_furniture.jpg",
+        "alt": "Mobilier upcyclé",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Transformation créative de déchets en objets de valeur"
+      }
     },
     {
       "id": "economie-fonctionnalite",
@@ -769,7 +797,14 @@
       "synonymes": [
         "économie servicielle",
         "product-as-a-service"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Product_as_service.svg/800px-Product_as_service.svg.png",
+        "alt": "Schéma économie de fonctionnalité",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Vendre l'usage plutôt que le produit"
+      }
     },
     {
       "id": "reparabilite",
@@ -861,7 +896,14 @@
           "source": "Repair Café France",
           "annee": 2023
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Repair_cafe.jpg/800px-Repair_cafe.jpg",
+        "alt": "Repair Café en action",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Atelier de réparation participatif"
+      }
     },
     {
       "id": "consigne",
@@ -944,7 +986,14 @@
           "source": "Reloop",
           "annee": 2022
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Bottle_deposit_machine.jpg/800px-Bottle_deposit_machine.jpg",
+        "alt": "Machine de consigne pour bouteilles",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Système de consigne automatisé"
+      }
     },
     {
       "id": "ecologie-industrielle",
@@ -1028,7 +1077,14 @@
           "source": "ADEME",
           "annee": 2022
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Industrial_ecology.svg/800px-Industrial_ecology.svg.png",
+        "alt": "Schéma d'écologie industrielle",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Flux de matières dans un écosystème industriel"
+      }
     }
   ]
 }

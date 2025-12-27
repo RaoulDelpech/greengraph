@@ -94,7 +94,14 @@
           "source": "Loi AGEC",
           "annee": 2020
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Landfill_site.jpg/800px-Landfill_site.jpg",
+        "alt": "Centre d'enfouissement de déchets",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Décharge - fin de vie des déchets non valorisés"
+      }
     },
     {
       "id": "hierarchie-dechets",
@@ -188,7 +195,14 @@
           "source": "ADEME",
           "annee": 2022
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Waste_hierarchy.svg/800px-Waste_hierarchy.svg.png",
+        "alt": "Pyramide de la hiérarchie des déchets",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Prévention > Réemploi > Recyclage > Valorisation > Élimination"
+      }
     },
     {
       "id": "recyclage",
@@ -282,7 +296,14 @@
           "source": "Directive UE",
           "annee": 2018
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Recycling_plant.jpg/800px-Recycling_plant.jpg",
+        "alt": "Centre de tri des déchets",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Tri mécanisé pour le recyclage"
+      }
     },
     {
       "id": "compostage",
@@ -551,7 +572,14 @@
           "source": "ADEME",
           "annee": 2023
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Food_waste_compost.jpg/800px-Food_waste_compost.jpg",
+        "alt": "Biodéchets pour compostage",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Déchets organiques valorisables en compost"
+      }
     },
     {
       "id": "tri-selectif",
@@ -740,7 +768,14 @@
           "source": "ADEME",
           "annee": 2023
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EPR_logo.svg/400px-EPR_logo.svg.png",
+        "alt": "Responsabilité élargie du producteur",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Le producteur responsable de la fin de vie du produit"
+      }
     },
     {
       "id": "dechet-dangereux",
@@ -831,7 +866,14 @@
           "source": "ADEME",
           "annee": 2022
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Hazardous_waste.jpg/800px-Hazardous_waste.jpg",
+        "alt": "Stockage de déchets dangereux",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Déchets nécessitant un traitement spécifique"
+      }
     }
   ]
 }

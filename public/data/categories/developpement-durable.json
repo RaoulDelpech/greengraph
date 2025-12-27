@@ -445,7 +445,14 @@
           "source": "GFN",
           "annee": 2023
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ecological_footprint.svg/800px-Ecological_footprint.svg.png",
+        "alt": "Schéma empreinte écologique",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Mesure de la pression humaine sur les écosystèmes"
+      }
     },
     {
       "id": "limites-planetaires",
@@ -643,7 +650,14 @@
           "source": "MTE",
           "annee": 2023
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Ecological_transition.jpg/800px-Ecological_transition.jpg",
+        "alt": "Ville en transition écologique",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Transformation vers un modèle durable"
+      }
     },
     {
       "id": "agroecologie",
@@ -738,7 +752,14 @@
           "source": "Agence Bio",
           "annee": 2023
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Agroecology_farm.jpg/800px-Agroecology_farm.jpg",
+        "alt": "Ferme agroécologique diversifiée",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Agriculture intégrant les principes écologiques"
+      }
     },
     {
       "id": "economie-sociale-solidaire",
@@ -832,7 +853,14 @@
           "source": "ESS France",
           "annee": 2023
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Social_enterprise.jpg/800px-Social_enterprise.jpg",
+        "alt": "Entreprise sociale",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Économie au service de l'humain et de l'environnement"
+      }
     },
     {
       "id": "sobriete",
@@ -928,7 +956,14 @@
           "source": "négaWatt",
           "annee": 2022
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Minimalist_lifestyle.jpg/800px-Minimalist_lifestyle.jpg",
+        "alt": "Mode de vie sobre",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Réduire volontairement sa consommation"
+      }
     },
     {
       "id": "capital-naturel",
@@ -1023,7 +1058,14 @@
           "source": "Costanza et al.",
           "annee": 2014
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Natural_capital.svg/800px-Natural_capital.svg.png",
+        "alt": "Capital naturel",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Stocks de ressources fournies par la nature"
+      }
     }
   ]
 }

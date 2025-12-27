@@ -466,7 +466,14 @@
           "source": "WWF",
           "annee": 2020
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lemur_catta_Madagascar.jpg/800px-Lemur_catta_Madagascar.jpg",
+        "alt": "Lémurien catta, endémique de Madagascar",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Le lémurien catta, emblème de l'endémisme malgache"
+      }
     },
     {
       "id": "espece-invasive",
@@ -554,7 +561,14 @@
           "source": "IPBES",
           "annee": 2023
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cane_toad.jpg/800px-Cane_toad.jpg",
+        "alt": "Crapaud buffle, espèce invasive",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Crapaud buffle - envahisseur d'Australie"
+      }
     },
     {
       "id": "pollinisation",
@@ -635,7 +649,14 @@
           "source": "Sánchez-Bayo",
           "annee": 2019
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Bumblebee_pollinating.jpg/800px-Bumblebee_pollinating.jpg",
+        "alt": "Bourdon pollinisant une fleur",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "La pollinisation, service écosystémique vital"
+      }
     },
     {
       "id": "aire-protegee",
@@ -805,7 +826,14 @@
       "synonymes": [
         "continuité écologique",
         "trame verte et bleue"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Wildlife_overpass.jpg/800px-Wildlife_overpass.jpg",
+        "alt": "Écoduc au-dessus d'une autoroute",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Passage à faune reconnectant les habitats"
+      }
     },
     {
       "id": "trame-verte-bleue",
@@ -874,7 +902,14 @@
       "synonymes": [
         "TVB",
         "Green and blue infrastructure"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Green_blue_infrastructure.svg/800px-Green_blue_infrastructure.svg.png",
+        "alt": "Schéma de la trame verte et bleue",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Réseau écologique connectant les milieux naturels"
+      }
     },
     {
       "id": "rewilding",
@@ -945,7 +980,14 @@
       "synonymes": [
         "Réensauvagement",
         "Renaturalisation passive"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/European_bison_Bialowieza.jpg/800px-European_bison_Bialowieza.jpg",
+        "alt": "Bison d'Europe à Bialowieza",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Réintroduction du bison - symbole du rewilding"
+      }
     },
     {
       "id": "espece-parapluie",
@@ -1001,7 +1043,14 @@
       "synonymes": [
         "Umbrella species",
         "Espèce substitut"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Amur_leopard.jpg/800px-Amur_leopard.jpg",
+        "alt": "Léopard de l'Amour",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Espèce parapluie dont la protection bénéficie à tout l'écosystème"
+      }
     },
     {
       "id": "hotspot-biodiversite",
@@ -1082,7 +1131,14 @@
       "synonymes": [
         "Point chaud de biodiversité",
         "Zone d'endémisme prioritaire"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Biodiversity_hotspots_map.svg/800px-Biodiversity_hotspots_map.svg.png",
+        "alt": "Carte des hotspots de biodiversité",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Les 36 points chauds de la biodiversité mondiale"
+      }
     },
     {
       "id": "sixieme-extinction",
@@ -1175,7 +1231,14 @@
         "Extinction de l'Anthropocène",
         "Extinction de l'Holocène",
         "Defaunation"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Extinction_rate.svg/800px-Extinction_rate.svg.png",
+        "alt": "Graphique du taux d'extinction des espèces",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Taux d'extinction 100 à 1000 fois supérieur au rythme naturel"
+      }
     }
   ]
 }

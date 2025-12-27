@@ -352,7 +352,14 @@
         "Systèmes agroforestiers",
         "Silvoarable",
         "Sylvopastoralisme"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Agroforestry.jpg/800px-Agroforestry.jpg",
+        "alt": "Parcelle agroforestière",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Arbres intégrés aux cultures agricoles"
+      }
     },
     {
       "id": "souverainete-alimentaire",
@@ -502,7 +509,14 @@
       "synonymes": [
         "Short food supply chains",
         "Vente directe"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Farmers_market.jpg/800px-Farmers_market.jpg",
+        "alt": "Marché de producteurs",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Vente directe du producteur au consommateur"
+      }
     },
     {
       "id": "agriculture-regenerative",
@@ -670,7 +684,14 @@
       "synonymes": [
         "Food waste",
         "Pertes alimentaires"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Food_waste.jpg/800px-Food_waste.jpg",
+        "alt": "Gaspillage alimentaire",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "30% de la production alimentaire mondiale gaspillée"
+      }
     },
     {
       "id": "semences-paysannes",
@@ -747,7 +768,14 @@
         "Variétés paysannes",
         "Semences de ferme",
         "Variétés anciennes"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Heritage_seeds.jpg/800px-Heritage_seeds.jpg",
+        "alt": "Semences paysannes variées",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Diversité des variétés traditionnelles"
+      }
     },
     {
       "id": "elevage-extensif",
@@ -830,7 +858,14 @@
         "Pastoralisme",
         "Élevage herbager",
         "Élevage à l'herbe"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Extensive_cattle_grazing.jpg/800px-Extensive_cattle_grazing.jpg",
+        "alt": "Troupeau en pâturage extensif",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Élevage respectueux des cycles naturels"
+      }
     }
   ]
 }

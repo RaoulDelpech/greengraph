@@ -240,7 +240,14 @@
         "forêt vierge",
         "forêt ancienne",
         "old-growth forest"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Daintree_Rainforest.jpg/800px-Daintree_Rainforest.jpg",
+        "alt": "Forêt tropicale primaire de Daintree, Australie",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Canopée intacte d'une forêt primaire tropicale"
+      }
     },
     {
       "id": "sylviculture-durable",
@@ -314,7 +321,14 @@
         "gestion forestière durable",
         "foresterie durable",
         "sustainable forestry"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sustainable_forestry.jpg/800px-Sustainable_forestry.jpg",
+        "alt": "Exploitation forestière durable avec coupes sélectives",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Gestion forestière respectant les cycles naturels"
+      }
     },
     {
       "id": "puits-carbone-forestier",
@@ -387,7 +401,14 @@
         "séquestration forestière",
         "stockage carbone forêt",
         "forest carbon sink"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Sequoia_sempervirens_Big_Basin_Redwoods_State_Park_4.jpg/800px-Sequoia_sempervirens_Big_Basin_Redwoods_State_Park_4.jpg",
+        "alt": "Séquoias géants, puissants puits de carbone",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Les forêts anciennes stockent des quantités massives de carbone"
+      }
     },
     {
       "id": "ocean-acidification",
@@ -623,7 +644,14 @@
       "synonymes": [
         "surexploitation halieutique",
         "overfishing"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Trawer_Codend.jpg/800px-Trawer_Codend.jpg",
+        "alt": "Chalutier remontant ses filets pleins",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "La surpêche épuise les stocks halieutiques mondiaux"
+      }
     },
     {
       "id": "aire-marine-protegee",
@@ -698,7 +726,14 @@
         "réserve marine",
         "sanctuaire marin",
         "MPA"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Papah%C4%81naumoku%C4%81kea_Marine_National_Monument.jpg/800px-Papah%C4%81naumoku%C4%81kea_Marine_National_Monument.jpg",
+        "alt": "Réserve marine de Papahānaumokuākea, Hawaï",
+        "credit": "NOAA - Wikimedia Commons",
+        "type": "photo",
+        "legende": "Aire marine protégée abritant une biodiversité exceptionnelle"
+      }
     },
     {
       "id": "carbone-bleu",
@@ -771,7 +806,14 @@
       "synonymes": [
         "séquestration côtière",
         "coastal blue carbon"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Seagrass_meadow.jpg/800px-Seagrass_meadow.jpg",
+        "alt": "Prairie sous-marine de posidonies",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Les herbiers marins stockent le carbone bleu"
+      }
     },
     {
       "id": "mangrove",
@@ -1007,7 +1049,14 @@
       "synonymes": [
         "zone hypoxique",
         "dead zone"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Aquatic_Dead_Zones.jpg/800px-Aquatic_Dead_Zones.jpg",
+        "alt": "Carte des zones mortes océaniques mondiales",
+        "credit": "NASA/Wikimedia Commons",
+        "type": "schema",
+        "legende": "Zones hypoxiques causées par l'eutrophisation"
+      }
     },
     {
       "id": "agroforesterie",
@@ -1163,7 +1212,14 @@
       "synonymes": [
         "construction en bois",
         "timber construction"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Brock_Commons_Tallwood_House.jpg/800px-Brock_Commons_Tallwood_House.jpg",
+        "alt": "Tour en bois Brock Commons, Vancouver",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Construction bois haute performance - 18 étages"
+      }
     },
     {
       "id": "incendie-foret",
@@ -1236,7 +1292,14 @@
       "synonymes": [
         "feu de forêt",
         "wildfire"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Deerfire_high_res.jpg/800px-Deerfire_high_res.jpg",
+        "alt": "Incendie de forêt avec panache de fumée",
+        "credit": "John McColgan - Wikimedia Commons",
+        "type": "photo",
+        "legende": "Mégafeu - phénomène amplifié par le changement climatique"
+      }
     },
     {
       "id": "haute-mer",
@@ -1309,7 +1372,14 @@
       "synonymes": [
         "eaux internationales",
         "high seas"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Open_ocean.jpg/800px-Open_ocean.jpg",
+        "alt": "Océan ouvert, haute mer",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "La haute mer couvre 64% de la surface océanique"
+      }
     },
     {
       "id": "erosion-cotiere",
@@ -1382,7 +1452,14 @@
       "synonymes": [
         "recul du trait de côte",
         "coastal erosion"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Coastal_erosion_at_Happisburgh.jpg/800px-Coastal_erosion_at_Happisburgh.jpg",
+        "alt": "Érosion côtière à Happisburgh, Royaume-Uni",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Recul du trait de côte menaçant les habitations"
+      }
     },
     {
       "id": "espece-marine-migratrice",
@@ -1455,7 +1532,14 @@
       "synonymes": [
         "espèce migratrice marine",
         "migratory marine species"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Humpback_whale_underwater_shot.jpg/800px-Humpback_whale_underwater_shot.jpg",
+        "alt": "Baleine à bosse en migration",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Les baleines parcourent des milliers de kilomètres"
+      }
     },
     {
       "id": "algue-invasive",
@@ -1528,7 +1612,14 @@
       "synonymes": [
         "macroalgue invasive",
         "invasive seaweed"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Caulerpa_taxifolia.jpg/800px-Caulerpa_taxifolia.jpg",
+        "alt": "Caulerpa taxifolia, algue tueuse",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Algue invasive menaçant la Méditerranée"
+      }
     },
     {
       "id": "herbier-marin",
@@ -1603,7 +1694,14 @@
       "synonymes": [
         "prairie sous-marine",
         "seagrass meadow"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Posidonia_oceanica_meadow.jpg/800px-Posidonia_oceanica_meadow.jpg",
+        "alt": "Herbier de posidonies en Méditerranée",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Écosystème marin à haute valeur écologique"
+      }
     },
     {
       "id": "aquaculture-durable",
@@ -1677,7 +1775,14 @@
       "synonymes": [
         "aquaculture responsable",
         "sustainable aquaculture"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Aquaculture_in_Norway.jpg/800px-Aquaculture_in_Norway.jpg",
+        "alt": "Ferme aquacole en Norvège",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Aquaculture intégrée respectant l'environnement"
+      }
     }
   ]
 }

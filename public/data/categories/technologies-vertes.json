@@ -482,7 +482,14 @@
         "CCS",
         "CCUS",
         "carbon capture and storage"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Carbon_capture_and_storage.jpg/800px-Carbon_capture_and_storage.jpg",
+        "alt": "Installation de captage de CO2",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Captage direct du CO2 dans l'atmosphère"
+      }
     },
     {
       "id": "pompe-chaleur",
@@ -717,7 +724,14 @@
       "synonymes": [
         "precision farming",
         "agriculture numérique"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Precision_agriculture_drone.jpg/800px-Precision_agriculture_drone.jpg",
+        "alt": "Drone agricole survolant un champ",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Drone d'agriculture de précision pour l'épandage ciblé"
+      }
     },
     {
       "id": "biocarburant",
@@ -790,7 +804,14 @@
       "synonymes": [
         "biofuels",
         "agrocarburants"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Biodiesel_pump.jpg/800px-Biodiesel_pump.jpg",
+        "alt": "Pompe à biocarburant",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Station de distribution de biodiesel"
+      }
     },
     {
       "id": "recyclage-avance",
@@ -864,7 +885,14 @@
       "synonymes": [
         "recyclage chimique",
         "chemical recycling"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Advanced_recycling_plant.jpg/800px-Advanced_recycling_plant.jpg",
+        "alt": "Usine de recyclage chimique",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Technologies de recyclage moléculaire"
+      }
     },
     {
       "id": "impression-3d",
@@ -937,7 +965,14 @@
       "synonymes": [
         "3D printing",
         "additive manufacturing"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/3D_printed_house.jpg/800px-3D_printed_house.jpg",
+        "alt": "Maison construite par impression 3D",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Construction additive réduisant les déchets"
+      }
     },
     {
       "id": "dessalement",
@@ -1011,7 +1046,14 @@
       "synonymes": [
         "desalination",
         "désalinisation"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Desalination_plant_Israel.jpg/800px-Desalination_plant_Israel.jpg",
+        "alt": "Usine de dessalement en Israël",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Usine de dessalement par osmose inverse"
+      }
     },
     {
       "id": "bioplastique",
@@ -1085,7 +1127,14 @@
       "synonymes": [
         "biobased plastics",
         "plastiques biosourcés"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Bioplastic_products.jpg/800px-Bioplastic_products.jpg",
+        "alt": "Produits en bioplastique",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Emballages biodégradables à base végétale"
+      }
     },
     {
       "id": "stockage-energie",
@@ -1159,7 +1208,14 @@
       "synonymes": [
         "energy storage",
         "batteries stationnaires"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Tesla_Megapack.jpg/800px-Tesla_Megapack.jpg",
+        "alt": "Batteries de stockage à grande échelle",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Système de stockage par batteries industrielles"
+      }
     },
     {
       "id": "nucleaire-nouvelle-generation",
@@ -1234,7 +1290,14 @@
         "SMR",
         "advanced nuclear",
         "Gen IV reactors"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/SMR_concept.svg/800px-SMR_concept.svg.png",
+        "alt": "Concept de petit réacteur modulaire SMR",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Réacteurs modulaires de nouvelle génération"
+      }
     },
     {
       "id": "materiau-biosource",
@@ -1308,7 +1371,14 @@
       "synonymes": [
         "bio-based materials",
         "matériaux bio-sourcés"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Hemp_construction.jpg/800px-Hemp_construction.jpg",
+        "alt": "Construction en béton de chanvre",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Matériau isolant biosourcé à base de chanvre"
+      }
     },
     {
       "id": "intelligence-artificielle-environnement",
@@ -1382,7 +1452,14 @@
       "synonymes": [
         "AI for climate",
         "Green AI applications"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/AI_environmental_monitoring.svg/800px-AI_environmental_monitoring.svg.png",
+        "alt": "IA pour le monitoring environnemental",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Intelligence artificielle au service de l'écologie"
+      }
     },
     {
       "id": "geothermie",

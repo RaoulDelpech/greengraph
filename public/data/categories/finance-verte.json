@@ -316,7 +316,14 @@
       "synonymes": [
         "EU Taxonomy",
         "classification verte européenne"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/800px-Flag_of_Europe.svg.png",
+        "alt": "Drapeau européen - Taxonomie UE",
+        "credit": "Wikimedia Commons",
+        "type": "logo",
+        "legende": "La taxonomie européenne classe les activités économiques durables"
+      }
     },
     {
       "id": "csrd",
@@ -390,7 +397,14 @@
       "synonymes": [
         "directive reporting durabilité",
         "DPEF étendue"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Sustainability_reporting.svg/800px-Sustainability_reporting.svg.png",
+        "alt": "Reporting de durabilité CSRD",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Directive sur le reporting de durabilité des entreprises"
+      }
     },
     {
       "id": "sfdr",
@@ -463,7 +477,14 @@
       "synonymes": [
         "règlement disclosure durabilité",
         "SFDR"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Sustainable_Finance.svg/800px-Sustainable_Finance.svg.png",
+        "alt": "Finance durable - SFDR",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Règlement sur la publication d'informations en matière de durabilité"
+      }
     },
     {
       "id": "risque-climatique-financier",
@@ -537,7 +558,14 @@
       "synonymes": [
         "risque climat",
         "climate financial risk"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Climate_Risk.svg/800px-Climate_Risk.svg.png",
+        "alt": "Risques climatiques pour la finance",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Risques physiques et de transition pour le secteur financier"
+      }
     },
     {
       "id": "desinvestissement-fossile",
@@ -610,7 +638,14 @@
       "synonymes": [
         "fossil fuel divestment",
         "sortie des fossiles"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fossil_Free_logo.svg/400px-Fossil_Free_logo.svg.png",
+        "alt": "Logo Fossil Free - Désinvestissement",
+        "credit": "Wikimedia Commons",
+        "type": "logo",
+        "legende": "Mouvement mondial de désinvestissement des énergies fossiles"
+      }
     },
     {
       "id": "finance-impact",
@@ -683,7 +718,14 @@
       "synonymes": [
         "impact investing",
         "investissement à impact"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Impact_investing.svg/800px-Impact_investing.svg.png",
+        "alt": "Finance à impact",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Investissement générant un impact social et environnemental positif"
+      }
     },
     {
       "id": "credit-carbone",
@@ -838,7 +880,14 @@
       "synonymes": [
         "carbon market",
         "système d'échange de quotas"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/EU_ETS.svg/800px-EU_ETS.svg.png",
+        "alt": "Marché européen du carbone EU-ETS",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Système d'échange de quotas d'émission de l'UE"
+      }
     },
     {
       "id": "label-isr",
@@ -911,7 +960,14 @@
       "synonymes": [
         "label investissement responsable",
         "SRI label"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/bc/Label_ISR.svg/400px-Label_ISR.svg.png",
+        "alt": "Label ISR français",
+        "credit": "Ministère de l'Économie - France",
+        "type": "logo",
+        "legende": "Label français pour l'Investissement Socialement Responsable"
+      }
     },
     {
       "id": "greenwashing-financier",
@@ -985,7 +1041,14 @@
       "synonymes": [
         "ESG washing",
         "écoblanchiment financier"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Greenwashing.svg/800px-Greenwashing.svg.png",
+        "alt": "Illustration du greenwashing",
+        "credit": "Wikimedia Commons",
+        "type": "illustration",
+        "legende": "Allégations environnementales trompeuses dans la finance"
+      }
     },
     {
       "id": "engagement-actionnarial",
@@ -1058,7 +1121,14 @@
       "synonymes": [
         "shareholder engagement",
         "stewardship"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Shareholder_activism.jpg/800px-Shareholder_activism.jpg",
+        "alt": "Assemblée générale d'actionnaires",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Dialogue actionnaires-entreprises sur les enjeux ESG"
+      }
     },
     {
       "id": "finance-biodiversite",
@@ -1132,7 +1202,14 @@
       "synonymes": [
         "nature finance",
         "biodiversity finance"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/TNFD_logo.svg/400px-TNFD_logo.svg.png",
+        "alt": "Taskforce on Nature-related Financial Disclosures",
+        "credit": "TNFD",
+        "type": "logo",
+        "legende": "Cadre de reporting sur les risques liés à la nature"
+      }
     },
     {
       "id": "blended-finance",
@@ -1205,7 +1282,14 @@
       "synonymes": [
         "finance mixte",
         "catalytic capital"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Blended_finance.svg/800px-Blended_finance.svg.png",
+        "alt": "Finance mixte public-privé",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Mobilisation de capitaux privés par des fonds publics"
+      }
     },
     {
       "id": "science-based-targets",
@@ -1277,7 +1361,14 @@
       "synonymes": [
         "objectifs fondés sur la science",
         "SBT"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/SBTi_logo.svg/400px-SBTi_logo.svg.png",
+        "alt": "Logo Science Based Targets initiative",
+        "credit": "SBTi",
+        "type": "logo",
+        "legende": "Objectifs climatiques alignés sur la science"
+      }
     }
   ]
 }

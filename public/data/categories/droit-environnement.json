@@ -75,7 +75,14 @@
       "synonymes": [
         "environmental law",
         "droit écologique"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Balanced_scale_of_Justice.svg/800px-Balanced_scale_of_Justice.svg.png",
+        "alt": "Balance de la justice",
+        "credit": "Wikimedia Commons",
+        "type": "illustration",
+        "legende": "Le droit au service de la protection de l'environnement"
+      }
     },
     {
       "id": "principe-pollueur-payeur",
@@ -147,7 +154,14 @@
       "synonymes": [
         "polluter pays principle",
         "PPP"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Industrial_pollution.jpg/800px-Industrial_pollution.jpg",
+        "alt": "Pollution industrielle - cheminées d'usine",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Le pollueur doit assumer les coûts de la pollution"
+      }
     },
     {
       "id": "principe-precaution",
@@ -218,7 +232,14 @@
       "synonymes": [
         "precautionary principle",
         "Vorsorgeprinzip"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Precautionary_principle.svg/800px-Precautionary_principle.svg.png",
+        "alt": "Schéma du principe de précaution",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Agir face à l'incertitude scientifique"
+      }
     },
     {
       "id": "accord-paris",
@@ -372,7 +393,14 @@
       "synonymes": [
         "climate litigation",
         "procès climatiques"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Climate_lawsuit.jpg/800px-Climate_lawsuit.jpg",
+        "alt": "Manifestation pour la justice climatique",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Recours en justice contre l'inaction climatique"
+      }
     },
     {
       "id": "ecocide",
@@ -524,7 +552,14 @@
       "synonymes": [
         "due diligence",
         "vigilance duty"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Supply_chain.svg/800px-Supply_chain.svg.png",
+        "alt": "Chaîne d'approvisionnement mondiale",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Responsabilité des entreprises sur leur chaîne de valeur"
+      }
     },
     {
       "id": "droits-nature",
@@ -595,7 +630,14 @@
       "synonymes": [
         "rights of nature",
         "droits de la Terre-Mère"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Whanganui_River.jpg/800px-Whanganui_River.jpg",
+        "alt": "Fleuve Whanganui, Nouvelle-Zélande",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Premier fleuve au monde à obtenir la personnalité juridique"
+      }
     },
     {
       "id": "convention-biodiversite",
@@ -749,7 +791,14 @@
       "synonymes": [
         "EIE",
         "environmental impact assessment"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Environmental_impact_assessment.svg/800px-Environmental_impact_assessment.svg.png",
+        "alt": "Schéma d'étude d'impact",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Évaluation préalable des impacts d'un projet"
+      }
     },
     {
       "id": "prejudice-ecologique",
@@ -819,7 +868,14 @@
       "synonymes": [
         "dommage écologique",
         "environmental damage"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Oil_spill_cleanup.jpg/800px-Oil_spill_cleanup.jpg",
+        "alt": "Nettoyage d'une marée noire",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Réparation du préjudice causé à l'environnement"
+      }
     },
     {
       "id": "acces-justice-environnementale",
@@ -892,7 +948,14 @@
       "synonymes": [
         "access to environmental justice",
         "3ème pilier Aarhus"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aarhus_Convention.svg/800px-Aarhus_Convention.svg.png",
+        "alt": "Convention d'Aarhus",
+        "credit": "Wikimedia Commons",
+        "type": "logo",
+        "legende": "Droit à l'information et à la participation du public"
+      }
     },
     {
       "id": "directive-habitats",
@@ -966,7 +1029,14 @@
       "synonymes": [
         "directive Faune-Flore-Habitats",
         "FFH directive"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Natura_2000_logo.svg/400px-Natura_2000_logo.svg.png",
+        "alt": "Logo Natura 2000",
+        "credit": "Commission Européenne",
+        "type": "logo",
+        "legende": "Réseau européen de sites protégés"
+      }
     },
     {
       "id": "reglementation-reach",
@@ -1039,7 +1109,14 @@
       "synonymes": [
         "REACH regulation",
         "règlement substances chimiques"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/REACH_regulation.svg/800px-REACH_regulation.svg.png",
+        "alt": "Règlement REACH",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Enregistrement et évaluation des substances chimiques"
+      }
     },
     {
       "id": "loi-climat-resilience",
@@ -1112,7 +1189,14 @@
       "synonymes": [
         "loi climat 2021",
         "Climate and Resilience Law"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_France.svg/800px-Flag_of_France.svg.png",
+        "alt": "Drapeau français - Loi Climat",
+        "credit": "Wikimedia Commons",
+        "type": "logo",
+        "legende": "Loi française de 2021 sur le climat et la résilience"
+      }
     }
   ]
 }

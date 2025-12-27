@@ -156,7 +156,14 @@
       "synonymes": [
         "MP",
         "Plastic particles"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Microplastics.jpg/800px-Microplastics.jpg",
+        "alt": "Microplastiques sous microscope",
+        "credit": "NOAA - Wikimedia Commons",
+        "type": "photo",
+        "legende": "Fragments plastiques de moins de 5mm"
+      }
     },
     {
       "id": "perturbateurs-endocriniens",
@@ -231,7 +238,14 @@
         "PE",
         "Endocrine disruptors",
         "Xénohormones"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Endocrine_disruptors.svg/800px-Endocrine_disruptors.svg.png",
+        "alt": "Action des perturbateurs endocriniens",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Molécules interférant avec le système hormonal"
+      }
     },
     {
       "id": "pollution-sols",
@@ -306,7 +320,14 @@
       "synonymes": [
         "Contamination des sols",
         "Soil pollution"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Soil_contamination.jpg/800px-Soil_contamination.jpg",
+        "alt": "Sol contaminé",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Pollution industrielle des sols"
+      }
     },
     {
       "id": "pollution-lumineuse",
@@ -381,7 +402,14 @@
       "synonymes": [
         "Light pollution",
         "Nuisances lumineuses"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Light_pollution_europe.jpg/800px-Light_pollution_europe.jpg",
+        "alt": "Pollution lumineuse vue du ciel",
+        "credit": "NASA - Wikimedia Commons",
+        "type": "photo",
+        "legende": "L'Europe la nuit - halos lumineux des villes"
+      }
     },
     {
       "id": "pollution-sonore",
@@ -456,7 +484,14 @@
       "synonymes": [
         "Nuisances sonores",
         "Noise pollution"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Noise_pollution.jpg/800px-Noise_pollution.jpg",
+        "alt": "Source de pollution sonore urbaine",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Le bruit, nuisance invisible mais omniprésente"
+      }
     },
     {
       "id": "depollution",
@@ -615,7 +650,14 @@
       "synonymes": [
         "Environmental health",
         "Santé-environnement"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Environmental_health.svg/800px-Environmental_health.svg.png",
+        "alt": "Santé environnementale",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Liens entre environnement et santé humaine"
+      }
     }
   ]
 }

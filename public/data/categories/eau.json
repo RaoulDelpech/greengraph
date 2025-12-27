@@ -271,7 +271,14 @@
           "source": "OCDE",
           "annee": 2022
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Greywater_recycling.jpg/800px-Greywater_recycling.jpg",
+        "alt": "Système de recyclage des eaux grises",
+        "credit": "Wikimedia Commons",
+        "type": "photo",
+        "legende": "Récupération des eaux de lavage pour l'irrigation"
+      }
     },
     {
       "id": "empreinte-eau",
@@ -356,7 +363,14 @@
           "source": "WWF",
           "annee": 2020
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Water_footprint.svg/800px-Water_footprint.svg.png",
+        "alt": "Empreinte eau par produit",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Consommation d'eau cachée dans nos produits"
+      }
     },
     {
       "id": "zone-humide",
@@ -644,7 +658,14 @@
           "source": "ONU",
           "annee": 2023
         }
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Wastewater_treatment_plant.jpg/800px-Wastewater_treatment_plant.jpg",
+        "alt": "Station d'épuration",
+        "credit": "Wikimedia Commons - CC BY-SA",
+        "type": "photo",
+        "legende": "Bassins de traitement des eaux usées"
+      }
     },
     {
       "id": "aquifere",
@@ -725,7 +746,14 @@
         "formation aquifère",
         "nappe souterraine",
         "groundwater reservoir"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Aquifer.svg/800px-Aquifer.svg.png",
+        "alt": "Coupe d'un aquifère",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Structure géologique contenant l'eau souterraine"
+      }
     },
     {
       "id": "nappe-phreatique",
@@ -805,7 +833,14 @@
         "nappe libre",
         "nappe superficielle",
         "water table"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Water_table.svg/800px-Water_table.svg.png",
+        "alt": "Schéma de nappe phréatique",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Réservoir d'eau souterraine peu profond"
+      }
     },
     {
       "id": "gestion-integree-eau",
@@ -894,7 +929,14 @@
         "IWRM",
         "Integrated Water Resources Management",
         "gestion par bassin"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Integrated_water_management.svg/800px-Integrated_water_management.svg.png",
+        "alt": "Gestion intégrée des ressources en eau",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Approche holistique de la gestion de l'eau"
+      }
     },
     {
       "id": "eau-virtuelle",
@@ -975,7 +1017,14 @@
         "virtual water",
         "eau cachée",
         "embedded water"
-      ]
+      ],
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Virtual_water.svg/800px-Virtual_water.svg.png",
+        "alt": "Concept d'eau virtuelle",
+        "credit": "Wikimedia Commons",
+        "type": "schema",
+        "legende": "Eau incorporée dans la production des biens"
+      }
     }
   ]
 }
