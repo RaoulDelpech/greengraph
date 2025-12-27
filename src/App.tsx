@@ -6,6 +6,7 @@ import { GraphView } from './components/Graph';
 import { ListView } from './components/List';
 import { DefinitionPanel } from './components/Definition';
 import { ChatPanel } from './components/Chat';
+import { OnboardingTour } from './components/Onboarding';
 import type { SearchBarHandle } from './components/Search';
 
 function App() {
@@ -241,6 +242,9 @@ function App() {
           </div>
         )}
       </div>
+
+      {/* Tour d'onboarding pour nouveaux utilisateurs */}
+      <OnboardingTour />
     </div>
   );
 }
