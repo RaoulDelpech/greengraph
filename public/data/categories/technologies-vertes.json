@@ -1,0 +1,597 @@
+{
+  "id": "technologies-vertes",
+  "nom": "Technologies vertes",
+  "description": "Innovations technologiques pour la transition écologique",
+  "couleur": "#10b981",
+  "definitions": [
+    {
+      "id": "energie-solaire-photovoltaique",
+      "terme": "Énergie solaire photovoltaïque",
+      "categorie": "technologies-vertes",
+      "resume": "Conversion directe du rayonnement solaire en électricité via l'effet photoélectrique. Technologie mature en croissance exponentielle.",
+      "definition": "L'énergie solaire photovoltaïque est la technologie de conversion directe du rayonnement solaire en électricité grâce à des cellules semi-conductrices exploitant l'effet photoélectrique. Les panneaux solaires, composés principalement de silicium cristallin, ont vu leur coût chuter de 99% depuis 1976 et leur rendement augmenter (22-26% pour le cristallin commercial). Le photovoltaïque est devenu l'énergie la moins chère de l'histoire dans la plupart des régions du monde.",
+      "definitionEtendue": {
+        "introduction": "L'effet photovoltaïque est découvert par Becquerel (1839). Les premières cellules pratiques sont développées aux Bell Labs (1954). L'essor commercial débute dans les années 2000 avec les politiques de soutien (Allemagne). La Chine domine aujourd'hui 80% de la production mondiale. La capacité installée dépasse 1 200 GW (2023).",
+        "mecanismes": "Les cellules photovoltaïques utilisent des semi-conducteurs (silicium cristallin, couches minces, pérovskites) pour convertir les photons en électrons. Le rendement dépend du matériau et de la technologie (monocristallin > polycristallin > amorphe). Les onduleurs convertissent le courant continu en alternatif. Le stockage (batteries) résout l'intermittence.",
+        "contexteScientifique": "La recherche vise : les cellules tandem (pérovskite/silicium, >30% rendement), les cellules organiques, le recyclage des panneaux, et l'intégration architecturale (BIPV). La durée de vie dépasse 25-30 ans avec dégradation <0,5%/an. Le bilan carbone (20-40 gCO2/kWh) est très favorable.",
+        "enjeuxActuels": "Le déploiement s'accélère (+50% en 2023). Les défis : intermittence et stockage, occupation des sols (agrivoltaïsme comme solution), chaîne d'approvisionnement (dépendance Chine), et recyclage des panneaux en fin de vie. L'autoconsommation et les communautés d'énergie se développent.",
+        "perspectives": "L'AIE prévoit 5 000 GW en 2030 (+4x). L'avenir passe par : les cellules tandem, le solaire flottant, l'agrivoltaïsme, le stockage intégré, et la filière de recyclage. Le photovoltaïque sera le pilier de la transition énergétique."
+      },
+      "sources": [
+        {"titre": "World Energy Outlook", "auteur": "AIE", "url": "https://www.iea.org/reports/world-energy-outlook-2023", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "IRENA Solar Energy Statistics", "auteur": "IRENA", "url": "https://www.irena.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["photovoltaïque", "silicium", "pérovskite", "rendement", "LCOE"],
+      "indicateursQuantitatifs": [
+        {"valeur": "1 200+ GW capacité mondiale installée", "source": "IRENA", "annee": 2023},
+        {"valeur": "Coût : -99% depuis 1976", "source": "NREL", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "energie-renouvelable", "type": "est_type_de", "score": 95},
+        {"cible": "transition-energetique", "type": "contribue_a", "score": 90}
+      ],
+      "exemples": ["Parc solaire Bhadla (Inde, 2,2 GW)", "Toitures photovoltaïques", "Agrivoltaïsme"],
+      "synonymes": ["PV", "solar photovoltaics", "panneaux solaires"]
+    },
+    {
+      "id": "eolien",
+      "terme": "Énergie éolienne",
+      "categorie": "technologies-vertes",
+      "resume": "Conversion de l'énergie cinétique du vent en électricité via des aérogénérateurs. 2ème source renouvelable mondiale après l'hydro.",
+      "definition": "L'énergie éolienne est la technologie de conversion de l'énergie cinétique du vent en électricité grâce à des aérogénérateurs (turbines). Les éoliennes modernes atteignent 15 MW (offshore) avec des pales de 100+ mètres. L'éolien terrestre (onshore) et maritime (offshore) représentent 900+ GW de capacité mondiale (2023). Le facteur de charge varie de 25% (onshore) à 50% (offshore).",
+      "definitionEtendue": {
+        "introduction": "L'exploitation du vent remonte aux moulins (1er millénaire). Les premières éoliennes électriques datent du XIXe siècle. L'essor moderne commence au Danemark (1980s). L'offshore se développe depuis 2000. Les turbines ont grandi : de 50 kW (1980) à 15+ MW (2023). L'Europe a été pionnière, désormais devancée par la Chine.",
+        "mecanismes": "Le vent fait tourner les pales (aérodynamique), entraînant un générateur via un multiplicateur ou en entraînement direct. La puissance varie au cube de la vitesse du vent (loi de Betz : max 59% récupérable). Les turbines modernes s'adaptent à la direction et la vitesse du vent. L'offshore bénéficie de vents plus forts et réguliers.",
+        "contexteScientifique": "La recherche porte sur : les turbines géantes (20+ MW), l'éolien flottant (eaux profondes), la réduction des impacts (oiseaux, paysage), et l'optimisation (IA). La durée de vie est de 20-25 ans. Le recyclage des pales (composites) est un défi en cours de résolution.",
+        "enjeuxActuels": "L'éolien représente 7% de l'électricité mondiale. Les défis : acceptabilité locale (terrestre), coûts de l'offshore, intermittence, et chaîne d'approvisionnement (terres rares). L'éolien flottant ouvre de nouvelles zones (Méditerranée, Atlantique profond).",
+        "perspectives": "L'AIE prévoit 3 000 GW en 2050. L'avenir passe par : l'offshore flottant, l'éolien en haute mer, l'hybridation (solaire-éolien-stockage), et le repowering des anciens parcs. L'éolien sera un pilier majeur de la décarbonation."
+      },
+      "sources": [
+        {"titre": "Global Wind Report", "auteur": "GWEC", "url": "https://gwec.net/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Wind Energy Statistics", "auteur": "IRENA", "url": "https://www.irena.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["aérogénérateur", "offshore", "flottant", "facteur de charge", "Betz"],
+      "indicateursQuantitatifs": [
+        {"valeur": "900+ GW capacité mondiale", "source": "GWEC", "annee": 2023},
+        {"valeur": "Offshore : 64 GW installés", "source": "GWEC", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "energie-renouvelable", "type": "est_type_de", "score": 95},
+        {"cible": "transition-energetique", "type": "contribue_a", "score": 90}
+      ],
+      "exemples": ["Hornsea 2 (UK, 1,3 GW)", "Parc éolien de Gansu (Chine)", "Éolien flottant Hywind"],
+      "synonymes": ["wind energy", "énergie du vent"]
+    },
+    {
+      "id": "hydrogene-vert",
+      "terme": "Hydrogène vert",
+      "categorie": "technologies-vertes",
+      "resume": "Hydrogène produit par électrolyse de l'eau avec de l'électricité renouvelable. Vecteur clé pour décarboner l'industrie et les transports lourds.",
+      "definition": "L'hydrogène vert est l'hydrogène (H2) produit par électrolyse de l'eau en utilisant exclusivement de l'électricité d'origine renouvelable. Il se distingue de l'hydrogène gris (gaz naturel, 95% de la production) et bleu (gaz + captage carbone). L'hydrogène vert est un vecteur énergétique clé pour décarboner les secteurs difficiles : industrie lourde (acier, chimie), transport lourd (camions, navires, avions), et stockage intersaisonnier.",
+      "definitionEtendue": {
+        "introduction": "L'hydrogène est utilisé industriellement depuis le XIXe siècle (procédé Haber-Bosch pour l'ammoniac). 95% est aujourd'hui produit à partir de combustibles fossiles (900 Mt CO2/an). L'électrolyse existe depuis 1800 mais restait coûteuse. La baisse des coûts des renouvelables rend l'hydrogène vert compétitif à horizon 2030.",
+        "mecanismes": "L'électrolyse dissocie l'eau (H2O) en hydrogène (H2) et oxygène (O2). Les technologies principales sont : alcaline (mature, moins chère), PEM (compact, réactif), et SOEC (haute température, efficace). L'hydrogène peut être comprimé, liquéfié, ou transformé en ammoniac/méthanol pour le transport. Les piles à combustible reconvertissent H2 en électricité.",
+        "contexteScientifique": "Les recherches portent sur : la réduction des coûts de l'électrolyse, les électrolyseurs à haute efficacité, le transport (ammoniac, LOHC), et le stockage (cavités salines). L'efficacité de la chaîne complète (power-to-X-to-power) est un enjeu (30-40% pour l'électricité, 70-80% pour la chaleur/industrie).",
+        "enjeuxActuels": "La production actuelle d'hydrogène vert est <1% du total. Les stratégies nationales (UE : 10 Mt en 2030) accélèrent. Les défis : coût encore élevé (4-6€/kg vs 1-2€ gris), infrastructure (pipelines, stations), et disponibilité d'électricité verte. Les usages prioritaires : industrie, transport lourd (pas les voitures).",
+        "perspectives": "L'AIE prévoit 70 Mt/an d'hydrogène bas-carbone en 2030. L'avenir passe par : la massification (GW électrolyseurs), les corridors d'import (Afrique, Moyen-Orient), et les usages ciblés. L'hydrogène vert sera essentiel pour les 20-30% d'émissions non électrifiables."
+      },
+      "sources": [
+        {"titre": "Global Hydrogen Review", "auteur": "AIE", "url": "https://www.iea.org/reports/global-hydrogen-review-2023", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Hydrogen Strategy for a Climate-Neutral Europe", "auteur": "Commission Européenne", "annee": 2020, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["électrolyse", "PEM", "pile à combustible", "power-to-X", "ammoniac"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Production mondiale H2 : 95 Mt/an dont <1% vert", "source": "AIE", "annee": 2023},
+        {"valeur": "Objectif UE : 10 Mt H2 vert en 2030", "source": "Commission Européenne", "annee": 2020}
+      ],
+      "relations": [
+        {"cible": "transition-energetique", "type": "contribue_a", "score": 90},
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 85}
+      ],
+      "exemples": ["Électrolyseur NEOM (Arabie, 2,2 GW)", "HyDeal Ambition (40 GW)", "Acier vert H2 (SSAB)"],
+      "synonymes": ["green hydrogen", "hydrogène renouvelable"]
+    },
+    {
+      "id": "batterie-lithium",
+      "terme": "Batteries lithium-ion",
+      "categorie": "technologies-vertes",
+      "resume": "Technologie de stockage électrochimique dominante pour véhicules électriques et stockage stationnaire. Coût en chute rapide.",
+      "definition": "Les batteries lithium-ion (Li-ion) sont des accumulateurs électrochimiques utilisant le lithium comme vecteur d'ions entre anode (graphite) et cathode (oxydes métalliques). Dominantes pour l'électronique, les véhicules électriques et le stockage stationnaire, elles offrent haute densité énergétique (250-300 Wh/kg), longue durée de vie (2 000+ cycles), et coût en baisse constante (-90% depuis 2010). Les chimies principales sont NMC, LFP, et NCA.",
+      "definitionEtendue": {
+        "introduction": "Le concept Li-ion est développé dans les années 1970-80 (Whittingham, Goodenough, Yoshino - Nobel 2019). La commercialisation par Sony (1991) révolutionne l'électronique portable. L'essor des véhicules électriques (2010s) accélère la production. La Chine domine 75% de la production mondiale (CATL, BYD).",
+        "mecanismes": "Les ions lithium migrent entre cathode (LiCoO2, NMC, LFP) et anode (graphite, silicium) à travers un électrolyte. La densité dépend de la chimie cathode. NMC (nickel-manganèse-cobalt) offre haute énergie, LFP (fer-phosphate) offre sécurité et durée de vie. Les batteries solides (solid-state) promettent des gains majeurs.",
+        "contexteScientifique": "La recherche vise : les batteries solides (densité x2, sécurité), les anodes silicium, les cathodes sans cobalt, et le recyclage. La durée de vie dépasse 15 ans pour le stationnaire. Le recyclage (hydrométallurgie, pyrométallurgie) permet de récupérer 95% des métaux.",
+        "enjeuxActuels": "La production explose (2 TWh en 2030). Les défis : approvisionnement en lithium, cobalt, nickel (géopolitique), recyclage à industrialiser, et impact extraction (eau, terres). L'Europe construit des gigafactories (Northvolt, ACC). Le LFP gagne des parts de marché (Tesla).",
+        "perspectives": "L'avenir passe par : les batteries solides (2027-2030), le sodium-ion (ressources abondantes), le recyclage massif, et la seconde vie (véhicule → stationnaire). Le stockage par batteries sera essentiel pour intégrer les renouvelables variables."
+      },
+      "sources": [
+        {"titre": "Global EV Outlook", "auteur": "AIE", "url": "https://www.iea.org/reports/global-ev-outlook-2023", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Battery Pack Prices", "auteur": "BloombergNEF", "url": "https://about.bnef.com/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["Li-ion", "NMC", "LFP", "solid-state", "densité énergétique"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Coût : 139$/kWh (2023) vs 1 200$ (2010)", "source": "BloombergNEF", "annee": 2023},
+        {"valeur": "Production : 700 GWh (2022), 2 TWh prévu (2030)", "source": "AIE", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "vehicule-electrique", "type": "compose_de", "score": 95},
+        {"cible": "transition-energetique", "type": "contribue_a", "score": 85}
+      ],
+      "exemples": ["Tesla 4680", "BYD Blade (LFP)", "Gigafactory Northvolt (Suède)"],
+      "synonymes": ["Li-ion batteries", "accumulateurs lithium"]
+    },
+    {
+      "id": "vehicule-electrique",
+      "terme": "Véhicule électrique",
+      "categorie": "technologies-vertes",
+      "resume": "Véhicule propulsé par un ou plusieurs moteurs électriques alimentés par batterie. Part de marché en croissance exponentielle.",
+      "definition": "Un véhicule électrique (VE) est un véhicule propulsé par un ou plusieurs moteurs électriques, alimenté par une batterie rechargeable (BEV) ou une pile à combustible hydrogène (FCEV). Les VE offrent zéro émission à l'usage, efficacité énergétique supérieure (80-90% vs 20-30% thermique), et coûts d'usage réduits. En 2023, les VE représentent 18% des ventes mondiales de voitures neuves, avec une croissance de 35%/an.",
+      "definitionEtendue": {
+        "introduction": "Les premiers VE datent du XIXe siècle, dominants jusqu'aux années 1910 avant l'essor du pétrole. La renaissance moderne commence avec la Tesla Roadster (2008) et la Nissan Leaf (2010). La Chine domine le marché (60% des ventes). Les constructeurs traditionnels pivotent vers l'électrique sous pression réglementaire.",
+        "mecanismes": "Le VE batterie (BEV) stocke l'énergie dans une batterie Li-ion rechargée sur le réseau. Le moteur électrique offre couple instantané et récupération au freinage. L'autonomie varie de 200 à 700 km selon la batterie. La recharge peut être lente (domicile, 7-22 kW), rapide (50-150 kW), ou ultra-rapide (350 kW).",
+        "contexteScientifique": "Les recherches portent sur : l'autonomie (batteries solides), la recharge ultra-rapide, la durée de vie batterie, et l'analyse du cycle de vie. Le bilan carbone dépend du mix électrique : favorable en France (nucléaire), moins en Pologne (charbon). La parité de coût avec le thermique est atteinte dans plusieurs segments.",
+        "enjeuxActuels": "Les défis : infrastructure de recharge (densification), autonomie en conditions réelles, prix d'achat (en baisse), et ressources (lithium, cobalt). L'UE interdit les ventes de thermiques neufs en 2035. Les VE transforment l'industrie automobile (emplois, sous-traitants).",
+        "perspectives": "L'AIE prévoit 45% des ventes mondiales en 2030 et quasi-totalité en 2040. L'avenir passe par : les batteries solides, la recharge bidirectionnelle (V2G), et l'électrification des camions et bus. Le VE est le pilier de la décarbonation des transports."
+      },
+      "sources": [
+        {"titre": "Global EV Outlook 2023", "auteur": "AIE", "url": "https://www.iea.org/reports/global-ev-outlook-2023", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Transport & Environment - EV Sales", "url": "https://www.transportenvironment.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["BEV", "FCEV", "autonomie", "recharge rapide", "V2G"],
+      "indicateursQuantitatifs": [
+        {"valeur": "18% des ventes mondiales voitures (2023)", "source": "AIE", "annee": 2023},
+        {"valeur": "35 millions VE en circulation (2023)", "source": "AIE", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "batterie-lithium", "type": "utilise", "score": 95},
+        {"cible": "mobilite-douce", "type": "proche_de", "score": 70}
+      ],
+      "exemples": ["Tesla Model 3/Y", "BYD Seal", "Renault Mégane E-Tech"],
+      "synonymes": ["EV", "electric vehicle", "voiture électrique"]
+    },
+    {
+      "id": "captage-carbone",
+      "terme": "Captage et stockage du CO2 (CSC)",
+      "categorie": "technologies-vertes",
+      "resume": "Technologies de capture du CO2 à la source ou dans l'air, suivie de stockage géologique permanent. Controversé mais nécessaire selon le GIEC.",
+      "definition": "Le captage et stockage du carbone (CSC ou CCS) désigne l'ensemble des technologies visant à capturer le CO2 à la source (industrie, centrales) ou directement dans l'atmosphère (DAC), puis à le transporter et le stocker de manière permanente dans des formations géologiques (aquifères salins, gisements épuisés). Selon le GIEC, le CSC est nécessaire pour atteindre la neutralité carbone, en particulier pour les émissions industrielles non évitables.",
+      "definitionEtendue": {
+        "introduction": "Le concept de CSC est développé dans les années 1990. Le premier projet commercial (Sleipner, Norvège) opère depuis 1996. La capacité mondiale reste faible (45 Mt/an en 2023) malgré les objectifs. Le captage atmosphérique (DAC) émerge depuis 2010 (Climeworks, Carbon Engineering). Les scénarios GIEC 1,5°C incluent 5-15 Gt CO2/an de CSC en 2050.",
+        "mecanismes": "Le captage peut être : post-combustion (absorption amine), pré-combustion (gazéification), oxy-combustion, ou atmosphérique (DAC par absorption/adsorption). Le transport se fait par pipeline ou navire. Le stockage utilise des formations géologiques profondes (>800m) où le CO2 se minéralise progressivement. La surveillance à long terme est requise.",
+        "contexteScientifique": "Les recherches portent sur : la réduction des coûts de captage (50% visés), les nouveaux solvants/sorbants, le stockage minéral (basaltes), et la certification. Le DAC coûte 300-600$/tCO2 (2023), le captage industriel 50-100$/tCO2. L'efficacité énergétique reste un défi (pénalité de 10-30%).",
+        "enjeuxActuels": "Le déploiement est lent : 45 Mt/an vs 5 000 Mt/an nécessaires. Les controverses portent sur : prolongement des fossiles (argument pétrolier), coût élevé, et risque de fuite. Les incitations se renforcent (45Q aux USA, Innovation Fund UE). Les hubs industriels CSC se développent (Rotterdam, Houston).",
+        "perspectives": "L'AIE prévoit 1 Gt/an de CSC en 2030, 5-10 Gt/an en 2050. L'avenir passe par : l'industrialisation du DAC, le CSC sur cimenteries et acier, et la BECCS (bioénergie + CSC pour émissions négatives). Le CSC sera nécessaire mais ne doit pas retarder la réduction à la source."
+      },
+      "sources": [
+        {"titre": "Special Report on CCS", "auteur": "GIEC", "url": "https://www.ipcc.ch/", "annee": 2005, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "CCUS Projects Database", "auteur": "AIE", "url": "https://www.iea.org/data-and-statistics/data-tools/ccus-projects-explorer", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["CCS", "DAC", "stockage géologique", "post-combustion", "BECCS"],
+      "indicateursQuantitatifs": [
+        {"valeur": "45 Mt CO2/an capturés (2023)", "source": "AIE", "annee": 2023},
+        {"valeur": "Objectif : 1 Gt/an en 2030", "source": "AIE", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 85},
+        {"cible": "changement-climatique", "type": "oppose_a", "score": 80}
+      ],
+      "exemples": ["Sleipner (Norvège)", "Orca DAC (Islande)", "Northern Lights (hub norvégien)"],
+      "synonymes": ["CCS", "CCUS", "carbon capture and storage"]
+    },
+    {
+      "id": "pompe-chaleur",
+      "terme": "Pompe à chaleur",
+      "categorie": "technologies-vertes",
+      "resume": "Système thermodynamique transférant la chaleur de l'extérieur vers l'intérieur (ou inversement). 3-4x plus efficace que le chauffage électrique direct.",
+      "definition": "Une pompe à chaleur (PAC) est un système thermodynamique qui transfère la chaleur d'un milieu froid (air, eau, sol) vers un milieu chaud, en utilisant un compresseur électrique et un fluide frigorigène. Elle fournit 3 à 5 kWh de chaleur pour 1 kWh d'électricité consommé (COP 3-5). Les PAC sont considérées comme la technologie clé pour décarboner le chauffage des bâtiments, remplaçant les chaudières au gaz et au fioul.",
+      "definitionEtendue": {
+        "introduction": "Le principe thermodynamique est connu depuis Carnot (1824). Les premières PAC commerciales datent des années 1940. Le développement s'accélère avec les chocs pétroliers puis les politiques climatiques. Les ventes explosent en Europe (+40% en 2022). L'AIE identifie les PAC comme technologie essentielle de la transition.",
+        "mecanismes": "Le cycle thermodynamique compresse un fluide frigorigène qui absorbe la chaleur à basse pression (évaporateur) et la libère à haute pression (condenseur). Les types principaux sont : air-air, air-eau, eau-eau, et géothermique. Les PAC réversibles assurent aussi la climatisation. L'efficacité dépend de la différence de température (COP diminue par grand froid).",
+        "contexteScientifique": "Les recherches portent sur : les fluides frigorigènes à faible GWP (propane, CO2), les PAC haute température (industrie), et l'optimisation par IA. Les PAC géothermiques offrent le meilleur COP mais coûtent plus cher. La combinaison PAC + solaire thermique optimise le rendement annuel.",
+        "enjeuxActuels": "Les ventes mondiales atteignent 3 millions/an en Europe (2022). Les défis : coût d'installation, formation des installateurs, réseau électrique (pics d'appel), et bruit (unités extérieures). Les aides publiques accélèrent l'adoption (MaPrimeRénov' en France). L'interdiction des chaudières gaz en neuf se généralise.",
+        "perspectives": "L'AIE prévoit 600 millions de PAC en 2030 (vs 190 M en 2022). L'avenir passe par : la massification, les PAC hybrides (appoint gaz pour grand froid), les fluides naturels, et l'intégration aux réseaux intelligents. Les PAC chauffent déjà 10% des bâtiments mondiaux."
+      },
+      "sources": [
+        {"titre": "The Future of Heat Pumps", "auteur": "AIE", "url": "https://www.iea.org/reports/the-future-of-heat-pumps", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Heat Pump Market Report", "auteur": "EHPA", "url": "https://www.ehpa.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["COP", "fluide frigorigène", "géothermie", "air-eau", "thermodynamique"],
+      "indicateursQuantitatifs": [
+        {"valeur": "3 millions PAC vendues en Europe (2022)", "source": "EHPA", "annee": 2022},
+        {"valeur": "COP moyen : 3-4 (3-4 kWh chaleur/kWh élec)", "source": "ADEME", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "efficacite-energetique", "type": "contribue_a", "score": 90},
+        {"cible": "transition-energetique", "type": "contribue_a", "score": 85}
+      ],
+      "exemples": ["PAC air-eau résidentielle", "Géothermie sur nappe", "PAC industrielle haute température"],
+      "synonymes": ["heat pump", "PAC", "thermopompe"]
+    },
+    {
+      "id": "smart-grid",
+      "terme": "Réseau électrique intelligent (Smart Grid)",
+      "categorie": "technologies-vertes",
+      "resume": "Réseau électrique utilisant les technologies numériques pour optimiser production, distribution et consommation. Essentiel pour intégrer les renouvelables.",
+      "definition": "Un smart grid (réseau intelligent) est un réseau électrique utilisant les technologies numériques (capteurs, communication, IA) pour optimiser en temps réel la production, le transport, la distribution et la consommation d'électricité. Il permet d'intégrer massivement les énergies renouvelables variables, de gérer la demande (effacement), et d'accueillir de nouveaux usages (véhicules électriques, autoconsommation). Les compteurs intelligents (Linky) en sont une composante.",
+      "definitionEtendue": {
+        "introduction": "Le concept émerge dans les années 2000 face aux défis des réseaux vieillissants et des renouvelables. Les premiers déploiements massifs de compteurs intelligents datent des années 2010 (Italie, puis Europe). L'essor des renouvelables, du stockage et des VE rend les smart grids indispensables. L'UE vise 80% de compteurs intelligents.",
+        "mecanismes": "Les smart grids intègrent : compteurs intelligents (AMI), capteurs sur le réseau, systèmes de gestion (SCADA, DMS), flexibilité de la demande (demand response), stockage distribué, et autoconsommation. L'IA optimise l'équilibrage offre-demande. Le véhicule-to-grid (V2G) transforme les VE en stockage mobile.",
+        "contexteScientifique": "Les recherches portent sur : les algorithmes de prévision (production renouvelable, consommation), la cybersécurité, les marchés locaux d'énergie (blockchain), et l'agrégation des flexibilités. L'internet de l'énergie (Energy Internet) est le concept émergent de réseaux pair-à-pair.",
+        "enjeuxActuels": "Les smart grids sont en déploiement (85% des foyers français équipés Linky). Les défis : cybersécurité, protection des données, investissements réseau, et modèles économiques de la flexibilité. Les communautés d'énergie et l'autoconsommation collective se développent.",
+        "perspectives": "L'avenir passe par : l'IA prédictive généralisée, les réseaux locaux autonomes (microgrids), le V2G massif, et les marchés de flexibilité. Les smart grids sont le système nerveux de la transition énergétique, permettant d'atteindre 70-80% de renouvelables."
+      },
+      "sources": [
+        {"titre": "Smart Grids Innovation Challenge", "auteur": "AIE", "url": "https://www.iea.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Smart Grid Roadmap", "auteur": "Commission Européenne", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["demand response", "V2G", "AMI", "flexibilité", "microgrid"],
+      "indicateursQuantitatifs": [
+        {"valeur": "85% des foyers français équipés Linky", "source": "Enedis", "annee": 2023},
+        {"valeur": "Investissement UE smart grids : 50 Mrd€ prévu (2020-2030)", "source": "Commission Européenne", "annee": 2020}
+      ],
+      "relations": [
+        {"cible": "transition-energetique", "type": "contribue_a", "score": 90},
+        {"cible": "energie-renouvelable", "type": "renvoie_a", "score": 85}
+      ],
+      "exemples": ["Linky (France)", "Smart Grid Gotland (Suède)", "Brooklyn Microgrid"],
+      "synonymes": ["réseau intelligent", "intelligent grid"]
+    },
+    {
+      "id": "agriculture-precision",
+      "terme": "Agriculture de précision",
+      "categorie": "technologies-vertes",
+      "resume": "Utilisation de technologies (GPS, drones, capteurs, IA) pour optimiser les pratiques agricoles au niveau de la parcelle ou de la plante.",
+      "definition": "L'agriculture de précision est une approche de gestion agricole utilisant les technologies numériques (GPS, capteurs, drones, satellites, IA) pour adapter les pratiques à la variabilité spatiale et temporelle des parcelles. Elle vise à optimiser les intrants (eau, engrais, pesticides) tout en maximisant les rendements, réduisant ainsi l'impact environnemental. La modulation intra-parcellaire permet d'appliquer la bonne dose au bon endroit et au bon moment.",
+      "definitionEtendue": {
+        "introduction": "L'agriculture de précision émerge dans les années 1990 avec le GPS civil. Les premiers systèmes de guidage automatique apparaissent en 2000. L'essor des drones (2010s), de l'IA et des images satellites démocratise l'approche. Aujourd'hui, 30-50% des grandes exploitations céréalières des pays développés utilisent des outils de précision.",
+        "mecanismes": "Les outils comprennent : cartographie des rendements (moissonneuse équipée), analyse de sol géolocalisée, imagerie satellite/drone (indices de végétation NDVI), stations météo connectées, capteurs de sol (humidité, azote), et robots de désherbage. L'IA analyse les données pour des recommandations (modulation azote, irrigation).",
+        "contexteScientifique": "Les recherches portent sur : les modèles prédictifs (rendement, maladies), les robots autonomes, la détection précoce du stress hydrique/azoté, et l'intégration des données (interopérabilité). Les gains d'intrants varient de 10 à 30% selon les contextes. La sobriété numérique est un enjeu (data centers, fabrication capteurs).",
+        "enjeuxActuels": "L'adoption progresse mais reste partielle. Les défis : coût des équipements, compétences numériques, interopérabilité des données, et adaptation à l'agriculture familiale. Les grandes coopératives et agro-industries investissent. L'accès aux données (GAFAM vs souveraineté) est un enjeu.",
+        "perspectives": "L'avenir passe par : la robotisation (désherbage, récolte), l'IA embarquée, les jumeaux numériques de parcelles, et l'accessibilité aux petites exploitations. L'agriculture de précision doit s'inscrire dans une transition agroécologique globale pour maximiser ses bénéfices environnementaux."
+      },
+      "sources": [
+        {"titre": "Precision Agriculture: An Overview", "auteur": "FAO", "url": "https://www.fao.org/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Precision Farming Market Report", "auteur": "MarketsandMarkets", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "moyen"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["GPS", "NDVI", "modulation", "drone agricole", "OAD"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Réduction intrants : 10-30%", "source": "INRAE", "annee": 2022},
+        {"valeur": "30-50% des grandes exploitations céréalières équipées", "source": "CEMA", "annee": 2022}
+      ],
+      "relations": [
+        {"cible": "agroecologie", "type": "proche_de", "score": 75},
+        {"cible": "sobriete", "type": "contribue_a", "score": 80}
+      ],
+      "exemples": ["Guidage RTK", "Drones de pulvérisation", "Cartes de modulation azote"],
+      "synonymes": ["precision farming", "agriculture numérique"]
+    },
+    {
+      "id": "biocarburant",
+      "terme": "Biocarburants",
+      "categorie": "technologies-vertes",
+      "resume": "Carburants liquides produits à partir de biomasse. Les biocarburants avancés (déchets, algues) limitent la concurrence avec l'alimentaire.",
+      "definition": "Les biocarburants sont des carburants liquides ou gazeux produits à partir de matière organique (biomasse). Les biocarburants de première génération (bioéthanol de céréales, biodiesel de colza) sont critiqués pour leur concurrence avec l'alimentaire. Les biocarburants avancés (2G : déchets lignocellulosiques, 3G : algues) limitent ces impacts. Ils sont utilisés en mélange ou en substitution dans les transports, notamment aviation (SAF) et maritime.",
+      "definitionEtendue": {
+        "introduction": "Les biocarburants existent depuis les débuts de l'automobile (Ford Model T compatible éthanol). Le développement moderne débute avec les chocs pétroliers (Brésil : Pro-Álcool, 1975). L'essor européen date des années 2000 (directive RED). Les 2G et 3G émergent pour répondre aux critiques. L'aviation pousse les SAF (Sustainable Aviation Fuels).",
+        "mecanismes": "La 1G utilise les sucres/amidons (éthanol par fermentation) ou les huiles (biodiesel par transestérification). La 2G utilise la lignocellulose (bois, paille) par hydrolyse enzymatique ou gazéification. La 3G utilise les algues (lipides). Le biométhane issu de méthanisation est aussi un biocarburant (bioGNV). Les e-fuels (électro-carburants) combinent H2 vert et CO2 capté.",
+        "contexteScientifique": "Les recherches portent sur : le prétraitement de la biomasse, les enzymes plus efficaces, les micro-organismes optimisés, et les algues marines. Le bilan carbone dépend de l'analyse du cycle de vie (ACV) : le changement d'affectation des sols peut annuler les gains. Les critères de durabilité (RED II) encadrent la production.",
+        "enjeuxActuels": "Les biocarburants représentent 4% des carburants transport. Les défis : durabilité réelle (ILUC), coût des 2G/3G, concurrence des usages biomasse, et limites de production. L'aviation (SAF) et le maritime sont les principaux débouchés long terme. L'UE vise 14% de renouvelables transport en 2030 (dont biocarburants avancés).",
+        "perspectives": "L'avenir passe par : les SAF pour l'aviation (50% en 2050), les biocarburants marins, et les e-fuels. Les biocarburants 1G seront progressivement limités. Les biocarburants sont une solution de transition pour les secteurs non électrifiables, complémentaire à l'électrification."
+      },
+      "sources": [
+        {"titre": "Renewables 2023 - Biofuels", "auteur": "AIE", "url": "https://www.iea.org/energy-system/low-emission-fuels/biofuels", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Directive RED II", "auteur": "Union Européenne", "annee": 2018, "type": "loi", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["bioéthanol", "biodiesel", "SAF", "lignocellulose", "e-fuel"],
+      "indicateursQuantitatifs": [
+        {"valeur": "4% des carburants transport mondiaux", "source": "AIE", "annee": 2023},
+        {"valeur": "Objectif UE : 14% renouvelables transport en 2030", "source": "RED II", "annee": 2018}
+      ],
+      "relations": [
+        {"cible": "energie-renouvelable", "type": "est_type_de", "score": 85},
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 75}
+      ],
+      "exemples": ["Bioéthanol E85", "Biodiesel B30", "SAF Neste (kérosène durable)"],
+      "synonymes": ["biofuels", "agrocarburants"]
+    },
+    {
+      "id": "recyclage-avance",
+      "terme": "Recyclage avancé",
+      "categorie": "technologies-vertes",
+      "resume": "Technologies innovantes (chimique, enzymatique) permettant de recycler des matériaux difficiles comme les plastiques mélangés ou les textiles.",
+      "definition": "Le recyclage avancé désigne les technologies innovantes de recyclage permettant de traiter des matériaux non recyclables par les voies mécaniques traditionnelles : plastiques mélangés, multicouches, textiles synthétiques, composites. Il comprend le recyclage chimique (pyrolyse, solvolyse), le recyclage enzymatique (dépolymérisation biologique), et le recyclage moléculaire. Ces technologies visent à produire des matières premières de qualité vierge, permettant une économie véritablement circulaire.",
+      "definitionEtendue": {
+        "introduction": "Le recyclage mécanique traditionnel atteint ses limites : seulement 9% des plastiques mondiaux sont recyclés. Le recyclage chimique émerge dans les années 2010 avec des investissements majeurs. Les premiers procédés industriels (Plastic Energy, Carbios) opèrent depuis 2020. L'UE inclut le recyclage chimique dans les objectifs REP et emballages.",
+        "mecanismes": "La pyrolyse chauffe les plastiques sans oxygène pour produire une huile (feedstock) utilisable en pétrochimie. La solvolyse utilise des solvants pour dépolymériser. Le recyclage enzymatique (Carbios) utilise des enzymes pour décomposer le PET en monomères. Le recyclage moléculaire traite les textiles (polyester, coton). Chaque technologie a son périmètre de matériaux.",
+        "contexteScientifique": "Les recherches portent sur : l'efficacité énergétique des procédés, la qualité des outputs, les bilans environnementaux (ACV), et l'extension à de nouveaux matériaux. Les controverses existent : greenwashing si utilisé pour brûler plutôt que recycler, et bilan carbone parfois défavorable. Les critères de 'vrai' recyclage sont en débat.",
+        "enjeuxActuels": "Les capacités industrielles se développent (100+ projets annoncés). Les défis : scaling à grande échelle, coûts encore élevés, approvisionnement en déchets triés, et régulation (comptabilisation dans les taux de recyclage). Les pétroliers investissent (Total, Shell) : opportunité ou greenwashing?",
+        "perspectives": "L'avenir passe par : la complémentarité avec le recyclage mécanique, l'amélioration des bilans environnementaux, et l'intégration dans l'écoconception (design for recycling). Le recyclage avancé peut contribuer à une économie circulaire des plastiques mais ne remplace pas la réduction à la source."
+      },
+      "sources": [
+        {"titre": "Chemical Recycling of Plastics", "auteur": "OCDE", "url": "https://www.oecd.org/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Advanced Recycling Technologies", "auteur": "Ellen MacArthur Foundation", "url": "https://www.ellenmacarthurfoundation.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["pyrolyse", "solvolyse", "enzymatique", "dépolymérisation", "feedstock"],
+      "indicateursQuantitatifs": [
+        {"valeur": "9% des plastiques mondiaux recyclés (mécanique)", "source": "OCDE", "annee": 2022},
+        {"valeur": "100+ projets de recyclage chimique annoncés", "source": "ICIS", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "economie-circulaire", "type": "contribue_a", "score": 90},
+        {"cible": "pollution-plastique", "type": "oppose_a", "score": 80}
+      ],
+      "exemples": ["Carbios (recyclage enzymatique PET)", "Plastic Energy (pyrolyse)", "Eastman (méthanoyse)"],
+      "synonymes": ["recyclage chimique", "chemical recycling"]
+    },
+    {
+      "id": "impression-3d",
+      "terme": "Fabrication additive (Impression 3D)",
+      "categorie": "technologies-vertes",
+      "resume": "Fabrication par dépôt de couches successives. Potentiel environnemental via réduction des déchets et production localisée à la demande.",
+      "definition": "La fabrication additive (impression 3D) est un procédé de fabrication par ajout de matière couche par couche, par opposition aux procédés soustractifs (usinage). Elle permet de produire des pièces complexes à partir de fichiers numériques, avec moins de déchets matière et une production décentralisée. Les technologies incluent le dépôt de fil (FDM), la stéréolithographie (SLA), le frittage laser (SLS), et l'impression métal. Les applications vont du prototypage à la production série.",
+      "definitionEtendue": {
+        "introduction": "L'impression 3D est inventée dans les années 1980 (Chuck Hull, stéréolithographie, 1984). Elle reste confinée au prototypage jusqu'aux années 2010. L'expiration de brevets et la baisse des coûts démocratisent la technologie. L'industrie adopte progressivement pour des pièces de série (aérospatiale, médical). Le marché atteint 15 Mrd$ en 2023.",
+        "mecanismes": "Les technologies diffèrent par le matériau et le procédé : FDM (fil thermoplastique fondu), SLA/DLP (résine photopolymère), SLS (poudre polymère frittée au laser), DMLS/SLM (poudre métallique fondue au laser), et binder jetting. La conception optimise la topologie (allégement). Le post-traitement est souvent nécessaire.",
+        "contexteScientifique": "Les recherches portent sur : les nouveaux matériaux (composites, multi-matériaux), la vitesse d'impression, le contrôle qualité in-situ, et les grands formats. Les bilans environnementaux sont nuancés : moins de déchets matière mais consommation énergétique élevée et matériaux spécifiques. L'ACV dépend du contexte.",
+        "enjeuxActuels": "L'adoption industrielle s'accélère (aéro, médical, automobile). Les défis : vitesse de production (vs injection), coût des matériaux, qualité répétable, et compétences. Le potentiel de relocalisation et de production à la demande intéresse. Les pièces de rechange imprimées prolongent la durée de vie des équipements.",
+        "perspectives": "L'avenir passe par : la production série compétitive, les matériaux recyclés/biosourcés, l'impression multi-matériaux, et les réseaux de production décentralisés. La fabrication additive peut contribuer à l'économie circulaire (réparation, pièces personnalisées) si les matériaux sont durables."
+      },
+      "sources": [
+        {"titre": "Wohlers Report 2023", "auteur": "Wohlers Associates", "url": "https://wohlersassociates.com/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Additive Manufacturing: Environmental Implications", "auteur": "MIT", "annee": 2021, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["FDM", "SLA", "SLS", "topologie", "fabrication distribuée"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Marché mondial : 15 Mrd$ (2023)", "source": "Wohlers", "annee": 2023},
+        {"valeur": "Réduction déchets matière : jusqu'à 90%", "source": "MIT", "annee": 2021}
+      ],
+      "relations": [
+        {"cible": "economie-circulaire", "type": "contribue_a", "score": 75},
+        {"cible": "ecoconception", "type": "proche_de", "score": 80}
+      ],
+      "exemples": ["Pièces aéronautiques (GE, Airbus)", "Prothèses médicales", "Pièces de rechange auto"],
+      "synonymes": ["3D printing", "additive manufacturing"]
+    },
+    {
+      "id": "dessalement",
+      "terme": "Dessalement de l'eau de mer",
+      "categorie": "technologies-vertes",
+      "resume": "Procédés de conversion de l'eau de mer en eau douce. Solution controversée face au stress hydrique : efficace mais énergivore.",
+      "definition": "Le dessalement est l'ensemble des procédés permettant d'obtenir de l'eau douce à partir d'eau de mer ou d'eau saumâtre, en éliminant les sels dissous. Les technologies principales sont l'osmose inverse (membranes semi-perméables, 70% du marché) et la distillation thermique. Le dessalement produit 100+ millions de m³/jour dans le monde, principalement au Moyen-Orient. C'est une solution face au stress hydrique mais son impact énergétique et environnemental (saumure) reste débattu.",
+      "definitionEtendue": {
+        "introduction": "La distillation de l'eau de mer est connue depuis l'Antiquité. Le dessalement industriel débute au Moyen-Orient (1960s) avec la distillation thermique. L'osmose inverse émerge dans les années 1970 et domine depuis 2000 grâce à sa meilleure efficacité énergétique. La capacité mondiale a décuplé en 20 ans.",
+        "mecanismes": "L'osmose inverse force l'eau à travers une membrane semi-perméable sous haute pression (55-70 bar), retenant les sels. La distillation thermique (MSF, MED) évapore l'eau pour la condenser. Les prétraitements (filtration, chimie) protègent les membranes. La récupération d'énergie (échangeurs de pression) réduit la consommation de 3-4 kWh/m³.",
+        "contexteScientifique": "Les recherches portent sur : les membranes plus performantes (graphène, aquaporines), le couplage avec les renouvelables (solaire, éolien), la valorisation de la saumure (extraction de minéraux), et le dessalement basse pression. La consommation énergétique a chuté de 90% depuis les années 1970.",
+        "enjeuxActuels": "Le dessalement se développe face au stress hydrique croissant (Espagne, Californie, Afrique du Nord). Les défis : impact de la saumure (écosystèmes marins), consommation énergétique (bilan carbone), et coût (0,5-1,5$/m³). Le couplage avec le solaire (hors réseau) ouvre de nouvelles perspectives.",
+        "perspectives": "L'avenir passe par : le dessalement 100% renouvelable, la valorisation de la saumure (lithium, magnésium), les technologies basse énergie, et l'intégration dans la gestion de l'eau (complément, pas substitut). Le dessalement sera essentiel dans les régions arides mais doit s'inscrire dans une sobriété hydrique globale."
+      },
+      "sources": [
+        {"titre": "Desalination Industry Report", "auteur": "IDA/GWI", "url": "https://idadesal.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "World Water Development Report", "auteur": "UNESCO", "url": "https://www.unesco.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["osmose inverse", "saumure", "membrane", "distillation", "kWh/m³"],
+      "indicateursQuantitatifs": [
+        {"valeur": "100+ millions m³/jour de capacité mondiale", "source": "IDA", "annee": 2023},
+        {"valeur": "Consommation : 3-4 kWh/m³ (osmose inverse)", "source": "IDA", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "stress-hydrique", "type": "oppose_a", "score": 85},
+        {"cible": "energie-renouvelable", "type": "renvoie_a", "score": 75}
+      ],
+      "exemples": ["Usine de Ras Al Khair (Arabie, 1M m³/j)", "Dessalement solaire Masdar", "Usine Barcelone"],
+      "synonymes": ["desalination", "désalinisation"]
+    },
+    {
+      "id": "bioplastique",
+      "terme": "Bioplastiques",
+      "categorie": "technologies-vertes",
+      "resume": "Plastiques biosourcés (origine végétale) et/ou biodégradables. Alternative aux plastiques fossiles mais bilan environnemental nuancé.",
+      "definition": "Les bioplastiques sont des plastiques soit biosourcés (issus de biomasse : amidon, canne à sucre, cellulose) soit biodégradables (dégradation biologique) soit les deux. Ils représentent 1% de la production mondiale de plastiques. Les principales familles sont le PLA (amidon), le PHA (fermentation bactérienne), et les PE/PET biosourcés. Leur bilan environnemental dépend de la source de biomasse et des conditions de fin de vie.",
+      "definitionEtendue": {
+        "introduction": "Les premiers plastiques (XIXe siècle) étaient biosourcés (celluloïd). L'essor des plastiques pétrosourcés (1950s) les éclipse. Le renouveau des bioplastiques date des années 1990 (PLA de NatureWorks). Le marché croît de 10%/an mais reste marginal. Les grands groupes investissent (Braskem, Total Corbion).",
+        "mecanismes": "Les plastiques biosourcés utilisent des monomères d'origine végétale : PLA (acide lactique de l'amidon), bio-PE (éthanol de canne à sucre), bio-PET (MEG biosourcé). Les plastiques biodégradables (PLA, PHA, PBS) se dégradent en conditions de compostage industriel. Attention : biosourcé ≠ biodégradable et biodégradable ≠ compostable à domicile.",
+        "contexteScientifique": "Les recherches portent sur : les nouvelles sources (algues, déchets), les propriétés (chaleur, barrière), la biodégradation en milieu naturel, et les bilans ACV. Les controverses existent : concurrence alimentaire, changement d'affectation des sols, et greenwashing (allégations abusives). L'absence de filière de collecte limite l'intérêt.",
+        "enjeuxActuels": "Les bioplastiques représentent 1% du marché. Les défis : coût (20-50% plus cher), performance technique, filière de fin de vie (compostage industriel rare), et confusion consommateur. La directive SUP exclut les plastiques biodégradables des exemptions. L'intérêt porte sur les applications où le biodégradable a du sens (agriculture, emballage alimentaire).",
+        "perspectives": "L'avenir passe par : les sources 2G (déchets, algues), l'amélioration des propriétés, les filières de fin de vie adaptées, et les applications ciblées. Les bioplastiques peuvent contribuer à une économie circulaire mais ne sont pas une solution miracle : la réduction reste prioritaire."
+      },
+      "sources": [
+        {"titre": "Bioplastics Market Data", "auteur": "European Bioplastics", "url": "https://www.european-bioplastics.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Life cycle assessment of bioplastics", "auteur": "JRC", "url": "https://publications.jrc.ec.europa.eu/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["PLA", "PHA", "biosourcé", "biodégradable", "compostable"],
+      "indicateursQuantitatifs": [
+        {"valeur": "1% des plastiques mondiaux sont bioplastiques", "source": "European Bioplastics", "annee": 2023},
+        {"valeur": "Capacité : 2,2 Mt/an (2023), 6,3 Mt prévus (2028)", "source": "European Bioplastics", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "economie-circulaire", "type": "contribue_a", "score": 75},
+        {"cible": "pollution-plastique", "type": "oppose_a", "score": 70}
+      ],
+      "exemples": ["Bouteilles PLA", "Sacs compostables", "Bio-PE Braskem (canne à sucre)"],
+      "synonymes": ["biobased plastics", "plastiques biosourcés"]
+    },
+    {
+      "id": "stockage-energie",
+      "terme": "Stockage d'énergie",
+      "categorie": "technologies-vertes",
+      "resume": "Technologies permettant de stocker l'énergie pour une utilisation différée. Essentiel pour intégrer les renouvelables variables.",
+      "definition": "Le stockage d'énergie désigne l'ensemble des technologies permettant de conserver l'énergie produite pour une utilisation ultérieure. Il est essentiel pour intégrer les énergies renouvelables variables (solaire, éolien) et équilibrer offre et demande. Les technologies comprennent les batteries (Li-ion, flux), le pompage-turbinage (STEP), l'hydrogène, l'air comprimé (CAES), et le stockage thermique. Le coût des batteries a chuté de 90% en 10 ans.",
+      "definitionEtendue": {
+        "introduction": "Le pompage-turbinage existe depuis les années 1890. Les batteries Li-ion émergent pour le stockage stationnaire dans les années 2010 avec la baisse des coûts (Tesla Powerwall, 2015). Le stockage devient indispensable au-delà de 30-40% de renouvelables variables dans le mix. Les projets à grande échelle se multiplient.",
+        "mecanismes": "Le pompage-turbinage (95% du stockage mondial) utilise deux réservoirs et des turbines réversibles. Les batteries stockent l'électricité chimiquement (Li-ion, sodium-ion, flux). L'hydrogène vert stocke l'énergie sous forme chimique (power-to-gas). Le stockage thermique (sels fondus, béton) conserve la chaleur. Chaque technologie a sa durée et sa capacité.",
+        "contexteScientifique": "Les recherches portent sur : les batteries longue durée (>4h), les nouvelles chimies (sodium, fer-air), le stockage saisonnier (hydrogène), et l'optimisation des systèmes hybrides. Le coût du stockage batteries est tombé à 150$/kWh (2023). L'efficacité aller-retour varie de 40% (hydrogène) à 90% (batteries).",
+        "enjeuxActuels": "La capacité de stockage doit décupler d'ici 2030. Les défis : coût du stockage longue durée, ressources (lithium, cobalt), et déploiement des STEP (sites limités). Les marchés de flexibilité (capacité, ajustement) rémunèrent le stockage. La seconde vie des batteries VE augmente le parc stationnaire.",
+        "perspectives": "L'AIE prévoit 1 500 GW de stockage en 2030 (x6). L'avenir passe par : les batteries post-lithium, le stockage saisonnier (H2), les batteries à flux pour la durée, et l'intégration dans les réseaux. Le stockage est le complément indispensable des renouvelables pour un système 100% décarboné."
+      },
+      "sources": [
+        {"titre": "Energy Storage Outlook", "auteur": "BloombergNEF", "url": "https://about.bnef.com/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Grid-Scale Storage", "auteur": "AIE", "url": "https://www.iea.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["STEP", "batterie flux", "power-to-gas", "saisonnier", "flexibilité"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Coût batteries : -90% en 10 ans (150$/kWh)", "source": "BloombergNEF", "annee": 2023},
+        {"valeur": "STEP : 95% du stockage mondial (160 GW)", "source": "AIE", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "energie-renouvelable", "type": "renvoie_a", "score": 95},
+        {"cible": "smart-grid", "type": "contribue_a", "score": 90}
+      ],
+      "exemples": ["Hornsdale Power Reserve (Australie)", "STEP Grand'Maison (France)", "Moss Landing (730 MWh)"],
+      "synonymes": ["energy storage", "batteries stationnaires"]
+    },
+    {
+      "id": "nucleaire-nouvelle-generation",
+      "terme": "Nucléaire de nouvelle génération",
+      "categorie": "technologies-vertes",
+      "resume": "Réacteurs innovants (SMR, génération IV) promettant plus de sûreté, moins de déchets et de nouvelles applications. Horizon 2030+.",
+      "definition": "Le nucléaire de nouvelle génération désigne les réacteurs innovants allant au-delà des technologies actuelles (génération II-III) : les petits réacteurs modulaires (SMR, <300 MW) et les réacteurs de génération IV (sels fondus, surgénérateurs, haute température). Ces technologies promettent une sûreté renforcée (passive), une réduction des déchets (transmutation), et de nouvelles applications (chaleur industrielle, hydrogène). Les premiers SMR sont attendus autour de 2030.",
+      "definitionEtendue": {
+        "introduction": "Le nucléaire civil date des années 1950 (Shippingport, 1958). La génération III (EPR, AP1000) améliore la sûreté post-Tchernobyl et Fukushima. Les SMR émergent dans les années 2010 (NuScale, Rolls-Royce). La génération IV est en R&D depuis les années 2000 (Forum Gen IV). Le regain d'intérêt découle de la crise climatique et énergétique.",
+        "mecanismes": "Les SMR sont des réacteurs compacts (<300 MW), modulaires (fabriqués en usine), avec sûreté passive (refroidissement naturel). Les réacteurs Gen IV incluent : sels fondus (MSR), haute température (HTGR), refroidis au sodium (SFR), et à neutrons rapides (FNR). Certains peuvent utiliser le thorium ou brûler les déchets actuels.",
+        "contexteScientifique": "Les recherches portent sur : les combustibles innovants (TRISO, sels), la sûreté intrinsèque, le cycle du combustible fermé (recyclage), et la transmutation des actinides. Les défis : industrialisation, coûts (économies de série?), et acceptabilité. Le GIEC classe le nucléaire parmi les options bas-carbone.",
+        "enjeuxActuels": "30+ designs de SMR en développement dans le monde. Les premiers déploiements : Russie (KLT-40S flottant, 2020), Chine (HTR-PM, 2021). NuScale (USA) est certifié mais le projet Utah est annulé (2023, coûts). Les enjeux : compétitivité, chaîne d'approvisionnement, et positionnement dans le mix futur.",
+        "perspectives": "L'avenir passe par : les SMR pour des réseaux décentralisés et la cogénération, la Gen IV pour la transmutation des déchets, et la fusion (ITER, tokamaks compacts) à plus long terme. Le nucléaire de nouvelle génération peut compléter les renouvelables pour un mix décarboné, mais les délais et coûts restent incertains."
+      },
+      "sources": [
+        {"titre": "Nuclear Energy Technology Roadmap", "auteur": "AIE/NEA", "url": "https://www.oecd-nea.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "SMR Technology Development", "auteur": "AIEA", "url": "https://www.iaea.org/topics/small-modular-reactors", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["SMR", "génération IV", "sels fondus", "thorium", "sûreté passive"],
+      "indicateursQuantitatifs": [
+        {"valeur": "30+ designs SMR en développement mondial", "source": "AIEA", "annee": 2023},
+        {"valeur": "Premiers SMR commerciaux : horizon 2030", "source": "AIEA", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "transition-energetique", "type": "contribue_a", "score": 80},
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 80}
+      ],
+      "exemples": ["NuScale (USA)", "HTR-PM (Chine)", "Rolls-Royce SMR (UK)"],
+      "synonymes": ["SMR", "advanced nuclear", "Gen IV reactors"]
+    },
+    {
+      "id": "materiau-biosource",
+      "terme": "Matériaux biosourcés",
+      "categorie": "technologies-vertes",
+      "resume": "Matériaux issus de la biomasse (bois, chanvre, lin, paille) utilisés en construction et industrie. Stockent le carbone et réduisent les émissions.",
+      "definition": "Les matériaux biosourcés sont des matériaux issus de la biomasse végétale ou animale, utilisés dans la construction (bois, paille, chanvre, lin, liège) ou l'industrie. Ils stockent le carbone atmosphérique, réduisent les émissions liées à la fabrication (vs béton, acier), et sont souvent recyclables ou biodégradables. La construction bois et les isolants biosourcés connaissent un essor important face aux objectifs climatiques.",
+      "definitionEtendue": {
+        "introduction": "Les matériaux biosourcés sont les plus anciens (bois, terre, paille). La construction industrielle les a remplacés par le béton et l'acier au XXe siècle. Le renouveau date des années 2000 avec les préoccupations climatiques. Les réglementations (RE2020 en France) intègrent le carbone des matériaux, favorisant le biosourcé. Le bois retrouve une place en construction multi-étages.",
+        "mecanismes": "Les matériaux biosourcés stockent le carbone capté par photosynthèse durant la croissance des plantes. Le bois de construction stocke 1,8 tCO2 par m³. Les isolants (laine de bois, chanvre, ouate de cellulose) remplacent les laines minérales. Les composites biosourcés (lin, chanvre) entrent dans l'automobile et l'aérospatiale.",
+        "contexteScientifique": "Les recherches portent sur : les traitements pour la durabilité (feu, humidité), les composites hautes performances, les nouveaux végétaux (bambou, mycelium), et les bilans ACV. Le bois-béton et le bois-CLT permettent des immeubles de grande hauteur. L'agriculture fournit les co-produits (paille, chanvre).",
+        "enjeuxActuels": "Les matériaux biosourcés représentent 15-20% du marché isolation en France. Les défis : disponibilité de la ressource (forêts durables), coût (parfois supérieur), compétences (métiers du bois), et réglementation feu. Le plan national bois-construction vise 15% de bois dans le neuf. L'Europe développe des filières (chanvre, lin).",
+        "perspectives": "L'avenir passe par : la généralisation de la RE2020 à l'international, les bâtiments à énergie et carbone positifs, les nouveaux matériaux (mycelium, algues), et l'industrialisation des filières. Les matériaux biosourcés sont essentiels pour décarboner la construction, responsable de 40% des émissions."
+      },
+      "sources": [
+        {"titre": "Construire avec les matériaux biosourcés", "auteur": "ADEME", "url": "https://librairie.ademe.fr/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Wood in the Circular Economy", "auteur": "EEA", "url": "https://www.eea.europa.eu/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["CLT", "chanvre", "stockage carbone", "RE2020", "empreinte matériaux"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Bois : stocke 1,8 tCO2/m³", "source": "ADEME", "annee": 2022},
+        {"valeur": "15-20% du marché isolation France (biosourcé)", "source": "ADEME", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "economie-circulaire", "type": "contribue_a", "score": 85},
+        {"cible": "neutralite-carbone", "type": "contribue_a", "score": 85}
+      ],
+      "exemples": ["Tour Hyperion (Bordeaux, bois)", "Isolation chanvre", "Ossature bois"],
+      "synonymes": ["bio-based materials", "matériaux bio-sourcés"]
+    },
+    {
+      "id": "intelligence-artificielle-environnement",
+      "terme": "IA pour l'environnement",
+      "categorie": "technologies-vertes",
+      "resume": "Applications de l'intelligence artificielle pour la transition écologique : optimisation énergétique, surveillance, modélisation climatique.",
+      "definition": "L'IA pour l'environnement désigne l'application des techniques d'intelligence artificielle (machine learning, deep learning, computer vision) aux problématiques écologiques : optimisation des réseaux énergétiques, prévision de la production renouvelable, surveillance des écosystèmes (déforestation, braconnage), modélisation climatique, et optimisation des processus industriels. L'IA peut accélérer la transition mais son empreinte carbone (data centers, entraînement) doit être maîtrisée.",
+      "definitionEtendue": {
+        "introduction": "L'application de l'IA à l'environnement émerge dans les années 2010 avec les progrès du deep learning. Google DeepMind optimise les data centers (-40% refroidissement, 2016) et la prévision éolienne. Les projets se multiplient : surveillance de la déforestation (Global Forest Watch), reconnaissance d'espèces (iNaturalist), et modèles climatiques. Le rapport AI for Good (2019) cadre le potentiel.",
+        "mecanismes": "Les applications incluent : prévision de production renouvelable (réseaux de neurones), optimisation énergétique des bâtiments et industries, analyse d'images satellite (déforestation, pollution), reconnaissance acoustique (biodiversité), modèles climatiques haute résolution, et optimisation agricole. Les techniques vont du ML supervisé au reinforcement learning.",
+        "contexteScientifique": "Les recherches portent sur : les modèles de prévision météo/climat (GraphCast, GenCast), la détection d'anomalies (fuites méthane), les jumeaux numériques de la Terre, et l'IA frugale (efficience). Le paradoxe : l'IA consomme de l'énergie (entraînement GPT-3 : 500 tCO2) mais peut en économiser beaucoup plus si bien déployée.",
+        "enjeuxActuels": "L'IA est de plus en plus intégrée dans les outils de transition. Les défis : sobriété numérique (Green AI), accès aux données (satellites, capteurs), gouvernance, et risque d'effet rebond. Les géants tech investissent (Microsoft AI for Earth, Google Earth Engine). Les startups climat-IA se multiplient.",
+        "perspectives": "L'avenir passe par : l'IA embarquée (edge computing), les modèles climatiques haute résolution, l'optimisation temps réel des systèmes énergétiques, et la surveillance globale des engagements (MRV). L'IA peut accélérer significativement la transition si son empreinte est maîtrisée et son accès démocratisé."
+      },
+      "sources": [
+        {"titre": "AI for Climate: A Roadmap", "auteur": "WEF/Stanford", "url": "https://www.weforum.org/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Tackling Climate Change with Machine Learning", "auteur": "Rolnick et al.", "doi": "10.1145/3485128", "annee": 2022, "type": "article_peer_reviewed", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["machine learning", "computer vision", "prévision", "optimisation", "Green AI"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Google data centers : -40% énergie refroidissement (IA)", "source": "DeepMind", "annee": 2016},
+        {"valeur": "Prévision éolienne : +20% précision", "source": "DeepMind", "annee": 2019}
+      ],
+      "relations": [
+        {"cible": "smart-grid", "type": "contribue_a", "score": 90},
+        {"cible": "agriculture-precision", "type": "renvoie_a", "score": 85}
+      ],
+      "exemples": ["DeepMind (éolien, data centers)", "Global Forest Watch", "GraphCast (météo)"],
+      "synonymes": ["AI for climate", "Green AI applications"]
+    },
+    {
+      "id": "geothermie",
+      "terme": "Géothermie",
+      "categorie": "technologies-vertes",
+      "resume": "Exploitation de la chaleur interne de la Terre pour le chauffage ou la production d'électricité. Énergie renouvelable stable et pilotable.",
+      "definition": "La géothermie est l'exploitation de la chaleur naturelle de la Terre pour produire de la chaleur (basse température, <90°C) ou de l'électricité (haute température, >150°C). C'est une énergie renouvelable, disponible 24h/24, indépendante des conditions météorologiques. Elle représente 16 GW électriques et 107 GWth de chaleur directe dans le monde. La géothermie profonde et les systèmes géothermiques stimulés (EGS) étendent le potentiel géographique.",
+      "definitionEtendue": {
+        "introduction": "L'exploitation de la chaleur terrestre remonte à l'Antiquité (thermes). La première centrale géothermique date de 1904 (Larderello, Italie). Le développement s'accélère après les chocs pétroliers (années 1970-80). Les technologies EGS émergent depuis 2000 pour exploiter des roches chaudes sèches. L'Islande, les Philippines et le Kenya tirent une part majeure de leur électricité de la géothermie.",
+        "mecanismes": "La géothermie exploite le gradient thermique terrestre (30°C/km en moyenne). La basse température utilise des pompes à chaleur géothermiques (sondes). La moyenne température alimente des réseaux de chaleur. La haute température produit de l'électricité (turbines). Les EGS créent des réservoirs artificiels par fracturation hydraulique dans des roches chaudes.",
+        "contexteScientifique": "Les recherches portent sur : les EGS (améliorer le réservoir sans sismicité induite), la géothermie profonde (supercritique, >400°C), l'exploration (réduction des risques), et la cogénération. Le potentiel théorique est immense mais les coûts de forage limitent le déploiement. Les progrès de l'industrie pétrolière bénéficient à la géothermie.",
+        "enjeuxActuels": "La géothermie reste sous-exploitée (1% du potentiel). Les défis : coûts de forage et risque exploration, sismicité induite (EGS), et acceptabilité locale. Les aides au risque géologique se développent (France). La géothermie peut décarboner la chaleur industrielle et les réseaux urbains.",
+        "perspectives": "L'avenir passe par : la réduction des coûts de forage (techniques pétrolières), les EGS à grande échelle, la géothermie supercritique (Iceland Deep Drilling), et l'intégration dans les systèmes énergétiques. La géothermie peut fournir 3-5% de l'électricité et 5-10% de la chaleur mondiales."
+      },
+      "sources": [
+        {"titre": "Geothermal Energy Technology Roadmap", "auteur": "AIE", "url": "https://www.iea.org/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "World Geothermal Power Report", "auteur": "IGA", "url": "https://www.geothermal-energy.org/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+      ],
+      "niveauValidation": "vérifié",
+      "derniereMiseAJour": "2025-12-27",
+      "motsClésScientifiques": ["EGS", "gradient géothermique", "supercritique", "réseau de chaleur", "forage"],
+      "indicateursQuantitatifs": [
+        {"valeur": "16 GW électriques installés (monde)", "source": "IGA", "annee": 2023},
+        {"valeur": "107 GWth de chaleur directe", "source": "IGA", "annee": 2023}
+      ],
+      "relations": [
+        {"cible": "energie-renouvelable", "type": "est_type_de", "score": 95},
+        {"cible": "pompe-chaleur", "type": "renvoie_a", "score": 80}
+      ],
+      "exemples": ["Centrale Hellisheiði (Islande)", "Réseau chaleur Paris-Saclay", "EGS Soultz (France)"],
+      "synonymes": ["geothermal energy", "énergie géothermique"]
+    }
+  ]
+}
