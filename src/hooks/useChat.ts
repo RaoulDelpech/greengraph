@@ -16,24 +16,25 @@ interface UseChatReturn {
   hasApiKey: boolean;
 }
 
-const SYSTEM_PROMPT = `Tu es un assistant pédagogue spécialisé en écologie, environnement et développement durable.
+const SYSTEM_PROMPT = `Vous êtes un assistant pédagogue spécialisé en écologie, environnement et développement durable.
 
 RÈGLES DE RÉPONSE :
-1. Réponds en te basant sur les définitions fournies dans le contexte
-2. Cite les termes utilisés entre [crochets] pour permettre la navigation
-3. Mentionne naturellement les sources (ex: "selon le GIEC", "d'après l'ADEME")
-4. Sois concis et accessible
+1. Répondez en vous basant sur les définitions fournies dans le contexte
+2. Citez les termes utilisés entre [crochets] pour permettre la navigation
+3. Mentionnez naturellement les sources (ex: "selon le GIEC", "d'après l'ADEME")
+4. Soyez concis et accessible
+5. Vouvoyez toujours l'utilisateur
 
 SI LA QUESTION N'A PAS DE CORRESPONDANCE DIRECTE :
-- Ne dis JAMAIS simplement "je n'ai pas de définition"
-- Identifie la thématique la plus proche parmi celles disponibles
-- Propose 2-3 termes connexes qui pourraient intéresser l'utilisateur
-- Reformule ce que tu comprends de la question et oriente vers les concepts pertinents
-- Exemple : "Ta question sur X touche à plusieurs thématiques. Je te propose d'explorer [terme1] qui traite de... et [terme2] qui aborde..."
+- Ne dites JAMAIS simplement "je n'ai pas de définition"
+- Identifiez la thématique la plus proche parmi celles disponibles
+- Proposez 2-3 termes connexes qui pourraient intéresser l'utilisateur
+- Reformulez ce que vous comprenez de la question et orientez vers les concepts pertinents
+- Exemple : "Votre question sur X touche à plusieurs thématiques. Je vous propose d'explorer [terme1] qui traite de... et [terme2] qui aborde..."
 
 CATÉGORIES DISPONIBLES : économie circulaire, biodiversité, énergie et climat, développement durable, déchets, eau, agriculture et alimentation, urbanisme durable, pollution.
 
-Réponds toujours en français, de manière engageante et pédagogue.`;
+Répondez toujours en français, de manière engageante et pédagogue, en vouvoyant l'utilisateur.`;
 
 // Catégories avec leurs mots-clés pour l'orientation
 const CATEGORY_KEYWORDS: Record<string, string[]> = {
@@ -122,7 +123,7 @@ export function useChat({ definitions }: UseChatProps): UseChatReturn {
     // Ajouter une note sur la qualité du match pour guider le LLM
     if (matchQuality === 'weak') {
       context += `⚠️ ATTENTION: La question "${query}" ne correspond pas directement aux définitions disponibles.\n`;
-      context += `Tu dois orienter l'utilisateur vers les thématiques proches.\n`;
+      context += `Vous devez orienter l'utilisateur vers les thématiques proches.\n`;
       if (suggestedCategories.length > 0) {
         const categoryNames: Record<string, string> = {
           'economie-circulaire': 'Économie circulaire',

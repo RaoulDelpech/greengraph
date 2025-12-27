@@ -18,8 +18,8 @@
       },
       "sources": [
         {"titre": "Directive 2008/98/CE relative aux déchets", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32008L0098", "annee": 2008, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Loi n° 2020-105 relative à la lutte contre le gaspillage (AGEC)", "url": "https://www.legifrance.gouv.fr/", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Déchets - Chiffres clés", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {"titre": "Loi n° 2020-105 relative à la lutte contre le gaspillage (AGEC)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041553759", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "Déchets - Chiffres clés", "auteur": "ADEME", "url": "https://librairie.ademe.fr/dechets-economie-circulaire", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
@@ -52,7 +52,7 @@
       },
       "sources": [
         {"titre": "Directive 2008/98/CE relative aux déchets - Article 4", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2008, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Loi AGEC n° 2020-105", "url": "https://www.legifrance.gouv.fr/", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "Loi AGEC n° 2020-105", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041553759", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"},
         {"titre": "Plan national de prévention des déchets 2021-2027", "auteur": "MTE", "url": "https://www.ecologie.gouv.fr/", "annee": 2021, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
       "niveauValidation": "vérifié",
@@ -86,7 +86,7 @@
       },
       "sources": [
         {"titre": "Directive 2008/98/CE relative aux déchets", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2008, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Les filières de recyclage de déchets en France", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Les filières de recyclage de déchets en France", "auteur": "ADEME", "url": "https://librairie.ademe.fr/dechets-economie-circulaire", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
         {"titre": "Emballages ménagers : taux de recyclage", "auteur": "CITEO", "url": "https://www.citeo.com/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
       "niveauValidation": "vérifié",
@@ -119,7 +119,7 @@
         "perspectives": "Le compostage s'intègre dans une vision de 'ville fertile' : retour au sol de la matière organique urbaine, agriculture urbaine, jardins partagés. Les innovations incluent : composteurs électromécaniques (accélérés), lombricompostage (intérieur), et compostage en pied d'immeuble. Le concept de 'boucle courte' rapproche production de déchets et utilisation du compost. L'enjeu est de faire du biodéchet une ressource et de reconnecter les villes aux cycles naturels."
       },
       "sources": [
-        {"titre": "Compostage - Guide pratique", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Compostage - Guide pratique", "auteur": "ADEME", "url": "https://librairie.ademe.fr/dechets-economie-circulaire", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
         {"titre": "Norme NF U 44-051 Amendements organiques", "auteur": "AFNOR", "annee": 2006, "type": "norme_iso", "niveauPreuve": "elevé"}
       ],
       "niveauValidation": "vérifié",
@@ -152,7 +152,7 @@
         "perspectives": "L'avenir passe par : la pyrogazéification (déchets bois, résidus), l'hydrogène vert couplé à la méthanation (power-to-gas), et la micro-méthanisation à la ferme. Le biogaz contribue au stockage d'énergie renouvelable (flexibilité réseau). L'enjeu est de développer la filière sans concurrence avec l'alimentation et en maintenant la qualité agronomique des sols (retour du digestat)."
       },
       "sources": [
-        {"titre": "État des lieux de la méthanisation en France", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "État des lieux de la méthanisation en France", "auteur": "ADEME", "url": "https://librairie.ademe.fr/dechets-economie-circulaire", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
         {"titre": "Panorama du gaz renouvelable", "auteur": "GRDF", "url": "https://www.grdf.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
       "niveauValidation": "vérifié",
@@ -185,8 +185,8 @@
         "perspectives": "L'avenir passe par : la généralisation du compostage de proximité (individuel, partagé), l'optimisation de la collecte (fréquence, tarification incitative), et le développement des capacités de méthanisation. Le concept de 'bioéconomie' intègre les biodéchets comme ressource pour l'agriculture et l'énergie. L'objectif est de réduire de 50% le gaspillage alimentaire et de valoriser 100% des biodéchets non évités."
       },
       "sources": [
-        {"titre": "Loi AGEC n° 2020-105", "url": "https://www.legifrance.gouv.fr/", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Tri des biodéchets : guide pour les collectivités", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {"titre": "Loi AGEC n° 2020-105", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041553759", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "Tri des biodéchets : guide pour les collectivités", "auteur": "ADEME", "url": "https://librairie.ademe.fr/dechets-economie-circulaire", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",
@@ -252,7 +252,7 @@
       },
       "sources": [
         {"titre": "Directive 2008/98/CE - Article 8", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2008, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Bilan des filières REP", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Bilan des filières REP", "auteur": "ADEME", "url": "https://librairie.ademe.fr/dechets-economie-circulaire", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
         {"titre": "Loi AGEC - Titre III", "url": "https://www.legifrance.gouv.fr/", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"}
       ],
       "niveauValidation": "vérifié",
@@ -286,7 +286,7 @@
       },
       "sources": [
         {"titre": "Code de l'environnement - Article R541-8", "url": "https://www.legifrance.gouv.fr/", "annee": 2020, "type": "loi", "niveauPreuve": "elevé"},
-        {"titre": "Déchets dangereux en France", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
+        {"titre": "Déchets dangereux en France", "auteur": "ADEME", "url": "https://librairie.ademe.fr/dechets-economie-circulaire", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"},
         {"titre": "Règlement CLP 1272/2008", "auteur": "Union Européenne", "url": "https://eur-lex.europa.eu/", "annee": 2008, "type": "loi", "niveauPreuve": "elevé"}
       ],
       "niveauValidation": "vérifié",

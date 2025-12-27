@@ -84,7 +84,7 @@
       "sources": [
         {"titre": "ISO 14006:2020 - Lignes directrices pour l'écoconception", "auteur": "ISO", "annee": 2020, "type": "norme_iso", "niveauPreuve": "elevé"},
         {"titre": "Cradle to Cradle: Remaking the Way We Make Things", "auteur": "McDonough, W. & Braungart, M.", "annee": 2002, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
-        {"titre": "Écoconception des produits", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {"titre": "Écoconception des produits", "auteur": "ADEME", "url": "https://librairie.ademe.fr/economie-circulaire-et-dechets", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
@@ -117,7 +117,7 @@
       "sources": [
         {"titre": "ISO 14040:2006 - Principes et cadre de l'ACV", "auteur": "ISO", "annee": 2006, "type": "norme_iso", "niveauPreuve": "elevé"},
         {"titre": "Life Cycle Assessment: Theory and Practice", "auteur": "Hauschild, M.Z., Rosenbaum, R.K., Olsen, S.I.", "annee": 2018, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
-        {"titre": "Base IMPACTS®", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {"titre": "Base IMPACTS®", "auteur": "ADEME", "url": "https://base-impacts.ademe.fr/", "annee": 2023, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
@@ -129,7 +129,11 @@
         {"cible": "empreinte-carbone", "type": "proche_de", "score": 70}
       ],
       "exemples": ["Comparaison sac plastique vs sac coton", "Évaluation empreinte carbone smartphone"],
-      "synonymes": ["ACV", "LCA (Life Cycle Assessment)", "bilan environnemental"]
+      "synonymes": ["ACV", "LCA (Life Cycle Assessment)", "bilan environnemental"],
+      "indicateursQuantitatifs": [
+        {"valeur": "Base IMPACTS® : 2 500+ jeux de données environnementales", "source": "ADEME", "annee": 2023},
+        {"valeur": "16 catégories d'impact standardisées (PEF)", "source": "Commission Européenne", "annee": 2021}
+      ]
     },
     {
       "id": "symbiose-industrielle",
@@ -146,7 +150,7 @@
       "sources": [
         {"titre": "Industrial Symbiosis: Literature and Taxonomy", "auteur": "Chertow, M.R.", "doi": "10.1146/annurev.energy.25.1.313", "journal": "Annual Review of Energy and Environment", "annee": 2000, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
         {"titre": "Strategies for sustainable industrial development: The case of Kalundborg", "auteur": "Ehrenfeld, J. & Gertler, N.", "journal": "Journal of Industrial Ecology", "annee": 1997, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
-        {"titre": "Écologie Industrielle et Territoriale", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {"titre": "Écologie Industrielle et Territoriale", "auteur": "ADEME", "url": "https://librairie.ademe.fr/economie-circulaire-et-dechets", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",
@@ -160,7 +164,8 @@
       "exemples": ["Kalundborg (Danemark)", "Valorisation chaleur fatale pour serres", "Échange de sous-produits entre usines"],
       "synonymes": ["écologie industrielle territoriale", "synergies inter-entreprises"],
       "indicateursQuantitatifs": [
-        {"valeur": "200+ symbioses industrielles identifiées en France", "source": "ADEME", "annee": 2022}
+        {"valeur": "200+ symbioses industrielles identifiées en France", "source": "ADEME", "annee": 2022},
+        {"valeur": "Kalundborg : 30 synergies actives, 3M tonnes CO2 évitées/an", "source": "Kalundborg Symbiosis", "annee": 2023}
       ]
     },
     {
@@ -176,7 +181,7 @@
         "perspectives": "L'avenir passe par le 'design pour la longévité' (produits durables, modulaires, évolutifs), le 'product-as-a-service' (intérêt du fabricant à la durabilité), la transparence (passeport produit, durée de vie affichée), et la régulation (interdictions sectorielles, fiscalité sur le jetable). Les mouvements 'low-tech' et 'durable' portent une alternative culturelle."
       },
       "sources": [
-        {"titre": "Loi n° 2015-992 - Article L441-2 Code de la consommation", "url": "https://www.legifrance.gouv.fr/", "annee": 2015, "type": "loi", "niveauPreuve": "elevé"},
+        {"titre": "Loi n° 2015-992 - Article L441-2 Code de la consommation", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044566654", "annee": 2015, "type": "loi", "niveauPreuve": "elevé"},
         {"titre": "Made to Break: Technology and Obsolescence in America", "auteur": "Slade, G.", "annee": 2006, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
         {"titre": "L'obsolescence programmée : définition et enjeux", "auteur": "HOP", "url": "https://www.halteobsolescence.org/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "moyen"}
       ],
@@ -270,7 +275,7 @@
       "sources": [
         {"titre": "The Performance Economy", "auteur": "Stahel, W.R.", "annee": 2010, "type": "ouvrage_reference", "niveauPreuve": "elevé"},
         {"titre": "Product-service systems and sustainability", "auteur": "Mont, O.", "journal": "Journal of Cleaner Production", "annee": 2002, "type": "article_peer_reviewed", "niveauPreuve": "elevé"},
-        {"titre": "L'économie de fonctionnalité", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {"titre": "L'économie de fonctionnalité", "auteur": "ADEME", "url": "https://librairie.ademe.fr/economie-circulaire-et-dechets", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-24",

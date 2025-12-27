@@ -66,7 +66,8 @@
       ],
       "exemples": ["Écosystème forestier tempéré", "Récif corallien", "Zone humide"],
       "indicateursQuantitatifs": [
-        {"valeur": "Forêts : 80% de la biodiversité terrestre", "source": "FAO", "annee": 2020}
+        {"valeur": "Forêts : 80% de la biodiversité terrestre", "source": "FAO", "annee": 2020},
+        {"valeur": "Récifs coralliens : 25% des espèces marines sur 0,1% des océans", "source": "UNEP", "annee": 2021}
       ]
     },
     {
@@ -163,7 +164,8 @@
       ],
       "exemples": ["Lémurien (Madagascar)", "Koala (Australie)", "Arbre dragon (Canaries)"],
       "indicateursQuantitatifs": [
-        {"valeur": "36 hotspots : 2,5% des terres, 50% des plantes endémiques", "source": "Conservation International", "annee": 2021}
+        {"valeur": "36 hotspots : 2,5% des terres, 50% des plantes endémiques", "source": "Conservation International", "annee": 2021},
+        {"valeur": "Madagascar : 90% des espèces sont endémiques", "source": "WWF", "annee": 2020}
       ]
     },
     {

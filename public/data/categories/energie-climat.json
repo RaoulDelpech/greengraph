@@ -164,7 +164,7 @@
       "sources": [
         {"titre": "GHG Protocol Corporate Standard", "auteur": "WRI/WBCSD", "url": "https://ghgprotocol.org/", "annee": 2015, "type": "norme_iso", "niveauPreuve": "elevé"},
         {"titre": "ISO 14064:2018 - Gaz à effet de serre", "auteur": "ISO", "annee": 2018, "type": "norme_iso", "niveauPreuve": "elevé"},
-        {"titre": "Méthode Bilan Carbone", "auteur": "ADEME", "url": "https://www.ademe.fr/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
+        {"titre": "Méthode Bilan Carbone", "auteur": "ADEME", "url": "https://bilans-ges.ademe.fr/", "annee": 2022, "type": "rapport_institution", "niveauPreuve": "elevé"}
       ],
       "niveauValidation": "vérifié",
       "derniereMiseAJour": "2025-12-26",

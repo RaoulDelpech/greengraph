@@ -77,7 +77,7 @@ export function ChatPanel({ definitions, onDefinitionClick, onClose }: ChatPanel
       <div className="p-4 border-b border-gray-200 bg-gray-50 flex items-center justify-between">
         <div>
           <h2 className="text-lg font-bold text-gray-900">Assistant</h2>
-          <p className="text-xs text-gray-500">Pose une question sur l'écologie</p>
+          <p className="text-xs text-gray-500">Posez une question sur l'écologie</p>
         </div>
         <div className="flex items-center gap-2">
           <button
@@ -142,7 +142,7 @@ export function ChatPanel({ definitions, onDefinitionClick, onClose }: ChatPanel
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
         {messages.length === 0 && (
           <div className="text-center text-gray-500 py-8">
-            <p className="text-sm">Pose une question sur l'écologie, l'environnement ou l'économie circulaire.</p>
+            <p className="text-sm">Posez une question sur l'écologie, l'environnement ou l'économie circulaire.</p>
             <p className="text-xs mt-2">Les réponses sont basées sur les définitions de la taxonomie.</p>
           </div>
         )}
@@ -231,7 +231,7 @@ export function ChatPanel({ definitions, onDefinitionClick, onClose }: ChatPanel
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder={hasApiKey ? "Pose une question..." : "Configure d'abord ta clé API"}
+            placeholder={hasApiKey ? "Posez une question..." : "Configurez d'abord votre clé API"}
             disabled={!hasApiKey || isLoading}
             className="flex-1 px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
           />
