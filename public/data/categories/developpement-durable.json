@@ -146,10 +146,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Sustainable_Development_Goal_4-ar.png/960px-Sustainable_Development_Goal_4-ar.png",
-        "alt": "Développement durable",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Sustainable_Development_Goals.png/1024px-Sustainable_Development_Goals.png",
+        "alt": "Les 17 Objectifs de Développement Durable de l'ONU représentés en grille colorée",
+        "credit": "United Nations - Domaine public",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sustainable_Development_Goals.png",
+        "type": "logo",
+        "legende": "Le développement durable se décline en 17 ODD adoptés par l'ONU en 2015 pour l'Agenda 2030"
       }
     },
     {
@@ -248,10 +250,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/18/Corporate_social_responsibility_framework.jpg",
-        "alt": "Responsabilité sociétale des entreprises (RSE)",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Corporate_social_responsibility_framework.jpg/1024px-Corporate_social_responsibility_framework.jpg",
+        "alt": "Schéma des trois piliers de la RSE : économique, social et environnemental",
+        "credit": "Wikimedia Commons - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corporate_social_responsibility_framework.jpg",
+        "type": "schema",
+        "legende": "La RSE intègre les dimensions économique, sociale et environnementale dans la stratégie d'entreprise"
       }
     },
     {
@@ -446,10 +450,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/How_many_earths_2018_English.jpg/960px-How_many_earths_2018_English.jpg",
-        "alt": "Empreinte écologique",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/How_many_earths_2018_English.jpg/1024px-How_many_earths_2018_English.jpg",
+        "alt": "Infographie montrant combien de Terres seraient nécessaires si chaque pays consommait comme différentes nations",
+        "credit": "Global Footprint Network - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:How_many_earths_2018_English.jpg",
+        "type": "infographie",
+        "legende": "Si toute l'humanité vivait comme un Américain, il faudrait 5 Terres pour subvenir aux besoins"
       }
     },
     {
@@ -549,10 +555,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Planetary_Boundaries_-_Planetary_Health_Check_2025.png/805px-Planetary_Boundaries_-_Planetary_Health_Check_2025.png",
-        "alt": "Limites planétaires",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Planetary_Boundaries_-_Planetary_Health_Check_2025.png/1024px-Planetary_Boundaries_-_Planetary_Health_Check_2025.png",
+        "alt": "Diagramme des 9 limites planétaires montrant les seuils dépassés en rouge",
+        "credit": "Stockholm Resilience Centre - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Planetary_Boundaries_-_Planetary_Health_Check_2025.png",
+        "type": "schema",
+        "legende": "6 des 9 limites planétaires sont déjà franchies, menaçant la stabilité du système Terre"
       }
     },
     {
@@ -649,10 +657,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Green_sustainable_city_with_lots_of_public_transport_and_green_spaces.jpg/960px-Green_sustainable_city_with_lots_of_public_transport_and_green_spaces.jpg",
-        "alt": "Transition écologique",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Green_sustainable_city_with_lots_of_public_transport_and_green_spaces.jpg/1024px-Green_sustainable_city_with_lots_of_public_transport_and_green_spaces.jpg",
+        "alt": "Vision d'une ville durable avec transports en commun et espaces verts intégrés",
+        "credit": "Wikimedia Commons - CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green_sustainable_city_with_lots_of_public_transport_and_green_spaces.jpg",
+        "type": "illustration",
+        "legende": "La transition écologique implique de repenser nos villes, mobilités et modes de vie"
       }
     },
     {
@@ -852,10 +862,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Talavera%2CNuevaEcijajf9520_14.JPG/960px-Talavera%2CNuevaEcijajf9520_14.JPG",
-        "alt": "Économie sociale et solidaire (ESS)",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Co-op_City_workers_-_geograph.org.uk_-_496709.jpg/1024px-Co-op_City_workers_-_geograph.org.uk_-_496709.jpg",
+        "alt": "Travailleurs d'une coopérative - symbole de l'économie sociale et solidaire",
+        "credit": "Geograph - CC BY-SA 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Co-op_City_workers_-_geograph.org.uk_-_496709.jpg",
+        "type": "photo",
+        "legende": "L'ESS regroupe associations, coopératives et mutuelles : 10% de l'emploi en France"
       }
     },
     {
@@ -954,10 +966,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Simple_Life.jpg/960px-Simple_Life.jpg",
-        "alt": "Sobriété",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Velo_Toulouse_P1040808.jpg/1024px-Velo_Toulouse_P1040808.jpg",
+        "alt": "Vélos en libre-service - la mobilité douce comme exemple de sobriété",
+        "credit": "Wikimedia Commons - CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Velo_Toulouse_P1040808.jpg",
+        "type": "photo",
+        "legende": "La sobriété consiste à modérer sa consommation par des choix de vie (vélo, végétal, local...)"
       }
     },
     {
@@ -1055,10 +1069,12 @@
         }
       ],
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Pristine_Cliffs_%28198176875%29.jpeg/960px-Pristine_Cliffs_%28198176875%29.jpeg",
-        "alt": "Capital naturel",
-        "credit": "Wikimedia Commons",
-        "type": "photo"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Pristine_Cliffs_%28198176875%29.jpeg/1024px-Pristine_Cliffs_%28198176875%29.jpeg",
+        "alt": "Falaises et océan - le capital naturel fournit des services essentiels à l'humanité",
+        "credit": "Wikimedia Commons - CC BY 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pristine_Cliffs_(198176875).jpeg",
+        "type": "photo",
+        "legende": "50% du PIB mondial dépend des ressources et services fournis par la nature"
       }
     }
   ]
