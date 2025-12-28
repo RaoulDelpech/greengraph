@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import type { Definition, Categorie, RelationType, DefinitionDepth, Source, DefinitionImage } from '../../types';
 import { DefinitionDepthToggle } from './DefinitionDepthToggle';
+import { MiniGraph } from './MiniGraph';
 
 // Composant pour afficher l'image de définition
 function DefinitionImageDisplay({ image }: { image: DefinitionImage }) {
@@ -277,49 +278,14 @@ export function DefinitionPanel({
             </section>
           )}
 
-          {/* Relations - section importante */}
-          {relationsByType && Object.keys(relationsByType).length > 0 && (
+          {/* Mini-graphe des relations */}
+          {definition.relations && definition.relations.length > 0 && (
             <section>
-              <h3 className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-3 flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
-                </svg>
-                Concepts liés
-              </h3>
-              <div className="space-y-3">
-                {(Object.entries(relationsByType) as [RelationType, typeof definition.relations][]).map(
-                  ([type, relations]) => (
-                    <div key={type}>
-                      <p className="text-xs text-gray-500 mb-1.5 font-medium">
-                        {RELATION_LABELS[type]}
-                      </p>
-                      <div className="flex flex-wrap gap-1.5">
-                        {relations?.map((rel) => {
-                          const exists = allDefinitions.some((d) => d.id === rel.cible);
-                          return (
-                            <button
-                              key={rel.cible}
-                              onClick={() => exists && onNavigate(rel.cible)}
-                              disabled={!exists}
-                              className={`
-                                px-2.5 py-1 rounded-lg text-xs font-medium border
-                                transition-all duration-200
-                                ${RELATION_COLORS[type]}
-                                ${exists
-                                  ? 'hover:shadow-md hover:scale-105 cursor-pointer'
-                                  : 'opacity-40 cursor-not-allowed'
-                                }
-                              `}
-                            >
-                              {getDefinitionLabel(rel.cible)}
-                            </button>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  )
-                )}
-              </div>
+              <MiniGraph
+                definition={definition}
+                allDefinitions={allDefinitions}
+                onNavigate={onNavigate}
+              />
             </section>
           )}
 
